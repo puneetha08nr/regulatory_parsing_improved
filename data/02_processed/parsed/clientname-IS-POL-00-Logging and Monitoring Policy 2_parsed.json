@@ -1,0 +1,1377 @@
+{
+  "source_file": "data/01_raw/policies/clientname-IS-POL-00-Logging and Monitoring Policy 2.docx",
+  "method": "unstructured",
+  "elements": [
+    {
+      "type": "Header",
+      "text": "Classification: Internal",
+      "metadata": {
+        "category_depth": 0,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Logging and Monitoring Policy 2.docx",
+        "header_footer_type": "primary",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "Header",
+      "text": "Classification: Internal",
+      "metadata": {
+        "category_depth": 0,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Logging and Monitoring Policy 2.docx",
+        "header_footer_type": "first_page",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "Footer",
+      "text": "Document No: -ORG-IMS-POL-027 Page 2 of 10",
+      "metadata": {
+        "category_depth": 0,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Logging and Monitoring Policy 2.docx",
+        "header_footer_type": "primary",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "Table",
+      "text": "Document Information Document ID -ORG-IMS-POL-027 Document Title Logging and Monitoring Policy Prepared by Information Security Team Status Final Owner CISO Effective From 01-Jan-2023 Effective Till Until revoked Document Type Policy Document Classification Internal Distribution List staff, Contractors, Third Parties",
+      "metadata": {
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Logging and Monitoring Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "text_as_html": "<table><tr><td>Document Information</td><td>Document Information</td></tr><tr><td>Document ID</td><td>-ORG-IMS-POL-027</td></tr><tr><td>Document Title</td><td>Logging and Monitoring Policy</td></tr><tr><td>Prepared by</td><td>Information Security Team</td></tr><tr><td>Status</td><td>Final</td></tr><tr><td>Owner</td><td>CISO</td></tr><tr><td>Effective From</td><td>01-Jan-2023</td></tr><tr><td>Effective Till</td><td>Until revoked</td></tr><tr><td>Document Type</td><td>Policy</td></tr><tr><td>Document Classification</td><td>Internal</td></tr><tr><td>Distribution List</td><td>staff, Contractors, Third Parties</td></tr></table>",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "Table",
+      "text": "Document Release Dates Version Date Editor Brief/Comments 0.1 Release of the draft Policy. 0.2 Revised Draft.",
+      "metadata": {
+        "emphasized_text_contents": [
+          "Date",
+          "Editor",
+          "Brief/Comments"
+        ],
+        "emphasized_text_tags": [
+          "b",
+          "b",
+          "b"
+        ],
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Logging and Monitoring Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "text_as_html": "<table><tr><td>Document Release Dates</td><td>Document Release Dates</td><td>Document Release Dates</td><td>Document Release Dates</td></tr><tr><td>Version</td><td>Date</td><td>Editor</td><td>Brief/Comments</td></tr><tr><td>0.1</td><td/><td/><td>Release of the draft Policy.</td></tr><tr><td>0.2</td><td/><td/><td>Revised Draft.</td></tr></table>",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "Table",
+      "text": "Document Review Date Name Title/Designation Notes Review and Update.",
+      "metadata": {
+        "emphasized_text_contents": [
+          "Name",
+          "Title/Designation",
+          "Notes"
+        ],
+        "emphasized_text_tags": [
+          "b",
+          "b",
+          "b"
+        ],
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Logging and Monitoring Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "text_as_html": "<table><tr><td>Document Review</td><td>Document Review</td><td>Document Review</td><td>Document Review</td></tr><tr><td>Date</td><td>Name</td><td>Title/Designation</td><td>Notes</td></tr><tr><td/><td/><td/><td>Review and Update.</td></tr></table>",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "Table",
+      "text": "Approvals Name Title/Designation Signature",
+      "metadata": {
+        "emphasized_text_contents": [
+          "Approvals",
+          "Approvals",
+          "Approvals",
+          "Name",
+          "Title/Designation",
+          "Signature"
+        ],
+        "emphasized_text_tags": [
+          "b",
+          "b",
+          "b",
+          "b",
+          "b",
+          "b"
+        ],
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Logging and Monitoring Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "text_as_html": "<table><tr><td>Approvals</td><td>Approvals</td><td>Approvals</td></tr><tr><td>Name</td><td>Title/Designation</td><td>Signature</td></tr><tr><td/><td/><td/></tr></table>",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "INTRODUCTION",
+      "metadata": {
+        "category_depth": 0,
+        "emphasized_text_contents": [
+          "INTRODUCTION"
+        ],
+        "emphasized_text_tags": [
+          "b"
+        ],
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Logging and Monitoring Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "NarrativeText",
+      "text": "A regular monitoring program is key to managing risk in an organization.  Security monitoring occurs on both physical areas as well as logical components in different information system areas.  Information security monitoring confirms that appropriate mechanisms and controls are in place to secure systems and applications, that they are effective, and are not being bypassed in any way.",
+      "metadata": {
+        "category_depth": 0,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Logging and Monitoring Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "PURPOSE",
+      "metadata": {
+        "category_depth": 0,
+        "emphasized_text_contents": [
+          "PURPOSE"
+        ],
+        "emphasized_text_tags": [
+          "b"
+        ],
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Logging and Monitoring Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "NarrativeText",
+      "text": "The purpose of this  Logging and Monitoring Policy (\"Policy\") is to define a framework for proactively monitoring events in order to detect potential security incidents quickly and efficiently. ",
+      "metadata": {
+        "category_depth": 0,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Logging and Monitoring Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "SCOPE",
+      "metadata": {
+        "category_depth": 0,
+        "emphasized_text_contents": [
+          "SCOPE"
+        ],
+        "emphasized_text_tags": [
+          "b"
+        ],
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Logging and Monitoring Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "NarrativeText",
+      "text": "This Policy applies to all employees and third parties who access or manage information and information assets or use the organization's information and communications technology (ICT) systems.",
+      "metadata": {
+        "category_depth": 0,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Logging and Monitoring Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "NarrativeText",
+      "text": "\nAny exceptions on the applicability of this Policy should be formally requested through the 'Policy Exception Management procedure.’",
+      "metadata": {
+        "category_depth": 0,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Logging and Monitoring Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "POLICY STATEMENT",
+      "metadata": {
+        "category_depth": 0,
+        "emphasized_text_contents": [
+          "POLICY STATEMENT"
+        ],
+        "emphasized_text_tags": [
+          "b"
+        ],
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Logging and Monitoring Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "NarrativeText",
+      "text": " shall develop, implement, and maintain a Logging and Monitoring Policy to secure the confidentiality, integrity, availability, secrecy, and privacy of information and its underlying assets for day-to-day business operations.",
+      "metadata": {
+        "category_depth": 0,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Logging and Monitoring Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "POLICY DETAILS",
+      "metadata": {
+        "category_depth": 0,
+        "emphasized_text_contents": [
+          "POLICY DETAILS"
+        ],
+        "emphasized_text_tags": [
+          "b"
+        ],
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Logging and Monitoring Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Logging Requirements",
+      "metadata": {
+        "category_depth": 1,
+        "emphasized_text_contents": [
+          "Logging Requirements"
+        ],
+        "emphasized_text_tags": [
+          "b"
+        ],
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Logging and Monitoring Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "df76c12c9ad3e9d526c34f5f8844174b"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Logging requirements shall be determined based on scope, information to be captured in audit logs, frequency for review of audit log data, and applicable laws and regulations.",
+      "metadata": {
+        "category_depth": 2,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Logging and Monitoring Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "1d36e2b41ecd23ab1440fb279bcb41ca"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "High level log activities that the company would like to track shall be defined.",
+      "metadata": {
+        "category_depth": 2,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Logging and Monitoring Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "1d36e2b41ecd23ab1440fb279bcb41ca"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Potential log sources shall be identified for log monitoring based upon a risk assessment and their importance to the business.",
+      "metadata": {
+        "category_depth": 2,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Logging and Monitoring Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "1d36e2b41ecd23ab1440fb279bcb41ca"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "The critical log sources shall be configured and documented for log generation.",
+      "metadata": {
+        "category_depth": 2,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Logging and Monitoring Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "1d36e2b41ecd23ab1440fb279bcb41ca"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Logs generated for activities that affect the availability and security of the systems, shall be configured for monitoring.",
+      "metadata": {
+        "category_depth": 2,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Logging and Monitoring Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "1d36e2b41ecd23ab1440fb279bcb41ca"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Logging Parameters",
+      "metadata": {
+        "category_depth": 1,
+        "emphasized_text_contents": [
+          "Logging Parameters"
+        ],
+        "emphasized_text_tags": [
+          "b"
+        ],
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Logging and Monitoring Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "df76c12c9ad3e9d526c34f5f8844174b"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Logs shall capture the below details - at minimum:",
+      "metadata": {
+        "category_depth": 2,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Logging and Monitoring Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "e8b20cd4bbdbf684d8ba8fa9941fcb37"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "User IDs.",
+      "metadata": {
+        "category_depth": 3,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Logging and Monitoring Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "3573d164869aad29f66225bfcd0998a0"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Date and Time of the event.",
+      "metadata": {
+        "category_depth": 3,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Logging and Monitoring Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "3573d164869aad29f66225bfcd0998a0"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Details of the event.",
+      "metadata": {
+        "category_depth": 3,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Logging and Monitoring Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "3573d164869aad29f66225bfcd0998a0"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Details of the Asset and its location where possible.",
+      "metadata": {
+        "category_depth": 3,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Logging and Monitoring Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "3573d164869aad29f66225bfcd0998a0"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "For applications and  following log types shall be monitored - at minimum:",
+      "metadata": {
+        "category_depth": 2,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Logging and Monitoring Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "e8b20cd4bbdbf684d8ba8fa9941fcb37"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Security Logs.",
+      "metadata": {
+        "category_depth": 3,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Logging and Monitoring Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "298bafb63f41b2bef472a489a4d9b376"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Administrative and Operator Logs.",
+      "metadata": {
+        "category_depth": 3,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Logging and Monitoring Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "298bafb63f41b2bef472a489a4d9b376"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Fault Logs.",
+      "metadata": {
+        "category_depth": 3,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Logging and Monitoring Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "298bafb63f41b2bef472a489a4d9b376"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Backup logs.",
+      "metadata": {
+        "category_depth": 3,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Logging and Monitoring Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "298bafb63f41b2bef472a489a4d9b376"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Log Storage & Retention",
+      "metadata": {
+        "category_depth": 1,
+        "emphasized_text_contents": [
+          "Log Storage & Retention"
+        ],
+        "emphasized_text_tags": [
+          "b"
+        ],
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Logging and Monitoring Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "df76c12c9ad3e9d526c34f5f8844174b"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Logs shall be stored in centralized log storage separate from the operational environment in which actual events were generated.",
+      "metadata": {
+        "category_depth": 2,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Logging and Monitoring Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "a1e100004b1b3073573a483d5138f662"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Logs shall be configured in a way that does not affect system performance.",
+      "metadata": {
+        "category_depth": 2,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Logging and Monitoring Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "a1e100004b1b3073573a483d5138f662"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Logging level shall be sufficient to audit individual accountability, reconstruct events, detect intrusions, identify problems and demonstrate regulatory compliance, as may be necessary.",
+      "metadata": {
+        "category_depth": 2,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Logging and Monitoring Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "a1e100004b1b3073573a483d5138f662"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Logs shall be retained for a minimum period of 1 year, or as per the retention period defined by the business owner or in accordance with any legal & regulatory requirements.",
+      "metadata": {
+        "category_depth": 2,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Logging and Monitoring Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "a1e100004b1b3073573a483d5138f662"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Log Reporting",
+      "metadata": {
+        "category_depth": 1,
+        "emphasized_text_contents": [
+          "Log Reporting"
+        ],
+        "emphasized_text_tags": [
+          "b"
+        ],
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Logging and Monitoring Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "df76c12c9ad3e9d526c34f5f8844174b"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Log reporting shall be performed to summarize significant activity over a particular period of time or to record detailed information related to a particular event or series of events.",
+      "metadata": {
+        "category_depth": 2,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Logging and Monitoring Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "4828dd39c44eb4d4d6b755a12a0ff098"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "The reporting shall capture detail such as top 10 sources/targets, source countries, failed logins etc.",
+      "metadata": {
+        "category_depth": 2,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Logging and Monitoring Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "4828dd39c44eb4d4d6b755a12a0ff098"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Frequency of log reporting shall be determined based on the criticality of systems and audience.",
+      "metadata": {
+        "category_depth": 2,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Logging and Monitoring Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "4828dd39c44eb4d4d6b755a12a0ff098"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Log Protection and Access",
+      "metadata": {
+        "category_depth": 1,
+        "emphasized_text_contents": [
+          "Log Protection and Access"
+        ],
+        "emphasized_text_tags": [
+          "b"
+        ],
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Logging and Monitoring Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "df76c12c9ad3e9d526c34f5f8844174b"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Adequate security controls shall be taken into account throughout its lifecycle to protect its confidentiality, integrity and availability.",
+      "metadata": {
+        "category_depth": 2,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Logging and Monitoring Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "5bf102b5175636ef0a75f61f1e5387d7"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Access to the logs shall be strictly controlled. No user shall be granted permission to modify the logs in an unauthorized manner.",
+      "metadata": {
+        "category_depth": 2,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Logging and Monitoring Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "5bf102b5175636ef0a75f61f1e5387d7"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Log repository shall be hardened as per the applicable security baseline documents.",
+      "metadata": {
+        "category_depth": 2,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Logging and Monitoring Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "5bf102b5175636ef0a75f61f1e5387d7"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Log Monitoring, Analysis & Review",
+      "metadata": {
+        "category_depth": 1,
+        "emphasized_text_contents": [
+          "Log Monitoring, Analysis & Review"
+        ],
+        "emphasized_text_tags": [
+          "b"
+        ],
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Logging and Monitoring Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "df76c12c9ad3e9d526c34f5f8844174b"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Monitoring performed by third parties shall involve Non-Disclosure Agreements (NDA) and Service Level Agreements (SLA). The SLA shall include procedures for log reporting and escalation.",
+      "metadata": {
+        "category_depth": 2,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Logging and Monitoring Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "afb3f88474001ad14f537cc8d32e6a81"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Logs generated and stored shall be monitored in real time by a central log monitoring system.",
+      "metadata": {
+        "category_depth": 2,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Logging and Monitoring Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "afb3f88474001ad14f537cc8d32e6a81"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "The central log monitoring system shall be capable of centralization, sorting and parsing of the logs collected from different IT Systems to identify, contain and respond quickly to events/incidents in the network",
+      "metadata": {
+        "category_depth": 2,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Logging and Monitoring Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "afb3f88474001ad14f537cc8d32e6a81"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "A dedicated monitoring team operating under IT Section shall be assigned to centrally monitor the logs generated by all the IT systems.",
+      "metadata": {
+        "category_depth": 2,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Logging and Monitoring Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "afb3f88474001ad14f537cc8d32e6a81"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Logs shall not be analyzed by the same individual whose activities are being logged and monitored, to ensure segregation of duties.",
+      "metadata": {
+        "category_depth": 2,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Logging and Monitoring Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "afb3f88474001ad14f537cc8d32e6a81"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Corrective and preventive measures on reported incidents shall be taken.",
+      "metadata": {
+        "category_depth": 2,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Logging and Monitoring Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "afb3f88474001ad14f537cc8d32e6a81"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Logs shall be backed up on a regular basis, in accordance with the log storage and retention requirements.",
+      "metadata": {
+        "category_depth": 2,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Logging and Monitoring Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "afb3f88474001ad14f537cc8d32e6a81"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "The monitoring team shall, on a periodic basis, submit log analysis reports to the ISSC, Manager – IT Security, application owners and respective system administrators including trends on critical system or security events.",
+      "metadata": {
+        "category_depth": 2,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Logging and Monitoring Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "afb3f88474001ad14f537cc8d32e6a81"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Monitoring systems shall be kept current and regularly tested to ensure that desired events are  and the system performance is efficient, accurate and current.",
+      "metadata": {
+        "category_depth": 2,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Logging and Monitoring Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "afb3f88474001ad14f537cc8d32e6a81"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "If a monitoring system fails, an alert mechanism shall be available to alert the concerned monitoring team.",
+      "metadata": {
+        "category_depth": 2,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Logging and Monitoring Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "afb3f88474001ad14f537cc8d32e6a81"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Wherever possible, Intrusion Detection Systems (IDS), Network based Intrusion Detection System (NIDS) and Host-based IDS (HIDS) shall be deployed for effective monitoring of traffic.",
+      "metadata": {
+        "category_depth": 2,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Logging and Monitoring Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "afb3f88474001ad14f537cc8d32e6a81"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Monitoring team shall review and customize IDS alerts regularly to reduce false positives.",
+      "metadata": {
+        "category_depth": 2,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Logging and Monitoring Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "afb3f88474001ad14f537cc8d32e6a81"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Monitoring team shall ensure that the latest attack signatures are updated on the IDS systems. Wherever possible, the IDS systems shall be configured to automatically download new signatures from the vendor site.",
+      "metadata": {
+        "category_depth": 2,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Logging and Monitoring Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "afb3f88474001ad14f537cc8d32e6a81"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "The action that needs to be taken for critical alerts shall be identified and documented by the monitoring team in accordance with the Incident Management Procedure.",
+      "metadata": {
+        "category_depth": 2,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Logging and Monitoring Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "afb3f88474001ad14f537cc8d32e6a81"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Time Synchronization",
+      "metadata": {
+        "category_depth": 1,
+        "emphasized_text_contents": [
+          "Time Synchronization"
+        ],
+        "emphasized_text_tags": [
+          "b"
+        ],
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Logging and Monitoring Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "df76c12c9ad3e9d526c34f5f8844174b"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Clock time on all IT systems shall be synchronized with an agreed accurate time source.",
+      "metadata": {
+        "category_depth": 2,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Logging and Monitoring Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "a0a4d2a9d7877970b231308d953b2a5f"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "ROLES AND RESPONSIBILITIES",
+      "metadata": {
+        "category_depth": 0,
+        "emphasized_text_contents": [
+          "ROLES AND RESPONSIBILITIES"
+        ],
+        "emphasized_text_tags": [
+          "b"
+        ],
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Logging and Monitoring Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "Table",
+      "text": "",
+      "metadata": {
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Logging and Monitoring Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "text_as_html": "<table><tr><td/><td/></tr><tr><td/><td/></tr><tr><td/><td/></tr><tr><td/><td/></tr><tr><td/><td/></tr><tr><td/><td/></tr></table>",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "POLICY ENFORCEMENT AND EXCEPTIONS",
+      "metadata": {
+        "category_depth": 0,
+        "emphasized_text_contents": [
+          "POLICY ENFORCEMENT AND EX",
+          "CEPTION",
+          "S"
+        ],
+        "emphasized_text_tags": [
+          "b",
+          "b",
+          "b"
+        ],
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Logging and Monitoring Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "NarrativeText",
+      "text": "All Employees and 'Third Parties' are responsible for understanding and adhering to this Policy. Any violation of this Policy shall be reported to Policy Owner. In addition, violation of this Policy shall be subjected to disciplinary action by the 's Human Capital Department, considering the recommendation of IS Team and in accordance with other applicable policies, laws, and regulations.",
+      "metadata": {
+        "category_depth": 0,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Logging and Monitoring Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "NarrativeText",
+      "text": "Disciplinary action may range from a verbal warning to discontinuation of access to facility or services, or termination of employment/contract/agreement, and possible legal action. The actual action taken shall depend on factors such as the seriousness of the breach and the user's disciplinary record.",
+      "metadata": {
+        "category_depth": 0,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Logging and Monitoring Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "NarrativeText",
+      "text": "Any exceptions on the applicability of this Policy should be formally requested through the 'Policy Exception Management procedure.'",
+      "metadata": {
+        "category_depth": 0,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Logging and Monitoring Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "MONITORING AND REVIEW",
+      "metadata": {
+        "category_depth": 0,
+        "emphasized_text_contents": [
+          "MONITORING AND REVIEW"
+        ],
+        "emphasized_text_tags": [
+          "b"
+        ],
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Logging and Monitoring Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "NarrativeText",
+      "text": "This Policy is developed and owned by the  IS Team. It is reviewed by the CISO and approved by the CEO. ",
+      "metadata": {
+        "category_depth": 0,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Logging and Monitoring Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "NarrativeText",
+      "text": " IS Team shall initiate a review of this Policy annually or whenever a significant change occurs in the organization's operating environment.",
+      "metadata": {
+        "category_depth": 0,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Logging and Monitoring Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "NarrativeText",
+      "text": "Feedback, suggestions, or questions regarding the Policy shall be directed to the CISO at CISO@.net.",
+      "metadata": {
+        "category_depth": 0,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Logging and Monitoring Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "POLICY – UAE IA CONTROL MAPPING",
+      "metadata": {
+        "category_depth": 0,
+        "emphasized_text_contents": [
+          "POLICY – UAE IA CONTROL MAPPING"
+        ],
+        "emphasized_text_tags": [
+          "b"
+        ],
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Logging and Monitoring Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "Table",
+      "text": "Policy Sections UAE IA - Control ISO 27001:2022 Section 1 – Introduction Section 2 – Purpose Section 3 – Scope Section 4 – Policy Statement Section 5 – Policy Details Section 5.1 – Section 5.2 – Section 5.3 – Section 5.4 – Section 5.5 – Section 5.6 – Section 6 – Roles and Responsibilities Section 7 – Policy Enforcement and Exceptions Section 8 – Monitoring and Review",
+      "metadata": {
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Logging and Monitoring Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "text_as_html": "<table><tr><td>Policy Sections</td><td>UAE IA - Control</td><td>ISO 27001:2022</td></tr><tr><td>Section 1 – Introduction</td><td/><td/></tr><tr><td>Section 2 – Purpose</td><td/><td/></tr><tr><td>Section 3 – Scope</td><td/><td/></tr><tr><td>Section 4 – Policy Statement</td><td/><td/></tr><tr><td>Section 5 – Policy Details</td><td/><td/></tr><tr><td>Section 5.1 –</td><td/><td/></tr><tr><td>Section 5.2 –</td><td/><td/></tr><tr><td>Section 5.3 –</td><td/><td/></tr><tr><td>Section 5.4 –</td><td/><td/></tr><tr><td>Section 5.5 –</td><td/><td/></tr><tr><td>Section 5.6 –</td><td/><td/></tr><tr><td/><td/><td/></tr><tr><td>Section 6 – Roles and Responsibilities</td><td/><td/></tr><tr><td>Section 7 – Policy Enforcement and Exceptions</td><td/><td/></tr><tr><td>Section 8 – Monitoring and Review</td><td/><td/></tr></table>",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    }
+  ],
+  "tables": [
+    {
+      "table_id": "table_1",
+      "text": "Document Information Document ID -ORG-IMS-POL-027 Document Title Logging and Monitoring Policy Prepared by Information Security Team Status Final Owner CISO Effective From 01-Jan-2023 Effective Till Until revoked Document Type Policy Document Classification Internal Distribution List staff, Contractors, Third Parties",
+      "metadata": {
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Logging and Monitoring Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "text_as_html": "<table><tr><td>Document Information</td><td>Document Information</td></tr><tr><td>Document ID</td><td>-ORG-IMS-POL-027</td></tr><tr><td>Document Title</td><td>Logging and Monitoring Policy</td></tr><tr><td>Prepared by</td><td>Information Security Team</td></tr><tr><td>Status</td><td>Final</td></tr><tr><td>Owner</td><td>CISO</td></tr><tr><td>Effective From</td><td>01-Jan-2023</td></tr><tr><td>Effective Till</td><td>Until revoked</td></tr><tr><td>Document Type</td><td>Policy</td></tr><tr><td>Document Classification</td><td>Internal</td></tr><tr><td>Distribution List</td><td>staff, Contractors, Third Parties</td></tr></table>",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "table_id": "table_2",
+      "text": "Document Release Dates Version Date Editor Brief/Comments 0.1 Release of the draft Policy. 0.2 Revised Draft.",
+      "metadata": {
+        "emphasized_text_contents": [
+          "Date",
+          "Editor",
+          "Brief/Comments"
+        ],
+        "emphasized_text_tags": [
+          "b",
+          "b",
+          "b"
+        ],
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Logging and Monitoring Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "text_as_html": "<table><tr><td>Document Release Dates</td><td>Document Release Dates</td><td>Document Release Dates</td><td>Document Release Dates</td></tr><tr><td>Version</td><td>Date</td><td>Editor</td><td>Brief/Comments</td></tr><tr><td>0.1</td><td/><td/><td>Release of the draft Policy.</td></tr><tr><td>0.2</td><td/><td/><td>Revised Draft.</td></tr></table>",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "table_id": "table_3",
+      "text": "Document Review Date Name Title/Designation Notes Review and Update.",
+      "metadata": {
+        "emphasized_text_contents": [
+          "Name",
+          "Title/Designation",
+          "Notes"
+        ],
+        "emphasized_text_tags": [
+          "b",
+          "b",
+          "b"
+        ],
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Logging and Monitoring Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "text_as_html": "<table><tr><td>Document Review</td><td>Document Review</td><td>Document Review</td><td>Document Review</td></tr><tr><td>Date</td><td>Name</td><td>Title/Designation</td><td>Notes</td></tr><tr><td/><td/><td/><td>Review and Update.</td></tr></table>",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "table_id": "table_4",
+      "text": "Approvals Name Title/Designation Signature",
+      "metadata": {
+        "emphasized_text_contents": [
+          "Approvals",
+          "Approvals",
+          "Approvals",
+          "Name",
+          "Title/Designation",
+          "Signature"
+        ],
+        "emphasized_text_tags": [
+          "b",
+          "b",
+          "b",
+          "b",
+          "b",
+          "b"
+        ],
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Logging and Monitoring Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "text_as_html": "<table><tr><td>Approvals</td><td>Approvals</td><td>Approvals</td></tr><tr><td>Name</td><td>Title/Designation</td><td>Signature</td></tr><tr><td/><td/><td/></tr></table>",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "table_id": "table_5",
+      "text": "",
+      "metadata": {
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Logging and Monitoring Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "text_as_html": "<table><tr><td/><td/></tr><tr><td/><td/></tr><tr><td/><td/></tr><tr><td/><td/></tr><tr><td/><td/></tr><tr><td/><td/></tr></table>",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "table_id": "table_6",
+      "text": "Policy Sections UAE IA - Control ISO 27001:2022 Section 1 – Introduction Section 2 – Purpose Section 3 – Scope Section 4 – Policy Statement Section 5 – Policy Details Section 5.1 – Section 5.2 – Section 5.3 – Section 5.4 – Section 5.5 – Section 5.6 – Section 6 – Roles and Responsibilities Section 7 – Policy Enforcement and Exceptions Section 8 – Monitoring and Review",
+      "metadata": {
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Logging and Monitoring Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "text_as_html": "<table><tr><td>Policy Sections</td><td>UAE IA - Control</td><td>ISO 27001:2022</td></tr><tr><td>Section 1 – Introduction</td><td/><td/></tr><tr><td>Section 2 – Purpose</td><td/><td/></tr><tr><td>Section 3 – Scope</td><td/><td/></tr><tr><td>Section 4 – Policy Statement</td><td/><td/></tr><tr><td>Section 5 – Policy Details</td><td/><td/></tr><tr><td>Section 5.1 –</td><td/><td/></tr><tr><td>Section 5.2 –</td><td/><td/></tr><tr><td>Section 5.3 –</td><td/><td/></tr><tr><td>Section 5.4 –</td><td/><td/></tr><tr><td>Section 5.5 –</td><td/><td/></tr><tr><td>Section 5.6 –</td><td/><td/></tr><tr><td/><td/><td/></tr><tr><td>Section 6 – Roles and Responsibilities</td><td/><td/></tr><tr><td>Section 7 – Policy Enforcement and Exceptions</td><td/><td/></tr><tr><td>Section 8 – Monitoring and Review</td><td/><td/></tr></table>",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    }
+  ],
+  "figures": [],
+  "text": "Classification: Internal\n\nClassification: Internal\n\nDocument No: -ORG-IMS-POL-027 Page 2 of 10\n\nINTRODUCTION\n\nA regular monitoring program is key to managing risk in an organization.  Security monitoring occurs on both physical areas as well as logical components in different information system areas.  Information security monitoring confirms that appropriate mechanisms and controls are in place to secure systems and applications, that they are effective, and are not being bypassed in any way.\n\nPURPOSE\n\nThe purpose of this  Logging and Monitoring Policy (\"Policy\") is to define a framework for proactively monitoring events in order to detect potential security incidents quickly and efficiently. \n\nSCOPE\n\nThis Policy applies to all employees and third parties who access or manage information and information assets or use the organization's information and communications technology (ICT) systems.\n\n\nAny exceptions on the applicability of this Policy should be formally requested through the 'Policy Exception Management procedure.’\n\nPOLICY STATEMENT\n\n shall develop, implement, and maintain a Logging and Monitoring Policy to secure the confidentiality, integrity, availability, secrecy, and privacy of information and its underlying assets for day-to-day business operations.\n\nPOLICY DETAILS\n\nLogging Requirements\n\nLogging requirements shall be determined based on scope, information to be captured in audit logs, frequency for review of audit log data, and applicable laws and regulations.\n\nHigh level log activities that the company would like to track shall be defined.\n\nPotential log sources shall be identified for log monitoring based upon a risk assessment and their importance to the business.\n\nThe critical log sources shall be configured and documented for log generation.\n\nLogs generated for activities that affect the availability and security of the systems, shall be configured for monitoring.\n\nLogging Parameters\n\nLogs shall capture the below details - at minimum:\n\nUser IDs.\n\nDate and Time of the event.\n\nDetails of the event.\n\nDetails of the Asset and its location where possible.\n\nFor applications and  following log types shall be monitored - at minimum:\n\nSecurity Logs.\n\nAdministrative and Operator Logs.\n\nFault Logs.\n\nBackup logs.\n\nLog Storage & Retention\n\nLogs shall be stored in centralized log storage separate from the operational environment in which actual events were generated.\n\nLogs shall be configured in a way that does not affect system performance.\n\nLogging level shall be sufficient to audit individual accountability, reconstruct events, detect intrusions, identify problems and demonstrate regulatory compliance, as may be necessary.\n\nLogs shall be retained for a minimum period of 1 year, or as per the retention period defined by the business owner or in accordance with any legal & regulatory requirements.\n\nLog Reporting\n\nLog reporting shall be performed to summarize significant activity over a particular period of time or to record detailed information related to a particular event or series of events.\n\nThe reporting shall capture detail such as top 10 sources/targets, source countries, failed logins etc.\n\nFrequency of log reporting shall be determined based on the criticality of systems and audience.\n\nLog Protection and Access\n\nAdequate security controls shall be taken into account throughout its lifecycle to protect its confidentiality, integrity and availability.\n\nAccess to the logs shall be strictly controlled. No user shall be granted permission to modify the logs in an unauthorized manner.\n\nLog repository shall be hardened as per the applicable security baseline documents.\n\nLog Monitoring, Analysis & Review\n\nMonitoring performed by third parties shall involve Non-Disclosure Agreements (NDA) and Service Level Agreements (SLA). The SLA shall include procedures for log reporting and escalation.\n\nLogs generated and stored shall be monitored in real time by a central log monitoring system.\n\nThe central log monitoring system shall be capable of centralization, sorting and parsing of the logs collected from different IT Systems to identify, contain and respond quickly to events/incidents in the network\n\nA dedicated monitoring team operating under IT Section shall be assigned to centrally monitor the logs generated by all the IT systems.\n\nLogs shall not be analyzed by the same individual whose activities are being logged and monitored, to ensure segregation of duties.\n\nCorrective and preventive measures on reported incidents shall be taken.\n\nLogs shall be backed up on a regular basis, in accordance with the log storage and retention requirements.\n\nThe monitoring team shall, on a periodic basis, submit log analysis reports to the ISSC, Manager – IT Security, application owners and respective system administrators including trends on critical system or security events.\n\nMonitoring systems shall be kept current and regularly tested to ensure that desired events are  and the system performance is efficient, accurate and current.\n\nIf a monitoring system fails, an alert mechanism shall be available to alert the concerned monitoring team.\n\nWherever possible, Intrusion Detection Systems (IDS), Network based Intrusion Detection System (NIDS) and Host-based IDS (HIDS) shall be deployed for effective monitoring of traffic.\n\nMonitoring team shall review and customize IDS alerts regularly to reduce false positives.\n\nMonitoring team shall ensure that the latest attack signatures are updated on the IDS systems. Wherever possible, the IDS systems shall be configured to automatically download new signatures from the vendor site.\n\nThe action that needs to be taken for critical alerts shall be identified and documented by the monitoring team in accordance with the Incident Management Procedure.\n\nTime Synchronization\n\nClock time on all IT systems shall be synchronized with an agreed accurate time source.\n\nROLES AND RESPONSIBILITIES\n\nPOLICY ENFORCEMENT AND EXCEPTIONS\n\nAll Employees and 'Third Parties' are responsible for understanding and adhering to this Policy. Any violation of this Policy shall be reported to Policy Owner. In addition, violation of this Policy shall be subjected to disciplinary action by the 's Human Capital Department, considering the recommendation of IS Team and in accordance with other applicable policies, laws, and regulations.\n\nDisciplinary action may range from a verbal warning to discontinuation of access to facility or services, or termination of employment/contract/agreement, and possible legal action. The actual action taken shall depend on factors such as the seriousness of the breach and the user's disciplinary record.\n\nAny exceptions on the applicability of this Policy should be formally requested through the 'Policy Exception Management procedure.'\n\nMONITORING AND REVIEW\n\nThis Policy is developed and owned by the  IS Team. It is reviewed by the CISO and approved by the CEO. \n\n IS Team shall initiate a review of this Policy annually or whenever a significant change occurs in the organization's operating environment.\n\nFeedback, suggestions, or questions regarding the Policy shall be directed to the CISO at CISO@.net.\n\nPOLICY – UAE IA CONTROL MAPPING\n\n"
+}

@@ -1,0 +1,2245 @@
+{
+  "source_file": "data/01_raw/policies/clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+  "method": "unstructured",
+  "elements": [
+    {
+      "type": "Header",
+      "text": "Classification: Internal",
+      "metadata": {
+        "category_depth": 0,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "header_footer_type": "primary",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "Footer",
+      "text": "Document No: <CLIENT>-ORG-IMS-POL-006 Page 7 of 12",
+      "metadata": {
+        "category_depth": 0,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "header_footer_type": "primary",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "Table",
+      "text": "Document Information Document ID <CLIENT>-ORG-IMS-POL-006 Document Title <CLIENT> Information Security Incident Management Policy Prepared by Information Security Team Status Final Owner CISO Effective From 01-Jan-2023 Effective Till Until revoked Document Type Policy Document Classification Internal Distribution List <CLIENT> staff, Contractors, Third Parties",
+      "metadata": {
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 1,
+        "text_as_html": "<table><tr><td>Document Information</td><td>Document Information</td></tr><tr><td>Document ID</td><td>&lt;CLIENT&gt;-ORG-IMS-POL-006</td></tr><tr><td>Document Title</td><td>&lt;CLIENT&gt; Information Security Incident Management Policy</td></tr><tr><td>Prepared by</td><td>Information Security Team</td></tr><tr><td>Status</td><td>Final</td></tr><tr><td>Owner</td><td>CISO</td></tr><tr><td>Effective From</td><td>01-Jan-2023</td></tr><tr><td>Effective Till</td><td>Until revoked</td></tr><tr><td>Document Type</td><td>Policy</td></tr><tr><td>Document Classification</td><td>Internal</td></tr><tr><td>Distribution List</td><td>&lt;CLIENT&gt; staff, Contractors, Third Parties</td></tr></table>",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "Table",
+      "text": "Document Release Dates Version Date Editor Brief/Comments 0.1 Release of the draft Policy. 1.1 Release of the Policy.",
+      "metadata": {
+        "emphasized_text_contents": [
+          "Date",
+          "Editor",
+          "Brief/Comments"
+        ],
+        "emphasized_text_tags": [
+          "b",
+          "b",
+          "b"
+        ],
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 1,
+        "text_as_html": "<table><tr><td>Document Release Dates</td><td>Document Release Dates</td><td>Document Release Dates</td><td>Document Release Dates</td></tr><tr><td>Version</td><td>Date</td><td>Editor</td><td>Brief/Comments</td></tr><tr><td>0.1</td><td/><td/><td>Release of the draft Policy.</td></tr><tr><td>1.1</td><td/><td/><td>Release of the Policy.</td></tr></table>",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "Table",
+      "text": "Document Review Date Name Title/Designation Notes Review and Update. Review and minor update",
+      "metadata": {
+        "emphasized_text_contents": [
+          "Name",
+          "Title/Designation",
+          "Notes"
+        ],
+        "emphasized_text_tags": [
+          "b",
+          "b",
+          "b"
+        ],
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 1,
+        "text_as_html": "<table><tr><td>Document Review</td><td>Document Review</td><td>Document Review</td><td>Document Review</td></tr><tr><td>Date</td><td>Name</td><td>Title/Designation</td><td>Notes</td></tr><tr><td/><td/><td/><td>Review and Update.</td></tr><tr><td/><td/><td/><td>Review and minor update</td></tr></table>",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "Table",
+      "text": "Approvals Name Title/Designation Signature",
+      "metadata": {
+        "emphasized_text_contents": [
+          "Approvals",
+          "Approvals",
+          "Approvals",
+          "Name",
+          "Title/Designation",
+          "Signature"
+        ],
+        "emphasized_text_tags": [
+          "b",
+          "b",
+          "b",
+          "b",
+          "b",
+          "b"
+        ],
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 1,
+        "text_as_html": "<table><tr><td>Approvals</td><td>Approvals</td><td>Approvals</td></tr><tr><td>Name</td><td>Title/Designation</td><td>Signature</td></tr><tr><td/><td/><td/></tr></table>",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "PageBreak",
+      "text": "",
+      "metadata": {
+        "languages": [
+          "eng"
+        ],
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "INTRODUCTION",
+      "metadata": {
+        "category_depth": 0,
+        "emphasized_text_contents": [
+          "INTRODUCTION"
+        ],
+        "emphasized_text_tags": [
+          "b"
+        ],
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 2,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "The Information Security Incident Management Policy outlines the overall framework for managing security incidents within the organization. It establishes roles and responsibilities for incident detection, response and recovery.",
+      "metadata": {
+        "category_depth": 0,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 2,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "PURPOSE",
+      "metadata": {
+        "category_depth": 0,
+        "emphasized_text_contents": [
+          "PURPOSE"
+        ],
+        "emphasized_text_tags": [
+          "b"
+        ],
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 2,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "NarrativeText",
+      "text": "The purpose of this Information Security Incident Management Policy (“Policy”) is to ensure that information security incidents within the organization are communicated in a manner which allows timely corrective actions to be taken.",
+      "metadata": {
+        "category_depth": 0,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 2,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "NarrativeText",
+      "text": "Furthermore, the Policy establishes a commitment to comply with applicable sections of the federal and global laws and regulations, including but not limited to UAE Information Assurance Regulation, ISO27001 and National Cyber Risk Management Framework (NCRMF).",
+      "metadata": {
+        "category_depth": 0,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 2,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "NarrativeText",
+      "text": "The following are the key objectives of this Policy:",
+      "metadata": {
+        "category_depth": 0,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 2,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Launch an incident response plan: Development, implementation, and maintenance of a plan to guide incident response activities.",
+      "metadata": {
+        "category_depth": 1,
+        "emphasized_text_contents": [
+          "Launch an incident response plan:"
+        ],
+        "emphasized_text_tags": [
+          "b"
+        ],
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 2,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Establish a CSIRT: Establishment of a Computer Security Incident Response Team (CSIRT) in charge of the incident management and response plan.",
+      "metadata": {
+        "category_depth": 1,
+        "emphasized_text_contents": [
+          "Establish a CSIRT:"
+        ],
+        "emphasized_text_tags": [
+          "b"
+        ],
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 2,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Enable reporting: Reporting information security incidents that results in damage or risk to information security assets and operations through appropriate management channels to stakeholders.",
+      "metadata": {
+        "category_depth": 1,
+        "emphasized_text_contents": [
+          "Enable reporting:"
+        ],
+        "emphasized_text_tags": [
+          "b"
+        ],
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 2,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "SCOPE",
+      "metadata": {
+        "category_depth": 0,
+        "emphasized_text_contents": [
+          "SCOPE"
+        ],
+        "emphasized_text_tags": [
+          "b"
+        ],
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 2,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "NarrativeText",
+      "text": "This Policy applies to anybody involved in the security Incident management and/or response including but not limited to employees and critical third parties who access or manage information and information assets or use the organization's information and communications technology (ICT) systems.\n\nAny exceptions on the applicability of this Policy should be formally requested through the ‘Policy Exception Management procedure’.",
+      "metadata": {
+        "category_depth": 0,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 2,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "PageBreak",
+      "text": "",
+      "metadata": {
+        "languages": [
+          "eng"
+        ],
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "POLICY STATEMENT",
+      "metadata": {
+        "category_depth": 0,
+        "emphasized_text_contents": [
+          "POLICY STATEMENT"
+        ],
+        "emphasized_text_tags": [
+          "b"
+        ],
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 3,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "NarrativeText",
+      "text": "<CLIENT> shall develop, implement, and maintain an incident management program where personnel shall report information security events and weaknesses, collect, and analyze evidence of security incidents, and ensure security incidents are adequately managed.",
+      "metadata": {
+        "category_depth": 0,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 3,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "POLICY DETAILS",
+      "metadata": {
+        "category_depth": 0,
+        "emphasized_text_contents": [
+          "POLICY DETAILS"
+        ],
+        "emphasized_text_tags": [
+          "b"
+        ],
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 3,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Computer Security Incident Response Team (CSIRT)",
+      "metadata": {
+        "category_depth": 1,
+        "emphasized_text_contents": [
+          "Computer Security Incident Response Team",
+          "(CSIRT)"
+        ],
+        "emphasized_text_tags": [
+          "b",
+          "b"
+        ],
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 3,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "3cf1cfb5f484c170a31a0a1f23afca85"
+      }
+    },
+    {
+      "type": "UncategorizedText",
+      "text": "<CLIENT> shall:",
+      "metadata": {
+        "category_depth": 0,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 3,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Identify personnel to form the proper CSIRT.",
+      "metadata": {
+        "category_depth": 2,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 3,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Establish the CSIRT before developing the incident response plan. Ensure that one of the first responsibilities of CSIRT is to create the incident response plan.",
+      "metadata": {
+        "category_depth": 2,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 3,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Ensure that the CSIRT must include members from the following teams, at a minimum:",
+      "metadata": {
+        "category_depth": 2,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 3,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Team Leader – is usually senior manager responsible for managing incidents and directing actions to other team members.",
+      "metadata": {
+        "category_depth": 3,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 3,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "649fb0b23cc63ade3b3b9fe5fa1f6d13"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Boundary Protection Experts - usually individuals who are experts in logical perimeter security (expertise on Firewalls, IDS/IPS, WAF, Proxy etc.).",
+      "metadata": {
+        "category_depth": 3,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 3,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "649fb0b23cc63ade3b3b9fe5fa1f6d13"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Network Administrators.",
+      "metadata": {
+        "category_depth": 3,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 3,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "649fb0b23cc63ade3b3b9fe5fa1f6d13"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Physical Security.",
+      "metadata": {
+        "category_depth": 3,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 3,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "649fb0b23cc63ade3b3b9fe5fa1f6d13"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Legal",
+      "metadata": {
+        "category_depth": 3,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 3,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "649fb0b23cc63ade3b3b9fe5fa1f6d13"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Human Capital for incidents that was originated by an employee.",
+      "metadata": {
+        "category_depth": 3,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 3,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "649fb0b23cc63ade3b3b9fe5fa1f6d13"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Corporate Communications for managing the communication of incidents that has been revealed to public.",
+      "metadata": {
+        "category_depth": 3,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 3,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "649fb0b23cc63ade3b3b9fe5fa1f6d13"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "The CSIRT shall:",
+      "metadata": {
+        "category_depth": 2,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 3,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Develop incident management and Incident Response plan, process, and procedures.",
+      "metadata": {
+        "category_depth": 3,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 3,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "4354cba4257cb30a19eb5f8af97c230b"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Response to information security incidents and minimise the impact.",
+      "metadata": {
+        "category_depth": 3,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 3,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "4354cba4257cb30a19eb5f8af97c230b"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Investigate incidents and try to determine the Root cause.",
+      "metadata": {
+        "category_depth": 3,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 3,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "4354cba4257cb30a19eb5f8af97c230b"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Prevent future incident by recommending security controls.",
+      "metadata": {
+        "category_depth": 3,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 3,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "4354cba4257cb30a19eb5f8af97c230b"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Handle incident reporting and communication to all stakeholder involved internally and externally.",
+      "metadata": {
+        "category_depth": 3,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 3,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "4354cba4257cb30a19eb5f8af97c230b"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Protect collected evidence by ensuring that it is stored in a way that prevents it from being tampered with.",
+      "metadata": {
+        "category_depth": 3,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 3,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "4354cba4257cb30a19eb5f8af97c230b"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Incident Response Plan",
+      "metadata": {
+        "category_depth": 1,
+        "emphasized_text_contents": [
+          "Incident Response Plan"
+        ],
+        "emphasized_text_tags": [
+          "b"
+        ],
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 3,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "UncategorizedText",
+      "text": "The CSIRT shall: ",
+      "metadata": {
+        "category_depth": 0,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 3,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Develop, implement, and maintain an incident response plan that includes the following, at a minimum:",
+      "metadata": {
+        "category_depth": 2,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 3,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "A roadmap and high-level approach for implementing organization’s incident response capability.",
+      "metadata": {
+        "category_depth": 3,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 3,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "304a218ae90bdf6ee6c9be2e09f1ffde"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "A process to define reportable incidents and metrics for measuring the severity and Impact of incidents.",
+      "metadata": {
+        "category_depth": 3,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 3,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "304a218ae90bdf6ee6c9be2e09f1ffde"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Define the required resources and management support to effectively maintain and mature an incident response capability.",
+      "metadata": {
+        "category_depth": 3,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 3,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "304a218ae90bdf6ee6c9be2e09f1ffde"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Documentation that is reviewed and approved by defined personnel or roles.",
+      "metadata": {
+        "category_depth": 3,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 3,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "304a218ae90bdf6ee6c9be2e09f1ffde"
+      }
+    },
+    {
+      "type": "PageBreak",
+      "text": "",
+      "metadata": {
+        "languages": [
+          "eng"
+        ],
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Distribute copies of the incident response plan to identified stakeholders.",
+      "metadata": {
+        "category_depth": 3,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 4,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Update incident response plan regularly based on lessons learned.",
+      "metadata": {
+        "category_depth": 2,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 4,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Communicate incident response plan changes to defined incident response personnel.",
+      "metadata": {
+        "category_depth": 2,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 4,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Protect the incident response plan from unauthorised disclosure and modification.",
+      "metadata": {
+        "category_depth": 2,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 4,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Perform investigations based on information distributed by an information sharing community to reduce the risks of similar incidents.",
+      "metadata": {
+        "category_depth": 2,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 4,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Perform post-incident analysis to identify the source of the incident.",
+      "metadata": {
+        "category_depth": 2,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 4,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Incident Classification",
+      "metadata": {
+        "category_depth": 1,
+        "emphasized_text_contents": [
+          "Incident Classification"
+        ],
+        "emphasized_text_tags": [
+          "b"
+        ],
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 4,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "UncategorizedText",
+      "text": "The CSIRT shall:",
+      "metadata": {
+        "category_depth": 0,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 4,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Define, classify, and prioritise incidents to help identify the impact and scope of the incident.",
+      "metadata": {
+        "category_depth": 2,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 4,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Establish an incident classification scheme in line with the incident response plan considering regulatory issuances regarding incident management.",
+      "metadata": {
+        "category_depth": 2,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 4,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Ensure that the SOC (Security Operations Centre) performs the following, at a minimum when an information security incident is reported:",
+      "metadata": {
+        "category_depth": 2,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 4,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Assess the information security events using the agreed information security event and incident classification scale.",
+      "metadata": {
+        "category_depth": 3,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 4,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "ff4d67b72177f63b20a0497c8a71cbd5"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Decide whether the events should be classified as information security incidents.",
+      "metadata": {
+        "category_depth": 3,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 4,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "ff4d67b72177f63b20a0497c8a71cbd5"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Ensure that the assessment of the incident and the associated decision is forwarded to the CSIRT for confirmation and / or reassessment.",
+      "metadata": {
+        "category_depth": 3,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 4,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "ff4d67b72177f63b20a0497c8a71cbd5"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Incident Response Training",
+      "metadata": {
+        "category_depth": 1,
+        "emphasized_text_contents": [
+          "Incident Response Training"
+        ],
+        "emphasized_text_tags": [
+          "b"
+        ],
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 4,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "UncategorizedText",
+      "text": "The CSIRT shall:",
+      "metadata": {
+        "category_depth": 0,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 4,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Ensure that the incident response training provided by the organisation is linked to assigned roles and responsibilities of respective personnel to include appropriate content and level of detail in such training.",
+      "metadata": {
+        "category_depth": 2,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 4,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Incident Response Testing",
+      "metadata": {
+        "category_depth": 1,
+        "emphasized_text_contents": [
+          "Incident Response Testing"
+        ],
+        "emphasized_text_tags": [
+          "b"
+        ],
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 4,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "UncategorizedText",
+      "text": "The CSIRT in coordination with other appropriate teams shall:",
+      "metadata": {
+        "category_depth": 0,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 4,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Develop incident response testing procedures to:",
+      "metadata": {
+        "category_depth": 2,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 4,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Determine the overall effectiveness of its incident response capabilities.",
+      "metadata": {
+        "category_depth": 3,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 4,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "93ce5572e2b7c7baa16e7118af9de981"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Identify potential weaknesses or deficiencies.",
+      "metadata": {
+        "category_depth": 3,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 4,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "93ce5572e2b7c7baa16e7118af9de981"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Ensure that the incident response testing approach simulates pre-defined breach scenarios across the incident response lifecycle including detection, reporting, and recovery to normal operations.",
+      "metadata": {
+        "category_depth": 2,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 4,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Utilize checklists, table top (discussion-based) exercises, and functional (performance of duties in a simulated environment) exercises for incident response testing.",
+      "metadata": {
+        "category_depth": 2,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 4,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Participate in sector, national, and international exercises to further test the organization’s incident response capabilities.",
+      "metadata": {
+        "category_depth": 2,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 4,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "PageBreak",
+      "text": "",
+      "metadata": {
+        "languages": [
+          "eng"
+        ],
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Incident Handling",
+      "metadata": {
+        "category_depth": 1,
+        "emphasized_text_contents": [
+          "Incident Handling"
+        ],
+        "emphasized_text_tags": [
+          "b"
+        ],
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 5,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "UncategorizedText",
+      "text": "The CSIRT shall:",
+      "metadata": {
+        "category_depth": 0,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 5,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Respond to information security incidents through a nominated point of contact and other relevant persons of the organization or external parties.",
+      "metadata": {
+        "category_depth": 2,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 5,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Ensure that the response to incidents include the following activities, at a minimum:",
+      "metadata": {
+        "category_depth": 2,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 5,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Collecting the evidence as soon as possible after the occurrence.",
+      "metadata": {
+        "category_depth": 3,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 5,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "d0d55f28b0d1851dec20542948abed09"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Conducting information security forensics analysis, as required.",
+      "metadata": {
+        "category_depth": 3,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 5,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "d0d55f28b0d1851dec20542948abed09"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Escalation, as required.",
+      "metadata": {
+        "category_depth": 3,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 5,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "d0d55f28b0d1851dec20542948abed09"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Ensuring all involved response activities are properly logged for later analysis.",
+      "metadata": {
+        "category_depth": 3,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 5,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "d0d55f28b0d1851dec20542948abed09"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Communicating the existence of the information security incident or any relevant details thereof to other internal and external people or organizations with a need-to-know.",
+      "metadata": {
+        "category_depth": 3,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 5,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "d0d55f28b0d1851dec20542948abed09"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Dealing with information security weakness found to cause or contribute to the incident.",
+      "metadata": {
+        "category_depth": 3,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 5,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "d0d55f28b0d1851dec20542948abed09"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Closing and recording the incident after successful resolution.",
+      "metadata": {
+        "category_depth": 3,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 5,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "d0d55f28b0d1851dec20542948abed09"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Information Security Incident Documentation",
+      "metadata": {
+        "category_depth": 1,
+        "emphasized_text_contents": [
+          "Information Security Incident Documentation"
+        ],
+        "emphasized_text_tags": [
+          "b"
+        ],
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 5,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "The CSIRT shall document Information security Incidents with reference to the <CLIENT> Information Security Incident Documentation Procedure.",
+      "metadata": {
+        "category_depth": 2,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 5,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "ab2986ac4a9607dfd0891f7af2e27b42"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Learning from Information Security Incidents",
+      "metadata": {
+        "category_depth": 1,
+        "emphasized_text_contents": [
+          "Learning",
+          "from",
+          "Information Security Incidents"
+        ],
+        "emphasized_text_tags": [
+          "b",
+          "b",
+          "b"
+        ],
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 5,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "UncategorizedText",
+      "text": "The CSIRT shall:",
+      "metadata": {
+        "category_depth": 0,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 5,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Implement relevant mechanisms to enable the types, volumes, costs (liaising with Finance Team), and impacts of information security incidents to be quantified and monitored.",
+      "metadata": {
+        "category_depth": 2,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 5,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Utilize the information gained from evaluating information security incidents to identify recurring or high impact incidents and inform risk assessment and risk treatment activities.",
+      "metadata": {
+        "category_depth": 2,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 5,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Collection of Evidence",
+      "metadata": {
+        "category_depth": 1,
+        "emphasized_text_contents": [
+          "Collection of Evidence"
+        ],
+        "emphasized_text_tags": [
+          "b"
+        ],
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 5,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "UncategorizedText",
+      "text": "<CLIENT> shall:",
+      "metadata": {
+        "category_depth": 0,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 5,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Develop and follow internal procedures when dealing with evidence for the purposes of disciplinary and legal action.",
+      "metadata": {
+        "category_depth": 2,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 5,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Include the following processes related to the collection of potential evidence for incidents, at a minimum:",
+      "metadata": {
+        "category_depth": 2,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 5,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Identification process: the process involving the search for, recognition and documentation of potential evidence.",
+      "metadata": {
+        "category_depth": 3,
+        "emphasized_text_contents": [
+          "Identification process"
+        ],
+        "emphasized_text_tags": [
+          "b"
+        ],
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 5,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "8bb5b521090638a0d0ad0822964a336c"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Collection process: the process of gathering the physical items that can contain potential evidence.",
+      "metadata": {
+        "category_depth": 3,
+        "emphasized_text_contents": [
+          "Collection process"
+        ],
+        "emphasized_text_tags": [
+          "b"
+        ],
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 5,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "8bb5b521090638a0d0ad0822964a336c"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Acquisition process: the process of creating a copy of data within a defined set.",
+      "metadata": {
+        "category_depth": 3,
+        "emphasized_text_contents": [
+          "Acquisition process"
+        ],
+        "emphasized_text_tags": [
+          "b"
+        ],
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 5,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "8bb5b521090638a0d0ad0822964a336c"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Preservation process: the process to maintain and safeguard the integrity and original condition of the potential evidence.",
+      "metadata": {
+        "category_depth": 3,
+        "emphasized_text_contents": [
+          "Preservation process"
+        ],
+        "emphasized_text_tags": [
+          "b"
+        ],
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 5,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "8bb5b521090638a0d0ad0822964a336c"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Establish internal procedures to create the above processes in accordance with different types of media, devices, and state of devices (e.g., powered on or off state).",
+      "metadata": {
+        "category_depth": 2,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 5,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Ensure that these procedures include the following, at a minimum:",
+      "metadata": {
+        "category_depth": 2,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 5,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "PageBreak",
+      "text": "",
+      "metadata": {
+        "languages": [
+          "eng"
+        ],
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Chain of custody.",
+      "metadata": {
+        "category_depth": 3,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 6,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Safety of evidence.",
+      "metadata": {
+        "category_depth": 3,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 6,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Safety of personnel.",
+      "metadata": {
+        "category_depth": 3,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 6,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Roles and responsibilities of personnel involved.",
+      "metadata": {
+        "category_depth": 3,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 6,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Competency of personnel.",
+      "metadata": {
+        "category_depth": 3,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 6,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Documentation.",
+      "metadata": {
+        "category_depth": 3,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 6,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Briefing.",
+      "metadata": {
+        "category_depth": 3,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 6,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Situational Awareness",
+      "metadata": {
+        "category_depth": 1,
+        "emphasized_text_contents": [
+          "Situational Awareness"
+        ],
+        "emphasized_text_tags": [
+          "b"
+        ],
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 6,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "UncategorizedText",
+      "text": "The CSIRT shall:",
+      "metadata": {
+        "category_depth": 0,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 6,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Ensure priority information related to incidents are shared to relevant stakeholders in a timely manner even if it has not been fully analysed or resolved.",
+      "metadata": {
+        "category_depth": 2,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 6,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Coordinate and share information in consultation with legal, with external entities, including, but not limited to external service providers, regulatory bodies, entities involved in the supply chain for organization’s information systems.",
+      "metadata": {
+        "category_depth": 2,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 6,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Provide notice accordingly for all incidents involving Personally Identifiable Information (PII).",
+      "metadata": {
+        "category_depth": 2,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 6,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "PageBreak",
+      "text": "",
+      "metadata": {
+        "languages": [
+          "eng"
+        ],
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "ROLES AND RESPONSIBILITIES",
+      "metadata": {
+        "category_depth": 0,
+        "emphasized_text_contents": [
+          "ROLES AND RESPONSIBILITIES"
+        ],
+        "emphasized_text_tags": [
+          "b"
+        ],
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 7,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "Table",
+      "text": "Role Responsibility Executives & Senior Management Make available and support the required resources to drive incident management. Where relevant, provide direction to and participate in reviews and oversight of incident management. The IMS Committee will establish a CSIRT by: Identifying stakeholders and participants. Securing funding for CSIRT operations. Deciding on the scope of activities the CSIRT will offer. Determining the CSIRT reporting structure, authority, and organizational model. Identifying required resources such as staff, equipment, and infrastructure. Defining interactions and interfaces. Defining roles, responsibilities, and the corresponding authority. Documenting the workflow. Authorizing CSIRT in developing policies and corresponding procedures. Announcing the CSIRT when it becomes operational to create the appropriate level of awareness. CSIRT Develop, implement, and maintain an Incident Response Plan that encompasses: Processes and procedures for handling incidents during, and after an incident occurs to be documented, tested and maintained. A communication plan to include internal and external parties. Senior management approval of all plans and procedures. Defines the required resources and capabilities. Establish an Incident Classification Scheme in line with the incident response Policy considering UAE issuances with regard to incident management. Assess and identify the incidents that should be reported at the sector and national level. Develop and implement Incident Response Training program. Carry out incident response testing. Carry out incident handling. Prepare information security incident documentation. Learn from information security incidents. Provide situational awareness. Report information security events. Report security weaknesses. Human Capital Ensure that the Policy: Is communicated to all users. Is read and acknowledged formally by all users. Provide support to the CSIRT for the development and delivery of Incident Response Training program. Employees, Line Managers and Third Parties (Contractors, Vendors, etc.) Employees and third parties (including contractors, vendors, etc.) who access organizational premises, information and information assets or use information and communications technology (ICT) systems of the organization are responsible for adhering to this Policy and all its applicable procedures. InfoSec Ops Establish a reporting channel to report only InfoSec Incidents. Ensure that all employees and external party users are aware of their responsibility to report any information security incidents as quickly as possible. Ensure that all employees and external party users are aware of how to report an information security incident and the point of contact (PoC) as to whom and where the incident should be reported to.",
+      "metadata": {
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 7,
+        "text_as_html": "<table><tr><td>Role</td><td>Responsibility</td></tr><tr><td>Executives &amp; Senior Management</td><td>Make available and support the required resources to drive incident management. Where relevant, provide direction to and participate in reviews and oversight of incident management. The IMS Committee will establish a CSIRT by: Identifying stakeholders and participants. Securing funding for CSIRT operations. Deciding on the scope of activities the CSIRT will offer. Determining the CSIRT reporting structure, authority, and organizational model. Identifying required resources such as staff, equipment, and infrastructure. Defining interactions and interfaces. Defining roles, responsibilities, and the corresponding authority. Documenting the workflow. Authorizing CSIRT in developing policies and corresponding procedures. Announcing the CSIRT when it becomes operational to create the appropriate level of awareness.</td></tr><tr><td>CSIRT</td><td>Develop, implement, and maintain an Incident Response Plan that encompasses: Processes and procedures for handling incidents during, and after an incident occurs to be documented, tested and maintained. A communication plan to include internal and external parties. Senior management approval of all plans and procedures. Defines the required resources and capabilities. Establish an Incident Classification Scheme in line with the incident response Policy considering UAE issuances with regard to incident management. Assess and identify the incidents that should be reported at the sector and national level. Develop and implement Incident Response Training program. Carry out incident response testing. Carry out incident handling. Prepare information security incident documentation. Learn from information security incidents. Provide situational awareness. Report information security events. Report security weaknesses.</td></tr><tr><td>Human Capital</td><td>Ensure that the Policy: Is communicated to all users. Is read and acknowledged formally by all users. Provide support to the CSIRT for the development and delivery of Incident Response Training program.</td></tr><tr><td>Employees, Line Managers and Third Parties (Contractors, Vendors, etc.)</td><td>Employees and third parties (including contractors, vendors, etc.) who access organizational premises, information and information assets or use information and communications technology (ICT) systems of the organization are responsible for adhering to this Policy and all its applicable procedures.</td></tr><tr><td>InfoSec Ops</td><td>Establish a reporting channel to report only InfoSec Incidents. Ensure that all employees and external party users are aware of their responsibility to report any information security incidents as quickly as possible. Ensure that all employees and external party users are aware of how to report an information security incident and the point of contact (PoC) as to whom and where the incident should be reported to.</td></tr></table>",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "PageBreak",
+      "text": "",
+      "metadata": {
+        "languages": [
+          "eng"
+        ],
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "POLICY ENFORCEMENT AND EXCEPTIONS",
+      "metadata": {
+        "category_depth": 0,
+        "emphasized_text_contents": [
+          "POLICY ENFORCEMENT AND EXCEPTIONS"
+        ],
+        "emphasized_text_tags": [
+          "b"
+        ],
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 8,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "NarrativeText",
+      "text": "This Policy is to be part of all employees, contractors and third parties’ processes, and all are responsible for understanding and adhering to this Policy. Any violation of this Policy shall be reported to Policy Owner. Violation of this Policy shall be subjected to disciplinary action by the <CLIENT>'s Human Capital Department, taking into consideration the recommendation of the Information Security department and in accordance with other applicable policies, laws and regulations.",
+      "metadata": {
+        "category_depth": 0,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 8,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "NarrativeText",
+      "text": "Disciplinary action may range from a verbal warning to discontinuation of access to facility or services, or termination of employment/contract/agreement, and possible legal action. The actual action taken shall depend on factors such as the seriousness of the breach and the user's disciplinary record.\n\nAny exceptions on the applicability of this Policy should be formally requested through the Policy Exception Management procedure.",
+      "metadata": {
+        "category_depth": 0,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 8,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "MONITORING AND REVIEW",
+      "metadata": {
+        "category_depth": 0,
+        "emphasized_text_contents": [
+          "MONITORING AND REVIEW"
+        ],
+        "emphasized_text_tags": [
+          "b"
+        ],
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 8,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "NarrativeText",
+      "text": "This Policy is developed and owned by the <CLIENT> Information Security (IS) Team. It is reviewed by the CISO and approved by the CEO. ",
+      "metadata": {
+        "category_depth": 0,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 8,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "NarrativeText",
+      "text": "<CLIENT> IS Team will initiate a review and of this Policy annually or whenever a significant change occurs in the organization’s operating environment.",
+      "metadata": {
+        "category_depth": 0,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 8,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "NarrativeText",
+      "text": "Feedback, suggestions or questions regarding the Policy shall be directed to the <CLIENT> IS Team at infosec@<CLIENT>.net.",
+      "metadata": {
+        "category_depth": 0,
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 8,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "Table",
+      "text": "T8.1.1 – Information Security Incident Management Policy Clause  – Policy - Policies for information security T8.1.1 – Information Security Incident Management Policy T8.2.1 – Incident Response Plan T8.2.9 – Collection of Evidence T8.3.2 – Reporting Information Security Events Clause  – Policy - Policies for information security A.5.24 - Information security incident management planning and preparation A.5.26 - Response to information security incidents A.5.28 – Collection of Evidence A.6.8 - Information security event reporting T8.1.1 – Information Security Incident Management Policy Clause  – Policy - Policies for information security T8.2.1 – Incident Response Plan T8.3.3 – Reporting Security Weaknesses A.5.24 - Information security incident management planning and preparation A.5.26 - Response to information security incidents A.6.8 - Information security event reporting T8.1.1 – Information Security Incident Management Policy Clause  – Policy - Policies for information security T8.2.6 – Incident Response Assistance T8.2.7 – Information Security Incident Documentation T8.3.2 – Reporting Information Security Events A.6.8 - Information security event reporting T8.2.8 – Learning from Information Security Incidents A.5.27 - Learning from information security incidents T8.2.3 – Incident Classification A.5.25 - Assessment and decision on information security events T8.2.4 – Incident Response Training T8.2.5 – Incident Response Testing A.5.27 - Learning from information security incidents T8.2.5 – Incident Response Testing A.5.27 - Learning from information security incidents T8.3.3 – Reporting Security Weaknesses A.6.8 - Information security event reporting - - - - T8.2.7 – Information Security Incident Documentation T8.2.8 – Learning from Information Security Incidents T8.2.9 – Collection of Evidence A.5.27 - Learning from information security incidents A.5.28 – Collection of Evidence T8.3.1 – Situational Awareness A.6.3 - Information security awareness, education and training T8.1.1 – Information Security Incident Management Policy T8.2.1 – Incident Response Plan T8.2.2 – Computer Security Incident Response Team T8.2.3 – Incident Classification T8.2.6 – Incident Response Assistance T8.3.2 – Reporting Information Security Events T8.3.3 – Reporting Security Weaknesses Clause 5.2 – Policy A.5.1 - Policies for information security A.5.24 - Information security incident management planning and preparation A.5.25 - Assessment and decision on information security events A.5.26 - Response to information security incidents A.6.8 - Information security event reporting - - T8.1.1 – Information Security Incident Management Policy Clause  – Policy - Policies for information security",
+      "metadata": {
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 8,
+        "text_as_html": "<table><tr><td/><td/><td/></tr><tr><td/><td>T8.1.1 – Information Security Incident Management Policy</td><td>Clause – Policy - Policies for information security</td></tr><tr><td/><td>T8.1.1 – Information Security Incident Management Policy T8.2.1 – Incident Response Plan T8.2.9 – Collection of Evidence T8.3.2 – Reporting Information Security Events</td><td>Clause – Policy - Policies for information security A.5.24 - Information security incident management planning and preparation A.5.26 - Response to information security incidents A.5.28 – Collection of Evidence A.6.8 - Information security event reporting</td></tr><tr><td/><td>T8.1.1 – Information Security Incident Management Policy</td><td>Clause – Policy - Policies for information security</td></tr><tr><td/><td>T8.2.1 – Incident Response Plan T8.3.3 – Reporting Security Weaknesses</td><td>A.5.24 - Information security incident management planning and preparation A.5.26 - Response to information security incidents A.6.8 - Information security event reporting</td></tr><tr><td/><td>T8.1.1 – Information Security Incident Management Policy</td><td>Clause – Policy - Policies for information security</td></tr><tr><td/><td>T8.2.6 – Incident Response Assistance T8.2.7 – Information Security Incident Documentation T8.3.2 – Reporting Information Security Events</td><td>A.6.8 - Information security event reporting</td></tr><tr><td/><td>T8.2.8 – Learning from Information Security Incidents</td><td>A.5.27 - Learning from information security incidents</td></tr><tr><td/><td>T8.2.3 – Incident Classification</td><td>A.5.25 - Assessment and decision on information security events</td></tr><tr><td/><td>T8.2.4 – Incident Response Training T8.2.5 – Incident Response Testing</td><td>A.5.27 - Learning from information security incidents</td></tr><tr><td/><td>T8.2.5 – Incident Response Testing</td><td>A.5.27 - Learning from information security incidents</td></tr><tr><td/><td>T8.3.3 – Reporting Security Weaknesses</td><td>A.6.8 - Information security event reporting</td></tr><tr><td/><td>-</td><td>-</td></tr><tr><td/><td>-</td><td>-</td></tr><tr><td/><td>T8.2.7 – Information Security Incident Documentation T8.2.8 – Learning from Information Security Incidents T8.2.9 – Collection of Evidence</td><td>A.5.27 - Learning from information security incidents A.5.28 – Collection of Evidence</td></tr><tr><td/><td>T8.3.1 – Situational Awareness</td><td>A.6.3 - Information security awareness, education and training</td></tr><tr><td/><td>T8.1.1 – Information Security Incident Management Policy T8.2.1 – Incident Response Plan T8.2.2 – Computer Security Incident Response Team T8.2.3 – Incident Classification T8.2.6 – Incident Response Assistance T8.3.2 – Reporting Information Security Events T8.3.3 – Reporting Security Weaknesses</td><td>Clause 5.2 – Policy A.5.1 - Policies for information security A.5.24 - Information security incident management planning and preparation A.5.25 - Assessment and decision on information security events A.5.26 - Response to information security incidents A.6.8 - Information security event reporting</td></tr><tr><td/><td>-</td><td>-</td></tr><tr><td/><td>T8.1.1 – Information Security Incident Management Policy</td><td>Clause – Policy - Policies for information security</td></tr></table>",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    }
+  ],
+  "tables": [
+    {
+      "table_id": "table_1",
+      "text": "Document Information Document ID <CLIENT>-ORG-IMS-POL-006 Document Title <CLIENT> Information Security Incident Management Policy Prepared by Information Security Team Status Final Owner CISO Effective From 01-Jan-2023 Effective Till Until revoked Document Type Policy Document Classification Internal Distribution List <CLIENT> staff, Contractors, Third Parties",
+      "metadata": {
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 1,
+        "text_as_html": "<table><tr><td>Document Information</td><td>Document Information</td></tr><tr><td>Document ID</td><td>&lt;CLIENT&gt;-ORG-IMS-POL-006</td></tr><tr><td>Document Title</td><td>&lt;CLIENT&gt; Information Security Incident Management Policy</td></tr><tr><td>Prepared by</td><td>Information Security Team</td></tr><tr><td>Status</td><td>Final</td></tr><tr><td>Owner</td><td>CISO</td></tr><tr><td>Effective From</td><td>01-Jan-2023</td></tr><tr><td>Effective Till</td><td>Until revoked</td></tr><tr><td>Document Type</td><td>Policy</td></tr><tr><td>Document Classification</td><td>Internal</td></tr><tr><td>Distribution List</td><td>&lt;CLIENT&gt; staff, Contractors, Third Parties</td></tr></table>",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "table_id": "table_2",
+      "text": "Document Release Dates Version Date Editor Brief/Comments 0.1 Release of the draft Policy. 1.1 Release of the Policy.",
+      "metadata": {
+        "emphasized_text_contents": [
+          "Date",
+          "Editor",
+          "Brief/Comments"
+        ],
+        "emphasized_text_tags": [
+          "b",
+          "b",
+          "b"
+        ],
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 1,
+        "text_as_html": "<table><tr><td>Document Release Dates</td><td>Document Release Dates</td><td>Document Release Dates</td><td>Document Release Dates</td></tr><tr><td>Version</td><td>Date</td><td>Editor</td><td>Brief/Comments</td></tr><tr><td>0.1</td><td/><td/><td>Release of the draft Policy.</td></tr><tr><td>1.1</td><td/><td/><td>Release of the Policy.</td></tr></table>",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "table_id": "table_3",
+      "text": "Document Review Date Name Title/Designation Notes Review and Update. Review and minor update",
+      "metadata": {
+        "emphasized_text_contents": [
+          "Name",
+          "Title/Designation",
+          "Notes"
+        ],
+        "emphasized_text_tags": [
+          "b",
+          "b",
+          "b"
+        ],
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 1,
+        "text_as_html": "<table><tr><td>Document Review</td><td>Document Review</td><td>Document Review</td><td>Document Review</td></tr><tr><td>Date</td><td>Name</td><td>Title/Designation</td><td>Notes</td></tr><tr><td/><td/><td/><td>Review and Update.</td></tr><tr><td/><td/><td/><td>Review and minor update</td></tr></table>",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "table_id": "table_4",
+      "text": "Approvals Name Title/Designation Signature",
+      "metadata": {
+        "emphasized_text_contents": [
+          "Approvals",
+          "Approvals",
+          "Approvals",
+          "Name",
+          "Title/Designation",
+          "Signature"
+        ],
+        "emphasized_text_tags": [
+          "b",
+          "b",
+          "b",
+          "b",
+          "b",
+          "b"
+        ],
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 1,
+        "text_as_html": "<table><tr><td>Approvals</td><td>Approvals</td><td>Approvals</td></tr><tr><td>Name</td><td>Title/Designation</td><td>Signature</td></tr><tr><td/><td/><td/></tr></table>",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "table_id": "table_5",
+      "text": "Role Responsibility Executives & Senior Management Make available and support the required resources to drive incident management. Where relevant, provide direction to and participate in reviews and oversight of incident management. The IMS Committee will establish a CSIRT by: Identifying stakeholders and participants. Securing funding for CSIRT operations. Deciding on the scope of activities the CSIRT will offer. Determining the CSIRT reporting structure, authority, and organizational model. Identifying required resources such as staff, equipment, and infrastructure. Defining interactions and interfaces. Defining roles, responsibilities, and the corresponding authority. Documenting the workflow. Authorizing CSIRT in developing policies and corresponding procedures. Announcing the CSIRT when it becomes operational to create the appropriate level of awareness. CSIRT Develop, implement, and maintain an Incident Response Plan that encompasses: Processes and procedures for handling incidents during, and after an incident occurs to be documented, tested and maintained. A communication plan to include internal and external parties. Senior management approval of all plans and procedures. Defines the required resources and capabilities. Establish an Incident Classification Scheme in line with the incident response Policy considering UAE issuances with regard to incident management. Assess and identify the incidents that should be reported at the sector and national level. Develop and implement Incident Response Training program. Carry out incident response testing. Carry out incident handling. Prepare information security incident documentation. Learn from information security incidents. Provide situational awareness. Report information security events. Report security weaknesses. Human Capital Ensure that the Policy: Is communicated to all users. Is read and acknowledged formally by all users. Provide support to the CSIRT for the development and delivery of Incident Response Training program. Employees, Line Managers and Third Parties (Contractors, Vendors, etc.) Employees and third parties (including contractors, vendors, etc.) who access organizational premises, information and information assets or use information and communications technology (ICT) systems of the organization are responsible for adhering to this Policy and all its applicable procedures. InfoSec Ops Establish a reporting channel to report only InfoSec Incidents. Ensure that all employees and external party users are aware of their responsibility to report any information security incidents as quickly as possible. Ensure that all employees and external party users are aware of how to report an information security incident and the point of contact (PoC) as to whom and where the incident should be reported to.",
+      "metadata": {
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 7,
+        "text_as_html": "<table><tr><td>Role</td><td>Responsibility</td></tr><tr><td>Executives &amp; Senior Management</td><td>Make available and support the required resources to drive incident management. Where relevant, provide direction to and participate in reviews and oversight of incident management. The IMS Committee will establish a CSIRT by: Identifying stakeholders and participants. Securing funding for CSIRT operations. Deciding on the scope of activities the CSIRT will offer. Determining the CSIRT reporting structure, authority, and organizational model. Identifying required resources such as staff, equipment, and infrastructure. Defining interactions and interfaces. Defining roles, responsibilities, and the corresponding authority. Documenting the workflow. Authorizing CSIRT in developing policies and corresponding procedures. Announcing the CSIRT when it becomes operational to create the appropriate level of awareness.</td></tr><tr><td>CSIRT</td><td>Develop, implement, and maintain an Incident Response Plan that encompasses: Processes and procedures for handling incidents during, and after an incident occurs to be documented, tested and maintained. A communication plan to include internal and external parties. Senior management approval of all plans and procedures. Defines the required resources and capabilities. Establish an Incident Classification Scheme in line with the incident response Policy considering UAE issuances with regard to incident management. Assess and identify the incidents that should be reported at the sector and national level. Develop and implement Incident Response Training program. Carry out incident response testing. Carry out incident handling. Prepare information security incident documentation. Learn from information security incidents. Provide situational awareness. Report information security events. Report security weaknesses.</td></tr><tr><td>Human Capital</td><td>Ensure that the Policy: Is communicated to all users. Is read and acknowledged formally by all users. Provide support to the CSIRT for the development and delivery of Incident Response Training program.</td></tr><tr><td>Employees, Line Managers and Third Parties (Contractors, Vendors, etc.)</td><td>Employees and third parties (including contractors, vendors, etc.) who access organizational premises, information and information assets or use information and communications technology (ICT) systems of the organization are responsible for adhering to this Policy and all its applicable procedures.</td></tr><tr><td>InfoSec Ops</td><td>Establish a reporting channel to report only InfoSec Incidents. Ensure that all employees and external party users are aware of their responsibility to report any information security incidents as quickly as possible. Ensure that all employees and external party users are aware of how to report an information security incident and the point of contact (PoC) as to whom and where the incident should be reported to.</td></tr></table>",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "table_id": "table_6",
+      "text": "T8.1.1 – Information Security Incident Management Policy Clause  – Policy - Policies for information security T8.1.1 – Information Security Incident Management Policy T8.2.1 – Incident Response Plan T8.2.9 – Collection of Evidence T8.3.2 – Reporting Information Security Events Clause  – Policy - Policies for information security A.5.24 - Information security incident management planning and preparation A.5.26 - Response to information security incidents A.5.28 – Collection of Evidence A.6.8 - Information security event reporting T8.1.1 – Information Security Incident Management Policy Clause  – Policy - Policies for information security T8.2.1 – Incident Response Plan T8.3.3 – Reporting Security Weaknesses A.5.24 - Information security incident management planning and preparation A.5.26 - Response to information security incidents A.6.8 - Information security event reporting T8.1.1 – Information Security Incident Management Policy Clause  – Policy - Policies for information security T8.2.6 – Incident Response Assistance T8.2.7 – Information Security Incident Documentation T8.3.2 – Reporting Information Security Events A.6.8 - Information security event reporting T8.2.8 – Learning from Information Security Incidents A.5.27 - Learning from information security incidents T8.2.3 – Incident Classification A.5.25 - Assessment and decision on information security events T8.2.4 – Incident Response Training T8.2.5 – Incident Response Testing A.5.27 - Learning from information security incidents T8.2.5 – Incident Response Testing A.5.27 - Learning from information security incidents T8.3.3 – Reporting Security Weaknesses A.6.8 - Information security event reporting - - - - T8.2.7 – Information Security Incident Documentation T8.2.8 – Learning from Information Security Incidents T8.2.9 – Collection of Evidence A.5.27 - Learning from information security incidents A.5.28 – Collection of Evidence T8.3.1 – Situational Awareness A.6.3 - Information security awareness, education and training T8.1.1 – Information Security Incident Management Policy T8.2.1 – Incident Response Plan T8.2.2 – Computer Security Incident Response Team T8.2.3 – Incident Classification T8.2.6 – Incident Response Assistance T8.3.2 – Reporting Information Security Events T8.3.3 – Reporting Security Weaknesses Clause 5.2 – Policy A.5.1 - Policies for information security A.5.24 - Information security incident management planning and preparation A.5.25 - Assessment and decision on information security events A.5.26 - Response to information security incidents A.6.8 - Information security event reporting - - T8.1.1 – Information Security Incident Management Policy Clause  – Policy - Policies for information security",
+      "metadata": {
+        "file_directory": "data/01_raw/policies",
+        "filename": "clientname-IS-POL-00-Information Security Incident Management Policy 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 8,
+        "text_as_html": "<table><tr><td/><td/><td/></tr><tr><td/><td>T8.1.1 – Information Security Incident Management Policy</td><td>Clause – Policy - Policies for information security</td></tr><tr><td/><td>T8.1.1 – Information Security Incident Management Policy T8.2.1 – Incident Response Plan T8.2.9 – Collection of Evidence T8.3.2 – Reporting Information Security Events</td><td>Clause – Policy - Policies for information security A.5.24 - Information security incident management planning and preparation A.5.26 - Response to information security incidents A.5.28 – Collection of Evidence A.6.8 - Information security event reporting</td></tr><tr><td/><td>T8.1.1 – Information Security Incident Management Policy</td><td>Clause – Policy - Policies for information security</td></tr><tr><td/><td>T8.2.1 – Incident Response Plan T8.3.3 – Reporting Security Weaknesses</td><td>A.5.24 - Information security incident management planning and preparation A.5.26 - Response to information security incidents A.6.8 - Information security event reporting</td></tr><tr><td/><td>T8.1.1 – Information Security Incident Management Policy</td><td>Clause – Policy - Policies for information security</td></tr><tr><td/><td>T8.2.6 – Incident Response Assistance T8.2.7 – Information Security Incident Documentation T8.3.2 – Reporting Information Security Events</td><td>A.6.8 - Information security event reporting</td></tr><tr><td/><td>T8.2.8 – Learning from Information Security Incidents</td><td>A.5.27 - Learning from information security incidents</td></tr><tr><td/><td>T8.2.3 – Incident Classification</td><td>A.5.25 - Assessment and decision on information security events</td></tr><tr><td/><td>T8.2.4 – Incident Response Training T8.2.5 – Incident Response Testing</td><td>A.5.27 - Learning from information security incidents</td></tr><tr><td/><td>T8.2.5 – Incident Response Testing</td><td>A.5.27 - Learning from information security incidents</td></tr><tr><td/><td>T8.3.3 – Reporting Security Weaknesses</td><td>A.6.8 - Information security event reporting</td></tr><tr><td/><td>-</td><td>-</td></tr><tr><td/><td>-</td><td>-</td></tr><tr><td/><td>T8.2.7 – Information Security Incident Documentation T8.2.8 – Learning from Information Security Incidents T8.2.9 – Collection of Evidence</td><td>A.5.27 - Learning from information security incidents A.5.28 – Collection of Evidence</td></tr><tr><td/><td>T8.3.1 – Situational Awareness</td><td>A.6.3 - Information security awareness, education and training</td></tr><tr><td/><td>T8.1.1 – Information Security Incident Management Policy T8.2.1 – Incident Response Plan T8.2.2 – Computer Security Incident Response Team T8.2.3 – Incident Classification T8.2.6 – Incident Response Assistance T8.3.2 – Reporting Information Security Events T8.3.3 – Reporting Security Weaknesses</td><td>Clause 5.2 – Policy A.5.1 - Policies for information security A.5.24 - Information security incident management planning and preparation A.5.25 - Assessment and decision on information security events A.5.26 - Response to information security incidents A.6.8 - Information security event reporting</td></tr><tr><td/><td>-</td><td>-</td></tr><tr><td/><td>T8.1.1 – Information Security Incident Management Policy</td><td>Clause – Policy - Policies for information security</td></tr></table>",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    }
+  ],
+  "figures": [],
+  "text": "Classification: Internal\n\nDocument No: <CLIENT>-ORG-IMS-POL-006 Page 7 of 12\n\n\n\nINTRODUCTION\n\nThe Information Security Incident Management Policy outlines the overall framework for managing security incidents within the organization. It establishes roles and responsibilities for incident detection, response and recovery.\n\nPURPOSE\n\nThe purpose of this Information Security Incident Management Policy (“Policy”) is to ensure that information security incidents within the organization are communicated in a manner which allows timely corrective actions to be taken.\n\nFurthermore, the Policy establishes a commitment to comply with applicable sections of the federal and global laws and regulations, including but not limited to UAE Information Assurance Regulation, ISO27001 and National Cyber Risk Management Framework (NCRMF).\n\nThe following are the key objectives of this Policy:\n\nLaunch an incident response plan: Development, implementation, and maintenance of a plan to guide incident response activities.\n\nEstablish a CSIRT: Establishment of a Computer Security Incident Response Team (CSIRT) in charge of the incident management and response plan.\n\nEnable reporting: Reporting information security incidents that results in damage or risk to information security assets and operations through appropriate management channels to stakeholders.\n\nSCOPE\n\nThis Policy applies to anybody involved in the security Incident management and/or response including but not limited to employees and critical third parties who access or manage information and information assets or use the organization's information and communications technology (ICT) systems.\n\nAny exceptions on the applicability of this Policy should be formally requested through the ‘Policy Exception Management procedure’.\n\n\n\nPOLICY STATEMENT\n\n<CLIENT> shall develop, implement, and maintain an incident management program where personnel shall report information security events and weaknesses, collect, and analyze evidence of security incidents, and ensure security incidents are adequately managed.\n\nPOLICY DETAILS\n\nComputer Security Incident Response Team (CSIRT)\n\n<CLIENT> shall:\n\nIdentify personnel to form the proper CSIRT.\n\nEstablish the CSIRT before developing the incident response plan. Ensure that one of the first responsibilities of CSIRT is to create the incident response plan.\n\nEnsure that the CSIRT must include members from the following teams, at a minimum:\n\nTeam Leader – is usually senior manager responsible for managing incidents and directing actions to other team members.\n\nBoundary Protection Experts - usually individuals who are experts in logical perimeter security (expertise on Firewalls, IDS/IPS, WAF, Proxy etc.).\n\nNetwork Administrators.\n\nPhysical Security.\n\nLegal\n\nHuman Capital for incidents that was originated by an employee.\n\nCorporate Communications for managing the communication of incidents that has been revealed to public.\n\nThe CSIRT shall:\n\nDevelop incident management and Incident Response plan, process, and procedures.\n\nResponse to information security incidents and minimise the impact.\n\nInvestigate incidents and try to determine the Root cause.\n\nPrevent future incident by recommending security controls.\n\nHandle incident reporting and communication to all stakeholder involved internally and externally.\n\nProtect collected evidence by ensuring that it is stored in a way that prevents it from being tampered with.\n\nIncident Response Plan\n\nThe CSIRT shall: \n\nDevelop, implement, and maintain an incident response plan that includes the following, at a minimum:\n\nA roadmap and high-level approach for implementing organization’s incident response capability.\n\nA process to define reportable incidents and metrics for measuring the severity and Impact of incidents.\n\nDefine the required resources and management support to effectively maintain and mature an incident response capability.\n\nDocumentation that is reviewed and approved by defined personnel or roles.\n\n\n\nDistribute copies of the incident response plan to identified stakeholders.\n\nUpdate incident response plan regularly based on lessons learned.\n\nCommunicate incident response plan changes to defined incident response personnel.\n\nProtect the incident response plan from unauthorised disclosure and modification.\n\nPerform investigations based on information distributed by an information sharing community to reduce the risks of similar incidents.\n\nPerform post-incident analysis to identify the source of the incident.\n\nIncident Classification\n\nThe CSIRT shall:\n\nDefine, classify, and prioritise incidents to help identify the impact and scope of the incident.\n\nEstablish an incident classification scheme in line with the incident response plan considering regulatory issuances regarding incident management.\n\nEnsure that the SOC (Security Operations Centre) performs the following, at a minimum when an information security incident is reported:\n\nAssess the information security events using the agreed information security event and incident classification scale.\n\nDecide whether the events should be classified as information security incidents.\n\nEnsure that the assessment of the incident and the associated decision is forwarded to the CSIRT for confirmation and / or reassessment.\n\nIncident Response Training\n\nThe CSIRT shall:\n\nEnsure that the incident response training provided by the organisation is linked to assigned roles and responsibilities of respective personnel to include appropriate content and level of detail in such training.\n\nIncident Response Testing\n\nThe CSIRT in coordination with other appropriate teams shall:\n\nDevelop incident response testing procedures to:\n\nDetermine the overall effectiveness of its incident response capabilities.\n\nIdentify potential weaknesses or deficiencies.\n\nEnsure that the incident response testing approach simulates pre-defined breach scenarios across the incident response lifecycle including detection, reporting, and recovery to normal operations.\n\nUtilize checklists, table top (discussion-based) exercises, and functional (performance of duties in a simulated environment) exercises for incident response testing.\n\nParticipate in sector, national, and international exercises to further test the organization’s incident response capabilities.\n\n\n\nIncident Handling\n\nThe CSIRT shall:\n\nRespond to information security incidents through a nominated point of contact and other relevant persons of the organization or external parties.\n\nEnsure that the response to incidents include the following activities, at a minimum:\n\nCollecting the evidence as soon as possible after the occurrence.\n\nConducting information security forensics analysis, as required.\n\nEscalation, as required.\n\nEnsuring all involved response activities are properly logged for later analysis.\n\nCommunicating the existence of the information security incident or any relevant details thereof to other internal and external people or organizations with a need-to-know.\n\nDealing with information security weakness found to cause or contribute to the incident.\n\nClosing and recording the incident after successful resolution.\n\nInformation Security Incident Documentation\n\nThe CSIRT shall document Information security Incidents with reference to the <CLIENT> Information Security Incident Documentation Procedure.\n\nLearning from Information Security Incidents\n\nThe CSIRT shall:\n\nImplement relevant mechanisms to enable the types, volumes, costs (liaising with Finance Team), and impacts of information security incidents to be quantified and monitored.\n\nUtilize the information gained from evaluating information security incidents to identify recurring or high impact incidents and inform risk assessment and risk treatment activities.\n\nCollection of Evidence\n\n<CLIENT> shall:\n\nDevelop and follow internal procedures when dealing with evidence for the purposes of disciplinary and legal action.\n\nInclude the following processes related to the collection of potential evidence for incidents, at a minimum:\n\nIdentification process: the process involving the search for, recognition and documentation of potential evidence.\n\nCollection process: the process of gathering the physical items that can contain potential evidence.\n\nAcquisition process: the process of creating a copy of data within a defined set.\n\nPreservation process: the process to maintain and safeguard the integrity and original condition of the potential evidence.\n\nEstablish internal procedures to create the above processes in accordance with different types of media, devices, and state of devices (e.g., powered on or off state).\n\nEnsure that these procedures include the following, at a minimum:\n\n\n\nChain of custody.\n\nSafety of evidence.\n\nSafety of personnel.\n\nRoles and responsibilities of personnel involved.\n\nCompetency of personnel.\n\nDocumentation.\n\nBriefing.\n\nSituational Awareness\n\nThe CSIRT shall:\n\nEnsure priority information related to incidents are shared to relevant stakeholders in a timely manner even if it has not been fully analysed or resolved.\n\nCoordinate and share information in consultation with legal, with external entities, including, but not limited to external service providers, regulatory bodies, entities involved in the supply chain for organization’s information systems.\n\nProvide notice accordingly for all incidents involving Personally Identifiable Information (PII).\n\n\n\nROLES AND RESPONSIBILITIES\n\n\n\nPOLICY ENFORCEMENT AND EXCEPTIONS\n\nThis Policy is to be part of all employees, contractors and third parties’ processes, and all are responsible for understanding and adhering to this Policy. Any violation of this Policy shall be reported to Policy Owner. Violation of this Policy shall be subjected to disciplinary action by the <CLIENT>'s Human Capital Department, taking into consideration the recommendation of the Information Security department and in accordance with other applicable policies, laws and regulations.\n\nDisciplinary action may range from a verbal warning to discontinuation of access to facility or services, or termination of employment/contract/agreement, and possible legal action. The actual action taken shall depend on factors such as the seriousness of the breach and the user's disciplinary record.\n\nAny exceptions on the applicability of this Policy should be formally requested through the Policy Exception Management procedure.\n\nMONITORING AND REVIEW\n\nThis Policy is developed and owned by the <CLIENT> Information Security (IS) Team. It is reviewed by the CISO and approved by the CEO. \n\n<CLIENT> IS Team will initiate a review and of this Policy annually or whenever a significant change occurs in the organization’s operating environment.\n\nFeedback, suggestions or questions regarding the Policy shall be directed to the <CLIENT> IS Team at infosec@<CLIENT>.net.\n\n"
+}

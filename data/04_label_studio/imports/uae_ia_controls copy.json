@@ -1,0 +1,893 @@
+[
+  {
+    "control_family": {
+      "number": "M1",
+      "name": "Strategy and Planning"
+    },
+    "control_subfamily": {
+      "number": "M1.1",
+      "name": "Entity Context and Leadership"
+    },
+    "control": {
+      "id": "M1.1.1",
+      "name": "Understanding the Entity and its Context",
+      "description": "The entity shall determine external and internal factors that affect its ability to achieve the intended success of information security arrangements.",
+      "sub_controls": [
+        "M1.1.1.a: The entity shall determine interested parties that are relevant to its information security;",
+        "M1.1.1.b: The entity shall determine the requirements of these interested parties;",
+        "M1.1.1.c: The entity shall determine factors related to its sector or national contex;",
+        "M1.1.1.d: The entity shall determine its internal capabilities;",
+        "M1.1.1.e: The entity shall determine its organizational structure."
+      ],
+      "implementation_guidelines": "Before starting the design and implementation of information security within an entity, it is important to evaluate and understand both the external and internal context of this entity, since these can significantly influence the design of information security solutions. For the external factors, this activity should include topics such as:",
+      "external_factors": [
+        "a. the industry sector, legal, regulatory, financial, technological, economic, political, natural and competitive environment (international, national, regional, or local);",
+        "b. key drivers and trends impacting information security objectives;",
+        "c. relationships with, and dependencies of, external stakeholders."
+      ],
+      "internal_factors": [
+        "a. governance, organizational structure, roles, and accountabilities;",
+        "b. capabilities in terms of resources and knowledge (capital, time, people, processes, systems, and technologies);",
+        "c. information systems, information flows, and decision-making processes;",
+        "d. relationships with, and perceptions of, internal stakeholders;",
+        "e. the form and extent of contractual relationships."
+      ]
+    },
+    "applicablility": [
+      "P1",
+      "always"
+    ],
+    "breadcrumb": "Management > Strategy and Planning > Entity Context and Leadership > Understanding the Entity and its Context"
+  },
+  {
+    "control_family": {
+      "number": "M1",
+      "name": "Strategy and Planning"
+    },
+    "control_subfamily": {
+      "number": "M1.1",
+      "name": "Entity Context and Leadership"
+    },
+    "control": {
+      "id": "M1.1.2",
+      "name": "Leadership and Management Commitment",
+      "description": "The entity’s top management shall demonstrate leadership and commitment to information security.",
+      "sub_controls": [
+        "M1.1.2.a: Top management commitment shall ensure the information security policy and the information security objectives are established and are compatible with the strategic direction of the entity;",
+        "M1.1.2.b: Top management commitment shall ensure the integration of the information security requirements into the entity’s processes;",
+        "M1.1.2.c: Top management commitment shall ensure that the resources needed for information security are available;",
+        "M1.1.2.d: Top management commitment shall communicate the importance of the effectiveness of information security management;",
+        "M1.1.2.e: Top management commitment shall direct and support persons to contribute to the effectiveness of information security management and information security and conforming to the requirements of these;",
+        "M1.1.2.f: Top management commitment shall promote continual improvement;",
+        "M1.1.2.g: Top management commitment shall support other relevant management roles to demonstrate their leadership as it applies to their areas of responsibility;",
+        "M1.1.2.h: Top management commitment shall give direction to and participating in reviews of information security,  including risks, controls and effectiveness, on a high level."
+      ],
+      "implementation_guidelines": "Top management commitment and its visible demonstration is one important contributor to the overall success of information security within an entity. This does not mean that top management is carrying out the actions listed above themselves, but they need to ensure that the actions do take place, and that they are concluded successfully. One important part in these responsibilities is the assignment of appropriate resources, without which information security cannot succeed (see also M1.4.1 below). Another important aspect is the connectionbetween business goals and requirements and information security. Ideally, this is a balance between these items, and it should never be the case that information security hinders the business. It should, of course, also not be the case that an entity takes any unjustified risks and neglects security. The final decision what takes preference has to be taken by top management. Management should identify the needs for internal or external specialist information security advice, and review and coordinate results of the advice throughout the entity."
+    },
+    "applicablility": [
+      "P1",
+      "always"
+    ],
+    "breadcrumb": "Management > Strategy and Planning > Entity Context and Leadership > Leadership and Management Commitment"
+  },
+  {
+    "control_family": {
+      "number": "M1",
+      "name": "Strategy and Planning"
+    },
+    "control_subfamily": {
+      "number": "M1.1",
+      "name": "Entity Context and Leadership"
+    },
+    "control": {
+      "id": "M1.1.3",
+      "name": "Roles and Responsibilities for Information Security",
+      "description": "The entity shall ensure that the responsibilities and authorities of roles for information security are assigned and communicated.",
+      "sub_controls": [
+        "M1.1.1.a: Top management shall assign the responsibility and the authority for ensuring that the information security implemented in the entity conforms to the requirements of the UAE IA Regulation;",
+        "M1.1.1.b: Top management shall assign the responsibility and the authority for reporting on the performance of information security to top management;",
+        "M1.1.1.c: Top management shall ensure that an Information Security Manager is appointed to take overall responsibility for the establishment, implementation, maintenance and continual improvement of information security;",
+        "M1.1.1.d: Top management shall ensure that an Information Security Committee is established that oversees and governs the establishment, implementation, maintenance and continual improvement of information security in the entity, and that integrates information security in the entity."
+      ],
+      "implementation_guidelines": "The roles of the “Information Security Manager” and the “Information Security Committee” are important contributors to successful information security, and have therefore been defined as sub-controls. When implementing these sub-controls, please keep in mind that it is important to address these roles, but the name and way of implementation of these roles can be chosen by the entity. The Information Security Committee should have a leading role for information security in the entity and should be responsible for handling the important information security issues. The members of the Information Security Committee should have a sufficient understanding of information security for directing, monitoring, and completing the necessary tasks. Typical tasks of an Information Security Committee could be:",
+      "guidance_points": [
+        "a. defining and establishing roles and responsibilities for information security;",
+        "b. monitor the adequacy of resources to maintain and improve information security in the entity and recommend to management the acquiring of additional resources where necessary;",
+        "c. providing input into the development, approval and implementation of information security policies and procedures;",
+        "d. discussing practical issues regarding the implementation of information security policies and procedures and providing feedback from their respective parts of the entity;",
+        "e. ensure that the status of information security risks is up to date and approve the updated risk assessment;",
+        "f. recommending changes to policies and procedures based on security incidents and changes in risks;",
+        "g. deciding the criteria for accepting information security risks and the acceptable levels of risk;",
+        "h. identifying significant trends and changes to information security risks;",
+        "i. review the results of performance measurement activities;",
+        "j. reviewing audit reports and initiating appropriate corrective actions."
+      ]
+    },
+    "applicablility": [
+      "P1",
+      "always"
+    ],
+    "breadcrumb": "Management > Strategy and Planning > Entity Context and Leadership > Roles and Responsibilities for Information Security"
+  },
+  {
+    "control_family": {
+      "number": "M1",
+      "name": "Strategy and Planning"
+    },
+    "control_subfamily": {
+      "number": "M1.2",
+      "name": "Information Security Policy"
+    },
+    "control": {
+      "id": "M1.2.1",
+      "name": "Information Security Policy",
+      "description": "The entity’s top management shall establish a policy for information security in the entity.",
+      "sub_controls": [
+        "M1.2.1.a: The information security policy shall be appropriate to the purpose of the entity;",
+        "M1.2.1.b: The information security policy shall provide the framework for setting information security objectives and/or include information security objectives (refer to M2.3.5);",
+        "M1.2.1.c: The information security policy shall include a commitment to satisfy all applicable information security requirements;",
+        "M1.2.1.d: The information security policy shall include a commitment to continual improvement of the information security management system;",
+        "M1.2.1.e: The information security policy shall be documented;",
+        "M1.2.1.f: The information security policy shall be be maintained, reviewed and updated at planned intervals or if significant changes occur."
+      ],
+      "implementation_guidelines": "When developing the information security policy as well as the supporting policies (Control M1.2.2), take into account relevant TRA’s issuances and guidance in this regard.",
+      "guidance_points": [
+        "a. Statement related to management commitment and support of the goals and principles of information security in line with the business strategy and objectives;",
+        "b. Description of the entity’s approach to managing information security;",
+        "c. Definition of information security in terms of confidentiality, integrity and availability;",
+        "d. Reference to the entity risk management policy and the entity’s approach to information security risk management;",
+        "e. Reference to other risk management activities taking place in the entity, and how the information security risk management relates to that;",
+        "f. Importance of compliance with the information security policy, and all supporting information security policies and procedures, and consequences of violations;",
+        "g. Requirements for legislative, regulatory, sector and contractual requirements , security education, training, and awareness requirements, business continuity management;",
+        "h. Definition of general and specific responsibilities for information security, including reporting information security incidents;",
+        "i. References to supporting information security policies and procedures."
+      ],
+      "communication_requirements": [
+        "Communicated throughout the entity in a relevant, accessible, and understandable form.",
+        "Written in a way that allows communication to external parties (partners/contractors)."
+      ]
+    },
+    "applicablility": [
+      "P1",
+      "always"
+    ],
+    "breadcrumb": "Management > Strategy and Planning > Information Security Policy > Information Security Policy"
+  },
+  {
+    "control_family": {
+      "number": "M1",
+      "name": "Information Security Policy"
+    },
+    "control_subfamily": {
+      "number": "M1.2",
+      "name": "Information Security Policy"
+    },
+    "control": {
+      "id": "M1.2.2",
+      "name": "Supporting Policies for Information Security",
+      "description": "The entity shall establish and communicate a set of supporting policies for information security.",
+      "sub_controls": [
+        "M1.2.2.a: The set of supporting information security polices shall be defined, approved, published and communicated to employees and relevant external parties;",
+        "M1.2.2.b: The set of supporting information security polices shall address all aspects of information security that are included in this  Regulation, based on the risk assessment;",
+        "M1.2.2.c: The set of supporting information security polices shall address sector-specific and standards;",
+        "M1.2.2.d: The set of supporting information security polices shall be suitable to the entity and shall have a clearly identified audience;",
+        "M1.2.2.e: The set of supporting information security polices shall reflect the implementation the entity has chosen and shall not;",
+        "M1.2.2.f: The set of supporting information security polices shall include any statements the entity does not comply with;",
+        "M1.2.2.g: The set of supporting information security polices shall include commitment of the Top Management;",
+        "M1.2.2.h: The set of supporting information security polices shall be documented;",
+        "M1.2.2.i: The set of supporting information security polices shall be maintained, reviewed and updated at planned intervals or if significant changes occur."
+      ],
+      "implementation_guidelines": "The information security policy (refer to M1.2.1) should be supported by a set of supporting policies that address specific information security topics. Examples of topics to be addressed are:",
+      "guidance_points": [
+        "a.   logical access control;",
+        "b.   information classification and handling;",
+        "c.   physical security;",
+        "d.   end user oriented topics such as: clear desk and clear screen, email and Internet, mobile devices, restrictions on software installations and use media security;",
+        "e.   backup & recovery;",
+        "f.   information exchange/sharing and transfer;",
+        "g.   malware protection",
+        "h.   patch management;",
+        "i.   cryptographic controls;",
+        "j.   supplier relationships."
+      ],
+      "communication_requirements": [
+        "These policies should be communicated to users in a form that is relevant, accessible and understandable to the intended reader, and sufficient training and awareness should be put in place to ensure that all users of these policies have understood and are aware of their content. It is also recommended to include the acceptance of compliance with all applicable policies and procedures in the induction process."
+      ]
+    },
+    "applicablility": [
+      "P2",
+      "always"
+    ],
+    "breadcrumb": "Management > Strategy and Planning > Information Security Policy > Supporting Policies for Information Security"
+  },
+  {
+    "control_family": {
+      "number": "M1",
+      "name": "Strategy and Planning"
+    },
+    "control_subfamily": {
+      "number": "M1.3",
+      "name": "Organization of Information Security"
+    },
+    "control": {
+      "id": "M1.3.1",
+      "name": "Authorization Process for Information Systems",
+      "description": "The entity shall establish a management authorization process for new information systems.",
+      "sub_controls": [
+        "M1.3.1.a: The entity shall define and implement a management authorization process for new information systems",
+        "M1.3.1.b: The entity shall regulate the use of personal information systems for processing business information"
+      ],
+      "implementation_guidelines": "The following guidelines should be considered for the authorization process:",
+      "guidance_points": [
+        "a. new facilities should have appropriate user management authorization authorizing their purpose and use Authorization should also be obtained from the manager responsible for maintaining the local information system security environment to ensure that all relevant security policies and requirements are met;",
+        "b.  where necessary, hardware and software should be checked to ensure that they are compatible with other system components;",
+        "c. the use of personal or privately owned information systems, e.g. laptops, home-computers or hand-held devices, for processing business information, may introduce new vulnerabilities and necessary controls should be identified and implemented."
+      ]
+    },
+    "applicablility": [
+      "P2",
+      "always"
+    ],
+    "breadcrumb": "Management > Strategy and Planning > Organization of Information Security > Authorization Process for Information Systems"
+  },
+  {
+    "control_family": {
+      "number": "M1",
+      "name": "Strategy and Planning"
+    },
+    "control_subfamily": {
+      "number": "M1.3",
+      "name": "Organization of Information Security"
+    },
+    "control": {
+      "id": "M1.3.2",
+      "name": "Confidentiality Agreements",
+      "description": "The entity shall establish requirements for confidentiality or non-disclosure agreements reflecting the entity’s needs for the protection of information.",
+      "sub_controls": [
+        "M1.3.2.a: The entity shall define a Non-Disclosure Agreement (NDA) template to be used to legally protect confidential information and ownership of information;",
+        "M1.3.2.b: The entity shall have an information classification process in place to identify which information is subject to the terms of the NDA;",
+        "M1.3.2.c: The entity shall Keep a track record of all signed NDAs and perform a periodical review;"
+      ],
+      "implementation_guidelines": "Confidentiality or non-disclosure agreements should address the requirement to protect confidential information using legally enforceable terms. To identify requirements for confidentiality or non-disclosure agreements, the following elements should be considered:",
+      "guidance_points": [
+        "a. a definition of the information to be protected (e.g. confidential information);",
+        " b. expected duration of an agreement, including cases where confidentiality might need to be maintained indefinitely;",
+        "c. required actions when an agreement is terminated;",
+        "d. responsibilities and actions of signatories to avoid unauthorized information disclosure (such as ‘need to know’);",
+        "e. ownership of information, trade secrets and intellectual property, and how this relates to the protection of confidential information;",
+        "f. the permitted use of confidential information, and rights of the signatory to use information;",
+        "g. the right to audit and monitor activities that involve confidential information;",
+        "h. process for notification and reporting of unauthorized disclosure or confidential information breaches;",
+        " i. terms for information to be returned or destroyed at agreement cessation;",
+        "j. expected actions to be taken in case of a breach of this agreement."
+      ],
+      "confidentiality_guidance": [
+        "Based on an entity’s security requirements, other elements may be needed in a confidentiality or non-disclosure agreement.",
+        "Confidentiality and non-disclosure agreements should comply with all applicable laws and for the jurisdiction to which it applies.",
+        " Requirements for confidentiality and non-disclosure agreements should be reviewed periodically and when changes occur that influence these requirements."
+      ]
+    },
+    "applicablility": [
+      "P2",
+      "always"
+    ],
+    "breadcrumb": "Management > Strategy and Planning > Organization of Information Security > Confidentiality Agreements"
+  },
+  {
+    "control_family": {
+      "number": "M1",
+      "name": "Strategy and Planning"
+    },
+    "control_subfamily": {
+      "number": "M1.3",
+      "name": "Organization of Information Security"
+    },
+    "control": {
+      "id": "M1.3.3",
+      "name": "Contact With Authorities",
+      "description": "The entity shall maintain appropriate contacts with relevant authorities.",
+      "sub_controls": [
+        "M1.3.3.a: The entity shall identify all relevant national authorities, including sector specific regulators;",
+        "M1.3.3.b: The entity shall identify a Point of Contact in the Entity and communicate his/her name to the identified authorities, if required or allowed;",
+        "M1.3.3.c: The entity shall establish a policy to determine when and how to engage relevant authorities."
+      ],
+      "implementation_guidelines": [
+        "Entities should have procedures in place that specify when and by whom authorities (e.g. law enforcement, fire department, supervisory authorities) should be contacted, and how identified information security incidents should be reported in a timely manner if it is suspected that laws may have been broken. (Refer to Information Security Events and Weaknesses Reporting T8.3).",
+        "Entities under attack from the Internet may need external third paries (e.g. an Internet service provider or telecommunications operator) to take action against the attack source. Contact with authorities also could include external working groups."
+      ]
+    },
+    "applicablility": [
+      "P4",
+      "always"
+    ],
+    "breadcrumb": "Management > Strategy and Planning > Organization of Information Security > Contact With Authorities"
+  },
+  {
+    "control_family": {
+      "number": "M1",
+      "name": "Strategy and Planning"
+    },
+    "control_subfamily": {
+      "number": "M1.3",
+      "name": "Organization of Information Security"
+    },
+    "control": {
+      "id": "M1.3.4",
+      "name": "Contact with Special Interest Groups",
+      "description": "The entity shall maintain, as far as possible, appropriate contacts with relevant special interest groups.",
+      "sub_controls": [
+        "M1.3.4.a: The entity shall identify all relevant national and international interest groups or working groups or other specialist security forums and professional associations;",
+        "M1.3.4.b: The entity shall allocate the right resources in order to properly support the group;",
+        "M1.3.4.c: The entity shall define what participating employees are allowed to share;",
+        "M1.3.4.d: The entity shall allow sharing and circulation of information inside the entity, as permitted by interest group rules."
+      ],
+      "implementation_guidelines": " Membership in special interest groups or forums should be considered as a means to:",
+      "guidance_points": [
+        "a : improve knowledge about best practices and staying up to date with relevant security information",
+        "b : ensure the understanding of the information security environment is current and complete;",
+        "c : receive early warnings of alerts, advisories, and patches pertaining to attacks and vulnerabilities;",
+        "d : gain access to specialist information security advice;",
+        "e : share and exchange information about new technologies, products, threats, or vulnerabilities;",
+        "f : provide suitable liaison points when dealing with information security incidents."
+      ]
+    },
+    "applicablility": [
+      "P4",
+      "always"
+    ],
+    "breadcrumb": "Management > Strategy and Planning > Entity Context and Leadership > Understanding the Entity and its Context"
+  },
+  {
+    "control_family": {
+      "number": "M1",
+      "name": "Strategy and Planning"
+    },
+    "control_subfamily": {
+      "number": "M1.3",
+      "name": "Organization of Information Security"
+    },
+    "control": {
+      "id": "M1.3.5",
+      "name": "Identification of Risks Related to External Parties",
+      "description": "The entity shall identify and properly manage the risks related to its information and information systems from business processes involving external parties.",
+      "sub_controls": [
+        "M1.3.5.a: The entity shall identify risks to its information and information systems and implement the appropriate controls before granting access to any external party;",
+        "M1.3.5.b: The entity shalldefine an external party access policy;",
+        "M1.3.5.c: The entity shall  identify and adopt proper controls to limit physical and logical access to information assets and entity information systems;",
+        "M1.3.5.d: The entity shall monitor external party access to entity information and entity information systems."
+      ],
+      "implementation_guidelines": "Membership in special interest groups or forums should be considered as a means to:",
+      "guidance_points": [
+        "a. the information systems an external party is required to access;",
+        "b. types of external party access physical access (e.g.offices,  computer rooms, filing cabinets) and logical access (e.g. entity’s database, information systems) and network connectivity between the entity’s and the external party’s network(s), e.g. permanent connection,remoteaccess,  whether the access is taking place on-site or off-site;",
+        "c. the value and sensitivity of the information involved, and its criticality for business operations;",
+        "d. the controls necessary to protect information that is not intended to be accessible by external parties;",
+        "e. the external party personnel involved in handling the entity’s information;",
+        "f. how the entity or personnel authorized to have access can be identified, the authorization verified, and how often this needs to be reconfirmed;",
+        "g : the different means and controls employed by the external party when storing, processing,communicating, sharing and exchanging information;",
+        "h. the impact of access not being available to the external party when required, and the external party entering or receiving inaccurate or misleading information;",
+        "i. practices and procedures to deal with information security incidents and potential damages, and the terms and conditions for the continuation of external party access in the case of an information security incident;",
+        "j. legal and regulatory requirements and other contractual obligations relevant to the external party that should be taken into account;",
+        "k. how the interests of any other stakeholders may be affected by the arrangements."
+      ],
+      "external_party_risks_guidance": [
+        "Access by external parties to the entity’s information should not be provided until the appropriate controls have been implemented and, where feasible, a contract has been signed defining the terms and conditions for the connection or access and the working arrangement. Generally, all security requirements resulting from work with external parties or internal controls should be reflected by the agreement with the external party.",
+        "It should be ensured that the external party is aware of their obligations, and accepts the responsibilities and liabilities involved in accessing, processing, communicating, or managing the entity’s information and information systems."
+      ]
+    },
+    "applicablility": [
+      "P1",
+      "Based on risk assessment"
+    ],
+    "breadcrumb": "Management > Strategy and Planning > Entity Context and Leadership > Understanding the Entity and its Context"
+  },
+  {
+    "control_family": {
+      "number": "M1",
+      "name": "Strategy and Planning"
+    },
+    "control_subfamily": {
+      "number": "M1.3",
+      "name": "Organization of Information Security"
+    },
+    "control": {
+      "id": "M1.3.6",
+      "name": "Addressing Security When Dealing with Customers",
+      "description": "The entity shall address all identified security requirements before giving customers access to the entity’s information or assets.",
+      "sub_controls": [
+        "M1.3.6.a: The entity shall make sure that any customer accessing entity information and information systems are compliant with the entity’s informationsecurity policy and security requirements;",
+        "M1.3.6.b: The entity shall monitor any customer access and verify compliance to agreed access"
+      ],
+      "implementation_guidelines": "The following terms should be considered to address security prior to giving customers access: ",
+      "guidance_points": [
+        {
+          "item": "a. asset protection",
+          "sub_points": [
+            "1- procedures to protect assets, information, and software, and vulnerability management;",
+            "2- procedures to detect compromise, loss, or modification of data;",
+            "3- integrity controls;",
+            "4- restrictions on copying and disclosing information;"
+          ]
+        },
+        "b. description of the product or service to be provided;",
+        "c. the different reasons, requirements, and benefits for customer access;",
+        {
+          "item": "d. access control policy",
+          "sub_points": [
+            "1- permitted access methods and use of unique identifiers (IDs/passwords);",
+            "2- authorization process for user access and privileges;",
+            "3- a statement that all access not explicitly authorized is forbidden;",
+            "4- a process for revoking access rights or interrupting connections;"
+          ]
+        },
+        "e. arrangements for reporting and investigation of inaccuracies, incidents, and breaches;",
+        "f. a description of each service to be made available;",
+        "g. the target level of service and unacceptable levels of service;",
+        "h. the right to monitor and revoke activity related to entity assets;",
+        "i. the respective liabilities of the entity and the customer;",
+        "j. legal and data protection responsibilities, including cross-border legal considerations;",
+        "k. intellectual property rights (IPRs), copyright assignment, and collaborative work protection."
+      ]
+    },
+    "applicablility": [
+      "P2",
+      "Based on risk assessment"
+    ],
+    "breadcrumb": "Management > Strategy and Planning > Organization of Information Security > Addressing Security When Dealing with Customers"
+  },
+  {
+    "control_family": {
+      "number": "M1",
+      "name": "Strategy and Planning"
+    },
+    "control_subfamily": {
+      "number": "M1.3",
+      "name": "Organization of Information Security"
+    },
+    "control": {
+      "id": "M1.3.7",
+      "name": "Addressing Security in Third Party Agreements",
+      "description": "The entity shall establish requirements for confidentiality or non-disclosure agreements reflecting the entity’s needs for the protection of information.",
+      "sub_controls": [
+        "M1.3.7.a: The entity shall verify that any contract or agreement with third parties addresses all aspects of the entity’s information security policy regarding accessing, processing, communicating or managing the entity’s information or information systems, or adding products or services to information systems",
+        "M1.3.7.b: The entity shall make sure that proper controls are introduced in the contract in order to verify compliance with the agreed security objectives (refer to T6)",
+        "M1.3.7.c: The entity shall perform audit of third parties services and infrastructures to verify compliance with agreed security objectives",
+        "M1.3.7.d: The entity shall Keep a track record of all signed NDAs and perform a periodical review"
+      ],
+      "implementation_guidelines": "The following terms should be considered for inclusion in the agreement to satisfy security requirements:",
+      "guidance_points": [
+        "a. the information security policy;",
+        {
+          "item": "b. controls to ensure asset protection",
+          "sub_points": [
+            "1- procedures to protect organizational assets (information, software, and hardware);",
+            "2- required physical protection controls and mechanisms;",
+            "3- controls to ensure protection against malicious software;",
+            "4- procedures to detect compromise, loss, or modification of assets;",
+            "5- controls for return or destruction of assets at termination or agreed points;",
+            "6- protection of confidentiality, integrity, availability, and relevant properties;",
+            "7- restrictions on copying/disclosing information and use of confidentiality agreements;"
+          ]
+        },
+        "c. user and administrator training in methods, procedures, and security;",
+        "d. ensuring user awareness for info-sec responsibilities;",
+        "e. provision for the transfer of personnel, where appropriate;",
+        "f. responsibilities regarding hardware/software installation and maintenance;",
+        "g. clear reporting structure and agreed formats;",
+        "h. clear and specified process of change management;",
+        {
+          "item": "i. access control policy",
+          "sub_points": [
+            "1- reasons, requirements, and benefits making third-party access necessary;",
+            "2- permitted access methods and use of unique identifiers (IDs/passwords);",
+            "3- authorization process for user access and privileges;",
+            "4- requirement to maintain a list of authorized individuals and their rights;",
+            "5- statement that all access not explicitly authorized is forbidden;",
+            "6- process for revoking access rights or interrupting connections;"
+          ]
+        },
+        "j. arrangements for reporting and investigation of incidents, breaches, and violations;",
+        "k. description of product/service, information made available, and its classification;",
+        "l. target level of service and unacceptable levels of service;",
+        "m. definition of verifiable performance criteria, monitoring, and reporting;",
+        "n. the right to monitor and revoke any activity related to entity assets;",
+        "o. the right to audit, including third-party audits and statutory rights of auditors;",
+        "p. establishment of an escalation process for problem resolution;",
+        "q. service continuity requirements, including availability and reliability measures;",
+        "r. respective liabilities of the parties to the agreement;",
+        "s. legal responsibilities, data protection legislation, and cross-border legal systems;",
+        "t. intellectual property rights (IPRs), copyright assignment, and collaborative work;",
+        "u. involvement of subcontractors and required security controls for them;",
+        {
+          "item": "v. conditions for renegotiation/termination of agreements",
+          "sub_points": [
+            "1- contingency plan for early termination;",
+            "2- renegotiation process if security requirements change;",
+            "3- documentation of asset lists, licenses, and rights."
+          ]
+        }
+      ]
+    },
+    "applicablility": [
+      "P2",
+      "Based on risk assessment"
+    ],
+    "breadcrumb": "Management > Strategy and Planning > Organization of Information Security > Addressing Security in Third Party Agreements"
+  },
+  {
+    "control_family": {
+      "number": "M1",
+      "name": "Strategy and Planning"
+    },
+    "control_subfamily": {
+      "number": "M1.4",
+      "name": "Support"
+    },
+    "control": {
+      "id": "M1.4.1",
+      "name": "Resources",
+      "description": "The entity shall determine and provide the appropriate resources needed for the entity’s information security continual improvement.",
+      "sub_controls": [
+        "M1.4.1.1: The amount of human and financial resources provided shall be adequate for the work to be carried out for information security;",
+        "M1.4.1.2: The allocated human resources shall be sufficiently competent for their roles and responsibilities;",
+        "M1.4.1.2.a: Determine necessary competence for persons doing work under entity control affecting info-sec performance;",
+        "M1.4.1.2.b: Ensure competence on the basis of appropriate education, training, or experience;",
+        "M1.4.1.2.c: Take actions to acquire necessary competence and evaluate effectiveness of actions taken;",
+        "M1.4.1.2.d: Retain appropriate documented information as evidence of competence."
+      ],
+      "implementation_guidelines": "The entity should allocate appropriate resources for information security, taking account of:",
+      "guidance_points": [
+        "a. people, skills, experience and competence;",
+        "b. resources needed for each part of the process to achieve and maintain information security;",
+        "c. specific resources for information security risk management (refer to M2);",
+        "d. documentation (refer to M1.4.3);",
+        "e. knowledge and management of competence; and",
+        "f. training programs (refer to M3.2)."
+      ],
+      "management_responsibility": "Top management is responsible for ensuring the right resources are allocated and receive appropriate training. Personnel should understand the importance of their role in achieving security objectives."
+    },
+    "cross_references": [
+      "M2",
+      "M1.4.3",
+      "M3.2"
+    ],
+    "applicablility": [
+      "P1",
+      "always"
+    ],
+    "breadcrumb": "Management > Strategy and Planning > Support > Resources"
+  },
+  {
+    "control_family": {
+      "number": "M1",
+      "name": "Strategy and Planning"
+    },
+    "control_subfamily": {
+      "number": "M1.4",
+      "name": "Support"
+    },
+    "control": {
+      "id": "M1.4.2",
+      "name": "Internal and External Communication",
+      "description": "The entity shall determine the plan and mechanism for internal and external communications in support of its information security.",
+      "sub_controls": [
+        "M1.4.2.1.a: The entity shall determine on what to communicate;",
+        "M1.4.2.1.b: The entity shall when to communicate;",
+        "M1.4.2.1.c: The entity shall with whom to communicate;",
+        "M1.4.2.1.d: The entity shall who shall communicate;",
+        "M1.4.2.1.e: The entity shall the processes by which communication shall be effected;",
+        "M1.4.2.2 : The entity shall ensure that adequate communication can be  maintained with the designated UAE Government entities;",
+        "M1.4.2.3 : The entity shall document the communication plan."
+      ],
+      "implementation_guidelines": "The entity shall establish internal and external communication and reporting mechanisms to support information security and ensure effective exchange of information with stakeholders.",
+      "internal_communication": {
+        "guidance": "Internal communication and reporting mechanisms should ensure that:",
+        "points": [
+          "a. key components of information security controls and modifications are communicated appropriately;",
+          "b. there is adequate internal reporting on information security effectiveness and outcomes;",
+          "c. relevant information from security controls is available within the entity as appropriate;",
+          "d. there are processes for consultation with internal stakeholders."
+        ]
+      },
+      "external_communication": {
+        "guidance": "The entity should develop and implement a plan for communicating with external stakeholders involving:",
+        "points": [
+          "a. engaging appropriate external stakeholders and ensuring effective exchange of information;",
+          "b. external reporting to comply with legal, regulatory, sector, and governance requirements;",
+          "c. providing feedback and reporting on communication and consultation;",
+          "d. using communication to build confidence in the entity and its security;",
+          "e. communicating with stakeholders in the event of a crisis or contingency."
+        ]
+      }
+    },
+    "applicablility": [
+      "P1",
+      "always"
+    ],
+    "breadcrumb": "Management > Strategy and Planning > Support > Internal and External Communication"
+  },
+  {
+    "control_family": {
+      "number": "M1",
+      "name": "Strategy and Planning"
+    },
+    "control_subfamily": {
+      "number": "M1.4",
+      "name": "Support"
+    },
+    "control": {
+      "id": "M1.4.3",
+      "name": "Documentation",
+      "description": "The entity shall maintain, protect and control documentation of its information security controls and their implementation..",
+      "sub_controls": [
+        "M1.4.3.a: The entity shall ensure that documents are approved prior to issue;",
+        "M1.4.3.b: The entity shall ensure that documents are reviewed and updated as necessary;",
+        "M1.4.3.c: The entity shall ensure that changes and the current revision status of documents are identified;",
+        "M1.4.3.d: The entity shall ensure that documents remain legible and readily identifiable;",
+        "M1.4.3.e: The entity shall ensure that documents are available to those who need them, are transferred,and stored in accordance with the procedures applicable to their classification;",
+        "M1.4.3.f: The entity shall ensure that documents are disposed of in accordance with the procedures applicable to their classification;",
+        "M1.4.3.g: The entity shall ensure that documents of external origin are identified;",
+        "M1.4.3.h: The entity shall ensure that the distribution of documents is controlled;",
+        "M1.4.3.i: The entity shall ensure that the unintended use of obsolete documents is prevented, and that updates are made to the current version of the document to date versions are available;",
+        "M1.4.3.j: The entity shall ensure that suitable identification is applied to documents if they are retained for any purpose."
+      ],
+      "implementation_guidelines": [
+        "One of the most important aspects of implementing document management in an entity is to do this consistent and throughout the entity, with supporting training, awareness and also checking that the document management controls are followed. It is necessary to include templates for document management in all documentation, irrespective of the form it takes.",
+        "All this can be supported by using document management systems and other controls to technically ensure that the necessary actions are carried out, wherever it is possible, it is recommended to use technical support to achieve a complete implementation.",
+        "Compliance with this control should be checked every so often, and non-compliances should be reacted to, to demonstrate that this actually is an important control everybody needs to comply with.",
+        "Particular attention should be given to the protection of records – it is not so important for records to have an author (they are often system based- and a change history (they should not change at all if they are supposed to provide evidence), but the date of issue and the integrity of the record are important items to maintain."
+      ]
+    },
+    "applicablility": [
+      "P2",
+      "always"
+    ],
+    "breadcrumb": "Management > Strategy and Planning > Support > Documentation"
+  },
+  {
+    "control_family": {
+      "number": "M2",
+      "name": "Information Security Risk Management"
+    },
+    "control_subfamily": {
+      "number": "M2.1",
+      "name": "Information Security Risk Management Policy"
+    },
+    "control": {
+      "id": "M2.1.1",
+      "name": "Information Security Risk Management Policy",
+      "description": "The entity shall establish a formal information security risk management.",
+      "sub_controls": [
+        "M2.1.1.a: The information security risk management policy shall take into account relevant TRA’s issuances in regard to risk management:",
+        "M2.1.1.b: The information security risk management policy shall be documented and formally approved;",
+        "M2.1.1.c: The information security risk management policy shall addresses the purpose and scope of critical services and their supporting functions;",
+        "M2.1.1.d: The information security risk management policy shall categorize Information Asset based on its criticality;",
+        "M2.1.1.e: The information security risk management policy shall addresses roles and responsibilities of the risk assessment team involved;",
+        "M2.1.1.f: The information security risk management policy shall establish and maintain information security basic criteria, including the risk acceptance criteria, impact criteria, and risk evaluation criteria;",
+        "M2.1.1.g: The information security risk management policy shall contain a risk treatment strategy;",
+        "M2.1.1.h: The information security risk management policy shall contain a risk monitoring and review strategy;",
+        "M2.1.1.i: The information security risk management policy shall determine the criteria for performing, reviewing and updating information security risk assessments;",
+        "M2.1.1.j: The information security risk management policy shall be ensure that repeated information security risk assessments produce consistent, valid and comparable results."
+      ],
+      "implementation_guidelines": "Entities owning, operating, and/or maintaining Critical Information Infrastructure (CII) shall incorporate relevant TRA issuances and NCRMF guidance into their risk assessment processes.",
+      "policy_content_requirements": {
+        "description": "The information security risk management policy should clearly define the methodology for risk assessment, including:",
+        "points": [
+          "a. the level of detail required for asset identification;",
+          "b. the basis for identifying threats and vulnerabilities;",
+          "c. the scales used for asset valuation (Confidentiality, Integrity, Availability);",
+          "d. the calculation method for threat likelihood and vulnerability exploitation;",
+          "e. the formula or methodology for calculating overall risk;",
+          "f. assignment of responsibilities for performing risk assessments;",
+          "g. the logic and basis for control selection;",
+          "h. metrics for measuring risk management performance;",
+          "i. established criteria for the continuous improvement of risk management."
+        ]
+      },
+      "assessment_approach_criteria": {
+        "description": "The policy must describe the assessment type (High-level vs. Detailed) based on:",
+        "factors": [
+          "a. the specific security requirements of the entity;",
+          "b. current maturity levels vs. desired future state (linked to self-assessment);",
+          "c. available capabilities, knowledge, and resources;",
+          "d. sector-specific or other applicable regulatory requirements."
+        ]
+      },
+      "additional_requirements": [
+        "The entity must be able to provide justifications for the chosen risk management approach.",
+        "The risk management policy should be communicated appropriately to all relevant stakeholders."
+      ],
+      "cross_references": [
+        "NCRMF (National Cyber Risk Management Framework)",
+        "M.2.2 (Risk Assessment Types)"
+      ]
+    },
+    "applicability": [
+      "P1",
+      "always"
+    ],
+    "breadcrumb": "Management > Information Security Risk Management > Information Security Risk Management Policy > Information Security Risk Management Policy"
+  },
+  {
+    "control_family": {
+      "number": "M2",
+      "name": "Information Security Risk Management"
+    },
+    "control_subfamily": {
+      "number": "M2.2",
+      "name": "Information Security Risk Assessment"
+    },
+    "control": {
+      "id": "M2.2.1",
+      "name": "Information Security Risk Identification",
+      "description": "The entity shall identify its information security risks.",
+      "sub_controls": [
+        "M2.2.1.1: The entity shall apply the information security risk assessment process to identify risks associated with the loss of confidentiality, integrity and availability for its information by:",
+        "M2.2.1.1.a: define the scope of the risk assessment exercise;",
+        "M2.2.1.1.b: identify critical business functions;",
+        "M2.2.1.1.c: identify critical information systems supporting business critical functions within the scope and boundary of the risk assessment;",
+        "M2.2.1.1.d: identifying vulnerabilities related to the information and  information systems. (see also T 7.7);",
+        "M2.2.1.1.e: identify existing information security controls;",
+        "M2.2.1.1.f: Identifying threats and threat sources;",
+        "M2.2.1.2: The entity shall identify the risk owners;",
+        "M2.2.1.3: The entity shall document the results of the risk identification."
+      ],
+      "implementation_guidelines": "Entities should take into account relevant TRA’s issuances and guidance with regard to risk management when performing risk assessment.",
+      "guidance_points" :[
+        {
+          
+          "item": "a.  Level of detail of the information security risk assessment:",
+          "sub_points": [
+            "1- Some entities might find it difficult or time consuming to conduct a detailed risk assessment. The choice of a suitable risk management approach should be taken when drafting the Information Security Risk Management Policy (refer to M2.1.1), and the implementation guidance there explains the considerations the entity should take into account when deciding on a suitable way of doing information security risk management. The entity should document these results and should be able to provide reasons for the decision taken.",
+            "2- An entity will only be considered as being compliant with the requirements of this Regulation if they apply a suitable information security risk management policy."
+          ]
+        },
+                {
+                  "item": "b.  Asset identification: The assets to be considered in the information security risk assessment are all information assets",
+                  "sub_points": [
+                    "1- information: databases, files, contracts and agreements, system documentation, research information,  user manuals, training material, operational or support procedures, etc. ;",
+                    "2- software assets: application software, system software, development tools, and utilities;",
+                    "3- physical assets: computer equipment, communications equipment, removable media;",
+                    "4- other equipment;",
+                    "5- services: computing and communications services, general utilities, e.g. heating, lighting, power, and air conditioning;",
+                    "6-  people, and their qualifications, skills, and experience;",
+                    "7- intangibles, such as reputation and image of the entity;"
+                  ]
+                },
+                {
+                  "item": "c. Identification of threats:",
+                  "sub_points": [
+                    "1- Threats are not very dependent on the entity and its business; they are just out there trying to succeed. When identifying threats, it can be helpful to use threat lists (e.g. those provided in this Regulation, or in other standards, such as ISO/IEC 27005), and to look into incident reports (incidents are always related to threats that have been successful- and audit reports, and to keep an open mind to the latest development as new threats will continue to emerge;",
+                    "2- It is also important to not only look at threats from the outside, such as hackers or malware, but also consider inside threats. A disgruntled employee with given access rights can often do more damage as outsiders."
+                  ]
+                },
+                {
+                  "item": "d. Identification of vulnerabilities:",
+                  "sub_points": [
+                    "1- The identification of vulnerabilities should be based on an assessment of the existing controls. To do so, it is recommended to conduct a gap analysis, which checks the controls in place against this Regulation. The results of the gap analysis form an input in the identification of vulnerabilities as well as into the assessment of the risk likelihood (see also M2.2.2 below).;",
+                    "2- Any control, which has been identified as missing, not completely in place, not fully documented or not complied with identifies at least one (if not more- vulnerabilities, which might be exploited by the identified threats."
+                  ]
+                }
+      ]
+ 
+    },
+          "cross_references": [
+            "M2.1.1 (Information Security Risk Management Policy)",
+            "M.2.2 (Risk Assessment Types)",
+            "T 7.7 (Vulnerability Management)",
+            "T1.2.1 (Asset Inventory)"
+          ],
+    "applicability": [
+      "P1",
+      "always"
+    ],
+    "breadcrumb": "Management > Information Security Risk Management > Information Security Risk Management Policy > Information Security Risk  Evaluation"
+  },
+  {
+    "applicability": [
+      "P1",
+      "always"
+    ],
+    "breadcrumb": "Management >  Information Security Risk Management > Information Security Risk Assessment > Information Security Risk Evaluation",
+    "control": {
+      "description": "The entity shall evaluate its information security risks.",
+      "id": "M2.2.3",
+      "implementation_guidelines": "There is a lot of information related to the performance of information security risk assessments, and more details will be provided in a separate risk management document, therefore, this implementation guidance will just provide an overview of the most important concepts. Once the risks have been calculated (see M2.2.2 above), the entity should compare the risk levels assessed with the risk criteria that have been established documented in the Information Security Risk Management Policy (see M2.1.1. above). This will rank the risks in order of severity and will identify those that are acceptable (because they are below the general threshold of acceptance), and those risks that will require treatment. If necessary, the entity can assign additional priorities to the risks, e.g. if a risk – despite of not being high- relates to a very vital business process. Any such assignment is entirely up to the entity, any decisions made should be reasoned and documented. Decisions on risks should take account of the wider context of the risk and include consideration of the requirements of other parties, such as sector, regional or national initiatives. In some circumstances, the risk evaluation can lead to a decision to undertake further analysis.",
+      "name": "Information Security Risk Evaluation",
+      "sub_controls": [
+        "M2.2.3.a: The entity shall compare the analyzed risks with the risk criteria established in the information security risk management policy (See M2.1.1);",
+        "M2.2.3.b: The entity shall establish priorities for treatment of the identified risks;",
+        "M2.2.3.c: The entity shall document the results of the risk evaluation and share with national and sector authorities, as required."
+      ]
+    },
+    "control_family": {
+      "number": "M2",
+      "name": "Information Security Risk Management"
+    },
+    "control_subfamily": {
+      "number": "M2.2",
+      "name": "Information Security Risk Assessment"
+    },
+    "cross_references": [
+      "M2.1.1",
+      "M2.2.2"
+
+    ]
+  },
+  {
+    "applicability": [
+      "P1",
+      "always"
+    ],
+    "breadcrumb": " Management >  Information Security Risk Management > Information Security Risk Assessment > Unknown",
+    "control": {
+      "description": "The entity shall select appropriate information security risk treatment options, taking account of the risk assessment results.",
+      "id": "M2.3.1",
+      "implementation_guidelines": "Selecting the most appropriate information security risk treatment option involves balancing the costs and efforts of implementation against the benefits derived, with regard to sector, national or regulatory requirements. Decisions should also take into account risks which can warrant risk treatment that is not justifiable on economic grounds, e.g. severe (high negative consequence- but rare (low likelihood- risks. A number of treatment options can and should be considered and applied either individually or in combination. When selecting risk treatment options, the entity should consider the expectations of the sector and national level. Though equally effective, some risk treatments can be more acceptable to some stakeholders than to others. The selected risk treatment options should be documented in the risk treatment plan. The treatment plan should clearly identify the priority order in which individual risk treatments should be implemented. Risk treatment itself can introduce risks. A significant risk can be the failure or ineffectiveness of the risk treatment measures. Monitoring needs to be an integral part of the risk treatment plan to give assurance that the measures remain effective (see also M6).",
+      "name": "Information Security Risk Treatment Options",
+      "sub_controls": [
+        "M2.3.1.1: The entity shall consider the following risk treatment options and select one or more of them for each of the risks that have been assessed:",
+        "M2.3.1.1.a: Risk Reduction – Reducing the risk by applying security controls;",
+        "M2.3.1.1.b: Risk Retention – Accepting the risk based on the entity’s risk accepting criteria established on the information management risk policy (See M2.1.1);",
+        "M2.3.1.1.c: Risk Avoidance – Avoiding the activity or condition causing the risk;",
+        "M2.3.1.1.d: Risk Transfer – Transferring the risk to another party",
+        "M2.3.1.2:   The entity shall assess the risk treatment chosen to ensure that the selection of risk treatment options is successful by:", 
+        "M2.3.1.2.a: deciding whether residual risk levels are tolerable;",
+        "M2.3.1.2.b: if not tolerable, generating a new risk treatment;",
+        "M2.3.1.2.c: assessing the effectiveness of that treatment (see also M2.3)."
+      ]
+    },
+    "control_family": {
+      "name": "Information Security Risk Management",
+      "number": "M2"
+    },
+    "control_subfamily": {
+      "name": "M2.3",
+      "number": "Information Security Risk Treatment"
+    },
+    "cross_references": [
+      "M2.1.1",
+      "M2.3",
+      "M6"
+    ]
+  },
+  {
+    "applicability": [
+      "P1",
+      "always"
+    ],
+    "breadcrumb": "Management > Information Security Risk Management > Information Security Risk Treatment > Identification of Controls",
+    "control": {
+      "description": "The entity shall identify all controls that are necessary to implement the information security risk treatment option(s) chosen.",
+      "id": "M2.3.2",
+      "implementation_guidelines": [
+        "a. Controls should be identified to manage the risks, based on the identified risk treatment option(s). It is important to specify the relation between the risks and the identified controls, this relation is important for the ongoing risk management and should be documented in the risk treatment plan",
+        "b. The first basis of control identification should be this Regulation, which suggests a set of “risk-based applicable” controls that addresses a lot of the common information security risks. Sector-specific controls should be identified to support the specific needs of the entity within its sector.",
+        "c. The entity should also identify controls that are required for risk management and not documented in this Regulation. It is likely that such controls exist as an entity has risks specific to its business and its way to operate, and the identification of additional controls completes the controls for information security risk management.",
+        "d. The entity should compile a list of controls which have been identified to produce a Statement of Applicability (refer to M2.3.4). It might be that the Statement of Applicability (refer to Implementation Guidance of M2.3.4) leads to a revision of the identified controls. This is the intention of producing the Statement of Applicability, it is supposed to act as a safety net that ensures that no impotent control has been overlooked."
+      ],
+      "name": "Identification of Controls",
+      "sub_controls": [
+       
+        "M2.3.2.a: The entity shall consider the controls included in these as a starting point for the control identification;",
+        "M2.3.2.b: The entity shall ensure that no controls are overlooked by producing the Statement of Applicability (refer to M2.3.4);",
+        "M2.3.2.c: The entity shall identify controls in addition to the controls suggested in this Regulation that are specific to the entity;",
+        "M2.3.2.d: The entity shall take account of the criteria for accepting risks (refer to M2.3.1) as well as legal, regulatory and contractual requirements when making the control selection."
+        
+      ]
+    },
+    "control_family": {
+      "name": "Management",
+      "number": "M2"
+    },
+    "control_subfamily": {
+      "name": "Information Security Risk Treatment",
+      "number": "M2.3"
+    },
+    "cross_references": [
+      "M2.3.1",
+      "M2.3.2",
+      "M2.3.4"
+    ]
+  }
+]

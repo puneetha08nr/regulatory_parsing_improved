@@ -1,0 +1,184 @@
+[
+  {
+    "data": {
+      "policy_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 3",
+      "policy_name": "Information Risk Management Policy",
+      "passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 3_passage_1",
+      "section": "Passage 1",
+      "heading": null,
+      "passage_text": "&lt;CLIENTNAME&gt;-ORG-IMS-POL-026\n\nAbstract\n\nThe Information Risk Management Policy sets the premise for ensuring all Information risks affecting confidentiality, integrity and availability, secrecy and privacy of &lt;CLIENTNAME&gt;’s Information and Communication Technologies (ICTs) are identified, evaluated, treated and monitored efficiently and effectively.\n\n**STATEMENT OF CONFIDENTIALITY**\n\nAll information in this document is &lt;CLIENTNAME&gt; PRIVILEGED and for INTERNAL USE ONLY.\n\nThe information in this document may contain &lt;CLIENTNAME&gt; proprietary trade secrets and confidential information, the disclosure of which could substantially benefit competitors. As a result, this document should not be disclosed, used or duplicated – in whole or in part without the explicit authorization of &lt;CLIENTNAME&gt; management.\n\nThe information is intended solely for the use of authorized recipients. If you are not the intended recipient, you are prohibited from reading, using, dissemi"
+    },
+    "meta": {
+      "passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 3_passage_1",
+      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing2/data/02_processed/policies/clientname-IS-POL-00-Information Risk Management Policy v1.2 3_for_mapping.json"
+    }
+  },
+  {
+    "data": {
+      "policy_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 3",
+      "policy_name": "Information Risk Management Policy",
+      "passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 3_passage_2",
+      "section": "Table of Contents",
+      "heading": "Table of Contents",
+      "passage_text": "Table of Contents\n\n[1.\tINTRODUCTION\t5](.)\n\n[2.\tPURPOSE\t5](.)\n\n[3.\tSCOPE\t5](.)\n\n[4.\tPOLICY STATEMENT\t6](.)\n\n[5.\tPOLICY DETAILS\t6](.)\n\n[**5.1.\tInformation Risk Management Framework\t6**](.)\n\n[**5.2.\tInformation Risk Assessment\t6**](.)\n\n[**5.3.\tInformation Risk Categorization\t7**](.)\n\n[**5.4.\tInformation Risk Treatment\t7**](.)\n\n[**5.5.\tSelection of Controls\t8**](.)\n\n[**5.6.\tInformation Risk Monitoring\t8**](.)\n\n[6.\tROLES AND RESPONSIBILITIES\t9](.)\n\n[7. POLICY ENFORCEMENT AND EXCEPTIONS\t10](.)\n\n[8.\tMONITORING AND REVIEW\t10](.)\n\n[9.\tPOLICY - UAE IA Control Mapping\t11](.)"
+    },
+    "meta": {
+      "passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 3_passage_2",
+      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing2/data/02_processed/policies/clientname-IS-POL-00-Information Risk Management Policy v1.2 3_for_mapping.json"
+    }
+  },
+  {
+    "data": {
+      "policy_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 3",
+      "policy_name": "Information Risk Management Policy",
+      "passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 3_passage_3",
+      "section": "1 INTRODUCTION",
+      "heading": "1 INTRODUCTION",
+      "passage_text": "1 INTRODUCTION\n\nThis Information Risk Management Policy (“Policy”) is a key component of &lt;CLIENTNAME&gt;’s overall Integrated Management System (IMS) and overarches the detailed risk management framework and procedure. Adherence to this Policy will help protect &lt;CLIENTNAME&gt; against known and unknown information security risks, whether internal or external, deliberate or accidental.\n\n&lt;CLIENTNAME&gt; recognizes that effective identification and management of risk is mandatory to the functioning of a robust Integrated Management System (IMS) comprising of Information Security Management System (ISMS), IT Service Management System (ITSMS), Business Continuity Management System (BCMS) and Privacy Information Management System (PIMS).\n\nThis Policy will be reviewed at least annually or following any changes to contributing internal or external factors."
+    },
+    "meta": {
+      "passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 3_passage_3",
+      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing2/data/02_processed/policies/clientname-IS-POL-00-Information Risk Management Policy v1.2 3_for_mapping.json"
+    }
+  },
+  {
+    "data": {
+      "policy_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 3",
+      "policy_name": "Information Risk Management Policy",
+      "passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 3_passage_4",
+      "section": "2 PURPOSE",
+      "heading": "2 PURPOSE",
+      "passage_text": "2 PURPOSE\n\nThe purpose of this Policy is to ensure that information risks in the organization are identified, assessed, evaluated, monitored, reported and treated according to the business, security, privacy and continuity requirements and objectives of the organization.\n\nFurther, the Policy establishes a commitment to comply with applicable sections of the federal laws and regulations, including but not limited to UAE Information Assurance Regulation (UAE IAR) and ISO 27001.\n\nThe following are the key objectives of this Policy:\n\n1. **Establish an Information Risk Management Framework:** Establishment of an organization-wide Information Security Risk Management Framework.\n2. **Address Information Security (IS) risks:** Identification, analysis and evaluation of organizations IS risks to select appropriate IS risk treatment options."
+    },
+    "meta": {
+      "passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 3_passage_4",
+      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing2/data/02_processed/policies/clientname-IS-POL-00-Information Risk Management Policy v1.2 3_for_mapping.json"
+    }
+  },
+  {
+    "data": {
+      "policy_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 3",
+      "policy_name": "Information Risk Management Policy",
+      "passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 3_passage_5",
+      "section": "3 SCOPE",
+      "heading": "3 SCOPE",
+      "passage_text": "3 SCOPE\n\nThis Policy encompasses all system components that are owned, leased, rented, operated, maintained, and otherwise controlled by &lt;CLIENTNAME&gt; or a third-party on behalf of &lt;CLIENTNAME&gt;, and also applies to any system or system components, both internally and externally, that interact with these systems.\n\nThis Policy applies to all employees and contractors who access or manage information and information assets or use the organization's information and communications technology (ICT) systems.\n\n**Any exceptions on the applicability of this Policy should be formally requested through the Policy Exception Management procedure.**"
+    },
+    "meta": {
+      "passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 3_passage_5",
+      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing2/data/02_processed/policies/clientname-IS-POL-00-Information Risk Management Policy v1.2 3_for_mapping.json"
+    }
+  },
+  {
+    "data": {
+      "policy_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 3",
+      "policy_name": "Information Risk Management Policy",
+      "passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 3_passage_6",
+      "section": "4 POLICY STATEMENT",
+      "heading": "4 POLICY STATEMENT",
+      "passage_text": "4 POLICY STATEMENT\n\n&lt;CLIENTNAME&gt; shall implement an information risk management program that shall require conducting risk assessments, identifying information risks, treating the risks and continuously monitoring risks by evaluating the effectiveness of information security controls to ensure efficient risk handling."
+    },
+    "meta": {
+      "passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 3_passage_6",
+      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing2/data/02_processed/policies/clientname-IS-POL-00-Information Risk Management Policy v1.2 3_for_mapping.json"
+    }
+  },
+  {
+    "data": {
+      "policy_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 3",
+      "policy_name": "Information Risk Management Policy",
+      "passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 3_passage_7",
+      "section": "5.1 Information Risk Management Framework",
+      "heading": "5.1 Information Risk Management Framework",
+      "passage_text": "5.1 Information Risk Management Framework\n\n1. Prepare: Establish context by understanding mission, business objectives, and information systems to manage &lt;CLIENTNAME&gt;, its security, privacy, and business continuity risks.\n2. Identify: Provide a structured way to determine the criticality of the information assets at &lt;CLIENTNAME&gt;, and identify its associated risks.\n3. Assess: Analyze, evaluate and categorize risks based on its likelihood of materializing and its impacts to &lt;CLIENTNAME&gt;’s business and information systems.\n4. Select: Select, tailor and document the controls necessary to protect &lt;CLIENTNAME&gt; and its information systems commensurate with risks.\n5. Implement: Establish new or utilize existing processes, procedures, tools and technologies to meet the intent of selected controls.\n6. Review: Determine whether the selected controls are implemented correctly, operate as intended, and produce the desired outcomes to meet &lt;CLIENTNAME&gt;’s information sec"
+    },
+    "meta": {
+      "passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 3_passage_7",
+      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing2/data/02_processed/policies/clientname-IS-POL-00-Information Risk Management Policy v1.2 3_for_mapping.json"
+    }
+  },
+  {
+    "data": {
+      "policy_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 3",
+      "policy_name": "Information Risk Management Policy",
+      "passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 3_passage_8",
+      "section": "5.2 Information Risk Assessment",
+      "heading": "5.2 Information Risk Assessment",
+      "passage_text": "5.2 Information Risk Assessment\n\n1. Identification of the vulnerabilities that exist in the information assets.\n2. Identification of threats that may exploit a vulnerability.\n3. Qualitative analysis and evaluation of the impact to the confidentiality, integrity, availability, secrecy and privacy of information assets if a threat exploits vulnerabilities.\n4. Identification and definition of measures and/or controls used to protect the confidentiality, integrity, availability, secrecy and privacy of information assets.\n\n5. New threats or risks with respect to the business processes and information assets.\n6. An information security incident.\n7. Outcomes of any internal or external assessments.\n8. Changes to information security requirements or responsibilities. (e.g., new federal or state law or regulation, new or modified security controls implemented, etc.).\n9. Changes to the &lt;CLIENTNAME&gt;’s organizational or technical infrastructure that impact information assets (e.g., addition "
+    },
+    "meta": {
+      "passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 3_passage_8",
+      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing2/data/02_processed/policies/clientname-IS-POL-00-Information Risk Management Policy v1.2 3_for_mapping.json"
+    }
+  },
+  {
+    "data": {
+      "policy_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 3",
+      "policy_name": "Information Risk Management Policy",
+      "passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 3_passage_9",
+      "section": "5.4 Information Risk Treatment",
+      "heading": "5.4 Information Risk Treatment",
+      "passage_text": "5.4 Information Risk Treatment\n\n1. Risk Reduction: Reducing risk by applying security controls.\n2. Risk Avoidance: Avoiding the activity or condition causing the risk.\n3. Risk Transfer: Transferring the risk to another party.\n4. Risk Retention: Accepting the risk based on the organization’s risk acceptance criteria established in the Information Security Risk Management Framework.\n\n5. Description of information risks.\n6. Appropriate management actions.\n7. Responsibilities and priorities for managing information security risks (risk ownership).\n8. Target dates for implementation of the identified controls."
+    },
+    "meta": {
+      "passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 3_passage_9",
+      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing2/data/02_processed/policies/clientname-IS-POL-00-Information Risk Management Policy v1.2 3_for_mapping.json"
+    }
+  },
+  {
+    "data": {
+      "policy_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 3",
+      "policy_name": "Information Risk Management Policy",
+      "passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 3_passage_10",
+      "section": "6 ROLES AND RESPONSIBILITIES",
+      "heading": "6 ROLES AND RESPONSIBILITIES",
+      "passage_text": "6 ROLES AND RESPONSIBILITIES\n\n| Role                                                     | Responsibility                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               "
+    },
+    "meta": {
+      "passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 3_passage_10",
+      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing2/data/02_processed/policies/clientname-IS-POL-00-Information Risk Management Policy v1.2 3_for_mapping.json"
+    }
+  },
+  {
+    "data": {
+      "policy_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 3",
+      "policy_name": "Information Risk Management Policy",
+      "passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 3_passage_11",
+      "section": "7. POLICY ENFORCEMENT AND EXCEPTIONS",
+      "heading": "7. POLICY ENFORCEMENT AND EXCEPTIONS",
+      "passage_text": "7. POLICY ENFORCEMENT AND EXCEPTIONS\n\nAll employees and contractors are responsible for understanding and adhering to this Policy. Any violation of this Policy shall be reported to Policy Owner. Violation of this Policy shall be subjected to disciplinary action by the &lt;CLIENTNAME&gt;'s Human Capital Department, taking into consideration the recommendation of IS Team and in accordance with other applicable policies, laws and regulations.\nDisciplinary action may range from a verbal warning to discontinuation of access to facility or services, or termination of employment/contract/agreement, and possible legal action. The actual action taken shall depend on factors such as the seriousness of the breach and the user's disciplinary record.\nAny exceptions on the applicability of this Policy should be formally requested through the Policy Exception Management procedure."
+    },
+    "meta": {
+      "passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 3_passage_11",
+      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing2/data/02_processed/policies/clientname-IS-POL-00-Information Risk Management Policy v1.2 3_for_mapping.json"
+    }
+  },
+  {
+    "data": {
+      "policy_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 3",
+      "policy_name": "Information Risk Management Policy",
+      "passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 3_passage_12",
+      "section": "7 MONITORING AND REVIEW",
+      "heading": "7 MONITORING AND REVIEW",
+      "passage_text": "7 MONITORING AND REVIEW\n\nThis Policy is developed by &lt;CLIENTNAME&gt; Information Security (IS) Team, owned and reviewed by the CISO. It is approved by the CEO.\n\n&lt;CLIENTNAME&gt; IS Team shall initiate a review of this Policy annually or whenever a significant change occurs in the organization's operating environment.\n\nFeedback, suggestions or questions regarding the Policy shall be directed to the &lt;CLIENTNAME&gt; IS Team at [infosec@&lt;clientname&gt;.net](mailto:infosec@%3cclientname%3e.net) ."
+    },
+    "meta": {
+      "passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 3_passage_12",
+      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing2/data/02_processed/policies/clientname-IS-POL-00-Information Risk Management Policy v1.2 3_for_mapping.json"
+    }
+  },
+  {
+    "data": {
+      "policy_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 3",
+      "policy_name": "Information Risk Management Policy",
+      "passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 3_passage_13",
+      "section": "8 POLICY - UAE IA Control Mapping",
+      "heading": "8 POLICY - UAE IA Control Mapping",
+      "passage_text": "8 POLICY - UAE IA Control Mapping\n\n| Policy Sections                             | UAE IA - Control                                                                               | ISO 27001:2022                                     |\n|---------------------------------------------|------------------------------------------------------------------------------------------------|----------------------------------------------------|\n| Section 1 Introduction                      | M2.1.1 – Risk Management Policy                                                                | Clause 6.1.2 and Clause 6.1.3                      |\n| Section 2 Overview and Purpose              | M2.1.1 – Risk Management Policy                                                                | Clause 6.1.2 and Clause 6.1.3                      |\n| Section 3 - Scope, Exclusions               | M2.1.1 – Risk Management Policy                                                                | Clause 6.1.2 and Clause 6.1."
+    },
+    "meta": {
+      "passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 3_passage_13",
+      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing2/data/02_processed/policies/clientname-IS-POL-00-Information Risk Management Policy v1.2 3_for_mapping.json"
+    }
+  }
+]

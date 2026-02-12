@@ -1,0 +1,48 @@
+{
+  "pipeline_config": {
+    "passage_extraction": {
+      "min_passage_length": 50,
+      "max_passage_length": 500,
+      "sources": {
+        "parsed_json": "data/02_intermediate/parsed_json/UAE_IA.json",
+        "structured_controls": "data/02_processed/uae_ia_controls_structured.json"
+      }
+    },
+    "question_generation": {
+      "gpt_model": "gpt-4-turbo-preview",
+      "num_single_questions_per_passage": 1,
+      "num_multi_questions": 50,
+      "topics": {
+        "Access Control": ["access", "authentication", "authorization", "user management", "privileges"],
+        "Risk Management": ["risk assessment", "risk treatment", "vulnerability", "threat"],
+        "Incident Management": ["incident", "breach", "security event", "response", "recovery"],
+        "Compliance": ["compliance", "audit", "review", "assessment", "monitoring"],
+        "Data Protection": ["data classification", "encryption", "backup", "retention", "privacy"],
+        "Network Security": ["network", "firewall", "segmentation", "monitoring", "traffic"],
+        "Physical Security": ["physical access", "facility", "equipment", "environmental"]
+      }
+    },
+    "validation": {
+      "enabled": true,
+      "nli_model": "microsoft/deberta-v3-xsmall",
+      "entailment_threshold": 0.5
+    },
+    "dataset_splitting": {
+      "train_split": 0.8,
+      "dev_split": 0.1,
+      "test_split": 0.1,
+      "random_seed": 42
+    },
+    "output": {
+      "output_dir": "data/05_golden_dataset",
+      "save_passages": true,
+      "save_full_dataset": true
+    }
+  },
+  "regulatory_context": {
+    "regulation_name": "UAE Information Assurance Regulation",
+    "version": "v1.1",
+    "document_id": "uae_ia_regulation",
+    "control_id_pattern": "[MT]\\d+\\.\\d+(?:\\.\\d+)*(?:\\.\\w+)?"
+  }
+}

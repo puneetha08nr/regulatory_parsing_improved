@@ -1,0 +1,145 @@
+[
+  {
+    "id": "clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2_passage_1",
+    "name": "Information Systems Acquisition Development and Maintenance Policy - Passage 1",
+    "text": "&lt;CLIENT&gt;-IS-POL-00X\n\n<!-- image -->\n\nAbstract\n\nThis Policy outlines the security requirements to be considered while acquisition, development and maintenance of information systems in &lt;CLIENT&gt;.\n\n**STATEMENT OF CONFIDENTIALITY**\n\nAll information in this document is &lt;CLIENT&gt; PRIVILEGED and for INTERNAL USE ONLY.\n\nThe information in this document may contain &lt;CLIENT&gt; proprietary trade secrets and confidential information, the disclosure of which could substantially benefit competitors. As a result, this document should not be disclosed, used or duplicated – in whole or in part without the explicit authorization of &lt;CLIENT&gt; management.\n\nThe information is intended solely for the use of authorized recipients. If you are not the intended recipient, you are prohibited from reading, using, disseminating, distributing and copying this document.\n\nIn accessing the document, the reader warrants that the information contained herein shall only be treated for internal u",
+    "section": "Passage 1",
+    "metadata": {
+      "policy_id": "clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2",
+      "policy_name": "Information Systems Acquisition Development and Maintenance Policy",
+      "heading": null,
+      "page_number": 0,
+      "extraction_method": "flexible"
+    }
+  },
+  {
+    "id": "clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2_passage_2",
+    "name": "Information Systems Acquisition Development and Maintenance Policy - Table of Contents",
+    "text": "Table of Contents\n\n[1.\tINTRODUCTION\t4](.)\n\n[2.\tPURPOSE\t4](.)\n\n[3.\tSCOPE\t4](.)\n\n[4.\tPOLICY STATEMENT\t5](.)\n\n[5.\tPOLICY DETAILS\t5](.)\n\n[**5.1\tInformation Security Requirements Analysis and Specification\t5**](.)\n\n[**5.2\tInformation Security Requirements during Acquisition and Development\t5**](.)\n\n[**5.3\tPrivacy by Design\t6**](.)\n\n[**5.4\tSecuring Application Services\t6**](.)\n\n[**5.5\tTraining and Awareness\t7**](.)\n\n[**5.6\tProtection of Test Data\t7**](.)\n\n[**5.7\tSupply Chain Protection Strategy\t7**](.)\n\n[**5.8\tReliable Delivery\t7**](.)\n\n[6.\tROLES AND RESPONSIBILITIES\t8](.)\n\n[7.\tPOLICY ENFORCEMENT AND EXCEPTIONS\t9](.)\n\n[8.\tMONITORING AND REVIEW\t9](.)\n\n[9.\tPOLICY – UAE IA CONTROL MAPPING\t9](.)",
+    "section": "Table of Contents",
+    "metadata": {
+      "policy_id": "clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2",
+      "policy_name": "Information Systems Acquisition Development and Maintenance Policy",
+      "heading": "Table of Contents",
+      "page_number": 0,
+      "extraction_method": "flexible"
+    }
+  },
+  {
+    "id": "clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2_passage_3",
+    "name": "Information Systems Acquisition Development and Maintenance Policy - 1 INTRODUCTION",
+    "text": "1 INTRODUCTION\n\nThis Information Systems Acquisition, Development and Maintenance Policy outlines the framework for implementing appropriate security controls to ensure that day-to-day acquisition, development and maintenance of &lt;CLIENT&gt;’s Information systems are carried out in a controlled and secure manner.",
+    "section": "1 INTRODUCTION",
+    "metadata": {
+      "policy_id": "clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2",
+      "policy_name": "Information Systems Acquisition Development and Maintenance Policy",
+      "heading": "1 INTRODUCTION",
+      "page_number": 0,
+      "extraction_method": "flexible"
+    }
+  },
+  {
+    "id": "clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2_passage_4",
+    "name": "Information Systems Acquisition Development and Maintenance Policy - 2 PURPOSE",
+    "text": "2 PURPOSE\n\nThe purpose of this Information Systems Acquisition, Development and Maintenance Policy (“Policy”) is to define a framework for the Information System Acquisition, Development, and Maintenance process. This Policy shall ensure information assets are safeguarded against internal, external, deliberate, or accidental threats throughout their lifecycle.\n\nFurther, the Policy establishes a commitment to comply with applicable sections of the federal and global laws and regulations, including but not limited to UAE Information Assurance Regulation, ISO 27001 and UAE National Cyber Risk Management Framework (NCRMF).\n\nThe following are the key objectives of this Policy:\n\n1. **Definition of security requirements for information systems:** Development of information security requirements for new information systems or enhancements to existing information systems.\n2. **Protection of information:** Protection of information involved in application service transactions against incomplete ",
+    "section": "2 PURPOSE",
+    "metadata": {
+      "policy_id": "clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2",
+      "policy_name": "Information Systems Acquisition Development and Maintenance Policy",
+      "heading": "2 PURPOSE",
+      "page_number": 0,
+      "extraction_method": "flexible"
+    }
+  },
+  {
+    "id": "clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2_passage_5",
+    "name": "Information Systems Acquisition Development and Maintenance Policy - 3 SCOPE",
+    "text": "3 SCOPE\n\nThis Policy applies to all employees, contractors and third parties who access or manage information and information assets or use the organization’s information and communications technology (ICT) systems.\n\nAny exceptions on the applicability of this Policy should be formally requested through the ‘Policy Exception Management procedure.’",
+    "section": "3 SCOPE",
+    "metadata": {
+      "policy_id": "clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2",
+      "policy_name": "Information Systems Acquisition Development and Maintenance Policy",
+      "heading": "3 SCOPE",
+      "page_number": 0,
+      "extraction_method": "flexible"
+    }
+  },
+  {
+    "id": "clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2_passage_6",
+    "name": "Information Systems Acquisition Development and Maintenance Policy - 4 POLICY STATEMENT",
+    "text": "4 POLICY STATEMENT\n\n&lt;CLIENT&gt; shall develop, implement, and maintain Information Systems Acquisition, Development and Maintenance Procedure to:\n\n1. Provide strategies, tools, and techniques to protect risks towards supply chain.\n2. Prevent unauthorized modification or misuse of the information in applications.\n3. Maintain security in development and support processes.\n4. Manage technical vulnerabilities.",
+    "section": "4 POLICY STATEMENT",
+    "metadata": {
+      "policy_id": "clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2",
+      "policy_name": "Information Systems Acquisition Development and Maintenance Policy",
+      "heading": "4 POLICY STATEMENT",
+      "page_number": 0,
+      "extraction_method": "flexible"
+    }
+  },
+  {
+    "id": "clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2_passage_7",
+    "name": "Information Systems Acquisition Development and Maintenance Policy - 5 POLICY DETAILS",
+    "text": "5 POLICY DETAILS\n\n5. **Information Security Requirements Analysis and Specification**\n\n&lt;CLIENT&gt; shall:\n\n1. Identify, document and review information security (IS) requirements using various methods such as deriving compliance requirements, threat modelling, incident reviews and/or use of vulnerability thresholds.\n2. Ensure that the IS requirements and measures reflect the business value and potential adverse business impact resulting from lack of adequate security.\n3. Identify and manage IS requirements and associated processes to ensure that they are integrated with the early stages of information systems projects.\n4. Establish a formal risk-based security testing and acquisition process if products are acquired.\n5. Ensure that the contracts with the supplier addresses the new risks introduced and the associated mitigation measures, before acquiring the product/service.\n6. Evaluate and implement the available guidance for the product's security configuration and align with that ",
+    "section": "5 POLICY DETAILS",
+    "metadata": {
+      "policy_id": "clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2",
+      "policy_name": "Information Systems Acquisition Development and Maintenance Policy",
+      "heading": "5 POLICY DETAILS",
+      "page_number": 0,
+      "extraction_method": "flexible"
+    }
+  },
+  {
+    "id": "clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2_passage_8",
+    "name": "Information Systems Acquisition Development and Maintenance Policy - 6 ROLES AND RESPONSIBILITIES",
+    "text": "6 ROLES AND RESPONSIBILITIES\n\n| Role                                                                    | Responsibility                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ",
+    "section": "6 ROLES AND RESPONSIBILITIES",
+    "metadata": {
+      "policy_id": "clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2",
+      "policy_name": "Information Systems Acquisition Development and Maintenance Policy",
+      "heading": "6 ROLES AND RESPONSIBILITIES",
+      "page_number": 0,
+      "extraction_method": "flexible"
+    }
+  },
+  {
+    "id": "clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2_passage_9",
+    "name": "Information Systems Acquisition Development and Maintenance Policy - 7 POLICY ENFORCEMENT AND EXCEPTIONS",
+    "text": "7 POLICY ENFORCEMENT AND EXCEPTIONS\n\nThis Policy is to be part of all Employees' and Third Parties' processes, and all are responsible for understanding and adhering to this Policy. Any violation of this Policy shall be reported to Policy Owner. Violation of this Policy shall be subjected to disciplinary action by the &lt;CLIENT&gt;'s Human Capital Department, taking into consideration the recommendation of the Information Security department and in accordance with other applicable policies, laws and regulations.\n\nDisciplinary action may range from a verbal warning to discontinuation of access to facility or services, or termination of employment/contract/agreement, and possible legal action. The actual action taken shall depend on factors such as the seriousness of the breach and the user's disciplinary record. Any exceptions on the applicability of this Policy should be formally requested through the ‘Policy Exception Management procedure.’",
+    "section": "7 POLICY ENFORCEMENT AND EXCEPTIONS",
+    "metadata": {
+      "policy_id": "clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2",
+      "policy_name": "Information Systems Acquisition Development and Maintenance Policy",
+      "heading": "7 POLICY ENFORCEMENT AND EXCEPTIONS",
+      "page_number": 0,
+      "extraction_method": "flexible"
+    }
+  },
+  {
+    "id": "clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2_passage_10",
+    "name": "Information Systems Acquisition Development and Maintenance Policy - 8 MONITORING AND REVIEW",
+    "text": "8 MONITORING AND REVIEW\n\nThis Policy is developed and owned by the &lt;CLIENT&gt; Information Security (IS) Team. It is reviewed by the CISO and approved by the CEO.\n\n&lt;CLIENT&gt; IS Team will initiate a review and of this Policy annually or whenever a significant change occurs in the organization’s operating environment.\n\nFeedback, suggestions or questions regarding the Policy shall be directed to the &lt;CLIENT&gt; IS Team at [infosec@&lt;CLIENT&gt;.net](mailto:infosec@cpx.net) .",
+    "section": "8 MONITORING AND REVIEW",
+    "metadata": {
+      "policy_id": "clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2",
+      "policy_name": "Information Systems Acquisition Development and Maintenance Policy",
+      "heading": "8 MONITORING AND REVIEW",
+      "page_number": 0,
+      "extraction_method": "flexible"
+    }
+  },
+  {
+    "id": "clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2_passage_11",
+    "name": "Information Systems Acquisition Development and Maintenance Policy - 9 POLICY – UAE IA CONTROL MAPPING",
+    "text": "9 POLICY – UAE IA CONTROL MAPPING\n\n| Policy Sections                                                                    | UAE IA - Control                                                                                                                        | ISO 27001:2022                                                                                                    |\n|------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|\n| Section 1 – Introduction                                                           | T7.1.1 – Information Systems Acquisition, Development and Maintenance Policy                                                            | Clause 5.2 – Policy  A.5.1 - Policies for information secu",
+    "section": "9 POLICY – UAE IA CONTROL MAPPING",
+    "metadata": {
+      "policy_id": "clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2",
+      "policy_name": "Information Systems Acquisition Development and Maintenance Policy",
+      "heading": "9 POLICY – UAE IA CONTROL MAPPING",
+      "page_number": 0,
+      "extraction_method": "flexible"
+    }
+  }
+]

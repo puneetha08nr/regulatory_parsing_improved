@@ -1,0 +1,199 @@
+{
+  "document_id": "clientname-IS-POL-00-Asset Management Policy 6",
+  "document_title": "Asset Management Policy",
+  "last_updated": "23-Jan-2026",
+  "sections": [
+    {
+      "section_id": "1",
+      "section_header": "INTRODUCTION",
+      "content": "<CLIENT> (hereon referred to as <CLIENT>) has embarked on a robust Asset Management initiative to safeguard information assets collected and generated during the normal course of its business operations. As a company that delivers cybersecurity services, <CLIENT> maintains and uses valuable assets. As such, a robust and comprehensive Asset Management program is required to ensure that the assets maintained and operated by <CLIENT> are secured and protected throughout the lifecycle. <CLIENT> is responsible for identifying assets and how they are used within the company; therefore, it shall set policies, processes, and standard operating procedures for handling assets, implement appropriate technical controls, and educate users about current threats to the assets that they work with and observe best practices for asset protection. <CLIENT> employees are expected to understand and comply with this Policy and ultimately be responsible for protecting all Information Assets from unauthorized",
+      "metadata": {
+        "owner": "CISO",
+        "classification": "Internal",
+        "status": "Final",
+        "policy_id": "clientname-IS-POL-00-Asset Management Policy 6",
+        "policy_name": "Asset Management Policy"
+      }
+    },
+    {
+      "section_id": "2",
+      "section_header": "PURPOSE",
+      "content": "This Asset Management Policy (\"Policy\") aims to ensure appropriate classification and protection of <CLIENT>'s information and assets. Further, the Policy establishes a commitment to comply with applicable sections of the federal and global laws and regulations, including but not limited to UAE Information Assurance Regulation, Federal Decree Law No. 45 of 2021 regarding the Protection of Personal Data, ISO 27001, ISO 27701, ISO 20000, ISO 22301 and UAE National Cyber Risk Management Framework (NCRMF). The following are the key objectives of this Policy:",
+      "metadata": {
+        "owner": "CISO",
+        "classification": "Internal",
+        "status": "Final",
+        "policy_id": "clientname-IS-POL-00-Asset Management Policy 6",
+        "policy_name": "Asset Management Policy"
+      }
+    },
+    {
+      "section_id": "3",
+      "section_header": "Establish asset register: Development and maintenance of an asset register.",
+      "content": "Handling of information: Correct and consistent handling of information assets in accordance with the organization’s information classification scheme.",
+      "metadata": {
+        "owner": "CISO",
+        "classification": "Internal",
+        "status": "Final",
+        "policy_id": "clientname-IS-POL-00-Asset Management Policy 6",
+        "policy_name": "Asset Management Policy"
+      }
+    },
+    {
+      "section_id": "4",
+      "section_header": "SCOPE",
+      "content": "This Policy applies to all employees and critical third parties who access or manage information and information assets or use the organization’s information and communications technology (ICT) systems. Any exceptions on the applicability of this Policy should be formally requested through the ‘Policy Exception Management procedure’.",
+      "metadata": {
+        "owner": "CISO",
+        "classification": "Internal",
+        "status": "Final",
+        "policy_id": "clientname-IS-POL-00-Asset Management Policy 6",
+        "policy_name": "Asset Management Policy"
+      }
+    },
+    {
+      "section_id": "5",
+      "section_header": "STATEMENT",
+      "content": "<CLIENT> shall ensure the security of assets by: Identifying information assets. Ensuring that a current and accurate inventory of assets is developed and maintained through an asset register to include responsibilities and classification based on Data Security Policy (<CLIENT>-ORG-IMS-POL-003).",
+      "metadata": {
+        "owner": "CISO",
+        "classification": "Internal",
+        "status": "Final",
+        "policy_id": "clientname-IS-POL-00-Asset Management Policy 6",
+        "policy_name": "Asset Management Policy"
+      }
+    },
+    {
+      "section_id": "6",
+      "section_header": "Asset Inventory",
+      "content": "<CLIENT> shall: Identify assets relevant in the information lifecycle (creation, processing, storage, transmission, deletion, destruction, and protection) and document their importance. Ensure that all organizational assets are considered for the asset management process using a centralized and efficient approach. Ensure that documentation is done in dedicated asset inventories as appropriate. The asset inventory at a minimum shall contain: Type of asset. Asset ownership. Location. Backup information. Related licenses. Asset importance/criticality.",
+      "metadata": {
+        "owner": "CISO",
+        "classification": "Internal",
+        "status": "Final",
+        "policy_id": "clientname-IS-POL-00-Asset Management Policy 6",
+        "policy_name": "Asset Management Policy"
+      }
+    },
+    {
+      "section_id": "7",
+      "section_header": "Asset Ownership",
+      "content": "<CLIENT> shall: Establish and implement a process to ensure timely assignment of asset ownership. Assign/reassign ownership when assets are created or transferred. Assign ownership to individuals having approved management responsibility across the asset lifecycle. Asset owners shall have the following responsibilities at a minimum: Perform inventory of the applicable assets. Classify and protect the assets. Define and periodically review access restrictions and classifications to important assets, considering applicable access control policies in accordance with <CLIENT> Access Control Policy (<CLIENT>-ORG-IMS-POL-017).",
+      "metadata": {
+        "owner": "CISO",
+        "classification": "Internal",
+        "status": "Final",
+        "policy_id": "clientname-IS-POL-00-Asset Management Policy 6",
+        "policy_name": "Asset Management Policy"
+      }
+    },
+    {
+      "section_id": "8",
+      "section_header": "Asset Labelling",
+      "content": "<CLIENT> shall: Label information assets in physical and electronic formats according to the established information classification scheme as per the <CLIENT> Data Security Policy (<CLIENT>-ORG-IMS-POL-003). Develop detailed procedures to give guidance on where and how labels are attached in consideration of how the information is accessed or the assets are handled depending on the types of media. Ensure that output from systems carry an appropriate classification label aligned to <CLIENT> Data Security Policy (<CLIENT>-ORG-IMS-POL-003). Ensure labels are easily recognizable and are included in emails, header, and footer of manually created or system-generated documents. Ensure appropriate awareness is provided to employees and third-party users regarding information labelling procedures.",
+      "metadata": {
+        "owner": "CISO",
+        "classification": "Internal",
+        "status": "Final",
+        "policy_id": "clientname-IS-POL-00-Asset Management Policy 6",
+        "policy_name": "Asset Management Policy"
+      }
+    },
+    {
+      "section_id": "9",
+      "section_header": "Asset Handling",
+      "content": "<CLIENT> shall: Develop procedures for handling, processing, storing, and communicating information consistent with its classification level. The following items should be considered, at a minimum: Access restrictions supporting the protection requirements for each level of classification. Protection of temporary or permanent copies of information to a level consistent with the protection of the original information. Storage of IT assets in accordance with manufacturers' specifications. Safeguard information in accordance with the established procedures. Ensure appropriate awareness is provided to employees and third-party users regarding the information handling procedures.",
+      "metadata": {
+        "owner": "CISO",
+        "classification": "Internal",
+        "status": "Final",
+        "policy_id": "clientname-IS-POL-00-Asset Management Policy 6",
+        "policy_name": "Asset Management Policy"
+      }
+    },
+    {
+      "section_id": "10",
+      "section_header": "Removable Media Management",
+      "content": "<CLIENT> shall: Ensure that all information is stored only in organization authorized media. Ensure that contents of any re-usable media that are to be removed from the organization is made unrecoverable when no longer required. Ensure that appropriate authorization is obtained for media removed from the organization and a record of such removals is kept in order to maintain an audit trail. Store all media in a safe and secure environment in accordance with manufacturers' specifications. Apply cryptographic techniques to protect data on removable media. Ensure that all removable media is scanned for malware before utilization. Ensure transfer of data to fresh media before it gets unreadable. Securely store/backup multiple copies of valuable data on separate media to further reduce the risk of incidental and/or accidental data damage or loss. Restrict and monitor the usage of removable media to limit the opportunity for data loss. Ensure that any organization-controlled media with data",
+      "metadata": {
+        "owner": "CISO",
+        "classification": "Internal",
+        "status": "Final",
+        "policy_id": "clientname-IS-POL-00-Asset Management Policy 6",
+        "policy_name": "Asset Management Policy"
+      }
+    },
+    {
+      "section_id": "11",
+      "section_header": "Disposal of Media",
+      "content": "<CLIENT> shall: Establish procedures for secure disposal of media containing organizational information based on the sensitivity of that information. Ensure that the procedures are defined to identify media devices that might require secure disposal. Ensure that media, both paper and digital, are destroyed when no longer serving the organization. Ensure that records of disposed media (containing or used to contain confidential information) are kept when no longer needed.",
+      "metadata": {
+        "owner": "CISO",
+        "classification": "Internal",
+        "status": "Final",
+        "policy_id": "clientname-IS-POL-00-Asset Management Policy 6",
+        "policy_name": "Asset Management Policy"
+      }
+    },
+    {
+      "section_id": "12",
+      "section_header": "Physical Media Transfer",
+      "content": "<CLIENT> shall: Utilize reliable transport or couriers for transportation of physical media between sites. Develop a list of authorized couriers that are approved by the management. Define labelling requirements for physical media carrying sensitive information. Ensure that logs of the transfer are kept identifying the content of the media, protection applied, time(s) of transfer to the transit custodian(s), and the receipt at destination. Consider measures to be taken in the event of loss of physical media in transit carrying sensitive information.",
+      "metadata": {
+        "owner": "CISO",
+        "classification": "Internal",
+        "status": "Final",
+        "policy_id": "clientname-IS-POL-00-Asset Management Policy 6",
+        "policy_name": "Asset Management Policy"
+      }
+    },
+    {
+      "section_id": "13",
+      "section_header": "Acceptable Use of Assets",
+      "content": "<CLIENT> shall: Ensure that usage of all organization’s information, information assets and information and communications technology (ICT) systems are approved by the information security department prior to deployment. Establish, document, and circulate the rules for the acceptable use of assets in line with the <CLIENT> Acceptable Use Policy (<CLIENT>-ORG-IMS-POL-002) and disciplinary procedures. Consider the information provided by other members of an information sharing community as an asset and protect and disseminate in accordance with agreed upon rules.",
+      "metadata": {
+        "owner": "CISO",
+        "classification": "Internal",
+        "status": "Final",
+        "policy_id": "clientname-IS-POL-00-Asset Management Policy 6",
+        "policy_name": "Asset Management Policy"
+      }
+    },
+    {
+      "section_id": "14",
+      "section_header": "Bring Your Own Device (BYOD) Arrangements",
+      "content": "<CLIENT> shall: Provide means to securely access organizational information and information assets via ‘Bring Your Own Device’ (BYOD). Establish and implement information security requirements to secure organizational information and information assets via ‘Bring Your Own Device’ (BYOD) in line with <CLIENT> Bring Your Own Device (BYOD) Policy (<CLIENT>-ORG-IMS-POL-020).",
+      "metadata": {
+        "owner": "CISO",
+        "classification": "Internal",
+        "status": "Final",
+        "policy_id": "clientname-IS-POL-00-Asset Management Policy 6",
+        "policy_name": "Asset Management Policy"
+      }
+    },
+    {
+      "section_id": "15",
+      "section_header": "ENFORCEMENT AND EXCEPTIONS",
+      "content": "This Policy is to be part of all Employees' and Third Parties' processes, and all are responsible for understanding and adhering to this Policy. Any violation of this Policy shall be reported to Policy Owner. Violation of this Policy shall be subjected to disciplinary action by the <CLIENT>'s Human Capital Department, taking into consideration the recommendation of the Information Security department and in accordance with other applicable policies, laws and regulations. Disciplinary action may range from a verbal warning to discontinuation of access to facility or services, or termination of employment/contract/agreement, and possible legal action. The actual action taken shall depend on factors such as the seriousness of the breach and the user's disciplinary record. Any exceptions on the applicability of this Policy should be formally requested through the Policy Exception Management procedure.",
+      "metadata": {
+        "owner": "CISO",
+        "classification": "Internal",
+        "status": "Final",
+        "policy_id": "clientname-IS-POL-00-Asset Management Policy 6",
+        "policy_name": "Asset Management Policy"
+      }
+    },
+    {
+      "section_id": "16",
+      "section_header": "MONITORING AND REVIEW",
+      "content": "This Policy is developed and owned by the <CLIENT> Information Security (IS) Team. It is reviewed by the CISO and approved by the CEO. <CLIENT> IS Team will initiate a review and of this Policy annually or whenever a significant change occurs in the organization’s operating environment. Feedback, suggestions or questions regarding the Policy shall be directed to the <CLIENT> IS Team at infosec@<CLIENT>.com.",
+      "metadata": {
+        "owner": "CISO",
+        "classification": "Internal",
+        "status": "Final",
+        "policy_id": "clientname-IS-POL-00-Asset Management Policy 6",
+        "policy_name": "Asset Management Policy"
+      }
+    }
+  ]
+}

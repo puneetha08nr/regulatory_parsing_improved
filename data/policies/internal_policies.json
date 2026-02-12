@@ -1,0 +1,12 @@
+[
+  {
+    "id": "POL-001",
+    "name": "Your Policy Name",
+    "text": "Your policy text here. This should contain requirements that map to UAE IA controls.",
+    "section": "Section X.X",
+    "metadata": {
+      "version": "1.0",
+      "last_updated": "2024-01-01"
+    }
+  }
+]

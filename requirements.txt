@@ -1,0 +1,20 @@
+pandas
+docling
+pydantic
+openai
+python-dotenv
+label-studio-sdk
+openpyxl
+PDFplumber
+python-docx
+flask
+transformers
+torch
+sentencepiece
+sentence-transformers
+scikit-learn
+rank-bm25
+numpy
+# Policy extraction backends (optional; docling is default for better structure)
+# docling  # already above - use --backend docling to preserve sections/tables/lists
+# unstructured[pdf]  # pip install 'unstructured[pdf]' for --backend unstructured

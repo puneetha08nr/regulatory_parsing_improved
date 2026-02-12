@@ -1,0 +1,95 @@
+{
+  "generated_at": "2026-02-09T18:13:45.474311",
+  "summary": {
+    "total_mappings": 725,
+    "total_controls": 181,
+    "total_policies": 29,
+    "status_breakdown": {
+      "Not Addressed": 602,
+      "Partially Addressed": 80,
+      "Fully Addressed": 43
+    }
+  },
+  "by_family": {
+    "M1": {
+      "Fully Addressed": 0,
+      "Partially Addressed": 3,
+      "Not Addressed": 67
+    },
+    "M2": {
+      "Fully Addressed": 0,
+      "Partially Addressed": 0,
+      "Not Addressed": 35
+    },
+    "M3": {
+      "Fully Addressed": 4,
+      "Partially Addressed": 4,
+      "Not Addressed": 22
+    },
+    "M4": {
+      "Fully Addressed": 1,
+      "Partially Addressed": 7,
+      "Not Addressed": 27
+    },
+    "M5": {
+      "Fully Addressed": 0,
+      "Partially Addressed": 1,
+      "Not Addressed": 54
+    },
+    "M6": {
+      "Fully Addressed": 2,
+      "Partially Addressed": 2,
+      "Not Addressed": 16
+    },
+    "T1": {
+      "Fully Addressed": 7,
+      "Partially Addressed": 2,
+      "Not Addressed": 36
+    },
+    "T2": {
+      "Fully Addressed": 7,
+      "Partially Addressed": 5,
+      "Not Addressed": 38
+    },
+    "T3": {
+      "Fully Addressed": 5,
+      "Partially Addressed": 7,
+      "Not Addressed": 63
+    },
+    "T9": {
+      "Fully Addressed": 2,
+      "Partially Addressed": 6,
+      "Not Addressed": 12
+    },
+    "T4": {
+      "Fully Addressed": 1,
+      "Partially Addressed": 10,
+      "Not Addressed": 49
+    },
+    "T5": {
+      "Fully Addressed": 7,
+      "Partially Addressed": 14,
+      "Not Addressed": 54
+    },
+    "T6": {
+      "Fully Addressed": 0,
+      "Partially Addressed": 7,
+      "Not Addressed": 18
+    },
+    "T7": {
+      "Fully Addressed": 7,
+      "Partially Addressed": 11,
+      "Not Addressed": 62
+    },
+    "T8": {
+      "Fully Addressed": 0,
+      "Partially Addressed": 1,
+      "Not Addressed": 49
+    }
+  },
+  "compliance_rate": {
+    "fully_addressed": 5.931034482758621,
+    "partially_addressed": 11.03448275862069,
+    "not_addressed": 83.03448275862068
+  }
+}

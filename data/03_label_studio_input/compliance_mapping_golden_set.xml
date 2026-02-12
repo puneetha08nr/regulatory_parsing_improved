@@ -1,0 +1,38 @@
+<View>
+  <Header value="UAE IA Control (Regulation Requirement)" size="4"/>
+  <View style="background: #f5f5f5; padding: 10px; margin-bottom: 10px;">
+    <Text name="control_id" value="Control ID: $control_id" style="font-weight: bold;"/>
+    <Text name="control_name" value="Control Name: $control_name"/>
+    <Text name="control_family" value="Family: $control_family"/>
+    <Header value="Requirement (obligation):" size="5"/>
+    <Text name="control_text" value="$control_text" style="white-space: pre-wrap;"/>
+    <Text name="sub_controls" value="Sub-controls (excerpt): $sub_controls_snippet" style="font-size: 0.9em; color: #666;"/>
+  </View>
+
+  <Header value="Policy Passage (Internal Policy)" size="4"/>
+  <View style="background: #e8f4f8; padding: 10px; margin-bottom: 10px;">
+    <Text name="policy_id" value="Policy: $policy_name"/>
+    <Text name="section" value="Section: $policy_section"/>
+    <Header value="Policy text:" size="5"/>
+    <Text name="policy_text" value="$policy_text" style="white-space: pre-wrap;"/>
+  </View>
+
+  <Header value="Your judgment: Does this policy passage address the control?" size="4"/>
+  <Choices name="compliance_status" toName="control_text" required="true" showInLine="true">
+    <Choice value="Fully Addressed" alias="Full" background="#d4edda"/>
+    <Choice value="Partially Addressed" alias="Partial" background="#fff3cd"/>
+    <Choice value="Not Addressed" alias="None" background="#f8d7da"/>
+  </Choices>
+
+  <Header value="Confidence in your judgment (1–5)" size="5"/>
+  <Choices name="confidence" toName="control_text" required="true" showInLine="true">
+    <Choice value="1" alias="1 – Low"/>
+    <Choice value="2" alias="2"/>
+    <Choice value="3" alias="3 – Medium"/>
+    <Choice value="4" alias="4"/>
+    <Choice value="5" alias="5 – High"/>
+  </Choices>
+
+  <Header value="Optional: Evidence or notes" size="5"/>
+  <TextArea name="evidence_or_notes" toName="control_text" placeholder="e.g. Quote the exact phrase that addresses the control, or explain a gap." rows="3" editable="true"/>
+</View>

@@ -1,0 +1,146 @@
+[
+  {
+    "data": {
+      "policy_passage_id": "clientname-IS-POL-00-Logging and Monitoring Policy 2_passage_1",
+      "policy_name": "Logging and Monitoring Policy",
+      "section": "INTRODUCTION",
+      "policy_text": "A regular monitoring program is key to managing risk in an organization.  Security monitoring occurs on both physical areas as well as logical components in different information system areas.  Information security monitoring confirms that appropriate mechanisms and controls are in place to secure systems and applications, that they are effective, and are not being bypassed in any way."
+    },
+    "meta": {
+      "policy_passage_id": "clientname-IS-POL-00-Logging and Monitoring Policy 2_passage_1",
+      "policy_name": "Logging and Monitoring Policy"
+    }
+  },
+  {
+    "data": {
+      "policy_passage_id": "clientname-IS-POL-00-Logging and Monitoring Policy 2_passage_2",
+      "policy_name": "Logging and Monitoring Policy",
+      "section": "PURPOSE",
+      "policy_text": "The purpose of this  Logging and Monitoring Policy (\"Policy\") is to define a framework for proactively monitoring events in order to detect potential security incidents quickly and efficiently."
+    },
+    "meta": {
+      "policy_passage_id": "clientname-IS-POL-00-Logging and Monitoring Policy 2_passage_2",
+      "policy_name": "Logging and Monitoring Policy"
+    }
+  },
+  {
+    "data": {
+      "policy_passage_id": "clientname-IS-POL-00-Logging and Monitoring Policy 2_passage_3",
+      "policy_name": "Logging and Monitoring Policy",
+      "section": "SCOPE",
+      "policy_text": "This Policy applies to all employees and third parties who access or manage information and information assets or use the organization's information and communications technology (ICT) systems. Any exceptions on the applicability of this Policy should be formally requested through the 'Policy Exception Management procedure.’"
+    },
+    "meta": {
+      "policy_passage_id": "clientname-IS-POL-00-Logging and Monitoring Policy 2_passage_3",
+      "policy_name": "Logging and Monitoring Policy"
+    }
+  },
+  {
+    "data": {
+      "policy_passage_id": "clientname-IS-POL-00-Logging and Monitoring Policy 2_passage_4",
+      "policy_name": "Logging and Monitoring Policy",
+      "section": "POLICY STATEMENT",
+      "policy_text": "shall develop, implement, and maintain a Logging and Monitoring Policy to secure the confidentiality, integrity, availability, secrecy, and privacy of information and its underlying assets for day-to-day business operations."
+    },
+    "meta": {
+      "policy_passage_id": "clientname-IS-POL-00-Logging and Monitoring Policy 2_passage_4",
+      "policy_name": "Logging and Monitoring Policy"
+    }
+  },
+  {
+    "data": {
+      "policy_passage_id": "clientname-IS-POL-00-Logging and Monitoring Policy 2_passage_5",
+      "policy_name": "Logging and Monitoring Policy",
+      "section": "Logging Requirements",
+      "policy_text": "Logging requirements shall be determined based on scope, information to be captured in audit logs, frequency for review of audit log data, and applicable laws and regulations. High level log activities that the company would like to track shall be defined. Potential log sources shall be identified for log monitoring based upon a risk assessment and their importance to the business. The critical log sources shall be configured and documented for log generation. Logs generated for activities that affect the availability and security of the systems, shall be configured for monitoring."
+    },
+    "meta": {
+      "policy_passage_id": "clientname-IS-POL-00-Logging and Monitoring Policy 2_passage_5",
+      "policy_name": "Logging and Monitoring Policy"
+    }
+  },
+  {
+    "data": {
+      "policy_passage_id": "clientname-IS-POL-00-Logging and Monitoring Policy 2_passage_6",
+      "policy_name": "Logging and Monitoring Policy",
+      "section": "Logging Parameters",
+      "policy_text": "Logs shall capture the below details - at minimum: User IDs. Date and Time of the event. Details of the event. Details of the Asset and its location where possible. For applications and  following log types shall be monitored - at minimum: Security Logs. Administrative and Operator Logs. Fault Logs. Backup logs."
+    },
+    "meta": {
+      "policy_passage_id": "clientname-IS-POL-00-Logging and Monitoring Policy 2_passage_6",
+      "policy_name": "Logging and Monitoring Policy"
+    }
+  },
+  {
+    "data": {
+      "policy_passage_id": "clientname-IS-POL-00-Logging and Monitoring Policy 2_passage_7",
+      "policy_name": "Logging and Monitoring Policy",
+      "section": "Log Storage & Retention",
+      "policy_text": "Logs shall be stored in centralized log storage separate from the operational environment in which actual events were generated. Logs shall be configured in a way that does not affect system performance. Logging level shall be sufficient to audit individual accountability, reconstruct events, detect intrusions, identify problems and demonstrate regulatory compliance, as may be necessary. Logs shall be retained for a minimum period of 1 year, or as per the retention period defined by the business owner or in accordance with any legal & regulatory requirements."
+    },
+    "meta": {
+      "policy_passage_id": "clientname-IS-POL-00-Logging and Monitoring Policy 2_passage_7",
+      "policy_name": "Logging and Monitoring Policy"
+    }
+  },
+  {
+    "data": {
+      "policy_passage_id": "clientname-IS-POL-00-Logging and Monitoring Policy 2_passage_8",
+      "policy_name": "Logging and Monitoring Policy",
+      "section": "Log Reporting",
+      "policy_text": "Log reporting shall be performed to summarize significant activity over a particular period of time or to record detailed information related to a particular event or series of events. The reporting shall capture detail such as top 10 sources/targets, source countries, failed logins etc. Frequency of log reporting shall be determined based on the criticality of systems and audience."
+    },
+    "meta": {
+      "policy_passage_id": "clientname-IS-POL-00-Logging and Monitoring Policy 2_passage_8",
+      "policy_name": "Logging and Monitoring Policy"
+    }
+  },
+  {
+    "data": {
+      "policy_passage_id": "clientname-IS-POL-00-Logging and Monitoring Policy 2_passage_9",
+      "policy_name": "Logging and Monitoring Policy",
+      "section": "Log Protection and Access",
+      "policy_text": "Adequate security controls shall be taken into account throughout its lifecycle to protect its confidentiality, integrity and availability. Access to the logs shall be strictly controlled. No user shall be granted permission to modify the logs in an unauthorized manner. Log repository shall be hardened as per the applicable security baseline documents."
+    },
+    "meta": {
+      "policy_passage_id": "clientname-IS-POL-00-Logging and Monitoring Policy 2_passage_9",
+      "policy_name": "Logging and Monitoring Policy"
+    }
+  },
+  {
+    "data": {
+      "policy_passage_id": "clientname-IS-POL-00-Logging and Monitoring Policy 2_passage_10",
+      "policy_name": "Logging and Monitoring Policy",
+      "section": "Log Monitoring, Analysis & Review",
+      "policy_text": "Monitoring performed by third parties shall involve Non-Disclosure Agreements (NDA) and Service Level Agreements (SLA). The SLA shall include procedures for log reporting and escalation. Logs generated and stored shall be monitored in real time by a central log monitoring system. The central log monitoring system shall be capable of centralization, sorting and parsing of the logs collected from different IT Systems to identify, contain and respond quickly to events/incidents in the network A dedicated monitoring team operating under IT Section shall be assigned to centrally monitor the logs generated by all the IT systems. Logs shall not be analyzed by the same individual whose activities are being logged and monitored, to ensure segregation of duties. Corrective and preventive measures on reported incidents shall be taken. Logs shall be backed up on a regular basis, in accordance with the log storage and retention requirements. The monitoring team shall, on a periodic basis, submit lo"
+    },
+    "meta": {
+      "policy_passage_id": "clientname-IS-POL-00-Logging and Monitoring Policy 2_passage_10",
+      "policy_name": "Logging and Monitoring Policy"
+    }
+  },
+  {
+    "data": {
+      "policy_passage_id": "clientname-IS-POL-00-Logging and Monitoring Policy 2_passage_11",
+      "policy_name": "Logging and Monitoring Policy",
+      "section": "POLICY ENFORCEMENT AND EXCEPTIONS",
+      "policy_text": "All Employees and 'Third Parties' are responsible for understanding and adhering to this Policy. Any violation of this Policy shall be reported to Policy Owner. In addition, violation of this Policy shall be subjected to disciplinary action by the 's Human Capital Department, considering the recommendation of IS Team and in accordance with other applicable policies, laws, and regulations. Disciplinary action may range from a verbal warning to discontinuation of access to facility or services, or termination of employment/contract/agreement, and possible legal action. The actual action taken shall depend on factors such as the seriousness of the breach and the user's disciplinary record. Any exceptions on the applicability of this Policy should be formally requested through the 'Policy Exception Management procedure.'"
+    },
+    "meta": {
+      "policy_passage_id": "clientname-IS-POL-00-Logging and Monitoring Policy 2_passage_11",
+      "policy_name": "Logging and Monitoring Policy"
+    }
+  },
+  {
+    "data": {
+      "policy_passage_id": "clientname-IS-POL-00-Logging and Monitoring Policy 2_passage_12",
+      "policy_name": "Logging and Monitoring Policy",
+      "section": "MONITORING AND REVIEW",
+      "policy_text": "This Policy is developed and owned by the  IS Team. It is reviewed by the CISO and approved by the CEO. IS Team shall initiate a review of this Policy annually or whenever a significant change occurs in the organization's operating environment. Feedback, suggestions, or questions regarding the Policy shall be directed to the CISO at CISO@.net."
+    },
+    "meta": {
+      "policy_passage_id": "clientname-IS-POL-00-Logging and Monitoring Policy 2_passage_12",
+      "policy_name": "Logging and Monitoring Policy"
+    }
+  }
+]

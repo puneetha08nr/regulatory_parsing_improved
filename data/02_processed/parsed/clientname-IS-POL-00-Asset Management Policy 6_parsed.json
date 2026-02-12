@@ -1,0 +1,1969 @@
+{
+  "source_file": "data/01_raw/adgm/clientname-IS-POL-00-Asset Management Policy 6.docx",
+  "method": "unstructured",
+  "elements": [
+    {
+      "type": "Header",
+      "text": "Classification: Internal",
+      "metadata": {
+        "category_depth": 0,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Asset Management Policy 6.docx",
+        "header_footer_type": "primary",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "Footer",
+      "text": "Document No: <CLIENT>-ORG-IMS-POL-009 Page 4 of 12",
+      "metadata": {
+        "category_depth": 0,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Asset Management Policy 6.docx",
+        "header_footer_type": "primary",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "Table",
+      "text": "Document Information Document ID <CLIENT>-ORG-IMS-POL-009 Document Title <CLIENT> Asset Management Policy Prepared by Information Security Team Status Final Owner CISO Effective From 01-Jan-2023 Effective Till Until revoked Document Type Policy Document Classification Internal Distribution List <CLIENT> staff, Contractors, Third Parties",
+      "metadata": {
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Asset Management Policy 6.docx",
+        "last_modified": "2026-01-22T17:38:19",
+        "page_number": 1,
+        "text_as_html": "<table><tr><td>Document Information</td><td>Document Information</td></tr><tr><td>Document ID</td><td>&lt;CLIENT&gt;-ORG-IMS-POL-009</td></tr><tr><td>Document Title</td><td>&lt;CLIENT&gt; Asset Management Policy</td></tr><tr><td>Prepared by</td><td>Information Security Team</td></tr><tr><td>Status</td><td>Final</td></tr><tr><td>Owner</td><td>CISO</td></tr><tr><td>Effective From</td><td>01-Jan-2023</td></tr><tr><td>Effective Till</td><td>Until revoked</td></tr><tr><td>Document Type</td><td>Policy</td></tr><tr><td>Document Classification</td><td>Internal</td></tr><tr><td>Distribution List</td><td>&lt;CLIENT&gt; staff, Contractors, Third Parties</td></tr></table>",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "Table",
+      "text": "Document Release Dates Version Date Editor Brief/Comments",
+      "metadata": {
+        "emphasized_text_contents": [
+          "Date",
+          "Editor",
+          "Brief/Comments"
+        ],
+        "emphasized_text_tags": [
+          "b",
+          "b",
+          "b"
+        ],
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Asset Management Policy 6.docx",
+        "last_modified": "2026-01-22T17:38:19",
+        "page_number": 1,
+        "text_as_html": "<table><tr><td>Document Release Dates</td><td>Document Release Dates</td><td>Document Release Dates</td><td>Document Release Dates</td></tr><tr><td>Version</td><td>Date</td><td>Editor</td><td>Brief/Comments</td></tr><tr><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/></tr></table>",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "Table",
+      "text": "Document Review Date Name Title/Designation Notes",
+      "metadata": {
+        "emphasized_text_contents": [
+          "Name",
+          "Title/Designation",
+          "Notes"
+        ],
+        "emphasized_text_tags": [
+          "b",
+          "b",
+          "b"
+        ],
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Asset Management Policy 6.docx",
+        "last_modified": "2026-01-22T17:38:19",
+        "page_number": 1,
+        "text_as_html": "<table><tr><td>Document Review</td><td>Document Review</td><td>Document Review</td><td>Document Review</td></tr><tr><td>Date</td><td>Name</td><td>Title/Designation</td><td>Notes</td></tr><tr><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/></tr></table>",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "Table",
+      "text": "Approvals Name Title/Designation Signature",
+      "metadata": {
+        "emphasized_text_contents": [
+          "Approvals",
+          "Approvals",
+          "Approvals",
+          "Name",
+          "Title/Designation",
+          "Signature"
+        ],
+        "emphasized_text_tags": [
+          "b",
+          "b",
+          "b",
+          "b",
+          "b",
+          "b"
+        ],
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Asset Management Policy 6.docx",
+        "last_modified": "2026-01-22T17:38:19",
+        "page_number": 1,
+        "text_as_html": "<table><tr><td>Approvals</td><td>Approvals</td><td>Approvals</td></tr><tr><td>Name</td><td>Title/Designation</td><td>Signature</td></tr><tr><td/><td/><td/></tr></table>",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "INTRODUCTION",
+      "metadata": {
+        "category_depth": 0,
+        "emphasized_text_contents": [
+          "INTRODUCTION"
+        ],
+        "emphasized_text_tags": [
+          "b"
+        ],
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Asset Management Policy 6.docx",
+        "last_modified": "2026-01-22T17:38:19",
+        "page_number": 1,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "NarrativeText",
+      "text": "<CLIENT> (hereon referred to as <CLIENT>) has embarked on a robust Asset Management initiative to safeguard information assets collected and generated during the normal course of its business operations. As a company that delivers cybersecurity services, <CLIENT> maintains and uses valuable assets. As such, a robust and comprehensive Asset Management program is required to ensure that the assets maintained and operated by <CLIENT> are secured and protected throughout the lifecycle.",
+      "metadata": {
+        "category_depth": 0,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Asset Management Policy 6.docx",
+        "last_modified": "2026-01-22T17:38:19",
+        "page_number": 1,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "NarrativeText",
+      "text": "<CLIENT> is responsible for identifying assets and how they are used within the company; therefore, it shall set policies, processes, and standard operating procedures for handling assets, implement appropriate technical controls, and educate users about current threats to the assets that they work with and observe best practices for asset protection.",
+      "metadata": {
+        "category_depth": 0,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Asset Management Policy 6.docx",
+        "last_modified": "2026-01-22T17:38:19",
+        "page_number": 1,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "NarrativeText",
+      "text": "<CLIENT> employees are expected to understand and comply with this Policy and ultimately be responsible for protecting all Information Assets from unauthorized access. Compliance with this Policy is highly important to safeguard the organization's assets and reputation. Any Policy violation may invite appropriate disciplinary action per the corporate policies, applicable laws and regulations in the United Arab Emirates.",
+      "metadata": {
+        "category_depth": 0,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Asset Management Policy 6.docx",
+        "last_modified": "2026-01-22T17:38:19",
+        "page_number": 1,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "PURPOSE",
+      "metadata": {
+        "category_depth": 0,
+        "emphasized_text_contents": [
+          "PURPOSE"
+        ],
+        "emphasized_text_tags": [
+          "b"
+        ],
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Asset Management Policy 6.docx",
+        "last_modified": "2026-01-22T17:38:19",
+        "page_number": 1,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "NarrativeText",
+      "text": "This Asset Management Policy (\"Policy\") aims to ensure appropriate classification and protection of <CLIENT>'s information and assets.",
+      "metadata": {
+        "category_depth": 0,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Asset Management Policy 6.docx",
+        "last_modified": "2026-01-22T17:38:19",
+        "page_number": 1,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "NarrativeText",
+      "text": "Further, the Policy establishes a commitment to comply with applicable sections of the federal and global laws and regulations, including but not limited to UAE Information Assurance Regulation, Federal Decree Law No. 45 of 2021 regarding the Protection of Personal Data, ISO 27001, ISO 27701, ISO 20000, ISO 22301 and UAE National Cyber Risk Management Framework (NCRMF).",
+      "metadata": {
+        "category_depth": 0,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Asset Management Policy 6.docx",
+        "last_modified": "2026-01-22T17:38:19",
+        "page_number": 1,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "NarrativeText",
+      "text": "The following are the key objectives of this Policy:",
+      "metadata": {
+        "category_depth": 0,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Asset Management Policy 6.docx",
+        "last_modified": "2026-01-22T17:38:19",
+        "page_number": 1,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Establish asset register: Development and maintenance of an asset register.",
+      "metadata": {
+        "category_depth": 1,
+        "emphasized_text_contents": [
+          "Establish asset register:"
+        ],
+        "emphasized_text_tags": [
+          "b"
+        ],
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Asset Management Policy 6.docx",
+        "last_modified": "2026-01-22T17:38:19",
+        "page_number": 1,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Handling of information: Correct and consistent handling of information assets in accordance with the organization’s information classification scheme.",
+      "metadata": {
+        "category_depth": 1,
+        "emphasized_text_contents": [
+          "Handling of information:"
+        ],
+        "emphasized_text_tags": [
+          "b"
+        ],
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Asset Management Policy 6.docx",
+        "last_modified": "2026-01-22T17:38:19",
+        "page_number": 1,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Management of media: Correct and consistent management of the asset's lifecycle.",
+      "metadata": {
+        "category_depth": 1,
+        "emphasized_text_contents": [
+          "Management of media:"
+        ],
+        "emphasized_text_tags": [
+          "b"
+        ],
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Asset Management Policy 6.docx",
+        "last_modified": "2026-01-22T17:38:19",
+        "page_number": 1,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "SCOPE",
+      "metadata": {
+        "category_depth": 0,
+        "emphasized_text_contents": [
+          "SCOPE"
+        ],
+        "emphasized_text_tags": [
+          "b"
+        ],
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Asset Management Policy 6.docx",
+        "last_modified": "2026-01-22T17:38:19",
+        "page_number": 1,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "NarrativeText",
+      "text": "This Policy applies to all employees and critical third parties who access or manage information and information assets or use the organization’s information and communications technology (ICT) systems. ",
+      "metadata": {
+        "category_depth": 0,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Asset Management Policy 6.docx",
+        "last_modified": "2026-01-22T17:38:19",
+        "page_number": 1,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "NarrativeText",
+      "text": "Any exceptions on the applicability of this Policy should be formally requested through the ‘Policy Exception Management procedure’.",
+      "metadata": {
+        "category_depth": 0,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Asset Management Policy 6.docx",
+        "last_modified": "2026-01-22T17:38:19",
+        "page_number": 1,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "PageBreak",
+      "text": "",
+      "metadata": {
+        "languages": [
+          "eng"
+        ],
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Asset Management Policy 6.docx",
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "POLICY STATEMENT",
+      "metadata": {
+        "category_depth": 0,
+        "emphasized_text_contents": [
+          "POLICY STATEMENT"
+        ],
+        "emphasized_text_tags": [
+          "b"
+        ],
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Asset Management Policy 6.docx",
+        "last_modified": "2026-01-22T17:38:19",
+        "page_number": 2,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "NarrativeText",
+      "text": "<CLIENT> shall ensure the security of assets by:",
+      "metadata": {
+        "category_depth": 0,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Asset Management Policy 6.docx",
+        "last_modified": "2026-01-22T17:38:19",
+        "page_number": 2,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Identifying information assets.",
+      "metadata": {
+        "category_depth": 1,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Asset Management Policy 6.docx",
+        "last_modified": "2026-01-22T17:38:19",
+        "page_number": 2,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Ensuring that a current and accurate inventory of assets is developed and maintained through an asset register to include responsibilities and classification based on Data Security Policy (<CLIENT>-ORG-IMS-POL-003).",
+      "metadata": {
+        "category_depth": 1,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Asset Management Policy 6.docx",
+        "last_modified": "2026-01-22T17:38:19",
+        "page_number": 2,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "POLICY DETAILS",
+      "metadata": {
+        "category_depth": 0,
+        "emphasized_text_contents": [
+          "POLICY DETAILS"
+        ],
+        "emphasized_text_tags": [
+          "b"
+        ],
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Asset Management Policy 6.docx",
+        "last_modified": "2026-01-22T17:38:19",
+        "page_number": 2,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Asset Inventory",
+      "metadata": {
+        "category_depth": 1,
+        "emphasized_text_contents": [
+          "Asset Inventory"
+        ],
+        "emphasized_text_tags": [
+          "b"
+        ],
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Asset Management Policy 6.docx",
+        "last_modified": "2026-01-22T17:38:19",
+        "page_number": 2,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "a941f1ac118f9a9d40aeb347c000f713"
+      }
+    },
+    {
+      "type": "UncategorizedText",
+      "text": "<CLIENT> shall: ",
+      "metadata": {
+        "category_depth": 0,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Asset Management Policy 6.docx",
+        "last_modified": "2026-01-22T17:38:19",
+        "page_number": 2,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Identify assets relevant in the information lifecycle (creation, processing, storage, transmission, deletion, destruction, and protection) and document their importance.",
+      "metadata": {
+        "category_depth": 2,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Asset Management Policy 6.docx",
+        "last_modified": "2026-01-22T17:38:19",
+        "page_number": 2,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Ensure that all organizational assets are considered for the asset management process using a centralized and efficient approach.",
+      "metadata": {
+        "category_depth": 2,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Asset Management Policy 6.docx",
+        "last_modified": "2026-01-22T17:38:19",
+        "page_number": 2,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Ensure that documentation is done in dedicated asset inventories as appropriate. The asset inventory at a minimum shall contain:",
+      "metadata": {
+        "category_depth": 2,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Asset Management Policy 6.docx",
+        "last_modified": "2026-01-22T17:38:19",
+        "page_number": 2,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Type of asset.",
+      "metadata": {
+        "category_depth": 3,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Asset Management Policy 6.docx",
+        "last_modified": "2026-01-22T17:38:19",
+        "page_number": 2,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "813fd3b97b1e040bf41813b0fd2b9416"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Asset ownership.",
+      "metadata": {
+        "category_depth": 3,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Asset Management Policy 6.docx",
+        "last_modified": "2026-01-22T17:38:19",
+        "page_number": 2,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "813fd3b97b1e040bf41813b0fd2b9416"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Location.",
+      "metadata": {
+        "category_depth": 3,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Asset Management Policy 6.docx",
+        "last_modified": "2026-01-22T17:38:19",
+        "page_number": 2,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "813fd3b97b1e040bf41813b0fd2b9416"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Backup information.",
+      "metadata": {
+        "category_depth": 3,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Asset Management Policy 6.docx",
+        "last_modified": "2026-01-22T17:38:19",
+        "page_number": 2,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "813fd3b97b1e040bf41813b0fd2b9416"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Related licenses.",
+      "metadata": {
+        "category_depth": 3,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Asset Management Policy 6.docx",
+        "last_modified": "2026-01-22T17:38:19",
+        "page_number": 2,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "813fd3b97b1e040bf41813b0fd2b9416"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Asset importance/criticality.",
+      "metadata": {
+        "category_depth": 3,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Asset Management Policy 6.docx",
+        "last_modified": "2026-01-22T17:38:19",
+        "page_number": 2,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "813fd3b97b1e040bf41813b0fd2b9416"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Asset Ownership",
+      "metadata": {
+        "category_depth": 1,
+        "emphasized_text_contents": [
+          "Asset Ownership"
+        ],
+        "emphasized_text_tags": [
+          "b"
+        ],
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Asset Management Policy 6.docx",
+        "last_modified": "2026-01-22T17:38:19",
+        "page_number": 2,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "UncategorizedText",
+      "text": "<CLIENT> shall:",
+      "metadata": {
+        "category_depth": 0,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Asset Management Policy 6.docx",
+        "last_modified": "2026-01-22T17:38:19",
+        "page_number": 2,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Establish and implement a process to ensure timely assignment of asset ownership.",
+      "metadata": {
+        "category_depth": 2,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Asset Management Policy 6.docx",
+        "last_modified": "2026-01-22T17:38:19",
+        "page_number": 2,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Assign/reassign ownership when assets are created or transferred.",
+      "metadata": {
+        "category_depth": 2,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Asset Management Policy 6.docx",
+        "last_modified": "2026-01-22T17:38:19",
+        "page_number": 2,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Assign ownership to individuals having approved management responsibility across the asset lifecycle. Asset owners shall have the following responsibilities at a minimum:",
+      "metadata": {
+        "category_depth": 2,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Asset Management Policy 6.docx",
+        "last_modified": "2026-01-22T17:38:19",
+        "page_number": 2,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Perform inventory of the applicable assets.",
+      "metadata": {
+        "category_depth": 3,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Asset Management Policy 6.docx",
+        "last_modified": "2026-01-22T17:38:19",
+        "page_number": 2,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "36d27eaf14d7686c0e76efe8919a0487"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Classify and protect the assets.",
+      "metadata": {
+        "category_depth": 3,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Asset Management Policy 6.docx",
+        "last_modified": "2026-01-22T17:38:19",
+        "page_number": 2,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "36d27eaf14d7686c0e76efe8919a0487"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Define and periodically review access restrictions and classifications to important assets, considering applicable access control policies in accordance with <CLIENT> Access Control Policy (<CLIENT>-ORG-IMS-POL-017).",
+      "metadata": {
+        "category_depth": 3,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Asset Management Policy 6.docx",
+        "last_modified": "2026-01-22T17:38:19",
+        "page_number": 2,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "36d27eaf14d7686c0e76efe8919a0487"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Asset Labelling",
+      "metadata": {
+        "category_depth": 1,
+        "emphasized_text_contents": [
+          "Asset Labelling"
+        ],
+        "emphasized_text_tags": [
+          "b"
+        ],
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Asset Management Policy 6.docx",
+        "last_modified": "2026-01-22T17:38:19",
+        "page_number": 2,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "UncategorizedText",
+      "text": "<CLIENT> shall:",
+      "metadata": {
+        "category_depth": 0,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Asset Management Policy 6.docx",
+        "last_modified": "2026-01-22T17:38:19",
+        "page_number": 2,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "PageBreak",
+      "text": "",
+      "metadata": {
+        "languages": [
+          "eng"
+        ],
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Asset Management Policy 6.docx",
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Label information assets in physical and electronic formats according to the established information classification scheme as per the <CLIENT> Data Security Policy (<CLIENT>-ORG-IMS-POL-003).",
+      "metadata": {
+        "category_depth": 2,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Asset Management Policy 6.docx",
+        "last_modified": "2026-01-22T17:38:19",
+        "page_number": 3,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Develop detailed procedures to give guidance on where and how labels are attached in consideration of how the information is accessed or the assets are handled depending on the types of media.",
+      "metadata": {
+        "category_depth": 3,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Asset Management Policy 6.docx",
+        "last_modified": "2026-01-22T17:38:19",
+        "page_number": 3,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "9caf908888c88bf8eea5204ac295fd92"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Ensure that output from systems carry an appropriate classification label aligned to <CLIENT> Data Security Policy (<CLIENT>-ORG-IMS-POL-003).",
+      "metadata": {
+        "category_depth": 3,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Asset Management Policy 6.docx",
+        "last_modified": "2026-01-22T17:38:19",
+        "page_number": 3,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "9caf908888c88bf8eea5204ac295fd92"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Ensure labels are easily recognizable and are included in emails, header, and footer of manually created or system-generated documents.",
+      "metadata": {
+        "category_depth": 3,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Asset Management Policy 6.docx",
+        "last_modified": "2026-01-22T17:38:19",
+        "page_number": 3,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "9caf908888c88bf8eea5204ac295fd92"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Ensure appropriate awareness is provided to employees and third-party users regarding information labelling procedures.",
+      "metadata": {
+        "category_depth": 2,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Asset Management Policy 6.docx",
+        "last_modified": "2026-01-22T17:38:19",
+        "page_number": 3,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Asset Handling",
+      "metadata": {
+        "category_depth": 1,
+        "emphasized_text_contents": [
+          "Asset Handling"
+        ],
+        "emphasized_text_tags": [
+          "b"
+        ],
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Asset Management Policy 6.docx",
+        "last_modified": "2026-01-22T17:38:19",
+        "page_number": 3,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "UncategorizedText",
+      "text": "<CLIENT> shall:",
+      "metadata": {
+        "category_depth": 0,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Asset Management Policy 6.docx",
+        "last_modified": "2026-01-22T17:38:19",
+        "page_number": 3,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Develop procedures for handling, processing, storing, and communicating information consistent with its classification level. The following items should be considered, at a minimum:",
+      "metadata": {
+        "category_depth": 2,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Asset Management Policy 6.docx",
+        "last_modified": "2026-01-22T17:38:19",
+        "page_number": 3,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Access restrictions supporting the protection requirements for each level of classification.",
+      "metadata": {
+        "category_depth": 2,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Asset Management Policy 6.docx",
+        "last_modified": "2026-01-22T17:38:19",
+        "page_number": 3,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Protection of temporary or permanent copies of information to a level consistent with the protection of the original information.",
+      "metadata": {
+        "category_depth": 2,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Asset Management Policy 6.docx",
+        "last_modified": "2026-01-22T17:38:19",
+        "page_number": 3,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Storage of IT assets in accordance with manufacturers' specifications.",
+      "metadata": {
+        "category_depth": 2,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Asset Management Policy 6.docx",
+        "last_modified": "2026-01-22T17:38:19",
+        "page_number": 3,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Safeguard information in accordance with the established procedures.",
+      "metadata": {
+        "category_depth": 2,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Asset Management Policy 6.docx",
+        "last_modified": "2026-01-22T17:38:19",
+        "page_number": 3,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Ensure appropriate awareness is provided to employees and third-party users regarding the information handling procedures.",
+      "metadata": {
+        "category_depth": 2,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Asset Management Policy 6.docx",
+        "last_modified": "2026-01-22T17:38:19",
+        "page_number": 3,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Removable Media Management",
+      "metadata": {
+        "category_depth": 1,
+        "emphasized_text_contents": [
+          "Removable Media Management"
+        ],
+        "emphasized_text_tags": [
+          "b"
+        ],
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Asset Management Policy 6.docx",
+        "last_modified": "2026-01-22T17:38:19",
+        "page_number": 3,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "UncategorizedText",
+      "text": "<CLIENT> shall:",
+      "metadata": {
+        "category_depth": 0,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Asset Management Policy 6.docx",
+        "last_modified": "2026-01-22T17:38:19",
+        "page_number": 3,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Ensure that all information is stored only in organization authorized media.",
+      "metadata": {
+        "category_depth": 2,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Asset Management Policy 6.docx",
+        "last_modified": "2026-01-22T17:38:19",
+        "page_number": 3,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Ensure that contents of any re-usable media that are to be removed from the organization is made unrecoverable when no longer required.",
+      "metadata": {
+        "category_depth": 2,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Asset Management Policy 6.docx",
+        "last_modified": "2026-01-22T17:38:19",
+        "page_number": 3,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Ensure that appropriate authorization is obtained for media removed from the organization and a record of such removals is kept in order to maintain an audit trail.",
+      "metadata": {
+        "category_depth": 2,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Asset Management Policy 6.docx",
+        "last_modified": "2026-01-22T17:38:19",
+        "page_number": 3,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Store all media in a safe and secure environment in accordance with manufacturers' specifications.",
+      "metadata": {
+        "category_depth": 2,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Asset Management Policy 6.docx",
+        "last_modified": "2026-01-22T17:38:19",
+        "page_number": 3,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Apply cryptographic techniques to protect data on removable media.",
+      "metadata": {
+        "category_depth": 2,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Asset Management Policy 6.docx",
+        "last_modified": "2026-01-22T17:38:19",
+        "page_number": 3,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Ensure that all removable media is scanned for malware before utilization.",
+      "metadata": {
+        "category_depth": 2,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Asset Management Policy 6.docx",
+        "last_modified": "2026-01-22T17:38:19",
+        "page_number": 3,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Ensure transfer of data to fresh media before it gets unreadable.",
+      "metadata": {
+        "category_depth": 2,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Asset Management Policy 6.docx",
+        "last_modified": "2026-01-22T17:38:19",
+        "page_number": 3,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Securely store/backup multiple copies of valuable data on separate media to further reduce the risk of incidental and/or accidental data damage or loss.",
+      "metadata": {
+        "category_depth": 2,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Asset Management Policy 6.docx",
+        "last_modified": "2026-01-22T17:38:19",
+        "page_number": 3,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Restrict and monitor the usage of removable media to limit the opportunity for data loss.",
+      "metadata": {
+        "category_depth": 2,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Asset Management Policy 6.docx",
+        "last_modified": "2026-01-22T17:38:19",
+        "page_number": 3,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Ensure that any organization-controlled media with data is not sent to the manufacturer for any repair purposes to avoid leakage of residual confidential information.",
+      "metadata": {
+        "category_depth": 2,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Asset Management Policy 6.docx",
+        "last_modified": "2026-01-22T17:38:19",
+        "page_number": 3,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Disposal of Media",
+      "metadata": {
+        "category_depth": 1,
+        "emphasized_text_contents": [
+          "Disposal of Media"
+        ],
+        "emphasized_text_tags": [
+          "b"
+        ],
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Asset Management Policy 6.docx",
+        "last_modified": "2026-01-22T17:38:19",
+        "page_number": 3,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "PageBreak",
+      "text": "",
+      "metadata": {
+        "languages": [
+          "eng"
+        ],
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Asset Management Policy 6.docx",
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "UncategorizedText",
+      "text": "<CLIENT> shall:",
+      "metadata": {
+        "category_depth": 0,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Asset Management Policy 6.docx",
+        "last_modified": "2026-01-22T17:38:19",
+        "page_number": 4,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Establish procedures for secure disposal of media containing organizational information based on the sensitivity of that information.",
+      "metadata": {
+        "category_depth": 2,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Asset Management Policy 6.docx",
+        "last_modified": "2026-01-22T17:38:19",
+        "page_number": 4,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Ensure that the procedures are defined to identify media devices that might require secure disposal.",
+      "metadata": {
+        "category_depth": 2,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Asset Management Policy 6.docx",
+        "last_modified": "2026-01-22T17:38:19",
+        "page_number": 4,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Ensure that media, both paper and digital, are destroyed when no longer serving the organization.",
+      "metadata": {
+        "category_depth": 2,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Asset Management Policy 6.docx",
+        "last_modified": "2026-01-22T17:38:19",
+        "page_number": 4,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Ensure that records of disposed media (containing or used to contain confidential information) are kept when no longer needed.",
+      "metadata": {
+        "category_depth": 2,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Asset Management Policy 6.docx",
+        "last_modified": "2026-01-22T17:38:19",
+        "page_number": 4,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Physical Media Transfer",
+      "metadata": {
+        "category_depth": 1,
+        "emphasized_text_contents": [
+          "Physical Media Transfer"
+        ],
+        "emphasized_text_tags": [
+          "b"
+        ],
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Asset Management Policy 6.docx",
+        "last_modified": "2026-01-22T17:38:19",
+        "page_number": 4,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "UncategorizedText",
+      "text": "<CLIENT> shall:",
+      "metadata": {
+        "category_depth": 0,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Asset Management Policy 6.docx",
+        "last_modified": "2026-01-22T17:38:19",
+        "page_number": 4,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Utilize reliable transport or couriers for transportation of physical media between sites.",
+      "metadata": {
+        "category_depth": 2,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Asset Management Policy 6.docx",
+        "last_modified": "2026-01-22T17:38:19",
+        "page_number": 4,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Develop a list of authorized couriers that are approved by the management.",
+      "metadata": {
+        "category_depth": 2,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Asset Management Policy 6.docx",
+        "last_modified": "2026-01-22T17:38:19",
+        "page_number": 4,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Define labelling requirements for physical media carrying sensitive information.",
+      "metadata": {
+        "category_depth": 2,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Asset Management Policy 6.docx",
+        "last_modified": "2026-01-22T17:38:19",
+        "page_number": 4,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Ensure that logs of the transfer are kept identifying the content of the media, protection applied, time(s) of transfer to the transit custodian(s), and the receipt at destination.",
+      "metadata": {
+        "category_depth": 2,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Asset Management Policy 6.docx",
+        "last_modified": "2026-01-22T17:38:19",
+        "page_number": 4,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Consider measures to be taken in the event of loss of physical media in transit carrying sensitive information.",
+      "metadata": {
+        "category_depth": 2,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Asset Management Policy 6.docx",
+        "last_modified": "2026-01-22T17:38:19",
+        "page_number": 4,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Acceptable Use of Assets",
+      "metadata": {
+        "category_depth": 1,
+        "emphasized_text_contents": [
+          "Acceptable Use of Assets"
+        ],
+        "emphasized_text_tags": [
+          "b"
+        ],
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Asset Management Policy 6.docx",
+        "last_modified": "2026-01-22T17:38:19",
+        "page_number": 4,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "UncategorizedText",
+      "text": "<CLIENT> shall: ",
+      "metadata": {
+        "category_depth": 0,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Asset Management Policy 6.docx",
+        "last_modified": "2026-01-22T17:38:19",
+        "page_number": 4,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Ensure that usage of all organization’s information, information assets and information and communications technology (ICT) systems are approved by the information security department prior to deployment.",
+      "metadata": {
+        "category_depth": 2,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Asset Management Policy 6.docx",
+        "last_modified": "2026-01-22T17:38:19",
+        "page_number": 4,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Establish, document, and circulate the rules for the acceptable use of assets in line with the <CLIENT> Acceptable Use Policy (<CLIENT>-ORG-IMS-POL-002) and disciplinary procedures.",
+      "metadata": {
+        "category_depth": 2,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Asset Management Policy 6.docx",
+        "last_modified": "2026-01-22T17:38:19",
+        "page_number": 4,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Consider the information provided by other members of an information sharing community as an asset and protect and disseminate in accordance with agreed upon rules.",
+      "metadata": {
+        "category_depth": 2,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Asset Management Policy 6.docx",
+        "last_modified": "2026-01-22T17:38:19",
+        "page_number": 4,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Bring Your Own Device (BYOD) Arrangements",
+      "metadata": {
+        "category_depth": 1,
+        "emphasized_text_contents": [
+          "Bring Your Own Device (BYOD) Arrangements"
+        ],
+        "emphasized_text_tags": [
+          "b"
+        ],
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Asset Management Policy 6.docx",
+        "last_modified": "2026-01-22T17:38:19",
+        "page_number": 4,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "UncategorizedText",
+      "text": "<CLIENT> shall: ",
+      "metadata": {
+        "category_depth": 0,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Asset Management Policy 6.docx",
+        "last_modified": "2026-01-22T17:38:19",
+        "page_number": 4,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Provide means to securely access organizational information and information assets via ‘Bring Your Own Device’ (BYOD).",
+      "metadata": {
+        "category_depth": 2,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Asset Management Policy 6.docx",
+        "last_modified": "2026-01-22T17:38:19",
+        "page_number": 4,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Establish and implement information security requirements to secure organizational information and information assets via ‘Bring Your Own Device’ (BYOD) in line with <CLIENT> Bring Your Own Device (BYOD) Policy (<CLIENT>-ORG-IMS-POL-020).",
+      "metadata": {
+        "category_depth": 2,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Asset Management Policy 6.docx",
+        "last_modified": "2026-01-22T17:38:19",
+        "page_number": 4,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "PageBreak",
+      "text": "",
+      "metadata": {
+        "languages": [
+          "eng"
+        ],
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Asset Management Policy 6.docx",
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "ROLES AND RESPONSIBILITIES",
+      "metadata": {
+        "category_depth": 0,
+        "emphasized_text_contents": [
+          "ROLES AND RESPONSIBILITIES"
+        ],
+        "emphasized_text_tags": [
+          "b"
+        ],
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Asset Management Policy 6.docx",
+        "last_modified": "2026-01-22T17:38:19",
+        "page_number": 5,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "Table",
+      "text": "Role Responsibility Executives & Senior Management Make available and support the required resources to drive asset management. Where relevant, provide direction to and participate in reviews and oversight of asset management. IMS Committee to: Review and approve this Policy prepared by, or on behalf of, the CISO. Establish process for the assignment of asset ownership and its periodical review. Assign an owner with management responsibility for each identified asset across asset lifecycle. Establish and document the rules for the acceptable use of assets. Support the establishment of the process for information classification. Adapt rules to the different roles (management, users, administrators, operators, contractors, etc.). Ensure circulation and acceptance of the rules by employees, contractors and third parties. Review and accept the findings and recommendations arising from Internal Audit. Information Security Develop or adopt an Asset classification scheme based on information value, legal requirements, sensitivity, and criticality to the organization as per the data protection policy. Establish the degree of protection required for each category. Establish the rules for the acceptable use of personal assets (e.g., BYOD) that are used on organization’s environment. Adapt these rules to the different roles (management, users, administrators, operators, contractors, etc.). Ensure circulation and acceptance of the BYOD rules by employees, contractors and third parties. Ensure information classification is: Based on the established levels, and Mapped to accountable owners. Ensure the possibility to be accessed by automated systems to enforce specific protections based on the classification level. Allow for the possibility that the information classification scheme can be accessed by automated systems to enforce specific protections based on the classification level. Establish a procedure for labelling of information and its related assets in physical or electronic formats to reflect their attributed classification. Apply the appropriate label on information. Develop handling procedures for processing, storing and communicating information consistent with its classification and its attached label. Safeguard information in accordance with the established procedures. Define labelling requirements for physical media carrying sensitive information. Define measures to be taken in the event of loss of physical media in transit carrying sensitive information. Infosec Operations Identify an inventory of information assets within organization through an asset register. Develop and maintain an up-to-date list of assets and associated asset owners. Ensure accuracy and consistency with other inventories. Establish procedures for secure disposal of media containing confidential information based on the sensitivity of that information. Ensure that media, both paper and digital, are destroyed when no longer serving organization. Ensure that records of disposed media (containing or used to contain confidential information) are kept when no longer needed. Establish media management procedures along its lifecycle (setup, distribution, utilization and disposal). Asset Owners Ensure an up-to-date information classification is assigned to information and information assets in accordance with changes of their value, sensitivity and criticality through their life cycle. Ensure sufficient information regarding physical assets (locations, data centers, networks, systems, storage, etc.) used to store, process or transmit information assets is recorded in the asset Inventory. Apply the appropriate label on information. Safeguard information in accordance with the established procedures. Assign operational responsibilities to a delegate like asset manager/asset custodian as required. Human Capital Ensure that this Policy is read and acknowledged formally by all users. Record and retain records of acceptance of the BYOD rules by employees. Apply the appropriate label on information. Safeguard information in accordance with the established procedures. Identify the needed protection levels in accordance with the information classification scheme. Establish access procedures to loading and unloading areas to restrict access to only authorized personnel. Ensure that each facility’s supporting utilities are tested and protected against malfunctions. Document supplier's recommendations for the maintenance of equipment and make them available to maintenance personnel. Keep maintenance logs for all equipment. Establish processes and procedures for decommissioning and commissioning of equipment to ensure protection of sensitive data. Information Technology Identify and enforce required confidentiality and integrity controls necessary to assure compliance with the Information Classification scheme as per the <CLIENT> Data Security Policy (<CLIENT>-ORG-IMS-POL-003). If there are availability requirements associated with the Information Classification scheme, ensure that the applicable ICT systems are sufficiently robust to meet these requirements. Apply the appropriate label on information. Safeguard information in accordance with the established procedures. Inhibit the use of removable media in those information systems that do not require it. Control users of removable media. Employees, Line Managers and Third Parties (Contractors, Vendors, etc.) Employees and third parties (including contractors, vendors, etc.) who access <CLIENT> premises, information and information assets or use information and communications technology (ICT) systems of the organization are responsible for adhering to this Policy and all its applicable procedures. Line manager to: Ensure that the Policy is read and acknowledged formally by all personnel directly reporting to him/her. Record and retain records of acceptance of the BYOD rules by employees under his/her direct supervision, as well as all contractors and/or third parties managed directly by him/her. Apply the appropriate label on information. Safeguard information in accordance with the established procedures. The following apply to all personnel, irrespective of their role within organization: Apply the appropriate label on information. Safeguard the information in accordance with the established procedures. Destroy media, both paper and digital, when no longer serving organization. Keep records for disposed media (containing or used to contain confidential information) when no longer needed. Identify physical media carrying sensitive information. Ensure physical media in transit carrying sensitive information is tracked sufficiently in accordance with the sensitivity of the information it contains. Keep a log of all transitions consistent with this Policy. Legal Identify all relevant and applicable laws and regulations to <CLIENT> and communicate to the respective parties. Define standard legal clauses and terms for the contract/agreement to be signed with external parties, employment contracts, confidentiality and Non-Disclosure Agreements (NDAs). Liaise with IS Team to define and review Information Security clauses in third-party contracts/agreements, employment contracts, confidentiality and Non-Disclosure Agreements (NDAs). Review third-party vendor, clients and partner contracts and involve IS Team for review of clauses concerning Information Security responsibilities.",
+      "metadata": {
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Asset Management Policy 6.docx",
+        "last_modified": "2026-01-22T17:38:19",
+        "page_number": 5,
+        "text_as_html": "<table><tr><td>Role</td><td>Responsibility</td></tr><tr><td>Executives &amp; Senior Management</td><td>Make available and support the required resources to drive asset management. Where relevant, provide direction to and participate in reviews and oversight of asset management. IMS Committee to: Review and approve this Policy prepared by, or on behalf of, the CISO. Establish process for the assignment of asset ownership and its periodical review. Assign an owner with management responsibility for each identified asset across asset lifecycle. Establish and document the rules for the acceptable use of assets. Support the establishment of the process for information classification. Adapt rules to the different roles (management, users, administrators, operators, contractors, etc.). Ensure circulation and acceptance of the rules by employees, contractors and third parties. Review and accept the findings and recommendations arising from Internal Audit.</td></tr><tr><td>Information Security</td><td>Develop or adopt an Asset classification scheme based on information value, legal requirements, sensitivity, and criticality to the organization as per the data protection policy. Establish the degree of protection required for each category. Establish the rules for the acceptable use of personal assets (e.g., BYOD) that are used on organization’s environment. Adapt these rules to the different roles (management, users, administrators, operators, contractors, etc.). Ensure circulation and acceptance of the BYOD rules by employees, contractors and third parties. Ensure information classification is: Based on the established levels, and Mapped to accountable owners. Ensure the possibility to be accessed by automated systems to enforce specific protections based on the classification level. Allow for the possibility that the information classification scheme can be accessed by automated systems to enforce specific protections based on the classification level. Establish a procedure for labelling of information and its related assets in physical or electronic formats to reflect their attributed classification. Apply the appropriate label on information. Develop handling procedures for processing, storing and communicating information consistent with its classification and its attached label. Safeguard information in accordance with the established procedures. Define labelling requirements for physical media carrying sensitive information. Define measures to be taken in the event of loss of physical media in transit carrying sensitive information.</td></tr><tr><td>Infosec Operations</td><td>Identify an inventory of information assets within organization through an asset register. Develop and maintain an up-to-date list of assets and associated asset owners. Ensure accuracy and consistency with other inventories. Establish procedures for secure disposal of media containing confidential information based on the sensitivity of that information. Ensure that media, both paper and digital, are destroyed when no longer serving organization. Ensure that records of disposed media (containing or used to contain confidential information) are kept when no longer needed. Establish media management procedures along its lifecycle (setup, distribution, utilization and disposal).</td></tr><tr><td>Asset Owners</td><td>Ensure an up-to-date information classification is assigned to information and information assets in accordance with changes of their value, sensitivity and criticality through their life cycle. Ensure sufficient information regarding physical assets (locations, data centers, networks, systems, storage, etc.) used to store, process or transmit information assets is recorded in the asset Inventory. Apply the appropriate label on information. Safeguard information in accordance with the established procedures. Assign operational responsibilities to a delegate like asset manager/asset custodian as required.</td></tr><tr><td>Human Capital</td><td>Ensure that this Policy is read and acknowledged formally by all users. Record and retain records of acceptance of the BYOD rules by employees. Apply the appropriate label on information. Safeguard information in accordance with the established procedures. Identify the needed protection levels in accordance with the information classification scheme. Establish access procedures to loading and unloading areas to restrict access to only authorized personnel. Ensure that each facility’s supporting utilities are tested and protected against malfunctions. Document supplier&#x27;s recommendations for the maintenance of equipment and make them available to maintenance personnel. Keep maintenance logs for all equipment. Establish processes and procedures for decommissioning and commissioning of equipment to ensure protection of sensitive data.</td></tr><tr><td>Information Technology</td><td>Identify and enforce required confidentiality and integrity controls necessary to assure compliance with the Information Classification scheme as per the &lt;CLIENT&gt; Data Security Policy (&lt;CLIENT&gt;-ORG-IMS-POL-003). If there are availability requirements associated with the Information Classification scheme, ensure that the applicable ICT systems are sufficiently robust to meet these requirements. Apply the appropriate label on information. Safeguard information in accordance with the established procedures. Inhibit the use of removable media in those information systems that do not require it. Control users of removable media.</td></tr><tr><td>Employees, Line Managers and Third Parties (Contractors, Vendors, etc.)</td><td>Employees and third parties (including contractors, vendors, etc.) who access &lt;CLIENT&gt; premises, information and information assets or use information and communications technology (ICT) systems of the organization are responsible for adhering to this Policy and all its applicable procedures. Line manager to: Ensure that the Policy is read and acknowledged formally by all personnel directly reporting to him/her. Record and retain records of acceptance of the BYOD rules by employees under his/her direct supervision, as well as all contractors and/or third parties managed directly by him/her. Apply the appropriate label on information. Safeguard information in accordance with the established procedures. The following apply to all personnel, irrespective of their role within organization: Apply the appropriate label on information. Safeguard the information in accordance with the established procedures. Destroy media, both paper and digital, when no longer serving organization. Keep records for disposed media (containing or used to contain confidential information) when no longer needed. Identify physical media carrying sensitive information. Ensure physical media in transit carrying sensitive information is tracked sufficiently in accordance with the sensitivity of the information it contains. Keep a log of all transitions consistent with this Policy.</td></tr><tr><td>Legal</td><td>Identify all relevant and applicable laws and regulations to &lt;CLIENT&gt; and communicate to the respective parties. Define standard legal clauses and terms for the contract/agreement to be signed with external parties, employment contracts, confidentiality and Non-Disclosure Agreements (NDAs). Liaise with IS Team to define and review Information Security clauses in third-party contracts/agreements, employment contracts, confidentiality and Non-Disclosure Agreements (NDAs). Review third-party vendor, clients and partner contracts and involve IS Team for review of clauses concerning Information Security responsibilities.</td></tr></table>",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "PageBreak",
+      "text": "",
+      "metadata": {
+        "languages": [
+          "eng"
+        ],
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Asset Management Policy 6.docx",
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "PageBreak",
+      "text": "",
+      "metadata": {
+        "languages": [
+          "eng"
+        ],
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Asset Management Policy 6.docx",
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "POLICY ENFORCEMENT AND EXCEPTIONS",
+      "metadata": {
+        "category_depth": 0,
+        "emphasized_text_contents": [
+          "POLICY ENFORCEMENT AND EXCEPTIONS"
+        ],
+        "emphasized_text_tags": [
+          "b"
+        ],
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Asset Management Policy 6.docx",
+        "last_modified": "2026-01-22T17:38:19",
+        "page_number": 7,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "NarrativeText",
+      "text": "This Policy is to be part of all Employees' and Third Parties' processes, and all are responsible for understanding and adhering to this Policy. Any violation of this Policy shall be reported to Policy Owner. Violation of this Policy shall be subjected to disciplinary action by the <CLIENT>'s Human Capital Department, taking into consideration the recommendation of the Information Security department and in accordance with other applicable policies, laws and regulations.",
+      "metadata": {
+        "category_depth": 0,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Asset Management Policy 6.docx",
+        "last_modified": "2026-01-22T17:38:19",
+        "page_number": 7,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "NarrativeText",
+      "text": "Disciplinary action may range from a verbal warning to discontinuation of access to facility or services, or termination of employment/contract/agreement, and possible legal action. The actual action taken shall depend on factors such as the seriousness of the breach and the user's disciplinary record.",
+      "metadata": {
+        "category_depth": 0,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Asset Management Policy 6.docx",
+        "last_modified": "2026-01-22T17:38:19",
+        "page_number": 7,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "NarrativeText",
+      "text": "Any exceptions on the applicability of this Policy should be formally requested through the Policy Exception Management procedure.",
+      "metadata": {
+        "category_depth": 0,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Asset Management Policy 6.docx",
+        "last_modified": "2026-01-22T17:38:19",
+        "page_number": 7,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "MONITORING AND REVIEW",
+      "metadata": {
+        "category_depth": 0,
+        "emphasized_text_contents": [
+          "MONITORING AND REVIEW"
+        ],
+        "emphasized_text_tags": [
+          "b"
+        ],
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Asset Management Policy 6.docx",
+        "last_modified": "2026-01-22T17:38:19",
+        "page_number": 7,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "NarrativeText",
+      "text": "This Policy is developed and owned by the <CLIENT> Information Security (IS) Team. It is reviewed by the CISO and approved by the CEO. ",
+      "metadata": {
+        "category_depth": 0,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Asset Management Policy 6.docx",
+        "last_modified": "2026-01-22T17:38:19",
+        "page_number": 7,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "NarrativeText",
+      "text": "<CLIENT> IS Team will initiate a review and of this Policy annually or whenever a significant change occurs in the organization’s operating environment.",
+      "metadata": {
+        "category_depth": 0,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Asset Management Policy 6.docx",
+        "last_modified": "2026-01-22T17:38:19",
+        "page_number": 7,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "NarrativeText",
+      "text": "Feedback, suggestions or questions regarding the Policy shall be directed to the <CLIENT> IS Team at infosec@<CLIENT>.com.",
+      "metadata": {
+        "category_depth": 0,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Asset Management Policy 6.docx",
+        "last_modified": "2026-01-22T17:38:19",
+        "link_texts": [
+          "infosec@<CLIENT>.com"
+        ],
+        "link_urls": [
+          "mailto:infosec@cpx.net"
+        ],
+        "links": [
+          {
+            "text": "infosec@<CLIENT>.com",
+            "url": "mailto:infosec@cpx.net",
+            "start_index": 101
+          }
+        ],
+        "page_number": 7,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "POLICY – UAE IA CONTROL MAPPING",
+      "metadata": {
+        "category_depth": 0,
+        "emphasized_text_contents": [
+          "POLICY – UAE IA CONTROL MAPPING"
+        ],
+        "emphasized_text_tags": [
+          "b"
+        ],
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Asset Management Policy 6.docx",
+        "last_modified": "2026-01-22T17:38:19",
+        "page_number": 7,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "Table",
+      "text": "Policy Sections UAE IA - Control ISO 27001:2022 Section 1 – Introduction T1.1.1 – Asset Management Policy Clause 5.2 – Policy A.5.1 - Policies for information security Section 2 – Purpose - - Section 3 – Scope - - Section 4 – Policy Statement - - Section 5 – Policy Details T1.1.1 – Asset Management Policy Clause 5.2 – Policy A.5.1 - Policies for information security Section 5.1 – Asset Inventory T1.2.1 – Inventory of Assets T1.2.2 – Ownership of Assets T1.3.2 – Labelling of Information A.5.9 - Inventory of information and other associated assets A.5.13 – Labelling of Information Section 5.2 – Asset Ownership T1.2.2 – Ownership of Assets A.5.9 - Inventory of information and other associated assets Section 5.3 – Asset Labelling T1.3.2 – Labelling of Information A.5.13 – Labelling of Information Section 5.4 – Asset Handling T1.3.3 – Handling of Information Assets A.5.13 – Labelling of Information Section 5.5 – Removable Media Management T1.4.1 – Management of Removable Media A.7.10 – Storage Media Section 5.6 – Disposal of Media T1.4.2 – Disposal of Media A.7.10 – Storage Media Section 5.7 – Physical Media Transfer - - Section 5.8 – Acceptable Use of Assets T1.2.3 – Acceptable Use of Assets T1.2.4 – Acceptable BYOD Arrangements A.5.10 - Acceptable use of information and other associated assets A.8.1 - User end point devices Section 5.9 – BYOD Arrangements T1.1.1 – Asset Management Policy T1.2.4 – Acceptable BYOD Arrangements Clause 5.2 – Policy A.5.1 - Policies for information security A.8.1 - User end point devices Section 6 – Roles and Responsibilities T1.1.1 – Asset Management Policy Clause 5.2 – Policy A.5.1 - Policies for information security Section 7 – Policy Enforcement and Exceptions - - Section 8 – Monitoring and Review T1.1.1 – Asset Management Policy Clause 5.2 – Policy A.5.1 - Policies for information security",
+      "metadata": {
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Asset Management Policy 6.docx",
+        "last_modified": "2026-01-22T17:38:19",
+        "page_number": 7,
+        "text_as_html": "<table><tr><td>Policy Sections</td><td>UAE IA - Control</td><td>ISO 27001:2022</td></tr><tr><td>Section 1 – Introduction</td><td>T1.1.1 – Asset Management Policy</td><td>Clause 5.2 – Policy A.5.1 - Policies for information security</td></tr><tr><td>Section 2 – Purpose</td><td>-</td><td>-</td></tr><tr><td>Section 3 – Scope</td><td>-</td><td>-</td></tr><tr><td>Section 4 – Policy Statement</td><td>-</td><td>-</td></tr><tr><td>Section 5 – Policy Details</td><td>T1.1.1 – Asset Management Policy</td><td>Clause 5.2 – Policy A.5.1 - Policies for information security</td></tr><tr><td>Section 5.1 – Asset Inventory</td><td>T1.2.1 – Inventory of Assets T1.2.2 – Ownership of Assets T1.3.2 – Labelling of Information</td><td>A.5.9 - Inventory of information and other associated assets A.5.13 – Labelling of Information</td></tr><tr><td>Section 5.2 – Asset Ownership</td><td>T1.2.2 – Ownership of Assets</td><td>A.5.9 - Inventory of information and other associated assets</td></tr><tr><td>Section 5.3 – Asset Labelling</td><td>T1.3.2 – Labelling of Information</td><td>A.5.13 – Labelling of Information</td></tr><tr><td>Section 5.4 – Asset Handling</td><td>T1.3.3 – Handling of Information Assets</td><td>A.5.13 – Labelling of Information</td></tr><tr><td>Section 5.5 – Removable Media Management</td><td>T1.4.1 – Management of Removable Media</td><td>A.7.10 – Storage Media</td></tr><tr><td>Section 5.6 – Disposal of Media</td><td>T1.4.2 – Disposal of Media</td><td>A.7.10 – Storage Media</td></tr><tr><td>Section 5.7 – Physical Media Transfer</td><td>-</td><td>-</td></tr><tr><td>Section 5.8 – Acceptable Use of Assets</td><td>T1.2.3 – Acceptable Use of Assets T1.2.4 – Acceptable BYOD Arrangements</td><td>A.5.10 - Acceptable use of information and other associated assets A.8.1 - User end point devices</td></tr><tr><td>Section 5.9 – BYOD Arrangements</td><td>T1.1.1 – Asset Management Policy T1.2.4 – Acceptable BYOD Arrangements</td><td>Clause 5.2 – Policy A.5.1 - Policies for information security A.8.1 - User end point devices</td></tr><tr><td>Section 6 – Roles and Responsibilities</td><td>T1.1.1 – Asset Management Policy</td><td>Clause 5.2 – Policy A.5.1 - Policies for information security</td></tr><tr><td>Section 7 – Policy Enforcement and Exceptions</td><td>-</td><td>-</td></tr><tr><td>Section 8 – Monitoring and Review</td><td>T1.1.1 – Asset Management Policy</td><td>Clause 5.2 – Policy A.5.1 - Policies for information security</td></tr></table>",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    }
+  ],
+  "tables": [
+    {
+      "table_id": "table_1",
+      "text": "Document Information Document ID <CLIENT>-ORG-IMS-POL-009 Document Title <CLIENT> Asset Management Policy Prepared by Information Security Team Status Final Owner CISO Effective From 01-Jan-2023 Effective Till Until revoked Document Type Policy Document Classification Internal Distribution List <CLIENT> staff, Contractors, Third Parties",
+      "metadata": {
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Asset Management Policy 6.docx",
+        "last_modified": "2026-01-22T17:38:19",
+        "page_number": 1,
+        "text_as_html": "<table><tr><td>Document Information</td><td>Document Information</td></tr><tr><td>Document ID</td><td>&lt;CLIENT&gt;-ORG-IMS-POL-009</td></tr><tr><td>Document Title</td><td>&lt;CLIENT&gt; Asset Management Policy</td></tr><tr><td>Prepared by</td><td>Information Security Team</td></tr><tr><td>Status</td><td>Final</td></tr><tr><td>Owner</td><td>CISO</td></tr><tr><td>Effective From</td><td>01-Jan-2023</td></tr><tr><td>Effective Till</td><td>Until revoked</td></tr><tr><td>Document Type</td><td>Policy</td></tr><tr><td>Document Classification</td><td>Internal</td></tr><tr><td>Distribution List</td><td>&lt;CLIENT&gt; staff, Contractors, Third Parties</td></tr></table>",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "table_id": "table_2",
+      "text": "Document Release Dates Version Date Editor Brief/Comments",
+      "metadata": {
+        "emphasized_text_contents": [
+          "Date",
+          "Editor",
+          "Brief/Comments"
+        ],
+        "emphasized_text_tags": [
+          "b",
+          "b",
+          "b"
+        ],
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Asset Management Policy 6.docx",
+        "last_modified": "2026-01-22T17:38:19",
+        "page_number": 1,
+        "text_as_html": "<table><tr><td>Document Release Dates</td><td>Document Release Dates</td><td>Document Release Dates</td><td>Document Release Dates</td></tr><tr><td>Version</td><td>Date</td><td>Editor</td><td>Brief/Comments</td></tr><tr><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/></tr></table>",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "table_id": "table_3",
+      "text": "Document Review Date Name Title/Designation Notes",
+      "metadata": {
+        "emphasized_text_contents": [
+          "Name",
+          "Title/Designation",
+          "Notes"
+        ],
+        "emphasized_text_tags": [
+          "b",
+          "b",
+          "b"
+        ],
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Asset Management Policy 6.docx",
+        "last_modified": "2026-01-22T17:38:19",
+        "page_number": 1,
+        "text_as_html": "<table><tr><td>Document Review</td><td>Document Review</td><td>Document Review</td><td>Document Review</td></tr><tr><td>Date</td><td>Name</td><td>Title/Designation</td><td>Notes</td></tr><tr><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/></tr></table>",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "table_id": "table_4",
+      "text": "Approvals Name Title/Designation Signature",
+      "metadata": {
+        "emphasized_text_contents": [
+          "Approvals",
+          "Approvals",
+          "Approvals",
+          "Name",
+          "Title/Designation",
+          "Signature"
+        ],
+        "emphasized_text_tags": [
+          "b",
+          "b",
+          "b",
+          "b",
+          "b",
+          "b"
+        ],
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Asset Management Policy 6.docx",
+        "last_modified": "2026-01-22T17:38:19",
+        "page_number": 1,
+        "text_as_html": "<table><tr><td>Approvals</td><td>Approvals</td><td>Approvals</td></tr><tr><td>Name</td><td>Title/Designation</td><td>Signature</td></tr><tr><td/><td/><td/></tr></table>",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "table_id": "table_5",
+      "text": "Role Responsibility Executives & Senior Management Make available and support the required resources to drive asset management. Where relevant, provide direction to and participate in reviews and oversight of asset management. IMS Committee to: Review and approve this Policy prepared by, or on behalf of, the CISO. Establish process for the assignment of asset ownership and its periodical review. Assign an owner with management responsibility for each identified asset across asset lifecycle. Establish and document the rules for the acceptable use of assets. Support the establishment of the process for information classification. Adapt rules to the different roles (management, users, administrators, operators, contractors, etc.). Ensure circulation and acceptance of the rules by employees, contractors and third parties. Review and accept the findings and recommendations arising from Internal Audit. Information Security Develop or adopt an Asset classification scheme based on information value, legal requirements, sensitivity, and criticality to the organization as per the data protection policy. Establish the degree of protection required for each category. Establish the rules for the acceptable use of personal assets (e.g., BYOD) that are used on organization’s environment. Adapt these rules to the different roles (management, users, administrators, operators, contractors, etc.). Ensure circulation and acceptance of the BYOD rules by employees, contractors and third parties. Ensure information classification is: Based on the established levels, and Mapped to accountable owners. Ensure the possibility to be accessed by automated systems to enforce specific protections based on the classification level. Allow for the possibility that the information classification scheme can be accessed by automated systems to enforce specific protections based on the classification level. Establish a procedure for labelling of information and its related assets in physical or electronic formats to reflect their attributed classification. Apply the appropriate label on information. Develop handling procedures for processing, storing and communicating information consistent with its classification and its attached label. Safeguard information in accordance with the established procedures. Define labelling requirements for physical media carrying sensitive information. Define measures to be taken in the event of loss of physical media in transit carrying sensitive information. Infosec Operations Identify an inventory of information assets within organization through an asset register. Develop and maintain an up-to-date list of assets and associated asset owners. Ensure accuracy and consistency with other inventories. Establish procedures for secure disposal of media containing confidential information based on the sensitivity of that information. Ensure that media, both paper and digital, are destroyed when no longer serving organization. Ensure that records of disposed media (containing or used to contain confidential information) are kept when no longer needed. Establish media management procedures along its lifecycle (setup, distribution, utilization and disposal). Asset Owners Ensure an up-to-date information classification is assigned to information and information assets in accordance with changes of their value, sensitivity and criticality through their life cycle. Ensure sufficient information regarding physical assets (locations, data centers, networks, systems, storage, etc.) used to store, process or transmit information assets is recorded in the asset Inventory. Apply the appropriate label on information. Safeguard information in accordance with the established procedures. Assign operational responsibilities to a delegate like asset manager/asset custodian as required. Human Capital Ensure that this Policy is read and acknowledged formally by all users. Record and retain records of acceptance of the BYOD rules by employees. Apply the appropriate label on information. Safeguard information in accordance with the established procedures. Identify the needed protection levels in accordance with the information classification scheme. Establish access procedures to loading and unloading areas to restrict access to only authorized personnel. Ensure that each facility’s supporting utilities are tested and protected against malfunctions. Document supplier's recommendations for the maintenance of equipment and make them available to maintenance personnel. Keep maintenance logs for all equipment. Establish processes and procedures for decommissioning and commissioning of equipment to ensure protection of sensitive data. Information Technology Identify and enforce required confidentiality and integrity controls necessary to assure compliance with the Information Classification scheme as per the <CLIENT> Data Security Policy (<CLIENT>-ORG-IMS-POL-003). If there are availability requirements associated with the Information Classification scheme, ensure that the applicable ICT systems are sufficiently robust to meet these requirements. Apply the appropriate label on information. Safeguard information in accordance with the established procedures. Inhibit the use of removable media in those information systems that do not require it. Control users of removable media. Employees, Line Managers and Third Parties (Contractors, Vendors, etc.) Employees and third parties (including contractors, vendors, etc.) who access <CLIENT> premises, information and information assets or use information and communications technology (ICT) systems of the organization are responsible for adhering to this Policy and all its applicable procedures. Line manager to: Ensure that the Policy is read and acknowledged formally by all personnel directly reporting to him/her. Record and retain records of acceptance of the BYOD rules by employees under his/her direct supervision, as well as all contractors and/or third parties managed directly by him/her. Apply the appropriate label on information. Safeguard information in accordance with the established procedures. The following apply to all personnel, irrespective of their role within organization: Apply the appropriate label on information. Safeguard the information in accordance with the established procedures. Destroy media, both paper and digital, when no longer serving organization. Keep records for disposed media (containing or used to contain confidential information) when no longer needed. Identify physical media carrying sensitive information. Ensure physical media in transit carrying sensitive information is tracked sufficiently in accordance with the sensitivity of the information it contains. Keep a log of all transitions consistent with this Policy. Legal Identify all relevant and applicable laws and regulations to <CLIENT> and communicate to the respective parties. Define standard legal clauses and terms for the contract/agreement to be signed with external parties, employment contracts, confidentiality and Non-Disclosure Agreements (NDAs). Liaise with IS Team to define and review Information Security clauses in third-party contracts/agreements, employment contracts, confidentiality and Non-Disclosure Agreements (NDAs). Review third-party vendor, clients and partner contracts and involve IS Team for review of clauses concerning Information Security responsibilities.",
+      "metadata": {
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Asset Management Policy 6.docx",
+        "last_modified": "2026-01-22T17:38:19",
+        "page_number": 5,
+        "text_as_html": "<table><tr><td>Role</td><td>Responsibility</td></tr><tr><td>Executives &amp; Senior Management</td><td>Make available and support the required resources to drive asset management. Where relevant, provide direction to and participate in reviews and oversight of asset management. IMS Committee to: Review and approve this Policy prepared by, or on behalf of, the CISO. Establish process for the assignment of asset ownership and its periodical review. Assign an owner with management responsibility for each identified asset across asset lifecycle. Establish and document the rules for the acceptable use of assets. Support the establishment of the process for information classification. Adapt rules to the different roles (management, users, administrators, operators, contractors, etc.). Ensure circulation and acceptance of the rules by employees, contractors and third parties. Review and accept the findings and recommendations arising from Internal Audit.</td></tr><tr><td>Information Security</td><td>Develop or adopt an Asset classification scheme based on information value, legal requirements, sensitivity, and criticality to the organization as per the data protection policy. Establish the degree of protection required for each category. Establish the rules for the acceptable use of personal assets (e.g., BYOD) that are used on organization’s environment. Adapt these rules to the different roles (management, users, administrators, operators, contractors, etc.). Ensure circulation and acceptance of the BYOD rules by employees, contractors and third parties. Ensure information classification is: Based on the established levels, and Mapped to accountable owners. Ensure the possibility to be accessed by automated systems to enforce specific protections based on the classification level. Allow for the possibility that the information classification scheme can be accessed by automated systems to enforce specific protections based on the classification level. Establish a procedure for labelling of information and its related assets in physical or electronic formats to reflect their attributed classification. Apply the appropriate label on information. Develop handling procedures for processing, storing and communicating information consistent with its classification and its attached label. Safeguard information in accordance with the established procedures. Define labelling requirements for physical media carrying sensitive information. Define measures to be taken in the event of loss of physical media in transit carrying sensitive information.</td></tr><tr><td>Infosec Operations</td><td>Identify an inventory of information assets within organization through an asset register. Develop and maintain an up-to-date list of assets and associated asset owners. Ensure accuracy and consistency with other inventories. Establish procedures for secure disposal of media containing confidential information based on the sensitivity of that information. Ensure that media, both paper and digital, are destroyed when no longer serving organization. Ensure that records of disposed media (containing or used to contain confidential information) are kept when no longer needed. Establish media management procedures along its lifecycle (setup, distribution, utilization and disposal).</td></tr><tr><td>Asset Owners</td><td>Ensure an up-to-date information classification is assigned to information and information assets in accordance with changes of their value, sensitivity and criticality through their life cycle. Ensure sufficient information regarding physical assets (locations, data centers, networks, systems, storage, etc.) used to store, process or transmit information assets is recorded in the asset Inventory. Apply the appropriate label on information. Safeguard information in accordance with the established procedures. Assign operational responsibilities to a delegate like asset manager/asset custodian as required.</td></tr><tr><td>Human Capital</td><td>Ensure that this Policy is read and acknowledged formally by all users. Record and retain records of acceptance of the BYOD rules by employees. Apply the appropriate label on information. Safeguard information in accordance with the established procedures. Identify the needed protection levels in accordance with the information classification scheme. Establish access procedures to loading and unloading areas to restrict access to only authorized personnel. Ensure that each facility’s supporting utilities are tested and protected against malfunctions. Document supplier&#x27;s recommendations for the maintenance of equipment and make them available to maintenance personnel. Keep maintenance logs for all equipment. Establish processes and procedures for decommissioning and commissioning of equipment to ensure protection of sensitive data.</td></tr><tr><td>Information Technology</td><td>Identify and enforce required confidentiality and integrity controls necessary to assure compliance with the Information Classification scheme as per the &lt;CLIENT&gt; Data Security Policy (&lt;CLIENT&gt;-ORG-IMS-POL-003). If there are availability requirements associated with the Information Classification scheme, ensure that the applicable ICT systems are sufficiently robust to meet these requirements. Apply the appropriate label on information. Safeguard information in accordance with the established procedures. Inhibit the use of removable media in those information systems that do not require it. Control users of removable media.</td></tr><tr><td>Employees, Line Managers and Third Parties (Contractors, Vendors, etc.)</td><td>Employees and third parties (including contractors, vendors, etc.) who access &lt;CLIENT&gt; premises, information and information assets or use information and communications technology (ICT) systems of the organization are responsible for adhering to this Policy and all its applicable procedures. Line manager to: Ensure that the Policy is read and acknowledged formally by all personnel directly reporting to him/her. Record and retain records of acceptance of the BYOD rules by employees under his/her direct supervision, as well as all contractors and/or third parties managed directly by him/her. Apply the appropriate label on information. Safeguard information in accordance with the established procedures. The following apply to all personnel, irrespective of their role within organization: Apply the appropriate label on information. Safeguard the information in accordance with the established procedures. Destroy media, both paper and digital, when no longer serving organization. Keep records for disposed media (containing or used to contain confidential information) when no longer needed. Identify physical media carrying sensitive information. Ensure physical media in transit carrying sensitive information is tracked sufficiently in accordance with the sensitivity of the information it contains. Keep a log of all transitions consistent with this Policy.</td></tr><tr><td>Legal</td><td>Identify all relevant and applicable laws and regulations to &lt;CLIENT&gt; and communicate to the respective parties. Define standard legal clauses and terms for the contract/agreement to be signed with external parties, employment contracts, confidentiality and Non-Disclosure Agreements (NDAs). Liaise with IS Team to define and review Information Security clauses in third-party contracts/agreements, employment contracts, confidentiality and Non-Disclosure Agreements (NDAs). Review third-party vendor, clients and partner contracts and involve IS Team for review of clauses concerning Information Security responsibilities.</td></tr></table>",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "table_id": "table_6",
+      "text": "Policy Sections UAE IA - Control ISO 27001:2022 Section 1 – Introduction T1.1.1 – Asset Management Policy Clause 5.2 – Policy A.5.1 - Policies for information security Section 2 – Purpose - - Section 3 – Scope - - Section 4 – Policy Statement - - Section 5 – Policy Details T1.1.1 – Asset Management Policy Clause 5.2 – Policy A.5.1 - Policies for information security Section 5.1 – Asset Inventory T1.2.1 – Inventory of Assets T1.2.2 – Ownership of Assets T1.3.2 – Labelling of Information A.5.9 - Inventory of information and other associated assets A.5.13 – Labelling of Information Section 5.2 – Asset Ownership T1.2.2 – Ownership of Assets A.5.9 - Inventory of information and other associated assets Section 5.3 – Asset Labelling T1.3.2 – Labelling of Information A.5.13 – Labelling of Information Section 5.4 – Asset Handling T1.3.3 – Handling of Information Assets A.5.13 – Labelling of Information Section 5.5 – Removable Media Management T1.4.1 – Management of Removable Media A.7.10 – Storage Media Section 5.6 – Disposal of Media T1.4.2 – Disposal of Media A.7.10 – Storage Media Section 5.7 – Physical Media Transfer - - Section 5.8 – Acceptable Use of Assets T1.2.3 – Acceptable Use of Assets T1.2.4 – Acceptable BYOD Arrangements A.5.10 - Acceptable use of information and other associated assets A.8.1 - User end point devices Section 5.9 – BYOD Arrangements T1.1.1 – Asset Management Policy T1.2.4 – Acceptable BYOD Arrangements Clause 5.2 – Policy A.5.1 - Policies for information security A.8.1 - User end point devices Section 6 – Roles and Responsibilities T1.1.1 – Asset Management Policy Clause 5.2 – Policy A.5.1 - Policies for information security Section 7 – Policy Enforcement and Exceptions - - Section 8 – Monitoring and Review T1.1.1 – Asset Management Policy Clause 5.2 – Policy A.5.1 - Policies for information security",
+      "metadata": {
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Asset Management Policy 6.docx",
+        "last_modified": "2026-01-22T17:38:19",
+        "page_number": 7,
+        "text_as_html": "<table><tr><td>Policy Sections</td><td>UAE IA - Control</td><td>ISO 27001:2022</td></tr><tr><td>Section 1 – Introduction</td><td>T1.1.1 – Asset Management Policy</td><td>Clause 5.2 – Policy A.5.1 - Policies for information security</td></tr><tr><td>Section 2 – Purpose</td><td>-</td><td>-</td></tr><tr><td>Section 3 – Scope</td><td>-</td><td>-</td></tr><tr><td>Section 4 – Policy Statement</td><td>-</td><td>-</td></tr><tr><td>Section 5 – Policy Details</td><td>T1.1.1 – Asset Management Policy</td><td>Clause 5.2 – Policy A.5.1 - Policies for information security</td></tr><tr><td>Section 5.1 – Asset Inventory</td><td>T1.2.1 – Inventory of Assets T1.2.2 – Ownership of Assets T1.3.2 – Labelling of Information</td><td>A.5.9 - Inventory of information and other associated assets A.5.13 – Labelling of Information</td></tr><tr><td>Section 5.2 – Asset Ownership</td><td>T1.2.2 – Ownership of Assets</td><td>A.5.9 - Inventory of information and other associated assets</td></tr><tr><td>Section 5.3 – Asset Labelling</td><td>T1.3.2 – Labelling of Information</td><td>A.5.13 – Labelling of Information</td></tr><tr><td>Section 5.4 – Asset Handling</td><td>T1.3.3 – Handling of Information Assets</td><td>A.5.13 – Labelling of Information</td></tr><tr><td>Section 5.5 – Removable Media Management</td><td>T1.4.1 – Management of Removable Media</td><td>A.7.10 – Storage Media</td></tr><tr><td>Section 5.6 – Disposal of Media</td><td>T1.4.2 – Disposal of Media</td><td>A.7.10 – Storage Media</td></tr><tr><td>Section 5.7 – Physical Media Transfer</td><td>-</td><td>-</td></tr><tr><td>Section 5.8 – Acceptable Use of Assets</td><td>T1.2.3 – Acceptable Use of Assets T1.2.4 – Acceptable BYOD Arrangements</td><td>A.5.10 - Acceptable use of information and other associated assets A.8.1 - User end point devices</td></tr><tr><td>Section 5.9 – BYOD Arrangements</td><td>T1.1.1 – Asset Management Policy T1.2.4 – Acceptable BYOD Arrangements</td><td>Clause 5.2 – Policy A.5.1 - Policies for information security A.8.1 - User end point devices</td></tr><tr><td>Section 6 – Roles and Responsibilities</td><td>T1.1.1 – Asset Management Policy</td><td>Clause 5.2 – Policy A.5.1 - Policies for information security</td></tr><tr><td>Section 7 – Policy Enforcement and Exceptions</td><td>-</td><td>-</td></tr><tr><td>Section 8 – Monitoring and Review</td><td>T1.1.1 – Asset Management Policy</td><td>Clause 5.2 – Policy A.5.1 - Policies for information security</td></tr></table>",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    }
+  ],
+  "figures": [],
+  "text": "Classification: Internal\n\nDocument No: <CLIENT>-ORG-IMS-POL-009 Page 4 of 12\n\nINTRODUCTION\n\n<CLIENT> (hereon referred to as <CLIENT>) has embarked on a robust Asset Management initiative to safeguard information assets collected and generated during the normal course of its business operations. As a company that delivers cybersecurity services, <CLIENT> maintains and uses valuable assets. As such, a robust and comprehensive Asset Management program is required to ensure that the assets maintained and operated by <CLIENT> are secured and protected throughout the lifecycle.\n\n<CLIENT> is responsible for identifying assets and how they are used within the company; therefore, it shall set policies, processes, and standard operating procedures for handling assets, implement appropriate technical controls, and educate users about current threats to the assets that they work with and observe best practices for asset protection.\n\n<CLIENT> employees are expected to understand and comply with this Policy and ultimately be responsible for protecting all Information Assets from unauthorized access. Compliance with this Policy is highly important to safeguard the organization's assets and reputation. Any Policy violation may invite appropriate disciplinary action per the corporate policies, applicable laws and regulations in the United Arab Emirates.\n\nPURPOSE\n\nThis Asset Management Policy (\"Policy\") aims to ensure appropriate classification and protection of <CLIENT>'s information and assets.\n\nFurther, the Policy establishes a commitment to comply with applicable sections of the federal and global laws and regulations, including but not limited to UAE Information Assurance Regulation, Federal Decree Law No. 45 of 2021 regarding the Protection of Personal Data, ISO 27001, ISO 27701, ISO 20000, ISO 22301 and UAE National Cyber Risk Management Framework (NCRMF).\n\nThe following are the key objectives of this Policy:\n\nEstablish asset register: Development and maintenance of an asset register.\n\nHandling of information: Correct and consistent handling of information assets in accordance with the organization’s information classification scheme.\n\nManagement of media: Correct and consistent management of the asset's lifecycle.\n\nSCOPE\n\nThis Policy applies to all employees and critical third parties who access or manage information and information assets or use the organization’s information and communications technology (ICT) systems. \n\nAny exceptions on the applicability of this Policy should be formally requested through the ‘Policy Exception Management procedure’.\n\n\n\nPOLICY STATEMENT\n\n<CLIENT> shall ensure the security of assets by:\n\nIdentifying information assets.\n\nEnsuring that a current and accurate inventory of assets is developed and maintained through an asset register to include responsibilities and classification based on Data Security Policy (<CLIENT>-ORG-IMS-POL-003).\n\nPOLICY DETAILS\n\nAsset Inventory\n\n<CLIENT> shall: \n\nIdentify assets relevant in the information lifecycle (creation, processing, storage, transmission, deletion, destruction, and protection) and document their importance.\n\nEnsure that all organizational assets are considered for the asset management process using a centralized and efficient approach.\n\nEnsure that documentation is done in dedicated asset inventories as appropriate. The asset inventory at a minimum shall contain:\n\nType of asset.\n\nAsset ownership.\n\nLocation.\n\nBackup information.\n\nRelated licenses.\n\nAsset importance/criticality.\n\nAsset Ownership\n\n<CLIENT> shall:\n\nEstablish and implement a process to ensure timely assignment of asset ownership.\n\nAssign/reassign ownership when assets are created or transferred.\n\nAssign ownership to individuals having approved management responsibility across the asset lifecycle. Asset owners shall have the following responsibilities at a minimum:\n\nPerform inventory of the applicable assets.\n\nClassify and protect the assets.\n\nDefine and periodically review access restrictions and classifications to important assets, considering applicable access control policies in accordance with <CLIENT> Access Control Policy (<CLIENT>-ORG-IMS-POL-017).\n\nAsset Labelling\n\n<CLIENT> shall:\n\n\n\nLabel information assets in physical and electronic formats according to the established information classification scheme as per the <CLIENT> Data Security Policy (<CLIENT>-ORG-IMS-POL-003).\n\nDevelop detailed procedures to give guidance on where and how labels are attached in consideration of how the information is accessed or the assets are handled depending on the types of media.\n\nEnsure that output from systems carry an appropriate classification label aligned to <CLIENT> Data Security Policy (<CLIENT>-ORG-IMS-POL-003).\n\nEnsure labels are easily recognizable and are included in emails, header, and footer of manually created or system-generated documents.\n\nEnsure appropriate awareness is provided to employees and third-party users regarding information labelling procedures.\n\nAsset Handling\n\n<CLIENT> shall:\n\nDevelop procedures for handling, processing, storing, and communicating information consistent with its classification level. The following items should be considered, at a minimum:\n\nAccess restrictions supporting the protection requirements for each level of classification.\n\nProtection of temporary or permanent copies of information to a level consistent with the protection of the original information.\n\nStorage of IT assets in accordance with manufacturers' specifications.\n\nSafeguard information in accordance with the established procedures.\n\nEnsure appropriate awareness is provided to employees and third-party users regarding the information handling procedures.\n\nRemovable Media Management\n\n<CLIENT> shall:\n\nEnsure that all information is stored only in organization authorized media.\n\nEnsure that contents of any re-usable media that are to be removed from the organization is made unrecoverable when no longer required.\n\nEnsure that appropriate authorization is obtained for media removed from the organization and a record of such removals is kept in order to maintain an audit trail.\n\nStore all media in a safe and secure environment in accordance with manufacturers' specifications.\n\nApply cryptographic techniques to protect data on removable media.\n\nEnsure that all removable media is scanned for malware before utilization.\n\nEnsure transfer of data to fresh media before it gets unreadable.\n\nSecurely store/backup multiple copies of valuable data on separate media to further reduce the risk of incidental and/or accidental data damage or loss.\n\nRestrict and monitor the usage of removable media to limit the opportunity for data loss.\n\nEnsure that any organization-controlled media with data is not sent to the manufacturer for any repair purposes to avoid leakage of residual confidential information.\n\nDisposal of Media\n\n\n\n<CLIENT> shall:\n\nEstablish procedures for secure disposal of media containing organizational information based on the sensitivity of that information.\n\nEnsure that the procedures are defined to identify media devices that might require secure disposal.\n\nEnsure that media, both paper and digital, are destroyed when no longer serving the organization.\n\nEnsure that records of disposed media (containing or used to contain confidential information) are kept when no longer needed.\n\nPhysical Media Transfer\n\n<CLIENT> shall:\n\nUtilize reliable transport or couriers for transportation of physical media between sites.\n\nDevelop a list of authorized couriers that are approved by the management.\n\nDefine labelling requirements for physical media carrying sensitive information.\n\nEnsure that logs of the transfer are kept identifying the content of the media, protection applied, time(s) of transfer to the transit custodian(s), and the receipt at destination.\n\nConsider measures to be taken in the event of loss of physical media in transit carrying sensitive information.\n\nAcceptable Use of Assets\n\n<CLIENT> shall: \n\nEnsure that usage of all organization’s information, information assets and information and communications technology (ICT) systems are approved by the information security department prior to deployment.\n\nEstablish, document, and circulate the rules for the acceptable use of assets in line with the <CLIENT> Acceptable Use Policy (<CLIENT>-ORG-IMS-POL-002) and disciplinary procedures.\n\nConsider the information provided by other members of an information sharing community as an asset and protect and disseminate in accordance with agreed upon rules.\n\nBring Your Own Device (BYOD) Arrangements\n\n<CLIENT> shall: \n\nProvide means to securely access organizational information and information assets via ‘Bring Your Own Device’ (BYOD).\n\nEstablish and implement information security requirements to secure organizational information and information assets via ‘Bring Your Own Device’ (BYOD) in line with <CLIENT> Bring Your Own Device (BYOD) Policy (<CLIENT>-ORG-IMS-POL-020).\n\n\n\nROLES AND RESPONSIBILITIES\n\n\n\n\n\nPOLICY ENFORCEMENT AND EXCEPTIONS\n\nThis Policy is to be part of all Employees' and Third Parties' processes, and all are responsible for understanding and adhering to this Policy. Any violation of this Policy shall be reported to Policy Owner. Violation of this Policy shall be subjected to disciplinary action by the <CLIENT>'s Human Capital Department, taking into consideration the recommendation of the Information Security department and in accordance with other applicable policies, laws and regulations.\n\nDisciplinary action may range from a verbal warning to discontinuation of access to facility or services, or termination of employment/contract/agreement, and possible legal action. The actual action taken shall depend on factors such as the seriousness of the breach and the user's disciplinary record.\n\nAny exceptions on the applicability of this Policy should be formally requested through the Policy Exception Management procedure.\n\nMONITORING AND REVIEW\n\nThis Policy is developed and owned by the <CLIENT> Information Security (IS) Team. It is reviewed by the CISO and approved by the CEO. \n\n<CLIENT> IS Team will initiate a review and of this Policy annually or whenever a significant change occurs in the organization’s operating environment.\n\nFeedback, suggestions or questions regarding the Policy shall be directed to the <CLIENT> IS Team at infosec@<CLIENT>.com.\n\nPOLICY – UAE IA CONTROL MAPPING\n\n"
+}

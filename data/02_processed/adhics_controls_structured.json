@@ -1,0 +1,2854 @@
+{
+  "standard_name": "Abu Dhabi Healthcare Information and Cyber Security Standard (ADHICS)",
+  "version": "0.9",
+  "controls": [
+    {
+      "domain": "Human Resources Security",
+      "sub_domain": "Human Resources Security Policy",
+      "control_id": "HR 1.1",
+      "control_demand": "The healthcare entity shall develop, enforce and maintain a human resources security policy covering the security aspects of employment and termination.",
+      "applicability": "Basic",
+      "criteria": [
+        {
+          "text": "Define management requirements on;",
+          "sub": [
+            "Background verification for employees and contractors",
+            "Roles and responsibilities",
+            "Compliance with acceptable usage and other organizational Basic security policies",
+            "Training and awareness needs",
+            "Return of assets during exit"
+          ]
+        },
+        {
+          "text": "Mandate the requirements of non-disclosure and confidentiality during and after employment",
+          "sub": []
+        },
+        {
+          "text": "Include reference to organizational disciplinary process",
+          "sub": []
+        }
+      ],
+      "references": [
+        "M3.1.1",
+        "M4.1.1"
+      ],
+      "source_index": []
+    },
+    {
+      "domain": "Human Resources Security",
+      "sub_domain": "Prior to Employment",
+      "control_id": "HR 2.1",
+      "control_demand": "The healthcare entity shall conduct background verification checks on all candidates for employment, contractors and third-party users.",
+      "applicability": "Basic",
+      "criteria": [
+        {
+          "text": "Define background verification process addressing provisions of government mandates and entity demands",
+          "sub": []
+        },
+        {
+          "text": "Establish criteria for background verification checks based on:",
+          "sub": [
+            "Role of the individual",
+            "Classification of information access needed",
+            "Access to critical areas",
+            "Risk identified"
+          ]
+        }
+      ],
+      "references": [],
+      "source_index": []
+    },
+    {
+      "domain": "Human Resources Security",
+      "sub_domain": "Prior to Employment",
+      "control_id": "HR 2.2",
+      "control_demand": "The healthcare entity shall establish specific terms and condition of employment The terms and condition shall:.",
+      "applicability": "Basic",
+      "criteria": [
+        {
+          "text": "Define background verification process addressing provisions of government mandates and entity demands Basic",
+          "sub": []
+        },
+        {
+          "text": "Establish criteria for background verification checks based on:",
+          "sub": [
+            "Role of the individual",
+            "Classification of information access needed",
+            "Access to critical areas",
+            "Risk identified"
+          ]
+        }
+      ],
+      "references": [
+        "M4.2.1",
+        "M4.2.2"
+      ],
+      "source_index": []
+    },
+    {
+      "domain": "Human Resources Security",
+      "sub_domain": "During Employment",
+      "control_id": "HR 3.1",
+      "control_demand": "The healthcare entity management shall ensure employees, contractors and third party users adopt and apply security in accordance with established entity policies and procedures.",
+      "applicability": "Basic",
+      "criteria": [
+        {
+          "text": "Ensure employees, contractors and third party users are briefed on the entity’s information security compliance requirements Basic",
+          "sub": []
+        },
+        {
+          "text": "Establish acceptable usage policy and ensure users read, accept and sign the policy prior to the provision of system, application or information access",
+          "sub": []
+        },
+        {
+          "text": "Consider segregation of duties to avoid potential misuse of position or conflict of interest",
+          "sub": []
+        }
+      ],
+      "references": [],
+      "source_index": []
+    },
+    {
+      "domain": "Human Resources Security",
+      "sub_domain": "During Employment",
+      "control_id": "HR 3.2",
+      "control_demand": "The healthcare entity shall develop new or modify existing awareness and training programs to include requirements of governmental and organizational information security demands.",
+      "applicability": "Basic",
+      "criteria": [
+        {
+          "text": "Ensure employees, contractors and third party users are briefed on the entity’s information security compliance requirements Basic",
+          "sub": []
+        },
+        {
+          "text": "Establish acceptable usage policy and ensure users read, accept and sign the policy prior to the provision of system, application or information access",
+          "sub": []
+        },
+        {
+          "text": "Consider segregation of duties to avoid potential misuse of position or conflict of interest",
+          "sub": []
+        }
+      ],
+      "references": [],
+      "source_index": []
+    },
+    {
+      "domain": "Human Resources Security",
+      "sub_domain": "During Employment",
+      "control_id": "HR 3.3",
+      "control_demand": "The healthcare entity shall identify and address skill and competency demands and gaps.",
+      "applicability": "Basic",
+      "criteria": [
+        {
+          "text": "Ensure employees, contractors and third party users are briefed on the entity’s information security compliance requirements Basic",
+          "sub": []
+        },
+        {
+          "text": "Establish acceptable usage policy and ensure users read, accept and sign the policy prior to the provision of system, application or information access",
+          "sub": []
+        },
+        {
+          "text": "Consider segregation of duties to avoid potential misuse of position or conflict of interest",
+          "sub": []
+        }
+      ],
+      "references": [],
+      "source_index": []
+    },
+    {
+      "domain": "Human Resources Security",
+      "sub_domain": "During Employment",
+      "control_id": "HR 3.4",
+      "control_demand": "The healthcare entity shall conduct periodic security awareness campaigns, based on established yearly schedules.",
+      "applicability": "Basic",
+      "criteria": [
+        {
+          "text": "Conduct awareness campaign for general and targeted user groups",
+          "sub": []
+        },
+        {
+          "text": "Identify innovative methods and medium to communicate security requirements",
+          "sub": []
+        },
+        {
+          "text": "Include incentive programs for user participation and adherence to security practices Basic The awareness campaign shall:",
+          "sub": []
+        },
+        {
+          "text": "Present current risks around the work and industry, and ways to address",
+          "sub": []
+        },
+        {
+          "text": "Present learning from incident",
+          "sub": []
+        },
+        {
+          "text": "Demonstrates the need to protect healthcare information",
+          "sub": []
+        },
+        {
+          "text": "Include benefit of information security compliance",
+          "sub": []
+        },
+        {
+          "text": "Demonstrate stakeholder responsibilities",
+          "sub": []
+        },
+        {
+          "text": "Highlight entity, government and regulatory demands",
+          "sub": []
+        }
+      ],
+      "references": [],
+      "source_index": []
+    },
+    {
+      "domain": "Human Resources Security",
+      "sub_domain": "During Employment",
+      "control_id": "HR 3.5",
+      "control_demand": "The healthcare entity shall establish and enforce a disciplinary process for employees, where relevant contractors and third parties, who have committed security breaches.",
+      "applicability": "Basic",
+      "criteria": [
+        {
+          "text": "Conduct awareness campaign for general and targeted user groups",
+          "sub": []
+        },
+        {
+          "text": "Identify innovative methods and medium to communicate security requirements",
+          "sub": []
+        },
+        {
+          "text": "Include incentive programs for user participation and adherence to security practices Basic The awareness campaign shall:",
+          "sub": []
+        },
+        {
+          "text": "Present current risks around the work and industry, and ways to address",
+          "sub": []
+        },
+        {
+          "text": "Present learning from incident",
+          "sub": []
+        },
+        {
+          "text": "Demonstrates the need to protect healthcare information",
+          "sub": []
+        },
+        {
+          "text": "Include benefit of information security compliance",
+          "sub": []
+        },
+        {
+          "text": "Demonstrate stakeholder responsibilities",
+          "sub": []
+        },
+        {
+          "text": "Highlight entity, government and regulatory demands",
+          "sub": []
+        }
+      ],
+      "references": [
+        "M3.2.1",
+        "M3.3.1",
+        "M3.3.2",
+        "M3.3.3",
+        "M3.3.4",
+        "M3.3.5",
+        "M3.4.1",
+        "M4.3.1",
+        "M4.3.2"
+      ],
+      "source_index": []
+    },
+    {
+      "domain": "Human Resources Security",
+      "sub_domain": "Termination or Change of Employment and Role",
+      "control_id": "HR 4.1",
+      "control_demand": "The healthcare entity shall define responsibilities concerning information security for performing employment termination or change of employment.",
+      "applicability": "Basic",
+      "criteria": [
+        {
+          "text": "Establish internal and external communication protocol on employment",
+          "sub": []
+        },
+        {
+          "text": "Ensure adequate knowledge transfers and responsibility handovers",
+          "sub": []
+        }
+      ],
+      "references": [],
+      "source_index": []
+    },
+    {
+      "domain": "Human Resources Security",
+      "sub_domain": "Termination or Change of Employment and Role",
+      "control_id": "HR 4.2",
+      "control_demand": "The healthcare entity shall ensure recovery of all organizational assets upon termination of employment, contract or agreement.",
+      "applicability": "Basic",
+      "criteria": [
+        {
+          "text": "Establish internal and external communication protocol on employment exit",
+          "sub": []
+        },
+        {
+          "text": "Ensure adequate knowledge transfers and responsibility handovers",
+          "sub": []
+        }
+      ],
+      "references": [],
+      "source_index": []
+    },
+    {
+      "domain": "Human Resources Security",
+      "sub_domain": "Termination or Change of Employment and Role",
+      "control_id": "HR 4.3",
+      "control_demand": "The healthcare entity shall remove access rights and revoke privileges of individuals upon termination of employment, contract or agreement The healthcare entity shall remove access to systems, applications, information, secure areas, and work areas.",
+      "applicability": "Basic",
+      "criteria": [
+        {
+          "text": "Establish internal and external communication protocol on employment exit",
+          "sub": []
+        },
+        {
+          "text": "Ensure adequate knowledge transfers and responsibility handovers",
+          "sub": []
+        }
+      ],
+      "references": [],
+      "source_index": []
+    },
+    {
+      "domain": "Human Resources Security",
+      "sub_domain": "Termination or Change of Employment and Role",
+      "control_id": "HR 4.4",
+      "control_demand": "The healthcare entity shall develop internal process to manage internal transfers and change of role.",
+      "applicability": "Basic",
+      "criteria": [
+        {
+          "text": "Establish internal and external communication protocol on employment exit",
+          "sub": []
+        },
+        {
+          "text": "Ensure adequate knowledge transfers and responsibility handovers",
+          "sub": []
+        }
+      ],
+      "references": [
+        "M4.4.1",
+        "M4.4.2",
+        "M4.4.3"
+      ],
+      "source_index": []
+    },
+    {
+      "domain": "Asset Management",
+      "sub_domain": "Asset Management Policy",
+      "control_id": "AM 1.1",
+      "control_demand": "The healthcare entity shall develop, implement and maintain an asset management policy to:.",
+      "applicability": "Basic",
+      "criteria": [
+        {
+          "text": "Establish framework to effectively manage the entity’s information assets through ownership assignment, accountability & responsibility definition, recording and maintaining of all/relevant properties of asset",
+          "sub": []
+        },
+        {
+          "text": "Define roles and responsibilities for actions expected out of asset management policy, and shall have functional KPI’s for business/function leaders",
+          "sub": []
+        },
+        {
+          "text": "Define and enforce classification schemes, as applicable for AD Health Sector (Public, Restricted, Confidential & Secret)",
+          "sub": []
+        },
+        {
+          "text": "Identify requirements of data retention, handling and disposal",
+          "sub": []
+        },
+        {
+          "text": "Have provisions to manage Bring Your Own Device (BYOD) arrangements",
+          "sub": []
+        },
+        {
+          "text": "Be reviewed, updated and maintained at planned intervals or during significant changes to operating or risk environment, whichever is earlier",
+          "sub": []
+        },
+        {
+          "text": "Be approved by the entity’s top management or its head and shall be communicated to all employees and third parties having a role in care delivery",
+          "sub": []
+        }
+      ],
+      "references": [],
+      "source_index": []
+    },
+    {
+      "domain": "Asset Management",
+      "sub_domain": "Asset Management Policy",
+      "control_id": "AM 1.2",
+      "control_demand": "Where applicable, the healthcare entity shall pay specific attention to medical equipment and devices while defining policy, and shall categorically address the following demands:.",
+      "applicability": "Basic",
+      "criteria": [
+        {
+          "text": "Be relevant and appropriate for entities operational and risk environment",
+          "sub": []
+        },
+        {
+          "text": "Establish framework to effectively manage the entity’s information assets through ownership assignment, accountability & responsibility definition, recording and maintaining of all/relevant properties of asset",
+          "sub": []
+        },
+        {
+          "text": "Define roles and responsibilities for actions expected out of asset management policy, and shall have functional KPI’s for business/function leaders Basic",
+          "sub": []
+        },
+        {
+          "text": "Define and enforce classification schemes, as applicable for AD Health Sector (Public, Restricted, Confidential & Secret)",
+          "sub": []
+        },
+        {
+          "text": "Identify requirements of data retention, handling and disposal",
+          "sub": []
+        },
+        {
+          "text": "Have provisions to manage Bring Your Own Device (BYOD) arrangements",
+          "sub": []
+        },
+        {
+          "text": "Be reviewed, updated and maintained at planned intervals or during significant changes to operating or risk environment, whichever is earlier",
+          "sub": []
+        },
+        {
+          "text": "Be approved by the entity’s top management or its head and shall be communicated to all employees and third parties having a role in care delivery",
+          "sub": []
+        }
+      ],
+      "references": [
+        "T1.1.1"
+      ],
+      "source_index": []
+    },
+    {
+      "domain": "Asset Management",
+      "sub_domain": "Management of Assets",
+      "control_id": "AM 2.1",
+      "control_demand": "The healthcare entity shall have all their information assets identified, recorded and maintained through an information asset inventory.",
+      "applicability": "Basic",
+      "criteria": [
+        {
+          "text": "The inventory can be centralized or distributed (function/line-of- business/service wise) based on the entity’s internal structures, and shall be updated",
+          "sub": []
+        },
+        {
+          "text": "The inventory shall establish the relations between various types of information assets, in support of care delivery; Sample illustration: Service A  needs B Information  supplied by C Device/Equipment/Process/Dependent-Service  processed using D Application (ERP/EMR/Office Automation Applications/etc.)  running on E Technology (server/systems)  supported/operated/managed by XYZ Roles (human resources involved in care delivery)",
+          "sub": []
+        }
+      ],
+      "references": [],
+      "source_index": []
+    },
+    {
+      "domain": "Asset Management",
+      "sub_domain": "Management of Assets",
+      "control_id": "AM 2.2",
+      "control_demand": "Ownership for each identified assets shall be assigned to a designated role:.",
+      "applicability": "Basic",
+      "criteria": [
+        {
+          "text": "The inventory shall be updated periodically, or during change in the environment, and shall be accurate and reliable",
+          "sub": []
+        },
+        {
+          "text": "The inventory can be centralized or distributed (function/line-of- business/service wise) based on the entity’s internal structures, and shall be updated Basic",
+          "sub": []
+        },
+        {
+          "text": "The inventory shall establish the relations between various types of information assets, in support of care delivery; Sample illustration: Service A  needs B Information  supplied by C Device/Equipment/Process/Dependent-Service  processed using D Application (ERP/EMR/Office Automation Applications/etc.)  running on E Technology (server/systems)  supported/operated/managed by XYZ Roles (human resources involved in care delivery)",
+          "sub": []
+        }
+      ],
+      "references": [],
+      "source_index": []
+    },
+    {
+      "domain": "Asset Management",
+      "sub_domain": "Management of Assets",
+      "control_id": "AM 2.3",
+      "control_demand": "The healthcare entity shall establish and enforce rules on the acceptable use of information assets:.",
+      "applicability": "Basic",
+      "criteria": [
+        {
+          "text": "Entities shall maintain records of user acceptance on the acceptable use of information assets The rule shall consider general requirements and industry best practices and shall have management requirements to reduce probabilities of information leakage/loss/theft and system compromises.",
+          "sub": []
+        }
+      ],
+      "references": [],
+      "source_index": []
+    },
+    {
+      "domain": "Asset Management",
+      "sub_domain": "Management of Assets",
+      "control_id": "AM 2.4",
+      "control_demand": "Entity management shall be aware of emerging cyber risks, and shall address risk due to the exploitation of the concept-in-practice “Bring Your Own Device (BYOD)”.",
+      "applicability": "Basic",
+      "criteria": [
+        {
+          "text": "The rules shall be communicated to all employees and contractors in support of care delivery, and shall be read and acknowledged by all Basic",
+          "sub": []
+        },
+        {
+          "text": "Entities shall maintain records of user acceptance on the acceptable use of information assets The rule shall consider general requirements and industry best practices and shall have management requirements to reduce probabilities of information leakage/loss/theft and system compromises.",
+          "sub": []
+        }
+      ],
+      "references": [
+        "T1.2.1",
+        "T1.2.2",
+        "T1.2.3",
+        "T1.2.4"
+      ],
+      "source_index": []
+    },
+    {
+      "domain": "Asset Management",
+      "sub_domain": "Asset Classification and Labelling",
+      "control_id": "AM 3.1",
+      "control_demand": "The healthcare entity shall classify all information assets, that categorises information assets into one of the following classification scheme:  Public  Restricted  Confidential  Secret.",
+      "applicability": "Basic",
+      "criteria": [],
+      "references": [],
+      "source_index": []
+    },
+    {
+      "domain": "Asset Management",
+      "sub_domain": "Asset Classification and Labelling",
+      "control_id": "AM 3.2",
+      "control_demand": "Information classification shall consider value of the information and shall be more restrictive/deterrent based on the entity’s tolerance of financial impact Transitional due to compromise of the information considered.",
+      "applicability": "Basic",
+      "criteria": [],
+      "references": [],
+      "source_index": []
+    },
+    {
+      "domain": "Asset Management",
+      "sub_domain": "Asset Classification and Labelling",
+      "control_id": "AM 3.3",
+      "control_demand": "The level of essential protection needed for an asset shall be considered while Transitional determining asset classification.",
+      "applicability": "Basic",
+      "criteria": [],
+      "references": [],
+      "source_index": []
+    },
+    {
+      "domain": "Asset Management",
+      "sub_domain": "Asset Classification and Labelling",
+      "control_id": "AM 3.4",
+      "control_demand": "The healthcare entity shall establish process to reassess and/or change information classification, based on the following:.",
+      "applicability": "Basic",
+      "criteria": [
+        {
+          "text": "Changes to environment (location, access, storage, processing, usage, etc.)",
+          "sub": []
+        },
+        {
+          "text": "Changes in protection levels",
+          "sub": []
+        }
+      ],
+      "references": [],
+      "source_index": []
+    },
+    {
+      "domain": "Asset Management",
+      "sub_domain": "Asset Classification and Labelling",
+      "control_id": "AM 3.5",
+      "control_demand": "The healthcare entity shall establish process to interpret classification schemes, while receiving information from other entities/3rd parties and shall apply all Transitional essential control measures to safeguard/protect against compromise.",
+      "applicability": "Basic",
+      "criteria": [
+        {
+          "text": "Change in the value of information Transitional",
+          "sub": []
+        },
+        {
+          "text": "Changes to environment (location, access, storage, processing, usage, etc.)",
+          "sub": []
+        },
+        {
+          "text": "Changes in protection levels",
+          "sub": []
+        }
+      ],
+      "references": [],
+      "source_index": []
+    },
+    {
+      "domain": "Asset Management",
+      "sub_domain": "Asset Classification and Labelling",
+      "control_id": "AM 3.6",
+      "control_demand": "The healthcare entity shall establish criteria for automated classification of information and shall consider using technology solutions to do so based on Advanced established classification scheme and criteria.",
+      "applicability": "Basic",
+      "criteria": [
+        {
+          "text": "Change in the value of information Transitional",
+          "sub": []
+        },
+        {
+          "text": "Changes to environment (location, access, storage, processing, usage, etc.)",
+          "sub": []
+        },
+        {
+          "text": "Changes in protection levels",
+          "sub": []
+        }
+      ],
+      "references": [],
+      "source_index": []
+    },
+    {
+      "domain": "Asset Management",
+      "sub_domain": "Asset Classification and Labelling",
+      "control_id": "AM 3.7",
+      "control_demand": "The healthcare entity shall establish process to label its information assets in all its form (physical & digital) in a way that is consistent with its classification Basic scheme.",
+      "applicability": "Basic",
+      "criteria": [
+        {
+          "text": "Change in the value of information Transitional",
+          "sub": []
+        },
+        {
+          "text": "Changes to environment (location, access, storage, processing, usage, etc.)",
+          "sub": []
+        },
+        {
+          "text": "Changes in protection levels",
+          "sub": []
+        }
+      ],
+      "references": [
+        "T1.3.1",
+        "T1.3.2"
+      ],
+      "source_index": []
+    },
+    {
+      "domain": "Asset Management",
+      "sub_domain": "Asset Handling",
+      "control_id": "AM 4.1",
+      "control_demand": "Handling procedures shall be defined for information, consistent with their classification.",
+      "applicability": "Basic",
+      "criteria": [
+        {
+          "text": "Security requirements based on asset value shall be considered in the handling procedures",
+          "sub": []
+        }
+      ],
+      "references": [],
+      "source_index": []
+    },
+    {
+      "domain": "Asset Management",
+      "sub_domain": "Asset Handling",
+      "control_id": "AM 4.2",
+      "control_demand": "Ensure adoption and application of handling procedures while handling",
+      "applicability": "Basic",
+      "criteria": [
+        {
+          "text": "Handling procedures shall detail security requirements during:  Access granting and privilege allocation  Processing Basic  Storing  Communication/sharing  Printing",
+          "sub": []
+        },
+        {
+          "text": "Security requirements based on asset value shall be considered in the handling procedures",
+          "sub": []
+        }
+      ],
+      "references": [],
+      "source_index": []
+    },
+    {
+      "domain": "Asset Management",
+      "sub_domain": "Asset Handling",
+      "control_id": "AM 4.3",
+      "control_demand": "The healthcare entity shall manage removable media in accordance with the classification scheme, handling procedures and acceptable use of assets.",
+      "applicability": "Basic",
+      "criteria": [
+        {
+          "text": "Handling procedures shall detail security requirements during:  Access granting and privilege allocation  Processing Basic  Storing  Communication/sharing  Printing",
+          "sub": []
+        },
+        {
+          "text": "Security requirements based on asset value shall be considered in the handling procedures",
+          "sub": []
+        }
+      ],
+      "references": [],
+      "source_index": []
+    },
+    {
+      "domain": "Asset Management",
+      "sub_domain": "Asset Handling",
+      "control_id": "AM 4.4",
+      "control_demand": "Access and usage of removable media shall be controlled and shall be based on the entity’s management approval.",
+      "applicability": "Basic",
+      "criteria": [
+        {
+          "text": "Handling procedures shall detail security requirements during:  Access granting and privilege allocation  Processing Basic  Storing  Communication/sharing  Printing",
+          "sub": []
+        },
+        {
+          "text": "Security requirements based on asset value shall be considered in the handling procedures",
+          "sub": []
+        }
+      ],
+      "references": [],
+      "source_index": []
+    },
+    {
+      "domain": "Asset Management",
+      "sub_domain": "Asset Handling",
+      "control_id": "AM 4.5",
+      "control_demand": "The healthcare entity shall establish medical devices and equipment management procedures for each category of identified medical devices and Basic equipment.",
+      "applicability": "Basic",
+      "criteria": [
+        {
+          "text": "Handling procedures shall detail security requirements during:  Access granting and privilege allocation  Processing Basic  Storing  Communication/sharing  Printing",
+          "sub": []
+        },
+        {
+          "text": "Security requirements based on asset value shall be considered in the handling procedures",
+          "sub": []
+        }
+      ],
+      "references": [],
+      "source_index": []
+    },
+    {
+      "domain": "Asset Management",
+      "sub_domain": "Asset Handling",
+      "control_id": "AM 4.6",
+      "control_demand": "Access and privilege allocation for medical devices shall be provided to defined roles, with essential qualification and experience required to operate.",
+      "applicability": "Basic",
+      "criteria": [],
+      "references": [],
+      "source_index": []
+    },
+    {
+      "domain": "Asset Management",
+      "sub_domain": "Asset Handling",
+      "control_id": "AM 4.7",
+      "control_demand": "The healthcare entity shall prevent unauthorized disclosure, modification, destruction or loss of patient health information stored on medical devices and equipment.",
+      "applicability": "Basic",
+      "criteria": [
+        {
+          "text": "Information stored within the medical devices and equipment shall be encrypted Transitional",
+          "sub": []
+        },
+        {
+          "text": "Electronic communication between medical devices and equipment shall be encrypted",
+          "sub": []
+        },
+        {
+          "text": "Healthcare entities shall define minimum essential qualification required to operate and/or handle medical devices and equipment",
+          "sub": []
+        },
+        {
+          "text": "Copies of valuable health data is moved to a secure storage/location to reduce the risk of its data damage or loss",
+          "sub": []
+        }
+      ],
+      "references": [],
+      "source_index": []
+    },
+    {
+      "domain": "Asset Management",
+      "sub_domain": "Asset Handling",
+      "control_id": "AM 4.8",
+      "control_demand": "Healthcare facilities shall consider wired communication facility for medical devices and equipment. Usage of wireless communication facility with Transitional medical devices and equipment shall be avoided to the extent possible.",
+      "applicability": "Basic",
+      "criteria": [
+        {
+          "text": "Information stored within the medical devices and equipment shall be encrypted Transitional",
+          "sub": []
+        },
+        {
+          "text": "Electronic communication between medical devices and equipment shall be encrypted",
+          "sub": []
+        },
+        {
+          "text": "Healthcare entities shall define minimum essential qualification required to operate and/or handle medical devices and equipment",
+          "sub": []
+        },
+        {
+          "text": "Copies of valuable health data is moved to a secure storage/location to reduce the risk of its data damage or loss",
+          "sub": []
+        }
+      ],
+      "references": [],
+      "source_index": []
+    },
+    {
+      "domain": "Asset Management",
+      "sub_domain": "Asset Handling",
+      "control_id": "AM 4.9",
+      "control_demand": "Entity shall deploy technology solution to white list removable media, and shall be complemented by content encryption and biometric based access Advanced provisioning.",
+      "applicability": "Basic",
+      "criteria": [
+        {
+          "text": "Information stored within the medical devices and equipment shall be encrypted Transitional",
+          "sub": []
+        },
+        {
+          "text": "Electronic communication between medical devices and equipment shall be encrypted",
+          "sub": []
+        },
+        {
+          "text": "Healthcare entities shall define minimum essential qualification required to operate and/or handle medical devices and equipment",
+          "sub": []
+        },
+        {
+          "text": "Copies of valuable health data is moved to a secure storage/location to reduce the risk of its data damage or loss",
+          "sub": []
+        }
+      ],
+      "references": [],
+      "source_index": []
+    },
+    {
+      "domain": "Asset Management",
+      "sub_domain": "Asset Handling",
+      "control_id": "AM 4.10",
+      "control_demand": "The healthcare entity shall establish control procedures for the removal, movement, and transfer of information assets (information, equipment, medical devices, and information processing equipment/systems).",
+      "applicability": "Basic",
+      "criteria": [
+        {
+          "text": "Information stored within the medical devices and equipment shall be encrypted Transitional",
+          "sub": []
+        },
+        {
+          "text": "Electronic communication between medical devices and equipment shall be encrypted",
+          "sub": []
+        },
+        {
+          "text": "Healthcare entities shall define minimum essential qualification required to operate and/or handle medical devices and equipment",
+          "sub": []
+        },
+        {
+          "text": "Copies of valuable health data is moved to a secure storage/location to reduce the risk of its data damage or loss",
+          "sub": []
+        }
+      ],
+      "references": [
+        "T1.3.3",
+        "T1.4.1",
+        "T2.3.7"
+      ],
+      "source_index": []
+    },
+    {
+      "domain": "Asset Management",
+      "sub_domain": "Asset Disposal",
+      "control_id": "AM 5.1",
+      "control_demand": "The healthcare entity shall dispose information assets, when no longer required:  by the entity Basic  on basis of regulatory demands  for legal proceedings.",
+      "applicability": "Basic",
+      "criteria": [],
+      "references": [],
+      "source_index": []
+    },
+    {
+      "domain": "Asset Management",
+      "sub_domain": "Asset Disposal",
+      "control_id": "AM 5.2",
+      "control_demand": "The healthcare entity shall establish a control process that ensures data once destroyed is not recovered.",
+      "applicability": "Basic",
+      "criteria": [],
+      "references": [],
+      "source_index": []
+    },
+    {
+      "domain": "Asset Management",
+      "sub_domain": "Asset Disposal",
+      "control_id": "AM 5.3",
+      "control_demand": "Media, both digital and physical, when no longer required shall be destroyed by the entity.",
+      "applicability": "Basic",
+      "criteria": [],
+      "references": [],
+      "source_index": []
+    },
+    {
+      "domain": "Asset Management",
+      "sub_domain": "Asset Disposal",
+      "control_id": "AM 5.4",
+      "control_demand": "The healthcare entity shall establish control procedures for the secure disposal or reuse of media, equipment, devices and systems, containing classified information.",
+      "applicability": "Basic",
+      "criteria": [
+        {
+          "text": "Ensure sensitive data and licensed software has been securely removed beyond recovery, prior to disposal",
+          "sub": []
+        }
+      ],
+      "references": [],
+      "source_index": []
+    },
+    {
+      "domain": "Asset Management",
+      "sub_domain": "Asset Disposal",
+      "control_id": "AM 5.5",
+      "control_demand": "system shall be verified and complied with, prior to disposal.",
+      "applicability": "Basic",
+      "criteria": [
+        {
+          "text": "Ensure sensitive data and licensed software has been securely removed beyond recovery, prior to disposal",
+          "sub": []
+        }
+      ],
+      "references": [],
+      "source_index": []
+    },
+    {
+      "domain": "Asset Management",
+      "sub_domain": "Asset Disposal",
+      "control_id": "AM 5.6",
+      "control_demand": "All disposal requirement shall be authorized by entity management prior to disposal.",
+      "applicability": "Basic",
+      "criteria": [
+        {
+          "text": "Ensure sensitive data and licensed software has been securely removed beyond recovery, prior to disposal",
+          "sub": []
+        }
+      ],
+      "references": [],
+      "source_index": []
+    },
+    {
+      "domain": "Asset Management",
+      "sub_domain": "Asset Disposal",
+      "control_id": "AM 5.7",
+      "control_demand": "The healthcare entity shall maintain records, on media disposal. The records shall have, but not be limited to, the following fields:  Information and/or asset owner  Type of media  Classification Advanced  Disposal type  Reason for disposal  Retention expiry date (if data)  Data removal confirmation and evidence  Disposal authorized by 3. Physical and Environmental Security Information and information processing equipment(s)/facilities has greater dependence on physical environment to achieve business objectives. Physical environment and its security are foundational elements to define secure data processing, data storage, data communication/sharing, data hosting and data disposal. Physical and environmental security programs and efforts define the various measures or controls that protect healthcare entities from loss of connectivity, availability of information processing facilities, storage (backup and archival) equipment(s)/facilities and medical equipment’s/devices caused by theft, fire, flood, intentional destruction, unintentional damage, mechanical failure, power failure, etc.",
+      "applicability": "Basic",
+      "criteria": [
+        {
+          "text": "Ensure sensitive data and licensed software has been securely removed beyond recovery, prior to disposal",
+          "sub": []
+        }
+      ],
+      "references": [
+        "T1.4.2",
+        "T2.3.6"
+      ],
+      "source_index": []
+    },
+    {
+      "domain": "Physical and Environmental Security",
+      "sub_domain": "Physical and Environmental Security Policy",
+      "control_id": "PE 1.1",
+      "control_demand": "The healthcare entity shall develop, implement and maintain a physical and environmental security policy, to ensure adequate physical and environmental protection of entities information assets.",
+      "applicability": "Basic",
+      "criteria": [
+        {
+          "text": "Be relevant and appropriate for entities operational and risk environment, concerning internal and external threats",
+          "sub": []
+        },
+        {
+          "text": "Address requirements of secure storage of hazardous or combustible materials that ensures avoidance of:  human injuries or loss of life  damage to information and information systems Basic",
+          "sub": []
+        },
+        {
+          "text": "Consider classification of information assets and their physical presence",
+          "sub": []
+        },
+        {
+          "text": "Define roles and responsibilities for actions expected out of physical and environmental security policy",
+          "sub": []
+        },
+        {
+          "text": "Be reviewed, updated and maintained at planned intervals or during significant changes to operating or risk environment, whichever is earlier",
+          "sub": []
+        },
+        {
+          "text": "Be read and formally acknowledged by all users",
+          "sub": []
+        },
+        {
+          "text": "Be approved by entity’s top management or head of the entity, and shall be communicated to all employees and third parties having role in care delivery",
+          "sub": []
+        }
+      ],
+      "references": [],
+      "source_index": []
+    },
+    {
+      "domain": "Physical and Environmental Security",
+      "sub_domain": "Physical and Environmental Security Policy",
+      "control_id": "PE 1.2",
+      "control_demand": "The healthcare entity shall establish procedures and guidelines in support of Transitional policy implementation.",
+      "applicability": "Basic",
+      "criteria": [
+        {
+          "text": "Be relevant and appropriate for entities operational and risk environment, concerning internal and external threats",
+          "sub": []
+        },
+        {
+          "text": "Address requirements of secure storage of hazardous or combustible materials that ensures avoidance of:  human injuries or loss of life  damage to information and information systems Basic",
+          "sub": []
+        },
+        {
+          "text": "Consider classification of information assets and their physical presence",
+          "sub": []
+        },
+        {
+          "text": "Define roles and responsibilities for actions expected out of physical and environmental security policy",
+          "sub": []
+        },
+        {
+          "text": "Be reviewed, updated and maintained at planned intervals or during significant changes to operating or risk environment, whichever is earlier",
+          "sub": []
+        },
+        {
+          "text": "Be read and formally acknowledged by all users",
+          "sub": []
+        },
+        {
+          "text": "Be approved by entity’s top management or head of the entity, and shall be communicated to all employees and third parties having role in care delivery",
+          "sub": []
+        }
+      ],
+      "references": [],
+      "source_index": []
+    },
+    {
+      "domain": "Physical and Environmental Security",
+      "sub_domain": "Physical and Environmental Security Policy",
+      "control_id": "PE 1.3",
+      "control_demand": "The physical and environmental policy shall consider equipment and medical devices, with specific focus on their:.",
+      "applicability": "Basic",
+      "criteria": [
+        {
+          "text": "Be relevant and appropriate for entities operational and risk environment, concerning internal and external threats",
+          "sub": []
+        },
+        {
+          "text": "Address requirements of secure storage of hazardous or combustible materials that ensures avoidance of:  human injuries or loss of life  damage to information and information systems Basic",
+          "sub": []
+        },
+        {
+          "text": "Consider classification of information assets and their physical presence",
+          "sub": []
+        },
+        {
+          "text": "Define roles and responsibilities for actions expected out of physical and environmental security policy",
+          "sub": []
+        },
+        {
+          "text": "Be reviewed, updated and maintained at planned intervals or during significant changes to operating or risk environment, whichever is earlier",
+          "sub": []
+        },
+        {
+          "text": "Be read and formally acknowledged by all users",
+          "sub": []
+        },
+        {
+          "text": "Be approved by entity’s top management or head of the entity, and shall be communicated to all employees and third parties having role in care delivery",
+          "sub": []
+        }
+      ],
+      "references": [
+        "T2.1.1",
+        "T2.3.5"
+      ],
+      "source_index": []
+    },
+    {
+      "domain": "Physical and Environmental Security",
+      "sub_domain": "Secure Areas",
+      "control_id": "PE 2.1",
+      "control_demand": "The healthcare entity shall define and use security perimeters to protect facilities that contain information and information systems.",
+      "applicability": "Basic",
+      "criteria": [
+        {
+          "text": "Identify secure areas, and define security perimeter, based on information assets contained within or information being processed",
+          "sub": []
+        },
+        {
+          "text": "Ensure adequate security counter measures are applied to identified secure areas to protect information and information systems within",
+          "sub": []
+        },
+        {
+          "text": "Secure areas of medical equipment and devices hosting or usage to avoid and minimize probabilities of unauthorized access and usage",
+          "sub": []
+        },
+        {
+          "text": "Consider the impact of compromise of confidentiality, integrity and availability of information or information assets while applying security counter measures",
+          "sub": []
+        }
+      ],
+      "references": [],
+      "source_index": []
+    },
+    {
+      "domain": "Physical and Environmental Security",
+      "sub_domain": "Secure Areas",
+      "control_id": "PE 2.2",
+      "control_demand": "Allocate secure private areas to discuss personal health information by",
+      "applicability": "Basic",
+      "criteria": [
+        {
+          "text": "Identify secure areas, and define security perimeter, based on information assets contained within or information being processed",
+          "sub": []
+        },
+        {
+          "text": "Ensure adequate security counter measures are applied to identified Basic secure areas to protect information and information systems within",
+          "sub": []
+        },
+        {
+          "text": "Secure areas of medical equipment and devices hosting or usage to avoid and minimize probabilities of unauthorized access and usage",
+          "sub": []
+        },
+        {
+          "text": "Consider the impact of compromise of confidentiality, integrity and availability of information or information assets while applying security counter measures",
+          "sub": []
+        }
+      ],
+      "references": [],
+      "source_index": []
+    },
+    {
+      "domain": "Physical and Environmental Security",
+      "sub_domain": "Secure Areas",
+      "control_id": "PE 2.3",
+      "control_demand": "Secure areas shall be protected by appropriate control measures to ensure only authorized personnel are provided access and authorized activities are being conducted.",
+      "applicability": "Basic",
+      "criteria": [
+        {
+          "text": "Identify secure areas, and define security perimeter, based on information assets contained within or information being processed",
+          "sub": []
+        },
+        {
+          "text": "Ensure adequate security counter measures are applied to identified Basic secure areas to protect information and information systems within",
+          "sub": []
+        },
+        {
+          "text": "Secure areas of medical equipment and devices hosting or usage to avoid and minimize probabilities of unauthorized access and usage",
+          "sub": []
+        },
+        {
+          "text": "Consider the impact of compromise of confidentiality, integrity and availability of information or information assets while applying security counter measures",
+          "sub": []
+        }
+      ],
+      "references": [],
+      "source_index": []
+    },
+    {
+      "domain": "Physical and Environmental Security",
+      "sub_domain": "Secure Areas",
+      "control_id": "PE 2.4",
+      "control_demand": "The healthcare entity shall nominate owners for each identified secure areas.",
+      "applicability": "Basic",
+      "criteria": [
+        {
+          "text": "Review access records/logs and surveillance footage at least on a quarterly basis Transitional",
+          "sub": []
+        },
+        {
+          "text": "Reconcile list of authorized users, having access to secure areas",
+          "sub": []
+        },
+        {
+          "text": "Maintain a list of physical key inventory, as with whom the keys of secure areas are with",
+          "sub": []
+        }
+      ],
+      "references": [],
+      "source_index": []
+    },
+    {
+      "domain": "Physical and Environmental Security",
+      "sub_domain": "Secure Areas",
+      "control_id": "PE 2.5",
+      "control_demand": "shall be equipped with adequate physical security measures.",
+      "applicability": "Basic",
+      "criteria": [
+        {
+          "text": "Review access records/logs and surveillance footage at least on a quarterly basis Transitional",
+          "sub": []
+        },
+        {
+          "text": "Reconcile list of authorized users, having access to secure areas",
+          "sub": []
+        },
+        {
+          "text": "Maintain a list of physical key inventory, as with whom the keys of secure areas are with",
+          "sub": []
+        }
+      ],
+      "references": [],
+      "source_index": []
+    },
+    {
+      "domain": "Physical and Environmental Security",
+      "sub_domain": "Secure Areas",
+      "control_id": "PE 2.6",
+      "control_demand": "The healthcare entity shall design and apply physical protection against natural disasters, environmental threats, external attacks and/or accidents.",
+      "applicability": "Basic",
+      "criteria": [
+        {
+          "text": "Review access records/logs and surveillance footage at least on a quarterly basis Transitional",
+          "sub": []
+        },
+        {
+          "text": "Reconcile list of authorized users, having access to secure areas",
+          "sub": []
+        },
+        {
+          "text": "Maintain a list of physical key inventory, as with whom the keys of secure areas are with",
+          "sub": []
+        }
+      ],
+      "references": [],
+      "source_index": []
+    },
+    {
+      "domain": "Physical and Environmental Security",
+      "sub_domain": "Secure Areas",
+      "control_id": "PE 2.7",
+      "control_demand": "The healthcare entity shall ensure that physical and environmental protection countermeasures and procedures applied are aligned with the Transitional outcome of Risk Assessment and regulatory mandates.",
+      "applicability": "Basic",
+      "criteria": [
+        {
+          "text": "Review access records/logs and surveillance footage at least on a quarterly basis Transitional",
+          "sub": []
+        },
+        {
+          "text": "Reconcile list of authorized users, having access to secure areas",
+          "sub": []
+        },
+        {
+          "text": "Maintain a list of physical key inventory, as with whom the keys of secure areas are with",
+          "sub": []
+        }
+      ],
+      "references": [],
+      "source_index": []
+    },
+    {
+      "domain": "Physical and Environmental Security",
+      "sub_domain": "Secure Areas",
+      "control_id": "PE 2.8",
+      "control_demand": "The healthcare entity shall design physical protection and guidelines for working in secure areas.",
+      "applicability": "Basic",
+      "criteria": [
+        {
+          "text": "Review access records/logs and surveillance footage at least on a quarterly basis Transitional",
+          "sub": []
+        },
+        {
+          "text": "Reconcile list of authorized users, having access to secure areas",
+          "sub": []
+        },
+        {
+          "text": "Maintain a list of physical key inventory, as with whom the keys of secure areas are with",
+          "sub": []
+        }
+      ],
+      "references": [],
+      "source_index": []
+    },
+    {
+      "domain": "Physical and Environmental Security",
+      "sub_domain": "Secure Areas",
+      "control_id": "PE 2.9",
+      "control_demand": "and arrangements, and accepts rules and guidelines concerning security measures. Transitional.",
+      "applicability": "Basic",
+      "criteria": [
+        {
+          "text": "Review access records/logs and surveillance footage at least on a quarterly basis Transitional",
+          "sub": []
+        },
+        {
+          "text": "Reconcile list of authorized users, having access to secure areas",
+          "sub": []
+        },
+        {
+          "text": "Maintain a list of physical key inventory, as with whom the keys of secure areas are with",
+          "sub": []
+        }
+      ],
+      "references": [],
+      "source_index": []
+    },
+    {
+      "domain": "Physical and Environmental Security",
+      "sub_domain": "Secure Areas",
+      "control_id": "PE 2.10",
+      "control_demand": "The healthcare entity shall have segregated delivery and loading areas and shall establish control measures over entry and exit.",
+      "applicability": "Basic",
+      "criteria": [
+        {
+          "text": "Establish access procedures to loading and unloading areas to restrict Basic access to only authorized personnel",
+          "sub": []
+        },
+        {
+          "text": "Inspect and register incoming and outgoing materials, in accordance with healthcare entity’s asset management procedures",
+          "sub": []
+        }
+      ],
+      "references": [
+        "T2.2.1",
+        "T2.2.2",
+        "T2.2.3",
+        "T2.2.4",
+        "T2.2.5",
+        "T2.2.6"
+      ],
+      "source_index": []
+    },
+    {
+      "domain": "Physical and Environmental Security",
+      "sub_domain": "Equipment Security",
+      "control_id": "PE 3.1",
+      "control_demand": "The healthcare entity shall site/position equipment and medical devices in manner that they are always protected.",
+      "applicability": "Basic",
+      "criteria": [
+        {
+          "text": "Establish guidelines on physical protection and unauthorized access of Basic equipment and medical devices",
+          "sub": []
+        },
+        {
+          "text": "Consider environmental risk condition while positioning of equipment and medical devices",
+          "sub": []
+        }
+      ],
+      "references": [],
+      "source_index": []
+    },
+    {
+      "domain": "Physical and Environmental Security",
+      "sub_domain": "Equipment Security",
+      "control_id": "PE 3.2",
+      "control_demand": "The healthcare entity shall protect equipment and medical devices from disruptions caused by failures in supporting utilities.",
+      "applicability": "Basic",
+      "criteria": [
+        {
+          "text": "Establish guidelines on physical protection and unauthorized access of Basic equipment and medical devices",
+          "sub": []
+        },
+        {
+          "text": "Consider environmental risk condition while positioning of equipment and medical devices",
+          "sub": []
+        }
+      ],
+      "references": [],
+      "source_index": []
+    },
+    {
+      "domain": "Physical and Environmental Security",
+      "sub_domain": "Equipment Security",
+      "control_id": "PE 3.3",
+      "control_demand": "The healthcare entity shall maintain supporting equipment, to ensure their continued availability.",
+      "applicability": "Basic",
+      "criteria": [
+        {
+          "text": "Establish guidelines on physical protection and unauthorized access of Basic equipment and medical devices",
+          "sub": []
+        },
+        {
+          "text": "Consider environmental risk condition while positioning of equipment and medical devices",
+          "sub": []
+        }
+      ],
+      "references": [],
+      "source_index": []
+    },
+    {
+      "domain": "Physical and Environmental Security",
+      "sub_domain": "Equipment Security",
+      "control_id": "PE 3.4",
+      "control_demand": "Power, telecommunication and cables carrying data shall be secured and protected.",
+      "applicability": "Basic",
+      "criteria": [
+        {
+          "text": "Establish guidelines on physical protection and unauthorized access of Basic equipment and medical devices",
+          "sub": []
+        },
+        {
+          "text": "Consider environmental risk condition while positioning of equipment and medical devices",
+          "sub": []
+        }
+      ],
+      "references": [],
+      "source_index": []
+    },
+    {
+      "domain": "Physical and Environmental Security",
+      "sub_domain": "Equipment Security",
+      "control_id": "PE 3.5",
+      "control_demand": "The healthcare entity shall identify and apply security measures to protect equipment, medical devices and information processing systems while off-.",
+      "applicability": "Basic",
+      "criteria": [
+        {
+          "text": "Ensure manufacturer’s recommendation and instructions are followed, while equipment, medical devices and information processing systems are off-site Advanced",
+          "sub": []
+        },
+        {
+          "text": "Ensure that movement and possession (chain of custody) logs for off-site equipment, medical devices and information processing systems maintained and verified",
+          "sub": []
+        },
+        {
+          "text": "Ensure security measures are applied to protect off-site equipment, medical devices and information processing systems from probabilities of information leakage, tampering and unauthorized activities",
+          "sub": []
+        }
+      ],
+      "references": [],
+      "source_index": []
+    },
+    {
+      "domain": "Physical and Environmental Security",
+      "sub_domain": "Equipment Security",
+      "control_id": "PE 3.6",
+      "control_demand": "The healthcare entity shall ensure that unattended equipment, medical devices and information processing systems are protected against information leakage and unauthorized activities.",
+      "applicability": "Basic",
+      "criteria": [
+        {
+          "text": "Ensure manufacturer’s recommendation and instructions are followed, while equipment, medical devices and information processing systems are off-site Advanced",
+          "sub": []
+        },
+        {
+          "text": "Ensure that movement and possession (chain of custody) logs for off-site equipment, medical devices and information processing systems maintained and verified",
+          "sub": []
+        },
+        {
+          "text": "Ensure security measures are applied to protect off-site equipment, medical devices and information processing systems from probabilities of information leakage, tampering and unauthorized activities",
+          "sub": []
+        }
+      ],
+      "references": [],
+      "source_index": []
+    },
+    {
+      "domain": "Physical and Environmental Security",
+      "sub_domain": "Equipment Security",
+      "control_id": "PE 3.7",
+      "control_demand": "The healthcare entity shall define and enforce a clear desk and clear screen policy to paper documents, removable storage media, and information processing systems.",
+      "applicability": "Basic",
+      "criteria": [
+        {
+          "text": "Ensure manufacturer’s recommendation and instructions are followed, while equipment, medical devices and information processing systems are off-site Advanced",
+          "sub": []
+        },
+        {
+          "text": "Ensure that movement and possession (chain of custody) logs for off-site equipment, medical devices and information processing systems maintained and verified",
+          "sub": []
+        },
+        {
+          "text": "Ensure security measures are applied to protect off-site equipment, medical devices and information processing systems from probabilities of information leakage, tampering and unauthorized activities",
+          "sub": []
+        }
+      ],
+      "references": [
+        "T2.3.1",
+        "T2.3.2",
+        "T2.3.3",
+        "T2.3.4",
+        "T2.3.5",
+        "T2.3.7",
+        "T2.3.8",
+        "T2.3.9"
+      ],
+      "source_index": []
+    },
+    {
+      "domain": "Access Control",
+      "sub_domain": "User Access Management",
+      "control_id": "AC 2.1",
+      "control_demand": "The healthcare entity shall implement a formal user registration and de- registration process.",
+      "applicability": "Basic",
+      "criteria": [
+        {
+          "text": "Ensure request for user registration and de-registration are process driven, and are in compliance with established criteria for access",
+          "sub": []
+        },
+        {
+          "text": "Ensure unique user accounts are created for each individual requiring access, and prohibit sharing of same account with multiple users",
+          "sub": []
+        },
+        {
+          "text": "Ensure group user account are not created or used",
+          "sub": []
+        },
+        {
+          "text": "Revoke user accounts during employee exit",
+          "sub": []
+        },
+        {
+          "text": "Revalidate access requirements during role change",
+          "sub": []
+        },
+        {
+          "text": "Maintain records/list of persons authorised to use healthcare entity’s information systems, applications, medical devices and equipment",
+          "sub": []
+        },
+        {
+          "text": "Establish and follow separate user registration and de-registration process for temporary and third party user account requirements",
+          "sub": []
+        }
+      ],
+      "references": [],
+      "source_index": []
+    },
+    {
+      "domain": "Access Control",
+      "sub_domain": "User Access Management",
+      "control_id": "AC 2.2",
+      "control_demand": "The healthcare entity shall restrict and control allocation of privileges, based on principles of need to know.",
+      "applicability": "Basic",
+      "criteria": [
+        {
+          "text": "Ensure request for user registration and de-registration are process driven, and are in compliance with established criteria for access",
+          "sub": []
+        },
+        {
+          "text": "Ensure unique user accounts are created for each individual requiring access, and prohibit sharing of same account with multiple users",
+          "sub": []
+        },
+        {
+          "text": "Ensure group user account are not created or used Basic",
+          "sub": []
+        },
+        {
+          "text": "Revoke user accounts during employee exit",
+          "sub": []
+        },
+        {
+          "text": "Revalidate access requirements during role change",
+          "sub": []
+        },
+        {
+          "text": "Maintain records/list of persons authorised to use healthcare entity’s information systems, applications, medical devices and equipment",
+          "sub": []
+        },
+        {
+          "text": "Establish and follow separate user registration and de-registration process for temporary and third party user account requirements",
+          "sub": []
+        }
+      ],
+      "references": [],
+      "source_index": []
+    },
+    {
+      "domain": "Access Control",
+      "sub_domain": "User Access Management",
+      "control_id": "AC 2.3",
+      "control_demand": "The healthcare entity shall establish process for secure allocation, use and management of security credentials.",
+      "applicability": "Basic",
+      "criteria": [
+        {
+          "text": "Ensure default application and system passwords are changed and not being used",
+          "sub": []
+        },
+        {
+          "text": "Ensure passwords are always hashed and stored in encrypted format",
+          "sub": []
+        },
+        {
+          "text": "During initial user account creation, communicate details of user account and password in two different communication modalities",
+          "sub": []
+        },
+        {
+          "text": "Enforce complexity requirements on password characters, and shall have at least:",
+          "sub": [
+            "Eight characters",
+            "One number, one upper-case and lower-case character, and a special character"
+          ]
+        },
+        {
+          "text": "Enforce passwords, including that of service accounts and privileged accounts, are recycled at an entity-defined time frame",
+          "sub": []
+        },
+        {
+          "text": "Ensure that password history is maintained, and shall restrict users from using immediately used previous passwords (at least 3 previous passwords)",
+          "sub": []
+        },
+        {
+          "text": "Educate users to adopt good practices while selecting and using passwords",
+          "sub": []
+        }
+      ],
+      "references": [
+        "T5.2.1",
+        "T5.2.2",
+        "T5.2.3",
+        "T5.3.1",
+        "T5.5.3"
+      ],
+      "source_index": []
+    },
+    {
+      "domain": "Access Control",
+      "sub_domain": "Equipment and Devices Access Control",
+      "control_id": "AC 3.1",
+      "control_demand": "The healthcare entity shall protect confidential and secret information on portable or removable media, mobile or portable devices, and medical equipment or devices.",
+      "applicability": "Basic",
+      "criteria": [
+        {
+          "text": "Authenticate user, where relevant, access to equipment, devices and",
+          "sub": []
+        },
+        {
+          "text": "Ensure media containing confidential and secret information is password protected and encrypted Transitional",
+          "sub": []
+        },
+        {
+          "text": "Where relevant, control access to medical equipment and devices through password enforcement in compliance with the healthcare entities password complexity and usage requirements",
+          "sub": []
+        },
+        {
+          "text": "Control access to mobile and portable devices hosting confidential and secret information",
+          "sub": []
+        },
+        {
+          "text": "Establish mobile device management process to protect entity information being used, processed or stored in mobile devices",
+          "sub": []
+        }
+      ],
+      "references": [],
+      "source_index": []
+    },
+    {
+      "domain": "Access Control",
+      "sub_domain": "Equipment and Devices Access Control",
+      "control_id": "AC 3.2",
+      "control_demand": "The healthcare entity shall control access to equipment, devices, system and facilities at teleworking sites.",
+      "applicability": "Basic",
+      "criteria": [
+        {
+          "text": "Authenticate user, where relevant, access to equipment, devices and media",
+          "sub": []
+        },
+        {
+          "text": "Ensure media containing confidential and secret information is password protected and encrypted Transitional",
+          "sub": []
+        },
+        {
+          "text": "Where relevant, control access to medical equipment and devices through password enforcement in compliance with the healthcare entities password complexity and usage requirements",
+          "sub": []
+        },
+        {
+          "text": "Control access to mobile and portable devices hosting confidential and secret information",
+          "sub": []
+        },
+        {
+          "text": "Establish mobile device management process to protect entity information being used, processed or stored in mobile devices",
+          "sub": []
+        }
+      ],
+      "references": [
+        "T5.7.1",
+        "T5.7.2"
+      ],
+      "source_index": []
+    },
+    {
+      "domain": "Access Control",
+      "sub_domain": "Access Reviews",
+      "control_id": "AC 4.1",
+      "control_demand": "The healthcare entity shall review access and privileges granted to its user.",
+      "applicability": "Basic",
+      "criteria": [
+        {
+          "text": "Establish process for the reviewing of user access and associated privileges to various entity resources",
+          "sub": []
+        },
+        {
+          "text": "Define responsibility for access and privileges review, based on entity resources being accessed",
+          "sub": []
+        },
+        {
+          "text": "Conduct user access and privileges review at least once a year or earlier, as required by the entity’s risk environment",
+          "sub": []
+        },
+        {
+          "text": "Maintain an up to date inventory of access granted and privileges assigned",
+          "sub": []
+        },
+        {
+          "text": "Define the criteria for the automatic revocation of user access and privileges based on the entity’s defined period of inactivity or non-usage of resources",
+          "sub": []
+        }
+      ],
+      "references": [
+        "T5.2.4"
+      ],
+      "source_index": []
+    },
+    {
+      "domain": "Access Control",
+      "sub_domain": "Network Access Control",
+      "control_id": "AC 5.1",
+      "control_demand": "Access to the entity’s network and network services shall be controlled, and shall be provided based on specific need for which the user is authorized for.",
+      "applicability": "Basic",
+      "criteria": [],
+      "references": [],
+      "source_index": []
+    },
+    {
+      "domain": "Access Control",
+      "sub_domain": "Network Access Control",
+      "control_id": "AC 5.2",
+      "control_demand": "The healthcare entity shall use appropriate authentication methods to control access of remote users.",
+      "applicability": "Basic",
+      "criteria": [
+        {
+          "text": "Ensure all remote login and access are only through secure channels",
+          "sub": []
+        },
+        {
+          "text": "Consider usage of multifactor authentication scheme to control access by remote users",
+          "sub": []
+        }
+      ],
+      "references": [],
+      "source_index": []
+    },
+    {
+      "domain": "Access Control",
+      "sub_domain": "Network Access Control",
+      "control_id": "AC 5.3",
+      "control_demand": "The healthcare entity shall identify all equipment and devices connected to its network, and shall have automated mechanism to detect unauthorized Basic equipment and devices.",
+      "applicability": "Basic",
+      "criteria": [
+        {
+          "text": "Ensure all remote login and access are only through secure channels",
+          "sub": []
+        },
+        {
+          "text": "Consider usage of multifactor authentication scheme to control access by remote users",
+          "sub": []
+        }
+      ],
+      "references": [],
+      "source_index": []
+    },
+    {
+      "domain": "Access Control",
+      "sub_domain": "Network Access Control",
+      "control_id": "AC 5.4",
+      "control_demand": "The healthcare entity shall control access for the purpose of diagnostic and configuration.",
+      "applicability": "Basic",
+      "criteria": [
+        {
+          "text": "Ensure all remote login and access are only through secure channels",
+          "sub": []
+        },
+        {
+          "text": "Consider usage of multifactor authentication scheme to control access by remote users",
+          "sub": []
+        }
+      ],
+      "references": [],
+      "source_index": []
+    },
+    {
+      "domain": "Access Control",
+      "sub_domain": "Network Access Control",
+      "control_id": "AC 5.5",
+      "control_demand": "User access to shared and isolated networks shall be restricted.",
+      "applicability": "Basic",
+      "criteria": [
+        {
+          "text": "Ensure all remote login and access are only through secure channels",
+          "sub": []
+        },
+        {
+          "text": "Consider usage of multifactor authentication scheme to control access by remote users",
+          "sub": []
+        }
+      ],
+      "references": [],
+      "source_index": []
+    },
+    {
+      "domain": "Access Control",
+      "sub_domain": "Network Access Control",
+      "control_id": "AC 5.6",
+      "control_demand": "The healthcare entity shall define and implement network routing controls to ensure information flow and system, devices, equipment connections are not compromised and are in line with requirements of Access Control Policy.",
+      "applicability": "Basic",
+      "criteria": [
+        {
+          "text": "Establish processes for secure configuration and rules application for network routing requirements",
+          "sub": []
+        },
+        {
+          "text": "Always ensure source and destination address and services or ports are used while defining and applying routing rules",
+          "sub": []
+        },
+        {
+          "text": "Enable routing protection countermeasures to avoid manipulation of routing systems and tables Transitional",
+          "sub": []
+        },
+        {
+          "text": "Define and implement network architecture that segregates and isolates internal and publically accessible systems.",
+          "sub": []
+        },
+        {
+          "text": "External connections to information systems and networks outside entity shall be managed through interfaces consisting of perimeter protection devices (such as firewalls)",
+          "sub": []
+        },
+        {
+          "text": "Ensure that communications with external systems, networks and key internal systems are always monitored for malicious and suspicious payloads",
+          "sub": []
+        },
+        {
+          "text": "Periodically scan for any covert channel connections to public networks bypassing entity security defence",
+          "sub": []
+        }
+      ],
+      "references": [],
+      "source_index": []
+    },
+    {
+      "domain": "Access Control",
+      "sub_domain": "Network Access Control",
+      "control_id": "AC 5.7",
+      "control_demand": "The healthcare entity shall ensure wireless access within the entity is secured.",
+      "applicability": "Basic",
+      "criteria": [
+        {
+          "text": "Establish processes for secure configuration and rules application for network routing requirements",
+          "sub": []
+        },
+        {
+          "text": "Always ensure source and destination address and services or ports are used while defining and applying routing rules",
+          "sub": []
+        },
+        {
+          "text": "Enable routing protection countermeasures to avoid manipulation of routing systems and tables Transitional",
+          "sub": []
+        },
+        {
+          "text": "Define and implement network architecture that segregates and isolates internal and publically accessible systems.",
+          "sub": []
+        },
+        {
+          "text": "External connections to information systems and networks outside entity shall be managed through interfaces consisting of perimeter protection devices (such as firewalls)",
+          "sub": []
+        },
+        {
+          "text": "Ensure that communications with external systems, networks and key internal systems are always monitored for malicious and suspicious payloads",
+          "sub": []
+        },
+        {
+          "text": "Periodically scan for any covert channel connections to public networks bypassing entity security defence",
+          "sub": []
+        }
+      ],
+      "references": [
+        "T5.4.1",
+        "T5.4.2",
+        "T5.4.3",
+        "T5.4.4",
+        "T5.4.5",
+        "T5.4.6",
+        "T5.4.7"
+      ],
+      "source_index": []
+    },
+    {
+      "domain": "Access Control",
+      "sub_domain": "Operating System Access Control",
+      "control_id": "AC 6.1",
+      "control_demand": "The healthcare entity shall establish and enforce secure log-on and log-off procedures to control access to system and applications.",
+      "applicability": "Basic",
+      "criteria": [
+        {
+          "text": "Ensure that access to entities systems, applications and services that process, use or store healthcare information are authenticated",
+          "sub": []
+        },
+        {
+          "text": "Enforce automated locking of workstation/system after a predefined period of inactivity",
+          "sub": []
+        },
+        {
+          "text": "Establish authorization procedures, based on classification of systems, Basic application, services and information in scope",
+          "sub": []
+        },
+        {
+          "text": "Establish and enforce idle session time-out requirements",
+          "sub": []
+        },
+        {
+          "text": "Automatically terminate inactive sessions after a predefined period of session inactivity",
+          "sub": []
+        },
+        {
+          "text": "Display a logon banner that requires the user to acknowledge and accept security terms and their responsibilities before access to the system is granted The healthcare entity shall create unique identifier (user ID) for each users who AC 6.2 require access to entities systems, applications or services, and shall implement a suitable authentication technique. The healthcare entity shall: Basic",
+          "sub": []
+        },
+        {
+          "text": "Grant each user with a unique identifier",
+          "sub": []
+        },
+        {
+          "text": "Ensure all user activities are logged with the associated identifier",
+          "sub": []
+        }
+      ],
+      "references": [],
+      "source_index": []
+    },
+    {
+      "domain": "Access Control",
+      "sub_domain": "Operating System Access Control",
+      "control_id": "AC 6.3",
+      "control_demand": "The healthcare entity shall restrict and control the use of utility programs and tools that might be capable of overriding system and application controls.",
+      "applicability": "Basic",
+      "criteria": [
+        {
+          "text": "Ensure that access to entities systems, applications and services that process, use or store healthcare information are authenticated",
+          "sub": []
+        },
+        {
+          "text": "Enforce automated locking of workstation/system after a predefined period of inactivity",
+          "sub": []
+        },
+        {
+          "text": "Establish authorization procedures, based on classification of systems, Basic application, services and information in scope",
+          "sub": []
+        },
+        {
+          "text": "Establish and enforce idle session time-out requirements",
+          "sub": []
+        },
+        {
+          "text": "Automatically terminate inactive sessions after a predefined period of session inactivity",
+          "sub": []
+        },
+        {
+          "text": "Display a logon banner that requires the user to acknowledge and accept security terms and their responsibilities before access to the system is granted The healthcare entity shall create unique identifier (user ID) for each users who AC 6.2 require access to entities systems, applications or services, and shall implement a suitable authentication technique. The healthcare entity shall: Basic",
+          "sub": []
+        },
+        {
+          "text": "Grant each user with a unique identifier",
+          "sub": []
+        },
+        {
+          "text": "Ensure all user activities are logged with the associated identifier",
+          "sub": []
+        }
+      ],
+      "references": [
+        "T5.5.1",
+        "T5.5.2",
+        "T5.5.4"
+      ],
+      "source_index": []
+    },
+    {
+      "domain": "Access Control",
+      "sub_domain": "Application and Information Access Control",
+      "control_id": "AC 7.1",
+      "control_demand": "The healthcare entity shall restrict access to information and application system functions in accordance with the access control policy.",
+      "applicability": "Basic",
+      "criteria": [
+        {
+          "text": "Ensure access to information and application access is restricted and based on need-to-know principles and appropriate authorization",
+          "sub": []
+        },
+        {
+          "text": "Enforce role-based access mechanisms",
+          "sub": []
+        },
+        {
+          "text": "The need for access shall be justified by individuals responsibilities",
+          "sub": []
+        },
+        {
+          "text": "Ensure that office assistants, cleaning staffs and other unauthorized personnel do not have access to healthcare data",
+          "sub": []
+        }
+      ],
+      "references": [],
+      "source_index": []
+    },
+    {
+      "domain": "Access Control",
+      "sub_domain": "Application and Information Access Control",
+      "control_id": "AC 7.2",
+      "control_demand": "The healthcare entity shall isolate sensitive systems in a dedicated Transitional environment.",
+      "applicability": "Basic",
+      "criteria": [
+        {
+          "text": "Ensure access to information and application access is restricted and based on need-to-know principles and appropriate authorization Basic",
+          "sub": []
+        },
+        {
+          "text": "Enforce role-based access mechanisms",
+          "sub": []
+        },
+        {
+          "text": "The need for access shall be justified by individuals responsibilities",
+          "sub": []
+        },
+        {
+          "text": "Ensure that office assistants, cleaning staffs and other unauthorized personnel do not have access to healthcare data",
+          "sub": []
+        }
+      ],
+      "references": [],
+      "source_index": []
+    },
+    {
+      "domain": "Access Control",
+      "sub_domain": "Application and Information Access Control",
+      "control_id": "AC 7.3",
+      "control_demand": "The healthcare entity shall implement controls and shall not expose non-public information to the general public.",
+      "applicability": "Basic",
+      "criteria": [
+        {
+          "text": "Ensure access to information and application access is restricted and based on need-to-know principles and appropriate authorization Basic",
+          "sub": []
+        },
+        {
+          "text": "Enforce role-based access mechanisms",
+          "sub": []
+        },
+        {
+          "text": "The need for access shall be justified by individuals responsibilities",
+          "sub": []
+        },
+        {
+          "text": "Ensure that office assistants, cleaning staffs and other unauthorized personnel do not have access to healthcare data",
+          "sub": []
+        }
+      ],
+      "references": [
+        "T5.6.1",
+        "T5.6.2",
+        "T5.6.3"
+      ],
+      "source_index": []
+    },
+    {
+      "domain": "Operations Management",
+      "sub_domain": "Operations Management Policy",
+      "control_id": "OM 1.1",
+      "control_demand": "The healthcare entity shall develop, enforce and maintain an operations management policy to ensure support and maintenance activities concerning data, technology and application are controlled.",
+      "applicability": "Basic",
+      "criteria": [
+        {
+          "text": "Be relevant and appropriate to the healthcare entity’s operational and risk environment concerning data, technology and application",
+          "sub": []
+        },
+        {
+          "text": "Establish management demands on:",
+          "sub": [
+            "Segregation of duties",
+            "Configuration management",
+            "Change control",
+            "Baselines and minimum security configurations",
+            "Standard operating procedures",
+            "Capacity management",
+            "System acceptance",
+            "Malware control",
+            "Quality management",
+            "Backup management",
+            "Logging and monitoring",
+            "Patch management"
+          ]
+        },
+        {
+          "text": "Provide framework for managing operational activities",
+          "sub": []
+        }
+      ],
+      "references": [
+        "T3.1.1"
+      ],
+      "source_index": []
+    },
+    {
+      "domain": "Operations Management",
+      "sub_domain": "Operational Procedures",
+      "control_id": "OM 2.1",
+      "control_demand": "The healthcare entity shall develop and enforce baseline and recommended configuration settings for common information technology products and applications, medical devices and equipment The healthcare entity, while developing baseline and recommended configuration setting, shall consider:.",
+      "applicability": "Basic",
+      "criteria": [
+        {
+          "text": "Requirements of this Standard",
+          "sub": []
+        },
+        {
+          "text": "Industry best practices",
+          "sub": []
+        },
+        {
+          "text": "Risk mitigation strategies",
+          "sub": []
+        },
+        {
+          "text": "Corrective and preventive actions (audit, assessment and incident outcomes)",
+          "sub": []
+        }
+      ],
+      "references": [],
+      "source_index": []
+    },
+    {
+      "domain": "Operations Management",
+      "sub_domain": "Operational Procedures",
+      "control_id": "OM 2.2",
+      "control_demand": "The healthcare entity shall document operating procedures for all support, operational and maintenance activities of information systems and application, medical devices and equipment.",
+      "applicability": "Basic",
+      "criteria": [
+        {
+          "text": "Manufacturer’s security recommendations Transitional",
+          "sub": []
+        },
+        {
+          "text": "Requirements of this Standard",
+          "sub": []
+        },
+        {
+          "text": "Industry best practices",
+          "sub": []
+        },
+        {
+          "text": "Risk mitigation strategies",
+          "sub": []
+        },
+        {
+          "text": "Corrective and preventive actions (audit, assessment and incident outcomes)",
+          "sub": []
+        }
+      ],
+      "references": [],
+      "source_index": []
+    },
+    {
+      "domain": "Operations Management",
+      "sub_domain": "Operational Procedures",
+      "control_id": "OM 2.3",
+      "control_demand": "The healthcare entity shall control changes to information systems and application, medical devices and equipment.",
+      "applicability": "Basic",
+      "criteria": [
+        {
+          "text": "Establish a Change Advisory Board to authorize changes",
+          "sub": []
+        },
+        {
+          "text": "Define and enforce a change management process that addresses the following elements:",
+          "sub": [
+            "Identification and recording of significant changes",
+            "Planning and testing of changes",
+            "Assessment of potential impacts Transitional",
+            "Formal approval procedure",
+            "Communication of change to all relevant stakeholders",
+            "Roll-back plan to be utilized during unsuccessful changes",
+            "Post implementation assessment",
+            "Maintenance of previous version of software, code and configurations"
+          ]
+        },
+        {
+          "text": "Define information systems and applications, medical devices and equipment that shall be covered by the Change Management Process",
+          "sub": []
+        }
+      ],
+      "references": [],
+      "source_index": []
+    },
+    {
+      "domain": "Operations Management",
+      "sub_domain": "Operational Procedures",
+      "control_id": "OM 2.4",
+      "control_demand": "The healthcare entity shall establish a process that controls transition of information systems and applications.",
+      "applicability": "Basic",
+      "criteria": [
+        {
+          "text": "Establish a Change Advisory Board to authorize changes",
+          "sub": []
+        },
+        {
+          "text": "Define and enforce a change management process that addresses the following elements:",
+          "sub": [
+            "Identification and recording of significant changes",
+            "Planning and testing of changes",
+            "Assessment of potential impacts Transitional",
+            "Formal approval procedure",
+            "Communication of change to all relevant stakeholders",
+            "Roll-back plan to be utilized during unsuccessful changes",
+            "Post implementation assessment",
+            "Maintenance of previous version of software, code and configurations"
+          ]
+        },
+        {
+          "text": "Define information systems and applications, medical devices and equipment that shall be covered by the Change Management Process",
+          "sub": []
+        }
+      ],
+      "references": [],
+      "source_index": []
+    },
+    {
+      "domain": "Operations Management",
+      "sub_domain": "Operational Procedures",
+      "control_id": "OM 2.5",
+      "control_demand": "The healthcare entity shall identify and segregate roles of conflicting interests and assign responsibilities accordingly.",
+      "applicability": "Basic",
+      "criteria": [
+        {
+          "text": "Establish a Change Advisory Board to authorize changes",
+          "sub": []
+        },
+        {
+          "text": "Define and enforce a change management process that addresses the following elements:",
+          "sub": [
+            "Identification and recording of significant changes",
+            "Planning and testing of changes",
+            "Assessment of potential impacts Transitional",
+            "Formal approval procedure",
+            "Communication of change to all relevant stakeholders",
+            "Roll-back plan to be utilized during unsuccessful changes",
+            "Post implementation assessment",
+            "Maintenance of previous version of software, code and configurations"
+          ]
+        },
+        {
+          "text": "Define information systems and applications, medical devices and equipment that shall be covered by the Change Management Process",
+          "sub": []
+        }
+      ],
+      "references": [],
+      "source_index": []
+    },
+    {
+      "domain": "Operations Management",
+      "sub_domain": "Operational Procedures",
+      "control_id": "OM 2.6",
+      "control_demand": "The healthcare entity shall identify and separate development, test, staging and operational environments.",
+      "applicability": "Basic",
+      "criteria": [
+        {
+          "text": "Establish a Change Advisory Board to authorize changes",
+          "sub": []
+        },
+        {
+          "text": "Define and enforce a change management process that addresses the following elements:",
+          "sub": [
+            "Identification and recording of significant changes",
+            "Planning and testing of changes",
+            "Assessment of potential impacts Transitional",
+            "Formal approval procedure",
+            "Communication of change to all relevant stakeholders",
+            "Roll-back plan to be utilized during unsuccessful changes",
+            "Post implementation assessment",
+            "Maintenance of previous version of software, code and configurations"
+          ]
+        },
+        {
+          "text": "Define information systems and applications, medical devices and equipment that shall be covered by the Change Management Process",
+          "sub": []
+        }
+      ],
+      "references": [
+        "T3.2.1",
+        "T3.2.2",
+        "T3.2.3",
+        "T3.2.4"
+      ],
+      "source_index": []
+    },
+    {
+      "domain": "Operations Management",
+      "sub_domain": "Planning and Acceptance",
+      "control_id": "OM 3.1",
+      "control_demand": "The healthcare entity shall identify and document current and future capacity requirements while planning for new information systems and applications.",
+      "applicability": "Basic",
+      "criteria": [
+        {
+          "text": "Have the ability to monitor and measure the capacity of current systems and estimate future information systems and application demands",
+          "sub": []
+        },
+        {
+          "text": "Ensure there is sufficient capacity with information systems to support good system performance and reliability. Advanced",
+          "sub": []
+        },
+        {
+          "text": "Identify capacity thresholds for all information systems and applications, and shall define advance escalation matrix to ensure capacity demands are met",
+          "sub": []
+        },
+        {
+          "text": "Establish process to:",
+          "sub": [
+            "decommission systems that are no longer needed",
+            "optimise databases",
+            "archive data that is not accessed regularly"
+          ]
+        }
+      ],
+      "references": [],
+      "source_index": []
+    },
+    {
+      "domain": "Operations Management",
+      "sub_domain": "Planning and Acceptance",
+      "control_id": "OM 3.2",
+      "control_demand": "The healthcare entity shall establish acceptance criteria for new information systems and applications, changes, upgrades and releases, in addition to satisfactory test results.",
+      "applicability": "Basic",
+      "criteria": [
+        {
+          "text": "Have the ability to monitor and measure the capacity of current systems and estimate future information systems and application demands",
+          "sub": []
+        },
+        {
+          "text": "Ensure there is sufficient capacity with information systems to support good system performance and reliability. Advanced",
+          "sub": []
+        },
+        {
+          "text": "Identify capacity thresholds for all information systems and applications, and shall define advance escalation matrix to ensure capacity demands are met",
+          "sub": []
+        },
+        {
+          "text": "Establish process to:",
+          "sub": [
+            "decommission systems that are no longer needed",
+            "optimise databases",
+            "archive data that is not accessed regularly"
+          ]
+        }
+      ],
+      "references": [
+        "T3.3.1",
+        "T3.3.2"
+      ],
+      "source_index": []
+    },
+    {
+      "domain": "Operations Management",
+      "sub_domain": "Malware Protection",
+      "control_id": "OM 4.1",
+      "control_demand": "The healthcare entity shall protect its information assets from malware.",
+      "applicability": "Basic",
+      "criteria": [
+        {
+          "text": "Ensure minimum security configurations is maintained in all information assets, as applicable and as relevant",
+          "sub": []
+        },
+        {
+          "text": "Implement anti-malware and anti-virus protection mechanisms for network and individual information systems (server, workstation, mobile/portable computing devices)",
+          "sub": []
+        },
+        {
+          "text": "Ensure anti-malware and anti-virus protections mechanisms are updated and current",
+          "sub": []
+        },
+        {
+          "text": "Enable real-time protection capabilities",
+          "sub": []
+        },
+        {
+          "text": "Establish and enforce periodic scan schedules",
+          "sub": []
+        },
+        {
+          "text": "Scan removable media for viruses and malware on all occasions when they are connected to information systems",
+          "sub": []
+        },
+        {
+          "text": "Disable auto-run features for removable media on information systems",
+          "sub": []
+        },
+        {
+          "text": "Configure anti-malware and anti-virus protection systems to alert responsible stakeholders on event, incident or anomaly detection",
+          "sub": []
+        },
+        {
+          "text": "Provide ongoing awareness for users on techniques, tactics and procedure to avoid and minimize probabilities of malware and virus attacks",
+          "sub": []
+        }
+      ],
+      "references": [],
+      "source_index": []
+    },
+    {
+      "domain": "Operations Management",
+      "sub_domain": "Malware Protection",
+      "control_id": "OM 4.2",
+      "control_demand": "The healthcare entity shall deploy gateway level protection mechanisms to detect and defend against malware and viruses.",
+      "applicability": "Basic",
+      "criteria": [
+        {
+          "text": "Ensure minimum security configurations is maintained in all information assets, as applicable and as relevant",
+          "sub": []
+        },
+        {
+          "text": "Implement anti-malware and anti-virus protection mechanisms for network and individual information systems (server, workstation, mobile/portable computing devices)",
+          "sub": []
+        },
+        {
+          "text": "Ensure anti-malware and anti-virus protections mechanisms are updated and current Basic",
+          "sub": []
+        },
+        {
+          "text": "Enable real-time protection capabilities",
+          "sub": []
+        },
+        {
+          "text": "Establish and enforce periodic scan schedules",
+          "sub": []
+        },
+        {
+          "text": "Scan removable media for viruses and malware on all occasions when they are connected to information systems",
+          "sub": []
+        },
+        {
+          "text": "Disable auto-run features for removable media on information systems",
+          "sub": []
+        },
+        {
+          "text": "Configure anti-malware and anti-virus protection systems to alert responsible stakeholders on event, incident or anomaly detection",
+          "sub": []
+        },
+        {
+          "text": "Provide ongoing awareness for users on techniques, tactics and procedure to avoid and minimize probabilities of malware and virus attacks",
+          "sub": []
+        }
+      ],
+      "references": [
+        "T3.4.1"
+      ],
+      "source_index": []
+    },
+    {
+      "domain": "Operations Management",
+      "sub_domain": "Backup and Archival",
+      "control_id": "OM 5.1",
+      "control_demand": "The healthcare entity shall maintain backup copies of essential information and software needed to support care delivery and its operations.",
+      "applicability": "Basic",
+      "criteria": [
+        {
+          "text": "Establish backup management process that identifies;",
+          "sub": [
+            "Essential and critical information in support of care delivery, business and entity operations",
+            "Data owner",
+            "Data recovery point and time requirements",
+            "Backup frequencies, time of execution and methods",
+            "Data restoration frequencies and test criteria"
+          ]
+        },
+        {
+          "text": "Ensure backup of all identified essential and critical data",
+          "sub": []
+        },
+        {
+          "text": "Ensure data restoration requirements for continuity and recovery are adequately met",
+          "sub": []
+        }
+      ],
+      "references": [],
+      "source_index": []
+    },
+    {
+      "domain": "Operations Management",
+      "sub_domain": "Backup and Archival",
+      "control_id": "OM 5.2",
+      "control_demand": "The healthcare entity shall establish data archival requirements that satisfies entities retention demands.",
+      "applicability": "Basic",
+      "criteria": [
+        {
+          "text": "Establish backup management process that identifies;",
+          "sub": [
+            "Essential and critical information in support of care delivery, business and entity operations",
+            "Data owner Basic",
+            "Data recovery point and time requirements",
+            "Backup frequencies, time of execution and methods",
+            "Data restoration frequencies and test criteria"
+          ]
+        },
+        {
+          "text": "Ensure backup of all identified essential and critical data",
+          "sub": []
+        },
+        {
+          "text": "Ensure data restoration requirements for continuity and recovery are adequately met",
+          "sub": []
+        }
+      ],
+      "references": [
+        "T3.5.1"
+      ],
+      "source_index": []
+    },
+    {
+      "domain": "Operations Management",
+      "sub_domain": "Monitoring and Logging",
+      "control_id": "OM 6.1",
+      "control_demand": "The healthcare entity shall establish and enforce monitoring procedures for information systems and application, medical devices and equipment Monitoring procedures shall:.",
+      "applicability": "Basic",
+      "criteria": [
+        {
+          "text": "Establish frequency and methods (dashboards, web-link, mobile-app, scheduled tasks, parameter validation, logs, records, manual verification, etc.) of monitoring Advanced",
+          "sub": []
+        },
+        {
+          "text": "Establish minimum information gathering requirements for each monitoring activities",
+          "sub": []
+        },
+        {
+          "text": "Define minimum time requirements for maintaining information gathered from monitoring activities",
+          "sub": []
+        },
+        {
+          "text": "Define criteria for alerting and escalation",
+          "sub": []
+        },
+        {
+          "text": "Have defined criteria that quantifies specific outcomes of monitoring as incidents",
+          "sub": []
+        },
+        {
+          "text": "Establish roles for monitoring activities and assign specific responsibilities",
+          "sub": []
+        }
+      ],
+      "references": [],
+      "source_index": []
+    },
+    {
+      "domain": "Operations Management",
+      "sub_domain": "Monitoring and Logging",
+      "control_id": "OM 6.2",
+      "control_demand": "The healthcare entity shall enable audit logs recording administrator, operator and user activities, exceptions and security events. The log shall include faults related to information processing and communication.",
+      "applicability": "Basic",
+      "criteria": [
+        {
+          "text": "Identify aspects (system use, changes, unauthorized activities, internal processing, exception, information exchange, integration, access, etc.) to be monitored",
+          "sub": []
+        },
+        {
+          "text": "Establish frequency and methods (dashboards, web-link, mobile-app, scheduled tasks, parameter validation, logs, records, manual verification, etc.) of monitoring Advanced",
+          "sub": []
+        },
+        {
+          "text": "Establish minimum information gathering requirements for each monitoring activities",
+          "sub": []
+        },
+        {
+          "text": "Define minimum time requirements for maintaining information gathered from monitoring activities",
+          "sub": []
+        },
+        {
+          "text": "Define criteria for alerting and escalation",
+          "sub": []
+        },
+        {
+          "text": "Have defined criteria that quantifies specific outcomes of monitoring as incidents",
+          "sub": []
+        },
+        {
+          "text": "Establish roles for monitoring activities and assign specific responsibilities",
+          "sub": []
+        }
+      ],
+      "references": [],
+      "source_index": []
+    },
+    {
+      "domain": "Operations Management",
+      "sub_domain": "Monitoring and Logging",
+      "control_id": "OM 6.3",
+      "control_demand": "The healthcare entity shall preserve logs in a centralized log management system.",
+      "applicability": "Basic",
+      "criteria": [
+        {
+          "text": "Control access to the centralized log management solution",
+          "sub": []
+        },
+        {
+          "text": "Ensure the centralized log management solution is managed by individuals who do not have operational role in implementing or maintain information systems or application",
+          "sub": []
+        },
+        {
+          "text": "Retain logs for a period commensurate with legal, regulatory and entity Advanced demands on each type of log",
+          "sub": []
+        },
+        {
+          "text": "Define use cases and dashboards based on the entity’s needs and industry recommendations, and shall consider:",
+          "sub": [
+            "System utilisation and performance trends",
+            "Deviation from entity policy and procedures",
+            "Access control variances and violations",
+            "Any potential sign of security breach or attack"
+          ]
+        }
+      ],
+      "references": [],
+      "source_index": []
+    },
+    {
+      "domain": "Operations Management",
+      "sub_domain": "Monitoring and Logging",
+      "control_id": "OM 6.4",
+      "control_demand": "The healthcare entity shall synchronize clock of all information systems with an agreed time source.",
+      "applicability": "Basic",
+      "criteria": [
+        {
+          "text": "Control access to the centralized log management solution",
+          "sub": []
+        },
+        {
+          "text": "Ensure the centralized log management solution is managed by individuals who do not have operational role in implementing or maintain information systems or application",
+          "sub": []
+        },
+        {
+          "text": "Retain logs for a period commensurate with legal, regulatory and entity Advanced demands on each type of log",
+          "sub": []
+        },
+        {
+          "text": "Define use cases and dashboards based on the entity’s needs and industry recommendations, and shall consider:",
+          "sub": [
+            "System utilisation and performance trends",
+            "Deviation from entity policy and procedures",
+            "Access control variances and violations",
+            "Any potential sign of security breach or attack"
+          ]
+        }
+      ],
+      "references": [],
+      "source_index": []
+    },
+    {
+      "domain": "Operations Management",
+      "sub_domain": "Monitoring and Logging",
+      "control_id": "OM 6.5",
+      "control_demand": "The healthcare entity shall define and establish formal procedure for updates and patching of information system and application, medical devices and equipment.",
+      "applicability": "Basic",
+      "criteria": [
+        {
+          "text": "Control access to the centralized log management solution",
+          "sub": []
+        },
+        {
+          "text": "Ensure the centralized log management solution is managed by individuals who do not have operational role in implementing or maintain information systems or application",
+          "sub": []
+        },
+        {
+          "text": "Retain logs for a period commensurate with legal, regulatory and entity Advanced demands on each type of log",
+          "sub": []
+        },
+        {
+          "text": "Define use cases and dashboards based on the entity’s needs and industry recommendations, and shall consider:",
+          "sub": [
+            "System utilisation and performance trends",
+            "Deviation from entity policy and procedures",
+            "Access control variances and violations",
+            "Any potential sign of security breach or attack"
+          ]
+        }
+      ],
+      "references": [],
+      "source_index": []
+    },
+    {
+      "domain": "Operations Management",
+      "sub_domain": "Monitoring and Logging",
+      "control_id": "OM 6.6",
+      "control_demand": "The healthcare entity shall monitor information processing systems to prevent opportunities for information leakage Transitional.",
+      "applicability": "Basic",
+      "criteria": [
+        {
+          "text": "Implement data leakage prevention (DLP) measures",
+          "sub": []
+        }
+      ],
+      "references": [
+        "T3.6.1",
+        "T3.6.2",
+        "T3.6.3",
+        "T3.6.4",
+        "T3.6.5",
+        "T3.6.6",
+        "T3.6.7",
+        "T7.6.4",
+        "T7.7.1"
+      ],
+      "source_index": []
+    },
+    {
+      "domain": "Operations Management",
+      "sub_domain": "Security Assessment and Vulnerability Management",
+      "control_id": "OM 7.1",
+      "control_demand": "The healthcare entity shall conduct periodic independent assessment to ensure information assets are secure and always protected.",
+      "applicability": "Basic",
+      "criteria": [
+        {
+          "text": "Establish yearly schedules and conduct:",
+          "sub": [
+            "Penetration testing on the entity’s system, network, applications and security infrastructures and environment",
+            "Vulnerability assessment on all entity’s system, network, applications and security infrastructures and environment",
+            "Web security assessments on web applications accessible over internet"
+          ]
+        },
+        {
+          "text": "Establish processes to conduct security testing and authorization by Transitional authorized business and security stakeholders for new system/application and upgrades prior to production roll-out and usage",
+          "sub": []
+        },
+        {
+          "text": "Establish processes to mitigate and manage identified findings and vulnerabilities",
+          "sub": []
+        },
+        {
+          "text": "Share reports on identified findings and vulnerabilities and the status of mitigation with:",
+          "sub": [
+            "The entity’s management",
+            ", Abu Dhabi’s health sector regulator"
+          ]
+        },
+        {
+          "text": "Periodically follow up on the progress and status of mitigation measures with the appropriate stakeholders",
+          "sub": []
+        },
+        {
+          "text": "Verify effectiveness and efficiency of mitigation measures The healthcare entity shall ensure that assessment data is not available with OM 7.2 third parties engaged to conduct assessments beyond the time of engagement The healthcare entity shall:",
+          "sub": []
+        },
+        {
+          "text": "Ensure that system, network, applications and security related information is shared with third parties when they are on-site Transitional",
+          "sub": []
+        },
+        {
+          "text": "Ensure that all information related to the entity’s system, network, applications and security infrastructures and environment and assessment outcomes are erased from the involved third party’s assets and environment after the completion of the assessment activity",
+          "sub": []
+        },
+        {
+          "text": "Ensure that any shared reports are suitably protected through an adequate encryption mechanism Abu Dhabi Government’s vision towards modernization and enhancement of society and services necessitates sharing of appropriate information with eligible stakeholders within and across entities. Stakeholder utilization of information from within and across entity has influenced decisions, and improved outcomes. It is essential that the communication between various information processing components are provisioned through controlled communication process and channel. It is essential healthcare entities define criteria, rules and controls that secure communication processes, components, interfaces, channels and stakeholders to securely aid human to machine, machine to machine, machine to human and human to human communication to facilitate information exchange. Risk environment of the connected world demands that an entity’s management be conscious of the current risk environment concerning communication and information exchange, and that it defines proactive measures that shall:  Secure entities communication infrastructures  Ensure information exchange are controlled through formal exchange agreements and controls  Ensure information is delivered to right stakeholders or information processing components",
+          "sub": []
+        }
+      ],
+      "references": [
+        "T4.5.1",
+        "T4.5.2",
+        "T4.5.3",
+        "T4.5.4"
+      ],
+      "source_index": []
+    },
+    {
+      "domain": "Health Information and Security",
+      "sub_domain": "Health Information Protection Policy",
+      "control_id": "HI 1.1",
+      "control_demand": "The healthcare entity shall develop, enforce and maintain a health information protection policy that ensures management’s commitment to protect healthcare information.",
+      "applicability": "Basic",
+      "criteria": [
+        {
+          "text": "Define management requirements on;",
+          "sub": [
+            "Criteria for access and acceptable usage",
+            "Accountability and/or data ownership",
+            "Healthcare data communication or sharing"
+          ]
+        },
+        {
+          "text": "Mandate the requirements of non-disclosure and confidentiality during and after employment",
+          "sub": []
+        },
+        {
+          "text": "Define government sanctions and legal obligations",
+          "sub": []
+        },
+        {
+          "text": "Include reference to organizational disciplinary process",
+          "sub": []
+        }
+      ],
+      "references": [
+        "M5.2.4"
+      ],
+      "source_index": []
+    },
+    {
+      "domain": "Health Information and Security",
+      "sub_domain": "Health Information Privacy and Protection",
+      "control_id": "HI 2.1",
+      "control_demand": "The healthcare entity shall ensure that healthcare information under its custody is suitably protected.",
+      "applicability": "Basic",
+      "criteria": [
+        {
+          "text": "Conduct orientation on healthcare information protection and sanctions to all its employees, relevant contractors and third parties prior to their access to healthcare information",
+          "sub": []
+        },
+        {
+          "text": "Establish stricter process to ensure clear desk and clear screen practices are adhered to in areas where healthcare information is used, processed or handled",
+          "sub": []
+        },
+        {
+          "text": "Define and enforce criteria for healthcare information access",
+          "sub": []
+        },
+        {
+          "text": "Ensure access to health information systems and applications are restricted for individuals possessing a valid licence to practice their profession within the UAE, and any exception shall be authorized by entity CISO based on adequate justification",
+          "sub": []
+        },
+        {
+          "text": "Control and restrict privileges for printing and sharing of healthcare Basic information",
+          "sub": []
+        },
+        {
+          "text": "Ensure cleaning staff access to areas where patient related healthcare information is being viewed, accessed, used, processed, stored and/or destroyed are monitored or under surveillance coverage",
+          "sub": []
+        },
+        {
+          "text": "Ensure any hardcopy/media containing healthcare information is shredded after its usefulness",
+          "sub": []
+        },
+        {
+          "text": "Establish processes for shredding all hardcopy documents before their disposal",
+          "sub": []
+        },
+        {
+          "text": "Ensure that healthcare information with personal identifiers is not available unattended",
+          "sub": []
+        },
+        {
+          "text": "Ensure printing of healthcare information is limited to local printers and are not printed through uncontrolled network printers",
+          "sub": []
+        },
+        {
+          "text": "Establish processes to notify the health sector regulator of any probabilities of breaches involving healthcare information",
+          "sub": []
+        },
+        {
+          "text": "Third Party Security Operational efficiency, time to deliver and cost saving aspects compels entity management to utilize third party services or resources to complement service delivery. Involvement of third parties in the process of care delivery and associated areas are inevitable and needs stronger control measures to secure entity assets and information. Healthcare entity management shall be cognizant of the fact that a significant portion of privacy breaches originates with organizations that contracted activities and services to third parties. Adequate due diligence to activities and services to be contracted, and a proactive identification and definition of control environment to secure privacy and information assets would minimize damages and benefit healthcare entities and the government. Entities that entrust access to third parties acknowledge and share responsibilities for the breaches. A healthcare entity’s management shall be aware of the risk environment related to third party services and resources, establish a suitable framework for third party management and define a control environment that shall:  Reduce probabilities of information leakage and loss  Secure information assets  Minimize unauthorized access and usage  Uphold organizational and governmental reputation  Ensure service continuity Objective: To ensure third party services are controlled through suitable procedural obligations and contractual terms to secure privacy and protect information assets.",
+          "sub": []
+        }
+      ],
+      "references": [
+        "T9.2.1",
+        "T9.2.2",
+        "T9.3.1"
+      ],
+      "source_index": []
+    },
+    {
+      "domain": "Access Control",
+      "sub_domain": "Access Control Policy",
+      "control_id": "AC 1.1",
+      "control_demand": "Access Control Policy 13 Basic T5.1.1",
+      "applicability": "Basic",
+      "criteria": [],
+      "references": [],
+      "source_index": []
+    },
+    {
+      "domain": "Access Control",
+      "sub_domain": "Operating System Access Control",
+      "control_id": "AC 6.2",
+      "control_demand": "User Identification and Authentication 2 Basic T5.5.2",
+      "applicability": "Basic",
+      "criteria": [],
+      "references": [],
+      "source_index": []
+    },
+    {
+      "domain": "Operations Management",
+      "sub_domain": "Security Assessment and Vulnerability Management",
+      "control_id": "OM 7.2",
+      "control_demand": "Security of Assessment Data 3 Basic T7.7.1",
+      "applicability": "Basic",
+      "criteria": [],
+      "references": [],
+      "source_index": []
+    }
+  ]
+}

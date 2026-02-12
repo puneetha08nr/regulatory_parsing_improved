@@ -1,0 +1,1793 @@
+{
+  "source_file": "data/01_raw/adgm/clientname-IS-POL-00-Information Risk Management Policy v1.2 2.docx",
+  "method": "unstructured",
+  "elements": [
+    {
+      "type": "Header",
+      "text": "Classification: Internal",
+      "metadata": {
+        "category_depth": 0,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2.docx",
+        "header_footer_type": "primary",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "Header",
+      "text": "Classification: Internal",
+      "metadata": {
+        "category_depth": 0,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2.docx",
+        "header_footer_type": "first_page",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "Footer",
+      "text": "Document No: <CLIENTNAME>-ORG-IMS-POL-026 Page 6 of 10",
+      "metadata": {
+        "category_depth": 0,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2.docx",
+        "header_footer_type": "primary",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "Table",
+      "text": "Document Information Document ID <CLIENTNAME>-ORG-IMS-POL-026 Document Title <CLIENTNAME> Information Risk Management Policy Prepared by Status Owner Effective From Effective Till Document Type Document Classification Distribution List",
+      "metadata": {
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 1,
+        "text_as_html": "<table><tr><td>Document Information</td><td>Document Information</td></tr><tr><td>Document ID</td><td>&lt;CLIENTNAME&gt;-ORG-IMS-POL-026</td></tr><tr><td>Document Title</td><td>&lt;CLIENTNAME&gt; Information Risk Management Policy</td></tr><tr><td>Prepared by</td><td/></tr><tr><td>Status</td><td/></tr><tr><td>Owner</td><td/></tr><tr><td>Effective From</td><td/></tr><tr><td>Effective Till</td><td/></tr><tr><td>Document Type</td><td/></tr><tr><td>Document Classification</td><td/></tr><tr><td>Distribution List</td><td/></tr></table>",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "Table",
+      "text": "Document Release Dates Version Date Editor Brief/Comments 0.1 0.2 1.0 1.1",
+      "metadata": {
+        "emphasized_text_contents": [
+          "Date",
+          "Editor",
+          "Brief/Comments"
+        ],
+        "emphasized_text_tags": [
+          "b",
+          "b",
+          "b"
+        ],
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 1,
+        "text_as_html": "<table><tr><td>Document Release Dates</td><td>Document Release Dates</td><td>Document Release Dates</td><td>Document Release Dates</td></tr><tr><td>Version</td><td>Date</td><td>Editor</td><td>Brief/Comments</td></tr><tr><td>0.1</td><td/><td/><td/></tr><tr><td>0.2</td><td/><td/><td/></tr><tr><td>1.0</td><td/><td/><td/></tr><tr><td>1.1</td><td/><td/><td/></tr></table>",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "Table",
+      "text": "Document Review Date Name Title/Designation Notes",
+      "metadata": {
+        "emphasized_text_contents": [
+          "Name",
+          "Title/Designation",
+          "Notes"
+        ],
+        "emphasized_text_tags": [
+          "b",
+          "b",
+          "b"
+        ],
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 1,
+        "text_as_html": "<table><tr><td>Document Review</td><td>Document Review</td><td>Document Review</td><td>Document Review</td></tr><tr><td>Date</td><td>Name</td><td>Title/Designation</td><td>Notes</td></tr><tr><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/></tr></table>",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "Table",
+      "text": "Approvals Name Title/Designation Signature",
+      "metadata": {
+        "emphasized_text_contents": [
+          "Approvals",
+          "Approvals",
+          "Approvals",
+          "Name",
+          "Title/Designation",
+          "Signature"
+        ],
+        "emphasized_text_tags": [
+          "b",
+          "b",
+          "b",
+          "b",
+          "b",
+          "b"
+        ],
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 1,
+        "text_as_html": "<table><tr><td>Approvals</td><td>Approvals</td><td>Approvals</td></tr><tr><td>Name</td><td>Title/Designation</td><td>Signature</td></tr><tr><td/><td/><td/></tr><tr><td/><td/><td/></tr><tr><td/><td/><td/></tr><tr><td/><td/><td/></tr></table>",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "PageBreak",
+      "text": "",
+      "metadata": {
+        "languages": [
+          "eng"
+        ],
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2.docx",
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "INTRODUCTION",
+      "metadata": {
+        "category_depth": 0,
+        "emphasized_text_contents": [
+          "INTRODUCTION"
+        ],
+        "emphasized_text_tags": [
+          "b"
+        ],
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 2,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "NarrativeText",
+      "text": "This Information Risk Management Policy (“Policy”) is a key component of <CLIENTNAME>’s overall Integrated Management System (IMS) and overarches the detailed risk management framework and procedure. Adherence to this Policy will help protect <CLIENTNAME> against known and unknown information security risks, whether internal or external, deliberate or accidental.",
+      "metadata": {
+        "category_depth": 0,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 2,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "UncategorizedText",
+      "text": "<CLIENTNAME> recognizes that effective identification and management of risk is mandatory to the functioning of a robust Integrated Management System (IMS) comprising of Information Security Management System (ISMS), IT Service Management System (ITSMS), Business Continuity Management System (BCMS) and Privacy Information Management System (PIMS).",
+      "metadata": {
+        "category_depth": 0,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 2,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "NarrativeText",
+      "text": "This Policy will be reviewed at least annually or following any changes to contributing internal or external factors.",
+      "metadata": {
+        "category_depth": 0,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 2,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "PURPOSE",
+      "metadata": {
+        "category_depth": 0,
+        "emphasized_text_contents": [
+          "PURPOSE"
+        ],
+        "emphasized_text_tags": [
+          "b"
+        ],
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 2,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "NarrativeText",
+      "text": "The purpose of this Policy is to ensure that information risks in the organization are identified, assessed, evaluated, monitored, reported and treated according to the business, security, privacy and continuity requirements and objectives of the organization.",
+      "metadata": {
+        "category_depth": 0,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 2,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "NarrativeText",
+      "text": "Further, the Policy establishes a commitment to comply with applicable sections of the federal laws and regulations, including but not limited to UAE Information Assurance Regulation (UAE IAR) and ISO 27001.",
+      "metadata": {
+        "category_depth": 0,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 2,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "NarrativeText",
+      "text": "The following are the key objectives of this Policy:",
+      "metadata": {
+        "category_depth": 0,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 2,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Establish an Information Risk Management Framework: Establishment of an organization-wide Information Security Risk Management Framework.",
+      "metadata": {
+        "category_depth": 1,
+        "emphasized_text_contents": [
+          "Establish",
+          "an",
+          "Information",
+          "R",
+          "isk",
+          "M",
+          "anagement",
+          "F",
+          "ramework:"
+        ],
+        "emphasized_text_tags": [
+          "b",
+          "b",
+          "b",
+          "b",
+          "b",
+          "b",
+          "b",
+          "b",
+          "b"
+        ],
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 2,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Address Information Security (IS) risks:  Identification, analysis and evaluation of organizations IS risks to select appropriate IS risk treatment options.",
+      "metadata": {
+        "category_depth": 1,
+        "emphasized_text_contents": [
+          "Address",
+          "I",
+          "nformation",
+          "S",
+          "ecurity",
+          "(IS)",
+          "risks:"
+        ],
+        "emphasized_text_tags": [
+          "b",
+          "b",
+          "b",
+          "b",
+          "b",
+          "b",
+          "b"
+        ],
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 2,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "SCOPE",
+      "metadata": {
+        "category_depth": 0,
+        "emphasized_text_contents": [
+          "SCOPE"
+        ],
+        "emphasized_text_tags": [
+          "b"
+        ],
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 2,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "This Policy encompasses all system components that are owned, leased, rented, operated, maintained, and otherwise controlled by <CLIENTNAME> or a third-party on behalf of <CLIENTNAME>, and also applies to any system or system components, both internally and externally, that interact with these systems.",
+      "metadata": {
+        "category_depth": 0,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 2,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "This Policy applies to all employees and contractors who access or manage information and information assets or use the organization's information and communications technology (ICT) systems.",
+      "metadata": {
+        "category_depth": 0,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 2,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "\nAny exceptions on the applicability of this Policy should be formally requested through the Policy Exception Management procedure. ",
+      "metadata": {
+        "category_depth": 0,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 2,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "PageBreak",
+      "text": "",
+      "metadata": {
+        "languages": [
+          "eng"
+        ],
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2.docx",
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "POLICY STATEMENT",
+      "metadata": {
+        "category_depth": 0,
+        "emphasized_text_contents": [
+          "POLICY STATEMENT"
+        ],
+        "emphasized_text_tags": [
+          "b"
+        ],
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 3,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "NarrativeText",
+      "text": "<CLIENTNAME> shall implement an information risk management program that shall require conducting risk assessments, identifying information risks, treating the risks and continuously monitoring risks by evaluating the effectiveness of information security controls to ensure efficient risk handling. ",
+      "metadata": {
+        "category_depth": 0,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 3,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "POLICY DETAILS",
+      "metadata": {
+        "category_depth": 0,
+        "emphasized_text_contents": [
+          "POLICY DETAILS"
+        ],
+        "emphasized_text_tags": [
+          "b"
+        ],
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 3,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Information Risk Management Framework",
+      "metadata": {
+        "category_depth": 1,
+        "emphasized_text_contents": [
+          "Information",
+          "Risk Management Framework"
+        ],
+        "emphasized_text_tags": [
+          "b",
+          "b"
+        ],
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 3,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "300eebfb79c09187f34f98d16ae12064"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "<CLIENTNAME> shall define an Information Risk Management (IRM) framework that provides a process to integrate security, privacy, and business continuity risk management activities into business processes.",
+      "metadata": {
+        "category_depth": 2,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 3,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "b3f23078f6ee530709c4b7372461edc0"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "The IRM framework shall consider business objectives and constraints placed by applicable laws, directives, executive orders, policies, standards, or regulations.",
+      "metadata": {
+        "category_depth": 2,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 3,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "b3f23078f6ee530709c4b7372461edc0"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "<CLIENTNAME>’s IRM framework shall include the following activities at a minimum:",
+      "metadata": {
+        "category_depth": 2,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 3,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "b3f23078f6ee530709c4b7372461edc0"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Prepare: Establish context by understanding mission, business objectives, and information systems to manage <CLIENTNAME>, its security, privacy, and business continuity risks.",
+      "metadata": {
+        "category_depth": 3,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 3,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "1917ccc4abf90bb8ccd328281210b355"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Identify: Provide a structured way to determine the criticality of the information assets at <CLIENTNAME>, and identify its associated risks.",
+      "metadata": {
+        "category_depth": 3,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 3,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "1917ccc4abf90bb8ccd328281210b355"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Assess: Analyze, evaluate and categorize risks based on its likelihood of materializing and its impacts to <CLIENTNAME>’s business and information systems.",
+      "metadata": {
+        "category_depth": 3,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 3,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "1917ccc4abf90bb8ccd328281210b355"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Select: Select, tailor and document the controls necessary to protect <CLIENTNAME> and its information systems commensurate with risks.",
+      "metadata": {
+        "category_depth": 3,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 3,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "1917ccc4abf90bb8ccd328281210b355"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Implement: Establish new or utilize existing processes, procedures, tools and technologies to meet the intent of selected controls.",
+      "metadata": {
+        "category_depth": 3,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 3,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "1917ccc4abf90bb8ccd328281210b355"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Review: Determine whether the selected controls are implemented correctly, operate as intended, and produce the desired outcomes to meet <CLIENTNAME>’s information security and data privacy requirements.",
+      "metadata": {
+        "category_depth": 3,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 3,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "1917ccc4abf90bb8ccd328281210b355"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Monitor: Maintain ongoing situational awareness about the security and privacy posture of <CLIENTNAME> and its information systems to support risk management decisions.",
+      "metadata": {
+        "category_depth": 3,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 3,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "1917ccc4abf90bb8ccd328281210b355"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "The IRM framework shall establish and implement a plan for communicating risk information and consulting key stakeholders, including decision-makers within the organization during all stages of the risk management process.",
+      "metadata": {
+        "category_depth": 2,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 3,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "b3f23078f6ee530709c4b7372461edc0"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Information Risk Assessment",
+      "metadata": {
+        "category_depth": 1,
+        "emphasized_text_contents": [
+          "Information Risk A",
+          "ssessment"
+        ],
+        "emphasized_text_tags": [
+          "b",
+          "b"
+        ],
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 3,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "300eebfb79c09187f34f98d16ae12064"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "<CLIENTNAME> shall establish a risk assessment process to be used as the basis for the identification, definition and prioritization of risks.",
+      "metadata": {
+        "category_depth": 2,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 3,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "4e84967f249994afd53ce55582fc7593"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "The risk assessment process shall include at a minimum:",
+      "metadata": {
+        "category_depth": 2,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 3,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "4e84967f249994afd53ce55582fc7593"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Identification of the vulnerabilities that exist in the information assets.",
+      "metadata": {
+        "category_depth": 3,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 3,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "d21ffc56ee08174d9980788d381644e8"
+      }
+    },
+    {
+      "type": "PageBreak",
+      "text": "",
+      "metadata": {
+        "languages": [
+          "eng"
+        ],
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2.docx",
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Identification of threats that may exploit a vulnerability.",
+      "metadata": {
+        "category_depth": 3,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 4,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Qualitative analysis and evaluation of the impact to the confidentiality, integrity, availability, secrecy and privacy of information assets if a threat exploits vulnerabilities.",
+      "metadata": {
+        "category_depth": 3,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 4,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Identification and definition of measures and/or controls used to protect the confidentiality, integrity, availability, secrecy and privacy of information assets.",
+      "metadata": {
+        "category_depth": 3,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 4,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "The risk assessment shall be performed/updated when environmental, operational or technical changes arise that impact <CLIENTNAME>’s business processes and information assets. Such changes include but are not limited to:",
+      "metadata": {
+        "category_depth": 2,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 4,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "New threats or risks with respect to the business processes and information assets.",
+      "metadata": {
+        "category_depth": 3,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 4,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "e9ed2d58ff6d6777dfb0c359c940cfb0"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "An information security incident.",
+      "metadata": {
+        "category_depth": 3,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 4,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "e9ed2d58ff6d6777dfb0c359c940cfb0"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Outcomes of any internal or external assessments.",
+      "metadata": {
+        "category_depth": 3,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 4,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "e9ed2d58ff6d6777dfb0c359c940cfb0"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Changes to information security requirements or responsibilities. (e.g., new federal or state law or regulation, new or modified security controls implemented, etc.).",
+      "metadata": {
+        "category_depth": 3,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 4,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "e9ed2d58ff6d6777dfb0c359c940cfb0"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Changes to the <CLIENTNAME>’s organizational or technical infrastructure that impact information assets (e.g., addition of a new network, new hardware/software standard implemented, new method of creating, receiving, maintaining or transmitting data, etc.).",
+      "metadata": {
+        "category_depth": 3,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 4,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "e9ed2d58ff6d6777dfb0c359c940cfb0"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Information Risk Categorization",
+      "metadata": {
+        "category_depth": 1,
+        "emphasized_text_contents": [
+          "Information Risk",
+          "Categorization"
+        ],
+        "emphasized_text_tags": [
+          "b",
+          "b"
+        ],
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 4,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "<CLIENTNAME> shall categorize risks based on business objectives, data sensitivity, threat exposure and vulnerabilities pursuant to information assets.",
+      "metadata": {
+        "category_depth": 2,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 4,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "efab679c928bd91e83a5b92b8e72fd24"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "The categorization process shall take into account the probability and impact of risks materializing and affecting business objectives.",
+      "metadata": {
+        "category_depth": 2,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 4,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "efab679c928bd91e83a5b92b8e72fd24"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Risks shall be expressed qualitatively as per the risk categorizations defined under the Information Risk Management Framework.",
+      "metadata": {
+        "category_depth": 2,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 4,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "efab679c928bd91e83a5b92b8e72fd24"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Adequate resources to address risks shall be allocated according to the risk categorization.",
+      "metadata": {
+        "category_depth": 2,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 4,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "efab679c928bd91e83a5b92b8e72fd24"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Information Risk Treatment",
+      "metadata": {
+        "category_depth": 1,
+        "emphasized_text_contents": [
+          "Information Risk",
+          "Treatment"
+        ],
+        "emphasized_text_tags": [
+          "b",
+          "b"
+        ],
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 4,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "<CLIENTNAME> shall select and implement risk treatment measures to reasonably protect the confidentiality, integrity, availability, secrecy and privacy of information assets. One or more of the following methods shall be used to manage risk:",
+      "metadata": {
+        "category_depth": 2,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 4,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "c5509336c37aa568d9b949f66493939b"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Risk Reduction: Reducing risk by applying security controls.",
+      "metadata": {
+        "category_depth": 3,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 4,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "3b6a15704d9a8d8f3f052f9c36befa49"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Risk Avoidance: Avoiding the activity or condition causing the risk.",
+      "metadata": {
+        "category_depth": 3,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 4,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "3b6a15704d9a8d8f3f052f9c36befa49"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Risk Transfer: Transferring the risk to another party.",
+      "metadata": {
+        "category_depth": 3,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 4,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "3b6a15704d9a8d8f3f052f9c36befa49"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Risk Retention: Accepting the risk based on the organization’s risk acceptance criteria established in the Information Security Risk Management Framework.",
+      "metadata": {
+        "category_depth": 3,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 4,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "3b6a15704d9a8d8f3f052f9c36befa49"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "<CLIENTNAME> shall document a risk treatment plan to outline the approach to be used to treat the risks. Such risk treatment plans shall include at a minimum:",
+      "metadata": {
+        "category_depth": 2,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 4,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "c5509336c37aa568d9b949f66493939b"
+      }
+    },
+    {
+      "type": "PageBreak",
+      "text": "",
+      "metadata": {
+        "languages": [
+          "eng"
+        ],
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2.docx",
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Description of information risks.",
+      "metadata": {
+        "category_depth": 3,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 5,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Appropriate management actions.",
+      "metadata": {
+        "category_depth": 3,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 5,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Responsibilities and priorities for managing information security risks (risk ownership).",
+      "metadata": {
+        "category_depth": 3,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 5,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Target dates for implementation of the identified controls.",
+      "metadata": {
+        "category_depth": 3,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 5,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Risk treatment plans shall be monitored and reviewed periodically as deemed necessary to ensure that risk is managed on a continuous basis.",
+      "metadata": {
+        "category_depth": 2,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 5,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Selection of Controls",
+      "metadata": {
+        "category_depth": 1,
+        "emphasized_text_contents": [
+          "Selection",
+          "of Controls"
+        ],
+        "emphasized_text_tags": [
+          "b",
+          "b"
+        ],
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 5,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "<CLIENTNAME> shall select and implement appropriate controls to mitigate identified risks based on relevance, nature, feasibility and cost effectiveness of the controls.",
+      "metadata": {
+        "category_depth": 2,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 5,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "2a6aa0ff36f5187fd2b9a53d65425aa4"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Under the <CLIENTNAME> Integrated Management System (IMS), controls shall be selected from the list of following standards/frameworks/regulations, inclusive of but not limited to:",
+      "metadata": {
+        "category_depth": 2,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 5,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "2a6aa0ff36f5187fd2b9a53d65425aa4"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "ISO 27001.",
+      "metadata": {
+        "category_depth": 3,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 5,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "725ae1f316bc3eb2c2b26239f145ebce"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "ISO 27701.",
+      "metadata": {
+        "category_depth": 3,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 5,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "725ae1f316bc3eb2c2b26239f145ebce"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "ISO 22301.",
+      "metadata": {
+        "category_depth": 3,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 5,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "725ae1f316bc3eb2c2b26239f145ebce"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "UAE Information Assurance (IA) Regulation.",
+      "metadata": {
+        "category_depth": 3,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 5,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "725ae1f316bc3eb2c2b26239f145ebce"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Information Risk Monitoring",
+      "metadata": {
+        "category_depth": 1,
+        "emphasized_text_contents": [
+          "Information Risk Monitoring"
+        ],
+        "emphasized_text_tags": [
+          "b"
+        ],
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 5,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "<CLIENTNAME> shall continuously review and monitor outcomes of risk assessment and treatment. The monitoring processes shall evaluate:",
+      "metadata": {
+        "category_depth": 2,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 5,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "a563a0efea3dc359402e77132aa4d14f"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "The effectiveness of security controls.",
+      "metadata": {
+        "category_depth": 3,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 5,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "40e324e706e629b28d7e0b4ed2ca0229"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Changes to information assets and environments of operations.",
+      "metadata": {
+        "category_depth": 3,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 5,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "40e324e706e629b28d7e0b4ed2ca0229"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "Compliance with federal and state laws and regulations and applicable standards.",
+      "metadata": {
+        "category_depth": 3,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 5,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "40e324e706e629b28d7e0b4ed2ca0229"
+      }
+    },
+    {
+      "type": "PageBreak",
+      "text": "",
+      "metadata": {
+        "languages": [
+          "eng"
+        ],
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2.docx",
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "ROLES AND RESPONSIBILITIES",
+      "metadata": {
+        "category_depth": 0,
+        "emphasized_text_contents": [
+          "ROLES AND RESPONSIBILITIES"
+        ],
+        "emphasized_text_tags": [
+          "b"
+        ],
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 6,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "Table",
+      "text": "Role Responsibility Executives & Senior Management Make available and support the required resources to drive IS Risk Management. Where relevant, provide direction to and participate in reviews and oversight of IS risk management. Review and approve this Policy and associated procedures prepared by or on behalf of Information Security Team. IS (Information Security) Team Develop and implement an information security risk management framework. Ensure information security risks are identified and classified. Conduct and document information security risk assessments and risk analysis. Evaluate the IS risks and determine appropriate risk treatment options. Ensure proper creation and documentation of Risk Treatment Plans. Assess risk treatment option chosen by deciding whether residual risk levels are tolerable. Ensure proper information security controls are identified. Ensure proper implementation the information security risk assessment review and update processes. Ensure continuous and proactive monitoring of security incidents. Ensure proper creation and documentation of Risk Communication Plan. IT (Information Technology) Team Implement information security controls as needed to mitigate vulnerabilities. Employees and Third Parties (Contractors, Vendors, etc.) Employees and third parties (including contractors, vendors, etc.) who access organizational premises, information and information assets or use information and communications technology (ICT) systems of the organization are responsible for adhering to this Policy and all its applicable procedures. Line Managers to ensure that all personnel under their direct supervision comply with this Policy. Legal Identify all relevant and applicable laws and regulations to <CLIENTNAME> and communicate to the respective parties. Define standard legal clauses and terms for the contract/agreement to be signed with external parties, employment contracts, confidentiality and Non-Disclosure Agreements (NDAs). Liaise with IS Team to define and review Information Security clauses in third-party contracts/agreements, employment contracts, confidentiality and Non-Disclosure Agreements (NDAs). Review third-party vendor, clients and partner contracts and involve IS Team for review of clauses concerning Information Security responsibilities",
+      "metadata": {
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 6,
+        "text_as_html": "<table><tr><td>Role</td><td>Responsibility</td></tr><tr><td>Executives &amp; Senior Management</td><td>Make available and support the required resources to drive IS Risk Management. Where relevant, provide direction to and participate in reviews and oversight of IS risk management. Review and approve this Policy and associated procedures prepared by or on behalf of Information Security Team.</td></tr><tr><td>IS (Information Security) Team</td><td>Develop and implement an information security risk management framework. Ensure information security risks are identified and classified. Conduct and document information security risk assessments and risk analysis. Evaluate the IS risks and determine appropriate risk treatment options. Ensure proper creation and documentation of Risk Treatment Plans. Assess risk treatment option chosen by deciding whether residual risk levels are tolerable. Ensure proper information security controls are identified. Ensure proper implementation the information security risk assessment review and update processes. Ensure continuous and proactive monitoring of security incidents. Ensure proper creation and documentation of Risk Communication Plan.</td></tr><tr><td>IT (Information Technology) Team</td><td>Implement information security controls as needed to mitigate vulnerabilities.</td></tr><tr><td>Employees and Third Parties (Contractors, Vendors, etc.)</td><td>Employees and third parties (including contractors, vendors, etc.) who access organizational premises, information and information assets or use information and communications technology (ICT) systems of the organization are responsible for adhering to this Policy and all its applicable procedures. Line Managers to ensure that all personnel under their direct supervision comply with this Policy.</td></tr><tr><td>Legal</td><td>Identify all relevant and applicable laws and regulations to &lt;CLIENTNAME&gt; and communicate to the respective parties. Define standard legal clauses and terms for the contract/agreement to be signed with external parties, employment contracts, confidentiality and Non-Disclosure Agreements (NDAs). Liaise with IS Team to define and review Information Security clauses in third-party contracts/agreements, employment contracts, confidentiality and Non-Disclosure Agreements (NDAs). Review third-party vendor, clients and partner contracts and involve IS Team for review of clauses concerning Information Security responsibilities</td></tr></table>",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "Title",
+      "text": "7. POLICY ENFORCEMENT AND EXCEPTIONS",
+      "metadata": {
+        "category_depth": 0,
+        "emphasized_text_contents": [
+          "7.",
+          "POLICY ENFORCEMENT AND EX",
+          "CEPTION",
+          "S"
+        ],
+        "emphasized_text_tags": [
+          "b",
+          "b",
+          "b",
+          "b"
+        ],
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 6,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "type": "NarrativeText",
+      "text": "All employees and contractors are responsible for understanding and adhering to this Policy. Any violation of this Policy shall be reported to Policy Owner. Violation of this Policy shall be subjected to disciplinary action by the <CLIENTNAME>'s Human Capital Department, taking into consideration the recommendation of IS Team and in accordance with other applicable policies, laws and regulations.",
+      "metadata": {
+        "category_depth": 0,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 6,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "28017d26732b3af83926a58ef5516de4"
+      }
+    },
+    {
+      "type": "NarrativeText",
+      "text": "Disciplinary action may range from a verbal warning to discontinuation of access to facility or services, or termination of employment/contract/agreement, and possible legal action. The actual action taken shall depend on factors such as the seriousness of the breach and the user's disciplinary record.",
+      "metadata": {
+        "category_depth": 0,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 6,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "28017d26732b3af83926a58ef5516de4"
+      }
+    },
+    {
+      "type": "NarrativeText",
+      "text": "Any exceptions on the applicability of this Policy should be formally requested through the Policy Exception Management procedure.",
+      "metadata": {
+        "category_depth": 0,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 6,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "28017d26732b3af83926a58ef5516de4"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "MONITORING AND REVIEW",
+      "metadata": {
+        "category_depth": 0,
+        "emphasized_text_contents": [
+          "MONITORING AND REVIEW"
+        ],
+        "emphasized_text_tags": [
+          "b"
+        ],
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 6,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "28017d26732b3af83926a58ef5516de4"
+      }
+    },
+    {
+      "type": "NarrativeText",
+      "text": "This Policy is developed by <CLIENTNAME> Information Security (IS) Team, owned and reviewed by the CISO. It is approved by the CEO. ",
+      "metadata": {
+        "category_depth": 0,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 6,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "28017d26732b3af83926a58ef5516de4"
+      }
+    },
+    {
+      "type": "NarrativeText",
+      "text": "<CLIENTNAME> IS Team shall initiate a review of this Policy annually or whenever a significant change occurs in the organization's operating environment.",
+      "metadata": {
+        "category_depth": 0,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 6,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "28017d26732b3af83926a58ef5516de4"
+      }
+    },
+    {
+      "type": "NarrativeText",
+      "text": "Feedback, suggestions or questions regarding the Policy shall be directed to the <CLIENTNAME> IS Team at infosec@<clientname>.net.",
+      "metadata": {
+        "category_depth": 0,
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "link_texts": [
+          "infosec@<clientname>.net"
+        ],
+        "link_urls": [
+          "mailto:infosec@%3cclientname%3e.net"
+        ],
+        "links": [
+          {
+            "text": "infosec@<clientname>.net",
+            "url": "mailto:infosec@%3cclientname%3e.net",
+            "start_index": 105
+          }
+        ],
+        "page_number": 6,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "28017d26732b3af83926a58ef5516de4"
+      }
+    },
+    {
+      "type": "ListItem",
+      "text": "POLICY - UAE IA Control Mapping",
+      "metadata": {
+        "category_depth": 0,
+        "emphasized_text_contents": [
+          "POLICY",
+          "-",
+          "UAE IA Control Mapping"
+        ],
+        "emphasized_text_tags": [
+          "b",
+          "b",
+          "b"
+        ],
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 6,
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "28017d26732b3af83926a58ef5516de4"
+      }
+    },
+    {
+      "type": "Table",
+      "text": "Policy Sections UAE IA - Control ISO 27001:2022 Section 1 Introduction M2.1.1 – Risk Management Policy Clause 6.1.2 and Clause 6.1.3 Section 2 Overview and Purpose M2.1.1 – Risk Management Policy Clause 6.1.2 and Clause 6.1.3 Section 3 - Scope, Exclusions M2.1.1 – Risk Management Policy Clause 6.1.2 and Clause 6.1.3 Section 4 – Policy Statement M2.1.1 – Risk Management Policy Clause 6.1.2 and Clause 6.1.3 Section 5 – Policy Details NA NA 5.1 – Information Risk Management Framework M2.1.1 – Risk Management Policy Clause 6.1.2 and Clause 6.1.3 5.2 – Information Risk Assessment M2.2.1 – Information Security Risk Identification M2.2.2 – Information Security Risk Analysis Clause 6.1.1, Clause 6.1.2(c) and Clause 6.1.2 (d) 5.3 - Information Risk Categorization M2.2.2 – Information Security Risk Analysis M2.2.3 – Information Security Risk Evaluation Clause 6.1.2 (d) and Clause (e) 5.4 - Information Risk Treatment M2.3.1 – Information Security Risk Treatment Options M2.3.3 – Risk Treatment Plan Clause 6.1.3 (a) and Clause 6.1.3 (e, f) 5.4.1 - Selection of Controls M2.3.2 – Identification of Controls M2.3.4 – Statement of Applicability Clause 6.1.3 (a) Clause 6.1.3 (d) 5.5 - Information Risk Monitoring M2.4.1 – Information Security Risk Assessment Review and Update Clause 8.2",
+      "metadata": {
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 6,
+        "text_as_html": "<table><tr><td>Policy Sections</td><td>UAE IA - Control</td><td>ISO 27001:2022</td></tr><tr><td>Section 1 Introduction</td><td>M2.1.1 – Risk Management Policy</td><td>Clause 6.1.2 and Clause 6.1.3</td></tr><tr><td>Section 2 Overview and Purpose</td><td>M2.1.1 – Risk Management Policy</td><td>Clause 6.1.2 and Clause 6.1.3</td></tr><tr><td>Section 3 - Scope, Exclusions</td><td>M2.1.1 – Risk Management Policy</td><td>Clause 6.1.2 and Clause 6.1.3</td></tr><tr><td>Section 4 – Policy Statement</td><td>M2.1.1 – Risk Management Policy</td><td>Clause 6.1.2 and Clause 6.1.3</td></tr><tr><td>Section 5 – Policy Details</td><td>NA</td><td>NA</td></tr><tr><td>5.1 – Information Risk Management Framework</td><td>M2.1.1 – Risk Management Policy</td><td>Clause 6.1.2 and Clause 6.1.3</td></tr><tr><td>5.2 – Information Risk Assessment</td><td>M2.2.1 – Information Security Risk Identification M2.2.2 – Information Security Risk Analysis</td><td>Clause 6.1.1, Clause 6.1.2(c) and Clause 6.1.2 (d)</td></tr><tr><td>5.3 - Information Risk Categorization</td><td>M2.2.2 – Information Security Risk Analysis M2.2.3 – Information Security Risk Evaluation</td><td>Clause 6.1.2 (d) and Clause (e)</td></tr><tr><td>5.4 - Information Risk Treatment</td><td>M2.3.1 – Information Security Risk Treatment Options M2.3.3 – Risk Treatment Plan</td><td>Clause 6.1.3 (a) and Clause 6.1.3 (e, f)</td></tr><tr><td>5.4.1 - Selection of Controls</td><td>M2.3.2 – Identification of Controls M2.3.4 – Statement of Applicability</td><td>Clause 6.1.3 (a) Clause 6.1.3 (d)</td></tr><tr><td>5.5 - Information Risk Monitoring</td><td>M2.4.1 – Information Security Risk Assessment Review and Update</td><td>Clause 8.2</td></tr></table>",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "28017d26732b3af83926a58ef5516de4"
+      }
+    }
+  ],
+  "tables": [
+    {
+      "table_id": "table_1",
+      "text": "Document Information Document ID <CLIENTNAME>-ORG-IMS-POL-026 Document Title <CLIENTNAME> Information Risk Management Policy Prepared by Status Owner Effective From Effective Till Document Type Document Classification Distribution List",
+      "metadata": {
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 1,
+        "text_as_html": "<table><tr><td>Document Information</td><td>Document Information</td></tr><tr><td>Document ID</td><td>&lt;CLIENTNAME&gt;-ORG-IMS-POL-026</td></tr><tr><td>Document Title</td><td>&lt;CLIENTNAME&gt; Information Risk Management Policy</td></tr><tr><td>Prepared by</td><td/></tr><tr><td>Status</td><td/></tr><tr><td>Owner</td><td/></tr><tr><td>Effective From</td><td/></tr><tr><td>Effective Till</td><td/></tr><tr><td>Document Type</td><td/></tr><tr><td>Document Classification</td><td/></tr><tr><td>Distribution List</td><td/></tr></table>",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "table_id": "table_2",
+      "text": "Document Release Dates Version Date Editor Brief/Comments 0.1 0.2 1.0 1.1",
+      "metadata": {
+        "emphasized_text_contents": [
+          "Date",
+          "Editor",
+          "Brief/Comments"
+        ],
+        "emphasized_text_tags": [
+          "b",
+          "b",
+          "b"
+        ],
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 1,
+        "text_as_html": "<table><tr><td>Document Release Dates</td><td>Document Release Dates</td><td>Document Release Dates</td><td>Document Release Dates</td></tr><tr><td>Version</td><td>Date</td><td>Editor</td><td>Brief/Comments</td></tr><tr><td>0.1</td><td/><td/><td/></tr><tr><td>0.2</td><td/><td/><td/></tr><tr><td>1.0</td><td/><td/><td/></tr><tr><td>1.1</td><td/><td/><td/></tr></table>",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "table_id": "table_3",
+      "text": "Document Review Date Name Title/Designation Notes",
+      "metadata": {
+        "emphasized_text_contents": [
+          "Name",
+          "Title/Designation",
+          "Notes"
+        ],
+        "emphasized_text_tags": [
+          "b",
+          "b",
+          "b"
+        ],
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 1,
+        "text_as_html": "<table><tr><td>Document Review</td><td>Document Review</td><td>Document Review</td><td>Document Review</td></tr><tr><td>Date</td><td>Name</td><td>Title/Designation</td><td>Notes</td></tr><tr><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/></tr></table>",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "table_id": "table_4",
+      "text": "Approvals Name Title/Designation Signature",
+      "metadata": {
+        "emphasized_text_contents": [
+          "Approvals",
+          "Approvals",
+          "Approvals",
+          "Name",
+          "Title/Designation",
+          "Signature"
+        ],
+        "emphasized_text_tags": [
+          "b",
+          "b",
+          "b",
+          "b",
+          "b",
+          "b"
+        ],
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 1,
+        "text_as_html": "<table><tr><td>Approvals</td><td>Approvals</td><td>Approvals</td></tr><tr><td>Name</td><td>Title/Designation</td><td>Signature</td></tr><tr><td/><td/><td/></tr><tr><td/><td/><td/></tr><tr><td/><td/><td/></tr><tr><td/><td/><td/></tr></table>",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "table_id": "table_5",
+      "text": "Role Responsibility Executives & Senior Management Make available and support the required resources to drive IS Risk Management. Where relevant, provide direction to and participate in reviews and oversight of IS risk management. Review and approve this Policy and associated procedures prepared by or on behalf of Information Security Team. IS (Information Security) Team Develop and implement an information security risk management framework. Ensure information security risks are identified and classified. Conduct and document information security risk assessments and risk analysis. Evaluate the IS risks and determine appropriate risk treatment options. Ensure proper creation and documentation of Risk Treatment Plans. Assess risk treatment option chosen by deciding whether residual risk levels are tolerable. Ensure proper information security controls are identified. Ensure proper implementation the information security risk assessment review and update processes. Ensure continuous and proactive monitoring of security incidents. Ensure proper creation and documentation of Risk Communication Plan. IT (Information Technology) Team Implement information security controls as needed to mitigate vulnerabilities. Employees and Third Parties (Contractors, Vendors, etc.) Employees and third parties (including contractors, vendors, etc.) who access organizational premises, information and information assets or use information and communications technology (ICT) systems of the organization are responsible for adhering to this Policy and all its applicable procedures. Line Managers to ensure that all personnel under their direct supervision comply with this Policy. Legal Identify all relevant and applicable laws and regulations to <CLIENTNAME> and communicate to the respective parties. Define standard legal clauses and terms for the contract/agreement to be signed with external parties, employment contracts, confidentiality and Non-Disclosure Agreements (NDAs). Liaise with IS Team to define and review Information Security clauses in third-party contracts/agreements, employment contracts, confidentiality and Non-Disclosure Agreements (NDAs). Review third-party vendor, clients and partner contracts and involve IS Team for review of clauses concerning Information Security responsibilities",
+      "metadata": {
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 6,
+        "text_as_html": "<table><tr><td>Role</td><td>Responsibility</td></tr><tr><td>Executives &amp; Senior Management</td><td>Make available and support the required resources to drive IS Risk Management. Where relevant, provide direction to and participate in reviews and oversight of IS risk management. Review and approve this Policy and associated procedures prepared by or on behalf of Information Security Team.</td></tr><tr><td>IS (Information Security) Team</td><td>Develop and implement an information security risk management framework. Ensure information security risks are identified and classified. Conduct and document information security risk assessments and risk analysis. Evaluate the IS risks and determine appropriate risk treatment options. Ensure proper creation and documentation of Risk Treatment Plans. Assess risk treatment option chosen by deciding whether residual risk levels are tolerable. Ensure proper information security controls are identified. Ensure proper implementation the information security risk assessment review and update processes. Ensure continuous and proactive monitoring of security incidents. Ensure proper creation and documentation of Risk Communication Plan.</td></tr><tr><td>IT (Information Technology) Team</td><td>Implement information security controls as needed to mitigate vulnerabilities.</td></tr><tr><td>Employees and Third Parties (Contractors, Vendors, etc.)</td><td>Employees and third parties (including contractors, vendors, etc.) who access organizational premises, information and information assets or use information and communications technology (ICT) systems of the organization are responsible for adhering to this Policy and all its applicable procedures. Line Managers to ensure that all personnel under their direct supervision comply with this Policy.</td></tr><tr><td>Legal</td><td>Identify all relevant and applicable laws and regulations to &lt;CLIENTNAME&gt; and communicate to the respective parties. Define standard legal clauses and terms for the contract/agreement to be signed with external parties, employment contracts, confidentiality and Non-Disclosure Agreements (NDAs). Liaise with IS Team to define and review Information Security clauses in third-party contracts/agreements, employment contracts, confidentiality and Non-Disclosure Agreements (NDAs). Review third-party vendor, clients and partner contracts and involve IS Team for review of clauses concerning Information Security responsibilities</td></tr></table>",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      }
+    },
+    {
+      "table_id": "table_6",
+      "text": "Policy Sections UAE IA - Control ISO 27001:2022 Section 1 Introduction M2.1.1 – Risk Management Policy Clause 6.1.2 and Clause 6.1.3 Section 2 Overview and Purpose M2.1.1 – Risk Management Policy Clause 6.1.2 and Clause 6.1.3 Section 3 - Scope, Exclusions M2.1.1 – Risk Management Policy Clause 6.1.2 and Clause 6.1.3 Section 4 – Policy Statement M2.1.1 – Risk Management Policy Clause 6.1.2 and Clause 6.1.3 Section 5 – Policy Details NA NA 5.1 – Information Risk Management Framework M2.1.1 – Risk Management Policy Clause 6.1.2 and Clause 6.1.3 5.2 – Information Risk Assessment M2.2.1 – Information Security Risk Identification M2.2.2 – Information Security Risk Analysis Clause 6.1.1, Clause 6.1.2(c) and Clause 6.1.2 (d) 5.3 - Information Risk Categorization M2.2.2 – Information Security Risk Analysis M2.2.3 – Information Security Risk Evaluation Clause 6.1.2 (d) and Clause (e) 5.4 - Information Risk Treatment M2.3.1 – Information Security Risk Treatment Options M2.3.3 – Risk Treatment Plan Clause 6.1.3 (a) and Clause 6.1.3 (e, f) 5.4.1 - Selection of Controls M2.3.2 – Identification of Controls M2.3.4 – Statement of Applicability Clause 6.1.3 (a) Clause 6.1.3 (d) 5.5 - Information Risk Monitoring M2.4.1 – Information Security Risk Assessment Review and Update Clause 8.2",
+      "metadata": {
+        "file_directory": "data/01_raw/adgm",
+        "filename": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2.docx",
+        "last_modified": "2026-01-22T17:38:20",
+        "page_number": 6,
+        "text_as_html": "<table><tr><td>Policy Sections</td><td>UAE IA - Control</td><td>ISO 27001:2022</td></tr><tr><td>Section 1 Introduction</td><td>M2.1.1 – Risk Management Policy</td><td>Clause 6.1.2 and Clause 6.1.3</td></tr><tr><td>Section 2 Overview and Purpose</td><td>M2.1.1 – Risk Management Policy</td><td>Clause 6.1.2 and Clause 6.1.3</td></tr><tr><td>Section 3 - Scope, Exclusions</td><td>M2.1.1 – Risk Management Policy</td><td>Clause 6.1.2 and Clause 6.1.3</td></tr><tr><td>Section 4 – Policy Statement</td><td>M2.1.1 – Risk Management Policy</td><td>Clause 6.1.2 and Clause 6.1.3</td></tr><tr><td>Section 5 – Policy Details</td><td>NA</td><td>NA</td></tr><tr><td>5.1 – Information Risk Management Framework</td><td>M2.1.1 – Risk Management Policy</td><td>Clause 6.1.2 and Clause 6.1.3</td></tr><tr><td>5.2 – Information Risk Assessment</td><td>M2.2.1 – Information Security Risk Identification M2.2.2 – Information Security Risk Analysis</td><td>Clause 6.1.1, Clause 6.1.2(c) and Clause 6.1.2 (d)</td></tr><tr><td>5.3 - Information Risk Categorization</td><td>M2.2.2 – Information Security Risk Analysis M2.2.3 – Information Security Risk Evaluation</td><td>Clause 6.1.2 (d) and Clause (e)</td></tr><tr><td>5.4 - Information Risk Treatment</td><td>M2.3.1 – Information Security Risk Treatment Options M2.3.3 – Risk Treatment Plan</td><td>Clause 6.1.3 (a) and Clause 6.1.3 (e, f)</td></tr><tr><td>5.4.1 - Selection of Controls</td><td>M2.3.2 – Identification of Controls M2.3.4 – Statement of Applicability</td><td>Clause 6.1.3 (a) Clause 6.1.3 (d)</td></tr><tr><td>5.5 - Information Risk Monitoring</td><td>M2.4.1 – Information Security Risk Assessment Review and Update</td><td>Clause 8.2</td></tr></table>",
+        "languages": [
+          "eng"
+        ],
+        "filetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "parent_id": "28017d26732b3af83926a58ef5516de4"
+      }
+    }
+  ],
+  "figures": [],
+  "text": "Classification: Internal\n\nClassification: Internal\n\nDocument No: <CLIENTNAME>-ORG-IMS-POL-026 Page 6 of 10\n\n\n\nINTRODUCTION\n\nThis Information Risk Management Policy (“Policy”) is a key component of <CLIENTNAME>’s overall Integrated Management System (IMS) and overarches the detailed risk management framework and procedure. Adherence to this Policy will help protect <CLIENTNAME> against known and unknown information security risks, whether internal or external, deliberate or accidental.\n\n<CLIENTNAME> recognizes that effective identification and management of risk is mandatory to the functioning of a robust Integrated Management System (IMS) comprising of Information Security Management System (ISMS), IT Service Management System (ITSMS), Business Continuity Management System (BCMS) and Privacy Information Management System (PIMS).\n\nThis Policy will be reviewed at least annually or following any changes to contributing internal or external factors.\n\nPURPOSE\n\nThe purpose of this Policy is to ensure that information risks in the organization are identified, assessed, evaluated, monitored, reported and treated according to the business, security, privacy and continuity requirements and objectives of the organization.\n\nFurther, the Policy establishes a commitment to comply with applicable sections of the federal laws and regulations, including but not limited to UAE Information Assurance Regulation (UAE IAR) and ISO 27001.\n\nThe following are the key objectives of this Policy:\n\nEstablish an Information Risk Management Framework: Establishment of an organization-wide Information Security Risk Management Framework.\n\nAddress Information Security (IS) risks:  Identification, analysis and evaluation of organizations IS risks to select appropriate IS risk treatment options.\n\nSCOPE\n\nThis Policy encompasses all system components that are owned, leased, rented, operated, maintained, and otherwise controlled by <CLIENTNAME> or a third-party on behalf of <CLIENTNAME>, and also applies to any system or system components, both internally and externally, that interact with these systems.\n\nThis Policy applies to all employees and contractors who access or manage information and information assets or use the organization's information and communications technology (ICT) systems.\n\n\nAny exceptions on the applicability of this Policy should be formally requested through the Policy Exception Management procedure. \n\n\n\nPOLICY STATEMENT\n\n<CLIENTNAME> shall implement an information risk management program that shall require conducting risk assessments, identifying information risks, treating the risks and continuously monitoring risks by evaluating the effectiveness of information security controls to ensure efficient risk handling. \n\nPOLICY DETAILS\n\nInformation Risk Management Framework\n\n<CLIENTNAME> shall define an Information Risk Management (IRM) framework that provides a process to integrate security, privacy, and business continuity risk management activities into business processes.\n\nThe IRM framework shall consider business objectives and constraints placed by applicable laws, directives, executive orders, policies, standards, or regulations.\n\n<CLIENTNAME>’s IRM framework shall include the following activities at a minimum:\n\nPrepare: Establish context by understanding mission, business objectives, and information systems to manage <CLIENTNAME>, its security, privacy, and business continuity risks.\n\nIdentify: Provide a structured way to determine the criticality of the information assets at <CLIENTNAME>, and identify its associated risks.\n\nAssess: Analyze, evaluate and categorize risks based on its likelihood of materializing and its impacts to <CLIENTNAME>’s business and information systems.\n\nSelect: Select, tailor and document the controls necessary to protect <CLIENTNAME> and its information systems commensurate with risks.\n\nImplement: Establish new or utilize existing processes, procedures, tools and technologies to meet the intent of selected controls.\n\nReview: Determine whether the selected controls are implemented correctly, operate as intended, and produce the desired outcomes to meet <CLIENTNAME>’s information security and data privacy requirements.\n\nMonitor: Maintain ongoing situational awareness about the security and privacy posture of <CLIENTNAME> and its information systems to support risk management decisions.\n\nThe IRM framework shall establish and implement a plan for communicating risk information and consulting key stakeholders, including decision-makers within the organization during all stages of the risk management process.\n\nInformation Risk Assessment\n\n<CLIENTNAME> shall establish a risk assessment process to be used as the basis for the identification, definition and prioritization of risks.\n\nThe risk assessment process shall include at a minimum:\n\nIdentification of the vulnerabilities that exist in the information assets.\n\n\n\nIdentification of threats that may exploit a vulnerability.\n\nQualitative analysis and evaluation of the impact to the confidentiality, integrity, availability, secrecy and privacy of information assets if a threat exploits vulnerabilities.\n\nIdentification and definition of measures and/or controls used to protect the confidentiality, integrity, availability, secrecy and privacy of information assets.\n\nThe risk assessment shall be performed/updated when environmental, operational or technical changes arise that impact <CLIENTNAME>’s business processes and information assets. Such changes include but are not limited to:\n\nNew threats or risks with respect to the business processes and information assets.\n\nAn information security incident.\n\nOutcomes of any internal or external assessments.\n\nChanges to information security requirements or responsibilities. (e.g., new federal or state law or regulation, new or modified security controls implemented, etc.).\n\nChanges to the <CLIENTNAME>’s organizational or technical infrastructure that impact information assets (e.g., addition of a new network, new hardware/software standard implemented, new method of creating, receiving, maintaining or transmitting data, etc.).\n\nInformation Risk Categorization\n\n<CLIENTNAME> shall categorize risks based on business objectives, data sensitivity, threat exposure and vulnerabilities pursuant to information assets.\n\nThe categorization process shall take into account the probability and impact of risks materializing and affecting business objectives.\n\nRisks shall be expressed qualitatively as per the risk categorizations defined under the Information Risk Management Framework.\n\nAdequate resources to address risks shall be allocated according to the risk categorization.\n\nInformation Risk Treatment\n\n<CLIENTNAME> shall select and implement risk treatment measures to reasonably protect the confidentiality, integrity, availability, secrecy and privacy of information assets. One or more of the following methods shall be used to manage risk:\n\nRisk Reduction: Reducing risk by applying security controls.\n\nRisk Avoidance: Avoiding the activity or condition causing the risk.\n\nRisk Transfer: Transferring the risk to another party.\n\nRisk Retention: Accepting the risk based on the organization’s risk acceptance criteria established in the Information Security Risk Management Framework.\n\n<CLIENTNAME> shall document a risk treatment plan to outline the approach to be used to treat the risks. Such risk treatment plans shall include at a minimum:\n\n\n\nDescription of information risks.\n\nAppropriate management actions.\n\nResponsibilities and priorities for managing information security risks (risk ownership).\n\nTarget dates for implementation of the identified controls.\n\nRisk treatment plans shall be monitored and reviewed periodically as deemed necessary to ensure that risk is managed on a continuous basis.\n\nSelection of Controls\n\n<CLIENTNAME> shall select and implement appropriate controls to mitigate identified risks based on relevance, nature, feasibility and cost effectiveness of the controls.\n\nUnder the <CLIENTNAME> Integrated Management System (IMS), controls shall be selected from the list of following standards/frameworks/regulations, inclusive of but not limited to:\n\nISO 27001.\n\nISO 27701.\n\nISO 22301.\n\nUAE Information Assurance (IA) Regulation.\n\nInformation Risk Monitoring\n\n<CLIENTNAME> shall continuously review and monitor outcomes of risk assessment and treatment. The monitoring processes shall evaluate:\n\nThe effectiveness of security controls.\n\nChanges to information assets and environments of operations.\n\nCompliance with federal and state laws and regulations and applicable standards.\n\n\n\nROLES AND RESPONSIBILITIES\n\n7. POLICY ENFORCEMENT AND EXCEPTIONS\n\nAll employees and contractors are responsible for understanding and adhering to this Policy. Any violation of this Policy shall be reported to Policy Owner. Violation of this Policy shall be subjected to disciplinary action by the <CLIENTNAME>'s Human Capital Department, taking into consideration the recommendation of IS Team and in accordance with other applicable policies, laws and regulations.\n\nDisciplinary action may range from a verbal warning to discontinuation of access to facility or services, or termination of employment/contract/agreement, and possible legal action. The actual action taken shall depend on factors such as the seriousness of the breach and the user's disciplinary record.\n\nAny exceptions on the applicability of this Policy should be formally requested through the Policy Exception Management procedure.\n\nMONITORING AND REVIEW\n\nThis Policy is developed by <CLIENTNAME> Information Security (IS) Team, owned and reviewed by the CISO. It is approved by the CEO. \n\n<CLIENTNAME> IS Team shall initiate a review of this Policy annually or whenever a significant change occurs in the organization's operating environment.\n\nFeedback, suggestions or questions regarding the Policy shall be directed to the <CLIENTNAME> IS Team at infosec@<clientname>.net.\n\nPOLICY - UAE IA Control Mapping\n\n"
+}

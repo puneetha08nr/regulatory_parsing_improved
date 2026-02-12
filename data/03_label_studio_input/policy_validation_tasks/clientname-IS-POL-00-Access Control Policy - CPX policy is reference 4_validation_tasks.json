@@ -1,0 +1,296 @@
+[
+  {
+    "data": {
+      "policy_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4",
+      "policy_name": "Access Control Policy - CPX policy is reference",
+      "passage_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_1",
+      "section": "Passage 1",
+      "heading": null,
+      "passage_text": "UAEPP-004-Access Control Policy-0.1\n\nAbstract\n\nThis Policy outlines UAE Public Prosecution’s framework for how users are authorized and granted appropriate privileges, as well as how these are reviewed and revoked when necessary and includes appropriate controls to prevent users from obtaining unauthorized privileges or access.\n\n**STATEMENT OF CONFIDENTIALITY**\n\nAll information in this document is UAE Public Prosecution PRIVILEGED and for INTERNAL USE ONLY.\n\nThe information in this document may contain UAE Public Prosecution proprietary trade secrets and confidential information, the disclosure of which could substantially benefit competitors. As a result, this document should not be disclosed, used or duplicated – in whole or in part without the explicit authorization of UAE Public Prosecution management.\n\nThe information is intended solely for the use of authorized recipients. If you are not the intended recipient, you are prohibited from reading, using, disseminating, distributing a"
+    },
+    "meta": {
+      "passage_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_1",
+      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing2/data/02_processed/policies/clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_for_mapping.json"
+    }
+  },
+  {
+    "data": {
+      "policy_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4",
+      "policy_name": "Access Control Policy - CPX policy is reference",
+      "passage_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_2",
+      "section": "2 Table of Contents",
+      "heading": "2 Table of Contents",
+      "passage_text": "2 Table of Contents\n\n[1.\tINTRODUCTION\t5](.)\n\n[2.\tPURPOSE\t5](.)\n\n[3.\tSCOPE\t5](.)\n\n[4.\tPOLICY STATEMENT\t6](.)\n\n[5.\tPolicy Details\t6](.)\n\n[**5.1\tAccess Control\t6**](.)\n\n[**5.2\tAccess to Network and Network Shares\t7**](.)\n\n[**5.3\tWireless Access\t7**](.)\n\n[**5.4\tUser Registration and De-Registration\t7**](.)\n\n[**5.5\tUser Access Provisioning\t7**](.)\n\n[**5.6\tManagement of Privileged Access Rights\t8**](.)\n\n[**5.7\tReview of User Access Rights\t8**](.)\n\n[**5.8\tUser Security Credentials Management\t8**](.)\n\n[**5.9\tUse of Security Credentials &amp; UAEPP Password Policy\t9**](.)\n\n[**5.10\tSecure Log-on\t10**](.)\n\n[**5.11\tUse of Privileged Utility Programs\t10**](.)\n\n[**5.12\tPublicly Accessible Content\t10**](.)\n\n[6.\tROLES AND RESPONSIBILITIES\t10](.)\n\n[**6.1\tExecutive &amp; Senior Management\t10**](.)\n\n[**6.2\tInformation Security Department\t11**](.)\n\n[**6.3\tInformation Technology\t11**](.)\n\n[**6.4\tEmployees, Line Managers and Third Parties (Contractors, Vendors, etc.)\t11**](.)\n\n[7.\tPOLICY ENFORCEMENT AND EXC"
+    },
+    "meta": {
+      "passage_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_2",
+      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing2/data/02_processed/policies/clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_for_mapping.json"
+    }
+  },
+  {
+    "data": {
+      "policy_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4",
+      "policy_name": "Access Control Policy - CPX policy is reference",
+      "passage_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_3",
+      "section": "4 INTRODUCTION",
+      "heading": "4 INTRODUCTION",
+      "passage_text": "4 INTRODUCTION\n\nUAE Public Prosecution has defined access controls across its networks, information assets, Information Technology (IT) systems and services to provide authorized, granular, auditable, and appropriate user access, and to ensure appropriate preservation of data confidentiality, integrity, and availability.\n\nA robust access control management system is paramount to ensure UAEPP users are appropriately identified and have the authorization to access information assets and IT resources."
+    },
+    "meta": {
+      "passage_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_3",
+      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing2/data/02_processed/policies/clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_for_mapping.json"
+    }
+  },
+  {
+    "data": {
+      "policy_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4",
+      "policy_name": "Access Control Policy - CPX policy is reference",
+      "passage_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_4",
+      "section": "5 PURPOSE",
+      "heading": "5 PURPOSE",
+      "passage_text": "5 PURPOSE\n\nThe purpose of this Access Control Policy is to ensure that access is controlled at the user, application, network, and operating system level as well as for mobile computing.\n\nFurther, this Policy establishes a commitment to comply with applicable sections of the federal and global laws and regulations, including but not limited to UAE Information Assurance Regulation, ISO/IEC 27001:2022.\n\nThe following are the key objectives of this Policy:\n\n- **User Access Management:** Establish and implement a formal user access management process for how user accounts and privileges are created, managed and deleted in line with organizational policies and security practices.\n- **Monitoring and Review of User access rights:** Define the requirements for performing periodic review and monitoring of user access."
+    },
+    "meta": {
+      "passage_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_4",
+      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing2/data/02_processed/policies/clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_for_mapping.json"
+    }
+  },
+  {
+    "data": {
+      "policy_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4",
+      "policy_name": "Access Control Policy - CPX policy is reference",
+      "passage_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_5",
+      "section": "6 SCOPE",
+      "heading": "6 SCOPE",
+      "passage_text": "6 SCOPE\n\nThis Policy applies to all employees, contractors and third parties who access or manage information and information assets or use the organization's information and communications technology (ICT) systems."
+    },
+    "meta": {
+      "passage_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_5",
+      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing2/data/02_processed/policies/clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_for_mapping.json"
+    }
+  },
+  {
+    "data": {
+      "policy_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4",
+      "policy_name": "Access Control Policy - CPX policy is reference",
+      "passage_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_6",
+      "section": "7 POLICY STATEMENT",
+      "heading": "7 POLICY STATEMENT",
+      "passage_text": "7 POLICY STATEMENT\n\nThe organization shall develop, implement, and maintain an organization wide access control framework to:\n\n- Control access to information and information assets.\n- Manage registration and deregistration of user accounts/access.\n- Control access to both internal and external network services.\n- Control access to operating systems.\n- Control access to applications.\n- Ensure appropriate protection when accessing mobile computing and teleworking services."
+    },
+    "meta": {
+      "passage_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_6",
+      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing2/data/02_processed/policies/clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_for_mapping.json"
+    }
+  },
+  {
+    "data": {
+      "policy_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4",
+      "policy_name": "Access Control Policy - CPX policy is reference",
+      "passage_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_7",
+      "section": "8.1 Access Control",
+      "heading": "8.1 Access Control",
+      "passage_text": "8.1 Access Control\n\nUAE Public Prosecution shall:\n\n1. Ensure that asset owners determine appropriate access rules, privileges, and restrictions for specific user roles towards their assets.\n2. Ensure that the following factors are considered while defining the access control framework:\n2. Information dissemination and authorization process, e.g., the need-to-know principle, information security levels and classification of information.\n3. Consistency between the access rights and data classification levels for different systems and networks.\n4. Relevant legislation and any contractual obligations regarding limitation of access to data or services.\n5. Segregation of access control management roles, e.g., access request, access authorization, and access administration.\n6. Requirements for formal authorization of access requests.\n7. Requirements for periodic review of access rights.\n8. Removal of access rights.\n9. Logging and monitoring of records of all significant events concerning the "
+    },
+    "meta": {
+      "passage_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_7",
+      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing2/data/02_processed/policies/clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_for_mapping.json"
+    }
+  },
+  {
+    "data": {
+      "policy_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4",
+      "policy_name": "Access Control Policy - CPX policy is reference",
+      "passage_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_8",
+      "section": "8.2 Access to Network and Network Shares",
+      "heading": "8.2 Access to Network and Network Shares",
+      "passage_text": "8.2 Access to Network and Network Shares\n\nUAE Public Prosecution shall:\n\n1. Formulate a procedure to address security concerns in the use of network connections and network services including wireless network, VPN, and third-party/ external connections.\n2. Ensure that the procedure on the use of network services is consistent with this Policy."
+    },
+    "meta": {
+      "passage_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_8",
+      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing2/data/02_processed/policies/clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_for_mapping.json"
+    }
+  },
+  {
+    "data": {
+      "policy_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4",
+      "policy_name": "Access Control Policy - CPX policy is reference",
+      "passage_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_9",
+      "section": "8.3 Wireless Access",
+      "heading": "8.3 Wireless Access",
+      "passage_text": "8.3 Wireless Access\n\nUAE Public Prosecution shall:\n\n1. Utilize authentication protocols which provide credential protection and mutual authentication for wireless networks.\n2. Ensure the selection of appropriate controls for wireless networks to address security risks such as undetected interception.\n3. Conduct periodic wireless surveys to determine security and quality of the wireless network."
+    },
+    "meta": {
+      "passage_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_9",
+      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing2/data/02_processed/policies/clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_for_mapping.json"
+    }
+  },
+  {
+    "data": {
+      "policy_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4",
+      "policy_name": "Access Control Policy - CPX policy is reference",
+      "passage_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_10",
+      "section": "8.4 User Registration and De-Registration",
+      "heading": "8.4 User Registration and De-Registration",
+      "passage_text": "8.4 User Registration and De-Registration\n\nUAE Public Prosecution shall:\n\n2. The use of shared IDs is prohibited by default, unless there is a valid business justification which is approved by UAEPP’s senior management and CISO.\n3. Immediately disable or remove user ID’s of users who have left the organization.\n4. Perform periodic review of user access across the information and information assets to determine and disable redundant user ID’s and access privileges that are no longer required or authorized.\n5. Ensure that unused/redundant user ID’s are not issued to other users.\n6. The number of privileged user IDs shall be strictly limited to those individuals who shall have such privileges for authorized business purposes.\n7. Multi-user systems administrators shall have at least two user-IDs to separate their privileged access from their ordinary day-to-day access.\n\n1. Ensure that the process of managing user ID’s include the following areas as a minimum:\n    1. Using unique and identi"
+    },
+    "meta": {
+      "passage_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_10",
+      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing2/data/02_processed/policies/clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_for_mapping.json"
+    }
+  },
+  {
+    "data": {
+      "policy_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4",
+      "policy_name": "Access Control Policy - CPX policy is reference",
+      "passage_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_11",
+      "section": "8.5 User Access Provisioning",
+      "heading": "8.5 User Access Provisioning",
+      "passage_text": "8.5 User Access Provisioning\n\nUAE Public Prosecution shall:\n\n2. The provisioning process for assigning or revoking access rights for users shall consider the followings:\n2. Segregation of duties to ensure a proper access level is given.\n3. Access rights are not activated until an authorization process is completed.\n4. Records reflecting all user access rights are centrally kept up-to-date.\n5. Reviewing users access rights in a regular basis.\n\n1. Ensure that the provisioning/deprovisioning process for assigning or revoking access rights granted to user IDs are approved, and in line with organizational policies and security practices.\n    1. Obtaining a proper authorization from the system or asset owner."
+    },
+    "meta": {
+      "passage_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_11",
+      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing2/data/02_processed/policies/clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_for_mapping.json"
+    }
+  },
+  {
+    "data": {
+      "policy_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4",
+      "policy_name": "Access Control Policy - CPX policy is reference",
+      "passage_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_12",
+      "section": "8.6 Management of Privileged Access Rights",
+      "heading": "8.6 Management of Privileged Access Rights",
+      "passage_text": "8.6 Management of Privileged Access Rights\n\nUAE Public Prosecution shall:\n\n2. Consider the following steps, at a minimum, for managing privileged access rights:\n2. Privileged and service account access rights need to be allocated to users/applications on a need-to-use basis and on an event-by-event basis in line with the access control procedure.\n3. Maintain an authorization process and a record of all privileges allocated.\n4. Not grant privileged access rights until the authorization process is completed.\n5. Assign privileged access rights to a user ID different from those used for regular business activities.\n6. Perform regular review of user roles with privileged access rights to verify if they are in line with their duties.\n7. Establish and maintain specific procedures in order to avoid the unauthorized use of generic administration user ID’s, according to systems’ configuration capabilities.\n8. Prohibit sharing of passwords for generic administration of user ID’s. The use of share"
+    },
+    "meta": {
+      "passage_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_12",
+      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing2/data/02_processed/policies/clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_for_mapping.json"
+    }
+  },
+  {
+    "data": {
+      "policy_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4",
+      "policy_name": "Access Control Policy - CPX policy is reference",
+      "passage_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_13",
+      "section": "8.7 Review of User Access Rights",
+      "heading": "8.7 Review of User Access Rights",
+      "passage_text": "8.7 Review of User Access Rights\n\nUAE Public Prosecution shall:\n\n2. Review authorizations for privileged access rights at more frequent intervals.\n3. Restrict such privileges upon detection of any misconduct of privileged access rights.\n\n1. Review users' access rights at regular intervals and after Promotion, Transfer, Demotion and/or Termination of employment."
+    },
+    "meta": {
+      "passage_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_13",
+      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing2/data/02_processed/policies/clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_for_mapping.json"
+    }
+  },
+  {
+    "data": {
+      "policy_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4",
+      "policy_name": "Access Control Policy - CPX policy is reference",
+      "passage_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_14",
+      "section": "8.8 User Security Credentials Management",
+      "heading": "8.8 User Security Credentials Management",
+      "passage_text": "8.8 User Security Credentials Management\n\nUAE Public Prosecution shall:\n\n2. Configure information assets to implement prescribed controls on access management.\n3. Establish user access and secure credentials management procedures."
+    },
+    "meta": {
+      "passage_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_14",
+      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing2/data/02_processed/policies/clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_for_mapping.json"
+    }
+  },
+  {
+    "data": {
+      "policy_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4",
+      "policy_name": "Access Control Policy - CPX policy is reference",
+      "passage_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_15",
+      "section": "8.9 Use of Security Credentials &amp; UAEPP Password Policy",
+      "heading": "8.9 Use of Security Credentials &amp; UAEPP Password Policy",
+      "passage_text": "8.9 Use of Security Credentials &amp; UAEPP Password Policy\n\n1. Ensure that the users are required to sign a statement to keep security credentials confidential.\n\nUAE Public Prosecution shall:\n\n2. Passwords shall not be transmitted in clear text during communications over networks or when stored.\n3. Credentials shall not be hardcoded into applications.\n4. The use of default credentials shall not be authorized.\n5. Approved encryption or hashing techniques shall be utilized where credentials are stored.\n6. Password shall not contain personal information that can be easily guessed by a malicious actor, such as user name, phone number, birthdays, etc.\n7. Password shall not contain a complete dictionary word.\n8. Password shall not contain common acronyms, common words or reverse spelling of words, word or number patterns.\n9. Users shall use different passwords for General and Administrative accounts.\n10. Passwords can be reset only following the authorized mechanisms, such as User self-serv"
+    },
+    "meta": {
+      "passage_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_15",
+      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing2/data/02_processed/policies/clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_for_mapping.json"
+    }
+  },
+  {
+    "data": {
+      "policy_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4",
+      "policy_name": "Access Control Policy - CPX policy is reference",
+      "passage_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_16",
+      "section": "8.10 Secure Log-on",
+      "heading": "8.10 Secure Log-on",
+      "passage_text": "8.10 Secure Log-on\n\n4. Login into operating systems shall be based on a formal secure logon procedure.\n5. All systems shall display a general notice warning message that access to UAEPP's systems is granted to authorized users only.\n6. The logon process on any system shall display only the limited information about the system and its purposed use.\n7. When strong authentication and identification is required, authentication methods other than passwords (e.g., token IDs, smart cards or biometrics) shall be implemented.\n8. All systems shall limit the number of unsuccessful logon attempts allowed; the following shall be considered:\n    1. Recording both successful and unsuccessful attempts.\n    2. Forcing a time delay before further logon attempts are allowed or rejecting any further attempts without specific authorization.\n    3. Sending an alarm message to the system console if the maximum number of logon attempts is reached.\n9. ICT Administrators (e.g., system admin, application admin, "
+    },
+    "meta": {
+      "passage_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_16",
+      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing2/data/02_processed/policies/clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_for_mapping.json"
+    }
+  },
+  {
+    "data": {
+      "policy_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4",
+      "policy_name": "Access Control Policy - CPX policy is reference",
+      "passage_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_17",
+      "section": "8.11 Use of Privileged Utility Programs",
+      "heading": "8.11 Use of Privileged Utility Programs",
+      "passage_text": "8.11 Use of Privileged Utility Programs\n\n10. System utilities shall be restricted from all users unless approved by CISO/ IS Team.\n11. All access to system utilities shall be logged and reviewed by UAEPP IS Team.\n12. Access to and use of system programs shall be restricted and controlled.\n13. All unnecessary system utilities and software shall be removed."
+    },
+    "meta": {
+      "passage_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_17",
+      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing2/data/02_processed/policies/clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_for_mapping.json"
+    }
+  },
+  {
+    "data": {
+      "policy_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4",
+      "policy_name": "Access Control Policy - CPX policy is reference",
+      "passage_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_18",
+      "section": "8.12 Publicly Accessible Content",
+      "heading": "8.12 Publicly Accessible Content",
+      "passage_text": "8.12 Publicly Accessible Content\n\nUAE Public Prosecution shall:\n\n2. Designate individuals who are authorized to review and post information onto a publicly accessible information system.\n3. Provide training and awareness sessions for authorized individuals to ensure that publicly accessible information is sanitized from non-public information.\n4. Periodically scan publicly accessible information for non-public information and correct any inconsistency.\n\n1. Define publishing guidelines with required reviews and approvals for any information to be publicly available."
+    },
+    "meta": {
+      "passage_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_18",
+      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing2/data/02_processed/policies/clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_for_mapping.json"
+    }
+  },
+  {
+    "data": {
+      "policy_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4",
+      "policy_name": "Access Control Policy - CPX policy is reference",
+      "passage_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_19",
+      "section": "10 POLICY ENFORCEMENT AND EXCEPTIONS",
+      "heading": "10 POLICY ENFORCEMENT AND EXCEPTIONS",
+      "passage_text": "10 POLICY ENFORCEMENT AND EXCEPTIONS\n\nThis Policy is to be part of all employees, contractors and third parties’ processes, and all are responsible for understanding and adhering to this Policy. Any violation of this Policy shall be reported to Policy Owner. Violation of this Policy shall be subjected to disciplinary action by the UAE Public Prosecution's Human Resources, taking into consideration the recommendation of the Information Security department and in accordance with other applicable policies, laws and regulations.\n\nDisciplinary action may range from a verbal warning to discontinuation of access to facility or services, or termination of employment/contract/agreement, and possible legal action. The actual action taken shall depend on factors such as the seriousness of the breach and the user's disciplinary record.\n\nAny exceptions on the applicability of this Policy should be formally requested through the ‘Policy Exception Management procedure.’"
+    },
+    "meta": {
+      "passage_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_19",
+      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing2/data/02_processed/policies/clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_for_mapping.json"
+    }
+  },
+  {
+    "data": {
+      "policy_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4",
+      "policy_name": "Access Control Policy - CPX policy is reference",
+      "passage_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_20",
+      "section": "11 MONITORING AND REVIEW",
+      "heading": "11 MONITORING AND REVIEW",
+      "passage_text": "11 MONITORING AND REVIEW\n\nThis Policy is developed and owned by the UAE Public Prosecution Information Security (IS) Team. It is reviewed by the CISO and approved by the Head of UAE Public Prosecution.\n\nUAE Public Prosecution IS Team will initiate a review and of this Policy annually or whenever a significant change occurs in the organization's operating environment.\n\nFeedback, suggestions or questions regarding the Policy shall be directed to the UAE Public Prosecution IS Team at infosec@pp.gov.ae."
+    },
+    "meta": {
+      "passage_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_20",
+      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing2/data/02_processed/policies/clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_for_mapping.json"
+    }
+  },
+  {
+    "data": {
+      "policy_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4",
+      "policy_name": "Access Control Policy - CPX policy is reference",
+      "passage_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_21",
+      "section": "12 Policy – UAE IA Control Mapping",
+      "heading": "12 Policy – UAE IA Control Mapping",
+      "passage_text": "12 Policy – UAE IA Control Mapping\n\n| Policy Sections                                         | UAE IA                                                                                                                           | ISO/IEC 27001:2022                                                                                                  |\n|---------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|\n| Section 1 - Introduction                                | T5.1.1 Access Control Policy                                                                                                     | 5.1 Policies for Information Security  A.5.15 Access Control                                                        |\n| Section 2 - Purpose                "
+    },
+    "meta": {
+      "passage_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_21",
+      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing2/data/02_processed/policies/clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_for_mapping.json"
+    }
+  }
+]

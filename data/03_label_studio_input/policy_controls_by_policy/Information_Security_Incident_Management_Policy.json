@@ -1,0 +1,206 @@
+[
+  {
+    "data": {
+      "policy_passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 2_passage_1",
+      "policy_name": "Information Security Incident Management Policy",
+      "section": "INTRODUCTION",
+      "policy_text": "The Information Security Incident Management Policy outlines the overall framework for managing security incidents within the organization. It establishes roles and responsibilities for incident detection, response and recovery."
+    },
+    "meta": {
+      "policy_passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 2_passage_1",
+      "policy_name": "Information Security Incident Management Policy"
+    }
+  },
+  {
+    "data": {
+      "policy_passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 2_passage_2",
+      "policy_name": "Information Security Incident Management Policy",
+      "section": "PURPOSE",
+      "policy_text": "The purpose of this Information Security Incident Management Policy (“Policy”) is to ensure that information security incidents within the organization are communicated in a manner which allows timely corrective actions to be taken. Furthermore, the Policy establishes a commitment to comply with applicable sections of the federal and global laws and regulations, including but not limited to UAE Information Assurance Regulation, ISO27001 and National Cyber Risk Management Framework (NCRMF). The following are the key objectives of this Policy: Launch an incident response plan: Development, implementation, and maintenance of a plan to guide incident response activities. Establish a CSIRT: Establishment of a Computer Security Incident Response Team (CSIRT) in charge of the incident management and response plan. Enable reporting: Reporting information security incidents that results in damage or risk to information security assets and operations through appropriate management channels to st"
+    },
+    "meta": {
+      "policy_passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 2_passage_2",
+      "policy_name": "Information Security Incident Management Policy"
+    }
+  },
+  {
+    "data": {
+      "policy_passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 2_passage_3",
+      "policy_name": "Information Security Incident Management Policy",
+      "section": "SCOPE",
+      "policy_text": "This Policy applies to anybody involved in the security Incident management and/or response including but not limited to employees and critical third parties who access or manage information and information assets or use the organization's information and communications technology (ICT) systems.\n\nAny exceptions on the applicability of this Policy should be formally requested through the ‘Policy Exception Management procedure’."
+    },
+    "meta": {
+      "policy_passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 2_passage_3",
+      "policy_name": "Information Security Incident Management Policy"
+    }
+  },
+  {
+    "data": {
+      "policy_passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 2_passage_4",
+      "policy_name": "Information Security Incident Management Policy",
+      "section": "POLICY STATEMENT",
+      "policy_text": "<CLIENT> shall develop, implement, and maintain an incident management program where personnel shall report information security events and weaknesses, collect, and analyze evidence of security incidents, and ensure security incidents are adequately managed."
+    },
+    "meta": {
+      "policy_passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 2_passage_4",
+      "policy_name": "Information Security Incident Management Policy"
+    }
+  },
+  {
+    "data": {
+      "policy_passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 2_passage_5",
+      "policy_name": "Information Security Incident Management Policy",
+      "section": "Computer Security Incident Response Team (CSIRT)",
+      "policy_text": "<CLIENT> shall: Identify personnel to form the proper CSIRT. Establish the CSIRT before developing the incident response plan. Ensure that one of the first responsibilities of CSIRT is to create the incident response plan. Ensure that the CSIRT must include members from the following teams, at a minimum: Team Leader – is usually senior manager responsible for managing incidents and directing actions to other team members. Boundary Protection Experts - usually individuals who are experts in logical perimeter security (expertise on Firewalls, IDS/IPS, WAF, Proxy etc.). Network Administrators. Physical Security. Legal Human Capital for incidents that was originated by an employee. Corporate Communications for managing the communication of incidents that has been revealed to public. The CSIRT shall: Develop incident management and Incident Response plan, process, and procedures. Response to information security incidents and minimise the impact. Investigate incidents and try to determine t"
+    },
+    "meta": {
+      "policy_passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 2_passage_5",
+      "policy_name": "Information Security Incident Management Policy"
+    }
+  },
+  {
+    "data": {
+      "policy_passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 2_passage_6",
+      "policy_name": "Information Security Incident Management Policy",
+      "section": "Incident Response Plan",
+      "policy_text": "The CSIRT shall: Develop, implement, and maintain an incident response plan that includes the following, at a minimum: A roadmap and high-level approach for implementing organization’s incident response capability. A process to define reportable incidents and metrics for measuring the severity and Impact of incidents. Define the required resources and management support to effectively maintain and mature an incident response capability. Documentation that is reviewed and approved by defined personnel or roles. Distribute copies of the incident response plan to identified stakeholders. Update incident response plan regularly based on lessons learned. Communicate incident response plan changes to defined incident response personnel. Protect the incident response plan from unauthorised disclosure and modification. Perform investigations based on information distributed by an information sharing community to reduce the risks of similar incidents. Perform post-incident analysis to identify "
+    },
+    "meta": {
+      "policy_passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 2_passage_6",
+      "policy_name": "Information Security Incident Management Policy"
+    }
+  },
+  {
+    "data": {
+      "policy_passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 2_passage_7",
+      "policy_name": "Information Security Incident Management Policy",
+      "section": "Incident Classification",
+      "policy_text": "The CSIRT shall: Define, classify, and prioritise incidents to help identify the impact and scope of the incident. Establish an incident classification scheme in line with the incident response plan considering regulatory issuances regarding incident management. Ensure that the SOC (Security Operations Centre) performs the following, at a minimum when an information security incident is reported: Assess the information security events using the agreed information security event and incident classification scale. Decide whether the events should be classified as information security incidents. Ensure that the assessment of the incident and the associated decision is forwarded to the CSIRT for confirmation and / or reassessment."
+    },
+    "meta": {
+      "policy_passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 2_passage_7",
+      "policy_name": "Information Security Incident Management Policy"
+    }
+  },
+  {
+    "data": {
+      "policy_passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 2_passage_8",
+      "policy_name": "Information Security Incident Management Policy",
+      "section": "Incident Response Training",
+      "policy_text": "The CSIRT shall: Ensure that the incident response training provided by the organisation is linked to assigned roles and responsibilities of respective personnel to include appropriate content and level of detail in such training."
+    },
+    "meta": {
+      "policy_passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 2_passage_8",
+      "policy_name": "Information Security Incident Management Policy"
+    }
+  },
+  {
+    "data": {
+      "policy_passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 2_passage_9",
+      "policy_name": "Information Security Incident Management Policy",
+      "section": "Incident Response Testing",
+      "policy_text": "The CSIRT in coordination with other appropriate teams shall: Develop incident response testing procedures to: Determine the overall effectiveness of its incident response capabilities. Identify potential weaknesses or deficiencies. Ensure that the incident response testing approach simulates pre-defined breach scenarios across the incident response lifecycle including detection, reporting, and recovery to normal operations. Utilize checklists, table top (discussion-based) exercises, and functional (performance of duties in a simulated environment) exercises for incident response testing. Participate in sector, national, and international exercises to further test the organization’s incident response capabilities."
+    },
+    "meta": {
+      "policy_passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 2_passage_9",
+      "policy_name": "Information Security Incident Management Policy"
+    }
+  },
+  {
+    "data": {
+      "policy_passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 2_passage_10",
+      "policy_name": "Information Security Incident Management Policy",
+      "section": "Incident Handling",
+      "policy_text": "The CSIRT shall: Respond to information security incidents through a nominated point of contact and other relevant persons of the organization or external parties. Ensure that the response to incidents include the following activities, at a minimum: Collecting the evidence as soon as possible after the occurrence. Conducting information security forensics analysis, as required. Escalation, as required. Ensuring all involved response activities are properly logged for later analysis. Communicating the existence of the information security incident or any relevant details thereof to other internal and external people or organizations with a need-to-know. Dealing with information security weakness found to cause or contribute to the incident. Closing and recording the incident after successful resolution."
+    },
+    "meta": {
+      "policy_passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 2_passage_10",
+      "policy_name": "Information Security Incident Management Policy"
+    }
+  },
+  {
+    "data": {
+      "policy_passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 2_passage_11",
+      "policy_name": "Information Security Incident Management Policy",
+      "section": "Information Security Incident Documentation",
+      "policy_text": "The CSIRT shall document Information security Incidents with reference to the <CLIENT> Information Security Incident Documentation Procedure."
+    },
+    "meta": {
+      "policy_passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 2_passage_11",
+      "policy_name": "Information Security Incident Management Policy"
+    }
+  },
+  {
+    "data": {
+      "policy_passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 2_passage_12",
+      "policy_name": "Information Security Incident Management Policy",
+      "section": "Learning from Information Security Incidents",
+      "policy_text": "The CSIRT shall: Implement relevant mechanisms to enable the types, volumes, costs (liaising with Finance Team), and impacts of information security incidents to be quantified and monitored. Utilize the information gained from evaluating information security incidents to identify recurring or high impact incidents and inform risk assessment and risk treatment activities."
+    },
+    "meta": {
+      "policy_passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 2_passage_12",
+      "policy_name": "Information Security Incident Management Policy"
+    }
+  },
+  {
+    "data": {
+      "policy_passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 2_passage_13",
+      "policy_name": "Information Security Incident Management Policy",
+      "section": "Collection of Evidence",
+      "policy_text": "<CLIENT> shall: Develop and follow internal procedures when dealing with evidence for the purposes of disciplinary and legal action. Include the following processes related to the collection of potential evidence for incidents, at a minimum: Identification process: the process involving the search for, recognition and documentation of potential evidence. Collection process: the process of gathering the physical items that can contain potential evidence."
+    },
+    "meta": {
+      "policy_passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 2_passage_13",
+      "policy_name": "Information Security Incident Management Policy"
+    }
+  },
+  {
+    "data": {
+      "policy_passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 2_passage_14",
+      "policy_name": "Information Security Incident Management Policy",
+      "section": "Acquisition process: the process of creating a copy of data within a defined set.",
+      "policy_text": "Preservation process: the process to maintain and safeguard the integrity and original condition of the potential evidence. Establish internal procedures to create the above processes in accordance with different types of media, devices, and state of devices (e.g., powered on or off state). Ensure that these procedures include the following, at a minimum: Chain of custody. Safety of evidence. Safety of personnel. Roles and responsibilities of personnel involved. Competency of personnel. Documentation. Briefing."
+    },
+    "meta": {
+      "policy_passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 2_passage_14",
+      "policy_name": "Information Security Incident Management Policy"
+    }
+  },
+  {
+    "data": {
+      "policy_passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 2_passage_15",
+      "policy_name": "Information Security Incident Management Policy",
+      "section": "Situational Awareness",
+      "policy_text": "The CSIRT shall: Ensure priority information related to incidents are shared to relevant stakeholders in a timely manner even if it has not been fully analysed or resolved. Coordinate and share information in consultation with legal, with external entities, including, but not limited to external service providers, regulatory bodies, entities involved in the supply chain for organization’s information systems. Provide notice accordingly for all incidents involving Personally Identifiable Information (PII)."
+    },
+    "meta": {
+      "policy_passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 2_passage_15",
+      "policy_name": "Information Security Incident Management Policy"
+    }
+  },
+  {
+    "data": {
+      "policy_passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 2_passage_16",
+      "policy_name": "Information Security Incident Management Policy",
+      "section": "POLICY ENFORCEMENT AND EXCEPTIONS",
+      "policy_text": "This Policy is to be part of all employees, contractors and third parties’ processes, and all are responsible for understanding and adhering to this Policy. Any violation of this Policy shall be reported to Policy Owner. Violation of this Policy shall be subjected to disciplinary action by the <CLIENT>'s Human Capital Department, taking into consideration the recommendation of the Information Security department and in accordance with other applicable policies, laws and regulations. Disciplinary action may range from a verbal warning to discontinuation of access to facility or services, or termination of employment/contract/agreement, and possible legal action. The actual action taken shall depend on factors such as the seriousness of the breach and the user's disciplinary record.\n\nAny exceptions on the applicability of this Policy should be formally requested through the Policy Exception Management procedure."
+    },
+    "meta": {
+      "policy_passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 2_passage_16",
+      "policy_name": "Information Security Incident Management Policy"
+    }
+  },
+  {
+    "data": {
+      "policy_passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 2_passage_17",
+      "policy_name": "Information Security Incident Management Policy",
+      "section": "MONITORING AND REVIEW",
+      "policy_text": "This Policy is developed and owned by the <CLIENT> Information Security (IS) Team. It is reviewed by the CISO and approved by the CEO. <CLIENT> IS Team will initiate a review and of this Policy annually or whenever a significant change occurs in the organization’s operating environment. Feedback, suggestions or questions regarding the Policy shall be directed to the <CLIENT> IS Team at infosec@<CLIENT>.net."
+    },
+    "meta": {
+      "policy_passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 2_passage_17",
+      "policy_name": "Information Security Incident Management Policy"
+    }
+  }
+]

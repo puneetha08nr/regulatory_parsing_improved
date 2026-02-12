@@ -1,0 +1,1001 @@
+{
+  "meta": {
+    "split": "test",
+    "total_questions": 53,
+    "created_at": "2026-01-22T11:51:00.086638",
+    "generation_method": "template-based"
+  },
+  "questions": [
+    {
+      "question_id": "Q_T7.6.2.guidelines_8044",
+      "question": "What is recommended in this guidance?",
+      "answer": "Implementation Guidance for Technical Review of Applications: (for information purpose only) This process should cover: a. review of application control and integrity procedures to ensure that they have not been compromised by the operating system changes; b. ensuring that the annual support plan and budget will cover reviews and system testing resulting from operating system changes; c",
+      "passages": [
+        {
+          "document_id": "uae_ia_regulation",
+          "passage_id": "T7.6.2.guidelines",
+          "passage_text": "Implementation Guidance for Technical Review of Applications: (for information purpose only) This process should cover: a. review of application control and integrity procedures to ensure that they have not been compromised by the operating system changes; b. ensuring that the annual support plan and budget will cover reviews and system testing resulting from operating system changes; c. ensuring that notification of operating system changes is provided in time to allow appropriate tests and reviews to take place before implementation; d. ensuring that appropriate changes are made to the business continuity plans. A specific group or individual should be given responsibility for monitoring vulnerabilities and vendors’ releases of patches and fixes. T7.6.3 Restrictions on Changes to",
+          "control_id": "T7.6.2"
+        }
+      ],
+      "group": 1,
+      "topic": null,
+      "is_validated": true,
+      "nli_score": 0.531488835811615
+    },
+    {
+      "question_id": "Q_M4.2.1_4534",
+      "question": "What must be done according to this requirement?",
+      "answer": "The entity shall perform background verification checks on all candidates for employment, contractors, and third party users",
+      "passages": [
+        {
+          "document_id": "uae_ia_regulation",
+          "passage_id": "M4.2.1",
+          "passage_text": "Screening. The entity shall perform background verification checks on all candidates for employment, contractors, and third party users",
+          "control_id": "M4.2.1"
+        }
+      ],
+      "group": 1,
+      "topic": null,
+      "is_validated": true,
+      "nli_score": 0.5314515233039856
+    },
+    {
+      "question_id": "Q_MULTI_Network_Security_5_8474",
+      "question": "What must be done to ensure Network Security compliance across these controls?",
+      "answer": "From T2.3.8.guidelines: Implementation Guidance for Unattended User: (for information purpose only) All users should be made aware of the security requirements and procedures for protecting unattended equipment, as well as their responsibilities for implementing such protection. Users should be advised to: a. terminate active sessions when finished, unless they can be secured by an appropriate locking mechanism, e From T7.7.1.guidelines: The following guidance should be followed to establish an effective management process for technical vulnerabilities: a. the entity should define and establish the roles and responsibilities associated with technical vulnerability management, including vulnerability monitoring, vulnerability risk assessment (see M2.2), patching, asset tracking, and any coordination responsibilities required; b From T6.2.1.guidelines: the entity should plan the necessary transitions (of information, information systems, and anything else that needs to be moved), and should ensure that security is maintained throughout the transition period. The entity should ensure that the third party maintains sufficient service capability together with workable plans designed to ensure that agreed service continuity levels are maintained following major service failures or disaster. T6 From T5.6.3.guidelines: the publishing of public information, the entity should consider the following: a. Define publishing procedures with required reviews and approvals for any information to be publicly available b. Designate individuals authorized to review and post information onto a publicly accessible information system c From T3.6.3.c: T3.6.3.c: identify minimum information gathering requirements for each monitoring activity",
+      "passages": [
+        {
+          "document_id": "uae_ia_regulation",
+          "passage_id": "T2.3.8.guidelines",
+          "passage_text": "Implementation Guidance for Unattended User: (for information purpose only) All users should be made aware of the security requirements and procedures for protecting unattended equipment, as well as their responsibilities for implementing such protection. Users should be advised to: a. terminate active sessions when finished, unless they can be secured by an appropriate locking mechanism, e.g. a password protected screen saver; b. log-off from applications or network services when no longer needed; c. secure computers or mobile devices from unauthorized use by a key lock or an equivalent control, e.g. password access, when not in use. T2.3.9 Clear Desk and Clear",
+          "control_id": "T2.3.8"
+        },
+        {
+          "document_id": "uae_ia_regulation",
+          "passage_id": "T7.7.1.guidelines",
+          "passage_text": "Implementation Guidance for Control of Technical: (for information purpose only) As a prerequisite, a current and complete inventory of assets is needed (including software vendor, version numbers, current state of deployment, and the person(s) within the entity responsible for the software). The following guidance should be followed to establish an effective management process for technical vulnerabilities: a. the entity should define and establish the roles and responsibilities associated with technical vulnerability management, including vulnerability monitoring, vulnerability risk assessment (see M2.2), patching, asset tracking, and any coordination responsibilities required; b. the entity should identify information resources that will be used to identify relevant technical vulnerabilities and to maintain awareness about them should be identified for software and other technology (based on the asset inventory list); these information resources should be updated based on changes in the inventory, or when other new or useful resources are found; c. the entity should define a timeline to react to notifications of potentially relevant technical vulnerabilities; d. the entity should identify the risks associated to potential technical vulnerability and the actions to be taken; such action could involve patching of vulnerable systems and/or applying other controls; e. depending on how urgently a technical vulnerability needs to be addressed, the action taken should be carried out according to the controls related to change management or by following information security incident response procedures; f. if a patch is available, the risks associated with installing the patch should be assessed (the risks posed by the vulnerability should be compared with the risk of installing the patch); g. patches should be tested and evaluated before they are installed to ensure they are effective and do not result in side effects that cannot be tolerated; if no patch is available, other controls should be considered, such as: 1- turning off services or capabilities related to the vulnerability; 2- adapting or adding access controls, e.g. firewalls, at network borders; 3- increased monitoring to detect or prevent actual attacks; 4- raising awareness of the vulnerability; h. an audit log should be kept for all procedures undertaken; i. the technical vulnerability management process should be regularly monitored and evaluated in order to ensure its effectiveness and efficiency; j. systems at high risk should be addressed first. 190 T7.8 Supply Chain Management Objective To protect against supply chain threats and secure the supply of information systems Performance Indicator Percentage of information systems received within the acceptable time frame and validated as genuine Number of vendors/third parties compliant with the policy for acquisition of products and services Automation Guidance An automated support system should be used to support tracking of products and services received and verification of compliance to entity policies Relevant Threats and • Unsuitable supply chain strategy Vulnerabilities • Use of counterfeit or copied software T7.8.1 Supply Chain Protection",
+          "control_id": "T7.7.1"
+        },
+        {
+          "document_id": "uae_ia_regulation",
+          "passage_id": "T6.2.1.guidelines",
+          "passage_text": "Implementation Guidance for Service Delivery: (for information purpose only) Service delivery by a third party should include the agreed security arrangements, service definitions, and aspects of service management. In case of outsourcing arrangements, the entity should plan the necessary transitions (of information, information systems, and anything else that needs to be moved), and should ensure that security is maintained throughout the transition period. The entity should ensure that the third party maintains sufficient service capability together with workable plans designed to ensure that agreed service continuity levels are maintained following major service failures or disaster. T6.2.2 Monitoring and Review of",
+          "control_id": "T6.2.1"
+        },
+        {
+          "document_id": "uae_ia_regulation",
+          "passage_id": "T5.6.3.guidelines",
+          "passage_text": "Implementation Guidance for Publicly Accessible: (for information purpose only) For the publishing of public information, the entity should consider the following: a. Define publishing procedures with required reviews and approvals for any information to be publicly available b. Designate individuals authorized to review and post information onto a publicly accessible information system c. Provide training and awareness sessions for implicated individuals to ensure that publicly accessible information are sanitized from nonpublic information d. Periodically scan publicly accessible information for non-public information and correct any inconsistency 163 T5.7 Mobile Devices Access Control Objective To ensure information security when using mobile devices Performance Indicator Percentage of mobile computing equipment (e.g. smart phones, laptops, tablets) that are fully compliant with the relevant requirements in the access control policy Automation Guidance With asset inventory assembled, many entities use tools to pull information from network assets such as switches and routers regarding the machines connected to the network. Using securely authenticated and encrypted network management protocols, tools can retrieve MAC addresses and other information from network devices that can be reconciled with the entity’s asset inventory of servers, workstations, laptops, and other devices. Once MAC addresses are confirmed, switches should implement 802.1x and NAC to only allow authorized systems that are properly configured to connect to the network. Going further, effective entities configure free or commercial network scanning tools to perform network sweeps on a regular basis, sending a variety of different packet types to identify devices connected to the network. Before such scanning can take place, entities should verify that they have adequate bandwidth for such periodic scans by consulting load history and capacities for their networks. In conducting inventory scans, scanning tools could send traditional ping packets (ICMP Echo Request) looking for ping responses to identify a system at a given IP address. Because some systems block inbound ping packets, in addition to traditional pings, scanners can also identify devices on the network using transmission control protocol (TCP) synchronize (SYN) or acknowledge (ACK) packets. Once they have identified IP addresses of devices on the network, some scanners provide robust fingerprinting features to determine the operating system type of the discovered machine. In addition to active scanning tools that sweep the network, other asset identification tools passively listen on network interfaces looking for devices to announce their presence by sending traffic. Such passive tools can be connected to switch span ports at critical places in the network to view all data flowing through such switches, maximizing the chance of identifying systems communicating through those switches. Relevant Threats and • Capture data resident on system Vulnerabilities • Use of stolen login credentials • Remote spying 164",
+          "control_id": "T5.6.3"
+        },
+        {
+          "document_id": "uae_ia_regulation",
+          "passage_id": "T3.6.3.c",
+          "passage_text": "T3.6.3.c: identify minimum information gathering requirements for each monitoring activity",
+          "control_id": "T3.6.3"
+        }
+      ],
+      "group": 5,
+      "topic": "Network Security",
+      "is_validated": true,
+      "nli_score": 0.5311720371246338
+    },
+    {
+      "question_id": "Q_M6.2.2.d_2564",
+      "question": "What must be ensured according to this control?",
+      "answer": "d: ensure that the results of the audits are reported to relevant management",
+      "passages": [
+        {
+          "document_id": "uae_ia_regulation",
+          "passage_id": "M6.2.2.d",
+          "passage_text": "M6.2.2.d: ensure that the results of the audits are reported to relevant management",
+          "control_id": "M6.2.2"
+        }
+      ],
+      "group": 1,
+      "topic": null,
+      "is_validated": true,
+      "nli_score": 0.5315719246864319
+    },
+    {
+      "question_id": "Q_T4.4.1.d_4127",
+      "question": "What must be controlled?",
+      "answer": "T4.4.1.d: identify specific controls needed to meet the security requirements for each information sharing platform",
+      "passages": [
+        {
+          "document_id": "uae_ia_regulation",
+          "passage_id": "T4.4.1.d",
+          "passage_text": "T4.4.1.d: identify specific controls needed to meet the security requirements for each information sharing platform",
+          "control_id": "T4.4.1"
+        }
+      ],
+      "group": 1,
+      "topic": null,
+      "is_validated": true,
+      "nli_score": 0.5322379469871521
+    },
+    {
+      "question_id": "Q_M6.2.2.b_9656",
+      "question": "How should M6.2.2.b be implemented?",
+      "answer": "M6.2.2.b: define the audit criteria, scope and audit plan for each audit",
+      "passages": [
+        {
+          "document_id": "uae_ia_regulation",
+          "passage_id": "M6.2.2.b",
+          "passage_text": "M6.2.2.b: define the audit criteria, scope and audit plan for each audit",
+          "control_id": "M6.2.2"
+        }
+      ],
+      "group": 1,
+      "topic": null,
+      "is_validated": true,
+      "nli_score": 0.5318993330001831
+    },
+    {
+      "question_id": "Q_T9.1.1.f_8496",
+      "question": "What must be documented?",
+      "answer": "T9.1.1.f: be documented and communicated to all users",
+      "passages": [
+        {
+          "document_id": "uae_ia_regulation",
+          "passage_id": "T9.1.1.f",
+          "passage_text": "T9.1.1.f: be documented and communicated to all users",
+          "control_id": "T9.1.1"
+        }
+      ],
+      "group": 1,
+      "topic": null,
+      "is_validated": true,
+      "nli_score": 0.5331529378890991
+    },
+    {
+      "question_id": "Q_T1.2.2.b_6544",
+      "question": "What must be established?",
+      "answer": "T1.2.2.b: establish the process for the assignment of asset ownership and its periodical review",
+      "passages": [
+        {
+          "document_id": "uae_ia_regulation",
+          "passage_id": "T1.2.2.b",
+          "passage_text": "T1.2.2.b: establish the process for the assignment of asset ownership and its periodical review",
+          "control_id": "T1.2.2"
+        }
+      ],
+      "group": 1,
+      "topic": null,
+      "is_validated": true,
+      "nli_score": 0.5314329266548157
+    },
+    {
+      "question_id": "Q_M5.2.7.b_2793",
+      "question": "What does M5.2.7.b require?",
+      "answer": "M5.2.7.b: identify any liability issues and remediation requirements regarding unauthorized disclosure of information in all information sharing communities in which the entity participates",
+      "passages": [
+        {
+          "document_id": "uae_ia_regulation",
+          "passage_id": "M5.2.7.b",
+          "passage_text": "M5.2.7.b: identify any liability issues and remediation requirements regarding unauthorized disclosure of information in all information sharing communities in which the entity participates",
+          "control_id": "M5.2.7"
+        }
+      ],
+      "group": 1,
+      "topic": null,
+      "is_validated": true,
+      "nli_score": 0.5326550006866455
+    },
+    {
+      "question_id": "Q_M2.1.1.i_6591",
+      "question": "What must be reviewed?",
+      "answer": "M2.1.1.i: contain a risk monitoring and review strategy",
+      "passages": [
+        {
+          "document_id": "uae_ia_regulation",
+          "passage_id": "M2.1.1.i",
+          "passage_text": "M2.1.1.i: contain a risk monitoring and review strategy",
+          "control_id": "M2.1.1"
+        }
+      ],
+      "group": 1,
+      "topic": null,
+      "is_validated": true,
+      "nli_score": 0.5314303040504456
+    },
+    {
+      "question_id": "Q_M2.1.1.g_6544",
+      "question": "What must be established?",
+      "answer": "M2.1.1.g: establish and maintain information security basic criteria, including the risk acceptance criteria, impact criteria, and risk evaluation criteria",
+      "passages": [
+        {
+          "document_id": "uae_ia_regulation",
+          "passage_id": "M2.1.1.g",
+          "passage_text": "M2.1.1.g: establish and maintain information security basic criteria, including the risk acceptance criteria, impact criteria, and risk evaluation criteria",
+          "control_id": "M2.1.1"
+        }
+      ],
+      "group": 1,
+      "topic": null,
+      "is_validated": true,
+      "nli_score": 0.5325747728347778
+    },
+    {
+      "question_id": "Q_T6.2.1.guidelines_8044",
+      "question": "What is recommended in this guidance?",
+      "answer": "the entity should plan the necessary transitions (of information, information systems, and anything else that needs to be moved), and should ensure that security is maintained throughout the transition period. The entity should ensure that the third party maintains sufficient service capability together with workable plans designed to ensure that agreed service continuity levels are maintained following major service failures or disaster. T6",
+      "passages": [
+        {
+          "document_id": "uae_ia_regulation",
+          "passage_id": "T6.2.1.guidelines",
+          "passage_text": "Implementation Guidance for Service Delivery: (for information purpose only) Service delivery by a third party should include the agreed security arrangements, service definitions, and aspects of service management. In case of outsourcing arrangements, the entity should plan the necessary transitions (of information, information systems, and anything else that needs to be moved), and should ensure that security is maintained throughout the transition period. The entity should ensure that the third party maintains sufficient service capability together with workable plans designed to ensure that agreed service continuity levels are maintained following major service failures or disaster. T6.2.2 Monitoring and Review of",
+          "control_id": "T6.2.1"
+        }
+      ],
+      "group": 1,
+      "topic": null,
+      "is_validated": true,
+      "nli_score": 0.5312021970748901
+    },
+    {
+      "question_id": "Q_MULTI_Compliance_3_9600",
+      "question": "How do these controls work together for Compliance?",
+      "answer": "From M1.2.2.i: M1.2.2.i: be maintained, reviewed and updated at planned intervals or if significant changes occur From T1.2.2.guidelines: The asset owner should be responsible for: a. ensuring that information and assets associated with information systems are appropriately classified; b. defining and periodically reviewing access restrictions and classifications, taking into account applicable access control policies From M1.4.3.l: M1.4.3.l: (Sample Compliance Template may be provided by TRA in this regard).",
+      "passages": [
+        {
+          "document_id": "uae_ia_regulation",
+          "passage_id": "M1.2.2.i",
+          "passage_text": "M1.2.2.i: be maintained, reviewed and updated at planned intervals or if significant changes occur",
+          "control_id": "M1.2.2"
+        },
+        {
+          "document_id": "uae_ia_regulation",
+          "passage_id": "T1.2.2.guidelines",
+          "passage_text": "Implementation Guidance for Ownership of Assets: (for information purpose only) The asset owner should be responsible for: a. ensuring that information and assets associated with information systems are appropriately classified; b. defining and periodically reviewing access restrictions and classifications, taking into account applicable access control policies. Ownership may be allocated to: - a business process; - a defined set of activities; - an application; or - a defined set of data. T1.2.3 Acceptable Use of Assets",
+          "control_id": "T1.2.2"
+        },
+        {
+          "document_id": "uae_ia_regulation",
+          "passage_id": "M1.4.3.l",
+          "passage_text": "M1.4.3.l: (Sample Compliance Template may be provided by TRA in this regard).",
+          "control_id": "M1.4.3"
+        }
+      ],
+      "group": 3,
+      "topic": "Compliance",
+      "is_validated": true,
+      "nli_score": 0.5317193269729614
+    },
+    {
+      "question_id": "Q_T1.4.1.guidelines_8044",
+      "question": "What is recommended in this guidance?",
+      "answer": "The following guidelines for the management of removable media should be considered: a. if no longer required, the contents of any re-usable media that are to be removed from the entity should be made unrecoverable; data wiping software could be used for instance. b",
+      "passages": [
+        {
+          "document_id": "uae_ia_regulation",
+          "passage_id": "T1.4.1.guidelines",
+          "passage_text": "Implementation Guidance for Management of: (for information purpose only) Removable media such as optical discs (Blu-ray discs, DVDs, CDs), memory cards (CompactFlash card, Secure Digital card, Memory Stick), floppy disks / zip disks, disk packs, and magnetic tapes, are typically found in scanners, copiers, printers, notebook computers, workstations, network components, and mobile devices. The following guidelines for the management of removable media should be considered: a. if no longer required, the contents of any re-usable media that are to be removed from the entity should be made unrecoverable; data wiping software could be used for instance. b. where necessary and practical, authorization should be required for media removed from the entity and a record of such removals should be kept in order to maintain an audit trail; c. all media should be stored in a safe, secure environment, in accordance with manufacturers’ specifications; d. if data confidentiality or integrity are important considerations, cryptographic techniques should be used to protect data on removable media; e. to mitigate the risk of media degrading while stored data are still needed, the data should be transferred to fresh media before it gets unreadable; f. multiple copies of valuable data should be stored on separate media to further reduce the risk of coincident data damage or loss; g. registration of removable media should be considered to limit the opportunity for data loss; h. prevent content auto-run on laptops, workstations, and servers for removable media; i. removable media drives should only be enabled if there is a business reason for doing so. All procedures and authorization levels should be documented. 101",
+          "control_id": "T1.4.1"
+        }
+      ],
+      "group": 1,
+      "topic": null,
+      "is_validated": true,
+      "nli_score": 0.5309122204780579
+    },
+    {
+      "question_id": "Q_T8.2.8.c_4127",
+      "question": "What must be controlled?",
+      "answer": "T8.2.8.c: develop lessons learned and where applicable identify additional controls to avoid similar incidents in the future",
+      "passages": [
+        {
+          "document_id": "uae_ia_regulation",
+          "passage_id": "T8.2.8.c",
+          "passage_text": "T8.2.8.c: develop lessons learned and where applicable identify additional controls to avoid similar incidents in the future",
+          "control_id": "T8.2.8"
+        }
+      ],
+      "group": 1,
+      "topic": null,
+      "is_validated": true,
+      "nli_score": 0.5322322845458984
+    },
+    {
+      "question_id": "Q_T1.3.1.g_2454",
+      "question": "What are the requirements for T1.3.1.g?",
+      "answer": "T1.3.1.g: sufficient information regarding physical assets (locations, data centers, networks, systems, storage, etc.) used to store, process or transmit information assets is provided",
+      "passages": [
+        {
+          "document_id": "uae_ia_regulation",
+          "passage_id": "T1.3.1.g",
+          "passage_text": "T1.3.1.g: sufficient information regarding physical assets (locations, data centers, networks, systems, storage, etc.) used to store, process or transmit information assets is provided",
+          "control_id": "T1.3.1"
+        }
+      ],
+      "group": 1,
+      "topic": null,
+      "is_validated": true,
+      "nli_score": 0.5328295230865479
+    },
+    {
+      "question_id": "Q_MULTI_Physical_Security_4_8117",
+      "question": "How do these controls work together for Physical Security?",
+      "answer": "From T2.3.4.guidelines: The following guidelines for equipment maintenance should be considered: a. equipment should be maintained in accordance with the supplier’s recommended service intervals and specifications; b. only authorized maintenance personnel should carry out repairs and service equipment; c From T2.3.4.b: T2.3.4.b: document suppliers recommendations for the maintenance of equipment and make them available to maintenance personnel From T2.3.4: The entity shall maintain its equipment. The entity shall: From T1.2.1.guidelines: The lifecycle of information should include creation, processing, storage, transmission, deletion, destruction, protection. Documentation should be done in dedicated or existing inventories as appropriate and includes asset data such as type of asset, location, backup information, related licenses, and its importance / criticality. The asset inventory should be accurate, up to date, consistent, and aligned with other inventories such as inventories in Enterprise Asset Management and Enterprise Resource Planning (ERP)",
+      "passages": [
+        {
+          "document_id": "uae_ia_regulation",
+          "passage_id": "T2.3.4.guidelines",
+          "passage_text": "Implementation Guidance for Equipment Maintenance: (for information purpose only) The following guidelines for equipment maintenance should be considered: a. equipment should be maintained in accordance with the supplier’s recommended service intervals and specifications; b. only authorized maintenance personnel should carry out repairs and service equipment; c. records should be kept of all suspected or actual faults, and of all preventive and corrective maintenance; d. appropriate controls should be implemented when equipment is scheduled for maintenance, taking into account whether this maintenance is performed by personnel on site or external to the entity; where necessary, confidential information should be cleared from the equipment or the maintenance personnel should be sufficiently cleared; e. all maintenance requirements imposed by insurance policies should be complied with; f. before putting equipment back into operation after its maintenance ensure that the equipment has not been tampered with and/or does not malfunction. T2.3.5 Security of Equipment Off-",
+          "control_id": "T2.3.4"
+        },
+        {
+          "document_id": "uae_ia_regulation",
+          "passage_id": "T2.3.4.b",
+          "passage_text": "T2.3.4.b: document suppliers recommendations for the maintenance of equipment and make them available to maintenance personnel",
+          "control_id": "T2.3.4"
+        },
+        {
+          "document_id": "uae_ia_regulation",
+          "passage_id": "T2.3.4",
+          "passage_text": "Equipment Maintenance. The entity shall maintain its equipment. The entity shall:",
+          "control_id": "T2.3.4"
+        },
+        {
+          "document_id": "uae_ia_regulation",
+          "passage_id": "T1.2.1.guidelines",
+          "passage_text": "Implementation Guidance for Inventory of Assets: (for information purpose only) An entity should identify assets relevant in the lifecycle of information and document their importance. The lifecycle of information should include creation, processing, storage, transmission, deletion, destruction, protection. Documentation should be done in dedicated or existing inventories as appropriate and includes asset data such as type of asset, location, backup information, related licenses, and its importance / criticality. The asset inventory should be accurate, up to date, consistent, and aligned with other inventories such as inventories in Enterprise Asset Management and Enterprise Resource Planning (ERP). Here is a list of inventory assets that might be considered including, but not limited to: Hardware - Server - Laptops, workstations, storage, security devices (firewall, IDS / IPS, anti-spam, etc.) Network - Routers, gateways, switches, Wireless Access Points, network segments (e.g. cabling and equipment between two computers), Others (SAT, Laser) People - Chief Technology / Information Director - Information Technology Manager - Database Development & Administration (manager, analyst, architect, administrator etc.) - Programming / Software Engineering (manager, engineer, programmer, tester etc.) Back office Applications - Financial control, customer care, logistics, ERP, CRM, Email Client Facing Applications - E-commerce, Internet Service Provisioning – Static, Public IP addresses, DNS services, Registration and management, Email service provisioning, and Web portals Data and Information - Customer personal data, customer financial data, entity’s employee personal and financial data Facilities - Headquarters, secondary premises, branch offices, offices, and data centers 95",
+          "control_id": "T1.2.1"
+        }
+      ],
+      "group": 4,
+      "topic": "Physical Security",
+      "is_validated": true,
+      "nli_score": 0.5310003161430359
+    },
+    {
+      "question_id": "Q_T4.5.2.e_2564",
+      "question": "What must be ensured according to this control?",
+      "answer": "e: ensure minimum security requirements are implemented in network services",
+      "passages": [
+        {
+          "document_id": "uae_ia_regulation",
+          "passage_id": "T4.5.2.e",
+          "passage_text": "T4.5.2.e: ensure minimum security requirements are implemented in network services",
+          "control_id": "T4.5.2"
+        }
+      ],
+      "group": 1,
+      "topic": null,
+      "is_validated": true,
+      "nli_score": 0.5313171744346619
+    },
+    {
+      "question_id": "Q_T7.6.1.f_2564",
+      "question": "What must be ensured according to this control?",
+      "answer": "f: ensure proper planning to perform changes implementation at the right time",
+      "passages": [
+        {
+          "document_id": "uae_ia_regulation",
+          "passage_id": "T7.6.1.f",
+          "passage_text": "T7.6.1.f: ensure proper planning to perform changes implementation at the right time",
+          "control_id": "T7.6.1"
+        }
+      ],
+      "group": 1,
+      "topic": null,
+      "is_validated": true,
+      "nli_score": 0.5311568975448608
+    },
+    {
+      "question_id": "Q_T2.3.8.b_6544",
+      "question": "What must be established?",
+      "answer": "T2.3.8.b: establish user responsibilities and procedures when leaving equipment unattended",
+      "passages": [
+        {
+          "document_id": "uae_ia_regulation",
+          "passage_id": "T2.3.8.b",
+          "passage_text": "T2.3.8.b: establish user responsibilities and procedures when leaving equipment unattended",
+          "control_id": "T2.3.8"
+        }
+      ],
+      "group": 1,
+      "topic": null,
+      "is_validated": true,
+      "nli_score": 0.5310987830162048
+    },
+    {
+      "question_id": "Q_T5.5.1.b_6810",
+      "question": "What does T5.5.1.b require?",
+      "answer": "T5.5.1.b: identify the systems, applications and services that require user authentication",
+      "passages": [
+        {
+          "document_id": "uae_ia_regulation",
+          "passage_id": "T5.5.1.b",
+          "passage_text": "T5.5.1.b: identify the systems, applications and services that require user authentication",
+          "control_id": "T5.5.1"
+        }
+      ],
+      "group": 1,
+      "topic": null,
+      "is_validated": true,
+      "nli_score": 0.533610999584198
+    },
+    {
+      "question_id": "Q_T4.2.2.b_1706",
+      "question": "What are the specific requirements of T4.2.2.b?",
+      "answer": "T4.2.2.b: identify all security requirements for exchanging information and software with external parties",
+      "passages": [
+        {
+          "document_id": "uae_ia_regulation",
+          "passage_id": "T4.2.2.b",
+          "passage_text": "T4.2.2.b: identify all security requirements for exchanging information and software with external parties",
+          "control_id": "T4.2.2"
+        }
+      ],
+      "group": 1,
+      "topic": null,
+      "is_validated": true,
+      "nli_score": 0.5315974354743958
+    },
+    {
+      "question_id": "Q_M5.2.4.b_8464",
+      "question": "What must be protected?",
+      "answer": "M5.2.4.b: define a process for identifying data with specific compliance requirements regarding protection and privacy",
+      "passages": [
+        {
+          "document_id": "uae_ia_regulation",
+          "passage_id": "M5.2.4.b",
+          "passage_text": "M5.2.4.b: define a process for identifying data with specific compliance requirements regarding protection and privacy",
+          "control_id": "M5.2.4"
+        }
+      ],
+      "group": 1,
+      "topic": null,
+      "is_validated": true,
+      "nli_score": 0.5320926308631897
+    },
+    {
+      "question_id": "Q_T7.4.2.guidelines_8044",
+      "question": "What is recommended in this guidance?",
+      "answer": "the likelihood of compromise, activation, and deactivation dates for keys should be defined so that the keys can only be used for a limited period of time. This period of time should be dependent on the circumstances under which the cryptographic control is being used, and the perceived risk. In addition to securely managing secret and private keys, the authenticity of public keys should also be considered",
+      "passages": [
+        {
+          "document_id": "uae_ia_regulation",
+          "passage_id": "T7.4.2.guidelines",
+          "passage_text": "Implementation Guidance for Key Management: (for information purpose only) All cryptographic keys should be protected against modification, loss, and destruction. In addition, secret and private keys need protection against unauthorized disclosure. Equipment used to generate, store and archive keys should be physically protected. A key management system should be based on an agreed set of standards, procedures, and secure methods for: a. generating keys for different cryptographic systems and different applications; b. generating and obtaining public key certificates; c. distributing keys to intended users, including how keys should be activated when received; d. storing keys, including how authorized users obtain access to keys; e. changing or updating keys including rules on when keys should be changed and how this will be done; f. dealing with compromised keys; g. revoking keys including how keys should be withdrawn or deactivated, e.g. when keys have been compromised or when a user leaves an entity (in which case keys should also be archived); h. recovering keys that are lost or corrupted as part of business continuity management, e.g. for recovery of encrypted information; i. archiving keys, e.g. for information archived or backed up; j. destroying keys; k. logging and auditing of key management related activities. In order to reduce the likelihood of compromise, activation, and deactivation dates for keys should be defined so that the keys can only be used for a limited period of time. This period of time should be dependent on the circumstances under which the cryptographic control is being used, and the perceived risk. In addition to securely managing secret and private keys, the authenticity of public keys should also be considered. This authentication process can be done using public key certificates which are normally issued by a certification authority, which should be a recognized entity with suitable controls and procedures in place to provide the required degree of trust. The contents of service level agreements or contracts with external suppliers of cryptographic services, e.g. with a certification authority, should cover issues of liability, reliability of services and response times for the provision of services. 181 T7.5 Security of System Files Objective To ensure the security of system files Performance Indicator Percentage of systems assessed as fully compliant with the information systems acquisition, development and maintenance policy Automation Guidance Security of system files can only be achieved through the use of automated controls, including but not limited to file permission restrictions, file access log, and file hashing for integrity check. Relevant Threats and • Unauthorized access to system files Vulnerabilities • Corruption of data T7.5.1 Control of Operational",
+          "control_id": "T7.4.2"
+        }
+      ],
+      "group": 1,
+      "topic": null,
+      "is_validated": true,
+      "nli_score": 0.5306128263473511
+    },
+    {
+      "question_id": "Q_MULTI_Risk_Management_4_24",
+      "question": "How do these controls work together for Risk Management?",
+      "answer": "From T8.2.8.guidelines: There should be mechanisms in place to enable the types, volumes, costs, and impacts of information security incidents to be quantified and monitored. The information gained from the evaluation of information security incidents should be used to identify recurring or high impact incidents and inform risk assessment and risk treatment activities. Investigations based on information distributed by an information sharing community should be performed, to reduce the risks of similar incidents and develop a better understanding of the risks facing the community and any related significant information infrastructures From T7.4.2.guidelines: the likelihood of compromise, activation, and deactivation dates for keys should be defined so that the keys can only be used for a limited period of time. This period of time should be dependent on the circumstances under which the cryptographic control is being used, and the perceived risk. In addition to securely managing secret and private keys, the authenticity of public keys should also be considered From M6.2.2.guidelines: The information security controls in place at the entity should be subject to independent internal audits at a pre-defined schedule. This type of auditing should not come as a surprise but should be planned in advance, and the auditor should provide an audit plan of the areas to be audited and people to be met, to ensure the audit does not disrupt the business processes more than necessary (see also the sub-controls above). One of the important concepts of internal audits is the independence of the internal auditor(s) carrying out the audits From M1.2.2.guidelines: These policies should be communicated to users in a form that is relevant, accessible and understandable to the intended reader, and sufficient training and awareness should be put in place to ensure that all users of these policies have understood and are aware of their content. It is also recommended to include the acceptance of compliance with all applicable policies and procedures in the induction process. 37 M1",
+      "passages": [
+        {
+          "document_id": "uae_ia_regulation",
+          "passage_id": "T8.2.8.guidelines",
+          "passage_text": "Implementation Guidance for Learning From Information: (for information purpose only) There should be mechanisms in place to enable the types, volumes, costs, and impacts of information security incidents to be quantified and monitored. The information gained from the evaluation of information security incidents should be used to identify recurring or high impact incidents and inform risk assessment and risk treatment activities. Investigations based on information distributed by an information sharing community should be performed, to reduce the risks of similar incidents and develop a better understanding of the risks facing the community and any related significant information infrastructures. Such investigations could be performed by the community members involved, or by a supporting entity, if one exists. Following reported incidents, post incident reviews should be performed by members of the information sharing community to trigger updates to security incident response plans, related procedures and the business risk profile, and implementation of additional controls even if the member was not affected by the incident in question. Each member should ensure that reported incident responses are assessed, and any lessons or possible improvements to the member’s own processes are identified and acted upon to continuously improve its own response processes. T8.2.9 Collection of Evidence",
+          "control_id": "T8.2.8"
+        },
+        {
+          "document_id": "uae_ia_regulation",
+          "passage_id": "T7.4.2.guidelines",
+          "passage_text": "Implementation Guidance for Key Management: (for information purpose only) All cryptographic keys should be protected against modification, loss, and destruction. In addition, secret and private keys need protection against unauthorized disclosure. Equipment used to generate, store and archive keys should be physically protected. A key management system should be based on an agreed set of standards, procedures, and secure methods for: a. generating keys for different cryptographic systems and different applications; b. generating and obtaining public key certificates; c. distributing keys to intended users, including how keys should be activated when received; d. storing keys, including how authorized users obtain access to keys; e. changing or updating keys including rules on when keys should be changed and how this will be done; f. dealing with compromised keys; g. revoking keys including how keys should be withdrawn or deactivated, e.g. when keys have been compromised or when a user leaves an entity (in which case keys should also be archived); h. recovering keys that are lost or corrupted as part of business continuity management, e.g. for recovery of encrypted information; i. archiving keys, e.g. for information archived or backed up; j. destroying keys; k. logging and auditing of key management related activities. In order to reduce the likelihood of compromise, activation, and deactivation dates for keys should be defined so that the keys can only be used for a limited period of time. This period of time should be dependent on the circumstances under which the cryptographic control is being used, and the perceived risk. In addition to securely managing secret and private keys, the authenticity of public keys should also be considered. This authentication process can be done using public key certificates which are normally issued by a certification authority, which should be a recognized entity with suitable controls and procedures in place to provide the required degree of trust. The contents of service level agreements or contracts with external suppliers of cryptographic services, e.g. with a certification authority, should cover issues of liability, reliability of services and response times for the provision of services. 181 T7.5 Security of System Files Objective To ensure the security of system files Performance Indicator Percentage of systems assessed as fully compliant with the information systems acquisition, development and maintenance policy Automation Guidance Security of system files can only be achieved through the use of automated controls, including but not limited to file permission restrictions, file access log, and file hashing for integrity check. Relevant Threats and • Unauthorized access to system files Vulnerabilities • Corruption of data T7.5.1 Control of Operational",
+          "control_id": "T7.4.2"
+        },
+        {
+          "document_id": "uae_ia_regulation",
+          "passage_id": "M6.2.2.guidelines",
+          "passage_text": "Implementation Guidance for Internal Audits: (for information purpose only) Critical entities shall also take into account any other TRA’s relevant issuances, guidance, and activities in this regard. Internal audits are another important means, in addition to the performance measurements, to assess compliance with the “always applicable” controls of this Regulation, the entity’s own policies and procedures, and the applicable requirements from the entity’s sector, national or regulatory environment. The information security controls in place at the entity should be subject to independent internal audits at a pre-defined schedule. This type of auditing should not come as a surprise but should be planned in advance, and the auditor should provide an audit plan of the areas to be audited and people to be met, to ensure the audit does not disrupt the business processes more than necessary (see also the sub-controls above). One of the important concepts of internal audits is the independence of the internal auditor(s) carrying out the audits. If the necessary independence or expertise cannot be found within the entity, external resources can provide this service. If the entity uses external resources, care should be taken to ensure that the external resource have enough knowledge of the entity to successfully conduct the audit. Another important aspect of the internal audit is the entity’s reaction to its results. The results of the internal audits should be considered by the Information Security Committee (refer to M1.1.2), and it should be ensured that all findings of the audit are corrected in a timely manner. 90 M6.3 Improvement Objective To correct nonconformities with this Regulation and to continually improve the information security program in place Performance Indicator Number of all non-conformities that have been detected and not resolved within the time frame planned Automation Guidance Not applicable Relevant Threats and • Non-compliance with the controls in this Regulation Vulnerabilities • Repeated incidents and inappropriate action to information security problems • No improvements to information security M6.3.1 Corrective Action",
+          "control_id": "M6.2.2"
+        },
+        {
+          "document_id": "uae_ia_regulation",
+          "passage_id": "M1.2.2.guidelines",
+          "passage_text": "Implementation Guidance for Supporting Policies for: (for information purpose only) The information security policy (refer to M1.2.1) should be supported by a set of supporting policies that address specific information security topics. Examples of topics to be addressed are: a. logical access control b. information classification and handling c. physical security d. end user oriented topics such as: - acceptable use of assets - clear desk and clear screen - email and Internet - mobile devices - restrictions on software installations and use - media security e. backup & recovery f. information exchange/sharing and transfer g. malware protection h. patch management i. cryptographic controls j. supplier relationships These policies should be communicated to users in a form that is relevant, accessible and understandable to the intended reader, and sufficient training and awareness should be put in place to ensure that all users of these policies have understood and are aware of their content. It is also recommended to include the acceptance of compliance with all applicable policies and procedures in the induction process. 37 M1.3 Organization of Information Security Objective To establish a management framework to initiate and control the implementation of information security within the entity Percentage of Top Management/Business Owners involved in the Performance Indicator Information Security program. Measure the percentage of strategic information security decisions submitted and reviewed by the top management. Automation Guidance Not applicable Relevant Threats and • Breaches of information security Vulnerabilities • Unawareness of policies and procedures • Non-compliance with information security controls • Insufficient resources M1.3.1 Authorization Process for",
+          "control_id": "M1.2.2"
+        }
+      ],
+      "group": 4,
+      "topic": "Risk Management",
+      "is_validated": true,
+      "nli_score": 0.5308049321174622
+    },
+    {
+      "question_id": "Q_T2.3.8.c_5520",
+      "question": "What must be implemented?",
+      "answer": "T2.3.8.c: configure equipment and systems to implement automatic protections when left unattended",
+      "passages": [
+        {
+          "document_id": "uae_ia_regulation",
+          "passage_id": "T2.3.8.c",
+          "passage_text": "T2.3.8.c: configure equipment and systems to implement automatic protections when left unattended",
+          "control_id": "T2.3.8"
+        }
+      ],
+      "group": 1,
+      "topic": null,
+      "is_validated": true,
+      "nli_score": 0.5330324769020081
+    },
+    {
+      "question_id": "Q_T7.3.1.guidelines_8044",
+      "question": "What is recommended in this guidance?",
+      "answer": "The following guidelines should be considered: a. dual input or other input checks, such as boundary checking or limiting fields to specific ranges of input data, to detect the following errors: 1- out-of-range values; 2- invalid characters in data fields; 3- missing or incomplete data; 4- exceeding upper and lower data volume limits; 5- unauthorized or inconsistent control data; b. periodic review of the content of key fields or data files to confirm their validity and integrity; c",
+      "passages": [
+        {
+          "document_id": "uae_ia_regulation",
+          "passage_id": "T7.3.1.guidelines",
+          "passage_text": "Implementation Guidance for Input Data Validation: (for information purpose only) Checks should be applied to the input of business transactions, standing data (e.g. names and addresses, credit limits, customer reference numbers), and parameter tables (e.g. sales prices, currency conversion rates, tax rates). The following guidelines should be considered: a. dual input or other input checks, such as boundary checking or limiting fields to specific ranges of input data, to detect the following errors: 1- out-of-range values; 2- invalid characters in data fields; 3- missing or incomplete data; 4- exceeding upper and lower data volume limits; 5- unauthorized or inconsistent control data; b. periodic review of the content of key fields or data files to confirm their validity and integrity; c. inspecting hard-copy input documents for any unauthorized changes (all changes to input documents should be authorized); d. procedures for responding to validation errors; e. procedures for testing the plausibility of the input data; f. defining the responsibilities of all personnel involved in the data input process; g. creating a log of the activities involved in the data input process T7.3.2 Control of Internal",
+          "control_id": "T7.3.1"
+        }
+      ],
+      "group": 1,
+      "topic": null,
+      "is_validated": true,
+      "nli_score": 0.531548261642456
+    },
+    {
+      "question_id": "Q_T5.4.2.b_6360",
+      "question": "What are the key obligations under T5.4.2.b?",
+      "answer": "T5.4.2.b: require all remote login (users and administrator",
+      "passages": [
+        {
+          "document_id": "uae_ia_regulation",
+          "passage_id": "T5.4.2.b",
+          "passage_text": "T5.4.2.b: require all remote login (users and administrator",
+          "control_id": "T5.4.2"
+        }
+      ],
+      "group": 1,
+      "topic": null,
+      "is_validated": true,
+      "nli_score": 0.5314869284629822
+    },
+    {
+      "question_id": "Q_T6.1.1_4534",
+      "question": "What must be done according to this requirement?",
+      "answer": "The entity shall establish a third party security policy to facilitate the implementation of the associated controls.",
+      "passages": [
+        {
+          "document_id": "uae_ia_regulation",
+          "passage_id": "T6.1.1",
+          "passage_text": "Third Party. The entity shall establish a third party security policy to facilitate the implementation of the associated controls.",
+          "control_id": "T6.1.1"
+        }
+      ],
+      "group": 1,
+      "topic": null,
+      "is_validated": true,
+      "nli_score": 0.5289149284362793
+    },
+    {
+      "question_id": "Q_M4.4.2.b_8044",
+      "question": "What is recommended in this guidance?",
+      "answer": "b: include in employee termination policy that all employees, contractors and third parties should return of all assets upon termination of employment, contract or agreement",
+      "passages": [
+        {
+          "document_id": "uae_ia_regulation",
+          "passage_id": "M4.4.2.b",
+          "passage_text": "M4.4.2.b: include in employee termination policy that all employees, contractors and third parties should return of all assets upon termination of employment, contract or agreement",
+          "control_id": "M4.4.2"
+        }
+      ],
+      "group": 1,
+      "topic": null,
+      "is_validated": true,
+      "nli_score": 0.5317443609237671
+    },
+    {
+      "question_id": "Q_T8.3.3_4534",
+      "question": "What must be done according to this requirement?",
+      "answer": "The entity shall report observed or suspected information security weaknesses in systems or services.",
+      "passages": [
+        {
+          "document_id": "uae_ia_regulation",
+          "passage_id": "T8.3.3",
+          "passage_text": "Reporting Security. The entity shall report observed or suspected information security weaknesses in systems or services.",
+          "control_id": "T8.3.3"
+        }
+      ],
+      "group": 1,
+      "topic": null,
+      "is_validated": true,
+      "nli_score": 0.5300477147102356
+    },
+    {
+      "question_id": "Q_MULTI_Data_Protection_4_487",
+      "question": "What are the comprehensive requirements for Data Protection?",
+      "answer": "From M5.2.3.guidelines: the use of paper and microfiche should be considered. Where electronic storage media are chosen, procedures to ensure the ability to access data (both media and format readability) throughout the retention period should be included, to safeguard against loss due to future technology change. Data storage systems should be chosen such that required data can be retrieved in an acceptable timeframe and format, depending on the requirements to be fulfilled From M4.2.1.guidelines: the entity should also consider further, more detailed checks. Procedures should define criteria and limitations for verification checks, e.g From T1.2.1.guidelines: The lifecycle of information should include creation, processing, storage, transmission, deletion, destruction, protection. Documentation should be done in dedicated or existing inventories as appropriate and includes asset data such as type of asset, location, backup information, related licenses, and its importance / criticality. The asset inventory should be accurate, up to date, consistent, and aligned with other inventories such as inventories in Enterprise Asset Management and Enterprise Resource Planning (ERP) From M1.2.2.guidelines: These policies should be communicated to users in a form that is relevant, accessible and understandable to the intended reader, and sufficient training and awareness should be put in place to ensure that all users of these policies have understood and are aware of their content. It is also recommended to include the acceptance of compliance with all applicable policies and procedures in the induction process. 37 M1",
+      "passages": [
+        {
+          "document_id": "uae_ia_regulation",
+          "passage_id": "M5.2.3.guidelines",
+          "passage_text": "Implementation Guidance for Protection of: (for information purpose only) Records should be categorized into record types, e.g. accounting records, database records, transaction logs, audit logs, and operational procedures, each with details of retention periods and type of storage media. Any related cryptographic keying material and programs associated with encrypted archives or digital signatures, should also be stored to enable decryption of the records for the length of time the records are retained. Consideration should be given to the possibility of deterioration of media used for storage of records. Storage and handling procedures should be implemented in accordance with manufacturer’s recommendations. For long term storage, the use of paper and microfiche should be considered. Where electronic storage media are chosen, procedures to ensure the ability to access data (both media and format readability) throughout the retention period should be included, to safeguard against loss due to future technology change. Data storage systems should be chosen such that required data can be retrieved in an acceptable timeframe and format, depending on the requirements to be fulfilled. The system of storage and handling should ensure clear identification of records and of their retention period as defined by national or regional legislation or , if applicable. This system should permit appropriate destruction of records after that period if they are not needed by the entity. To meet these record safeguarding objectives, the following steps should be taken within an entity: a. guidelines should be issued on the retention, storage, handling, and disposal of records and information; b. a retention schedule should be drawn up identifying records and the period of time for which they should be retained; c. an inventory of sources of key information should be maintained; d. appropriate controls should be implemented to protect records and information from loss, destruction, and falsification. 79",
+          "control_id": "M5.2.3"
+        },
+        {
+          "document_id": "uae_ia_regulation",
+          "passage_id": "M4.2.1.guidelines",
+          "passage_text": "Implementation Guidance for Screening: (for information purpose only) Verification checks should take into account all relevant privacy, protection of personal data and/or employment based legislation, and should, where permitted, include the following: a. availability of satisfactory character references, e.g. one business and one personal; b. a check (for completeness and accuracy) of the applicant’s curriculum vitae; c. confirmation of claimed academic and professional qualifications; d. independent identity check (passport or similar document); e. more detailed checks, such as credit checks or checks of criminal records. Where a job, either on initial appointment or on promotion, involves the person having access to information systems, and in particular if these are handling sensitive information, e.g. financial information or highly confidential information, the entity should also consider further, more detailed checks. Procedures should define criteria and limitations for verification checks, e.g. who is eligible to screen people, and how, when and why verification checks are carried out. A screening process should also be carried out for contractors, and third party users. Where contractors are provided through an agency the contract with the agency should clearly specify the agency’s responsibilities for screening and the notification procedures they need to follow if screening has not been completed or if the results give cause for doubt or concern. In the same way, the agreement with the third party should clearly specify all responsibilities and notification procedures for screening. Information on all candidates being considered for positions within the entity should be collected and handled in accordance with any appropriate legislation existing in the relevant jurisdiction. Depending on applicable legislation, the candidates should be informed beforehand about the screening activities. 70",
+          "control_id": "M4.2.1"
+        },
+        {
+          "document_id": "uae_ia_regulation",
+          "passage_id": "T1.2.1.guidelines",
+          "passage_text": "Implementation Guidance for Inventory of Assets: (for information purpose only) An entity should identify assets relevant in the lifecycle of information and document their importance. The lifecycle of information should include creation, processing, storage, transmission, deletion, destruction, protection. Documentation should be done in dedicated or existing inventories as appropriate and includes asset data such as type of asset, location, backup information, related licenses, and its importance / criticality. The asset inventory should be accurate, up to date, consistent, and aligned with other inventories such as inventories in Enterprise Asset Management and Enterprise Resource Planning (ERP). Here is a list of inventory assets that might be considered including, but not limited to: Hardware - Server - Laptops, workstations, storage, security devices (firewall, IDS / IPS, anti-spam, etc.) Network - Routers, gateways, switches, Wireless Access Points, network segments (e.g. cabling and equipment between two computers), Others (SAT, Laser) People - Chief Technology / Information Director - Information Technology Manager - Database Development & Administration (manager, analyst, architect, administrator etc.) - Programming / Software Engineering (manager, engineer, programmer, tester etc.) Back office Applications - Financial control, customer care, logistics, ERP, CRM, Email Client Facing Applications - E-commerce, Internet Service Provisioning – Static, Public IP addresses, DNS services, Registration and management, Email service provisioning, and Web portals Data and Information - Customer personal data, customer financial data, entity’s employee personal and financial data Facilities - Headquarters, secondary premises, branch offices, offices, and data centers 95",
+          "control_id": "T1.2.1"
+        },
+        {
+          "document_id": "uae_ia_regulation",
+          "passage_id": "M1.2.2.guidelines",
+          "passage_text": "Implementation Guidance for Supporting Policies for: (for information purpose only) The information security policy (refer to M1.2.1) should be supported by a set of supporting policies that address specific information security topics. Examples of topics to be addressed are: a. logical access control b. information classification and handling c. physical security d. end user oriented topics such as: - acceptable use of assets - clear desk and clear screen - email and Internet - mobile devices - restrictions on software installations and use - media security e. backup & recovery f. information exchange/sharing and transfer g. malware protection h. patch management i. cryptographic controls j. supplier relationships These policies should be communicated to users in a form that is relevant, accessible and understandable to the intended reader, and sufficient training and awareness should be put in place to ensure that all users of these policies have understood and are aware of their content. It is also recommended to include the acceptance of compliance with all applicable policies and procedures in the induction process. 37 M1.3 Organization of Information Security Objective To establish a management framework to initiate and control the implementation of information security within the entity Percentage of Top Management/Business Owners involved in the Performance Indicator Information Security program. Measure the percentage of strategic information security decisions submitted and reviewed by the top management. Automation Guidance Not applicable Relevant Threats and • Breaches of information security Vulnerabilities • Unawareness of policies and procedures • Non-compliance with information security controls • Insufficient resources M1.3.1 Authorization Process for",
+          "control_id": "M1.2.2"
+        }
+      ],
+      "group": 4,
+      "topic": "Data Protection",
+      "is_validated": true,
+      "nli_score": 0.5308184027671814
+    },
+    {
+      "question_id": "Q_T3.2.2.d_2564",
+      "question": "What must be ensured according to this control?",
+      "answer": "d: ensure all relevant stakeholders are aware of and have access to relevant operating procedures",
+      "passages": [
+        {
+          "document_id": "uae_ia_regulation",
+          "passage_id": "T3.2.2.d",
+          "passage_text": "T3.2.2.d: ensure all relevant stakeholders are aware of and have access to relevant operating procedures",
+          "control_id": "T3.2.2"
+        }
+      ],
+      "group": 1,
+      "topic": null,
+      "is_validated": true,
+      "nli_score": 0.531266450881958
+    },
+    {
+      "question_id": "Q_M1.3.5.d_4127",
+      "question": "What must be controlled?",
+      "answer": "M1.3.5.d: identify and adopt proper controls to limit physical and logical access to information assets and entity information systems",
+      "passages": [
+        {
+          "document_id": "uae_ia_regulation",
+          "passage_id": "M1.3.5.d",
+          "passage_text": "M1.3.5.d: identify and adopt proper controls to limit physical and logical access to information assets and entity information systems",
+          "control_id": "M1.3.5"
+        }
+      ],
+      "group": 1,
+      "topic": null,
+      "is_validated": true,
+      "nli_score": 0.5325211882591248
+    },
+    {
+      "question_id": "Q_M1.4.2_4534",
+      "question": "What must be done according to this requirement?",
+      "answer": "The entity shall determine the plan and mechanism for internal and external communications in support of its information security.",
+      "passages": [
+        {
+          "document_id": "uae_ia_regulation",
+          "passage_id": "M1.4.2",
+          "passage_text": "Internal and External. The entity shall determine the plan and mechanism for internal and external communications in support of its information security.",
+          "control_id": "M1.4.2"
+        }
+      ],
+      "group": 1,
+      "topic": null,
+      "is_validated": true,
+      "nli_score": 0.5308701395988464
+    },
+    {
+      "question_id": "Q_T7.2.2.d_7944",
+      "question": "What are the key obligations under T7.2.2.d?",
+      "answer": "T7.2.2.d: design and execute appropriate training programs to meet these requirements",
+      "passages": [
+        {
+          "document_id": "uae_ia_regulation",
+          "passage_id": "T7.2.2.d",
+          "passage_text": "T7.2.2.d: design and execute appropriate training programs to meet these requirements",
+          "control_id": "T7.2.2"
+        }
+      ],
+      "group": 1,
+      "topic": null,
+      "is_validated": true,
+      "nli_score": 0.5320588946342468
+    },
+    {
+      "question_id": "Q_T1.3.3.guidelines_4534",
+      "question": "What must be done according to this requirement?",
+      "answer": "The following items should be considered. a. handling of all media to its indicated classification level of the information stored on it; b",
+      "passages": [
+        {
+          "document_id": "uae_ia_regulation",
+          "passage_id": "T1.3.3.guidelines",
+          "passage_text": "Implementation Guidance for Handling of Information: (for information purpose only) Critical entities shall also take into account any other TRA’s relevant issuances, guidance, and activities in this regard. Procedures should be drawn up for handling, processing, storing and communicating information consistent with its classification. The following items should be considered. a. handling of all media to its indicated classification level of the information stored on it; b. access restrictions to prevent access from unauthorized personnel; c. maintenance of a formal record of the authorized recipients of assets; d. protection of temporary or permanent copies of information to a level consistent with the protection of the original information; storage of IT assets in accordance with manufacturers’ specifications; e. keeping the distribution of assets to a minimum required to support the entity’s needs; f. clear marking of all copies of media for the attention of the authorized recipient. The classification scheme used within the entity may not be equivalent to the schemes used by other entities, even if the names for levels are similar; in addition, information moving between entities may vary in classification depending on its context in each entity, even if their classification schemes are identical. Agreements with other entities that include information sharing should include procedures to identify the classification of that information and to interpret the classification labels from other entities. T1.4 Media Handling Objective To prevent unauthorized disclosure, modification, removal or destruction of assets, and interruption to business activities Performance Indicator Percentage of physical backup/archive media that are fully encrypted Automation Guidance Not applicable Relevant Threats and • Destruction of equipment or media Vulnerabilities • Exploitation of backdoor or command and control channels • Retrieval of recycled or discarded media 100",
+          "control_id": "T1.3.3"
+        }
+      ],
+      "group": 1,
+      "topic": null,
+      "is_validated": true,
+      "nli_score": 0.5314225554466248
+    },
+    {
+      "question_id": "Q_T2.2.3_4534",
+      "question": "What must be done according to this requirement?",
+      "answer": "The entity shall design and apply physical security for offices, rooms, and facilities.",
+      "passages": [
+        {
+          "document_id": "uae_ia_regulation",
+          "passage_id": "T2.2.3",
+          "passage_text": "Securing Offices, Rooms. The entity shall design and apply physical security for offices, rooms, and facilities.",
+          "control_id": "T2.2.3"
+        }
+      ],
+      "group": 1,
+      "topic": null,
+      "is_validated": true,
+      "nli_score": 0.530632495880127
+    },
+    {
+      "question_id": "Q_M1.4.1.f_2564",
+      "question": "What must be ensured according to this control?",
+      "answer": "f: ensure that these persons are competent on the basis of appropriate education, training, or experience;",
+      "passages": [
+        {
+          "document_id": "uae_ia_regulation",
+          "passage_id": "M1.4.1.f",
+          "passage_text": "M1.4.1.f: ensure that these persons are competent on the basis of appropriate education, training, or experience;",
+          "control_id": "M1.4.1"
+        }
+      ],
+      "group": 1,
+      "topic": null,
+      "is_validated": true,
+      "nli_score": 0.5313830375671387
+    },
+    {
+      "question_id": "Q_T3.2.3.c_2564",
+      "question": "What must be ensured according to this control?",
+      "answer": "c: integrate specific process controls to ensure the change management process is executed correctly",
+      "passages": [
+        {
+          "document_id": "uae_ia_regulation",
+          "passage_id": "T3.2.3.c",
+          "passage_text": "T3.2.3.c: integrate specific process controls to ensure the change management process is executed correctly",
+          "control_id": "T3.2.3"
+        }
+      ],
+      "group": 1,
+      "topic": null,
+      "is_validated": true,
+      "nli_score": 0.5318858623504639
+    },
+    {
+      "question_id": "Q_M1.1.3.guidelines_8044",
+      "question": "What is recommended in this guidance?",
+      "answer": "The Information Security Committee should have a leading role for information security in the entity and should be responsible for handling the important information security issues. The members of the Information Security Committee should have a sufficient understanding of information security for directing, monitoring, and completing the necessary tasks. Typical tasks of an Information Security Committee could be: a",
+      "passages": [
+        {
+          "document_id": "uae_ia_regulation",
+          "passage_id": "M1.1.3.guidelines",
+          "passage_text": "Implementation Guidance for Roles and Responsibilities: (for information purpose only) The roles of the “Information Security Manager” and the “Information Security Committee” are important contributors to successful information security, and have therefore been defined as sub-controls. When implementing these sub-controls, please keep in mind that it is important to address these roles, but the name and way of implementation of these roles can be chosen by the entity. The Information Security Committee should have a leading role for information security in the entity and should be responsible for handling the important information security issues. The members of the Information Security Committee should have a sufficient understanding of information security for directing, monitoring, and completing the necessary tasks. Typical tasks of an Information Security Committee could be: a. defining and establishing roles and responsibilities for information security b. monitor the adequacy of resources to maintain and improve information security in the entity and recommend to management the acquiring of additional resources where necessary c. providing input into the development, approval and implementation of information security policies and procedures d. discussing practical issues regarding the implementation of information security policies and procedures and providing feedback from their respective parts of the entity e. ensure that the status of information security risks is up to date and approve the updated risk assessment f. recommending changes to policies and procedures based on security incidents and changes in risks g. deciding the criteria for accepting information security risks and the acceptable levels of risk h. identifying significant trends and changes to information security risks i. review the results of performance measurement activities j. reviewing audit reports and initiating appropriate corrective actions The Information Security Manager should be the focal point for information security within the entity and should be responsible to direct the information security team (if present) and to provide valuable input into the Information Security Committee. 34 Additional responsibilities, such as technical security managers or asset owners can also be identified, as needed to implement information security in the entity. If necessary, roles and responsibilities should also be defined from contractors and third party users, and it should be ensured that all roles and responsibilities are reviewed periodically and kept up to date. It is of particular importance that all people are aware of their responsibilities for information security and that everybody is aware of their duty to report information security incidents and events. M1.2 Information Security Policy Objective To provide a framework and management direction and support for information security in the entity, in accordance with business requirements and relevant laws and . Performance Indicator Percentage of incidents that have been identified within the last month, which are related to non-compliances with any of the existing information security policies and procedures. Automation Guidance Not applicable Relevant Threats and • Breaches of information security Vulnerabilities • Unawareness of policies and procedures • Non-compliance with information security controls 35",
+          "control_id": "M1.1.3"
+        }
+      ],
+      "group": 1,
+      "topic": null,
+      "is_validated": true,
+      "nli_score": 0.5311926007270813
+    },
+    {
+      "question_id": "Q_T2.3.2.d_5260",
+      "question": "What must entities do to comply with T2.3.2.d?",
+      "answer": "T2.3.2.d: provide emergency lighting in case of main power failure",
+      "passages": [
+        {
+          "document_id": "uae_ia_regulation",
+          "passage_id": "T2.3.2.d",
+          "passage_text": "T2.3.2.d: provide emergency lighting in case of main power failure",
+          "control_id": "T2.3.2"
+        }
+      ],
+      "group": 1,
+      "topic": null,
+      "is_validated": true,
+      "nli_score": 0.5308558344841003
+    },
+    {
+      "question_id": "Q_M1.4.1.b_4534",
+      "question": "What must be done according to this requirement?",
+      "answer": "The amount of human and financial resources provided shall be adequate for the work to be carried out for information security",
+      "passages": [
+        {
+          "document_id": "uae_ia_regulation",
+          "passage_id": "M1.4.1.b",
+          "passage_text": "M1.4.1.b: The amount of human and financial resources provided shall be adequate for the work to be carried out for information security",
+          "control_id": "M1.4.1"
+        }
+      ],
+      "group": 1,
+      "topic": null,
+      "is_validated": true,
+      "nli_score": 0.5309734344482422
+    },
+    {
+      "question_id": "Q_T2.3.4.guidelines_8044",
+      "question": "What is recommended in this guidance?",
+      "answer": "The following guidelines for equipment maintenance should be considered: a. equipment should be maintained in accordance with the supplier’s recommended service intervals and specifications; b. only authorized maintenance personnel should carry out repairs and service equipment; c",
+      "passages": [
+        {
+          "document_id": "uae_ia_regulation",
+          "passage_id": "T2.3.4.guidelines",
+          "passage_text": "Implementation Guidance for Equipment Maintenance: (for information purpose only) The following guidelines for equipment maintenance should be considered: a. equipment should be maintained in accordance with the supplier’s recommended service intervals and specifications; b. only authorized maintenance personnel should carry out repairs and service equipment; c. records should be kept of all suspected or actual faults, and of all preventive and corrective maintenance; d. appropriate controls should be implemented when equipment is scheduled for maintenance, taking into account whether this maintenance is performed by personnel on site or external to the entity; where necessary, confidential information should be cleared from the equipment or the maintenance personnel should be sufficiently cleared; e. all maintenance requirements imposed by insurance policies should be complied with; f. before putting equipment back into operation after its maintenance ensure that the equipment has not been tampered with and/or does not malfunction. T2.3.5 Security of Equipment Off-",
+          "control_id": "T2.3.4"
+        }
+      ],
+      "group": 1,
+      "topic": null,
+      "is_validated": true,
+      "nli_score": 0.5318635106086731
+    },
+    {
+      "question_id": "Q_T5.5.1_4534",
+      "question": "What must be done according to this requirement?",
+      "answer": "The entity shall control access to systems and applications using a secure log-on and log-off procedure.",
+      "passages": [
+        {
+          "document_id": "uae_ia_regulation",
+          "passage_id": "T5.5.1",
+          "passage_text": "Secure Log-On Procedures. The entity shall control access to systems and applications using a secure log-on and log-off procedure.",
+          "control_id": "T5.5.1"
+        }
+      ],
+      "group": 1,
+      "topic": null,
+      "is_validated": true,
+      "nli_score": 0.5311288237571716
+    },
+    {
+      "question_id": "Q_M1.1.3.d_6544",
+      "question": "What must be established?",
+      "answer": "M1.1.3.d: an Information Security Manager is appointed to take overall responsibility for the establishment, implementation, maintenance and continual improvement of information security",
+      "passages": [
+        {
+          "document_id": "uae_ia_regulation",
+          "passage_id": "M1.1.3.d",
+          "passage_text": "M1.1.3.d: an Information Security Manager is appointed to take overall responsibility for the establishment, implementation, maintenance and continual improvement of information security",
+          "control_id": "M1.1.3"
+        }
+      ],
+      "group": 1,
+      "topic": null,
+      "is_validated": true,
+      "nli_score": 0.5326322317123413
+    },
+    {
+      "question_id": "Q_T9.1.1.g_1504",
+      "question": "What are the requirements for T9.1.1.g?",
+      "answer": "T9.1.1.g: be read and acknowledged formally by all users",
+      "passages": [
+        {
+          "document_id": "uae_ia_regulation",
+          "passage_id": "T9.1.1.g",
+          "passage_text": "T9.1.1.g: be read and acknowledged formally by all users",
+          "control_id": "T9.1.1"
+        }
+      ],
+      "group": 1,
+      "topic": null,
+      "is_validated": true,
+      "nli_score": 0.5323006510734558
+    },
+    {
+      "question_id": "Q_T4.5.1.f_4269",
+      "question": "What must be monitored?",
+      "answer": "T4.5.1.f: continually monitor the in-place controls for efficiency and effectiveness",
+      "passages": [
+        {
+          "document_id": "uae_ia_regulation",
+          "passage_id": "T4.5.1.f",
+          "passage_text": "T4.5.1.f: continually monitor the in-place controls for efficiency and effectiveness",
+          "control_id": "T4.5.1"
+        }
+      ],
+      "group": 1,
+      "topic": null,
+      "is_validated": true,
+      "nli_score": 0.5322128534317017
+    },
+    {
+      "question_id": "Q_T1.2.4.guidelines_8044",
+      "question": "What is recommended in this guidance?",
+      "answer": "Implementation Guidance for Acceptable Bring Your Own: (for information purpose only) All employees, contractors and third party users should follow rules for the acceptable use of information and assets associated with BYOD arrangements, including: a. rules for phone, electronic mail and Internet usages; b. rules for protection of the device from unauthorized access (e",
+      "passages": [
+        {
+          "document_id": "uae_ia_regulation",
+          "passage_id": "T1.2.4.guidelines",
+          "passage_text": "Implementation Guidance for Acceptable Bring Your Own: (for information purpose only) All employees, contractors and third party users should follow rules for the acceptable use of information and assets associated with BYOD arrangements, including: a. rules for phone, electronic mail and Internet usages; b. rules for protection of the device from unauthorized access (e.g. pin code); c. rules for storing and / or encrypting personal and entity information; d. clear separation of personal data and entity’s data. It is recommended to ensure a complete split of personal and entity information by technical means. T1.3 Information Classification Objective To ensure that information receives an appropriate level of protection Performance Indicator Percentage of information assets that are classification based on it sensitivity, versus those that are not Automation Guidance Not applicable Relevant Threats and • Tampering with sensitive information with no appropriate protection Vulnerabilities • Unauthorized access to sensitive information 97",
+          "control_id": "T1.2.4"
+        }
+      ],
+      "group": 1,
+      "topic": null,
+      "is_validated": true,
+      "nli_score": 0.5317239165306091
+    },
+    {
+      "question_id": "Q_M2.1.1_4534",
+      "question": "What must be done according to this requirement?",
+      "answer": "The entity shall establish a formal information security risk management policy.",
+      "passages": [
+        {
+          "document_id": "uae_ia_regulation",
+          "passage_id": "M2.1.1",
+          "passage_text": "Information Security Risk. The entity shall establish a formal information security risk management policy.",
+          "control_id": "M2.1.1"
+        }
+      ],
+      "group": 1,
+      "topic": null,
+      "is_validated": true,
+      "nli_score": 0.5283637642860413
+    },
+    {
+      "question_id": "Q_M1.1.3.c_4534",
+      "question": "What must be done according to this requirement?",
+      "answer": "the performance of information security to top management Top management shall ensure that",
+      "passages": [
+        {
+          "document_id": "uae_ia_regulation",
+          "passage_id": "M1.1.3.c",
+          "passage_text": "M1.1.3.c: reporting on the performance of information security to top management Top management shall ensure that",
+          "control_id": "M1.1.3"
+        }
+      ],
+      "group": 1,
+      "topic": null,
+      "is_validated": true,
+      "nli_score": 0.5308551788330078
+    },
+    {
+      "question_id": "Q_M6.2.2.guidelines_4534",
+      "question": "What must be done according to this requirement?",
+      "answer": "The information security controls in place at the entity should be subject to independent internal audits at a pre-defined schedule. This type of auditing should not come as a surprise but should be planned in advance, and the auditor should provide an audit plan of the areas to be audited and people to be met, to ensure the audit does not disrupt the business processes more than necessary (see also the sub-controls above). One of the important concepts of internal audits is the independence of the internal auditor(s) carrying out the audits",
+      "passages": [
+        {
+          "document_id": "uae_ia_regulation",
+          "passage_id": "M6.2.2.guidelines",
+          "passage_text": "Implementation Guidance for Internal Audits: (for information purpose only) Critical entities shall also take into account any other TRA’s relevant issuances, guidance, and activities in this regard. Internal audits are another important means, in addition to the performance measurements, to assess compliance with the “always applicable” controls of this Regulation, the entity’s own policies and procedures, and the applicable requirements from the entity’s sector, national or regulatory environment. The information security controls in place at the entity should be subject to independent internal audits at a pre-defined schedule. This type of auditing should not come as a surprise but should be planned in advance, and the auditor should provide an audit plan of the areas to be audited and people to be met, to ensure the audit does not disrupt the business processes more than necessary (see also the sub-controls above). One of the important concepts of internal audits is the independence of the internal auditor(s) carrying out the audits. If the necessary independence or expertise cannot be found within the entity, external resources can provide this service. If the entity uses external resources, care should be taken to ensure that the external resource have enough knowledge of the entity to successfully conduct the audit. Another important aspect of the internal audit is the entity’s reaction to its results. The results of the internal audits should be considered by the Information Security Committee (refer to M1.1.2), and it should be ensured that all findings of the audit are corrected in a timely manner. 90 M6.3 Improvement Objective To correct nonconformities with this Regulation and to continually improve the information security program in place Performance Indicator Number of all non-conformities that have been detected and not resolved within the time frame planned Automation Guidance Not applicable Relevant Threats and • Non-compliance with the controls in this Regulation Vulnerabilities • Repeated incidents and inappropriate action to information security problems • No improvements to information security M6.3.1 Corrective Action",
+          "control_id": "M6.2.2"
+        }
+      ],
+      "group": 1,
+      "topic": null,
+      "is_validated": true,
+      "nli_score": 0.531556248664856
+    },
+    {
+      "question_id": "Q_T3.3.2.c_4312",
+      "question": "What are the specific requirements of T3.3.2.c?",
+      "answer": "T3.3.2.c: define the acceptable parameters for each requirement",
+      "passages": [
+        {
+          "document_id": "uae_ia_regulation",
+          "passage_id": "T3.3.2.c",
+          "passage_text": "T3.3.2.c: define the acceptable parameters for each requirement",
+          "control_id": "T3.3.2"
+        }
+      ],
+      "group": 1,
+      "topic": null,
+      "is_validated": true,
+      "nli_score": 0.5303800106048584
+    }
+  ]
+}

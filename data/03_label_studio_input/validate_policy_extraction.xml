@@ -1,0 +1,32 @@
+<View>
+  <!-- Invisible region so controls have a valid target (avoids validation error) -->
+  <View style="display: none;"><Text name="task" value=" "/></View>
+
+  <Header name="header_title" value="Policy Passage Extraction - Validation and Correction" size="4"/>
+  <Text name="intro_text" value="Review the extracted passage below. Edit text if needed, then set status and save." style="font-style: italic; margin-bottom: 8px;"/>
+
+  <View style="background: #e8f4f8; padding: 10px; margin-bottom: 10px;">
+    <Text name="policy_id" value="Policy ID: $policy_id" style="font-weight: bold;"/>
+    <Text name="policy_name" value="Policy: $policy_name"/>
+    <Text name="passage_id" value="Passage ID: $passage_id"/>
+    <Text name="section" value="Section: $section"/>
+    <Text name="heading" value="Heading: $heading"/>
+
+    <Header name="header_passage" value="Extracted Passage Text:" size="5"/>
+    <TextArea name="passage_text" value="$passage_text"
+              toName="task" rows="12" editable="true"
+              placeholder="Review and correct the extracted passage text..."/>
+  </View>
+
+  <Header name="header_validation" value="Validation Status" size="4"/>
+  <Choices name="validation_status" toName="task" required="true" showInLine="true">
+    <Choice value="Complete" alias="Complete" background="#d4edda"/>
+    <Choice value="Needs Correction" alias="Needs Fix" background="#fff3cd"/>
+    <Choice value="Missing Content" alias="Missing" background="#f8d7da"/>
+  </Choices>
+
+  <Header name="header_notes" value="Notes / Corrections" size="5"/>
+  <TextArea name="correction_notes" toName="task"
+            placeholder="Add notes about what was corrected or what's missing..."
+            rows="3" editable="true"/>
+</View>

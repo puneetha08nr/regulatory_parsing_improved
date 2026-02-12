@@ -1,0 +1,306 @@
+[
+  {
+    "internal_policy_section": "Section INTRODUCTION",
+    "uae_ia_control": "Not Mapped",
+    "iso27001_mapping": "Not Mapped",
+    "compliance_status": "Not Addressed",
+    "evidence_text": null,
+    "mapping_date": "2026-01-23"
+  },
+  {
+    "internal_policy_section": "Section PURPOSE",
+    "uae_ia_control": "Not Mapped",
+    "iso27001_mapping": "Not Mapped",
+    "compliance_status": "Not Addressed",
+    "evidence_text": null,
+    "mapping_date": "2026-01-23"
+  },
+  {
+    "internal_policy_section": "Section Establish asset register: Development and maintenance of an asset register.",
+    "uae_ia_control": "Not Mapped",
+    "iso27001_mapping": "Not Mapped",
+    "compliance_status": "Not Addressed",
+    "evidence_text": null,
+    "mapping_date": "2026-01-23"
+  },
+  {
+    "internal_policy_section": "Section SCOPE",
+    "uae_ia_control": "Not Mapped",
+    "iso27001_mapping": "Not Mapped",
+    "compliance_status": "Not Addressed",
+    "evidence_text": null,
+    "mapping_date": "2026-01-23"
+  },
+  {
+    "internal_policy_section": "Section STATEMENT",
+    "uae_ia_control": "Not Mapped",
+    "iso27001_mapping": "Not Mapped",
+    "compliance_status": "Not Addressed",
+    "evidence_text": null,
+    "mapping_date": "2026-01-23"
+  },
+  {
+    "internal_policy_section": "Section Asset Inventory",
+    "uae_ia_control": "T1.2.1",
+    "iso27001_mapping": "A.5.23",
+    "compliance_status": "Fully Addressed",
+    "evidence_text": "<CLIENT> shall: Identify assets relevant in the information lifecycle (creation, processing, storage, transmission, deletion, destruction, and protection) and document their importance. Ensure that all organizational assets are considered for the asset management process using a centralized and efficient approach. Ensure that documentation is done in dedicated asset inventories as appropriate. The asset inventory at a minimum shall contain: Type of asset. Asset ownership. Location. Backup inform",
+    "mapping_date": "2026-01-23"
+  },
+  {
+    "internal_policy_section": "Section Asset Inventory",
+    "uae_ia_control": "T1.2.1",
+    "iso27001_mapping": "A.5.9",
+    "compliance_status": "Fully Addressed",
+    "evidence_text": "<CLIENT> shall: Identify assets relevant in the information lifecycle (creation, processing, storage, transmission, deletion, destruction, and protection) and document their importance. Ensure that all organizational assets are considered for the asset management process using a centralized and efficient approach. Ensure that documentation is done in dedicated asset inventories as appropriate. The asset inventory at a minimum shall contain: Type of asset. Asset ownership. Location. Backup inform",
+    "mapping_date": "2026-01-23"
+  },
+  {
+    "internal_policy_section": "Section Asset Inventory",
+    "uae_ia_control": "T1.2.2",
+    "iso27001_mapping": "A.5.23",
+    "compliance_status": "Fully Addressed",
+    "evidence_text": "<CLIENT> shall: Identify assets relevant in the information lifecycle (creation, processing, storage, transmission, deletion, destruction, and protection) and document their importance. Ensure that all organizational assets are considered for the asset management process using a centralized and efficient approach. Ensure that documentation is done in dedicated asset inventories as appropriate. The asset inventory at a minimum shall contain: Type of asset. Asset ownership. Location. Backup inform",
+    "mapping_date": "2026-01-23"
+  },
+  {
+    "internal_policy_section": "Section Asset Inventory",
+    "uae_ia_control": "T1.2.2",
+    "iso27001_mapping": "A.5.9",
+    "compliance_status": "Fully Addressed",
+    "evidence_text": "<CLIENT> shall: Identify assets relevant in the information lifecycle (creation, processing, storage, transmission, deletion, destruction, and protection) and document their importance. Ensure that all organizational assets are considered for the asset management process using a centralized and efficient approach. Ensure that documentation is done in dedicated asset inventories as appropriate. The asset inventory at a minimum shall contain: Type of asset. Asset ownership. Location. Backup inform",
+    "mapping_date": "2026-01-23"
+  },
+  {
+    "internal_policy_section": "Section Asset Ownership",
+    "uae_ia_control": "T1.2.2",
+    "iso27001_mapping": "A.5.15",
+    "compliance_status": "Fully Addressed",
+    "evidence_text": "<CLIENT> shall: Establish and implement a process to ensure timely assignment of asset ownership. Assign/reassign ownership when assets are created or transferred. Assign ownership to individuals having approved management responsibility across the asset lifecycle. Asset owners shall have the following responsibilities at a minimum: Perform inventory of the applicable assets. Classify and protect the assets. Define and periodically review access restrictions and classifications to important asse",
+    "mapping_date": "2026-01-23"
+  },
+  {
+    "internal_policy_section": "Section Asset Ownership",
+    "uae_ia_control": "T1.2.2",
+    "iso27001_mapping": "A.5.16",
+    "compliance_status": "Fully Addressed",
+    "evidence_text": "<CLIENT> shall: Establish and implement a process to ensure timely assignment of asset ownership. Assign/reassign ownership when assets are created or transferred. Assign ownership to individuals having approved management responsibility across the asset lifecycle. Asset owners shall have the following responsibilities at a minimum: Perform inventory of the applicable assets. Classify and protect the assets. Define and periodically review access restrictions and classifications to important asse",
+    "mapping_date": "2026-01-23"
+  },
+  {
+    "internal_policy_section": "Section Asset Ownership",
+    "uae_ia_control": "T1.2.2",
+    "iso27001_mapping": "A.5.17",
+    "compliance_status": "Fully Addressed",
+    "evidence_text": "<CLIENT> shall: Establish and implement a process to ensure timely assignment of asset ownership. Assign/reassign ownership when assets are created or transferred. Assign ownership to individuals having approved management responsibility across the asset lifecycle. Asset owners shall have the following responsibilities at a minimum: Perform inventory of the applicable assets. Classify and protect the assets. Define and periodically review access restrictions and classifications to important asse",
+    "mapping_date": "2026-01-23"
+  },
+  {
+    "internal_policy_section": "Section Asset Ownership",
+    "uae_ia_control": "T1.2.2",
+    "iso27001_mapping": "A.5.9",
+    "compliance_status": "Fully Addressed",
+    "evidence_text": "<CLIENT> shall: Establish and implement a process to ensure timely assignment of asset ownership. Assign/reassign ownership when assets are created or transferred. Assign ownership to individuals having approved management responsibility across the asset lifecycle. Asset owners shall have the following responsibilities at a minimum: Perform inventory of the applicable assets. Classify and protect the assets. Define and periodically review access restrictions and classifications to important asse",
+    "mapping_date": "2026-01-23"
+  },
+  {
+    "internal_policy_section": "Section Asset Ownership",
+    "uae_ia_control": "T5.1.1",
+    "iso27001_mapping": "A.5.15",
+    "compliance_status": "Fully Addressed",
+    "evidence_text": "<CLIENT> shall: Establish and implement a process to ensure timely assignment of asset ownership. Assign/reassign ownership when assets are created or transferred. Assign ownership to individuals having approved management responsibility across the asset lifecycle. Asset owners shall have the following responsibilities at a minimum: Perform inventory of the applicable assets. Classify and protect the assets. Define and periodically review access restrictions and classifications to important asse",
+    "mapping_date": "2026-01-23"
+  },
+  {
+    "internal_policy_section": "Section Asset Ownership",
+    "uae_ia_control": "T5.1.1",
+    "iso27001_mapping": "A.5.16",
+    "compliance_status": "Fully Addressed",
+    "evidence_text": "<CLIENT> shall: Establish and implement a process to ensure timely assignment of asset ownership. Assign/reassign ownership when assets are created or transferred. Assign ownership to individuals having approved management responsibility across the asset lifecycle. Asset owners shall have the following responsibilities at a minimum: Perform inventory of the applicable assets. Classify and protect the assets. Define and periodically review access restrictions and classifications to important asse",
+    "mapping_date": "2026-01-23"
+  },
+  {
+    "internal_policy_section": "Section Asset Ownership",
+    "uae_ia_control": "T5.1.1",
+    "iso27001_mapping": "A.5.17",
+    "compliance_status": "Fully Addressed",
+    "evidence_text": "<CLIENT> shall: Establish and implement a process to ensure timely assignment of asset ownership. Assign/reassign ownership when assets are created or transferred. Assign ownership to individuals having approved management responsibility across the asset lifecycle. Asset owners shall have the following responsibilities at a minimum: Perform inventory of the applicable assets. Classify and protect the assets. Define and periodically review access restrictions and classifications to important asse",
+    "mapping_date": "2026-01-23"
+  },
+  {
+    "internal_policy_section": "Section Asset Ownership",
+    "uae_ia_control": "T5.1.1",
+    "iso27001_mapping": "A.5.9",
+    "compliance_status": "Fully Addressed",
+    "evidence_text": "<CLIENT> shall: Establish and implement a process to ensure timely assignment of asset ownership. Assign/reassign ownership when assets are created or transferred. Assign ownership to individuals having approved management responsibility across the asset lifecycle. Asset owners shall have the following responsibilities at a minimum: Perform inventory of the applicable assets. Classify and protect the assets. Define and periodically review access restrictions and classifications to important asse",
+    "mapping_date": "2026-01-23"
+  },
+  {
+    "internal_policy_section": "Section Asset Ownership",
+    "uae_ia_control": "T5.2.1",
+    "iso27001_mapping": "A.5.15",
+    "compliance_status": "Fully Addressed",
+    "evidence_text": "<CLIENT> shall: Establish and implement a process to ensure timely assignment of asset ownership. Assign/reassign ownership when assets are created or transferred. Assign ownership to individuals having approved management responsibility across the asset lifecycle. Asset owners shall have the following responsibilities at a minimum: Perform inventory of the applicable assets. Classify and protect the assets. Define and periodically review access restrictions and classifications to important asse",
+    "mapping_date": "2026-01-23"
+  },
+  {
+    "internal_policy_section": "Section Asset Ownership",
+    "uae_ia_control": "T5.2.1",
+    "iso27001_mapping": "A.5.16",
+    "compliance_status": "Fully Addressed",
+    "evidence_text": "<CLIENT> shall: Establish and implement a process to ensure timely assignment of asset ownership. Assign/reassign ownership when assets are created or transferred. Assign ownership to individuals having approved management responsibility across the asset lifecycle. Asset owners shall have the following responsibilities at a minimum: Perform inventory of the applicable assets. Classify and protect the assets. Define and periodically review access restrictions and classifications to important asse",
+    "mapping_date": "2026-01-23"
+  },
+  {
+    "internal_policy_section": "Section Asset Ownership",
+    "uae_ia_control": "T5.2.1",
+    "iso27001_mapping": "A.5.17",
+    "compliance_status": "Fully Addressed",
+    "evidence_text": "<CLIENT> shall: Establish and implement a process to ensure timely assignment of asset ownership. Assign/reassign ownership when assets are created or transferred. Assign ownership to individuals having approved management responsibility across the asset lifecycle. Asset owners shall have the following responsibilities at a minimum: Perform inventory of the applicable assets. Classify and protect the assets. Define and periodically review access restrictions and classifications to important asse",
+    "mapping_date": "2026-01-23"
+  },
+  {
+    "internal_policy_section": "Section Asset Ownership",
+    "uae_ia_control": "T5.2.1",
+    "iso27001_mapping": "A.5.9",
+    "compliance_status": "Fully Addressed",
+    "evidence_text": "<CLIENT> shall: Establish and implement a process to ensure timely assignment of asset ownership. Assign/reassign ownership when assets are created or transferred. Assign ownership to individuals having approved management responsibility across the asset lifecycle. Asset owners shall have the following responsibilities at a minimum: Perform inventory of the applicable assets. Classify and protect the assets. Define and periodically review access restrictions and classifications to important asse",
+    "mapping_date": "2026-01-23"
+  },
+  {
+    "internal_policy_section": "Section Asset Labelling",
+    "uae_ia_control": "T1.3.2",
+    "iso27001_mapping": "A.5.13",
+    "compliance_status": "Fully Addressed",
+    "evidence_text": "<CLIENT> shall: Label information assets in physical and electronic formats according to the established information classification scheme as per the <CLIENT> Data Security Policy (<CLIENT>-ORG-IMS-POL-003). Develop detailed procedures to give guidance on where and how labels are attached in consideration of how the information is accessed or the assets are handled depending on the types of media. Ensure that output from systems carry an appropriate classification label aligned to <CLIENT> Data ",
+    "mapping_date": "2026-01-23"
+  },
+  {
+    "internal_policy_section": "Section Asset Handling",
+    "uae_ia_control": "T1.3.1",
+    "iso27001_mapping": "A.5.13",
+    "compliance_status": "Fully Addressed",
+    "evidence_text": "<CLIENT> shall: Develop procedures for handling, processing, storing, and communicating information consistent with its classification level. The following items should be considered, at a minimum: Access restrictions supporting the protection requirements for each level of classification. Protection of temporary or permanent copies of information to a level consistent with the protection of the original information. Storage of IT assets in accordance with manufacturers' specifications. Safeguar",
+    "mapping_date": "2026-01-23"
+  },
+  {
+    "internal_policy_section": "Section Asset Handling",
+    "uae_ia_control": "T1.3.2",
+    "iso27001_mapping": "A.5.13",
+    "compliance_status": "Fully Addressed",
+    "evidence_text": "<CLIENT> shall: Develop procedures for handling, processing, storing, and communicating information consistent with its classification level. The following items should be considered, at a minimum: Access restrictions supporting the protection requirements for each level of classification. Protection of temporary or permanent copies of information to a level consistent with the protection of the original information. Storage of IT assets in accordance with manufacturers' specifications. Safeguar",
+    "mapping_date": "2026-01-23"
+  },
+  {
+    "internal_policy_section": "Section Removable Media Management",
+    "uae_ia_control": "T1.4.1",
+    "iso27001_mapping": "A.5.10",
+    "compliance_status": "Fully Addressed",
+    "evidence_text": "<CLIENT> shall: Ensure that all information is stored only in organization authorized media. Ensure that contents of any re-usable media that are to be removed from the organization is made unrecoverable when no longer required. Ensure that appropriate authorization is obtained for media removed from the organization and a record of such removals is kept in order to maintain an audit trail. Store all media in a safe and secure environment in accordance with manufacturers' specifications. Apply c",
+    "mapping_date": "2026-01-23"
+  },
+  {
+    "internal_policy_section": "Section Removable Media Management",
+    "uae_ia_control": "T1.4.1",
+    "iso27001_mapping": "A.5.17",
+    "compliance_status": "Fully Addressed",
+    "evidence_text": "<CLIENT> shall: Ensure that all information is stored only in organization authorized media. Ensure that contents of any re-usable media that are to be removed from the organization is made unrecoverable when no longer required. Ensure that appropriate authorization is obtained for media removed from the organization and a record of such removals is kept in order to maintain an audit trail. Store all media in a safe and secure environment in accordance with manufacturers' specifications. Apply c",
+    "mapping_date": "2026-01-23"
+  },
+  {
+    "internal_policy_section": "Section Removable Media Management",
+    "uae_ia_control": "T1.4.1",
+    "iso27001_mapping": "A.5.23",
+    "compliance_status": "Fully Addressed",
+    "evidence_text": "<CLIENT> shall: Ensure that all information is stored only in organization authorized media. Ensure that contents of any re-usable media that are to be removed from the organization is made unrecoverable when no longer required. Ensure that appropriate authorization is obtained for media removed from the organization and a record of such removals is kept in order to maintain an audit trail. Store all media in a safe and secure environment in accordance with manufacturers' specifications. Apply c",
+    "mapping_date": "2026-01-23"
+  },
+  {
+    "internal_policy_section": "Section Removable Media Management",
+    "uae_ia_control": "T1.4.1",
+    "iso27001_mapping": "A.5.24",
+    "compliance_status": "Fully Addressed",
+    "evidence_text": "<CLIENT> shall: Ensure that all information is stored only in organization authorized media. Ensure that contents of any re-usable media that are to be removed from the organization is made unrecoverable when no longer required. Ensure that appropriate authorization is obtained for media removed from the organization and a record of such removals is kept in order to maintain an audit trail. Store all media in a safe and secure environment in accordance with manufacturers' specifications. Apply c",
+    "mapping_date": "2026-01-23"
+  },
+  {
+    "internal_policy_section": "Section Removable Media Management",
+    "uae_ia_control": "T1.4.2",
+    "iso27001_mapping": "A.5.10",
+    "compliance_status": "Fully Addressed",
+    "evidence_text": "<CLIENT> shall: Ensure that all information is stored only in organization authorized media. Ensure that contents of any re-usable media that are to be removed from the organization is made unrecoverable when no longer required. Ensure that appropriate authorization is obtained for media removed from the organization and a record of such removals is kept in order to maintain an audit trail. Store all media in a safe and secure environment in accordance with manufacturers' specifications. Apply c",
+    "mapping_date": "2026-01-23"
+  },
+  {
+    "internal_policy_section": "Section Removable Media Management",
+    "uae_ia_control": "T1.4.2",
+    "iso27001_mapping": "A.5.17",
+    "compliance_status": "Fully Addressed",
+    "evidence_text": "<CLIENT> shall: Ensure that all information is stored only in organization authorized media. Ensure that contents of any re-usable media that are to be removed from the organization is made unrecoverable when no longer required. Ensure that appropriate authorization is obtained for media removed from the organization and a record of such removals is kept in order to maintain an audit trail. Store all media in a safe and secure environment in accordance with manufacturers' specifications. Apply c",
+    "mapping_date": "2026-01-23"
+  },
+  {
+    "internal_policy_section": "Section Removable Media Management",
+    "uae_ia_control": "T1.4.2",
+    "iso27001_mapping": "A.5.23",
+    "compliance_status": "Fully Addressed",
+    "evidence_text": "<CLIENT> shall: Ensure that all information is stored only in organization authorized media. Ensure that contents of any re-usable media that are to be removed from the organization is made unrecoverable when no longer required. Ensure that appropriate authorization is obtained for media removed from the organization and a record of such removals is kept in order to maintain an audit trail. Store all media in a safe and secure environment in accordance with manufacturers' specifications. Apply c",
+    "mapping_date": "2026-01-23"
+  },
+  {
+    "internal_policy_section": "Section Removable Media Management",
+    "uae_ia_control": "T1.4.2",
+    "iso27001_mapping": "A.5.24",
+    "compliance_status": "Fully Addressed",
+    "evidence_text": "<CLIENT> shall: Ensure that all information is stored only in organization authorized media. Ensure that contents of any re-usable media that are to be removed from the organization is made unrecoverable when no longer required. Ensure that appropriate authorization is obtained for media removed from the organization and a record of such removals is kept in order to maintain an audit trail. Store all media in a safe and secure environment in accordance with manufacturers' specifications. Apply c",
+    "mapping_date": "2026-01-23"
+  },
+  {
+    "internal_policy_section": "Section Disposal of Media",
+    "uae_ia_control": "Not Mapped",
+    "iso27001_mapping": "Not Mapped",
+    "compliance_status": "Not Addressed",
+    "evidence_text": null,
+    "mapping_date": "2026-01-23"
+  },
+  {
+    "internal_policy_section": "Section Physical Media Transfer",
+    "uae_ia_control": "Not Mapped",
+    "iso27001_mapping": "Not Mapped",
+    "compliance_status": "Not Addressed",
+    "evidence_text": null,
+    "mapping_date": "2026-01-23"
+  },
+  {
+    "internal_policy_section": "Section Acceptable Use of Assets",
+    "uae_ia_control": "Not Mapped",
+    "iso27001_mapping": "Not Mapped",
+    "compliance_status": "Not Addressed",
+    "evidence_text": null,
+    "mapping_date": "2026-01-23"
+  },
+  {
+    "internal_policy_section": "Section Bring Your Own Device (BYOD) Arrangements",
+    "uae_ia_control": "Not Mapped",
+    "iso27001_mapping": "Not Mapped",
+    "compliance_status": "Not Addressed",
+    "evidence_text": null,
+    "mapping_date": "2026-01-23"
+  },
+  {
+    "internal_policy_section": "Section ENFORCEMENT AND EXCEPTIONS",
+    "uae_ia_control": "Not Mapped",
+    "iso27001_mapping": "Not Mapped",
+    "compliance_status": "Not Addressed",
+    "evidence_text": null,
+    "mapping_date": "2026-01-23"
+  },
+  {
+    "internal_policy_section": "Section MONITORING AND REVIEW",
+    "uae_ia_control": "Not Mapped",
+    "iso27001_mapping": "Not Mapped",
+    "compliance_status": "Not Addressed",
+    "evidence_text": null,
+    "mapping_date": "2026-01-23"
+  }
+]

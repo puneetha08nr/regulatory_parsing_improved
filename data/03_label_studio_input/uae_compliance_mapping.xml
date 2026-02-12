@@ -1,0 +1,27 @@
+<View>
+  <Header value="Regulatory Control"/>
+  <View>
+    <Text name="section_title" value="Section: $section_id"/>
+    <Text name="control_id" value="Control ID: $control_id"/>
+    <Header value="Requirement:" size="4"/>
+    <Text name="control_text" value="$text"/>
+    <Text name="applicability" value="Applicability: $applicability_levels"/>
+  </View>
+
+  <Header value="Evidence Mapping"/>
+  <Text name="instruction" value="Paste the relevant policy text:"/>
+  <TextArea name="evidence_snippet" toName="control_text" placeholder="Paste policy text here..." rows="4" editable="true"/>
+
+  <Header value="Source Document"/>
+  <TextArea name="source_document" toName="control_text" placeholder="e.g. Access_Policy.pdf" rows="1"/>
+
+  <Header value="Verdict"/>
+  <Choices name="compliance_status" toName="control_text" showInLine="true">
+    <Choice value="Fully Addressed" alias="Full"/>
+    <Choice value="Partially Addressed" alias="Partial"/>
+    <Choice value="Not Addressed" alias="None"/>
+  </Choices>
+
+  <Header value="Gap Analysis"/>
+  <TextArea name="gap_reasoning" toName="control_text" placeholder="Explain the gap..." rows="2"/>
+</View>

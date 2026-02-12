@@ -1,0 +1,38 @@
+[
+  {
+    "id": "POL-001",
+    "name": "Access Control Policy",
+    "text": "The organization shall implement multi-factor authentication for all systems handling sensitive information. Access rights shall be reviewed quarterly and documented. User accounts shall be deactivated within 24 hours of employee termination.",
+    "section": "Section 4.2 - Access Management",
+    "metadata": {
+      "version": "1.0",
+      "last_updated": "2024-01-01",
+      "owner": "IT Security",
+      "category": "Technical Controls"
+    }
+  },
+  {
+    "id": "POL-002",
+    "name": "Information Security Policy",
+    "text": "Top management shall establish and maintain an information security policy that defines the organization's approach to information security. The policy shall be reviewed annually and communicated to all employees.",
+    "section": "Section 2.1 - Governance",
+    "metadata": {
+      "version": "1.0",
+      "last_updated": "2024-01-01",
+      "owner": "CISO",
+      "category": "Management Controls"
+    }
+  },
+  {
+    "id": "POL-003",
+    "name": "Risk Management Policy",
+    "text": "The organization shall conduct regular risk assessments to identify threats and vulnerabilities. Risk treatment plans shall be documented and approved by management. Residual risks shall be accepted or mitigated.",
+    "section": "Section 3.1 - Risk Assessment",
+    "metadata": {
+      "version": "1.0",
+      "last_updated": "2024-01-01",
+      "owner": "Risk Management",
+      "category": "Management Controls"
+    }
+  }
+]

@@ -1,0 +1,472 @@
+[
+  {
+    "data": {
+      "source_id": "7e91ded1",
+      "control_id": "M3.1.1",
+      "domain": "General",
+      "title": ", M4.1.1...",
+      "description": ", M4.1.1 O PUBLIC / pL DEPARTMENTOFHEALTH Page 24 of 116 HR 2 Prior to Employment",
+      "policy_context": "Search Policy..."
+    }
+  },
+  {
+    "data": {
+      "source_id": "0da50b98",
+      "control_id": "M4.2.1",
+      "domain": "General",
+      "title": ", M4.2.2...",
+      "description": ", M4.2.2 O PUBLIC / pL DEPARTMENTOFHEALTH Page 25 of 116 HR 3 During Employment O PUBLIC / pL DEPARTMENTOFHEALTH Page 26 of 116 DEPARTMENTOFHEALTH",
+      "policy_context": "Search Policy..."
+    }
+  },
+  {
+    "data": {
+      "source_id": "337b4466",
+      "control_id": "M3.2.1",
+      "domain": "General",
+      "title": ", M3.3.1, M3.3.2, M3.3.3, M3.3.4, M3.3.5, M3.4.1, ...",
+      "description": ", M3.3.1, M3.3.2, M3.3.3, M3.3.4, M3.3.5, M3.4.1, , M4.3.1, M4.3.2 O PUBLIC / pL Page 27 of 116 HR 4 Termination or Change of Employment and Role",
+      "policy_context": "Search Policy..."
+    }
+  },
+  {
+    "data": {
+      "source_id": "d66a57bc",
+      "control_id": "M4.4.1",
+      "domain": "General",
+      "title": ", M4.4.2, M4.4.3...",
+      "description": ", M4.4.2, M4.4.3 O PUBLIC / pL DEPARTMENTOFHEALTH Page 28 of 116 2. Asset Management Asset  Management  is  an  essential  part  of  effective  healthcare  Information  Security  management. Healthcare entities are witnessing an influx of new asset classes that are very different from the ones they used to deal with. Innovative care delivery mandates that healthcare entities and professionals deal with a large number of relatively small, mobile and sophisticated pieces of equipment/devices, and to keep them running at all times  as they  are  often critical  to  the  patient's  health,  safety  and  wellbeing.  In  order  to  be effective  and  supportive  of  organizational  business  and  security  objectives, healthcare  entities  shall maintain an updated version of asset inventory, available to relevant management, business and support stakeholders. Information  assets  includes  information/data  in  all  its  form,  as  well  as  the  underlying  application, technology, and physical infrastructure to support its processing, storing, communicating and sharing. The following are considered information assets: \uf0b7 Information (in physical and digital forms) \uf0b7 Medical device and equipment \uf0b7 Applications and Software \uf0b7 Information System \uf0b7 Physical Infrastructure (Data centre, access barrios, electrical facilities, HVAC systems, etc) \uf0b7 Human resources (in support of care delivery) Objective: The  regulatory  structure  surrounding  nearly  every  facet  of  the  healthcare  operations,  from  protecting patient  data  and  improving  health  outcomes,  to  reporting  on  compliance-related  issues,  necessitates healthcare entities to monitor and record the use of information assets. Supporting or dependent entity policy references: Data Retention and Disposal Policy Physical and Environment Policy Portable Device Security Policy Acceptable Usage Policy O PUBLIC / pL DEPARTMENTOFHEALTH Page 29 of 116 AM 1 Asset Management Policy",
+      "policy_context": "Search Policy..."
+    }
+  },
+  {
+    "data": {
+      "source_id": "4e2cc627",
+      "control_id": "T1.1.1",
+      "domain": "General",
+      "title": "...",
+      "description": " O PUBLIC / pL DEPARTMENTOFHEALTH Page 30 of 116 AM 2 Management of Assets DEPARTMENTOFHEALTH O PUBLIC / pL Page 31 of 116 DEPARTMENTOFHEALTH",
+      "policy_context": "Search Policy..."
+    }
+  },
+  {
+    "data": {
+      "source_id": "74037643",
+      "control_id": "T1.2.1",
+      "domain": "General",
+      "title": ", T1.2.2, T1.2.3 & T1.2.4...",
+      "description": ", T1.2.2, T1.2.3 & T1.2.4 O PUBLIC / pL Page 32 of 116 AM 3 Asset Classification and Labelling",
+      "policy_context": "Search Policy..."
+    }
+  },
+  {
+    "data": {
+      "source_id": "a95843be",
+      "control_id": "T1.3.1",
+      "domain": "General",
+      "title": ", T1.3.2...",
+      "description": ", T1.3.2 O PUBLIC / pL DEPARTMENTOFHEALTH Page 33 of 116 AM 4 Asset Handling O PUBLIC / pL DEPARTMENTOFHEALTH Page 34 of 116 DEPARTMENTOFHEALTH",
+      "policy_context": "Search Policy..."
+    }
+  },
+  {
+    "data": {
+      "source_id": "d152299a",
+      "control_id": "T1.3.3",
+      "domain": "General",
+      "title": ", T1.4.1, T2.3.7...",
+      "description": ", T1.4.1, T2.3.7 O PUBLIC / pL Page 35 of 116 AM 5 Asset Disposal",
+      "policy_context": "Search Policy..."
+    }
+  },
+  {
+    "data": {
+      "source_id": "a2f6572d",
+      "control_id": "T1.4.2",
+      "domain": "General",
+      "title": ", T2.3.6...",
+      "description": ", T2.3.6 O PUBLIC / pL DEPARTMENTOFHEALTH Page 36 of 116 3. Physical and Environmental Security Information  and  information  processing equipment(s)/facilities  has  greater  dependence  on  physical environment  to  achieve  business  objectives.  Physical  environment  and  its  security  are  foundational elements  to  define  secure  data  processing,  data  storage,  data  communication/sharing,  data  hosting  and data disposal.   Physical and environmental security programs and efforts define the various measures or controls  that  protect  healthcare  entities  from  loss  of  connectivity,  availability  of  information  processing facilities, storage (backup and archival) equipment(s)/facilities and medical equipment's/devices caused by theft,  fire,  flood,  intentional  destruction,  unintentional  damage,  mechanical  failure,  power  failure,    etc. Physical  security  measures  shall  be  adequate  to  deal  with  foreseeable  threats  and  should  be  tested periodically for their effectiveness. The following aspects of physical and environmental security shall be considered; \uf0b7 Physical protection of data center and information processing equipment(s)/facilities \uf0b7 Physical entry control for secure areas \uf0b7 Medical devices/equipment(s) protection \uf0b7 Heating, ventilation, and air conditioning of critical areas and work places \uf0b7 Supporting mechanical and electrical equipment's \uf0b7 Surveillance of critical areas and work places \uf0b7 Security and protection of physical archives \uf0b7 Fire and environmental protection \uf0b7 Visitor management Objective: To ensure that information assets receive adequate physical and environmental protection, and to prevent or  reduce  probabilities  of  physical  and  environmental  control/security  compromises  (loss,  damage,  theft, interference, etc.) Supporting or dependent entity policy references: Clear Desk and Clear Screen Policy O PUBLIC / pL DEPARTMENTOFHEALTH Page 37 of 116 PE 1 Physical and Environmental Security Policy",
+      "policy_context": "Search Policy..."
+    }
+  },
+  {
+    "data": {
+      "source_id": "f94e08f6",
+      "control_id": "T2.1.1",
+      "domain": "General",
+      "title": ", T2.3.5...",
+      "description": ", T2.3.5 O PUBLIC / pL DEPARTMENTOFHEALTH Page 38 of 116 PE 2 Secure Areas O PUBLIC / pL DEPARTMENTOFHEALTH Page 39 of 116 DEPARTMENTOFHEALTH O PUBLIC / pL Page 40 of 116 DEPARTMENTOFHEALTH",
+      "policy_context": "Search Policy..."
+    }
+  },
+  {
+    "data": {
+      "source_id": "80212c61",
+      "control_id": "T2.2.1",
+      "domain": "General",
+      "title": ", T2.2.2, T2.2.3, T2.2.4, T2.2.5, T2.2.6...",
+      "description": ", T2.2.2, T2.2.3, T2.2.4, T2.2.5, T2.2.6 O PUBLIC / pL Page 41 of 116 PE 3 Equipment Security O PUBLIC / pL DEPARTMENTOFHEALTH Page 42 of 116 DEPARTMENTOFHEALTH",
+      "policy_context": "Search Policy..."
+    }
+  },
+  {
+    "data": {
+      "source_id": "bcaf22d8",
+      "control_id": "T2.3.1",
+      "domain": "General",
+      "title": ", T2.3.2, T2.3.3, T2.3.4, T2.3.5, T2.3.7, T2.3.8, ...",
+      "description": ", T2.3.2, T2.3.3, T2.3.4, T2.3.5, T2.3.7, T2.3.8, T2.3.9 O PUBLIC / pL Page 43 of 116 4. Access Control Healthcare entities ability to provide authorized access and its commitment to control unauthorized access to information and information processing systems under its custody are key elements to demonstrate the entities' objective interest to protect information that belongs to: \uf0b7 Its customers, \uf0b7 Patients of the Abu Dhabi healthcare ecosystem, \uf0b7 The Government, and \uf0b7 The healthcare entities themselves. The  influence  of  information  on  the  delivery  of  healthcare  and  related  services  and  the  increased dependence on application and technology, demands that the avenues and provisions of access are strictly controlled. It  is  essential  that  healthcare  entities  understand  the  responsibilities  concerning  access management and  are  accountable  for  the  consequences  arising  from  breaches  or  disclosures  from  their respective  areas  of  authority.  Healthcare  entities  shall  define  policy  mandates  and  process  mechanisms essential to secure and protect their information and information systems.  Healthcare entities shall  take specific care when personal health information is being accessed and used s, and shall define access criteria that conforms to the following facts: \uf0b7 A healthcare relationship exists between the user and the data subject (the subject of care whose personal health information is being accessed), \uf0b7 The user is carrying out an activity on behalf of the data subject, \uf0b7 There is a need for specific data to support care delivery or continuum of care. Healthcare  entity's  management  shall  be  aware  of  the  risk  environment  and  outcomes  of  unauthorized access, and are accountable for any and all consequences and impact on: \uf0b7 Abu Dhabi Government \uf0b7 Abu Dhabi Healthcare-ecosystem or Health Sector \uf0b7 Patients concerned \uf0b7 Healthcare entity itself O PUBLIC / pL DEPARTMENTOFHEALTH Page 44 of 116 Objective: To ensure access to information and information systems are controlled, and to minimize probabilities of information leakage, tampering, loss and system compromises. Supporting or dependent entity policy references: Clear Desk and Clear Screen Policy Network Access Control Policy Password Management Policy Information Access Management as part of Administrative Safeguards of HIPAA Facility Access Control as part of Physical Safeguards of HIPAA Access Control as part of Technical Safeguards of HIPAA The  level  of  applicability  of  above-mentioned  policies  will  vary  depending  on  the  individual  healthcare entity. O PUBLIC / pL DEPARTMENTOFHEALTH Page 45 of 116 AC 1 Access Control Policy",
+      "policy_context": "Search Policy..."
+    }
+  },
+  {
+    "data": {
+      "source_id": "f015b0ce",
+      "control_id": "T5.1.1",
+      "domain": "General",
+      "title": "...",
+      "description": " O PUBLIC / pL DEPARTMENTOFHEALTH Page 46 of 116 AC 2 User Access Management O PUBLIC / pL DEPARTMENTOFHEALTH Page 47 of 116 DEPARTMENTOFHEALTH",
+      "policy_context": "Search Policy..."
+    }
+  },
+  {
+    "data": {
+      "source_id": "c8586457",
+      "control_id": "T5.2.1",
+      "domain": "General",
+      "title": ", T5.2.2, T5.2.3,  T5.3.1, T5.5.3...",
+      "description": ", T5.2.2, T5.2.3,  T5.3.1, T5.5.3 O PUBLIC / pL Page 48 of 116 AC 3 Equipment and Devices Access Control",
+      "policy_context": "Search Policy..."
+    }
+  },
+  {
+    "data": {
+      "source_id": "81a2f62e",
+      "control_id": "T5.7.1",
+      "domain": "General",
+      "title": ", T5.7.2...",
+      "description": ", T5.7.2 O PUBLIC / pL DEPARTMENTOFHEALTH Page 49 of 116 AC 4 Access Reviews",
+      "policy_context": "Search Policy..."
+    }
+  },
+  {
+    "data": {
+      "source_id": "ddac0d3e",
+      "control_id": "T5.2.4",
+      "domain": "General",
+      "title": "...",
+      "description": " O PUBLIC / pL DEPARTMENTOFHEALTH Page 50 of 116 AC 5 Network Access Control O PUBLIC / pL DEPARTMENTOFHEALTH Page 51 of 116 DEPARTMENTOFHEALTH",
+      "policy_context": "Search Policy..."
+    }
+  },
+  {
+    "data": {
+      "source_id": "8af0db8a",
+      "control_id": "T5.4.1",
+      "domain": "General",
+      "title": ", T5.4.2, T5.4.3, T5.4.4, T5.4.5, T5.4.6, T5.4.7...",
+      "description": ", T5.4.2, T5.4.3, T5.4.4, T5.4.5, T5.4.6, T5.4.7 O PUBLIC / pL Page 52 of 116 AC 6 Operating System Access Control",
+      "policy_context": "Search Policy..."
+    }
+  },
+  {
+    "data": {
+      "source_id": "97aa579c",
+      "control_id": "T5.5.1",
+      "domain": "General",
+      "title": ", T5.5.2, T5.5.4...",
+      "description": ", T5.5.2, T5.5.4 O PUBLIC / pL DEPARTMENTOFHEALTH Page 53 of 116 AC 7 Application and Information Access Control",
+      "policy_context": "Search Policy..."
+    }
+  },
+  {
+    "data": {
+      "source_id": "d98fd47a",
+      "control_id": "T5.6.1",
+      "domain": "General",
+      "title": ", T5.6.2, T5.6.3...",
+      "description": ", T5.6.2, T5.6.3 O PUBLIC / pL DEPARTMENTOFHEALTH Page 54 of 116 5. Operations Management Healthcare entities continual effort to sustain and improve risk environment demands the need for effective management of operational activities in support of information handling, processing, sharing and storage. Operations management aims to establish and/or strengthen healthcare entities processes and efforts to improve  and  enhance  control  environment.  Objective  outcome  of  effective  operations  management includes, but is not limited to: \uf0b7 Improved security and reduce probabilities of compromise \uf0b7 Reduced errors \uf0b7 Controlled unauthorized activities \uf0b7 Regulated efforts \uf0b7 Increased efficiency \uf0b7 Reduced security incidents The  objectivity of  providing  healthcare  services  shall  consider  security  and  safety  of  assets  (data, technology,  and  application)  in  support  of  service  delivery  and  healthcare  entities  shall  demonstrate commitment in defining and controlling of operational activities concerning service delivery. Objective: To  ensure  that  activities  concerning  support  and  maintenance  of  data,  technology,  and  application  are controlled and carried out in a standardized manner to reduce probabilities of errors and compromises, and to increase efficiency and security. Supporting or dependent entity policy references: Change Management Policy Capacity Management Policy System Acceptance Policy Quality Management Policy Backup Policy Monitoring Policy O PUBLIC / pL DEPARTMENTOFHEALTH Page 55 of 116 OM 1 Operations Management Policy",
+      "policy_context": "Search Policy..."
+    }
+  },
+  {
+    "data": {
+      "source_id": "a2244c7f",
+      "control_id": "T3.1.1",
+      "domain": "General",
+      "title": "...",
+      "description": " O PUBLIC / pL DEPARTMENTOFHEALTH Page 56 of 116 OM 2 Operational Procedures DEPARTMENTOFHEALTH O PUBLIC / pL Page 57 of 116 DEPARTMENTOFHEALTH",
+      "policy_context": "Search Policy..."
+    }
+  },
+  {
+    "data": {
+      "source_id": "06c27917",
+      "control_id": "T3.2.1",
+      "domain": "General",
+      "title": ", T3.2.2, T3.2.3, T3.2.4, T.3.2.5...",
+      "description": ", T3.2.2, T3.2.3, T3.2.4, T.3.2.5 O PUBLIC / pL Page 58 of 116 OM 3 Planning and Acceptance",
+      "policy_context": "Search Policy..."
+    }
+  },
+  {
+    "data": {
+      "source_id": "027ad0b8",
+      "control_id": "T3.3.1",
+      "domain": "General",
+      "title": ", T3.3.2...",
+      "description": ", T3.3.2 O PUBLIC / pL DEPARTMENTOFHEALTH Page 59 of 116 OM 4 Malware Protection",
+      "policy_context": "Search Policy..."
+    }
+  },
+  {
+    "data": {
+      "source_id": "e60f7a95",
+      "control_id": "T3.4.1",
+      "domain": "General",
+      "title": "...",
+      "description": " O PUBLIC / pL DEPARTMENTOFHEALTH Page 60 of 116 OM 5 Backup and Archival",
+      "policy_context": "Search Policy..."
+    }
+  },
+  {
+    "data": {
+      "source_id": "c2a74833",
+      "control_id": "T3.5.1",
+      "domain": "General",
+      "title": "...",
+      "description": " O PUBLIC / pL DEPARTMENTOFHEALTH Page 61 of 116 OM 6 Monitoring and Logging O PUBLIC / pL DEPARTMENTOFHEALTH Page 62 of 116 DEPARTMENTOFHEALTH PUBLIC / pL Page 63 of 116 DEPARTMENTOFHEALTH",
+      "policy_context": "Search Policy..."
+    }
+  },
+  {
+    "data": {
+      "source_id": "6368346e",
+      "control_id": "T3.6.1",
+      "domain": "General",
+      "title": ", T3.6.2, T3.6.3, T3.6.4, T3.6.5, T3.6.6, T3.6.7, ...",
+      "description": ", T3.6.2, T3.6.3, T3.6.4, T3.6.5, T3.6.6, T3.6.7, T7.6.4, T7.7.1 O PUBLIC / pL Page 64 of 116 OM 7 Security Assessment and Vulnerability Management",
+      "policy_context": "Search Policy..."
+    }
+  },
+  {
+    "data": {
+      "source_id": "92e4af3f",
+      "control_id": "T7.7.1",
+      "domain": "General",
+      "title": "...",
+      "description": " PUBLIC / roL DEPARTMENTOFHEALTH Page 65 of 116 6. Communications Abu  Dhabi  Government's  vision  towards  modernization  and  enhancement  of  society and  services necessitates  sharing  of  appropriate  information  with  eligible  stakeholders  within  and  across  entities. Stakeholder utilization of information from within and across entity has influenced decisions, and improved outcomes. It is essential that the communication between various information processing components are provisioned through controlled communication process and channel. It is essential healthcare entities define criteria,  rules  and  controls  that  secure  communication  processes,  components,  interfaces,  channels  and stakeholders  to  securely  aid  human  to  machine,  machine  to  machine,  machine  to  human  and  human  to human communication to facilitate information exchange. Risk environment of the connected world demands that an entity's management be conscious of the current risk  environment  concerning  communication  and  information  exchange,  and  that  it  defines  proactive measures that shall: \uf0b7 Secure entities communication infrastructures \uf0b7 Ensure information exchange are controlled through formal exchange agreements and controls \uf0b7 Ensure information is delivered to right stakeholders or information processing components \uf0b7 Minimize probabilities of unauthorized access Objective: To  ensure  information  exchanged  between  authorized  resources  are  secured  within  and  across  entity boundaries. Supporting or dependent entity policy references: Communication & Operation Management Policy Cryptography Policy Network Access Policy Wireless Access Control Policy Cloud Security Policy O PUBLIC / pL DEPARTMENTOFHEALTH Page 66 of 116 CM 1 Communications Policy",
+      "policy_context": "Search Policy..."
+    }
+  },
+  {
+    "data": {
+      "source_id": "c851dbbe",
+      "control_id": "T4.1.1",
+      "domain": "General",
+      "title": "...",
+      "description": " O PUBLIC / pL DEPARTMENTOFHEALTH Page 67 of 116 CM 2 Information Exchange O PUBLIC / pL DEPARTMENTOFHEALTH Page 68 of 116 DEPARTMENTOFHEALTH O PUBLIC / pL Page 69 of 116 DEPARTMENTOFHEALTH",
+      "policy_context": "Search Policy..."
+    }
+  },
+  {
+    "data": {
+      "source_id": "5de30d1c",
+      "control_id": "T4.2.1",
+      "domain": "General",
+      "title": ", T4.2.2, T4.2.3, T4.2.4, T4.2.5...",
+      "description": ", T4.2.2, T4.2.3, T4.2.4, T4.2.5 O PUBLIC / pL Page 70 of 116 CM 3 Electronic Commerce",
+      "policy_context": "Search Policy..."
+    }
+  },
+  {
+    "data": {
+      "source_id": "9d7192c6",
+      "control_id": "T4.3.1",
+      "domain": "General",
+      "title": ", T4.3.2, T4.3.3...",
+      "description": ", T4.3.2, T4.3.3 PUBLIC / roL DEPARTMENTOFHEALTH Page 71 of 116 CM 4 Information Sharing Platforms",
+      "policy_context": "Search Policy..."
+    }
+  },
+  {
+    "data": {
+      "source_id": "02dd928e",
+      "control_id": "T4.4.1",
+      "domain": "General",
+      "title": ", T4.4.2. T.6.3.1...",
+      "description": ", T4.4.2. T.6.3.1 PUBLIC / roL DEPARTMENTOFHEALTH Page 72 of 116 CM 5 Network Security Management O PUBLIC / pL DEPARTMENTOFHEALTH Page 73 of 116 DEPARTMENTOFHEALTH",
+      "policy_context": "Search Policy..."
+    }
+  },
+  {
+    "data": {
+      "source_id": "05b1e650",
+      "control_id": "T4.5.1",
+      "domain": "General",
+      "title": ", T4.5.2, T4.5.3, T4.5.4...",
+      "description": ", T4.5.2, T4.5.3, T4.5.4 O PUBLIC / pL Page 74 of 116 7. Health Information and Security Health  information  has  become  fundamental  to  the  provision  of  healthcare  services.  Healthcare  entities generate and utilize healthcare information and establish relations with individuals to give the information a persistent value during its lifecycle of usage and references. Privacy  of  health  information  is  a  patient's  basic  right,  by  law  and  principles,  and  shall  be  protected. Healthcare entities shall demonstrate care, prudence and determination in protecting healthcare information under their custody, and uphold the public trust placed on them. It is a government mandate that healthcare information be considered as highly classified data element, to be protected through its lifecycle. Healthcare entities shall establish control measures that shall prevent and minimize probabilities of: \uf0b7 Unauthorized access and/or usage of healthcare data \uf0b7 Unauthorized or accidental modification of healthcare data \uf0b7 Leakage of healthcare data \uf0b7 Loss of healthcare data Healthcare entities shall consider critical: \uf0b7 One's physical or mental health conditions or state, \uf0b7 Clinical decisions and healthcare services provided \uf0b7 Payments concerning  healthcare services provided or envisioned Objective: To  ensure healthcare information are suitably protected  to uphold  public trust and  reliability on governmental interest and values, and to sustain entity reputation in the provisioning of healthcare services. Supporting or dependent entity policy references: Information Security Management Policy Acceptable Usage Policy Compliance Policy Disciplinary Actions Policy O PUBLIC / pL DEPARTMENTOFHEALTH Page 75 of 116 HI 1 Health Information Protection Policy",
+      "policy_context": "Search Policy..."
+    }
+  },
+  {
+    "data": {
+      "source_id": "42a4a626",
+      "control_id": "M5.2.4",
+      "domain": "General",
+      "title": "...",
+      "description": " O PUBLIC / pL DEPARTMENTOFHEALTH Page 76 of 116 HI 2 Health Information Privacy and Protection",
+      "policy_context": "Search Policy..."
+    }
+  },
+  {
+    "data": {
+      "source_id": "471e210a",
+      "control_id": "M5.2.4",
+      "domain": "General",
+      "title": "...",
+      "description": " O PUBLIC / pL DEPARTMENTOFHEALTH Page 77 of 116 8. Third Party Security Operational efficiency, time to deliver and cost saving aspects compels entity management to utilize third party services or resources to complement service delivery. Involvement of third parties in the process of care delivery and associated areas are inevitable and needs stronger control measures to secure entity assets and information. Healthcare entity management shall be cognizant of the fact that a significant portion of privacy breaches originates with organizations that contracted activities and services to third parties. Adequate due diligence to  activities  and  services  to  be  contracted,  and  a  proactive  identification  and  definition  of  control environment  to  secure  privacy  and  information  assets  would  minimize  damages  and  benefit  healthcare entities  and  the  government.  Entities  that  entrust  access  to  third  parties  acknowledge  and  share responsibilities for the breaches. A healthcare entity's management shall be aware of the risk environment related to third party services and resources, establish a suitable framework for third party management and define a control environment that shall: \uf0b7 Reduce probabilities of information leakage and loss \uf0b7 Secure information assets \uf0b7 Minimize unauthorized access and usage \uf0b7 Uphold organizational and governmental reputation \uf0b7 Ensure service continuity Objective: To ensure third party services are controlled through suitable procedural obligations and contractual terms to secure privacy and protect information assets. Supporting or dependent entity policy references: Access Control Policy Operations Management Policy Procurement Policy Supply Chain Management Policy Compliance Policy PUBLIC / pL DEPARTMENTOFHEALTH Page 78 of 116 TP 1 Third Party Security Policy",
+      "policy_context": "Search Policy..."
+    }
+  },
+  {
+    "data": {
+      "source_id": "5b5152b1",
+      "control_id": "T6.1.1",
+      "domain": "General",
+      "title": "...",
+      "description": " O PUBLIC / pL DEPARTMENTOFHEALTH Page 79 of 116 TP 2 Third Party Service Delivery and Monitoring O PUBLIC / pL DEPARTMENTOFHEALTH Page 80 of 116 DEPARTMENTOFHEALTH",
+      "policy_context": "Search Policy..."
+    }
+  },
+  {
+    "data": {
+      "source_id": "b15fe072",
+      "control_id": "T6.2.1",
+      "domain": "General",
+      "title": ", T6.2.2, T6.2.3...",
+      "description": ", T6.2.2, T6.2.3 O PUBLIC / pL Page 81 of 116 DEPARTMENTOFHEALTH 9. Information Systems Acquisition, Development, and Maintenance The demand for systems and applications to host and process information to deliver business values needs careful assessment of lifecycle aspects. Wide options and cost effective delivery models attract entities to determine easy to use and cost effective solutions, ignoring security aspects in order to quickly deliver on business values. Healthcare  entity  management  shall  identify  the  relevant  health  information  systems  and  applications,related risk factors that impact the entities ability to provide reliable services, reputation and reliability of the solution/product or vendor. Healthcare entity management should be aware of the fact that the solution or the product selected will probably introduce new risks that shall managed through their lifecycles. Based on detailed assessment and entity risk appetite, the healthcare  entity's  management shall  choose from one of the below options: \uf0b7 In-house development, maintenance and support of application and systems \uf0b7 Outsource the development, maintenance and support of application and systems \uf0b7 Out-of-shelf product deployment, maintained and support by the vendor \uf0b7 Cloud-based application utilization \uf0b7 Hybrid approach for the development, maintenance and support requirements Objective: To emphasis the need for healthcare entities to adopt secure system and software development lifecycle management  processes  and  to  ensure  that  systems  and  applications  in  use  are  securely  managed  and supported  to  avoid  misuse  of  privileges  and  authority,  reduce  probabilities  of  information,  system  and application compromises, and to uphold entity and Abu Dhabi government's reputational value and public trust. Supporting or dependent entity policy references: Access Control Policy Operations Management Policy Communications Policy Procurement Policy Third party security policy Compliance Policy PUBLIC / pL Page 82 of 116 DEPARTMENTOFHEALTH SA 1 Information Systems Acquisition, Development, and Maintenance Policy",
+      "policy_context": "Search Policy..."
+    }
+  },
+  {
+    "data": {
+      "source_id": "b456f18b",
+      "control_id": "T7.1.1",
+      "domain": "General",
+      "title": ", T7.4.1...",
+      "description": ", T7.4.1 O PUBLIC / pL Page 83 of 116 SA 2 Security Requirement of Information Systems and Applications",
+      "policy_context": "Search Policy..."
+    }
+  },
+  {
+    "data": {
+      "source_id": "24eceaa8",
+      "control_id": "T7.2.1",
+      "domain": "General",
+      "title": ", T7.2.2...",
+      "description": ", T7.2.2 O PUBLIC / pL DEPARTMENTOFHEALTH Page 84 of 116 SA 3 Correct Processing in Applications O PUBLIC / pL DEPARTMENTOFHEALTH Page 85 of 116 DEPARTMENTOFHEALTH",
+      "policy_context": "Search Policy..."
+    }
+  },
+  {
+    "data": {
+      "source_id": "07a4ac8a",
+      "control_id": "T7.3.1",
+      "domain": "General",
+      "title": ", T7.3.2, T7.3.3, T7.3.4...",
+      "description": ", T7.3.2, T7.3.3, T7.3.4 O PUBLIC / pL Page 86 of 116 SA 4 Cryptographic Controls",
+      "policy_context": "Search Policy..."
+    }
+  },
+  {
+    "data": {
+      "source_id": "1775592d",
+      "control_id": "T7.4.2",
+      "domain": "General",
+      "title": "...",
+      "description": " O PUBLIC / pL DEPARTMENTOFHEALTH Page 87 of 116 SA 5 Security of System Files",
+      "policy_context": "Search Policy..."
+    }
+  },
+  {
+    "data": {
+      "source_id": "1de692bf",
+      "control_id": "T7.5.1",
+      "domain": "General",
+      "title": ", T7.5.2, T7.5.3...",
+      "description": ", T7.5.2, T7.5.3 O PUBLIC / pL DEPARTMENTOFHEALTH Page 88 of 116 SA 6 Outsourced Software Development",
+      "policy_context": "Search Policy..."
+    }
+  },
+  {
+    "data": {
+      "source_id": "8c342465",
+      "control_id": "T7.6.5",
+      "domain": "General",
+      "title": "...",
+      "description": " O PUBLIC / pL DEPARTMENTOFHEALTH Page 89 of 116 SA 7 Supply Chain Management PUBLIC / pL DEPARTMENTOFHEALTH Page 90 of 116 DEPARTMENTOFHEALTH",
+      "policy_context": "Search Policy..."
+    }
+  },
+  {
+    "data": {
+      "source_id": "5c5ace9c",
+      "control_id": "T7.8.1",
+      "domain": "General",
+      "title": ", T7.8.2, T7.8.3, T7.8.4, T7.8.5, T7.8.6, T7.8.7...",
+      "description": ", T7.8.2, T7.8.3, T7.8.4, T7.8.5, T7.8.6, T7.8.7 O PUBLIC / pL Page 91 of 116 10. Information Security Incident Management The  value  of  information  has  grown  exponentially  and  has  become  a  soft  target  for  malicious  intent communities,  individuals  and  nation  states  to  disrupt  an  organization's  ability  to  conduct  and  sustain business  or  to  be  in  business,  and  to  disrupt  government's  ability  to  provide  services  to  its  citizens  and resident communities. Healthcare entities' utilization of technological advancement and innovation shall not be  limited  to  service  delivery;  rather  it  shall  also  be  to  defend  and  respond  to  deliberate  and  accidental attempts to disrupt the entities' services. A healthcare entity's ability to quickly and confidently respond to and restore service disruption attempts contributes  the  entity  management's  commitment  to  its  vision  and  objective  values  towards  service delivery. Healthcare entity's management shall be aware that information security incidents may not always be preventable. But adequate procedures, process and technologies to detect, report and handle, combined education and awareness can minimize their frequency, severity and impact on an entity's asset, reputation, financial and legal values. It  is  essential  that  serious  information  security  incidents  that  can  potentially  disrupt  critical  business processes and services are promptly communicated to the appropriate authorities so that they get involved early in the decision-making and communication. Objective: To ensure that healthcare entities define and utilize suitable processes and resources to identify and respond to  information  security  and  cyber  security  incidents,  that  they  are  not  severely  impacted  by  incident outcomes and that they are able to restore affected operations within an acceptable timeframe. Supporting or dependent entity policy references: Access Control Policy Operations Management Policy Communications Policy Third party security policy Compliance Policy O PUBLIC / pL DEPARTMENTOFHEALTH Page 92 of 116 IM 1 Information Security Incident Policy",
+      "policy_context": "Search Policy..."
+    }
+  },
+  {
+    "data": {
+      "source_id": "abd679f0",
+      "control_id": "T8.1.1",
+      "domain": "General",
+      "title": "...",
+      "description": " O PUBLIC / pL DEPARTMENTOFHEALTH Page 93 of 116 IM 2 Incident Management and Improvements O PUBLIC / pL DEPARTMENTOFHEALTH Page 94 of 116 DEPARTMENTOFHEALTH",
+      "policy_context": "Search Policy..."
+    }
+  },
+  {
+    "data": {
+      "source_id": "9e637592",
+      "control_id": "T8.2.1",
+      "domain": "General",
+      "title": ", T8.2.2, T8.2.3, T8.2.4, T8.2.5, T8.2.7, T8.2.8, ...",
+      "description": ", T8.2.2, T8.2.3, T8.2.4, T8.2.5, T8.2.7, T8.2.8, T8.2.9 O PUBLIC / pL Page 95 of 116 IM 3 Information Security Events and Weakness Reporting O PUBLIC / pL DEPARTMENTOFHEALTH Page 96 of 116 DEPARTMENTOFHEALTH",
+      "policy_context": "Search Policy..."
+    }
+  },
+  {
+    "data": {
+      "source_id": "48924d98",
+      "control_id": "T8.3.1",
+      "domain": "General",
+      "title": ", T8.3.2, T8.3.3...",
+      "description": ", T8.3.2, T8.3.3 O PUBLIC / pL Page 97 of 116 11. Information Systems Continuity Management Information  systems  and  applications  have  become  fundamental  to  business  operations.  The  ability  of  a healthcare  entity's  systems  and  applications  to  support  identified  critical  services  and  processes  would demonstrate the maturity of the healthcare entity's operational capabilities. Even-though  the  demand  on  system  and  applications  are  identified  through  a  different  management process (Organizational Business Continuity), it is relevant for healthcare entities to align with such process to establish system, application and resource requirements concerning critical services and processes. Healthcare  entities  shall  be  proactive  in  identifying  threat  scenarios  that  may  impact  their  information systems and application environment, and device strategies and plans to  ensure system, application and resource availability to support service continuity of identified critical services. Objective: To ensure systems, applications and resources are available to support service continuity requirements of identified critical services and processes during abnormal situations or environment. Supporting or dependent entity policy references: Entity Business Continuity Policy Entity Business Continuity/Recovery Plan Operations Management Policy Communications Policy Compliance Policy O PUBLIC / pL DEPARTMENTOFHEALTH Page 98 of 116 SC 1 Information Systems Continuity Management Policy",
+      "policy_context": "Search Policy..."
+    }
+  },
+  {
+    "data": {
+      "source_id": "f4c81fe0",
+      "control_id": "T9.1.1",
+      "domain": "General",
+      "title": "...",
+      "description": " O PUBLIC / pL DEPARTMENTOFHEALTH Page 99 of 116 SC 2 Information Systems Continuity Planning",
+      "policy_context": "Search Policy..."
+    }
+  },
+  {
+    "data": {
+      "source_id": "fe05b300",
+      "control_id": "T9.2.1",
+      "domain": "General",
+      "title": ", T9.2.2, T9.3.1...",
+      "description": ", T9.2.2, T9.3.1 PUBLIC / oL C DEPARTMENTOFHEALTH Page 100 of 116 Appendix 1 - Distribution of Control O PUBLIC / pL DEPARTMENTOFHEALTH Page 101 of 116 Appendix 2 - Summary of Controls PUBLIC / pL DEPARTMENTOFHEALTH Page 102 of 116 DEPARTMENTOFHEALTH PUBLIC / pL Page 103 of 116 DEPARTMENTOFHEALTH PUBLIC / pL Page 104 of 116 DEPARTMENTOFHEALTH PUBLIC / pL Page 105 of 116 DEPARTMENTOFHEALTH O PUBLIC / pL Page 106 of 116 DEPARTMENTOFHEALTH PUBLIC / pL Page 107 of 116 DEPARTMENTOFHEALTH PUBLIC / pL Page 108 of 116 DEPARTMENTOFHEALTH PUBLIC / pL Page 109 of 116 DEPARTMENTOFHEALTH O PUBLIC / pL Page 110 of 116 Appendix 3 - Abbreviations PUBLIC / oL DEPARTMENTOFHEALTH Page 111 of 116 DEPARTMENTOFHEALTH O PUBLIC / pL Page 112 of 116 Appendix 4 - Glossary The table below defines the terms and acronyms used for the purposes of this framework. O PUBLIC / pL DEPARTMENTOFHEALTH Page 113 of 116 DEPARTMENTOFHEALTH O PUBLIC / pL Page 114 of 116 DEPARTMENTOFHEALTH O PUBLIC / pL Page 115 of 116 Appendix 5 - References \uf0a7 UAE Information Assurance Standards \uf0a7 ISO/IEC 27001:2013 \uf0a7 Information Security Governance - A Practical Development and Implementation Approach, by Krag Brotby O PUBLIC / pL DEPARTMENTOFHEALTH Page 116 of 116",
+      "policy_context": "Search Policy..."
+    }
+  }
+]

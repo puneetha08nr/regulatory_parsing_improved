@@ -1,0 +1,45 @@
+<View>
+  <!-- Invisible region so Validation and Notes always have a target (avoids hang when content is empty) -->
+  <View style="display: none;"><Text name="task" value=" "/></View>
+
+  <Header name="header_title" value="Policy Mapping Extraction - Verification and Correction" size="4"/>
+  <Text name="intro_text" value="Review extracted elements for regulatory mapping. Edit as needed and set status." style="font-style: italic; margin-bottom: 8px;"/>
+
+  <View style="background: #f0f8ff; padding: 8px; margin-bottom: 8px;">
+    <Text name="task_type" value="Task type: $task_type" style="font-weight: bold;"/>
+    <Text name="document_id" value="Document ID: $document_id"/>
+    <Text name="document_title" value="Title: $document_title"/>
+  </View>
+
+  <Header name="header_section" value="Section (passage tasks only)" size="5"/>
+  <View style="background: #f5f5f5; padding: 8px;">
+    <Text name="section_id_label" value="Section ID: $section_id"/>
+    <Text name="section_title_label" value="Section Title: $section_title"/>
+    <Header name="header_content" value="Content:" size="6"/>
+    <TextArea name="content" value="$content" toName="task" rows="8" editable="true" placeholder="Review and correct section content..."/>
+    <Header name="header_obligations" value="Obligations (one per line):" size="6"/>
+    <TextArea name="obligations" value="$obligations" toName="task" rows="5" editable="true" placeholder="One obligation per line (e.g. Logs shall be retained...)..."/>
+  </View>
+
+  <Header name="header_doc" value="Document-level (document tasks only)" size="5"/>
+  <View style="background: #fff8e8; padding: 8px;">
+    <Text name="owner_label" value="Owner: $owner"/>
+    <Text name="effective_date_label" value="Effective date: $effective_date"/>
+    <Text name="version_label" value="Version: $version"/>
+    <Header name="header_scope" value="Scope:" size="6"/>
+    <TextArea name="scope" value="$scope" toName="task" rows="4" editable="true" placeholder="Who the policy applies to..."/>
+    <Header name="header_exceptions" value="Exceptions / Deviation process:" size="6"/>
+    <TextArea name="exceptions" value="$exceptions" toName="task" rows="4" editable="true" placeholder="Policy exception process..."/>
+    <Header name="header_roles" value="Roles and responsibilities (Role: Responsibility, one per line):" size="6"/>
+    <TextArea name="roles" value="$roles" toName="task" rows="6" editable="true" placeholder="CISO: Approve policy..."/>
+  </View>
+
+  <Header name="header_validation" value="Validation" size="4"/>
+  <Choices name="validation_status" toName="task" required="true" showInLine="true">
+    <Choice value="Complete" alias="Complete" background="#d4edda"/>
+    <Choice value="Needs Correction" alias="Needs Fix" background="#fff3cd"/>
+    <Choice value="Missing Content" alias="Missing" background="#f8d7da"/>
+  </Choices>
+  <Header name="header_notes" value="Notes" size="5"/>
+  <TextArea name="notes" toName="task" placeholder="Notes for this item..." rows="2" editable="true"/>
+</View>

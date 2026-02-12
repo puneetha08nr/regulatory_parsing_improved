@@ -1,0 +1,315 @@
+{
+  "document_metadata": {
+    "document_id": "-ORG-IMS-POL-027",
+    "title": "Logging and Monitoring Policy",
+    "owner": "CISO",
+    "effective_date": "Until revoked",
+    "version": "",
+    "classification": "Internal"
+  },
+  "hierarchical_passages": [
+    {
+      "section_id": "",
+      "section_title": "INTRODUCTION",
+      "content": "A regular monitoring program is key to managing risk in an organization.  Security monitoring occurs on both physical areas as well as logical components in different information system areas.  Information security monitoring confirms that appropriate mechanisms and controls are in place to secure systems and applications, that they are effective, and are not being bypassed in any way.",
+      "obligations": []
+    },
+    {
+      "section_id": "",
+      "section_title": "PURPOSE",
+      "content": "The purpose of this  Logging and Monitoring Policy (\"Policy\") is to define a framework for proactively monitoring events in order to detect potential security incidents quickly and efficiently.",
+      "obligations": []
+    },
+    {
+      "section_id": "",
+      "section_title": "SCOPE",
+      "content": "This Policy applies to all employees and third parties who access or manage information and information assets or use the organization's information and communications technology (ICT) systems. Any exceptions on the applicability of this Policy should be formally requested through the 'Policy Exception Management procedure.’",
+      "obligations": []
+    },
+    {
+      "section_id": "",
+      "section_title": "POLICY STATEMENT",
+      "content": "shall develop, implement, and maintain a Logging and Monitoring Policy to secure the confidentiality, integrity, availability, secrecy, and privacy of information and its underlying assets for day-to-day business operations.",
+      "obligations": [
+        {
+          "text": "shall develop, implement, and maintain a Logging and Monitoring Policy to secure the confidentiality, integrity, availability, secrecy, and privacy of information and its underlying assets for day-to-day business operations.",
+          "type": "shall",
+          "section_id": ""
+        }
+      ]
+    },
+    {
+      "section_id": "",
+      "section_title": "Logging Requirements",
+      "content": "Logging requirements shall be determined based on scope, information to be captured in audit logs, frequency for review of audit log data, and applicable laws and regulations. High level log activities that the company would like to track shall be defined. Potential log sources shall be identified for log monitoring based upon a risk assessment and their importance to the business. The critical log sources shall be configured and documented for log generation. Logs generated for activities that affect the availability and security of the systems, shall be configured for monitoring.",
+      "obligations": [
+        {
+          "text": "Logging requirements shall be determined based on scope, information to be captured in audit logs, frequency for review of audit log data, and applicable laws and regulations.",
+          "type": "shall",
+          "section_id": ""
+        },
+        {
+          "text": "High level log activities that the company would like to track shall be defined.",
+          "type": "shall",
+          "section_id": ""
+        },
+        {
+          "text": "Potential log sources shall be identified for log monitoring based upon a risk assessment and their importance to the business.",
+          "type": "shall",
+          "section_id": ""
+        },
+        {
+          "text": "The critical log sources shall be configured and documented for log generation.",
+          "type": "shall",
+          "section_id": ""
+        },
+        {
+          "text": "Logs generated for activities that affect the availability and security of the systems, shall be configured for monitoring.",
+          "type": "shall",
+          "section_id": ""
+        }
+      ]
+    },
+    {
+      "section_id": "",
+      "section_title": "Logging Parameters",
+      "content": "Logs shall capture the below details - at minimum: User IDs. Date and Time of the event. Details of the event. Details of the Asset and its location where possible. For applications and  following log types shall be monitored - at minimum: Security Logs. Administrative and Operator Logs. Fault Logs. Backup logs.",
+      "obligations": [
+        {
+          "text": "Logs shall capture the below details - at minimum: User IDs.",
+          "type": "shall",
+          "section_id": ""
+        },
+        {
+          "text": "For applications and  following log types shall be monitored - at minimum: Security Logs.",
+          "type": "shall",
+          "section_id": ""
+        }
+      ]
+    },
+    {
+      "section_id": "",
+      "section_title": "Log Storage & Retention",
+      "content": "Logs shall be stored in centralized log storage separate from the operational environment in which actual events were generated. Logs shall be configured in a way that does not affect system performance. Logging level shall be sufficient to audit individual accountability, reconstruct events, detect intrusions, identify problems and demonstrate regulatory compliance, as may be necessary. Logs shall be retained for a minimum period of 1 year, or as per the retention period defined by the business owner or in accordance with any legal & regulatory requirements.",
+      "obligations": [
+        {
+          "text": "Logs shall be stored in centralized log storage separate from the operational environment in which actual events were generated.",
+          "type": "shall",
+          "section_id": ""
+        },
+        {
+          "text": "Logs shall be configured in a way that does not affect system performance.",
+          "type": "shall",
+          "section_id": ""
+        },
+        {
+          "text": "Logging level shall be sufficient to audit individual accountability, reconstruct events, detect intrusions, identify problems and demonstrate regulatory compliance, as may be necessary.",
+          "type": "shall",
+          "section_id": ""
+        },
+        {
+          "text": "Logs shall be retained for a minimum period of 1 year, or as per the retention period defined by the business owner or in accordance with any legal & regulatory requirements.",
+          "type": "shall",
+          "section_id": ""
+        }
+      ]
+    },
+    {
+      "section_id": "",
+      "section_title": "Log Reporting",
+      "content": "Log reporting shall be performed to summarize significant activity over a particular period of time or to record detailed information related to a particular event or series of events. The reporting shall capture detail such as top 10 sources/targets, source countries, failed logins etc. Frequency of log reporting shall be determined based on the criticality of systems and audience.",
+      "obligations": [
+        {
+          "text": "Log reporting shall be performed to summarize significant activity over a particular period of time or to record detailed information related to a particular event or series of events.",
+          "type": "shall",
+          "section_id": ""
+        },
+        {
+          "text": "The reporting shall capture detail such as top 10 sources/targets, source countries, failed logins etc.",
+          "type": "shall",
+          "section_id": ""
+        },
+        {
+          "text": "Frequency of log reporting shall be determined based on the criticality of systems and audience.",
+          "type": "shall",
+          "section_id": ""
+        }
+      ]
+    },
+    {
+      "section_id": "",
+      "section_title": "Log Protection and Access",
+      "content": "Adequate security controls shall be taken into account throughout its lifecycle to protect its confidentiality, integrity and availability. Access to the logs shall be strictly controlled. No user shall be granted permission to modify the logs in an unauthorized manner. Log repository shall be hardened as per the applicable security baseline documents.",
+      "obligations": [
+        {
+          "text": "Adequate security controls shall be taken into account throughout its lifecycle to protect its confidentiality, integrity and availability.",
+          "type": "shall",
+          "section_id": ""
+        },
+        {
+          "text": "Access to the logs shall be strictly controlled.",
+          "type": "shall",
+          "section_id": ""
+        },
+        {
+          "text": "No user shall be granted permission to modify the logs in an unauthorized manner.",
+          "type": "shall",
+          "section_id": ""
+        },
+        {
+          "text": "Log repository shall be hardened as per the applicable security baseline documents.",
+          "type": "shall",
+          "section_id": ""
+        }
+      ]
+    },
+    {
+      "section_id": "",
+      "section_title": "Log Monitoring, Analysis & Review",
+      "content": "Monitoring performed by third parties shall involve Non-Disclosure Agreements (NDA) and Service Level Agreements (SLA). The SLA shall include procedures for log reporting and escalation. Logs generated and stored shall be monitored in real time by a central log monitoring system. The central log monitoring system shall be capable of centralization, sorting and parsing of the logs collected from different IT Systems to identify, contain and respond quickly to events/incidents in the network A dedicated monitoring team operating under IT Section shall be assigned to centrally monitor the logs generated by all the IT systems. Logs shall not be analyzed by the same individual whose activities are being logged and monitored, to ensure segregation of duties. Corrective and preventive measures on reported incidents shall be taken. Logs shall be backed up on a regular basis, in accordance with the log storage and retention requirements. The monitoring team shall, on a periodic basis, submit log analysis reports to the ISSC, Manager – IT Security, application owners and respective system administrators including trends on critical system or security events. Monitoring systems shall be kept current and regularly tested to ensure that desired events are  and the system performance is efficient, accurate and current. If a monitoring system fails, an alert mechanism shall be available to alert the concerned monitoring team. Wherever possible, Intrusion Detection Systems (IDS), Network based Intrusion Detection System (NIDS) and Host-based IDS (HIDS) shall be deployed for effective monitoring of traffic. Monitoring team shall review and customize IDS alerts regularly to reduce false positives. Monitoring team shall ensure that the latest attack signatures are updated on the IDS systems. Wherever possible, the IDS systems shall be configured to automatically download new signatures from the vendor site. The action that needs to be taken for critical alerts shall be identified and documented by the monitoring team in accordance with the Incident Management Procedure.",
+      "obligations": [
+        {
+          "text": "Monitoring performed by third parties shall involve Non-Disclosure Agreements (NDA) and Service Level Agreements (SLA).",
+          "type": "shall",
+          "section_id": ""
+        },
+        {
+          "text": "The SLA shall include procedures for log reporting and escalation.",
+          "type": "shall",
+          "section_id": ""
+        },
+        {
+          "text": "Logs generated and stored shall be monitored in real time by a central log monitoring system.",
+          "type": "shall",
+          "section_id": ""
+        },
+        {
+          "text": "The central log monitoring system shall be capable of centralization, sorting and parsing of the logs collected from different IT Systems to identify, contain and respond quickly to events/incidents in the network A dedicated monitoring team operating under IT Section shall be assigned to centrally monitor the logs generated by all the IT systems.",
+          "type": "shall",
+          "section_id": ""
+        },
+        {
+          "text": "Logs shall not be analyzed by the same individual whose activities are being logged and monitored, to ensure segregation of duties.",
+          "type": "shall",
+          "section_id": ""
+        },
+        {
+          "text": "Corrective and preventive measures on reported incidents shall be taken.",
+          "type": "shall",
+          "section_id": ""
+        },
+        {
+          "text": "Logs shall be backed up on a regular basis, in accordance with the log storage and retention requirements.",
+          "type": "shall",
+          "section_id": ""
+        },
+        {
+          "text": "The monitoring team shall, on a periodic basis, submit log analysis reports to the ISSC, Manager – IT Security, application owners and respective system administrators including trends on critical system or security events.",
+          "type": "shall",
+          "section_id": ""
+        },
+        {
+          "text": "Monitoring systems shall be kept current and regularly tested to ensure that desired events are  and the system performance is efficient, accurate and current.",
+          "type": "shall",
+          "section_id": ""
+        },
+        {
+          "text": "If a monitoring system fails, an alert mechanism shall be available to alert the concerned monitoring team.",
+          "type": "shall",
+          "section_id": ""
+        },
+        {
+          "text": "Wherever possible, Intrusion Detection Systems (IDS), Network based Intrusion Detection System (NIDS) and Host-based IDS (HIDS) shall be deployed for effective monitoring of traffic.",
+          "type": "shall",
+          "section_id": ""
+        },
+        {
+          "text": "Monitoring team shall review and customize IDS alerts regularly to reduce false positives.",
+          "type": "shall",
+          "section_id": ""
+        },
+        {
+          "text": "Monitoring team shall ensure that the latest attack signatures are updated on the IDS systems.",
+          "type": "shall",
+          "section_id": ""
+        },
+        {
+          "text": "Wherever possible, the IDS systems shall be configured to automatically download new signatures from the vendor site.",
+          "type": "shall",
+          "section_id": ""
+        },
+        {
+          "text": "The action that needs to be taken for critical alerts shall be identified and documented by the monitoring team in accordance with the Incident Management Procedure.",
+          "type": "shall",
+          "section_id": ""
+        },
+        {
+          "text": "Logs shall not be analyzed by the same individual whose activities are being logged and monitored, to ensure segregation of duties.",
+          "type": "shall_not",
+          "section_id": ""
+        }
+      ]
+    },
+    {
+      "section_id": "",
+      "section_title": "Time Synchronization",
+      "content": "Clock time on all IT systems shall be synchronized with an agreed accurate time source.",
+      "obligations": [
+        {
+          "text": "Clock time on all IT systems shall be synchronized with an agreed accurate time source.",
+          "type": "shall",
+          "section_id": ""
+        }
+      ]
+    },
+    {
+      "section_id": "",
+      "section_title": "POLICY ENFORCEMENT AND EXCEPTIONS",
+      "content": "All Employees and 'Third Parties' are responsible for understanding and adhering to this Policy. Any violation of this Policy shall be reported to Policy Owner. In addition, violation of this Policy shall be subjected to disciplinary action by the 's Human Capital Department, considering the recommendation of IS Team and in accordance with other applicable policies, laws, and regulations. Disciplinary action may range from a verbal warning to discontinuation of access to facility or services, or termination of employment/contract/agreement, and possible legal action. The actual action taken shall depend on factors such as the seriousness of the breach and the user's disciplinary record. Any exceptions on the applicability of this Policy should be formally requested through the 'Policy Exception Management procedure.'",
+      "obligations": [
+        {
+          "text": "Any violation of this Policy shall be reported to Policy Owner.",
+          "type": "shall",
+          "section_id": ""
+        },
+        {
+          "text": "In addition, violation of this Policy shall be subjected to disciplinary action by the 's Human Capital Department, considering the recommendation of IS Team and in accordance with other applicable policies, laws, and regulations.",
+          "type": "shall",
+          "section_id": ""
+        },
+        {
+          "text": "The actual action taken shall depend on factors such as the seriousness of the breach and the user's disciplinary record.",
+          "type": "shall",
+          "section_id": ""
+        }
+      ]
+    },
+    {
+      "section_id": "",
+      "section_title": "MONITORING AND REVIEW",
+      "content": "This Policy is developed and owned by the  IS Team. It is reviewed by the CISO and approved by the CEO. IS Team shall initiate a review of this Policy annually or whenever a significant change occurs in the organization's operating environment. Feedback, suggestions, or questions regarding the Policy shall be directed to the CISO at CISO@.net.",
+      "obligations": [
+        {
+          "text": "IS Team shall initiate a review of this Policy annually or whenever a significant change occurs in the organization's operating environment.",
+          "type": "shall",
+          "section_id": ""
+        },
+        {
+          "text": "Feedback, suggestions, or questions regarding the Policy shall be directed to the CISO at CISO@.",
+          "type": "shall",
+          "section_id": ""
+        }
+      ]
+    }
+  ],
+  "roles_and_responsibilities": [
+    {
+      "role": "This Policy is developed and owned by the",
+      "responsibility": "IS Team. It is reviewed by the CISO and approved by the CEO.",
+      "source_section": "ROLES AND RESPONSIBILITIES"
+    }
+  ],
+  "scope": "This Policy applies to all employees and third parties who access or manage information and information assets or use the organization's information and communications technology (ICT) systems. Any exceptions on the applicability of this Policy should be formally requested through the 'Policy Exception Management procedure.’ POLICY STATEMENT shall develop, implement, and maintain a Logging and Monitoring Policy to secure the confidentiality, integrity, availability, secrecy, and privacy of information and its underlying assets for day-to-day business operations. POLICY DETAILS Logging Requirements Logging requirements shall be determined based on scope, information to be captured in audit logs, frequency for review of audit log data, and applicable laws and regulations. High level log activities that the company would like to track shall be defined. Potential log sources shall be identified for log monitoring based upon a risk assessment and their importance to the business. The critical log sources shall be configured and documented for log generation. Logs generated for activities that affect the availability and security of the systems, shall be configured for monitoring. Logging Parameters Logs shall capture the below details - at minimum: User IDs. Date and Time of the event. Details of the event. Details of the Asset and its location where possible. For applications and  following log types shall be monitored - at minimum: Security Logs. Administrative and Operator Logs. Fault Logs. Backup logs. Log Storage & Retention Logs shall be stored in centralized log storage separate from the operational environment in which actual events were generated. Logs shall be configured in a way that does not affect system performance. Logging level shall be sufficient to audit individual accountability, reconstruct events, detect intrusions, identify problems and demonstrate regulatory compliance, as may be necessary. Logs shall be retained for a minimum period of 1 year, or as per the retention period defined by the business owner or in accordance with any legal & regulatory requirements. Log Reporting Log reporting shall be performed to summarize significant activity over a particular period of time or to record detailed information related to a particular event or series of events. The reporting shall capture detail such as top 10 sources/targets, source countries, failed logins etc. Frequency of log reporting shall be determined based on the criticality of systems and audience. Log Protection and Access Adequate security controls shall be taken into account throughout its lifecycle to protect its confidentiality, integrity and availability. Access to the logs shall be strictly controlled. No user shall be granted permission to modify the logs in an unauthorized manner. Log repository shall be hardened as per the applicable security baseline documents. Log Monitoring, Analysis & Review Monitoring performed by third parties shall involve Non-Disclosure Agreements (NDA) and Service Level Agreements (SLA). The SLA shall include procedures for log reporting and escalation. Logs generated and stored shall be monitored in real time by a central log monitoring system. The central log monitoring system shall be capable of centralization, sorting and parsing of the logs collected from different IT Systems to identify, contain and respond quickly to events/incidents in the network A dedicated monitoring team operating under IT Section shall be assigned to centrally monitor the logs generated by all the IT systems. Logs shall not be analyzed by the same individual whose activities are being logged and monitored, to ensure segregation of duties. Corrective and preventive measures on reported incidents shall be taken. Logs shall be backed up on a regular basis, in accordance with the log storage and retention requirements. The monitoring team shall, on a periodic basis, submit log analysis reports to the ISSC, Manager – IT Security, application owners and respective system administrators including trends on critical system or security events. Monitoring systems shall be kept current and regularly tested to ensure that desired events are  and the system performance is efficient, accurate and current. If a monitoring system fails, an alert mechanism shall be available to alert the concerned monitoring team. Wherever possible, Intrusion Detection Systems (IDS), Network based Intrusion Detection System (NIDS) and Host-based IDS (HIDS) shall be deployed for effective monitoring of traffic. Monitoring team shall review and customize IDS alerts regularly to reduce false positives. Monitoring team shall ensure that the latest attack signatures are updated on the IDS systems. Wherever possible, the IDS systems shall be configured to automatically download new signatures from the vendor site. The action that needs to be taken for critical alerts shall be identified and documented by the monitoring team in accordance with the Incident Management Procedure. Time Synchronization Clock time on all IT systems shall be synchronized with an agreed accurate time source. ROLES AND RESPONSIBILITIES POLICY ENFORCEMENT AND EXCEPTIONS All Employees and 'Third Parties' are responsible for understanding and adhering to this Policy. Any violation of this Policy shall be reported to Policy Owner. In addition, violation of this Policy shall be subjected to disciplinary action by the 's Human Capital Department, considering the recommendation of IS Team and in accordance with other applicable policies, laws, and regulations. Disciplinary action may range from a verbal warning to discontinuation of access to facility or services, or termination of employment/contract/agreement, and possible legal action. The actual action taken shall depend on factors such as the seriousness of the breach and the user's disciplinary record. Any exceptions on the applicability of this Policy should be formally requested through the 'Policy Exception Management procedure.' MONITORING AND REVIEW This Policy is developed and owned by the  IS Team. It is reviewed by the CISO and approved by the CEO. IS Team shall initiate a review of this Policy annually or whenever a significant change occurs in the organization's operating environment. Feedback, suggestions, or questions regarding the Policy shall be directed to the CISO at CISO@.net. POLICY – UAE IA CONTROL MAPPING",
+  "exceptions": "",
+  "source_path": "/mnt/nvme1/gpu/Documents/Puneetha/regulatory_parsing/data/01_raw/policies/clientname-IS-POL-00-Logging and Monitoring Policy 2.docx"
+}

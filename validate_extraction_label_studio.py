@@ -12,8 +12,8 @@ Usage:
   # Generate tasks for control validation
   python validate_extraction_label_studio.py --mode controls --input data/02_processed/uae_ia_controls_structured.json
 
-  # Generate tasks for one policy document
-  python validate_extraction_label_studio.py --mode policies --input data/02_processed/policies/<doc>_for_mapping.json --output data/03_label_studio_input/policy_validation_tasks/<doc>_validation_tasks.json
+  # Generate tasks for one policy document (replace DOCNAME with your policy doc name)
+  python validate_extraction_label_studio.py --mode policies --input data/02_processed/policies/DOCNAME_for_mapping.json --output data/03_label_studio_input/policy_validation_tasks/DOCNAME_validation_tasks.json
 
   # Export corrected content (full list, original order: pass --source)
   python validate_extraction_label_studio.py --mode export --input <label_studio_export.json> --type controls --source data/02_processed/uae_ia_controls_structured_v2.json
@@ -360,12 +360,19 @@ def main():
     )
     parser.add_argument(
         "--input",
-        required=True,
-        help="Input: controls/policies JSON (for generate) or Label Studio export (for export)"
+        help="Input: controls/policies JSON (for generate) or single Label Studio export (for export)"
     )
     parser.add_argument(
         "--output",
         help="Output path (defaults based on mode)"
+    )
+    parser.add_argument(
+        "--input-dir",
+        help="For export --type policies: folder of Label Studio export JSONs; process each and write to --output-dir"
+    )
+    parser.add_argument(
+        "--output-dir",
+        help="For export --type policies with --input-dir: output folder (one file per input: <stem>_corrected.json)"
     )
     parser.add_argument(
         "--type",
@@ -387,6 +394,8 @@ def main():
     args = parser.parse_args()
     
     if args.mode == "controls":
+        if not args.input:
+            raise SystemExit("For mode=controls, specify --input <controls_json>")
         output = args.output or "data/03_label_studio_input/control_validation_tasks.json"
         n = generate_control_validation_tasks(
             controls_path=args.input,
@@ -398,6 +407,8 @@ def main():
         print("  data/03_label_studio_input/validate_control_extraction.xml")
     
     elif args.mode == "policies":
+        if not args.input:
+            raise SystemExit("For mode=policies, specify --input <policy_for_mapping.json>")
         output = args.output or "data/03_label_studio_input/policy_validation_tasks.json"
         n = generate_policy_validation_tasks(
             policies_path=args.input,
@@ -413,6 +424,8 @@ def main():
             raise SystemExit("For mode=export, specify --type controls or --type policies")
         
         if args.type == "controls":
+            if not args.input:
+                raise SystemExit("For export --type controls, specify --input <label_studio_export.json>")
             output = args.output or "data/02_processed/uae_ia_controls_corrected.json"
             n = export_corrected_controls(
                 label_studio_export_path=args.input,
@@ -421,12 +434,33 @@ def main():
             )
             print(f"✓ Exported {n} corrected controls → {output}")
         else:
-            output = args.output or "data/02_processed/policies/all_policies_corrected.json"
-            n = export_corrected_policies(
-                label_studio_export_path=args.input,
-                output_path=output
-            )
-            print(f"✓ Exported {n} corrected policy passages → {output}")
+            # type == policies
+            if args.input_dir and args.output_dir:
+                in_dir = Path(args.input_dir)
+                out_dir = Path(args.output_dir)
+                if not in_dir.is_dir():
+                    raise SystemExit(f"Not a directory: {in_dir}")
+                out_dir.mkdir(parents=True, exist_ok=True)
+                json_files = sorted(in_dir.glob("*.json"))
+                if not json_files:
+                    print(f"No .json files in {in_dir}")
+                else:
+                    total = 0
+                    for fp in json_files:
+                        out_path = out_dir / f"{fp.stem}_corrected.json"
+                        n = export_corrected_policies(str(fp), str(out_path))
+                        total += n
+                        print(f"  {fp.name} → {n} passages → {out_path.name}")
+                    print(f"✓ Total: {total} passages in {len(json_files)} file(s) → {out_dir}")
+            elif args.input:
+                output = args.output or "data/02_processed/policies/all_policies_corrected.json"
+                n = export_corrected_policies(
+                    label_studio_export_path=args.input,
+                    output_path=output
+                )
+                print(f"✓ Exported {n} corrected policy passages → {output}")
+            else:
+                raise SystemExit("For export --type policies, specify --input <file.json> or (--input-dir and --output-dir)")
 
 
 if __name__ == "__main__":

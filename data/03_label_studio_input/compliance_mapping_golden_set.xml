@@ -17,6 +17,9 @@
     <Text name="policy_text" value="$policy_text" style="white-space: pre-wrap;"/>
   </View>
 
+  <Header value="Correct control ID (if wrong)" size="5"/>
+  <TextArea name="edit_control_id" toName="control_text" placeholder="e.g. M1.1.1 or T4.2.1. Leave blank if the control above is correct." rows="1" editable="true"/>
+
   <Header value="Your judgment: Does this policy passage address the control?" size="4"/>
   <Choices name="compliance_status" toName="control_text" required="true" showInLine="true">
     <Choice value="Fully Addressed" alias="Full" background="#d4edda"/>
@@ -34,5 +37,17 @@
   </Choices>
 
   <Header value="Optional: Evidence or notes" size="5"/>
-  <TextArea name="evidence_or_notes" toName="control_text" placeholder="e.g. Quote the exact phrase that addresses the control, or explain a gap." rows="3" editable="true"/>
+  <TextArea name="evidence_or_notes" toName="control_text" placeholder="Quote the exact phrase that addresses the control, or explain a gap." rows="3" editable="true"/>
+
+  <Header value="If Not Addressed: why did the pipeline get it wrong?" size="5"/>
+  <Choices name="mismatch_reason" toName="control_text" required="false" showInLine="true">
+    <Choice value="Keyword overlap" alias="kw" background="#fff0e0"/>
+    <Choice value="Wrong topic" alias="topic" background="#fff0e0"/>
+    <Choice value="Too generic" alias="generic" background="#fff0e0"/>
+    <Choice value="Out of scope" alias="scope" background="#fff0e0"/>
+    <Choice value="Correct match" alias="ok" background="#e0ffe0"/>
+  </Choices>
+
+  <Header value="Comments" size="5"/>
+  <TextArea name="comments" toName="control_text" placeholder="e.g. Pipeline matched on 'information security' keyword but passage is about training, not context analysis." rows="2" editable="true"/>
 </View>

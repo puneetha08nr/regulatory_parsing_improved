@@ -55,15 +55,19 @@ class PolicyExtractor:
     """Extract and structure policy documents from PDF"""
     
     def __init__(self):
-        # Common policy section patterns
+        # Common policy section patterns (order matters: more specific first)
         self.section_patterns = [
             r'^(\d+(?:\.\d+)+)\s+(.+?)$',  # 1.1 Section Title (requires at least one dot)
             r'^(\d+(?:\.\d+)*)\s+([A-Z][^.]{3,100})$',  # 1.1 TITLE (capitalized title)
             r'^Section\s+(\d+(?:\.\d+)*)\s*[:–-]\s*(.+?)$',  # Section 1.1: Title
             r'^(\d+\.\d+)\s+(.+?)$',  # 1.1 Title
+            r'^(\d+)\)\s+(.+?)$',  # 1) Title
+            r'^(\d+)\.\s+([A-Za-z].+?)$',  # 1. Title (number, period, space, title)
             r'^([A-Z]\d+)\s+(.+?)$',  # POL-001 Title
             r'^(\d+)\s+([A-Z][^.]{3,100})$',  # 1 TITLE (single number with capitalized title)
         ]
+        # Standalone all-caps line (e.g. INTRODUCTION, PURPOSE, SCOPE) - single group, use for both id and title
+        self.section_pattern_allcaps = re.compile(r'^([A-Z][A-Z0-9\s\-]{3,80})$')
         
         # Policy document identifiers
         self.policy_id_patterns = [

@@ -82,13 +82,32 @@ For each task: policy ID, policy name, passage ID, section, heading; editable pa
 ### 4. Export and apply corrections
 
 1. In Label Studio: **Export** → **JSON**.
-2. Run (use a per-doc output path if you validated one policy):
+2. Run (use a per-doc output path if you validated one policy). **Quote the output path** so the shell does not interpret `<` or `>`:
+
+```bash
+# Replace YourExportFile.json with your Label Studio export filename.
+# Replace YourPolicyDocName with the policy doc name (e.g. clientname-IS-POL-00-Security Operations Policy).
+python3 validate_extraction_label_studio.py --mode export \
+  --input path/to/YourExportFile.json \
+  --type policies \
+  --output "data/02_processed/policies/YourPolicyDocName_corrected.json"
+```
+
+Example with a real export file and doc name:
 
 ```bash
 python3 validate_extraction_label_studio.py --mode export \
-  --input path/to/label_studio_export.json \
+  --input "InformationSecurity_EvaluatePolicy.json" \
   --type policies \
-  --output data/02_processed/policies/<doc>_corrected.json
+  --output "data/02_processed/policies/clientname-IS-POL-00-Security Operations Policy_corrected.json"
+```
+
+**Process a folder of Label Studio exports** (one output per file: `<stem>_corrected.json`):
+
+```bash
+python3 validate_extraction_label_studio.py --mode export --type policies \
+  --input-dir path/to/label_studio_exports \
+  --output-dir data/02_processed/policies
 ```
 
 The script writes corrected passages (same schema as `*_for_mapping.json`) with updated `text` and `metadata.validation_status` / `metadata.correction_notes`. Only annotated tasks are in the output.
@@ -98,10 +117,12 @@ The script writes corrected passages (same schema as `*_for_mapping.json`) with 
 ## Summary: which JSON and XML?
 
 - **Source JSON (per document):**  
-  `data/02_processed/policies/<doc>_for_mapping.json`
+  `data/02_processed/policies/{docname}_for_mapping.json`
 - **Label Studio config (XML):**  
   `data/03_label_studio_input/validate_policy_extraction.xml`
 - **Task JSON (per document):**  
-  `data/03_label_studio_input/policy_validation_tasks/<doc>_validation_tasks.json`
+  `data/03_label_studio_input/policy_validation_tasks/{docname}_validation_tasks.json`
+- **Corrected export (per document):**  
+  `data/02_processed/policies/{docname}_corrected.json` (quote the path in the shell)
 
 Other scripts (compliance mapping, annotate mappings, etc.) that need **all** passages load them from the directory via `load_all_policies_from_dir("data/02_processed/policies")` — no combined file is written.

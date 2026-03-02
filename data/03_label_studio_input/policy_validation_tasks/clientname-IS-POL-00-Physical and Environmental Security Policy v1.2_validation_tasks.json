@@ -10,7 +10,7 @@
     },
     "meta": {
       "passage_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_1",
-      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing2/data/02_processed/policies/clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_for_mapping.json"
+      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing_improved/data/02_processed/policies/clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_for_mapping.json"
     }
   },
   {
@@ -24,7 +24,7 @@
     },
     "meta": {
       "passage_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_2",
-      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing2/data/02_processed/policies/clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_for_mapping.json"
+      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing_improved/data/02_processed/policies/clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_for_mapping.json"
     }
   },
   {
@@ -38,7 +38,7 @@
     },
     "meta": {
       "passage_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_3",
-      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing2/data/02_processed/policies/clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_for_mapping.json"
+      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing_improved/data/02_processed/policies/clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_for_mapping.json"
     }
   },
   {
@@ -52,7 +52,7 @@
     },
     "meta": {
       "passage_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_4",
-      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing2/data/02_processed/policies/clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_for_mapping.json"
+      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing_improved/data/02_processed/policies/clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_for_mapping.json"
     }
   },
   {
@@ -66,7 +66,7 @@
     },
     "meta": {
       "passage_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_5",
-      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing2/data/02_processed/policies/clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_for_mapping.json"
+      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing_improved/data/02_processed/policies/clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_for_mapping.json"
     }
   },
   {
@@ -80,7 +80,7 @@
     },
     "meta": {
       "passage_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_6",
-      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing2/data/02_processed/policies/clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_for_mapping.json"
+      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing_improved/data/02_processed/policies/clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_for_mapping.json"
     }
   },
   {
@@ -88,13 +88,13 @@
       "policy_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2",
       "policy_name": "Physical and Environmental Security Policy",
       "passage_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_7",
-      "section": "5 POLICY DETAILS",
-      "heading": "5 POLICY DETAILS",
-      "passage_text": "5 POLICY DETAILS\n\n3. **Establish a Physical Security Perimeter**\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Identify and classify security areas based on the assets and information they process or contain.\n2. Define security perimeters, establish appropriate countermeasures such as mentioned below, and test as appropriately deemed for every classified security level to ensure the right level of protection is applied:\n1. Physical Barriers to company premises.\n2. Restrict access to authorized personnel and install intruder detection systems for external doors, accessible windows.\n3. Fire doors are alarmed, monitored, and tested in accordance with suitable regional, national, and international standards.\n4. Suppression systems are installed, monitored, and tested."
+      "section": "5.1 Establish a Physical Security Perimeter",
+      "heading": "5.1 Establish a Physical Security Perimeter",
+      "passage_text": "5.1 Establish a Physical Security Perimeter\n\n3. **Establish a Physical Security Perimeter**\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Identify and classify security areas based on the assets and information they process or contain.\n2. Define security perimeters, establish appropriate countermeasures such as mentioned below, and test as appropriately deemed for every classified security level to ensure the right level of protection is applied:\n1. Physical Barriers to company premises.\n2. Restrict access to authorized personnel and install intruder detection systems for external doors, accessible windows.\n3. Fire doors are alarmed, monitored, and tested in accordance with suitable regional, national, and international standards.\n4. Suppression systems are installed, monitored, and tested."
     },
     "meta": {
       "passage_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_7",
-      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing2/data/02_processed/policies/clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_for_mapping.json"
+      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing_improved/data/02_processed/policies/clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_for_mapping.json"
     }
   },
   {
@@ -102,13 +102,13 @@
       "policy_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2",
       "policy_name": "Physical and Environmental Security Policy",
       "passage_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_8",
-      "section": "5.1 Implement Physical Security Controls",
-      "heading": "5.1 Implement Physical Security Controls",
-      "passage_text": "5.1 Implement Physical Security Controls\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Record the date, time of entry and departure of employees/contractors/visitors and others who seek access to &lt;CLIENTNAME&gt; facilities.\n2. Perform physical security checks for all personnel entering the organizational premises.\n3. Restrict the entry and usage of devices within organizational premises according to security requirements.\n4. Supervise visitors at all times during their visit to secure areas.\n5. Verify the identity of visitors requesting access, by an appropriate means.\n6. Ensure that all employees, contractors, and external parties wear some form of visible identification within the organization’s premises.\n7. Grant access only for specific, authorized purposes to visitors and provide clear instructions on the security requirements of the area and on emergency procedures.\n8. Document and implement a process to authenticate all persons accessing secure areas. Ensure that access is provided to secur"
+      "section": "5.2 Implement Physical Security Controls",
+      "heading": "5.2 Implement Physical Security Controls",
+      "passage_text": "5.2 Implement Physical Security Controls\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Record the date, time of entry and departure of employees/contractors/visitors and others who seek access to &lt;CLIENTNAME&gt; facilities.\n2. Perform physical security checks for all personnel entering the organizational premises.\n3. Restrict the entry and usage of devices within organizational premises according to security requirements.\n4. Supervise visitors at all times during their visit to secure areas.\n5. Verify the identity of visitors requesting access, by an appropriate means.\n6. Ensure that all employees, contractors, and external parties wear some form of visible identification within the organization’s premises.\n7. Grant access only for specific, authorized purposes to visitors and provide clear instructions on the security requirements of the area and on emergency procedures.\n8. Document and implement a process to authenticate all persons accessing secure areas. Ensure that access is provided to secur"
     },
     "meta": {
       "passage_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_8",
-      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing2/data/02_processed/policies/clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_for_mapping.json"
+      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing_improved/data/02_processed/policies/clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_for_mapping.json"
     }
   },
   {
@@ -116,13 +116,13 @@
       "policy_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2",
       "policy_name": "Physical and Environmental Security Policy",
       "passage_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_9",
-      "section": "5.2 Protecting Against External and Environmental Threats",
-      "heading": "5.2 Protecting Against External and Environmental Threats",
+      "section": "5.3 Protecting Against External and Environmental Threats",
+      "heading": "5.3 Protecting Against External and Environmental Threats",
       "passage_text": "5.2 Protecting Against External and Environmental Threats\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Provide adequate training to personnel responsible for responding to environmental and safety hazards.\n2. Ensure and monitor power, temperature and relative humidity inside data centers are in accordance with relevant regulations.\n3. Ensure data centers have 24/7 air conditioning and humidity control.\n4. Conduct planned maintenance for all supporting utilities and necessary records.\n5. Activate fire suppression system only in affected areas to limit the damage on other assets.\n6. Site equipment appropriately to prevent unauthorized access into work areas.\n7. Monitor your work environmental conditions and alert in case of a potential threat."
     },
     "meta": {
       "passage_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_9",
-      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing2/data/02_processed/policies/clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_for_mapping.json"
+      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing_improved/data/02_processed/policies/clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_for_mapping.json"
     }
   },
   {
@@ -130,13 +130,13 @@
       "policy_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2",
       "policy_name": "Physical and Environmental Security Policy",
       "passage_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_10",
-      "section": "5.3 Working in Secure Areas",
-      "heading": "5.3 Working in Secure Areas",
-      "passage_text": "5.3 Working in Secure Areas\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Establish guidelines for working in secure areas.\n2. Make sure all personnel accessing secure areas are aware of and accept organization’s rules and guidelines."
+      "section": "5.4 Working in Secure Areas",
+      "heading": "5.4 Working in Secure Areas",
+      "passage_text": "5.4 Working in Secure Areas\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Establish guidelines for working in secure areas.\n2. Make sure all personnel accessing secure areas are aware of and accept organization’s rules and guidelines."
     },
     "meta": {
       "passage_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_10",
-      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing2/data/02_processed/policies/clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_for_mapping.json"
+      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing_improved/data/02_processed/policies/clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_for_mapping.json"
     }
   },
   {
@@ -144,13 +144,13 @@
       "policy_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2",
       "policy_name": "Physical and Environmental Security Policy",
       "passage_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_11",
-      "section": "5.4 Protect Delivery and Loading Areas",
-      "heading": "5.4 Protect Delivery and Loading Areas",
-      "passage_text": "5.4 Protect Delivery and Loading Areas\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Establish access procedures to loading and unloading areas to restrict access to only authorized personnel.\n2. Design the delivery and loading area where supplies can be loaded and unloaded without delivery personnel gaining access to other parts of the building.\n3. Establish and implement procedures for the storage of hazardous or combustible materials to reduce their risks on secure areas.\n4. Physically segregate loading and unloading activities.\n\n&lt;CLIENTNAME&gt; personnel shall:\n\n1. Perform appropriate due diligence and implement countermeasures to securely manage incoming and outgoing materials and equipment."
+      "section": "5.5  Protect Delivery and Loading Areas",
+      "heading": "5.5 Protect Delivery and Loading Areas",
+      "passage_text": "5.5 Protect Delivery and Loading Areas\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Establish access procedures to loading and unloading areas to restrict access to only authorized personnel.\n2. Design the delivery and loading area where supplies can be loaded and unloaded without delivery personnel gaining access to other parts of the building.\n3. Establish and implement procedures for the storage of hazardous or combustible materials to reduce their risks on secure areas.\n4. Physically segregate loading and unloading activities.\n\n&lt;CLIENTNAME&gt; personnel shall:\n\n1. Perform appropriate due diligence and implement countermeasures to securely manage incoming and outgoing materials and equipment."
     },
     "meta": {
       "passage_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_11",
-      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing2/data/02_processed/policies/clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_for_mapping.json"
+      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing_improved/data/02_processed/policies/clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_for_mapping.json"
     }
   },
   {
@@ -158,13 +158,13 @@
       "policy_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2",
       "policy_name": "Physical and Environmental Security Policy",
       "passage_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_12",
-      "section": "5.5 Ensure Effective Supporting Utilities",
-      "heading": "5.5 Ensure Effective Supporting Utilities",
-      "passage_text": "5.5 Ensure Effective Supporting Utilities\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Ensure that each facility’s supporting utilities (e.g., electricity, telecommunications, water supply, natural gas, sewage, heating ventilation and air conditioning) are in line with local legal requirements and manufacturer’s specifications as well as tested for malfunctions.\n2. Conduct preventive maintenance for all supporting utilities and necessary records maintained for the same."
+      "section": "5.6 Ensure Effective Supporting Utilities",
+      "heading": "5.6 Ensure Effective Supporting Utilities",
+      "passage_text": "5.6 Ensure Effective Supporting Utilities\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Ensure that each facility’s supporting utilities (e.g., electricity, telecommunications, water supply, natural gas, sewage, heating ventilation and air conditioning) are in line with local legal requirements and manufacturer’s specifications as well as tested for malfunctions.\n2. Conduct preventive maintenance for all supporting utilities and necessary records maintained for the same."
     },
     "meta": {
       "passage_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_12",
-      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing2/data/02_processed/policies/clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_for_mapping.json"
+      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing_improved/data/02_processed/policies/clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_for_mapping.json"
     }
   },
   {
@@ -172,13 +172,13 @@
       "policy_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2",
       "policy_name": "Physical and Environmental Security Policy",
       "passage_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_13",
-      "section": "5.6 Cabling Security",
-      "heading": "5.6 Cabling Security",
-      "passage_text": "5.6 Cabling Security\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Ensure that power and telecommunications lines into information systems are underground wherever possible.\n2. Protect power and telecommunication lines adequately from interception of data or damage.\n3. Physically separate power cables from communications cables to minimize interference.\n4. Shield telecommunication cables to avoid information leakage due to electro-magnetic signals emanations.\n5. Consider the following controls for sensitive or critical systems:\n1. Utilization of electromagnetic shielding to protect the cables.\n2. Initiation of technical sweeps and physical inspections for unauthorized devices being attached to the cables.\n3. Controlled access to patch panels and cable rooms."
+      "section": "5.7 Cabling Security",
+      "heading": "5.7 Cabling Security",
+      "passage_text": "5.7 Cabling Security\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Ensure that power and telecommunications lines into information systems are underground wherever possible.\n2. Protect power and telecommunication lines adequately from interception of data or damage.\n3. Physically separate power cables from communications cables to minimize interference.\n4. Shield telecommunication cables to avoid information leakage due to electro-magnetic signals emanations.\n5. Consider the following controls for sensitive or critical systems:\n1. Utilization of electromagnetic shielding to protect the cables.\n2. Initiation of technical sweeps and physical inspections for unauthorized devices being attached to the cables.\n3. Controlled access to patch panels and cable rooms."
     },
     "meta": {
       "passage_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_13",
-      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing2/data/02_processed/policies/clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_for_mapping.json"
+      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing_improved/data/02_processed/policies/clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_for_mapping.json"
     }
   },
   {
@@ -186,13 +186,13 @@
       "policy_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2",
       "policy_name": "Physical and Environmental Security Policy",
       "passage_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_14",
-      "section": "5.7 Security of Equipment Off-Premises",
-      "heading": "5.7 Security of Equipment Off-Premises",
-      "passage_text": "5.7 Security of Equipment Off-Premises\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Establish an authorization procedure for taking information assets off-site.\n2. Ensure manufacturers' instructions for protecting equipment is adhered to at all times.\n3. Maintain the list of information assets off-site with the authorized employees and external party users.\n\nThe personnel shall:\n\n1. Ensure that equipment and media taken off the premises are not left unattended in public places."
+      "section": "5.8 Security of Equipment Off-Premises",
+      "heading": "5.8 Security of Equipment Off-Premises",
+      "passage_text": "5.8 Security of Equipment Off-Premises\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Establish an authorization procedure for taking information assets off-site.\n2. Ensure manufacturers' instructions for protecting equipment is adhered to at all times.\n3. Maintain the list of information assets off-site with the authorized employees and external party users.\n\nThe personnel shall:\n\n1. Ensure that equipment and media taken off the premises are not left unattended in public places."
     },
     "meta": {
       "passage_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_14",
-      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing2/data/02_processed/policies/clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_for_mapping.json"
+      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing_improved/data/02_processed/policies/clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_for_mapping.json"
     }
   },
   {
@@ -200,13 +200,13 @@
       "policy_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2",
       "policy_name": "Physical and Environmental Security Policy",
       "passage_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_15",
-      "section": "5.8 Secure Disposal or Reuse of Equipment",
-      "heading": "5.8 Secure Disposal or Reuse of Equipment",
-      "passage_text": "5.8 Secure Disposal or Reuse of Equipment\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Ensure storage media containing confidential information is physically destroyed or the information is destroyed, deleted, or overwritten using techniques to make the original information non-retrievable rather than using the standard delete or format function."
+      "section": "5.9 Secure Disposal or Reuse of Equipment",
+      "heading": "5.9 Secure Disposal or Reuse of Equipment",
+      "passage_text": "5.9 Secure Disposal or Reuse of Equipment\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Ensure storage media containing confidential information is physically destroyed or the information is destroyed, deleted, or overwritten using techniques to make the original information non-retrievable rather than using the standard delete or format function."
     },
     "meta": {
       "passage_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_15",
-      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing2/data/02_processed/policies/clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_for_mapping.json"
+      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing_improved/data/02_processed/policies/clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_for_mapping.json"
     }
   },
   {
@@ -220,7 +220,7 @@
     },
     "meta": {
       "passage_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_16",
-      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing2/data/02_processed/policies/clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_for_mapping.json"
+      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing_improved/data/02_processed/policies/clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_for_mapping.json"
     }
   },
   {
@@ -234,7 +234,7 @@
     },
     "meta": {
       "passage_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_17",
-      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing2/data/02_processed/policies/clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_for_mapping.json"
+      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing_improved/data/02_processed/policies/clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_for_mapping.json"
     }
   },
   {
@@ -248,7 +248,7 @@
     },
     "meta": {
       "passage_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_18",
-      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing2/data/02_processed/policies/clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_for_mapping.json"
+      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing_improved/data/02_processed/policies/clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_for_mapping.json"
     }
   },
   {
@@ -262,7 +262,7 @@
     },
     "meta": {
       "passage_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_19",
-      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing2/data/02_processed/policies/clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_for_mapping.json"
+      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing_improved/data/02_processed/policies/clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_for_mapping.json"
     }
   }
 ]

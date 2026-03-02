@@ -12,6 +12,11 @@
     <Header value="Passage text" size="6"/>
     <Text name="policy_text" value="$policy_text" style="white-space: pre-wrap;"/>
   </View>
+  <Header value="Does this passage map to any controls?" size="5"/>
+  <Choices name="passage_scope" toName="task" required="true" showInLine="true">
+    <Choice value="Has controls" alias="Yes – select controls below"/>
+    <Choice value="Not Applicable" alias="N/A – no controls apply to this passage" background="#f0f0f0"/>
+  </Choices>
   <Header value="UAE IA control IDs (select all that apply; type to search)" size="5"/>
   <Taxonomy name="uae_ia_control_ids" toName="task" leafsOnly="true" placeholder="Search or select UAE IA controls...">
     <Choice value="UAE IA">

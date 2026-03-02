@@ -16,6 +16,10 @@
     <TextArea name="passage_text" value="$passage_text"
               toName="task" rows="12" editable="true"
               placeholder="Review and correct the extracted passage text..."/>
+
+    <Header name="header_uae_control_id" value="UAE IA Control ID (mapping):" size="5"/>
+    <TextArea name="uae_control_id" value="$uae_control_id" toName="task" rows="2" editable="true"
+              placeholder="e.g. M1.1.1 or comma-separated UAE IA control IDs"/>
   </View>
 
   <Header name="header_validation" value="Validation Status" size="4"/>

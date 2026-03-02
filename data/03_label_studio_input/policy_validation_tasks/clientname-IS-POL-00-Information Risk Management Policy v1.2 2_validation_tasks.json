@@ -10,7 +10,7 @@
     },
     "meta": {
       "passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2_passage_1",
-      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing2/data/02_processed/policies/clientname-IS-POL-00-Information Risk Management Policy v1.2 2_for_mapping.json"
+      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing_improved/data/02_processed/policies/clientname-IS-POL-00-Information Risk Management Policy v1.2 2_for_mapping.json"
     }
   },
   {
@@ -24,7 +24,7 @@
     },
     "meta": {
       "passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2_passage_2",
-      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing2/data/02_processed/policies/clientname-IS-POL-00-Information Risk Management Policy v1.2 2_for_mapping.json"
+      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing_improved/data/02_processed/policies/clientname-IS-POL-00-Information Risk Management Policy v1.2 2_for_mapping.json"
     }
   },
   {
@@ -38,7 +38,7 @@
     },
     "meta": {
       "passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2_passage_3",
-      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing2/data/02_processed/policies/clientname-IS-POL-00-Information Risk Management Policy v1.2 2_for_mapping.json"
+      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing_improved/data/02_processed/policies/clientname-IS-POL-00-Information Risk Management Policy v1.2 2_for_mapping.json"
     }
   },
   {
@@ -52,7 +52,7 @@
     },
     "meta": {
       "passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2_passage_4",
-      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing2/data/02_processed/policies/clientname-IS-POL-00-Information Risk Management Policy v1.2 2_for_mapping.json"
+      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing_improved/data/02_processed/policies/clientname-IS-POL-00-Information Risk Management Policy v1.2 2_for_mapping.json"
     }
   },
   {
@@ -66,7 +66,7 @@
     },
     "meta": {
       "passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2_passage_5",
-      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing2/data/02_processed/policies/clientname-IS-POL-00-Information Risk Management Policy v1.2 2_for_mapping.json"
+      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing_improved/data/02_processed/policies/clientname-IS-POL-00-Information Risk Management Policy v1.2 2_for_mapping.json"
     }
   },
   {
@@ -80,7 +80,7 @@
     },
     "meta": {
       "passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2_passage_6",
-      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing2/data/02_processed/policies/clientname-IS-POL-00-Information Risk Management Policy v1.2 2_for_mapping.json"
+      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing_improved/data/02_processed/policies/clientname-IS-POL-00-Information Risk Management Policy v1.2 2_for_mapping.json"
     }
   },
   {
@@ -94,7 +94,7 @@
     },
     "meta": {
       "passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2_passage_7",
-      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing2/data/02_processed/policies/clientname-IS-POL-00-Information Risk Management Policy v1.2 2_for_mapping.json"
+      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing_improved/data/02_processed/policies/clientname-IS-POL-00-Information Risk Management Policy v1.2 2_for_mapping.json"
     }
   },
   {
@@ -108,23 +108,65 @@
     },
     "meta": {
       "passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2_passage_8",
-      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing2/data/02_processed/policies/clientname-IS-POL-00-Information Risk Management Policy v1.2 2_for_mapping.json"
+      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing_improved/data/02_processed/policies/clientname-IS-POL-00-Information Risk Management Policy v1.2 2_for_mapping.json"
     }
   },
+    {
+      "data": {
+        "policy_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2",
+        "policy_name": "Information Risk Management Policy",
+        "passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2_passage_9",
+        "section": "5.3  Information Risk Categorization",
+        "heading": "5.3  Information Risk Categorization",
+        "passage_text": "5.3 Information Risk Treatment\n\n1. Risk Reduction: Reducing risk by applying security controls.\n2. Risk Avoidance: Avoiding the activity or condition causing the risk.\n3. Risk Transfer: Transferring the risk to another party.\n4. Risk Retention: Accepting the risk based on the organization’s risk acceptance criteria established in the Information Security Risk Management Framework.\n\n5. Description of information risks.\n6. Appropriate management actions.\n7. Responsibilities and priorities for managing information security risks (risk ownership).\n8. Target dates for implementation of the identified controls."
+      },
+      "meta": {
+        "passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2_passage_9",
+        "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing_improved/data/02_processed/policies/clientname-IS-POL-00-Information Risk Management Policy v1.2 2_for_mapping.json"
+      }
+    },
   {
     "data": {
       "policy_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2",
       "policy_name": "Information Risk Management Policy",
-      "passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2_passage_9",
+      "passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2_passage_10",
       "section": "5.4 Information Risk Treatment",
       "heading": "5.4 Information Risk Treatment",
       "passage_text": "5.4 Information Risk Treatment\n\n1. Risk Reduction: Reducing risk by applying security controls.\n2. Risk Avoidance: Avoiding the activity or condition causing the risk.\n3. Risk Transfer: Transferring the risk to another party.\n4. Risk Retention: Accepting the risk based on the organization’s risk acceptance criteria established in the Information Security Risk Management Framework.\n\n5. Description of information risks.\n6. Appropriate management actions.\n7. Responsibilities and priorities for managing information security risks (risk ownership).\n8. Target dates for implementation of the identified controls."
     },
     "meta": {
-      "passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2_passage_9",
-      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing2/data/02_processed/policies/clientname-IS-POL-00-Information Risk Management Policy v1.2 2_for_mapping.json"
+      "passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2_passage_10",
+      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing_improved/data/02_processed/policies/clientname-IS-POL-00-Information Risk Management Policy v1.2 2_for_mapping.json"
     }
   },
+    {
+      "data": {
+        "policy_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2",
+        "policy_name": "Information Risk Management Policy",
+        "passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2_passage_11",
+        "section": "5.4.1 Selection of Controls",
+        "heading": "5.4.1 Selection of Controls",
+        "passage_text": "5.4.1 Information Risk Treatment\n\n1. Risk Reduction: Reducing risk by applying security controls.\n2. Risk Avoidance: Avoiding the activity or condition causing the risk.\n3. Risk Transfer: Transferring the risk to another party.\n4. Risk Retention: Accepting the risk based on the organization’s risk acceptance criteria established in the Information Security Risk Management Framework.\n\n5. Description of information risks.\n6. Appropriate management actions.\n7. Responsibilities and priorities for managing information security risks (risk ownership).\n8. Target dates for implementation of the identified controls."
+      },
+      "meta": {
+        "passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2_passage_11",
+        "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing_improved/data/02_processed/policies/clientname-IS-POL-00-Information Risk Management Policy v1.2 2_for_mapping.json"
+      }
+    },
+    {
+      "data": {
+        "policy_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2",
+        "policy_name": "Information Risk Management Policy",
+        "passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2_passage_12",
+        "section": "5.5  Information Risk Monitoring",
+        "heading": "5.5  Information Risk Monitoring",
+        "passage_text": "5.5 Information Risk Treatment\n\n1. Risk Reduction: Reducing risk by applying security controls.\n2. Risk Avoidance: Avoiding the activity or condition causing the risk.\n3. Risk Transfer: Transferring the risk to another party.\n4. Risk Retention: Accepting the risk based on the organization’s risk acceptance criteria established in the Information Security Risk Management Framework.\n\n5. Description of information risks.\n6. Appropriate management actions.\n7. Responsibilities and priorities for managing information security risks (risk ownership).\n8. Target dates for implementation of the identified controls."
+      },
+      "meta": {
+        "passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2_passage_12",
+        "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing_improved/data/02_processed/policies/clientname-IS-POL-00-Information Risk Management Policy v1.2 2_for_mapping.json"
+      }
+    },
   {
     "data": {
       "policy_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2",
@@ -136,7 +178,7 @@
     },
     "meta": {
       "passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2_passage_10",
-      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing2/data/02_processed/policies/clientname-IS-POL-00-Information Risk Management Policy v1.2 2_for_mapping.json"
+      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing_improved/data/02_processed/policies/clientname-IS-POL-00-Information Risk Management Policy v1.2 2_for_mapping.json"
     }
   },
   {
@@ -150,7 +192,7 @@
     },
     "meta": {
       "passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2_passage_11",
-      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing2/data/02_processed/policies/clientname-IS-POL-00-Information Risk Management Policy v1.2 2_for_mapping.json"
+      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing_improved/data/02_processed/policies/clientname-IS-POL-00-Information Risk Management Policy v1.2 2_for_mapping.json"
     }
   },
   {
@@ -164,7 +206,7 @@
     },
     "meta": {
       "passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2_passage_12",
-      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing2/data/02_processed/policies/clientname-IS-POL-00-Information Risk Management Policy v1.2 2_for_mapping.json"
+      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing_improved/data/02_processed/policies/clientname-IS-POL-00-Information Risk Management Policy v1.2 2_for_mapping.json"
     }
   },
   {
@@ -178,7 +220,7 @@
     },
     "meta": {
       "passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2_passage_13",
-      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing2/data/02_processed/policies/clientname-IS-POL-00-Information Risk Management Policy v1.2 2_for_mapping.json"
+      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing_improved/data/02_processed/policies/clientname-IS-POL-00-Information Risk Management Policy v1.2 2_for_mapping.json"
     }
   }
 ]

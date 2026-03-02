@@ -10,7 +10,7 @@
     },
     "meta": {
       "passage_id": "clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2_passage_1",
-      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing2/data/02_processed/policies/clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2_for_mapping.json"
+      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing_improved/data/02_processed/policies/clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2_for_mapping.json"
     }
   },
   {
@@ -24,7 +24,7 @@
     },
     "meta": {
       "passage_id": "clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2_passage_2",
-      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing2/data/02_processed/policies/clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2_for_mapping.json"
+      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing_improved/data/02_processed/policies/clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2_for_mapping.json"
     }
   },
   {
@@ -38,7 +38,7 @@
     },
     "meta": {
       "passage_id": "clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2_passage_3",
-      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing2/data/02_processed/policies/clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2_for_mapping.json"
+      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing_improved/data/02_processed/policies/clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2_for_mapping.json"
     }
   },
   {
@@ -52,7 +52,7 @@
     },
     "meta": {
       "passage_id": "clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2_passage_4",
-      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing2/data/02_processed/policies/clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2_for_mapping.json"
+      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing_improved/data/02_processed/policies/clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2_for_mapping.json"
     }
   },
   {
@@ -66,7 +66,7 @@
     },
     "meta": {
       "passage_id": "clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2_passage_5",
-      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing2/data/02_processed/policies/clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2_for_mapping.json"
+      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing_improved/data/02_processed/policies/clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2_for_mapping.json"
     }
   },
   {
@@ -80,7 +80,7 @@
     },
     "meta": {
       "passage_id": "clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2_passage_6",
-      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing2/data/02_processed/policies/clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2_for_mapping.json"
+      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing_improved/data/02_processed/policies/clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2_for_mapping.json"
     }
   },
   {
@@ -94,9 +94,121 @@
     },
     "meta": {
       "passage_id": "clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2_passage_7",
-      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing2/data/02_processed/policies/clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2_for_mapping.json"
+      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing_improved/data/02_processed/policies/clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2_for_mapping.json"
     }
   },
+    {
+      "data": {
+        "policy_id": "clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2",
+        "policy_name": "Information Systems Acquisition Development and Maintenance Policy",
+        "passage_id": "clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2_passage_8",
+        "section": "5.1 Information Security Requirements Analysis and Specification",
+        "heading": "5.1 Information Security Requirements Analysis and Specification",
+        "passage_text": "5.1 Information Security Requirements Analysis and Specification\n\n5. **Information Security Requirements Analysis and Specification**\n\n&lt;CLIENT&gt; shall:\n\n1. Identify, document and review information security (IS) requirements using various methods such as deriving compliance requirements, threat modelling, incident reviews and/or use of vulnerability thresholds.\n2. Ensure that the IS requirements and measures reflect the business value and potential adverse business impact resulting from lack of adequate security.\n3. Identify and manage IS requirements and associated processes to ensure that they are integrated with the early stages of information systems projects.\n4. Establish a formal risk-based security testing and acquisition process if products are acquired.\n5. Ensure that the contracts with the supplier addresses the new risks introduced and the associated mitigation measures, before acquiring the product/service.\n6. Evaluate and implement the available guidance for the product's security configuration and align with that "
+      },
+      "meta": {
+        "passage_id": "clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2_passage_8",
+        "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing_improved/data/02_processed/policies/clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2_for_mapping.json"
+      }
+    },
+      {
+        "data": {
+          "policy_id": "clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2",
+          "policy_name": "Information Systems Acquisition Development and Maintenance Policy",
+          "passage_id": "clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2_passage_9",
+          "section": "5.2 Information Security Requirements during Acquisition and Development",
+          "heading": "5.2 Information Security Requirements during Acquisition and Development",
+          "passage_text": "5.2 Information Security Requirements during Acquisition and Development\n\n5. **Information Security Requirements Analysis and Specification**\n\n&lt;CLIENT&gt; shall:\n\n1. Identify, document and review information security (IS) requirements using various methods such as deriving compliance requirements, threat modelling, incident reviews and/or use of vulnerability thresholds.\n2. Ensure that the IS requirements and measures reflect the business value and potential adverse business impact resulting from lack of adequate security.\n3. Identify and manage IS requirements and associated processes to ensure that they are integrated with the early stages of information systems projects.\n4. Establish a formal risk-based security testing and acquisition process if products are acquired.\n5. Ensure that the contracts with the supplier addresses the new risks introduced and the associated mitigation measures, before acquiring the product/service.\n6. Evaluate and implement the available guidance for the product's security configuration and align with that "
+        },
+        "meta": {
+          "passage_id": "clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2_passage_9",
+          "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing_improved/data/02_processed/policies/clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2_for_mapping.json"
+        }
+      },
+        {
+          "data": {
+            "policy_id": "clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2",
+            "policy_name": "Information Systems Acquisition Development and Maintenance Policy",
+            "passage_id": "clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2_passage_10",
+            "section": "5.3 Privacy by Design",
+            "heading": "5.3 Privacy by Design",
+            "passage_text": "5.3 Privacy by Design\n\n5. **Information Security Requirements Analysis and Specification**\n\n&lt;CLIENT&gt; shall:\n\n1. Identify, document and review information security (IS) requirements using various methods such as deriving compliance requirements, threat modelling, incident reviews and/or use of vulnerability thresholds.\n2. Ensure that the IS requirements and measures reflect the business value and potential adverse business impact resulting from lack of adequate security.\n3. Identify and manage IS requirements and associated processes to ensure that they are integrated with the early stages of information systems projects.\n4. Establish a formal risk-based security testing and acquisition process if products are acquired.\n5. Ensure that the contracts with the supplier addresses the new risks introduced and the associated mitigation measures, before acquiring the product/service.\n6. Evaluate and implement the available guidance for the product's security configuration and align with that "
+          },
+          "meta": {
+            "passage_id": "clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2_passage_10",
+            "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing_improved/data/02_processed/policies/clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2_for_mapping.json"
+          }
+        },
+          {
+            "data": {
+              "policy_id": "clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2",
+              "policy_name": "Information Systems Acquisition Development and Maintenance Policy",
+              "passage_id": "clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2_passage_11",
+              "section": "5.4 Securing Application Services",
+              "heading": "5.4 Securing Application Services",
+              "passage_text": "5.4 Securing Application Services\n\n5. **Information Security Requirements Analysis and Specification**\n\n&lt;CLIENT&gt; shall:\n\n1. Identify, document and review information security (IS) requirements using various methods such as deriving compliance requirements, threat modelling, incident reviews and/or use of vulnerability thresholds.\n2. Ensure that the IS requirements and measures reflect the business value and potential adverse business impact resulting from lack of adequate security.\n3. Identify and manage IS requirements and associated processes to ensure that they are integrated with the early stages of information systems projects.\n4. Establish a formal risk-based security testing and acquisition process if products are acquired.\n5. Ensure that the contracts with the supplier addresses the new risks introduced and the associated mitigation measures, before acquiring the product/service.\n6. Evaluate and implement the available guidance for the product's security configuration and align with that "
+            },
+            "meta": {
+              "passage_id": "clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2_passage_11",
+              "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing_improved/data/02_processed/policies/clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2_for_mapping.json"
+            }
+          },
+            {
+              "data": {
+                "policy_id": "clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2",
+                "policy_name": "Information Systems Acquisition Development and Maintenance Policy",
+                "passage_id": "clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2_passage_12",
+                "section": "5.5 Training and Awareness",
+                "heading": "5.5 Training and Awareness",
+                "passage_text": "5.5 Training and Awareness\n\n5. **Information Security Requirements Analysis and Specification**\n\n&lt;CLIENT&gt; shall:\n\n1. Identify, document and review information security (IS) requirements using various methods such as deriving compliance requirements, threat modelling, incident reviews and/or use of vulnerability thresholds.\n2. Ensure that the IS requirements and measures reflect the business value and potential adverse business impact resulting from lack of adequate security.\n3. Identify and manage IS requirements and associated processes to ensure that they are integrated with the early stages of information systems projects.\n4. Establish a formal risk-based security testing and acquisition process if products are acquired.\n5. Ensure that the contracts with the supplier addresses the new risks introduced and the associated mitigation measures, before acquiring the product/service.\n6. Evaluate and implement the available guidance for the product's security configuration and align with that "
+              },
+              "meta": {
+                "passage_id": "clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2_passage_12",
+                "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing_improved/data/02_processed/policies/clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2_for_mapping.json"
+              }
+            },
+              {
+                "data": {
+                  "policy_id": "clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2",
+                  "policy_name": "Information Systems Acquisition Development and Maintenance Policy",
+                  "passage_id": "clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2_passage_13",
+                  "section": "5.6 Protection of Test Data",
+                  "heading": "5.6 Protection of Test Data",
+                  "passage_text": "5.6 Protection of Test Data\n\n5. **Information Security Requirements Analysis and Specification**\n\n&lt;CLIENT&gt; shall:\n\n1. Identify, document and review information security (IS) requirements using various methods such as deriving compliance requirements, threat modelling, incident reviews and/or use of vulnerability thresholds.\n2. Ensure that the IS requirements and measures reflect the business value and potential adverse business impact resulting from lack of adequate security.\n3. Identify and manage IS requirements and associated processes to ensure that they are integrated with the early stages of information systems projects.\n4. Establish a formal risk-based security testing and acquisition process if products are acquired.\n5. Ensure that the contracts with the supplier addresses the new risks introduced and the associated mitigation measures, before acquiring the product/service.\n6. Evaluate and implement the available guidance for the product's security configuration and align with that "
+                },
+                "meta": {
+                  "passage_id": "clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2_passage_13",
+                  "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing_improved/data/02_processed/policies/clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2_for_mapping.json"
+                }
+              },
+                {
+                  "data": {
+                    "policy_id": "clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2",
+                    "policy_name": "Information Systems Acquisition Development and Maintenance Policy",
+                    "passage_id": "clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2_passage_14",
+                    "section": "5.7 Supply Chain Protection Strategy",
+                    "heading": "5.7 Supply Chain Protection Strategy",
+                    "passage_text": "5.7 Supply Chain Protection Strategy\n\n5. **Information Security Requirements Analysis and Specification**\n\n&lt;CLIENT&gt; shall:\n\n1. Identify, document and review information security (IS) requirements using various methods such as deriving compliance requirements, threat modelling, incident reviews and/or use of vulnerability thresholds.\n2. Ensure that the IS requirements and measures reflect the business value and potential adverse business impact resulting from lack of adequate security.\n3. Identify and manage IS requirements and associated processes to ensure that they are integrated with the early stages of information systems projects.\n4. Establish a formal risk-based security testing and acquisition process if products are acquired.\n5. Ensure that the contracts with the supplier addresses the new risks introduced and the associated mitigation measures, before acquiring the product/service.\n6. Evaluate and implement the available guidance for the product's security configuration and align with that "
+                  },
+                  "meta": {
+                    "passage_id": "clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2_passage_14",
+                    "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing_improved/data/02_processed/policies/clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2_for_mapping.json"
+                  }
+                },
+                  {
+                    "data": {
+                      "policy_id": "clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2",
+                      "policy_name": "Information Systems Acquisition Development and Maintenance Policy",
+                      "passage_id": "clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2_passage_15",
+                      "section": "5.8 Reliable Delivery",
+                      "heading": "5.8 Reliable Delivery",
+                      "passage_text": "5.8 Reliable Delivery\n\n5. **Information Security Requirements Analysis and Specification**\n\n&lt;CLIENT&gt; shall:\n\n1. Identify, document and review information security (IS) requirements using various methods such as deriving compliance requirements, threat modelling, incident reviews and/or use of vulnerability thresholds.\n2. Ensure that the IS requirements and measures reflect the business value and potential adverse business impact resulting from lack of adequate security.\n3. Identify and manage IS requirements and associated processes to ensure that they are integrated with the early stages of information systems projects.\n4. Establish a formal risk-based security testing and acquisition process if products are acquired.\n5. Ensure that the contracts with the supplier addresses the new risks introduced and the associated mitigation measures, before acquiring the product/service.\n6. Evaluate and implement the available guidance for the product's security configuration and align with that "
+                    },
+                    "meta": {
+                      "passage_id": "clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2_passage_15",
+                      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing_improved/data/02_processed/policies/clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2_for_mapping.json"
+                    }
+                  },
   {
     "data": {
       "policy_id": "clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2",
@@ -108,7 +220,7 @@
     },
     "meta": {
       "passage_id": "clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2_passage_8",
-      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing2/data/02_processed/policies/clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2_for_mapping.json"
+      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing_improved/data/02_processed/policies/clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2_for_mapping.json"
     }
   },
   {
@@ -122,7 +234,7 @@
     },
     "meta": {
       "passage_id": "clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2_passage_9",
-      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing2/data/02_processed/policies/clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2_for_mapping.json"
+      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing_improved/data/02_processed/policies/clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2_for_mapping.json"
     }
   },
   {
@@ -136,7 +248,7 @@
     },
     "meta": {
       "passage_id": "clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2_passage_10",
-      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing2/data/02_processed/policies/clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2_for_mapping.json"
+      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing_improved/data/02_processed/policies/clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2_for_mapping.json"
     }
   },
   {
@@ -150,7 +262,7 @@
     },
     "meta": {
       "passage_id": "clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2_passage_11",
-      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing2/data/02_processed/policies/clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2_for_mapping.json"
+      "source_file": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing_improved/data/02_processed/policies/clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2_for_mapping.json"
     }
   }
 ]

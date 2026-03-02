@@ -25,6 +25,15 @@ python3 quick_start_compliance.py
 
 **If something is missing:** the script will print what file it expects and how to create it.
 
+**Run in background** (survives closing the terminal; output in a log file):
+
+```bash
+nohup python3 quick_start_compliance.py > quick_start_compliance.log 2>&1 &
+```
+
+- Log: `quick_start_compliance.log` in the project root. To watch progress: `tail -f quick_start_compliance.log`.
+- When the laptop sleeps, the process is suspended and resumes when the laptop wakes. To keep it running across sleep, leave the laptop awake or run it on a server.
+
 ---
 
 ## 2. If controls or policies are missing

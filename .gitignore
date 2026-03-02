@@ -1,0 +1,30 @@
+# Python virtualenv
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Large model files (upload to Drive for Colab instead)
+obligation-classifier-legalbert/
+models/
+legal_bert_model.zip
+
+# Annotated data with spaces in filename (keep the clean copy)
+"data/annotated_golden _data.json"
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.cursor/
+.vscode/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/

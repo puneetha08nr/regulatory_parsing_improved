@@ -27,6 +27,37 @@ This doc maps the **recommended RegNLP roadmap** (from `docs/claude_analysis.md`
 
 ---
 
+## How the obligation classifier (model) is built
+
+There are two parts: the **rule-based** classifier (no training) and the **LegalBERT** model (trained in an external repo).
+
+### 1. Rule-based classifier (default, in this repo)
+
+- **Not a learned model.** It is a small set of rules implemented in `ObligationClassifier` in `compliance_mapping_pipeline.py`.
+- **Built from:**
+  - **Obligation keywords:** e.g. `shall`, `must`, `required`, `mandatory`, `shall not`, `prohibited`, `ensure`, `implement`, `establish`, `maintain`, `document`.
+  - **Permission keywords:** e.g. `may`, `can`, `should`, `recommended`, `optional`.
+- **Logic:** A control is an obligation if its text contains any obligation keyword and it is not the case that it has only permission (and no obligation). Obligation text is extracted by taking sentences that contain obligation keywords (or the first sentence as fallback).
+- **No training step.** Works as soon as the pipeline runs.
+
+### 2. LegalBERT model (optional, trained in RegNLP repo)
+
+The **learned model** is built and trained in the external repo [RegNLP/ObligationClassifier](https://github.com/RegNLP/ObligationClassifier). This repo only **loads** the saved model; it does not train it.
+
+**How that model is built:**
+
+| Step | What happens |
+|------|----------------|
+| **Data** | Dataset from **Abu Dhabi Global Market (ADGM) Financial Regulations**. Labels (obligation vs non-obligation) were created with **zero-shot GPT-4** (`gpt-4-turbo-1106`). ~2,296 items: 1,414 obligation (True), 882 non-obligation (False). Stored as `ObligationClassificationDataset.json` (fields: `Text`, `Obligation`). |
+| **Base model** | **LegalBERT** (`nlpaueb/legal-bert-base-uncased`) — a BERT model pre-trained on legal text. |
+| **Task** | **Sequence classification** with 2 labels: 0 = non-obligation, 1 = obligation. |
+| **Training** | In RegNLP repo: load JSON → tokenize with LegalBERT tokenizer → train/validation split → **Hugging Face `Trainer`** fine-tunes the model (batch size, learning rate, weight decay, early stopping). Evaluated with accuracy, precision, recall, F1. |
+| **Output** | Trained model and tokenizer saved to **`./obligation-classifier-legalbert`** (HuggingFace `save_pretrained` format). |
+
+**In this repo:** We copy that folder to `models/obligation-classifier-legalbert` or set `LEGALBERT_MODEL_PATH`. `LegalBertObligationClassifier` loads it and uses it to predict obligation (0/1) per control; **obligation text** is still extracted with the same rule-based sentence logic as the rule-based classifier.
+
+---
+
 ## Roadmap phases vs current state
 
 | Phase | Roadmap | Current state |

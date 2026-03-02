@@ -18,3 +18,6 @@ numpy
 # Policy extraction backends (optional; docling is default for better structure)
 # docling  # already above - use --backend docling to preserve sections/tables/lists
 # unstructured[pdf]  # pip install 'unstructured[pdf]' for --backend unstructured
+
+# Reranker (used by compliance pipeline when use_reranker=True; sentence-transformers provides CrossEncoder)
+# ColBERT retrieval (optional; not yet wired): pip install colbert-ai  # late-interaction retrieval backend

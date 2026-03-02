@@ -1,0 +1,417 @@
+{
+  "clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_11": {
+    "policy_name": "Information Security Compliance Policy",
+    "section": "6 ROLES AND RESPONSIBILITIES",
+    "reason": "boilerplate section: 6 ROLES AND RESPONSIBILITIES"
+  },
+  "clientname-IS-POL-00-Security Operations Policy_passage_14": {
+    "policy_name": "Security Operations Policy",
+    "section": "9 MONITORING AND REVIEW",
+    "reason": "boilerplate section: 9 MONITORING AND REVIEW"
+  },
+  "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_2": {
+    "policy_name": "Network and Communications Security Policy",
+    "section": "Table of Contents",
+    "reason": "boilerplate section: Table of Contents"
+  },
+  "clientname-IS-POL-00-Asset Management Policy 6_passage_1": {
+    "policy_name": "Asset Management Policy",
+    "section": "Passage 1",
+    "reason": "scope annotation x14"
+  },
+  "clientname-IS-POL-00-Asset Management Policy_passage_1": {
+    "policy_name": "Asset Management Policy",
+    "section": "Passage 1",
+    "reason": "scope annotation x10"
+  },
+  "clientname-IS-POL-00-Information Security Incident Management Policy 2_passage_1": {
+    "policy_name": "Information Security Incident Management Policy",
+    "section": "Passage 1",
+    "reason": "scope annotation x4"
+  },
+  "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_1": {
+    "policy_name": "Information Security Incident Management Policy",
+    "section": "Passage 1",
+    "reason": "scope annotation x4"
+  },
+  "clientname-IS-POL-00-Logging and Monitoring Policy 2_passage_6": {
+    "policy_name": "Logging and Monitoring Policy",
+    "section": "4 MONITORING AND REVIEW",
+    "reason": "boilerplate section: 4 MONITORING AND REVIEW"
+  },
+  "clientname-IS-POL-00-Logging and Monitoring Policy 3_passage_6": {
+    "policy_name": "Logging and Monitoring Policy",
+    "section": "4 MONITORING AND REVIEW",
+    "reason": "boilerplate section: 4 MONITORING AND REVIEW"
+  },
+  "clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2_passage_2": {
+    "policy_name": "Information Systems Acquisition Development and Maintenance Policy",
+    "section": "Table of Contents",
+    "reason": "boilerplate section: Table of Contents"
+  },
+  "clientname-IS-POL-00-Information Security Incident Management Policy 2_passage_17": {
+    "policy_name": "Information Security Incident Management Policy",
+    "section": "7 POLICY ENFORCEMENT AND EXCEPTIONS",
+    "reason": "boilerplate section: 7 POLICY ENFORCEMENT AND EXCEPTIONS"
+  },
+  "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_17": {
+    "policy_name": "Information Security Incident Management Policy",
+    "section": "7 POLICY ENFORCEMENT AND EXCEPTIONS",
+    "reason": "boilerplate section: 7 POLICY ENFORCEMENT AND EXCEPTIONS"
+  },
+  "clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_11": {
+    "policy_name": "Security Awareness and Training Policy",
+    "section": "10 POLICY ENFORCEMENT AND EXCEPTIONS",
+    "reason": "boilerplate section: 10 POLICY ENFORCEMENT AND EXCEPTIONS"
+  },
+  "clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping_passage_11": {
+    "policy_name": "Third-Party Security Policy",
+    "section": "9 POLICY ENFORCEMENT AND EXCEPTIONS",
+    "reason": "boilerplate section: 9 POLICY ENFORCEMENT AND EXCEPTIONS"
+  },
+  "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_17": {
+    "policy_name": "Network and Communications Security Policy",
+    "section": "7 POLICY ENFORCEMENT AND EXCEPTIONS",
+    "reason": "boilerplate section: 7 POLICY ENFORCEMENT AND EXCEPTIONS"
+  },
+  "clientname-IS-POL-00-Asset Management Policy 6_passage_17": {
+    "policy_name": "Asset Management Policy",
+    "section": "7 POLICY ENFORCEMENT AND EXCEPTIONS",
+    "reason": "boilerplate section: 7 POLICY ENFORCEMENT AND EXCEPTIONS"
+  },
+  "clientname-IS-POL-00-Asset Management Policy_passage_17": {
+    "policy_name": "Asset Management Policy",
+    "section": "7 POLICY ENFORCEMENT AND EXCEPTIONS",
+    "reason": "boilerplate section: 7 POLICY ENFORCEMENT AND EXCEPTIONS"
+  },
+  "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_1": {
+    "policy_name": "Physical and Environmental Security Policy",
+    "section": "Passage 1",
+    "reason": "scope annotation x12"
+  },
+  "clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_13": {
+    "policy_name": "Information Security Compliance Policy",
+    "section": "8 MONITORING AND REVIEW",
+    "reason": "boilerplate section: 8 MONITORING AND REVIEW"
+  },
+  "clientname-IS-POL-00-Asset Management Policy 6_passage_2": {
+    "policy_name": "Asset Management Policy",
+    "section": "Table of Contents",
+    "reason": "boilerplate section: Table of Contents"
+  },
+  "clientname-IS-POL-00-Asset Management Policy_passage_2": {
+    "policy_name": "Asset Management Policy",
+    "section": "Table of Contents",
+    "reason": "boilerplate section: Table of Contents"
+  },
+  "clientname-IS-POL-00-Security Operations Policy_passage_1": {
+    "policy_name": "Security Operations Policy",
+    "section": "Passage 1",
+    "reason": "scope annotation x2"
+  },
+  "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_7": {
+    "policy_name": "Physical and Environmental Security Policy",
+    "section": "5 POLICY DETAILS",
+    "reason": "scope annotation x5"
+  },
+  "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_1": {
+    "policy_name": "Network and Communications Security Policy",
+    "section": "Passage 1",
+    "reason": "scope annotation x3"
+  },
+  "clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2_passage_1": {
+    "policy_name": "Information Systems Acquisition Development and Maintenance Policy",
+    "section": "Passage 1",
+    "reason": "scope annotation x3"
+  },
+  "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_2": {
+    "policy_name": "Access Control Policy - CPX policy is reference",
+    "section": "2 Table of Contents",
+    "reason": "boilerplate section: 2 Table of Contents"
+  },
+  "clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_3": {
+    "policy_name": "Security Awareness and Training Policy",
+    "section": "4 INTRODUCTION",
+    "reason": "boilerplate section: 4 INTRODUCTION"
+  },
+  "clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping_passage_3": {
+    "policy_name": "Third-Party Security Policy",
+    "section": "3 INTRODUCTION",
+    "reason": "boilerplate section: 3 INTRODUCTION"
+  },
+  "clientname-IS-POL-00-Information Risk Management Policy v1.2 1_passage_3": {
+    "policy_name": "Information Risk Management Policy",
+    "section": "1 INTRODUCTION",
+    "reason": "boilerplate section: 1 INTRODUCTION"
+  },
+  "clientname-IS-POL-00-Information Risk Management Policy v1.2 2_passage_3": {
+    "policy_name": "Information Risk Management Policy",
+    "section": "1 INTRODUCTION",
+    "reason": "boilerplate section: 1 INTRODUCTION"
+  },
+  "clientname-IS-POL-00-Information Risk Management Policy v1.2 3_passage_3": {
+    "policy_name": "Information Risk Management Policy",
+    "section": "1 INTRODUCTION",
+    "reason": "boilerplate section: 1 INTRODUCTION"
+  },
+  "clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_10": {
+    "policy_name": "Security Awareness and Training Policy",
+    "section": "9 ROLES AND RESPONSIBILITIES",
+    "reason": "boilerplate section: 9 ROLES AND RESPONSIBILITIES"
+  },
+  "clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping_passage_10": {
+    "policy_name": "Third-Party Security Policy",
+    "section": "8 ROLES AND RESPONSIBILITIES",
+    "reason": "boilerplate section: 8 ROLES AND RESPONSIBILITIES"
+  },
+  "clientname-IS-POL-00-Information Security Incident Management Policy 2_passage_4": {
+    "policy_name": "Information Security Incident Management Policy",
+    "section": "2 PURPOSE",
+    "reason": "boilerplate section: 2 PURPOSE"
+  },
+  "clientname-IS-POL-00-Information Security Incident Management Policy 2_passage_18": {
+    "policy_name": "Information Security Incident Management Policy",
+    "section": "8 MONITORING AND REVIEW",
+    "reason": "boilerplate section: 8 MONITORING AND REVIEW"
+  },
+  "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_18": {
+    "policy_name": "Information Security Incident Management Policy",
+    "section": "8 MONITORING AND REVIEW",
+    "reason": "boilerplate section: 8 MONITORING AND REVIEW"
+  },
+  "clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2_passage_10": {
+    "policy_name": "Information Systems Acquisition Development and Maintenance Policy",
+    "section": "8 MONITORING AND REVIEW",
+    "reason": "boilerplate section: 8 MONITORING AND REVIEW"
+  },
+  "clientname-IS-POL-00-Asset Management Policy 6_passage_18": {
+    "policy_name": "Asset Management Policy",
+    "section": "8 MONITORING AND REVIEW",
+    "reason": "boilerplate section: 8 MONITORING AND REVIEW"
+  },
+  "clientname-IS-POL-00-Security Operations Policy_passage_2": {
+    "policy_name": "Security Operations Policy",
+    "section": "2 INTRODUCTION",
+    "reason": "boilerplate section: 2 INTRODUCTION"
+  },
+  "clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping_passage_4": {
+    "policy_name": "Third-Party Security Policy",
+    "section": "4 PURPOSE",
+    "reason": "boilerplate section: 4 PURPOSE"
+  },
+  "clientname-IS-POL-00-Information Security Incident Management Policy 2_passage_5": {
+    "policy_name": "Information Security Incident Management Policy",
+    "section": "3 SCOPE",
+    "reason": "boilerplate section: 3 SCOPE"
+  },
+  "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_5": {
+    "policy_name": "Information Security Incident Management Policy",
+    "section": "3 SCOPE",
+    "reason": "boilerplate section: 3 SCOPE"
+  },
+  "clientname-IS-POL-00-Asset Management Policy 6_passage_3": {
+    "policy_name": "Asset Management Policy",
+    "section": "1 INTRODUCTION",
+    "reason": "boilerplate section: 1 INTRODUCTION"
+  },
+  "clientname-IS-POL-00-Asset Management Policy_passage_3": {
+    "policy_name": "Asset Management Policy",
+    "section": "1 INTRODUCTION",
+    "reason": "boilerplate section: 1 INTRODUCTION"
+  },
+  "clientname-IS-POL-00-Information Risk Management Policy v1.2 1_passage_5": {
+    "policy_name": "Information Risk Management Policy",
+    "section": "3 SCOPE",
+    "reason": "boilerplate section: 3 SCOPE"
+  },
+  "clientname-IS-POL-00-Information Risk Management Policy v1.2 2_passage_5": {
+    "policy_name": "Information Risk Management Policy",
+    "section": "3 SCOPE",
+    "reason": "boilerplate section: 3 SCOPE"
+  },
+  "clientname-IS-POL-00-Information Risk Management Policy v1.2 3_passage_5": {
+    "policy_name": "Information Risk Management Policy",
+    "section": "3 SCOPE",
+    "reason": "boilerplate section: 3 SCOPE"
+  },
+  "clientname-IS-POL-00-Information Risk Management Policy v1.2 1_passage_2": {
+    "policy_name": "Information Risk Management Policy",
+    "section": "Table of Contents",
+    "reason": "boilerplate section: Table of Contents"
+  },
+  "clientname-IS-POL-00-Information Risk Management Policy v1.2 2_passage_2": {
+    "policy_name": "Information Risk Management Policy",
+    "section": "Table of Contents",
+    "reason": "boilerplate section: Table of Contents"
+  },
+  "clientname-IS-POL-00-Information Risk Management Policy v1.2 3_passage_2": {
+    "policy_name": "Information Risk Management Policy",
+    "section": "Table of Contents",
+    "reason": "boilerplate section: Table of Contents"
+  },
+  "clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2_passage_3": {
+    "policy_name": "Information Systems Acquisition Development and Maintenance Policy",
+    "section": "1 INTRODUCTION",
+    "reason": "boilerplate section: 1 INTRODUCTION"
+  },
+  "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_19": {
+    "policy_name": "Access Control Policy - CPX policy is reference",
+    "section": "10 POLICY ENFORCEMENT AND EXCEPTIONS",
+    "reason": "boilerplate section: 10 POLICY ENFORCEMENT AND EXCEPTIONS"
+  },
+  "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_5": {
+    "policy_name": "Access Control Policy - CPX policy is reference",
+    "section": "6 SCOPE",
+    "reason": "boilerplate section: 6 SCOPE"
+  },
+  "clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_12": {
+    "policy_name": "Information Security Compliance Policy",
+    "section": "7 POLICY ENFORCEMENT AND EXCEPTIONS",
+    "reason": "boilerplate section: 7 POLICY ENFORCEMENT AND EXCEPTIONS"
+  },
+  "clientname-IS-POL-00-Security Operations Policy_passage_13": {
+    "policy_name": "Security Operations Policy",
+    "section": "8 POLICY ENFORCEMENT AND EXCEPTIONS",
+    "reason": "boilerplate section: 8 POLICY ENFORCEMENT AND EXCEPTIONS"
+  },
+  "clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2_passage_9": {
+    "policy_name": "Information Systems Acquisition Development and Maintenance Policy",
+    "section": "7 POLICY ENFORCEMENT AND EXCEPTIONS",
+    "reason": "boilerplate section: 7 POLICY ENFORCEMENT AND EXCEPTIONS"
+  },
+  "clientname-IS-POL-00-Vulnerability Management Policy v1.2 (V_A)_passage_9": {
+    "policy_name": "Vulnerability Management Policy",
+    "section": "8 POLICY ENFORCEMENT AND EXCEPTIONS",
+    "reason": "boilerplate section: 8 POLICY ENFORCEMENT AND EXCEPTIONS"
+  },
+  "clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_4": {
+    "policy_name": "Information Security Compliance Policy",
+    "section": "2 PURPOSE",
+    "reason": "boilerplate section: 2 PURPOSE"
+  },
+  "clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_2": {
+    "policy_name": "Information Security Compliance Policy",
+    "section": "Table of Contents",
+    "reason": "boilerplate section: Table of Contents"
+  },
+  "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_3": {
+    "policy_name": "Physical and Environmental Security Policy",
+    "section": "1 INTRODUCTION",
+    "reason": "boilerplate section: 1 INTRODUCTION"
+  },
+  "clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_12": {
+    "policy_name": "Security Awareness and Training Policy",
+    "section": "11 MONITORING AND REVIEW",
+    "reason": "boilerplate section: 11 MONITORING AND REVIEW"
+  },
+  "clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping_passage_12": {
+    "policy_name": "Third-Party Security Policy",
+    "section": "10 MONITORING AND REVIEW",
+    "reason": "boilerplate section: 10 MONITORING AND REVIEW"
+  },
+  "clientname-IS-POL-00-Asset Management Policy 6_passage_4": {
+    "policy_name": "Asset Management Policy",
+    "section": "2 PURPOSE",
+    "reason": "boilerplate section: 2 PURPOSE"
+  },
+  "clientname-IS-POL-00-Asset Management Policy_passage_4": {
+    "policy_name": "Asset Management Policy",
+    "section": "2 PURPOSE",
+    "reason": "boilerplate section: 2 PURPOSE"
+  },
+  "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_4": {
+    "policy_name": "Physical and Environmental Security Policy",
+    "section": "2 PURPOSE",
+    "reason": "boilerplate section: 2 PURPOSE"
+  },
+  "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_4": {
+    "policy_name": "Information Security Incident Management Policy",
+    "section": "2 PURPOSE",
+    "reason": "boilerplate section: 2 PURPOSE"
+  },
+  "clientname-IS-POL-00-Vulnerability Management Policy v1.2 (V_A)_passage_5": {
+    "policy_name": "Vulnerability Management Policy",
+    "section": "4 SCOPE",
+    "reason": "boilerplate section: 4 SCOPE"
+  },
+  "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_4": {
+    "policy_name": "Network and Communications Security Policy",
+    "section": "2 PURPOSE",
+    "reason": "boilerplate section: 2 PURPOSE"
+  },
+  "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_13": {
+    "policy_name": "Access Control Policy - CPX policy is reference",
+    "section": "8.7 Review of User Access Rights",
+    "reason": "boilerplate section: 8.7 Review of User Access Rights"
+  },
+  "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_3": {
+    "policy_name": "Access Control Policy - CPX policy is reference",
+    "section": "4 INTRODUCTION",
+    "reason": "boilerplate section: 4 INTRODUCTION"
+  },
+  "clientname-IS-POL-00-Logging and Monitoring Policy 2_passage_2": {
+    "policy_name": "Logging and Monitoring Policy",
+    "section": "1 Table of Contents",
+    "reason": "boilerplate section: 1 Table of Contents"
+  },
+  "clientname-IS-POL-00-Logging and Monitoring Policy 3_passage_2": {
+    "policy_name": "Logging and Monitoring Policy",
+    "section": "1 Table of Contents",
+    "reason": "boilerplate section: 1 Table of Contents"
+  },
+  "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_4": {
+    "policy_name": "Access Control Policy - CPX policy is reference",
+    "section": "5 PURPOSE",
+    "reason": "boilerplate section: 5 PURPOSE"
+  },
+  "clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_3": {
+    "policy_name": "Information Security Compliance Policy",
+    "section": "1 INTRODUCTION",
+    "reason": "boilerplate section: 1 INTRODUCTION"
+  },
+  "clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping_passage_2": {
+    "policy_name": "Third-Party Security Policy",
+    "section": "1 Table of Contents",
+    "reason": "boilerplate section: 1 Table of Contents"
+  },
+  "clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2_passage_4": {
+    "policy_name": "Information Systems Acquisition Development and Maintenance Policy",
+    "section": "2 PURPOSE",
+    "reason": "boilerplate section: 2 PURPOSE"
+  },
+  "clientname-IS-POL-00-Vulnerability Management Policy v1.2 (V_A)_passage_10": {
+    "policy_name": "Vulnerability Management Policy",
+    "section": "9 MONITORING AND REVIEW",
+    "reason": "boilerplate section: 9 MONITORING AND REVIEW"
+  },
+  "clientname-IS-POL-00-Information Risk Management Policy v1.2 1_passage_12": {
+    "policy_name": "Information Risk Management Policy",
+    "section": "7 MONITORING AND REVIEW",
+    "reason": "boilerplate section: 7 MONITORING AND REVIEW"
+  },
+  "clientname-IS-POL-00-Information Risk Management Policy v1.2 2_passage_12": {
+    "policy_name": "Information Risk Management Policy",
+    "section": "7 MONITORING AND REVIEW",
+    "reason": "boilerplate section: 7 MONITORING AND REVIEW"
+  },
+  "clientname-IS-POL-00-Information Risk Management Policy v1.2 3_passage_12": {
+    "policy_name": "Information Risk Management Policy",
+    "section": "7 MONITORING AND REVIEW",
+    "reason": "boilerplate section: 7 MONITORING AND REVIEW"
+  },
+  "clientname-IS-POL-00-Information Security Incident Management Policy 2_passage_3": {
+    "policy_name": "Information Security Incident Management Policy",
+    "section": "1 INTRODUCTION",
+    "reason": "boilerplate section: 1 INTRODUCTION"
+  },
+  "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_3": {
+    "policy_name": "Information Security Incident Management Policy",
+    "section": "1 INTRODUCTION",
+    "reason": "boilerplate section: 1 INTRODUCTION"
+  },
+  "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_2": {
+    "policy_name": "Physical and Environmental Security Policy",
+    "section": "Table of Contents",
+    "reason": "boilerplate section: Table of Contents"
+  }
+}

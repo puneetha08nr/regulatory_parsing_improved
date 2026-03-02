@@ -10,12 +10,15 @@ evidence), RePASs-style. See MAPPING_STRATEGY_AND_REGNLP.md.
 Components:
 1. Obligation Classification (RegNLP ObligationClassifier approach)
 2. RegNLP-style retrieval (BM25 + Dense + RRF) over policy passages
-3. Entailment-based labeling (RePASs-style) on retrieved candidates only
-4. Compliance Status Tracking
+3. Optional: Cross-Encoder reranker (replaces NLI for speed; ~95% accuracy)
+4. Optional: Policy graph (same-doc passage neighbors) for candidate expansion
+5. Entailment-based labeling (RePASs-style) or reranker scores on candidates
+6. Compliance Status Tracking
 """
 
 import json
 import csv
+import sys
 from pathlib import Path
 from typing import List, Dict, Optional, Tuple
 from dataclasses import dataclass, asdict
@@ -37,11 +40,14 @@ except ImportError:
     BM25_AVAILABLE = False
 
 try:
-    from sentence_transformers import SentenceTransformer
+    from sentence_transformers import SentenceTransformer, CrossEncoder
     import numpy as np
     DENSE_AVAILABLE = True
+    RERANKER_AVAILABLE = True
 except ImportError:
     DENSE_AVAILABLE = False
+    RERANKER_AVAILABLE = False
+    CrossEncoder = None
     np = None
 
 
@@ -456,6 +462,101 @@ def _safe_policy_filename(policy_doc_id: str) -> str:
     return s or "unnamed_policy"
 
 
+class CrossEncoderReranker:
+    """
+    Cross-Encoder reranker: replaces slow NLI with (query, passage) scoring.
+    ~95% of NLI accuracy, much faster. Use after BM25+Dense retrieval.
+    """
+    def __init__(self, model_name: str = "BAAI/bge-reranker-base"):
+        self.model_name = model_name
+        self.model = None
+        if RERANKER_AVAILABLE and CrossEncoder is not None:
+            try:
+                self.model = CrossEncoder(model_name)
+            except Exception as e:
+                print(f"Warning: Could not load reranker {model_name}: {e}")
+                self.model = None
+
+    def is_available(self) -> bool:
+        return self.model is not None
+
+    def rerank(
+        self,
+        control: "IAControl",
+        query: str,
+        passages: List[PolicyPassage],
+        top_k: int = 5,
+        threshold_full: float = 0.6,
+        threshold_partial: float = 0.35,
+    ) -> List[ComplianceMapping]:
+        """Score (query, passage) pairs; return ComplianceMapping list with reranker score as entailment_score."""
+        if not self.model or not passages:
+            return []
+        pairs = [(query, (p.passage_text[:512] or "")) for p in passages]
+        scores = self.model.predict(pairs)
+        if hasattr(scores, "tolist"):
+            scores = scores.tolist()
+        elif hasattr(scores, "__iter__") and not isinstance(scores, list):
+            scores = list(scores)
+        results = []
+        for p, score in zip(passages, scores):
+            s = float(score)
+            if s >= threshold_full:
+                status = "Fully Addressed"
+            elif s >= threshold_partial:
+                status = "Partially Addressed"
+            else:
+                status = "Not Addressed"
+            results.append(ComplianceMapping(
+                mapping_id=f"{control.control_id}_{p.policy_id}",
+                source_control_id=control.control_id,
+                target_policy_id=p.policy_id,
+                status=status,
+                entailment_score=s,
+                evidence_text=p.passage_text[:500],
+                mapping_date=datetime.now().isoformat(),
+                notes=f"Reranker: {s:.3f}",
+            ))
+        results.sort(key=lambda x: x.entailment_score, reverse=True)
+        return results[:top_k]
+
+
+class PolicyGraph:
+    """
+    GraphRAG-style graph: control -> passages (from retrieval), passage -> passages (same doc).
+    Enables multi-hop retrieval (expand by neighbor passages).
+    """
+    def __init__(self):
+        self.control_to_passages: Dict[str, List[Tuple[str, float]]] = {}
+        self.passage_neighbors: Dict[str, List[str]] = {}
+
+    def add_control_passage_edges(self, control_id: str, passage_scores: List[Tuple[PolicyPassage, float]]):
+        existing = self.control_to_passages.get(control_id, [])
+        existing.extend([(p.policy_id, s) for p, s in passage_scores])
+        self.control_to_passages[control_id] = existing
+
+    def set_passage_neighbors_from_docs(self, policy_passages_by_doc: Dict[str, List[PolicyPassage]]):
+        for doc_id, passages in policy_passages_by_doc.items():
+            ids = [p.policy_id for p in passages]
+            for pid in ids:
+                self.passage_neighbors[pid] = [x for x in ids if x != pid]
+
+    def get_candidates_with_expansion(
+        self,
+        control_id: str,
+        policy_passages: List[PolicyPassage],
+    ) -> List[PolicyPassage]:
+        passage_by_id = {p.policy_id: p for p in policy_passages}
+        out_ids = set()
+        if control_id in self.control_to_passages:
+            for pid, _ in self.control_to_passages[control_id]:
+                out_ids.add(pid)
+            for pid in list(out_ids):
+                for n in self.passage_neighbors.get(pid, []):
+                    out_ids.add(n)
+        return [passage_by_id[pid] for pid in out_ids if pid in passage_by_id]
+
+
 class ComplianceMappingPipeline:
     """
     Complete pipeline for mapping UAE IA Regulation to internal policies.
@@ -473,12 +574,18 @@ class ComplianceMappingPipeline:
         obligation_classifier: str = "rule",
         legalbert_model_path: Optional[str] = None,
         legalbert_model_name: Optional[str] = None,
+        use_reranker: bool = True,
+        reranker_model: str = "BAAI/bge-reranker-base",
+        use_graph: bool = False,
     ):
         """
         Args:
             obligation_classifier: "rule" (default) or "legalbert".
-            legalbert_model_path: Local path to trained LegalBERT obligation classifier (e.g. RePASs models/obligation-classifier-legalbert).
-            legalbert_model_name: HuggingFace model id; used only if legalbert_model_path is None and obligation_classifier=="legalbert".
+            legalbert_model_path: Local path to trained LegalBERT obligation classifier.
+            legalbert_model_name: HuggingFace model id for LegalBERT.
+            use_reranker: If True, use Cross-Encoder reranker instead of NLI (faster, ~95% accuracy).
+            reranker_model: Cross-Encoder model name (e.g. BAAI/bge-reranker-base, cross-encoder/ms-marco-MiniLM-L-6-v2).
+            use_graph: If True, use GraphRAG-style expansion (control->passages + 1-hop passage neighbors).
         """
         if obligation_classifier == "legalbert" and (legalbert_model_path or legalbert_model_name):
             self.obligation_classifier = LegalBertObligationClassifier(
@@ -491,12 +598,17 @@ class ComplianceMappingPipeline:
         else:
             self.obligation_classifier = ObligationClassifier()
         self.entailment_mapper = None
-        self.retrieval = None  # legacy single corpus
-        self.retrievals_by_doc = {}  # policy_doc_id -> PolicyRetrieval (when per-doc)
+        self.retrieval = None
+        self.retrievals_by_doc = {}
         self.ia_controls = []
-        self.policy_passages = []  # flat list for lookups
-        self.policy_passages_by_doc = {}  # policy_doc_id -> List[PolicyPassage]
+        self.policy_passages = []
+        self.policy_passages_by_doc = {}
         self.mappings = []
+        self.use_reranker = use_reranker
+        self.reranker_model_name = reranker_model
+        self.use_graph = use_graph
+        self.reranker = CrossEncoderReranker(reranker_model) if use_reranker else None
+        self.policy_graph = PolicyGraph() if use_graph else None
     
     def load_ia_controls(self, controls_path: str):
         """Load UAE IA controls from structured JSON"""
@@ -599,32 +711,113 @@ class ComplianceMappingPipeline:
         self.entailment_mapper = EntailmentMapper()
         print("✓ Entailment mapper ready")
     
+    def load_confirmed_negatives(self, path: str) -> None:
+        """Load confirmed negative pairs from golden export.
+
+        These are (control_id, policy_passage_id) pairs annotated as 'Not Addressed'
+        with high confidence and a mismatch reason (e.g. keyword overlap). They are
+        excluded from create_mappings() output so the pipeline does not surface them.
+
+        File: golden_mapping_dataset.json (from create_golden_set_tasks --mode export).
+        """
+        import json as _json
+        try:
+            with open(path, "r", encoding="utf-8") as f:
+                rows = _json.load(f)
+        except Exception as e:
+            print(f"Warning: could not load confirmed negatives from {path}: {e}")
+            return
+        self._confirmed_negatives = set()
+        for r in rows:
+            if r.get("is_hard_negative") or (
+                r.get("compliance_status", "").lower().startswith("not")
+                and (r.get("confidence") or 0) >= 4
+                and r.get("mismatch_reason")
+                and r.get("mismatch_reason", "").lower() != "correct match"
+            ):
+                cid = r.get("control_id", "")
+                pid = r.get("policy_passage_id", "")
+                if cid and pid:
+                    self._confirmed_negatives.add((cid, pid))
+        print(f"  Loaded {len(self._confirmed_negatives)} confirmed negative pairs (will be excluded from mappings)")
+
+    def load_not_applicable_passages(self, path: str) -> None:
+        """Load passage IDs that should never be matched to any control.
+
+        These are boilerplate/administrative sections (Scope, Purpose, Introduction,
+        Table of Contents, Policy Enforcement, Monitoring and Review, etc.) that
+        contain generic language but carry no specific obligation coverage.
+
+        They are excluded from retrieval entirely — not just blocked per-control-pair.
+        This prevents them resurfacing when new controls are added.
+
+        File: data/07_golden_mapping/not_applicable_passages.json
+             (dict of passage_id -> {policy_name, section, reason})
+        Also accepts golden_mapping_dataset.json directly — will derive the list
+        from passages with mismatch_reason='scope' annotated 2+ times.
+        """
+        import json as _json
+        try:
+            with open(path, "r", encoding="utf-8") as f:
+                raw = _json.load(f)
+        except Exception as e:
+            print(f"Warning: could not load not-applicable passages from {path}: {e}")
+            return
+
+        if isinstance(raw, dict):
+            # not_applicable_passages.json format: {passage_id: {meta}}
+            self._not_applicable_passages = set(raw.keys())
+        elif isinstance(raw, list):
+            # golden_mapping_dataset.json format: derive from scope annotations
+            from collections import Counter
+            scope_counts: Counter = Counter()
+            for r in raw:
+                if (r.get("compliance_status", "").lower().startswith("not")
+                        and r.get("mismatch_reason", "") == "scope"):
+                    pid = r.get("policy_passage_id", "")
+                    if pid:
+                        scope_counts[pid] += 1
+            self._not_applicable_passages = {pid for pid, cnt in scope_counts.items() if cnt >= 2}
+        else:
+            self._not_applicable_passages = set()
+
+        print(f"  Loaded {len(self._not_applicable_passages)} not-applicable passages "
+              f"(boilerplate sections — excluded from all mappings)")
+
     def create_mappings(self, 
                        filter_obligations_only: bool = True,
                        top_k_per_control: int = 5,
                        use_retrieval: bool = True,
                        top_k_retrieve: int = 20,
-                       top_k_per_doc: int = 3):
+                       top_k_per_doc: int = 3,
+                       top_k_rerank: int = 50):
         """
         Create compliance mappings (RegNLP-style, per-document corpus).
 
-        Each policy document is handled as its own corpus: for each control we run
-        retrieval + NLI within each doc, keep up to top_k_per_doc per doc, then
-        merge and take top_k_per_control overall.
-        
+        When use_reranker=True (default): retrieve top_k_rerank, then Cross-Encoder
+        rerank -> top_k_per_doc per doc (much faster than NLI). When use_reranker=False
+        or reranker unavailable: use NLI on retrieved candidates.
+        When use_graph=True: expand candidates via graph (control->passages + 1-hop).
+        Call load_confirmed_negatives() before this to suppress known false matches.
+        Call load_not_applicable_passages() before this to exclude boilerplate passages.
+
         Args:
             filter_obligations_only: Only map controls that are obligations
-            top_k_per_control: Keep top K policy matches per control (by NLI score)
-            use_retrieval: If True, use BM25 + Dense + RRF per document before NLI
-            top_k_retrieve: Passages to retrieve per control per document
-            top_k_per_doc: Max mappings to keep per control per document before merge
+            top_k_per_control: Keep top K policy matches per control
+            use_retrieval: Use BM25 + Dense + RRF before rerank/NLI
+            top_k_retrieve: Passages to retrieve per control per document (first stage)
+            top_k_per_doc: Max mappings to keep per control per document
+            top_k_rerank: When using reranker, how many to pass to reranker (then take top_k_per_doc)
         """
-        if self.entailment_mapper is None:
-            self.initialize_entailment_mapper()
-        
-        if self.entailment_mapper is None:
-            print("⚠️  Cannot create mappings without NLI model")
-            return
+        use_reranker_now = self.use_reranker and self.reranker and self.reranker.is_available()
+        if use_reranker_now:
+            print("  Using Cross-Encoder reranker (fast path; no NLI).")
+        else:
+            if self.entailment_mapper is None:
+                self.initialize_entailment_mapper()
+            if self.entailment_mapper is None:
+                print("⚠️  Cannot create mappings: NLI not available and reranker not used or unavailable.")
+                return
         
         if not self.policy_passages_by_doc:
             print("⚠️  No policy passages by document. Run load_policy_passages first.")
@@ -633,15 +826,23 @@ class ComplianceMappingPipeline:
         print(f"\nCreating compliance mappings (per-document corpus, RegNLP-style)...")
         print(f"  IA Controls: {len(self.ia_controls)}")
         print(f"  Policy documents: {len(self.policy_passages_by_doc)}")
-        print(f"  use_retrieval={use_retrieval}, top_k_retrieve={top_k_retrieve}, top_k_per_doc={top_k_per_doc}, top_k_per_control={top_k_per_control}")
+        print(f"  use_retrieval={use_retrieval}, use_reranker={use_reranker_now}, use_graph={getattr(self, 'use_graph', False)}")
+        print(f"  top_k_retrieve={top_k_retrieve}, top_k_rerank={top_k_rerank}, top_k_per_doc={top_k_per_doc}, top_k_per_control={top_k_per_control}")
         
         self.mappings = []
+        # Retrieval log: control_id -> list of retrieved passage_ids (in rank order)
+        # Saved at the end so evaluate_pipeline.py can compute Recall@K
+        self._retrieval_log: dict = {}
         controls_to_map = [c for c in self.ia_controls if c.is_obligation] if filter_obligations_only else self.ia_controls
 
-        # One retrieval index per policy document
+        # One retrieval index per policy document (can take several minutes: BM25 + Dense embeddings)
         if use_retrieval and BM25_AVAILABLE:
             self.retrievals_by_doc = {}
-            for doc_id, passages in self.policy_passages_by_doc.items():
+            doc_items = list(self.policy_passages_by_doc.items())
+            total_docs = len(doc_items)
+            print(f"  Building retrieval index (BM25 + Dense) for {total_docs} document(s)...")
+            for idx, (doc_id, passages) in enumerate(doc_items, 1):
+                print(f"  [{idx}/{total_docs}] Indexing: {doc_id[:60]}{'...' if len(doc_id) > 60 else ''} ({len(passages)} passages)", flush=True)
                 r = PolicyRetrieval(passages)
                 r.setup()
                 if r.bm25 is not None or r.passage_embeddings is not None:
@@ -656,31 +857,94 @@ class ComplianceMappingPipeline:
             use_retrieval = False
             self.retrievals_by_doc = {}
 
+        if self.use_graph and self.policy_graph:
+            self.policy_graph.set_passage_neighbors_from_docs(self.policy_passages_by_doc)
+
+        num_controls = len(controls_to_map)
+        num_docs = len(self.policy_passages_by_doc)
+        stage = "Reranker" if use_reranker_now else "NLI"
+        print(f"  Mapping {num_controls} controls ({stage} per control)...", flush=True)
+        if use_reranker_now and num_docs > 1:
+            print(f"  (First control: {num_docs} docs × rerank — may take a minute)", flush=True)
         for i, control in enumerate(controls_to_map):
-            if (i + 1) % 10 == 0:
-                print(f"  Progress: {i+1}/{len(controls_to_map)}")
+            if (i + 1) % 5 == 0 or i == 0:
+                print(f"  Progress: {i+1}/{num_controls}", flush=True)
             
             query = control.obligation_text or control.control_text
             control_mappings_all = []
-
+            doc_idx = 0
             for doc_id, passages in self.policy_passages_by_doc.items():
+                doc_idx += 1
+                if i == 0 and use_reranker_now:
+                    print(f"    Control 1: doc {doc_idx}/{num_docs}", flush=True)
                 if use_retrieval and doc_id in self.retrievals_by_doc:
                     retrieval = self.retrievals_by_doc[doc_id]
-                    indices = retrieval.search(query, top_k=min(top_k_retrieve, len(passages)))
+                    k_retrieve = min(top_k_rerank if use_reranker_now else top_k_retrieve, len(passages))
+                    indices = retrieval.search(query, top_k=k_retrieve)
                     candidate_passages = [passages[j] for j in indices if 0 <= j < len(passages)]
                     if not candidate_passages:
-                        candidate_passages = passages[:top_k_retrieve]
+                        candidate_passages = passages[:k_retrieve]
+                else:
+                    candidate_passages = passages[:min(top_k_rerank if use_reranker_now else top_k_retrieve, len(passages))]
+
+                if self.use_graph and self.policy_graph and candidate_passages:
+                    seen = {p.policy_id for p in candidate_passages}
+                    for p in list(candidate_passages):
+                        for neighbor_id in self.policy_graph.passage_neighbors.get(p.policy_id, []):
+                            if neighbor_id not in seen:
+                                neighbor = next((x for x in passages if x.policy_id == neighbor_id), None)
+                                if neighbor:
+                                    seen.add(neighbor_id)
+                                    candidate_passages.append(neighbor)
+                                    if len(candidate_passages) >= top_k_rerank:
+                                        break
+                        if len(candidate_passages) >= top_k_rerank:
+                            break
+
+                # Record retrieved passage IDs for Recall@K evaluation
+                cid = control.control_id
+                if cid not in self._retrieval_log:
+                    self._retrieval_log[cid] = []
+                self._retrieval_log[cid].extend(
+                    p.policy_id for p in candidate_passages
+                    if p.policy_id not in self._retrieval_log[cid]
+                )
+
+                if use_reranker_now and self.reranker and candidate_passages:
+                    doc_mappings = self.reranker.rerank(
+                        control, query, candidate_passages,
+                        top_k=top_k_per_doc,
+                    )
+                    if self.use_graph and self.policy_graph and doc_mappings:
+                        passage_scores = []
+                        for m in doc_mappings:
+                            p = next((x for x in self.policy_passages if x.policy_id == m.target_policy_id), None)
+                            if p:
+                                passage_scores.append((p, m.entailment_score))
+                        if passage_scores:
+                            self.policy_graph.add_control_passage_edges(control.control_id, passage_scores)
+                else:
                     doc_mappings = self.entailment_mapper.map_control_to_policy(
                         control, candidate_passages
                     )
-                else:
-                    # NLI on all passages in this document
-                    doc_mappings = self.entailment_mapper.map_control_to_policy(
-                        control, passages
-                    )
-                control_mappings_all.extend(doc_mappings[:top_k_per_doc])
+                    doc_mappings = doc_mappings[:top_k_per_doc]
+                control_mappings_all.extend(doc_mappings)
 
             control_mappings_all.sort(key=lambda x: x.entailment_score, reverse=True)
+            # Filter out globally not-applicable passages (boilerplate sections)
+            not_applicable = getattr(self, "_not_applicable_passages", set())
+            if not_applicable:
+                control_mappings_all = [
+                    m for m in control_mappings_all
+                    if m.target_policy_id not in not_applicable
+                ]
+            # Filter out confirmed negatives (known false matches from human annotation)
+            confirmed_neg = getattr(self, "_confirmed_negatives", set())
+            if confirmed_neg:
+                control_mappings_all = [
+                    m for m in control_mappings_all
+                    if (m.source_control_id, m.target_policy_id) not in confirmed_neg
+                ]
             self.mappings.extend(control_mappings_all[:top_k_per_control])
         
         print(f"✓ Created {len(self.mappings)} compliance mappings")

@@ -1,95 +1,94 @@
 {
-  "generated_at": "2026-02-24T23:59:49.283824",
+  "generated_at": "2026-03-03T18:06:34.758581",
   "summary": {
-    "total_mappings": 1152,
+    "total_mappings": 386,
     "total_controls": 181,
     "total_policies": 265,
     "status_breakdown": {
-      "Not Addressed": 816,
-      "Fully Addressed": 198,
-      "Partially Addressed": 138
+      "Fully Addressed": 224,
+      "Partially Addressed": 162
     }
   },
   "by_family": {
     "M1": {
-      "Fully Addressed": 16,
-      "Partially Addressed": 26,
-      "Not Addressed": 70
+      "Fully Addressed": 34,
+      "Partially Addressed": 23,
+      "Not Addressed": 0
     },
     "M2": {
       "Fully Addressed": 31,
-      "Partially Addressed": 11,
-      "Not Addressed": 14
+      "Partially Addressed": 6,
+      "Not Addressed": 0
     },
     "M3": {
-      "Fully Addressed": 10,
-      "Partially Addressed": 5,
-      "Not Addressed": 33
+      "Fully Addressed": 9,
+      "Partially Addressed": 7,
+      "Not Addressed": 0
     },
     "M4": {
-      "Fully Addressed": 7,
-      "Partially Addressed": 13,
-      "Not Addressed": 36
+      "Fully Addressed": 8,
+      "Partially Addressed": 12,
+      "Not Addressed": 0
     },
     "M5": {
-      "Fully Addressed": 11,
-      "Partially Addressed": 1,
-      "Not Addressed": 76
+      "Fully Addressed": 7,
+      "Partially Addressed": 12,
+      "Not Addressed": 0
     },
     "M6": {
-      "Fully Addressed": 3,
-      "Partially Addressed": 5,
-      "Not Addressed": 24
+      "Fully Addressed": 4,
+      "Partially Addressed": 6,
+      "Not Addressed": 0
     },
     "T1": {
-      "Fully Addressed": 22,
+      "Fully Addressed": 13,
       "Partially Addressed": 7,
-      "Not Addressed": 43
+      "Not Addressed": 0
     },
     "T2": {
-      "Fully Addressed": 14,
-      "Partially Addressed": 13,
-      "Not Addressed": 53
+      "Fully Addressed": 12,
+      "Partially Addressed": 14,
+      "Not Addressed": 0
     },
     "T3": {
-      "Fully Addressed": 5,
-      "Partially Addressed": 10,
-      "Not Addressed": 105
+      "Fully Addressed": 8,
+      "Partially Addressed": 11,
+      "Not Addressed": 0
     },
     "T4": {
       "Fully Addressed": 18,
-      "Partially Addressed": 10,
-      "Not Addressed": 68
+      "Partially Addressed": 11,
+      "Not Addressed": 0
     },
     "T5": {
-      "Fully Addressed": 6,
-      "Partially Addressed": 9,
-      "Not Addressed": 105
+      "Fully Addressed": 10,
+      "Partially Addressed": 11,
+      "Not Addressed": 0
     },
     "T6": {
-      "Fully Addressed": 4,
-      "Partially Addressed": 8,
-      "Not Addressed": 28
+      "Fully Addressed": 8,
+      "Partially Addressed": 14,
+      "Not Addressed": 0
     },
     "T7": {
-      "Fully Addressed": 9,
+      "Fully Addressed": 10,
       "Partially Addressed": 14,
-      "Not Addressed": 105
+      "Not Addressed": 0
     },
     "T8": {
-      "Fully Addressed": 41,
-      "Partially Addressed": 3,
-      "Not Addressed": 36
+      "Fully Addressed": 50,
+      "Partially Addressed": 8,
+      "Not Addressed": 0
     },
     "T9": {
-      "Fully Addressed": 1,
-      "Partially Addressed": 3,
-      "Not Addressed": 20
+      "Fully Addressed": 2,
+      "Partially Addressed": 6,
+      "Not Addressed": 0
     }
   },
   "compliance_rate": {
-    "fully_addressed": 17.1875,
-    "partially_addressed": 11.979166666666668,
-    "not_addressed": 70.83333333333334
+    "fully_addressed": 58.03108808290155,
+    "partially_addressed": 41.968911917098445,
+    "not_addressed": 0.0
   }
 }

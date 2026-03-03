@@ -1,0 +1,145 @@
+[
+  {
+    "id": "clientname-IS-POL-00-Vulnerability Management Policy v1.2 (V_A)_passage_1",
+    "name": "Vulnerability Management Policy - Passage 1",
+    "text": "&lt;CLIENTNAME&gt;-ORG-IMS-POL-028\n\n<!-- image -->\n\n<!-- image -->\n\n| Document Information    | Document Information                         |\n|-------------------------|----------------------------------------------|\n| Document ID             | <CLIENTNAME>-ORG-IMS-POL-028                 |\n| Document Title          | <CLIENTNAME> Vulnerability Management Policy |\n| Prepared by             |                                              |\n| Status                  |                                              |\n| Owner                   |                                              |\n| Effective From          |                                              |\n| Effective Till          |                                              |\n| Document Type           |                                              |\n| Document Classification |                                              |\n| Distribution List       |                                              |\n\n| Document Release Dates   | Do\n&lt;CLIENTNAME&gt;-ORG-IMS-POL-028\n\n<!-- image -->\n\n<!-- image -->\n\n| Document Information    | Document Information                         |\n|-------------------------|----------------------------------------------|\n| Document ID             | <CLIENTNAME>-ORG-IMS-POL-028                 |\n| Document Title          | <CLIENTNAME> Vulnerability Management Policy |\n| Prepared by             |                                              |\n| Status                  |                                              |\n| Owner                   |                                              |\n| Effective From          |                                              |\n| Effective Till          |                                              |\n| Document Type           |                                              |\n| Document Classification |                                              |\n| Distribution List       |                                              |\n\n| Document Release Dates   | Do",
+    "section": "Passage 1",
+    "metadata": {
+      "policy_id": "clientname-IS-POL-00-Vulnerability Management Policy v1.2 (V_A)",
+      "policy_name": "Vulnerability Management Policy",
+      "heading": null,
+      "validation_status": "Complete",
+      "correction_notes": null
+    }
+  },
+  {
+    "id": "clientname-IS-POL-00-Vulnerability Management Policy v1.2 (V_A)_passage_2",
+    "name": "Vulnerability Management Policy - 1 Table of Contents",
+    "text": "1 Table of Contents\n\n[1.\tINTRODUCTION\t5](.)\n\n[2.\tPURPOSE\t5](.)\n\n[3.\tSCOPE\t5](.)\n\n[4.\tPOLICY STATEMENT\t6](.)\n\n[5.\tPOLICY DETAILS\t6](.)\n\n[**5.1\tVulnerability Management\t6**](.)\n\n[6.\tROLES AND RESPONSIBILITIES\t8](.)\n\n[7.\tPOLICY ENFORCEMENT AND EXCEPTIONS\t9](.)\n\n[8.\tMONITORING AND REVIEW\t9](.)\n\n[9.\tPOLICY - UAE IA Control Mapping\t10](.)\n1 Table of Contents\n\n[1.\tINTRODUCTION\t5](.)\n\n[2.\tPURPOSE\t5](.)\n\n[3.\tSCOPE\t5](.)\n\n[4.\tPOLICY STATEMENT\t6](.)\n\n[5.\tPOLICY DETAILS\t6](.)\n\n[**5.1\tVulnerability Management\t6**](.)\n\n[6.\tROLES AND RESPONSIBILITIES\t8](.)\n\n[7.\tPOLICY ENFORCEMENT AND EXCEPTIONS\t9](.)\n\n[8.\tMONITORING AND REVIEW\t9](.)\n\n[9.\tPOLICY - UAE IA Control Mapping\t10](.)",
+    "section": "1 Table of Contents",
+    "metadata": {
+      "policy_id": "clientname-IS-POL-00-Vulnerability Management Policy v1.2 (V_A)",
+      "policy_name": "Vulnerability Management Policy",
+      "heading": "1 Table of Contents",
+      "validation_status": "Complete",
+      "correction_notes": null
+    }
+  },
+  {
+    "id": "clientname-IS-POL-00-Vulnerability Management Policy v1.2 (V_A)_passage_3",
+    "name": "Vulnerability Management Policy - 2 INTRODUCTION",
+    "text": "2 INTRODUCTION\n\nThe <CLIENTNAME>; Vulnerability Management Policy (“Policy”) facilitates the cyclical practice of identifying, classifying, remediating, and mitigating IT related vulnerabilities, which may exist in <CLIENTNAME>; information systems.\n2 INTRODUCTION\n\nThe &lt;CLIENTNAME&gt; Vulnerability Management Policy (“Policy”) facilitates the cyclical practice of identifying, classifying, remediating, and mitigating IT related vulnerabilities, which may exist in &lt;CLIENTNAME&gt; information systems.",
+    "section": "2 INTRODUCTION",
+    "metadata": {
+      "policy_id": "clientname-IS-POL-00-Vulnerability Management Policy v1.2 (V_A)",
+      "policy_name": "Vulnerability Management Policy",
+      "heading": "2 INTRODUCTION",
+      "validation_status": "Complete",
+      "correction_notes": null
+    }
+  },
+  {
+    "id": "clientname-IS-POL-00-Vulnerability Management Policy v1.2 (V_A)_passage_4",
+    "name": "Vulnerability Management Policy - 3 PURPOSE",
+    "text": "3 PURPOSE\n\nThe purpose of this Vulnerability Management Policy (“Policy”) is to establish controls to manage vulnerabilities effectively and in a timely manner which is required to maintain high levels of system and application security in a diverse IT environment.",
+    "section": "3 PURPOSE",
+    "metadata": {
+      "policy_id": "clientname-IS-POL-00-Vulnerability Management Policy v1.2 (V_A)",
+      "policy_name": "Vulnerability Management Policy",
+      "heading": "3 PURPOSE",
+      "validation_status": "Complete",
+      "correction_notes": null
+    }
+  },
+  {
+    "id": "clientname-IS-POL-00-Vulnerability Management Policy v1.2 (V_A)_passage_5",
+    "name": "Vulnerability Management Policy - 4 SCOPE",
+    "text": "4 SCOPE\n\nThe Policy covers all information systems owned, utilized and managed by <CLIENTNAME> including but not limited to:\n\n1. Information systems owned by <CLIENTNAME>.\n2. Hardware and network components such as routers, firewalls, switches, access points and other network infrastructure.\n3. Operating Systems.\n4. Applications.\n5. Databases.\n6. Servers.",
+    "section": "4 SCOPE",
+    "metadata": {
+      "policy_id": "clientname-IS-POL-00-Vulnerability Management Policy v1.2 (V_A)",
+      "policy_name": "Vulnerability Management Policy",
+      "heading": "4 SCOPE",
+      "validation_status": "Complete",
+      "correction_notes": null
+    }
+  },
+  {
+    "id": "clientname-IS-POL-00-Vulnerability Management Policy v1.2 (V_A)_passage_6",
+    "name": "Vulnerability Management Policy - 5 POLICY STATEMENT",
+    "text": "5 POLICY STATEMENT\n\n<CLIENTNAME> shall establish vulnerability management practices in order to proactively prevent the exploitation of vulnerabilities and potential loss of sensitive data. <CLIENTNAME> shall create and document systematic and accountable practices to maintain control over programs and applications, to evaluate installed and new devices and systems for vulnerabilities, and to mitigate other technical and non-technical vulnerabilities. The goals of this effort are to implement stronger protection for <CLIENTNAME> IT resources, ensure compliance with best practices, and reduce the impact of threats to <CLIENTNAME> and its constituents.",
+    "section": "5 POLICY STATEMENT",
+    "metadata": {
+      "policy_id": "clientname-IS-POL-00-Vulnerability Management Policy v1.2 (V_A)",
+      "policy_name": "Vulnerability Management Policy",
+      "heading": "5 POLICY STATEMENT",
+      "validation_status": "Complete",
+      "correction_notes": null
+    }
+  },
+  {
+    "id": "clientname-IS-POL-00-Vulnerability Management Policy v1.2 (V_A)_passage_7",
+    "name": "Vulnerability Management Policy - 6.1 Vulnerability Management",
+    "text": "6.1 Vulnerability Management\n\n<CLIENTNAME> shall:\n            6.1.1 Conduct annual vulnerability assessments and penetration testing and quarterly internal vulnerability assessments scans on information systems on a continuous basis. In addition, ad-hoc vulnerability assessments and penetration testing shall be conducted based upon specific requests from Senior management or Business units.\n            6.1.2 <CLIENTNAME> shall implement a patch management process to be carried out periodically on all critical infrastructure systems. \n            6.1.3 <CLIENTNAME> shall remediate all critical and high vulnerabilities upon performing impact analysis with IS team.\n            6.1.4 <CLIENTNAME> shall remediate all critical and high potential risk within 45 days based on impact analysis with IS team\n            6.1.5 Shall report periodic progress on the status of remediation shall be submitted upon request from <CLIENTNAME> IS team.\n            6.1.6 Update the security baseline documents periodically to address the latest vulnerabilities/configuration.\n            6.1.7 An assessment report containing the details of impacted assets, vulnerability description, severity and remediation measures shall be prepared and shared with relevant stakeholders of <CLIENTNAME> IS Team.\n            6.1.8 Remediation activities shall be prioritized based on severity level of the vulnerability and criticality of impacted asset. \n            6.1.9 Remediation activities shall be conducted as per the defined timeline. Any deviations from the defined timeline shall be endorsed by the Information Asset Owner and approved by the <CLIENTNAME> IS Team.\n            6.1.10 A remediation plan shall be developed, consisting of details including but not limited to:\n                a. Remediation activities owner.\n                b. Target remediation timeline.\n                c. Planned remediation activities.\n            6.1.11 Remediation activities shall comply with <CLIENTNAME> processes including but not limited to change management, asset management, service management, etc.\n            6.1.12 Remediation activities may include but are not limited to:\n                a. Deployment of a software or system patch.\n                b. Release of new non-vulnerable software, system or firmware.\n                c. Removal of vulnerable software or system component.\n                d. Configuration changes.\n                e. User awareness and training.\n            6.1.13 Remediation activities that involve configuration changes or application of patches shall be initiated only after appropriate security, quality, and compatibility testing is done.\n            6.1.14 Data and configuration backups shall be taken before initiating remediation activities.\n            6.1.15 Post implementation review shall be conducted for connected information systems’ configuration and functionality validation.\n            6.1.16 Status of open vulnerabilities shall be monitored on a continuous basis.",
+    "section": "6.1 Vulnerability Management",
+    "metadata": {
+      "policy_id": "clientname-IS-POL-00-Vulnerability Management Policy v1.2 (V_A)",
+      "policy_name": "Vulnerability Management Policy",
+      "heading": "6.1 Vulnerability Management",
+      "validation_status": "Complete",
+      "correction_notes": null
+    }
+  },
+  {
+    "id": "clientname-IS-POL-00-Vulnerability Management Policy v1.2 (V_A)_passage_8",
+    "name": "Vulnerability Management Policy - 7 ROLES AND RESPONSIBILITIES",
+    "text": "Executives & Senior Management shall:\n7.1. Make available and support the required resources to drive Vulnerability Management.\n7.2. Where relevant, provide direction to and participate in reviews and oversight of the Vulnerability Management process.\n7.3. Approve the Vulnerability Management Policy.\nIS (Information Security) Team shall:\n7.4. Monitoring the implementation of this Vulnerability Management Policy in the organization.\n7.5. Supporting relevant sub-business units in implementing the defined controls and ensuring compliance with this Policy.\n7.6. Development and ongoing maintenance of this Policy.\n7.7. Creating awareness to users on a periodic basis.\n7..8. Ensure that competent personnel performs Vulnerability Assessment and Penetration testing.\n7.9. Coordinate periodic technical security assessments and vulnerability assessments.\n7.10. Support in the implementation of the Vulnerability Management Policy.\n7.11. Escalate matters of non-compliance or issues with the operations to Executives & Senior Management.\n\nLine Manager/SBU Heads shall:\n7.12 Ensure that this Policy is applied and enforced within their area of responsibility.\n\nIT (Information Technology) Team shall:\n7.13. Develop supporting processes, procedures, and guidelines for implementing the Vulnerability program within <CLIENTNAME>.\n7.14. Support the <CLIENTNAME> IS Team in the implementation of Vulnerability management policies and procedures.\n7.15. Measure and track defined IMS metrics and KPIs.\n\n7.16 Procurement\nProcurement shall:\n1. Drive a program to evaluate compliance of critical vendors and the <CLIENTNAME> IS and IT teams in terms of vulnerability scanning.\n\n7.17 Audit\nAudit shall:\n1. Initiate independent vulnerability management security reviews at planned intervals or when a significant change occurs.",
+    "section": "7 ROLES AND RESPONSIBILITIES",
+    "metadata": {
+      "policy_id": "clientname-IS-POL-00-Vulnerability Management Policy v1.2 (V_A)",
+      "policy_name": "Vulnerability Management Policy",
+      "heading": "7 ROLES AND RESPONSIBILITIES",
+      "validation_status": "Needs Fix",
+      "correction_notes": null
+    }
+  },
+  {
+    "id": "clientname-IS-POL-00-Vulnerability Management Policy v1.2 (V_A)_passage_9",
+    "name": "Vulnerability Management Policy - 8 POLICY ENFORCEMENT AND EXCEPTIONS",
+    "text": "8 POLICY ENFORCEMENT AND EXCEPTIONS\n\nAny violation of this Policy shall be reported to Policy Owner. Violation of this Policy shall be subjected to disciplinary action by the &lt;CLIENTNAME&gt;'s Human Capital Department, taking into consideration the recommendation of IS Team and in accordance with other applicable policies, laws, and regulations.\n\nDisciplinary action may range from a verbal warning to discontinuation of access to facility or services, or termination of employment/contract/agreement, and possible legal action. The actual action taken shall depend on factors such as the seriousness of the breach and the user's disciplinary record.\n\nAny exceptions on the applicability of this Policy should be formally requested through the ‘Policy Exception Management procedure’.",
+    "section": "8 POLICY ENFORCEMENT AND EXCEPTIONS",
+    "metadata": {
+      "policy_id": "clientname-IS-POL-00-Vulnerability Management Policy v1.2 (V_A)",
+      "policy_name": "Vulnerability Management Policy",
+      "heading": "8 POLICY ENFORCEMENT AND EXCEPTIONS",
+      "validation_status": "Missing",
+      "correction_notes": null
+    }
+  },
+  {
+    "id": "clientname-IS-POL-00-Vulnerability Management Policy v1.2 (V_A)_passage_10",
+    "name": "Vulnerability Management Policy - 9 MONITORING AND REVIEW",
+    "text": "9 MONITORING AND REVIEW\n\nThis Policy is developed and owned by the <CLIENTNAME> IS Team. It is reviewed by the CISO and approved by the CEO. \n<CLIENTNAME> IS Team shall initiate a review of this Policy annually or whenever a significant change occurs in the organization's operating environment.\nFeedback, suggestions, or questions regarding the Policy shall be directed to the <CLIENTNAME> IS Team at infosec@<clientname>.net.\n9 MONITORING AND REVIEW\n\nThis Policy is developed and owned by the &lt;CLIENTNAME&gt; IS Team. It is reviewed by the CISO and approved by the CEO.\n\n&lt;CLIENTNAME&gt; IS Team shall initiate a review of this Policy annually or whenever a significant change occurs in the organization's operating environment.\n\nFeedback, suggestions, or questions regarding the Policy shall be directed to the &lt;CLIENTNAME&gt; IS Team at infosec@&lt;clientname&gt;.net.",
+    "section": "9 MONITORING AND REVIEW",
+    "metadata": {
+      "policy_id": "clientname-IS-POL-00-Vulnerability Management Policy v1.2 (V_A)",
+      "policy_name": "Vulnerability Management Policy",
+      "heading": "9 MONITORING AND REVIEW",
+      "validation_status": "Missing",
+      "correction_notes": null
+    }
+  },
+  {
+    "id": "clientname-IS-POL-00-Vulnerability Management Policy v1.2 (V_A)_passage_11",
+    "name": "Vulnerability Management Policy - 10 POLICY - UAE IA Control Mapping",
+    "text": "10 POLICY - UAE IA Control Mapping",
+    "section": "10 POLICY - UAE IA Control Mapping",
+    "metadata": {
+      "policy_id": "clientname-IS-POL-00-Vulnerability Management Policy v1.2 (V_A)",
+      "policy_name": "Vulnerability Management Policy",
+      "heading": "10 POLICY - UAE IA Control Mapping",
+      "validation_status": "Complete",
+      "correction_notes": null
+    }
+  }
+]

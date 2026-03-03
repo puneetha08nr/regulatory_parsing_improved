@@ -1,0 +1,171 @@
+[
+  {
+    "id": "clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping_passage_1",
+    "name": "Third-Party Security Policy - Passage 1",
+    "text": "Client-ORG-IMS-POL-010\n\n<!-- image -->\n\nAbstract\n\nThe Third-Party Security Policy establishes controls for the protection of CPX’s information and information assets that are accessible by third parties based on business requirements.\n\n**STATEMENT OF CONFIDENTIALITY**\n\nAll information in this document is PRIVILEGED and for INTERNAL USE ONLY.\n\nThe information in this document may contain proprietary trade secrets and confidential information, the disclosure of which could substantially benefit competitors. As a result, this document should not be disclosed, used or duplicated – in whole or in part without the explicit authorization of management.\n\nThe information is intended solely for the use of authorized recipients. If you are not the intended recipient, you are prohibited from reading, using, disseminating, distributing and copying this document.\n\nIn accessing the document, the reader warrants that the information contained herein shall only be treated for internal use. No content o",
+    "section": "Passage 1",
+    "metadata": {
+      "policy_id": "clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping",
+      "policy_name": "Third-Party Security Policy",
+      "heading": null,
+      "validation_status": "Complete",
+      "correction_notes": null
+    }
+  },
+  {
+    "id": "clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping_passage_2",
+    "name": "Third-Party Security Policy - 1 Table of Contents",
+    "text": "1 Table of Contents\n\n[1.\tINTRODUCTION\t5](.)\n\n[2.\tPURPOSE\t5](.)\n\n[3.\tSCOPE\t5](.)\n\n[4.\tPOLICY STATEMENT\t6](.)\n\n[5.\tPOLICY DETAILS\t6](.)\n\n[**5.1\tThird-Party Security Approach\t6**](.)\n\n[**5.2\tAddressing Security and Data Protection Requirements with Third-party Agreements\t6**](.)\n\n[**5.3\tManaging Changes to Third-party Services\t6**](.)\n\n[6.\tROLES AND RESPONSIBILITIES\t7](.)\n\n[5\tPOLICY ENFORCEMENT AND EXCEPTIONS\t9](.)\n\n[6\tMONITORING AND REVIEW\t9](.)\n\n[7\tPolicy – UAE IA Control Mapping\t9](.)",
+    "section": "1 Table of Contents",
+    "metadata": {
+      "policy_id": "clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping",
+      "policy_name": "Third-Party Security Policy",
+      "heading": "1 Table of Contents",
+      "validation_status": "Complete",
+      "correction_notes": null
+    }
+  },
+  {
+    "id": "clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping_passage_3",
+    "name": "Third-Party Security Policy - 3 INTRODUCTION",
+    "text": "3 INTRODUCTION\n\n<<CLIENT>> and its core business exists in a wider economic environment in which effective relationships with third party suppliers is critical to its continued success. Therefore, it is important that <<CLIENT>>’s relationships with suppliers (Third-Parties) are based on a clear understanding of expectations and requirements in the area of information security. These requirements must be documented and agreed in a manner that leaves no doubt about the importance <<CLIENT>> places on the maintenance of effective security controls to reduce security risks.",
+    "section": "3 INTRODUCTION",
+    "metadata": {
+      "policy_id": "clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping",
+      "policy_name": "Third-Party Security Policy",
+      "heading": "3 INTRODUCTION",
+      "validation_status": "Complete",
+      "correction_notes": null
+    }
+  },
+  {
+    "id": "clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping_passage_4",
+    "name": "Third-Party Security Policy - 4 PURPOSE",
+    "text": "4 PURPOSE\n\nThe purpose of this Third-party Security Policy (“Policy”) is to ensure that external stakeholders are compliant with the organization’s security requirements. This Policy defines a framework for third party security and reduces the security risks and liability associated with granting third parties’ access to the organization’s information, information assets and premises.\nFurther, the Policy establishes a commitment to comply with applicable sections of the federal and global laws and regulations, including but not limited to UAE Information Assurance Regulation, ISO27001 and National Cyber Risk Management Framework (NCRMF).\nThe following are the key objectives of this Policy:\n    • Restrict third-party access: Establish information security requirements for mitigating the risks associated with each third-party's access to organizational assets.\n    • Establish agreements: Establish agreements that cover all relevant security requirements with third-parties to handle the organization's information assets.\n    • Oversee third-party service delivery: Monitor, review, and audit third-party service delivery.",
+    "section": "4 PURPOSE",
+    "metadata": {
+      "policy_id": "clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping",
+      "policy_name": "Third-Party Security Policy",
+      "heading": "4 PURPOSE",
+      "validation_status": "Complete",
+      "correction_notes": null
+    }
+  },
+  {
+    "id": "clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping_passage_5",
+    "name": "Third-Party Security Policy - 5 SCOPE",
+    "text": "5 SCOPE\n\nThis Policy applies to all third parties who access or manage information and information assets or use the organization's information and communications technology (ICT) systems.\n\nAny exceptions on the applicability of this Policy should be formally requested through the ‘Policy Exception Management procedure.’",
+    "section": "5 SCOPE",
+    "metadata": {
+      "policy_id": "clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping",
+      "policy_name": "Third-Party Security Policy",
+      "heading": "5 SCOPE",
+      "validation_status": "Complete",
+      "correction_notes": null
+    }
+  },
+  {
+    "id": "clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping_passage_6",
+    "name": "Third-Party Security Policy - 6 POLICY STATEMENT",
+    "text": "6 POLICY STATEMENT\n\n<<CLIENT>> shall ensure that all third parties comply with this Policy's information security requirements while providing services that could impact the confidentiality, integrity, availability, secrecy and privacy of the organization’s information and information assets.",
+    "section": "6 POLICY STATEMENT",
+    "metadata": {
+      "policy_id": "clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping",
+      "policy_name": "Third-Party Security Policy",
+      "heading": "6 POLICY STATEMENT",
+      "validation_status": "Complete",
+      "correction_notes": null
+    }
+  },
+  {
+    "id": "clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping_passage_7",
+    "name": "Third-Party Security Policy - 7.1 Third-Party Security Approach",
+    "text": "7.1 Third-Party Security Approach\n\n<<CLIENT>> shall: \n            7.1.1 Identify, mandate, and monitor information security and data protection controls processes and procedures to address third-party access to the organization’s information and information assets.\n            7.1.2 Establish a standardized process and lifecycle for managing third-party relationships, their access to the organization’s information and information assets and the security requirements.\n            7.1.3 Define the types of obligations applicable to third-parties to protect <<CLIENT>>’s information.\n            7.1.4 Handle incidents and contingencies associated with third-party access, including the responsibilities of both <<CLIENT>> and its third-parties.\n            7.1.5 Ensure the availability of the information or information processing provided by either party through resilience, recovery, and contingency arrangements.",
+    "section": "7.1 Third-Party Security Approach",
+    "metadata": {
+      "policy_id": "clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping",
+      "policy_name": "Third-Party Security Policy",
+      "heading": "7.1 Third-Party Security Approach",
+      "validation_status": "Complete",
+      "correction_notes": null
+    }
+  },
+  {
+    "id": "clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping_passage_8",
+    "name": "Third-Party Security Policy - 7.2 Addressing Security and Data Protection Requirements with Third-party Agreements",
+    "text": "7.2 Addressing Security and Data Protection Requirements with Third-party Agreements\n\n<<CLIENT>> shall:\n            7.2.1 Use only third-party service providers providing sufficient guarantees to implement appropriate technical and organizational measures in such a manner that processing will meet the requirements of this Policy.\n            7.2.2 Define the conditions under which information security and data protection requirements and controls will be documented in an agreement signed by both parties.\n            7.2.3 Manage the necessary transitions of information, information processing facilities and anything else that needs to be moved and ensuring that information security and data protection is maintained throughout the transition period.\n            7.2.4 Establish a service management relationship process between <<CLIENT>> and the third-party to:\n7.2.4.a Monitor service performance levels to verify adherence to the agreements.\n7.2.4.b Review service reports produced by the third-party and arranged regular progress meetings as required by the agreements.\n7.2.4.c Conduct audits of third-parties, in conjunction with the review of independent auditor’s reports, if available, and follow-up on issues identified.",
+    "section": "7.2 Addressing Security and Data Protection Requirements with Third-party Agreements",
+    "metadata": {
+      "policy_id": "clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping",
+      "policy_name": "Third-Party Security Policy",
+      "heading": "7.2 Addressing Security and Data Protection Requirements with Third-party Agreements",
+      "validation_status": "Complete",
+      "correction_notes": null
+    }
+  },
+  {
+    "id": "clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping_passage_9",
+    "name": "Third-Party Security Policy - 7.3 Managing Changes to Third-party Services",
+    "text": "7.3 Managing Changes to Third-party Services\n<<CLIENT>> shall consider the following aspects for information security and data protection review when managing changes to third-party services, at a minimum:\n            7.3.1 Changes to third-party agreements and/ or sub-contracting to another third-party.\n            7.3.2 Enhancements to the current services offered.\n            7.3.3 Development and/ use of new applications, systems, and technologies.\n            7.3.4 Modifications or updates of the organization’s policies and procedures.\n            7.3.5 Introduction of new security controls.\n            7.3.6 Changes and enhancement to technology landscape.",
+    "section": "7.3 Managing Changes to Third-party Services",
+    "metadata": {
+      "policy_id": "clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping",
+      "policy_name": "Third-Party Security Policy",
+      "heading": "7.3 Managing Changes to Third-party Services",
+      "validation_status": "Complete",
+      "correction_notes": null
+    }
+  },
+  {
+    "id": "clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping_passage_10",
+    "name": "Third-Party Security Policy - 8 ROLES AND RESPONSIBILITIES",
+    "text": "8 ROLES AND RESPONSIBILITIES\n\nExecutive & Senior Management\n    1. Make available and support the required resources to drive protection of supplier security risks.\n    2. Where relevant, provide direction to and participate in reviews and oversight of supplier security risks.\nAdmin & Facilities\n    1 Work with Procurement and Information Security to ensure that organizational information and information assets are protected from supply chain risks.\nInformation Security\n    1 Work with Procurement to establish:\n        1.1 Security requirements for Third-Party that are to be included in the service delivery agreement for each party.\n        1.2 Requirement(s) for Third-Party to measure and report to the organization on these service requirements.\n    • A mechanism to monitor Third-Party’ services and ensure required delivery reports are received.   \n        1.3 Requirements that the information security incidents and problems identified in the reports are appropriately managed. \n        1.4 Requirements for audits to be carried out on supplier services regularly.\n    • Requirement(s) that supplier service agreements include a methodology for communicating change management issues between the organization and the supplier.   \n        1.5 Define the parameters for changes that must be communicated between the organization and the supplier.\n        1.6 Requirement(s) to assess the changes taking into account the criticality of business systems and processes involved and re-assess risks.\nProcurement\n                    1. Ensure that the Policy is:\n        1.1 Communicated to each supplier.  \n        1.2 Read and formally acknowledged by the supplier.  \n        1.3 Maintained, reviewed and updated at planned intervals or if significant changes occur.\n\n                    2. Verify that any contract or agreement with Third-Party addresses all aspects of the organization’s information security Policy regarding:\n        2.1 Accessing, processing, communicating or managing the organization’s information or Information systems.\n        2.2 Adding products or services to information systems.   \n    3 Make sure that proper controls are introduced in the contract in order to verify compliance with the agreed security objectives.   \n    4 Audit supplier services and infrastructures to verify compliance with agreed security objectives.   \n    5 Ensure that security requirements for Third-Party are included in the service delivery agreement for each party.   \n    6 Require Third-Party to measure and report to the organization on these service requirements.   \n    7 Monitor Third-Party’ services and ensure required delivery reports are received.   \n    8 Ensure reports received from Third-Party are reviewed by qualified personnel.   \n    9 Ensure that information security incidents and problems identified in the reports are appropriately managed.\n    10 Ensure that audits are carried out on supplier services regularly.   \n    11 Ensure that supplier service agreements include a methodology for communicating change management issues between the organization and the supplier.   \n    12 Ensure that defined parameters for changes must be communicated between the organization and the supplier are recorded in supplier service agreements.   \n    13 Ensure that changes to the service agreement(s) are regularly assessed, considering:\n        13.1 The criticality of business systems and processes involved.\n        13.2 Re-assessment of risks.\n\nEmployees, Line Managers and Third Parties (Contractors, Vendors, etc.)\n    1 Employees and third parties (including contractors, vendors, etc.) who access organizational premises, information and information assets or use information and communications technology (ICT) systems of the organization are responsible for adhering to this Policy and all its applicable procedures.\nLegal\n    1 Identify all relevant and applicable laws and regulations to <<CLIENT>> and communicate to the respective parties.\n    2 Define standard legal clauses and terms for the contract/agreement to be signed with external parties, employment contracts, confidentiality and Non-Disclosure Agreements (NDAs).\n    3 Liaise with IS Team to define and review Information Security clauses in third-party contracts/agreements, employment contracts, confidentiality and Non-Disclosure Agreements (NDAs).\n    4 Review third-party vendor, clients and partner contracts and involve IS Team for review of clauses concerning Information Security responsibilities.",
+    "section": "8 ROLES AND RESPONSIBILITIES",
+    "metadata": {
+      "policy_id": "clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping",
+      "policy_name": "Third-Party Security Policy",
+      "heading": "8 ROLES AND RESPONSIBILITIES",
+      "validation_status": "Missing",
+      "correction_notes": null
+    }
+  },
+  {
+    "id": "clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping_passage_11",
+    "name": "Third-Party Security Policy - 9 POLICY ENFORCEMENT AND EXCEPTIONS",
+    "text": "9 POLICY ENFORCEMENT AND EXCEPTIONS\n\nThis Policy is to be part of all Employees' and Third Parties' processes, and all are responsible for understanding and adhering to this Policy. Any violation of this Policy shall be reported to Policy Owner. Violation of this Policy shall be subjected to disciplinary action by the <<CLIENT>>'s Human Capital Department, taking into consideration the recommendation of the Information Security department and in accordance with other applicable policies, laws and regulations.\n\nDisciplinary action may range from a verbal warning to discontinuation of access to facility or services, or termination of employment/contract/agreement, and possible legal action. The actual action taken shall depend on factors such as the seriousness of the breach and the user's disciplinary record.\n\nAny exceptions on the applicability of this Policy should be formally requested through the Policy Exception Management procedure.",
+    "section": "9 POLICY ENFORCEMENT AND EXCEPTIONS",
+    "metadata": {
+      "policy_id": "clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping",
+      "policy_name": "Third-Party Security Policy",
+      "heading": "9 POLICY ENFORCEMENT AND EXCEPTIONS",
+      "validation_status": "Missing",
+      "correction_notes": null
+    }
+  },
+  {
+    "id": "clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping_passage_12",
+    "name": "Third-Party Security Policy - 10 MONITORING AND REVIEW",
+    "text": "10 MONITORING AND REVIEW\n\nThis Policy is developed and owned by the <<CLIENT>> Information Security (IS) Team. It is reviewed by the CISO and approved by the CEO. \n\n<<CLIENT>> IS Team will initiate a review and of this Policy annually or whenever a significant change occurs in the organization's operating environment.\n\nFeedback, suggestions or questions regarding the Policy shall be directed to the <<CLIENT>> IS Team at <<Client_ID>>.",
+    "section": "10 MONITORING AND REVIEW",
+    "metadata": {
+      "policy_id": "clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping",
+      "policy_name": "Third-Party Security Policy",
+      "heading": "10 MONITORING AND REVIEW",
+      "validation_status": "Missing",
+      "correction_notes": null
+    }
+  },
+  {
+    "id": "clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping_passage_13",
+    "name": "Third-Party Security Policy - 11 Policy – UAE IA Control Mapping",
+    "text": "11 Policy – UAE IA Control Mapping",
+    "section": "11 Policy – UAE IA Control Mapping",
+    "metadata": {
+      "policy_id": "clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping",
+      "policy_name": "Third-Party Security Policy",
+      "heading": "11 Policy – UAE IA Control Mapping",
+      "validation_status": "Complete",
+      "correction_notes": null
+    }
+  }
+]

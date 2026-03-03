@@ -1,0 +1,249 @@
+[
+  {
+    "id": "clientname-IS-POL-00-Asset Management Policy_passage_1",
+    "name": "Asset Management Policy - Passage 1",
+    "text": "&lt;CLIENT&gt;-IS-POL-00X\n\n<!-- image -->\n\nAbstract\n\nThis Policy defines the requirements for secure management of the assets owned and used by &lt;CLIENT&gt;, throughout its lifecycle.\n\n**STATEMENT OF CONFIDENTIALITY**\n\nAll information in this document is &lt;CLIENT&gt; PRIVILEGED and for INTERNAL USE ONLY.\n\nThe information in this document may contain &lt;CLIENT&gt; proprietary trade secrets and confidential information, the disclosure of which could substantially benefit competitors. As a result, this document should not be disclosed, used or duplicated – in whole or in part without the explicit authorization of &lt;CLIENT&gt; management.\n\nThe information is intended solely for the use of authorized recipients. If you are not the intended recipient, you are prohibited from reading, using, disseminating, distributing and copying this document.\n\nIn accessing the document, the reader warrants that the information contained herein shall only be treated for internal use. No content of an",
+    "section": "Passage 1",
+    "metadata": {
+      "policy_id": "clientname-IS-POL-00-Asset Management Policy",
+      "policy_name": "Asset Management Policy",
+      "heading": null,
+      "validation_status": "Complete",
+      "correction_notes": null
+    }
+  },
+  {
+    "id": "clientname-IS-POL-00-Asset Management Policy_passage_2",
+    "name": "Asset Management Policy - Table of Contents",
+    "text": "Table of Contents\n\n[1.\tINTRODUCTION\t4](.)\n\n[2.\tPURPOSE\t4](.)\n\n[3.\tSCOPE\t4](.)\n\n[4.\tPOLICY STATEMENT\t5](.)\n\n[5.\tPOLICY DETAILS\t5](.)\n\n[**5.1\tAsset Inventory\t5**](.)\n\n[**5.2\tAsset Ownership\t5**](.)\n\n[**5.3\tAsset Labelling\t5**](.)\n\n[**5.4\tAsset Handling\t6**](.)\n\n[**5.5\tRemovable Media Management\t6**](.)\n\n[**5.6\tDisposal of Media\t6**](.)\n\n[**5.7\tPhysical Media Transfer\t7**](.)\n\n[**5.8\tAcceptable Use of Assets\t7**](.)\n\n[**5.9\tBring Your Own Device (BYOD) Arrangements\t7**](.)\n\n[6.\tROLES AND RESPONSIBILITIES\t8](.)\n\n[7.\tPOLICY ENFORCEMENT AND EXCEPTIONS\t11](.)\n\n[8.\tMONITORING AND REVIEW\t11](.)\n\n[9.\tPOLICY – UAE IA CONTROL MAPPING\t11](.)",
+    "section": "Table of Contents",
+    "metadata": {
+      "policy_id": "clientname-IS-POL-00-Asset Management Policy",
+      "policy_name": "Asset Management Policy",
+      "heading": "Table of Contents",
+      "validation_status": "Complete",
+      "correction_notes": null
+    }
+  },
+  {
+    "id": "clientname-IS-POL-00-Asset Management Policy_passage_3",
+    "name": "Asset Management Policy - 1 INTRODUCTION",
+    "text": "1 INTRODUCTION\n\n<CLIENT>; (hereon referred to as <CLIENT>;) has embarked on a robust Asset Management initiative to safeguard information assets collected and generated during the normal course of its business operations. As a company that delivers cybersecurity services, <CLIENT>; maintains and uses valuable assets. As such, a robust and comprehensive Asset Management program is required to ensure that the assets maintained and operated by <CLIENT>; are secured and protected throughout the lifecycle.\n\n<CLIENT>; is responsible for identifying assets and how they are used within the company; therefore, it shall set policies, processes, and standard operating procedures for handling assets, implement appropriate technical controls, and educate users about current threats to the assets that they work with and observe best practices for asset protection.\n\n<CLIENT>; employees are expected to understand and comply with this Policy and ultimately be responsible for protecting all Information Assets from unauthorized access. Compliance with this Policy is highly important to safeguard the organization's assets and reputation. Any Policy violation may invite appropriate disciplinary action per the corporate policies, applicable laws and regulations in the United Arab Emirates.",
+    "section": "1 INTRODUCTION",
+    "metadata": {
+      "policy_id": "clientname-IS-POL-00-Asset Management Policy",
+      "policy_name": "Asset Management Policy",
+      "heading": "1 INTRODUCTION",
+      "validation_status": "Complete",
+      "correction_notes": null
+    }
+  },
+  {
+    "id": "clientname-IS-POL-00-Asset Management Policy_passage_4",
+    "name": "Asset Management Policy - 2 PURPOSE",
+    "text": "2 PURPOSE\n\nThis Asset Management Policy (\"Policy\") aims to ensure appropriate classification and protection of &lt;CLIENT&gt;'s information and assets.\n\nFurther, the Policy establishes a commitment to comply with applicable sections of the federal and global laws and regulations, including but not limited to UAE Information Assurance Regulation, Federal Decree Law No. 45 of 2021 regarding the Protection of Personal Data, ISO 27001, ISO 27701, ISO 20000, ISO 22301 and UAE National Cyber Risk Management Framework (NCRMF).\n\nThe following are the key objectives of this Policy:\n\n1. **Establish asset register:** Development and maintenance of an asset register.\n2. **Handling of information:** Correct and consistent handling of information assets in accordance with the organization’s information classification scheme.\n3. **Management of media:** Correct and consistent management of the asset's lifecycle.",
+    "section": "2 PURPOSE",
+    "metadata": {
+      "policy_id": "clientname-IS-POL-00-Asset Management Policy",
+      "policy_name": "Asset Management Policy",
+      "heading": "2 PURPOSE",
+      "validation_status": "Complete",
+      "correction_notes": null
+    }
+  },
+  {
+    "id": "clientname-IS-POL-00-Asset Management Policy_passage_5",
+    "name": "Asset Management Policy - 3 SCOPE",
+    "text": "3 SCOPE\n\nThis Policy applies to all employees and critical third parties who access or manage information and information assets or use the organization’s information and communications technology (ICT) systems.\n\n**Any exceptions on the applicability of this Policy should be formally requested through the ‘Policy Exception Management procedure’.**",
+    "section": "3 SCOPE",
+    "metadata": {
+      "policy_id": "clientname-IS-POL-00-Asset Management Policy",
+      "policy_name": "Asset Management Policy",
+      "heading": "3 SCOPE",
+      "validation_status": "Complete",
+      "correction_notes": null
+    }
+  },
+  {
+    "id": "clientname-IS-POL-00-Asset Management Policy_passage_6",
+    "name": "Asset Management Policy - 4 POLICY STATEMENT",
+    "text": "4 POLICY STATEMENT\n\n&lt;CLIENT&gt; shall ensure the security of assets by:\n\n1. Identifying information assets.\n2. Ensuring that a current and accurate inventory of assets is developed and maintained through an asset register to include responsibilities and classification based on Data Security Policy (&lt;CLIENT&gt;-ORG-IMS-POL-003).",
+    "section": "4 POLICY STATEMENT",
+    "metadata": {
+      "policy_id": "clientname-IS-POL-00-Asset Management Policy",
+      "policy_name": "Asset Management Policy",
+      "heading": "4 POLICY STATEMENT",
+      "validation_status": "Complete",
+      "correction_notes": null
+    }
+  },
+  {
+    "id": "clientname-IS-POL-00-Asset Management Policy_passage_7",
+    "name": "Asset Management Policy - 5.1 Asset Inventory",
+    "text": "5.1 Asset Inventory\n\n<CLIENT> shall: \n            5.1.1 Identify assets relevant in the information lifecycle (creation, processing, storage, transmission, deletion, destruction, and protection) and document their importance.\n            5.1.2 Ensure that all organizational assets are considered for the asset management process using a centralized and efficient approach.\n            5.1.3 Ensure that documentation is done in dedicated asset inventories as appropriate. The asset inventory at a minimum shall contain:\n                a) Type of asset.\n                b) Asset ownership.\n                c) Location.\n                d) Backup information.\n                e) Related licenses.\n                f) Asset importance/criticality.",
+    "section": "5.1 Asset Inventory",
+    "metadata": {
+      "policy_id": "clientname-IS-POL-00-Asset Management Policy",
+      "policy_name": "Asset Management Policy",
+      "heading": "5.1 Asset Inventory",
+      "validation_status": "Complete",
+      "correction_notes": null
+    }
+  },
+  {
+    "id": "clientname-IS-POL-00-Asset Management Policy_passage_8",
+    "name": "Asset Management Policy - 5.2 Asset Ownership",
+    "text": "5.2 Asset Ownership\n\n<CLIENT> shall:\n            5.2.1 Establish and implement a process to ensure timely assignment of asset ownership.\n            5.2.2 Assign/reassign ownership when assets are created or transferred.\n            5.2.3 Assign ownership to individuals having approved management responsibility across the asset lifecycle. Asset owners shall have the following responsibilities at a minimum:\n                a) Perform inventory of the applicable assets.\n                b) Classify and protect the assets.\n                c) Define and periodically review access restrictions and classifications to important assets, considering applicable access control policies in accordance with <CLIENT> Access Control Policy (<CLIENT>-ORG-IMS-POL-017).",
+    "section": "5.2 Asset Ownership",
+    "metadata": {
+      "policy_id": "clientname-IS-POL-00-Asset Management Policy",
+      "policy_name": "Asset Management Policy",
+      "heading": "5.2 Asset Ownership",
+      "validation_status": "Complete",
+      "correction_notes": null
+    }
+  },
+  {
+    "id": "clientname-IS-POL-00-Asset Management Policy_passage_9",
+    "name": "Asset Management Policy - 5.3 Asset Labelling",
+    "text": "5.3 Asset Labelling\n\n<CLIENT> shall:\n            5.3.1 Label information assets in physical and electronic formats according to the established information classification scheme as per the <CLIENT> Data Security Policy (<CLIENT>-ORG-IMS-POL-003).\n                a) Develop detailed procedures to give guidance on where and how labels are attached in consideration of how the information is accessed or the assets are handled depending on the types of media.\n                b) Ensure that output from systems carry an appropriate classification label aligned to <CLIENT> Data Security Policy (<CLIENT>-ORG-IMS-POL-003).\n                c) Ensure labels are easily recognizable and are included in emails, header, and footer of manually created or system-generated documents.    \n            5.3.2 Ensure appropriate awareness is provided to employees and third-party users regarding information labelling procedures.",
+    "section": "5.3 Asset Labelling",
+    "metadata": {
+      "policy_id": "clientname-IS-POL-00-Asset Management Policy",
+      "policy_name": "Asset Management Policy",
+      "heading": "5.3 Asset Labelling",
+      "validation_status": "Complete",
+      "correction_notes": null
+    }
+  },
+  {
+    "id": "clientname-IS-POL-00-Asset Management Policy_passage_10",
+    "name": "Asset Management Policy - 5.4 Asset Handling",
+    "text": "5.4 Asset Handling\n\n<CLIENT> shall:\n            5.4.1 Develop procedures for handling, processing, storing, and communicating information consistent with its classification level. The following items should be considered, at a minimum:\n            5.4.2 Access restrictions supporting the protection requirements for each level of classification.\n            5.4.3 Protection of temporary or permanent copies of information to a level consistent with the protection of the original information.\n            5.4.4 Storage of IT assets in accordance with manufacturers' specifications.\n            5.4.5 Safeguard information in accordance with the established procedures.\n            5.4.6 Ensure appropriate awareness is provided to employees and third-party users regarding the information handling procedures.",
+    "section": "5.4 Asset Handling",
+    "metadata": {
+      "policy_id": "clientname-IS-POL-00-Asset Management Policy",
+      "policy_name": "Asset Management Policy",
+      "heading": "5.4 Asset Handling",
+      "validation_status": "Complete",
+      "correction_notes": null
+    }
+  },
+  {
+    "id": "clientname-IS-POL-00-Asset Management Policy_passage_11",
+    "name": "Asset Management Policy - 5.5 Removable Media Management",
+    "text": "5.5 Removable Media Management\n\n<CLIENT> shall:\n            5.5.1 Ensure that all information is stored only in organization authorized media.\n            5.5.2 Ensure that contents of any re-usable media that are to be removed from the organization is made unrecoverable when no longer required.\n            5.5.3 Ensure that appropriate authorization is obtained for media removed from the organization and a record of such removals is kept in order to maintain an audit trail.\n            5.5.4 Store all media in a safe and secure environment in accordance with manufacturers' specifications.\n            5.5.5 Apply cryptographic techniques to protect data on removable media.\n            5.5.6 Ensure that all removable media is scanned for malware before utilization.\n            5.5.7 Ensure transfer of data to fresh media before it gets unreadable.\n            5.5.8 Securely store/backup multiple copies of valuable data on separate media to further reduce the risk of incidental and/or accidental data damage or loss.\n            5.5.9 Restrict and monitor the usage of removable media to limit the opportunity for data loss.\n            5.5.10 Ensure that any organization-controlled media with data is not sent to the manufacturer for any repair purposes to avoid leakage of residual confidential information.",
+    "section": "5.5 Removable Media Management",
+    "metadata": {
+      "policy_id": "clientname-IS-POL-00-Asset Management Policy",
+      "policy_name": "Asset Management Policy",
+      "heading": "5.5 Removable Media Management",
+      "validation_status": "Complete",
+      "correction_notes": null
+    }
+  },
+  {
+    "id": "clientname-IS-POL-00-Asset Management Policy_passage_12",
+    "name": "Asset Management Policy - 5.6 Disposal of Media",
+    "text": "5.6 Disposal of Media\n\n<CLIENT> shall:\n            5.6.1 Establish procedures for secure disposal of media containing organizational information based on the sensitivity of that information.\n            5.6.2 Ensure that the procedures are defined to identify media devices that might require secure disposal.\n            5.6.3 Ensure that media, both paper and digital, are destroyed when no longer serving the organization.\n            5.6.4 Ensure that records of disposed media (containing or used to contain confidential information) are kept when no longer needed.",
+    "section": "5.6 Disposal of Media",
+    "metadata": {
+      "policy_id": "clientname-IS-POL-00-Asset Management Policy",
+      "policy_name": "Asset Management Policy",
+      "heading": "5.6 Disposal of Media",
+      "validation_status": "Complete",
+      "correction_notes": null
+    }
+  },
+  {
+    "id": "clientname-IS-POL-00-Asset Management Policy_passage_13",
+    "name": "Asset Management Policy - 5.7 Physical Media Transfer",
+    "text": "5.7 Physical Media Transfer\n\n<CLIENT> shall:\n            5.7.1 Utilize reliable transport or couriers for transportation of physical media between sites.\n            5.7.2 Develop a list of authorized couriers that are approved by the management.\n            5.7.3 Define labelling requirements for physical media carrying sensitive information. \n            5.7.4 Ensure that logs of the transfer are kept identifying the content of the media, protection applied, time(s) of transfer to the transit custodian(s), and the receipt at destination.\n            5.7.5 Consider measures to be taken in the event of loss of physical media in transit carrying sensitive information.",
+    "section": "5.7 Physical Media Transfer",
+    "metadata": {
+      "policy_id": "clientname-IS-POL-00-Asset Management Policy",
+      "policy_name": "Asset Management Policy",
+      "heading": "5.7 Physical Media Transfer",
+      "validation_status": "Complete",
+      "correction_notes": null
+    }
+  },
+  {
+    "id": "clientname-IS-POL-00-Asset Management Policy_passage_14",
+    "name": "Asset Management Policy - 5.8 Acceptable Use of Assets",
+    "text": "5.8 Acceptable Use of Assets\n\n<CLIENT> shall: \n            5.8.1 Ensure that usage of all organization’s information, information assets and information and communications technology (ICT) systems are approved by the information security department prior to deployment.\n            5.8.2 Establish, document, and circulate the rules for the acceptable use of assets in line with the <CLIENT> Acceptable Use Policy (<CLIENT>-ORG-IMS-POL-002) and disciplinary procedures.\n            5.8.3 Consider the information provided by other members of an information sharing community as an asset and protect and disseminate in accordance with agreed upon rules.",
+    "section": "5.8 Acceptable Use of Assets",
+    "metadata": {
+      "policy_id": "clientname-IS-POL-00-Asset Management Policy",
+      "policy_name": "Asset Management Policy",
+      "heading": "5.8 Acceptable Use of Assets",
+      "validation_status": "Complete",
+      "correction_notes": null
+    }
+  },
+  {
+    "id": "clientname-IS-POL-00-Asset Management Policy_passage_15",
+    "name": "Asset Management Policy - 5.9 Bring Your Own Device (BYOD) Arrangements",
+    "text": "5.9 Bring Your Own Device (BYOD) Arrangements\n<CLIENT> shall: \n            5.9.1 Provide means to securely access organizational information and information assets via ‘Bring Your Own Device’ (BYOD). \n            5.9.2 Establish and implement information security requirements to secure organizational information and information assets via ‘Bring Your Own Device’ (BYOD) in line with <CLIENT> Bring Your Own Device (BYOD) Policy (<CLIENT>-ORG-IMS-POL-020).",
+    "section": "5.9 Bring Your Own Device (BYOD) Arrangements",
+    "metadata": {
+      "policy_id": "clientname-IS-POL-00-Asset Management Policy",
+      "policy_name": "Asset Management Policy",
+      "heading": "5.9 Bring Your Own Device (BYOD) Arrangements",
+      "validation_status": "Complete",
+      "correction_notes": null
+    }
+  },
+  {
+    "id": "clientname-IS-POL-00-Asset Management Policy_passage_16",
+    "name": "Asset Management Policy - 6 ROLES AND RESPONSIBILITIES",
+    "text": "6 ROLES AND RESPONSIBILITIES\nExecutives & Senior Management shall:\n6.1. Make available and support the required resources to drive asset management.\n6.2. Where relevant, provide direction to and participate in reviews and oversight of asset management.\n6.3. IMS Committee to:\n6.3.1. Review and approve this Policy prepared by, or on behalf of, the CISO.\n6.3.2. Establish process for the assignment of asset ownership and its periodical review.\n6.3.3. Assign an owner with management responsibility for each identified asset across asset lifecycle.\n6.3.4. Establish and document the rules for the acceptable use of assets.\n6.3.5. Support the establishment of the process for information classification.\n6.3.6. Adapt rules to the different roles (management, users, administrators, operators, contractors, etc.).\n6.3.7. Ensure circulation and acceptance of the rules by employees, contractors and third parties.\n6.3.8. Review and accept the findings and recommendations arising from Internal Audit.\nInformation Security shall:\n6.4. Develop or adopt an Asset classification scheme based on information value, legal requirements, sensitivity, and criticality to the organization as per the data protection policy.\n6.5. Establish the degree of protection required for each category.\n6.6. Establish the rules for the acceptable use of personal assets (e.g., BYOD) that are used on organization's environment.\n6.7. Adapt these rules to the different roles (management, users, administrators, operators, contractors, etc.).\n6.8. Ensure circulation and acceptance of the BYOD rules by employees, contractors and third parties.\n6.9. Ensure information classification is:\n6.9.1. Based on the established levels, and\n6.9.2. Mapped to accountable owners.\n6.10. Ensure the possibility to be accessed by automated systems to enforce specific protections based on the classification level.\n6.11. Allow for the possibility that the information classification scheme can be accessed by automated systems to enforce specific protections based on the classification level.\n6.12. Establish a procedure for labelling of information and its related assets in physical or electronic formats to reflect their attributed classification.\n6.13. Apply the appropriate label on information.\n6.14. Develop handling procedures for processing, storing and communicating information consistent with its classification and its attached label.\n6.15. Safeguard information in accordance with the established procedures.\n6.16. Define labelling requirements for physical media carrying sensitive information.\n6.17. Define measures to be taken in the event of loss of physical media in transit carrying sensitive information.\n\nInfosec Operations shall:\n              6.18 Identify an inventory of information assets within organization through an asset register.\n        6.19 Develop and maintain an up-to-date list of assets and associated asset owners.   \n        6.20 Ensure accuracy and consistency with other inventories.  \n        6.21 Establish procedures for secure disposal of media containing confidential information based on the sensitivity of that information.\n        6.22 Ensure that media, both paper and digital, are destroyed when no longer serving organization.\n        6.23 Ensure that records of disposed media (containing or used to contain confidential information) are kept when no longer needed.   \n        6.24 Establish media management procedures along its lifecycle (setup, distribution, utilization and disposal).\n\nAsset Owners shall:\n        6.25 Ensure an up-to-date information classification is assigned to information and information assets in accordance with changes of their value, sensitivity and criticality through their life cycle.   \n        6.26 Ensure sufficient information regarding physical assets (locations, data centers, networks, systems, storage, etc.) used to store, process or transmit information assets is recorded in the asset Inventory.   \n        6.27 Apply the appropriate label on information. \n        6.28 Safeguard information in accordance with the established procedures.\n        6.29 Assign operational responsibilities to a delegate like asset manager/asset custodian as required.\n\n        6.30 Ensure that this Policy is read and acknowledged formally by all users.   \n        6.31 Record and retain records of acceptance of the BYOD rules by employees.   \n        6.32 Apply the appropriate label on information. \n        6.33 Safeguard information in accordance with the established procedures. \n        6.34 Identify the needed protection levels in accordance with the information classification scheme.\n        6.35 Establish access procedures to loading and unloading areas to restrict access to only authorized personnel.   \n        6.36 Ensure that each facility’s supporting utilities are tested and protected against malfunctions.\n        6.37 Document supplier's recommendations for the maintenance of equipment and make them available to maintenance personnel.   \n        6.38 Keep maintenance logs for all equipment.\n6.39 Establish processes and procedures for decommissioning and commissioning of equipment to ensure protection of sensitive data.\n\nInformation Technology shall:\n        6.40 Identify and enforce required confidentiality and integrity controls necessary to assure compliance with the Information Classification scheme as per the <CLIENT> Data Security Policy (<CLIENT>-ORG-IMS-POL-003).\n        6.41 If there are availability requirements associated with the Information Classification scheme, ensure that the applicable ICT systems are sufficiently robust to meet these requirements.\n        6.42 Apply the appropriate label on information. \n        6.43 Safeguard information in accordance with the established procedures.\n        6.44 Inhibit the use of removable media in those information systems that do not require it.   \n        6.45 Control users of removable media.\nEmployees, Line Managers and Third Parties shall:\n        6.46 Employees and third parties (including contractors, vendors, etc.) who access <CLIENT> premises, information and information assets or use information and communications technology (ICT) systems of the organization are responsible for adhering to this Policy and all its applicable procedures.\n        6.47 Line manager to:\n            6.47.1 Ensure that the Policy is read and acknowledged formally by all personnel directly reporting to him/her. \n            6.47.2 Record and retain records of acceptance of the BYOD rules by employees under his/her direct supervision, as well as all contractors and/or third parties managed directly by him/her. \n            6.47.3 Apply the appropriate label on information. \n            6.47.4 Safeguard information in accordance with the established procedures.\n        6.48 The following apply to all personnel, irrespective of their role within organization:\n            6.48.1 Apply the appropriate label on information. \n            6.48.2 Safeguard the information in accordance with the established procedures. \n            6.48.3 Destroy media, both paper and digital, when no longer serving organization.   \n            6.48.4 Keep records for disposed media (containing or used to contain confidential information) when no longer needed. \n            6.48.5 Identify physical media carrying sensitive information.   \n            6.48.6 Ensure physical media in transit carrying sensitive information is tracked sufficiently in accordance with the sensitivity of the information it contains.\n            6.48.7 Keep a log of all transitions consistent with this Policy. \n\nLegal shall:\n        6.49 Identify all relevant and applicable laws and regulations to <CLIENT> and communicate to the respective parties.\n        6.50 Define standard legal clauses and terms for the contract/agreement to be signed with external parties, employment contracts, confidentiality and Non-Disclosure Agreements (NDAs).\n        6.51 Liaise with IS Team to define and review Information Security clauses in third-party contracts/agreements, employment contracts, confidentiality and Non-         Disclosure Agreements (NDAs).\n        6.52 Review third-party vendor, clients and partner contracts and involve IS Team for review of clauses concerning Information Security responsibilities.",
+    "section": "6 ROLES AND RESPONSIBILITIES",
+    "metadata": {
+      "policy_id": "clientname-IS-POL-00-Asset Management Policy",
+      "policy_name": "Asset Management Policy",
+      "heading": "6 ROLES AND RESPONSIBILITIES",
+      "validation_status": "Complete",
+      "correction_notes": null
+    }
+  },
+  {
+    "id": "clientname-IS-POL-00-Asset Management Policy_passage_17",
+    "name": "Asset Management Policy - 7 POLICY ENFORCEMENT AND EXCEPTIONS",
+    "text": "7 POLICY ENFORCEMENT AND EXCEPTIONS\n\nThis Policy is to be part of all Employees' and Third Parties' processes, and all are responsible for understanding and adhering to this Policy. Any violation of this Policy shall be reported to Policy Owner. Violation of this Policy shall be subjected to disciplinary action by the &lt;CLIENT&gt;'s Human Capital Department, taking into consideration the recommendation of the Information Security department and in accordance with other applicable policies, laws and regulations.\n\nDisciplinary action may range from a verbal warning to discontinuation of access to facility or services, or termination of employment/contract/agreement, and possible legal action. The actual action taken shall depend on factors such as the seriousness of the breach and the user's disciplinary record.\n\nAny exceptions on the applicability of this Policy should be formally requested through the Policy Exception Management procedure.",
+    "section": "7 POLICY ENFORCEMENT AND EXCEPTIONS",
+    "metadata": {
+      "policy_id": "clientname-IS-POL-00-Asset Management Policy",
+      "policy_name": "Asset Management Policy",
+      "heading": "7 POLICY ENFORCEMENT AND EXCEPTIONS",
+      "validation_status": "Complete",
+      "correction_notes": null
+    }
+  },
+  {
+    "id": "clientname-IS-POL-00-Asset Management Policy_passage_18",
+    "name": "Asset Management Policy - 8 MONITORING AND REVIEW",
+    "text": "8 MONITORING AND REVIEW\n\nThis Policy is developed and owned by the <CLIENT> Information Security (IS) Team. It is reviewed by the CISO and approved by the CEO. \n<CLIENT> IS Team will initiate a review and of this Policy annually or whenever a significant change occurs in the organization’s operating environment.\nFeedback, suggestions or questions regarding the Policy shall be directed to the <CLIENT> IS Team at infosec@<CLIENT>.com.",
+    "section": "8 MONITORING AND REVIEW",
+    "metadata": {
+      "policy_id": "clientname-IS-POL-00-Asset Management Policy",
+      "policy_name": "Asset Management Policy",
+      "heading": "8 MONITORING AND REVIEW",
+      "validation_status": "Complete",
+      "correction_notes": null
+    }
+  },
+  {
+    "id": "clientname-IS-POL-00-Asset Management Policy_passage_19",
+    "name": "Asset Management Policy - 9 POLICY – UAE IA CONTROL MAPPING",
+    "text": "9 POLICY – UAE IA CONTROL MAPPING",
+    "section": "9 POLICY – UAE IA CONTROL MAPPING",
+    "metadata": {
+      "policy_id": "clientname-IS-POL-00-Asset Management Policy",
+      "policy_name": "Asset Management Policy",
+      "heading": "9 POLICY – UAE IA CONTROL MAPPING",
+      "validation_status": "Complete",
+      "correction_notes": null
+    }
+  }
+]

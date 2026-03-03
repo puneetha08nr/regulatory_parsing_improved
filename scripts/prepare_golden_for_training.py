@@ -161,10 +161,24 @@ def _corrected_positive_rows_reranker(g: Dict, control_map: Dict, policy_map: Di
 def prepare_nli(golden: List[Dict], control_map: Dict, policy_map: Dict) -> List[Dict]:
     """Build rows: premise, hypothesis, label (entailment/neutral/contradiction).
 
+    Multi-control passages annotated as "Partially Addressed":
+      "Partially Addressed" maps to "neutral" regardless of how many controls
+      a passage covers. This is correct — the passage is relevant (not contradiction)
+      but doesn't fully entail the control on its own. No adjustment needed for NLI.
+
     When an annotator corrected the control ID (edit_control_id in Label Studio),
     the export stores it as corrected_control_id. We automatically add a positive
     (entailment) row for that corrected control in addition to the main row.
     """
+    # Count controls per passage (for metadata only — NLI label stays "neutral")
+    passage_control_counts: Dict[str, int] = {}
+    for g in golden:
+        status = (g.get("compliance_status") or "").strip()
+        pid = g.get("policy_passage_id")
+        if pid and status in {"Fully Addressed", "Fully addressed",
+                              "Partially Addressed", "Partially addressed"}:
+            passage_control_counts[pid] = passage_control_counts.get(pid, 0) + 1
+
     rows = []
     for g in golden:
         status = (g.get("compliance_status") or "").strip()
@@ -182,11 +196,12 @@ def prepare_nli(golden: List[Dict], control_map: Dict, policy_map: Dict) -> List
         if not premise or not hypothesis:
             continue
         rows.append({
-            "premise": premise[:2000],
+            "premise":   premise[:2000],
             "hypothesis": hypothesis[:512],
-            "label": nli_label,
+            "label":     nli_label,
             "control_id": cid,
             "policy_passage_id": pid,
+            "n_controls_for_passage": passage_control_counts.get(pid, 1),
         })
         # Auto-generate positive row for the corrected control
         rows.extend(_corrected_positive_rows_nli(g, control_map, policy_map))
@@ -196,10 +211,29 @@ def prepare_nli(golden: List[Dict], control_map: Dict, policy_map: Dict) -> List
 def prepare_reranker(golden: List[Dict], control_map: Dict, policy_map: Dict) -> List[Dict]:
     """Build rows: query (control), passage, label (Fully/Partially/Not) or score.
 
+    Multi-control passages (one passage annotated for several controls):
+      A passage annotated as "Partially Addressed" for N controls gets score=0.5
+      per pair. We also compute an adjusted score:
+        - If the passage is annotated against ONLY ONE control → score stays as-is
+          (0.5 means it genuinely only partially satisfies that control)
+        - If annotated against MULTIPLE controls → each pair's score is boosted
+          toward 0.7, because the passage is genuinely relevant but split coverage
+          is why it's partial — not because it's a weak match.
+      This prevents the model from penalising valid multi-topic passages.
+
     Hard negatives (is_hard_negative=True) are duplicated so the model sees them
     more often during training — they are the most informative negatives (confirmed
     keyword-overlap or topic-mismatch false matches, not just low-scoring pairs).
     """
+    # Pre-compute: how many controls each passage is mapped to (positives only)
+    passage_control_counts: Dict[str, int] = {}
+    for g in golden:
+        status = (g.get("compliance_status") or "").strip()
+        pid = g.get("policy_passage_id")
+        if pid and status in {"Fully Addressed", "Fully addressed",
+                              "Partially Addressed", "Partially addressed"}:
+            passage_control_counts[pid] = passage_control_counts.get(pid, 0) + 1
+
     rows = []
     for g in golden:
         status = (g.get("compliance_status") or "").strip()
@@ -217,19 +251,30 @@ def prepare_reranker(golden: List[Dict], control_map: Dict, policy_map: Dict) ->
             continue
         is_hard_negative = bool(g.get("is_hard_negative"))
         mismatch_reason = g.get("mismatch_reason")
+
+        # Adjust score for multi-control passages annotated as "Partially Addressed":
+        # the passage is genuinely relevant to several controls; score it higher
+        # (0.7 vs 0.5) so the model doesn't learn to rank it low.
+        base_score = STATUS_TO_SCORE[status]
+        n_controls_for_passage = passage_control_counts.get(pid, 1)
+        if "partially" in status.lower() and n_controls_for_passage > 1:
+            adjusted_score = 0.70   # multi-control partial → boosted soft positive
+        else:
+            adjusted_score = base_score
+
         row = {
-            "query": query[:512],
-            "passage": passage[:2000],
-            "label": status,
-            "score": STATUS_TO_SCORE[status],
-            "control_id": cid,
+            "query":             query[:512],
+            "passage":           passage[:2000],
+            "label":             status,
+            "score":             adjusted_score,
+            "control_id":        cid,
             "policy_passage_id": pid,
-            "is_hard_negative": is_hard_negative,
-            "mismatch_reason": mismatch_reason,
+            "is_hard_negative":  is_hard_negative,
+            "mismatch_reason":   mismatch_reason,
+            "n_controls_for_passage": n_controls_for_passage,
         }
         rows.append(row)
         # Duplicate hard negatives so the model sees them twice during training
-        # (keyword-overlap mismatches are the most important negatives to learn from)
         if is_hard_negative:
             rows.append(dict(row))
         # Auto-generate positive row for the corrected control

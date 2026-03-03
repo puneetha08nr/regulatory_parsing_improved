@@ -448,6 +448,72 @@ class PolicyRetrieval:
         return [idx for idx, _ in fused[:top_k]]
 
 
+class ControlRetrieval:
+    """
+    BM25 + Dense + RRF index over IA control texts.
+    Symmetric counterpart of PolicyRetrieval — used for passage-centric mapping
+    where the passage is the query and controls are the corpus.
+    """
+    def __init__(self, controls: List, dense_model: str = "all-MiniLM-L6-v2"):
+        self.controls = controls
+        # Build searchable text per control: id + name + obligation text
+        self.control_texts = []
+        for c in controls:
+            parts = [f"{c.control_id}: {c.control_name}"]
+            if getattr(c, "control_text", ""):
+                parts.append(c.control_text[:400])
+            self.control_texts.append(" ".join(parts))
+        self.bm25 = None
+        self.embedding_model = None
+        self.control_embeddings = None
+        self._dense_model_name = dense_model
+
+    def setup(self) -> None:
+        """Build BM25 index and dense embeddings over control texts."""
+        if BM25_AVAILABLE:
+            tokenized = [t.lower().split() for t in self.control_texts]
+            self.bm25 = BM25Okapi(tokenized)
+        if DENSE_AVAILABLE:
+            self.embedding_model = SentenceTransformer(self._dense_model_name)
+            self.control_embeddings = self.embedding_model.encode(
+                self.control_texts, show_progress_bar=False, batch_size=32
+            )
+
+    def bm25_search(self, query: str, top_k: int) -> List[Tuple[int, float]]:
+        if self.bm25 is None:
+            return []
+        scores = self.bm25.get_scores(query.lower().split())
+        indexed = [(i, float(scores[i])) for i in range(len(scores)) if scores[i] > 0]
+        indexed.sort(key=lambda x: x[1], reverse=True)
+        return indexed[:top_k]
+
+    def dense_search(self, query: str, top_k: int) -> List[Tuple[int, float]]:
+        if self.control_embeddings is None or np is None:
+            return []
+        q_emb = self.embedding_model.encode([query])
+        sim = np.dot(self.control_embeddings, q_emb.T).ravel()
+        c_norm = np.linalg.norm(self.control_embeddings, axis=1, keepdims=True)
+        q_norm = np.linalg.norm(q_emb)
+        sim = sim / (c_norm.ravel() * q_norm + 1e-9)
+        top_idx = np.argsort(sim)[-top_k:][::-1]
+        return [(int(i), float(sim[i])) for i in top_idx if sim[i] > 0]
+
+    def search(self, query: str, top_k: int = 20) -> List[int]:
+        """Return top_k control indices for the given passage query. BM25 + Dense + RRF."""
+        n = len(self.controls)
+        bm25_res  = self.bm25_search(query,  top_k=min(100, n)) if self.bm25 else []
+        dense_res = self.dense_search(query, top_k=min(100, n)) if self.control_embeddings is not None else []
+        if bm25_res and dense_res:
+            fused = PolicyRetrieval.rrf(bm25_res, dense_res, k=60)
+        elif bm25_res:
+            fused = bm25_res
+        elif dense_res:
+            fused = dense_res
+        else:
+            return list(range(min(top_k, n)))   # fallback: first N controls
+        return [idx for idx, _ in fused[:top_k]]
+
+
 def _policy_doc_id_from_target(target_policy_id: str) -> str:
     """Extract policy document id from target_policy_id (part before _passage_N)."""
     if not target_policy_id:
@@ -1020,6 +1086,185 @@ class ComplianceMappingPipeline:
         if also_combined_path:
             self.save_mappings(also_combined_path, format="json")
     
+    def create_passage_to_control_mappings(
+        self,
+        output_path: str,
+        controls: Optional[List] = None,
+        top_k_retrieve: int = 20,
+        threshold_full: float = 0.60,
+        threshold_partial: float = 0.35,
+        batch_size: int = 64,
+        filter_obligations_only: bool = True,
+    ) -> None:
+        """Passage-centric mapping: BM25+Dense retrieve top-K controls per passage,
+        then Cross-Encoder scores (passage, control) pairs.
+
+        Symmetric counterpart of create_mappings() (which is control-centric):
+          control-centric:  query=control  → BM25 over passages  → CE(control, passage)
+          passage-centric:  query=passage  → BM25 over controls  → CE(passage, control)
+
+        Same computational cost as create_mappings() — top_k_retrieve CE calls per passage,
+        not passage × all_controls. Produces genuine coverage scores with no keyword-overlap
+        artefacts from one-sided retrieval.
+
+        Output: mappings_by_passage.json
+        [
+          {
+            "passage_id": "...", "policy_doc": "...", "section": "...",
+            "passage_text": "...",
+            "mapped_controls": [
+              {"control_id": "M1.1.1", "control_name": "...", "family": "...",
+               "status": "Fully Addressed", "score": 0.82},
+              ...  sorted by score desc, only >= threshold_partial
+            ]
+          }, ...
+        ]
+        """
+        if not self.reranker or not self.reranker.is_available():
+            print("⚠️  Cross-Encoder not available — falling back to regrouped view.")
+            self.save_mappings_per_passage(output_path)
+            return
+
+        controls_to_use = controls or self.ia_controls
+        if filter_obligations_only:
+            controls_to_use = [c for c in controls_to_use if c.is_obligation]
+
+        not_applicable = getattr(self, "_not_applicable_passages", set())
+        passages_to_map = [
+            p for p in self.policy_passages
+            if p.policy_id not in not_applicable and p.passage_text.strip()
+        ]
+
+        print(f"\n[Passage-centric] BM25+Dense → Cross-Encoder (passage → controls)")
+        print(f"  {len(passages_to_map)} passages,  {len(controls_to_use)} obligation controls")
+        print(f"  top_k_retrieve={top_k_retrieve}  → {len(passages_to_map) * top_k_retrieve:,} CE calls total")
+
+        # Build retrieval index over control texts (one-time cost)
+        print("  Building control retrieval index (BM25 + Dense)...")
+        ctrl_index = ControlRetrieval(
+            controls_to_use,
+            dense_model=getattr(self, "_dense_model_name", "all-MiniLM-L6-v2"),
+        )
+        ctrl_index.setup()
+        print("  Control index ready.")
+
+        rows = []
+        for p_idx, passage in enumerate(passages_to_map):
+            if p_idx % 50 == 0:
+                print(f"  passage {p_idx + 1}/{len(passages_to_map)} ...", flush=True)
+
+            passage_text = passage.passage_text[:512]
+
+            # Step 1: retrieve top-K candidate controls for this passage
+            candidate_idxs = ctrl_index.search(passage_text, top_k=top_k_retrieve)
+            candidate_controls = [controls_to_use[i] for i in candidate_idxs]
+
+            if not candidate_controls:
+                continue
+
+            # Step 2: cross-encode (passage, control) pairs in batches
+            pairs = [
+                (passage_text, ctrl_index.control_texts[i][:512])
+                for i in candidate_idxs
+            ]
+            all_scores: List[float] = []
+            for i in range(0, len(pairs), batch_size):
+                raw = self.reranker.model.predict(pairs[i: i + batch_size])
+                if hasattr(raw, "tolist"):
+                    raw = raw.tolist()
+                all_scores.extend([float(s) for s in raw])
+
+            # Step 3: keep controls above threshold
+            mapped = []
+            for c, score in zip(candidate_controls, all_scores):
+                if score < threshold_partial:
+                    continue
+                status = "Fully Addressed" if score >= threshold_full else "Partially Addressed"
+                mapped.append({
+                    "control_id":   c.control_id,
+                    "control_name": c.control_name,
+                    "family":       getattr(c, "control_family", ""),
+                    "status":       status,
+                    "score":        round(score, 4),
+                })
+
+            if not mapped:
+                continue
+
+            mapped.sort(key=lambda x: -x["score"])
+            rows.append({
+                "passage_id":      passage.policy_id,
+                "policy_doc":      _policy_doc_id_from_target(passage.policy_id),
+                "section":         getattr(passage, "section_title", ""),
+                "passage_text":    passage.passage_text,
+                "mapped_controls": mapped,
+            })
+
+        rows.sort(key=lambda r: -len(r["mapped_controls"]))
+
+        Path(output_path).parent.mkdir(parents=True, exist_ok=True)
+        with open(output_path, "w", encoding="utf-8") as f:
+            json.dump(rows, f, indent=2, ensure_ascii=False)
+
+        total_mapped = sum(len(r["mapped_controls"]) for r in rows)
+        print(f"\n✓ Passage-centric mapping complete:")
+        print(f"  {len(rows)} passages cover {total_mapped} (passage, control) pairs")
+        print(f"  thresholds: full>={threshold_full}  partial>={threshold_partial}")
+        print(f"  Saved → {output_path}")
+
+    def save_mappings_per_passage(
+        self,
+        output_path: str,
+        min_score: float = 0.40,
+    ) -> None:
+        """Regroup the control-centric mappings into a passage-first view.
+
+        Note: this does NOT re-run the cross-encoder — it only reshuffles the
+        results already computed by create_mappings(). For a true passage-centric
+        cross-encoder pass use create_passage_to_control_mappings() instead.
+        """
+        passage_lookup = {p.policy_id: p for p in self.policy_passages}
+
+        by_passage: Dict[str, list] = {}
+        for m in self.mappings:
+            if m.entailment_score < min_score:
+                continue
+            by_passage.setdefault(m.target_policy_id, []).append(m)
+
+        rows = []
+        for pid, mappings in sorted(by_passage.items()):
+            p = passage_lookup.get(pid)
+            rows.append({
+                "passage_id":   pid,
+                "policy_doc":   _policy_doc_id_from_target(pid),
+                "section":      getattr(p, "section_title", "") if p else "",
+                "passage_text": p.passage_text if p else "",
+                "mapped_controls": sorted(
+                    [
+                        {
+                            "control_id":      m.source_control_id,
+                            "control_name":    m.control_name,
+                            "status":          m.status,
+                            "entailment_score": round(m.entailment_score, 4),
+                        }
+                        for m in mappings
+                    ],
+                    key=lambda x: -x["entailment_score"],
+                ),
+            })
+
+        rows.sort(key=lambda r: -len(r["mapped_controls"]))
+
+        Path(output_path).parent.mkdir(parents=True, exist_ok=True)
+        with open(output_path, "w", encoding="utf-8") as f:
+            json.dump(rows, f, indent=2, ensure_ascii=False)
+
+        covered = len(rows)
+        total_pairs = sum(len(r["mapped_controls"]) for r in rows)
+        print(f"✓ Passage-centric view (regrouped): {covered} passages, {total_pairs} pairs")
+        print(f"  (score filter >= {min_score} | {len(self.mappings) - total_pairs} weak matches excluded)")
+        print(f"  Saved → {output_path}")
+
     def generate_compliance_report(self, output_path: str):
         """Generate compliance status report"""
         # Count by status

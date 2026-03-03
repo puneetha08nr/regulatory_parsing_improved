@@ -213,6 +213,18 @@ def main():
         also_combined_path=str(output_dir / "mappings.json"),
     )
 
+    # Passage-centric mapping: cross-encoder scored directly (passage as query vs all controls).
+    # This is the reverse of the control-centric pass above — no BM25 retrieval,
+    # so scores reflect genuine semantic coverage rather than keyword-overlap artefacts.
+    print("\n[Step 5b/6] Passage-centric mapping (Cross-Encoder: passage → controls)...")
+    pipeline.create_passage_to_control_mappings(
+        str(output_dir / "mappings_by_passage.json"),
+        filter_obligations_only=True,
+        threshold_full=0.60,
+        threshold_partial=0.35,
+        batch_size=64,
+    )
+
     # Save retrieval log for Recall@K evaluation
     import json as _json
     retrieval_log = getattr(pipeline, "_retrieval_log", {})

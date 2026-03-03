@@ -185,15 +185,40 @@ def main():
     else:
         print("   (No not-applicable passage list found — boilerplate sections may appear in output.)")
 
-    # CPU mode: keep top_k_per_control=5 (fewer scoring calls → faster)
-    # GPU mode: top_k_per_control=8 gives richer output
-    _top_k = int(os.environ.get("TOP_K", "5" if _cpu_mode else "8"))
+    # Retrieval + reranking parameters
+    # GPU defaults are high enough for good Recall@K without being slow.
+    # CPU defaults are conservative to keep runtime reasonable.
+    #
+    # top_k_retrieve : BM25+Dense candidates per control per doc (first stage)
+    # top_k_rerank   : how many of those pass to the cross-encoder  
+    # top_k_per_doc  : cross-encoder keeps this many per doc
+    # top_k_per_control : final cap across all docs per control
+    #
+    # Rule of thumb: top_k_retrieve >= top_k_rerank >= top_k_per_doc
+    # Recall@K improves with higher top_k_retrieve; cost scales linearly.
     if _cpu_mode:
-        print(f"   top_k_per_control={_top_k} (CPU mode — set TOP_K env var to change)")
+        _top_k_retrieve   = int(os.environ.get("TOP_K_RETRIEVE",  "30"))
+        _top_k_rerank     = int(os.environ.get("TOP_K_RERANK",    "30"))
+        _top_k_per_doc    = int(os.environ.get("TOP_K_PER_DOC",    "3"))
+        _top_k_per_control= int(os.environ.get("TOP_K",            "8"))
+        print(f"   CPU mode  top_k_retrieve={_top_k_retrieve}  top_k_rerank={_top_k_rerank}"
+              f"  top_k_per_doc={_top_k_per_doc}  top_k_per_control={_top_k_per_control}")
+    else:
+        # GPU: retrieve more candidates → much higher Recall@K
+        _top_k_retrieve   = int(os.environ.get("TOP_K_RETRIEVE",  "50"))
+        _top_k_rerank     = int(os.environ.get("TOP_K_RERANK",   "100"))
+        _top_k_per_doc    = int(os.environ.get("TOP_K_PER_DOC",    "5"))
+        _top_k_per_control= int(os.environ.get("TOP_K",           "10"))
+        print(f"   GPU mode  top_k_retrieve={_top_k_retrieve}  top_k_rerank={_top_k_rerank}"
+              f"  top_k_per_doc={_top_k_per_doc}  top_k_per_control={_top_k_per_control}")
+
     try:
         pipeline.create_mappings(
             filter_obligations_only=True,
-            top_k_per_control=_top_k
+            top_k_retrieve=_top_k_retrieve,
+            top_k_rerank=_top_k_rerank,
+            top_k_per_doc=_top_k_per_doc,
+            top_k_per_control=_top_k_per_control,
         )
     except Exception as e:
         print(f"❌ Error creating mappings: {e}")

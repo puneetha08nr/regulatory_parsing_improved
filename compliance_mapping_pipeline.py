@@ -856,7 +856,9 @@ class ComplianceMappingPipeline:
                        use_retrieval: bool = True,
                        top_k_retrieve: int = 20,
                        top_k_per_doc: int = 3,
-                       top_k_rerank: int = 50):
+                       top_k_rerank: int = 50,
+                       threshold_full: float = 0.45,
+                       threshold_partial: float = 0.25):
         """
         Create compliance mappings (RegNLP-style, per-document corpus).
 
@@ -938,6 +940,7 @@ class ComplianceMappingPipeline:
             
             query = control.obligation_text or control.control_text
             control_mappings_all = []
+            _per_doc_candidates: list = []  # all retrieved passages across docs (for retrieval log)
             doc_idx = 0
             for doc_id, passages in self.policy_passages_by_doc.items():
                 doc_idx += 1
@@ -967,19 +970,15 @@ class ComplianceMappingPipeline:
                         if len(candidate_passages) >= top_k_rerank:
                             break
 
-                # Record retrieved passage IDs for Recall@K evaluation
-                cid = control.control_id
-                if cid not in self._retrieval_log:
-                    self._retrieval_log[cid] = []
-                self._retrieval_log[cid].extend(
-                    p.policy_id for p in candidate_passages
-                    if p.policy_id not in self._retrieval_log[cid]
-                )
+                # Stash per-doc candidate passage IDs for retrieval log (built globally after reranking)
+                _per_doc_candidates.extend(candidate_passages)
 
                 if use_reranker_now and self.reranker and candidate_passages:
                     doc_mappings = self.reranker.rerank(
                         control, query, candidate_passages,
                         top_k=top_k_per_doc,
+                        threshold_full=threshold_full,
+                        threshold_partial=threshold_partial,
                     )
                     if self.use_graph and self.policy_graph and doc_mappings:
                         passage_scores = []
@@ -996,6 +995,23 @@ class ComplianceMappingPipeline:
                     doc_mappings = doc_mappings[:top_k_per_doc]
                 control_mappings_all.extend(doc_mappings)
 
+            # ── Build retrieval log in global score order (fixes Recall@K measurement) ───
+            # Use cross-encoder scores from control_mappings_all (sorted by score desc) as
+            # the global ranking proxy.  This makes Recall@K measure: "was the gold passage
+            # in the globally top-K reranked passages?" — independent of document iteration order.
+            cid = control.control_id
+            seen_in_log: set = set()
+            self._retrieval_log[cid] = []
+            for m in sorted(control_mappings_all, key=lambda x: x.entailment_score, reverse=True):
+                if m.target_policy_id not in seen_in_log:
+                    self._retrieval_log[cid].append(m.target_policy_id)
+                    seen_in_log.add(m.target_policy_id)
+            # Append any retrieved-but-not-reranked passages (scored below top_k_per_doc per doc)
+            for p in _per_doc_candidates:
+                if p.policy_id not in seen_in_log:
+                    self._retrieval_log[cid].append(p.policy_id)
+                    seen_in_log.add(p.policy_id)
+
             control_mappings_all.sort(key=lambda x: x.entailment_score, reverse=True)
             # Filter out globally not-applicable passages (boilerplate sections)
             not_applicable = getattr(self, "_not_applicable_passages", set())
@@ -1011,6 +1027,12 @@ class ComplianceMappingPipeline:
                     m for m in control_mappings_all
                     if (m.source_control_id, m.target_policy_id) not in confirmed_neg
                 ]
+            # Only include pairs that score above partial threshold — avoids inflating
+            # "predicted positives" with passages the reranker itself labels Not Addressed.
+            control_mappings_all = [
+                m for m in control_mappings_all
+                if m.status in ("Fully Addressed", "Partially Addressed")
+            ]
             self.mappings.extend(control_mappings_all[:top_k_per_control])
         
         print(f"✓ Created {len(self.mappings)} compliance mappings")

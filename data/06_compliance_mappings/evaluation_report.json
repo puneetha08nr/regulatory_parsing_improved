@@ -1,17 +1,129 @@
 {
   "golden_positives": 89,
   "golden_negatives": 200,
-  "pipeline_predicted": 336,
-  "true_positives": 61,
-  "false_positives": 59,
-  "false_negatives": 28,
-  "precision": 0.1815,
-  "recall": 0.6854,
-  "f1": 0.2871,
-  "recall_at_k": "retrieval_log.json not found — re-run pipeline first",
-  "recall_at_k_misses_at_20": [],
+  "pipeline_predicted": 386,
+  "true_positives": 8,
+  "false_positives": 0,
+  "false_negatives": 81,
+  "precision": 0.0207,
+  "recall": 0.0899,
+  "f1": 0.0337,
+  "recall_at_k": {
+    "R@5": {
+      "score": 0.815,
+      "target": 0.6
+    },
+    "R@10": {
+      "score": 0.852,
+      "target": 0.7
+    },
+    "R@20": {
+      "score": 0.852,
+      "target": 0.8
+    },
+    "R@50": {
+      "score": 0.852,
+      "target": 0.9
+    }
+  },
+  "recall_at_k_misses_at_20": [
+    {
+      "control_id": "T6.2.1",
+      "reason": "gold passage not in top-20",
+      "gold_passages": [
+        "clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping_passage_4"
+      ],
+      "top_retrieved": [
+        "clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping_passage_8",
+        "clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping_passage_7",
+        "clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping_passage_9",
+        "clientname-IS-POL-00-Information Security Incident Management Policy 2_passage_19",
+        "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_19"
+      ]
+    },
+    {
+      "control_id": "T2.3.1",
+      "reason": "gold passage not in top-20",
+      "gold_passages": [
+        "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_12"
+      ],
+      "top_retrieved": [
+        "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_14",
+        "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_6",
+        "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_15",
+        "clientname-IS-POL-00-Information Security Incident Management Policy 2_passage_19",
+        "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_19"
+      ]
+    },
+    {
+      "control_id": "T6.2.2",
+      "reason": "control not in retrieval log",
+      "gold_passages": [
+        "clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping_passage_9",
+        "clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping_passage_7",
+        "clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping_passage_8"
+      ]
+    },
+    {
+      "control_id": "M5.4.1",
+      "reason": "gold passage not in top-20",
+      "gold_passages": [
+        "clientname-IS-POL-00-Vulnerability Management Policy v1.2 (V_A)_passage_6"
+      ],
+      "top_retrieved": [
+        "clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_6",
+        "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_13",
+        "clientname-IS-POL-00-Security Operations Policy_passage_6",
+        "clientname-IS-POL-00-Information Security Incident Management Policy 2_passage_15",
+        "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_15"
+      ]
+    },
+    {
+      "control_id": "T8.2.1",
+      "reason": "gold passage not in top-20",
+      "gold_passages": [
+        "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_6"
+      ],
+      "top_retrieved": [
+        "clientname-IS-POL-00-Information Security Incident Management Policy 2_passage_8",
+        "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_8",
+        "clientname-IS-POL-00-Information Security Incident Management Policy 2_passage_7",
+        "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_7",
+        "clientname-IS-POL-00-Information Security Incident Management Policy 2_passage_11"
+      ]
+    },
+    {
+      "control_id": "T1.2.3",
+      "reason": "control not in retrieval log",
+      "gold_passages": [
+        "clientname-IS-POL-00-Asset Management Policy_passage_14",
+        "clientname-IS-POL-00-Asset Management Policy 6_passage_14"
+      ]
+    },
+    {
+      "control_id": "T3.2.1",
+      "reason": "gold passage not in top-20",
+      "gold_passages": [
+        "clientname-IS-POL-00-Security Operations Policy_passage_10"
+      ],
+      "top_retrieved": [
+        "clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2_passage_6",
+        "clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_6",
+        "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_6",
+        "clientname-IS-POL-00-Asset Management Policy 6_passage_3",
+        "clientname-IS-POL-00-Asset Management Policy_passage_3"
+      ]
+    },
+    {
+      "control_id": "T2.2.6",
+      "reason": "control not in retrieval log",
+      "gold_passages": [
+        "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_11"
+      ]
+    }
+  ],
   "repas": {
-    "avg_score": 0.71,
+    "avg_score": 0.593,
     "target": 0.7,
     "components": {
       "entailment_weight": 0.5,
@@ -21,42 +133,9 @@
     "weak_mappings": [
       {
         "control_id": "M2.3.1",
-        "policy_passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2_passage_9",
-        "repas_score": 0.472,
-        "entailment": 0.6430620551109314,
-        "coverage": 0.0,
-        "confidence": 5,
-        "policy_name": "Information Risk Management Policy",
-        "policy_section": "5.4 Information Risk Treatment",
-        "mapping_status": "Partially Addressed"
-      },
-      {
-        "control_id": "T8.3.1",
-        "policy_passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 2_passage_15",
-        "repas_score": 0.482,
-        "entailment": 0.6637685894966125,
-        "coverage": 0.0,
-        "confidence": 5,
-        "policy_name": "Information Security Incident Management Policy",
-        "policy_section": "5.10 Situational Awareness",
-        "mapping_status": "Not Addressed"
-      },
-      {
-        "control_id": "T8.3.1",
-        "policy_passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_15",
-        "repas_score": 0.482,
-        "entailment": 0.6637685894966125,
-        "coverage": 0.0,
-        "confidence": 5,
-        "policy_name": "Information Security Incident Management Policy",
-        "policy_section": "5.10 Situational Awareness",
-        "mapping_status": "Not Addressed"
-      },
-      {
-        "control_id": "M2.3.1",
         "policy_passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 3_passage_9",
-        "repas_score": 0.472,
-        "entailment": 0.6430620551109314,
+        "repas_score": 0.49,
+        "entailment": 0.6795055270195007,
         "coverage": 0.0,
         "confidence": 5,
         "policy_name": "Information Risk Management Policy",
@@ -66,8 +145,19 @@
       {
         "control_id": "M2.3.1",
         "policy_passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 1_passage_9",
-        "repas_score": 0.472,
-        "entailment": 0.6430620551109314,
+        "repas_score": 0.49,
+        "entailment": 0.6795055270195007,
+        "coverage": 0.0,
+        "confidence": 5,
+        "policy_name": "Information Risk Management Policy",
+        "policy_section": "5.4 Information Risk Treatment",
+        "mapping_status": "Partially Addressed"
+      },
+      {
+        "control_id": "M2.3.1",
+        "policy_passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2_passage_9",
+        "repas_score": 0.49,
+        "entailment": 0.6795055270195007,
         "coverage": 0.0,
         "confidence": 5,
         "policy_name": "Information Risk Management Policy",
@@ -76,421 +166,7 @@
       }
     ]
   },
-  "still_wrong_pairs": [
-    {
-      "control_id": "M1.3.2",
-      "policy_passage_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_14",
-      "policy_name": "Network and Communications Security Policy",
-      "policy_section": "5.8 Confidentiality or Non-disclosure Agreements",
-      "mismatch_reason": "topic"
-    },
-    {
-      "control_id": "M2.1.1",
-      "policy_passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 1_passage_3",
-      "policy_name": "Information Risk Management Policy",
-      "policy_section": "1 INTRODUCTION",
-      "mismatch_reason": "topic"
-    },
-    {
-      "control_id": "M2.1.1",
-      "policy_passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 1_passage_6",
-      "policy_name": "Information Risk Management Policy",
-      "policy_section": "4 POLICY STATEMENT",
-      "mismatch_reason": "topic"
-    },
-    {
-      "control_id": "M2.1.1",
-      "policy_passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2_passage_3",
-      "policy_name": "Information Risk Management Policy",
-      "policy_section": "1 INTRODUCTION",
-      "mismatch_reason": "topic"
-    },
-    {
-      "control_id": "M2.1.1",
-      "policy_passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2_passage_6",
-      "policy_name": "Information Risk Management Policy",
-      "policy_section": "4 POLICY STATEMENT",
-      "mismatch_reason": "topic"
-    },
-    {
-      "control_id": "M2.1.1",
-      "policy_passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 3_passage_3",
-      "policy_name": "Information Risk Management Policy",
-      "policy_section": "1 INTRODUCTION",
-      "mismatch_reason": "topic"
-    },
-    {
-      "control_id": "M2.1.1",
-      "policy_passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 3_passage_6",
-      "policy_name": "Information Risk Management Policy",
-      "policy_section": "4 POLICY STATEMENT",
-      "mismatch_reason": "topic"
-    },
-    {
-      "control_id": "M2.3.2",
-      "policy_passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 1_passage_9",
-      "policy_name": "Information Risk Management Policy",
-      "policy_section": "5.4 Information Risk Treatment",
-      "mismatch_reason": "kw"
-    },
-    {
-      "control_id": "M2.3.2",
-      "policy_passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2_passage_9",
-      "policy_name": "Information Risk Management Policy",
-      "policy_section": "5.4 Information Risk Treatment",
-      "mismatch_reason": "kw"
-    },
-    {
-      "control_id": "M2.3.2",
-      "policy_passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 3_passage_9",
-      "policy_name": "Information Risk Management Policy",
-      "policy_section": "5.4 Information Risk Treatment",
-      "mismatch_reason": "kw"
-    },
-    {
-      "control_id": "M3.1.1",
-      "policy_passage_id": "clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_3",
-      "policy_name": "Security Awareness and Training Policy",
-      "policy_section": "4 INTRODUCTION",
-      "mismatch_reason": "topic"
-    },
-    {
-      "control_id": "M3.2.1",
-      "policy_passage_id": "clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_6",
-      "policy_name": "Security Awareness and Training Policy",
-      "policy_section": "7 POLICY STATEMENT",
-      "mismatch_reason": "topic"
-    },
-    {
-      "control_id": "M3.2.1",
-      "policy_passage_id": "clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_7",
-      "policy_name": "Security Awareness and Training Policy",
-      "policy_section": "8.1 Awareness and Training Program",
-      "mismatch_reason": "topic"
-    },
-    {
-      "control_id": "M5.2.1",
-      "policy_passage_id": "clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_7",
-      "policy_name": "Information Security Compliance Policy",
-      "policy_section": "5.1 Identification of Compliance Requirements",
-      "mismatch_reason": "topic"
-    },
-    {
-      "control_id": "M5.2.2",
-      "policy_passage_id": "clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_8",
-      "policy_name": "Information Security Compliance Policy",
-      "policy_section": "5.2 Intellectual Property Rights (IPR)",
-      "mismatch_reason": "topic"
-    },
-    {
-      "control_id": "M5.3.1",
-      "policy_passage_id": "clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_10",
-      "policy_name": "Information Security Compliance Policy",
-      "policy_section": "5.4 Compliance with Security Policies and Standards",
-      "mismatch_reason": "topic"
-    },
-    {
-      "control_id": "T1.1.1",
-      "policy_passage_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_4",
-      "policy_name": "Asset Management Policy",
-      "policy_section": "2 PURPOSE",
-      "mismatch_reason": "topic"
-    },
-    {
-      "control_id": "T1.1.1",
-      "policy_passage_id": "clientname-IS-POL-00-Asset Management Policy_passage_4",
-      "policy_name": "Asset Management Policy",
-      "policy_section": "2 PURPOSE",
-      "mismatch_reason": "topic"
-    },
-    {
-      "control_id": "T1.2.1",
-      "policy_passage_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_7",
-      "policy_name": "Asset Management Policy",
-      "policy_section": "5.1 Asset Inventory",
-      "mismatch_reason": "ok"
-    },
-    {
-      "control_id": "T1.2.1",
-      "policy_passage_id": "clientname-IS-POL-00-Asset Management Policy_passage_7",
-      "policy_name": "Asset Management Policy",
-      "policy_section": "5.1 Asset Inventory",
-      "mismatch_reason": "ok"
-    },
-    {
-      "control_id": "T1.3.2",
-      "policy_passage_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_9",
-      "policy_name": "Asset Management Policy",
-      "policy_section": "5.3 Asset Labelling",
-      "mismatch_reason": "topic"
-    },
-    {
-      "control_id": "T1.3.2",
-      "policy_passage_id": "clientname-IS-POL-00-Asset Management Policy_passage_9",
-      "policy_name": "Asset Management Policy",
-      "policy_section": "5.3 Asset Labelling",
-      "mismatch_reason": "topic"
-    },
-    {
-      "control_id": "T1.3.3",
-      "policy_passage_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_10",
-      "policy_name": "Asset Management Policy",
-      "policy_section": "5.4 Asset Handling",
-      "mismatch_reason": "topic"
-    },
-    {
-      "control_id": "T1.3.3",
-      "policy_passage_id": "clientname-IS-POL-00-Asset Management Policy_passage_10",
-      "policy_name": "Asset Management Policy",
-      "policy_section": "5.4 Asset Handling",
-      "mismatch_reason": "topic"
-    },
-    {
-      "control_id": "T1.3.3",
-      "policy_passage_id": "clientname-IS-POL-00-Asset Management Policy_passage_9",
-      "policy_name": "Asset Management Policy",
-      "policy_section": "5.3 Asset Labelling",
-      "mismatch_reason": "ok"
-    },
-    {
-      "control_id": "T1.4.1",
-      "policy_passage_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_11",
-      "policy_name": "Asset Management Policy",
-      "policy_section": "5.5 Removable Media Management",
-      "mismatch_reason": "topic"
-    },
-    {
-      "control_id": "T1.4.1",
-      "policy_passage_id": "clientname-IS-POL-00-Asset Management Policy_passage_11",
-      "policy_name": "Asset Management Policy",
-      "policy_section": "5.5 Removable Media Management",
-      "mismatch_reason": "topic"
-    },
-    {
-      "control_id": "T1.4.2",
-      "policy_passage_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_12",
-      "policy_name": "Asset Management Policy",
-      "policy_section": "5.6 Disposal of Media",
-      "mismatch_reason": "topic"
-    },
-    {
-      "control_id": "T1.4.2",
-      "policy_passage_id": "clientname-IS-POL-00-Asset Management Policy_passage_12",
-      "policy_name": "Asset Management Policy",
-      "policy_section": "5.6 Disposal of Media",
-      "mismatch_reason": "topic"
-    },
-    {
-      "control_id": "T2.1.1",
-      "policy_passage_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_3",
-      "policy_name": "Physical and Environmental Security Policy",
-      "policy_section": "1 INTRODUCTION",
-      "mismatch_reason": "kw"
-    },
-    {
-      "control_id": "T2.1.1",
-      "policy_passage_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_6",
-      "policy_name": "Physical and Environmental Security Policy",
-      "policy_section": "4 POLICY STATEMENT",
-      "mismatch_reason": "topic"
-    },
-    {
-      "control_id": "T2.2.5",
-      "policy_passage_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_10",
-      "policy_name": "Physical and Environmental Security Policy",
-      "policy_section": "5.3 Working in Secure Areas",
-      "mismatch_reason": "topic"
-    },
-    {
-      "control_id": "T2.3.6",
-      "policy_passage_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_15",
-      "policy_name": "Physical and Environmental Security Policy",
-      "policy_section": "5.8 Secure Disposal or Reuse of Equipment",
-      "mismatch_reason": "topic"
-    },
-    {
-      "control_id": "T3.1.1",
-      "policy_passage_id": "clientname-IS-POL-00-Security Operations Policy_passage_5",
-      "policy_name": "Security Operations Policy",
-      "policy_section": "5 POLICY STATEMENT",
-      "mismatch_reason": "topic"
-    },
-    {
-      "control_id": "T3.2.2",
-      "policy_passage_id": "clientname-IS-POL-00-Security Operations Policy_passage_6",
-      "policy_name": "Security Operations Policy",
-      "policy_section": "6.1 Documenting the Operating Procedures",
-      "mismatch_reason": "topic"
-    },
-    {
-      "control_id": "T3.2.5",
-      "policy_passage_id": "clientname-IS-POL-00-Security Operations Policy_passage_8",
-      "policy_name": "Security Operations Policy",
-      "policy_section": "6.3 Separation of Development, Test and Operational Environments",
-      "mismatch_reason": "topic"
-    },
-    {
-      "control_id": "T4.2.1",
-      "policy_passage_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_11",
-      "policy_name": "Network and Communications Security Policy",
-      "policy_section": "5.5 Information Transfer Security Procedures",
-      "mismatch_reason": "topic"
-    },
-    {
-      "control_id": "T4.2.2",
-      "policy_passage_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_12",
-      "policy_name": "Network and Communications Security Policy",
-      "policy_section": "5.6 Agreements on Information Transfer",
-      "mismatch_reason": "topic"
-    },
-    {
-      "control_id": "T4.2.3",
-      "policy_passage_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_13",
-      "policy_name": "Asset Management Policy",
-      "policy_section": "5.7 Physical Media Transfer",
-      "mismatch_reason": "topic"
-    },
-    {
-      "control_id": "T4.2.3",
-      "policy_passage_id": "clientname-IS-POL-00-Asset Management Policy_passage_13",
-      "policy_name": "Asset Management Policy",
-      "policy_section": "5.7 Physical Media Transfer",
-      "mismatch_reason": "ok"
-    },
-    {
-      "control_id": "T4.5.1",
-      "policy_passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_6",
-      "policy_name": "Information Security Incident Management Policy",
-      "policy_section": "4 POLICY STATEMENT",
-      "mismatch_reason": "topic"
-    },
-    {
-      "control_id": "T4.5.2",
-      "policy_passage_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_8",
-      "policy_name": "Network and Communications Security Policy",
-      "policy_section": "5.2 Security of Network Services",
-      "mismatch_reason": "topic"
-    },
-    {
-      "control_id": "T4.5.4",
-      "policy_passage_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_10",
-      "policy_name": "Network and Communications Security Policy",
-      "policy_section": "5.4 Security of Wireless Networks",
-      "mismatch_reason": "topic"
-    },
-    {
-      "control_id": "T5.2.1",
-      "policy_passage_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_6",
-      "policy_name": "Access Control Policy - CPX policy is reference",
-      "policy_section": "7 POLICY STATEMENT",
-      "mismatch_reason": "topic"
-    },
-    {
-      "control_id": "T5.2.3",
-      "policy_passage_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_14",
-      "policy_name": "Access Control Policy - CPX policy is reference",
-      "policy_section": "8.8 User Security Credentials Management",
-      "mismatch_reason": "topic"
-    },
-    {
-      "control_id": "T5.5.1",
-      "policy_passage_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_16",
-      "policy_name": "Access Control Policy - CPX policy is reference",
-      "policy_section": "8.10 Secure Log-on",
-      "mismatch_reason": "topic"
-    },
-    {
-      "control_id": "T6.1.1",
-      "policy_passage_id": "clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping_passage_4",
-      "policy_name": "Third-Party Security Policy",
-      "policy_section": "4 PURPOSE",
-      "mismatch_reason": "topic"
-    },
-    {
-      "control_id": "T7.1.1",
-      "policy_passage_id": "clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2_passage_3",
-      "policy_name": "Information Systems Acquisition Development and Maintenance Policy",
-      "policy_section": "1 INTRODUCTION",
-      "mismatch_reason": "topic"
-    },
-    {
-      "control_id": "T7.1.1",
-      "policy_passage_id": "clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2_passage_4",
-      "policy_name": "Information Systems Acquisition Development and Maintenance Policy",
-      "policy_section": "2 PURPOSE",
-      "mismatch_reason": "topic"
-    },
-    {
-      "control_id": "T7.1.1",
-      "policy_passage_id": "clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2_passage_6",
-      "policy_name": "Information Systems Acquisition Development and Maintenance Policy",
-      "policy_section": "4 POLICY STATEMENT",
-      "mismatch_reason": "topic"
-    },
-    {
-      "control_id": "T7.2.1",
-      "policy_passage_id": "clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2_passage_6",
-      "policy_name": "Information Systems Acquisition Development and Maintenance Policy",
-      "policy_section": "4 POLICY STATEMENT",
-      "mismatch_reason": "kw"
-    },
-    {
-      "control_id": "T8.1.1",
-      "policy_passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 2_passage_6",
-      "policy_name": "Information Security Incident Management Policy",
-      "policy_section": "4 POLICY STATEMENT",
-      "mismatch_reason": "kw"
-    },
-    {
-      "control_id": "T8.2.2",
-      "policy_passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 2_passage_7",
-      "policy_name": "Information Security Incident Management Policy",
-      "policy_section": "5.1 Computer Security Incident Response Team (CSIRT)",
-      "mismatch_reason": "kw"
-    },
-    {
-      "control_id": "T8.2.3",
-      "policy_passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 2_passage_9",
-      "policy_name": "Information Security Incident Management Policy",
-      "policy_section": "5.3 Incident Classification",
-      "mismatch_reason": "ok"
-    },
-    {
-      "control_id": "T8.2.3",
-      "policy_passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_9",
-      "policy_name": "Information Security Incident Management Policy",
-      "policy_section": "5.3 Incident Classification",
-      "mismatch_reason": "kw"
-    },
-    {
-      "control_id": "T8.2.8",
-      "policy_passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 2_passage_13",
-      "policy_name": "Information Security Incident Management Policy",
-      "policy_section": "5.8 Learning from Information Security Incidents",
-      "mismatch_reason": "ok"
-    },
-    {
-      "control_id": "T8.2.8",
-      "policy_passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_13",
-      "policy_name": "Information Security Incident Management Policy",
-      "policy_section": "5.8 Learning from Information Security Incidents",
-      "mismatch_reason": "ok"
-    },
-    {
-      "control_id": "T8.3.1",
-      "policy_passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 2_passage_15",
-      "policy_name": "Information Security Incident Management Policy",
-      "policy_section": "5.10 Situational Awareness",
-      "mismatch_reason": "topic"
-    },
-    {
-      "control_id": "T8.3.1",
-      "policy_passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_15",
-      "policy_name": "Information Security Incident Management Policy",
-      "policy_section": "5.10 Situational Awareness",
-      "mismatch_reason": "topic"
-    }
-  ],
+  "still_wrong_pairs": [],
   "missed_pairs": [
     {
       "control_id": "M1.1.2",
@@ -499,10 +175,82 @@
       "policy_section": "9 ROLES AND RESPONSIBILITIES"
     },
     {
+      "control_id": "M1.3.2",
+      "policy_passage_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_14",
+      "policy_name": "Network and Communications Security Policy",
+      "policy_section": "5.8 Confidentiality or Non-disclosure Agreements"
+    },
+    {
+      "control_id": "M2.1.1",
+      "policy_passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 1_passage_3",
+      "policy_name": "Information Risk Management Policy",
+      "policy_section": "1 INTRODUCTION"
+    },
+    {
+      "control_id": "M2.1.1",
+      "policy_passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 1_passage_6",
+      "policy_name": "Information Risk Management Policy",
+      "policy_section": "4 POLICY STATEMENT"
+    },
+    {
+      "control_id": "M2.1.1",
+      "policy_passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2_passage_3",
+      "policy_name": "Information Risk Management Policy",
+      "policy_section": "1 INTRODUCTION"
+    },
+    {
+      "control_id": "M2.1.1",
+      "policy_passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2_passage_6",
+      "policy_name": "Information Risk Management Policy",
+      "policy_section": "4 POLICY STATEMENT"
+    },
+    {
+      "control_id": "M2.1.1",
+      "policy_passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 3_passage_3",
+      "policy_name": "Information Risk Management Policy",
+      "policy_section": "1 INTRODUCTION"
+    },
+    {
+      "control_id": "M2.1.1",
+      "policy_passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 3_passage_6",
+      "policy_name": "Information Risk Management Policy",
+      "policy_section": "4 POLICY STATEMENT"
+    },
+    {
+      "control_id": "M3.1.1",
+      "policy_passage_id": "clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_3",
+      "policy_name": "Security Awareness and Training Policy",
+      "policy_section": "4 INTRODUCTION"
+    },
+    {
+      "control_id": "M3.2.1",
+      "policy_passage_id": "clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_6",
+      "policy_name": "Security Awareness and Training Policy",
+      "policy_section": "7 POLICY STATEMENT"
+    },
+    {
+      "control_id": "M3.2.1",
+      "policy_passage_id": "clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_7",
+      "policy_name": "Security Awareness and Training Policy",
+      "policy_section": "8.1 Awareness and Training Program"
+    },
+    {
       "control_id": "M5.1.1",
       "policy_passage_id": "clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_4",
       "policy_name": "Information Security Compliance Policy",
       "policy_section": "2 PURPOSE"
+    },
+    {
+      "control_id": "M5.2.1",
+      "policy_passage_id": "clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_7",
+      "policy_name": "Information Security Compliance Policy",
+      "policy_section": "5.1 Identification of Compliance Requirements"
+    },
+    {
+      "control_id": "M5.3.1",
+      "policy_passage_id": "clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_10",
+      "policy_name": "Information Security Compliance Policy",
+      "policy_section": "5.4 Compliance with Security Policies and Standards"
     },
     {
       "control_id": "M5.3.1",
@@ -524,9 +272,33 @@
     },
     {
       "control_id": "T1.1.1",
+      "policy_passage_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_4",
+      "policy_name": "Asset Management Policy",
+      "policy_section": "2 PURPOSE"
+    },
+    {
+      "control_id": "T1.1.1",
       "policy_passage_id": "clientname-IS-POL-00-Asset Management Policy_passage_15",
       "policy_name": "Asset Management Policy",
       "policy_section": "5.9 Bring Your Own Device (BYOD) Arrangements"
+    },
+    {
+      "control_id": "T1.1.1",
+      "policy_passage_id": "clientname-IS-POL-00-Asset Management Policy_passage_4",
+      "policy_name": "Asset Management Policy",
+      "policy_section": "2 PURPOSE"
+    },
+    {
+      "control_id": "T1.2.1",
+      "policy_passage_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_7",
+      "policy_name": "Asset Management Policy",
+      "policy_section": "5.1 Asset Inventory"
+    },
+    {
+      "control_id": "T1.2.1",
+      "policy_passage_id": "clientname-IS-POL-00-Asset Management Policy_passage_7",
+      "policy_name": "Asset Management Policy",
+      "policy_section": "5.1 Asset Inventory"
     },
     {
       "control_id": "T1.2.2",
@@ -553,10 +325,88 @@
       "policy_section": "5.8 Acceptable Use of Assets"
     },
     {
+      "control_id": "T1.3.2",
+      "policy_passage_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_9",
+      "policy_name": "Asset Management Policy",
+      "policy_section": "5.3 Asset Labelling"
+    },
+    {
+      "control_id": "T1.3.2",
+      "policy_passage_id": "clientname-IS-POL-00-Asset Management Policy_passage_9",
+      "policy_name": "Asset Management Policy",
+      "policy_section": "5.3 Asset Labelling"
+    },
+    {
+      "control_id": "T1.3.3",
+      "policy_passage_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_10",
+      "policy_name": "Asset Management Policy",
+      "policy_section": "5.4 Asset Handling"
+    },
+    {
+      "control_id": "T1.3.3",
+      "policy_passage_id": "clientname-IS-POL-00-Asset Management Policy_passage_10",
+      "policy_name": "Asset Management Policy",
+      "policy_section": "5.4 Asset Handling"
+    },
+    {
+      "control_id": "T1.3.3",
+      "policy_passage_id": "clientname-IS-POL-00-Asset Management Policy_passage_9",
+      "policy_name": "Asset Management Policy",
+      "policy_section": "5.3 Asset Labelling"
+    },
+    {
+      "control_id": "T1.4.1",
+      "policy_passage_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_11",
+      "policy_name": "Asset Management Policy",
+      "policy_section": "5.5 Removable Media Management"
+    },
+    {
+      "control_id": "T1.4.1",
+      "policy_passage_id": "clientname-IS-POL-00-Asset Management Policy_passage_11",
+      "policy_name": "Asset Management Policy",
+      "policy_section": "5.5 Removable Media Management"
+    },
+    {
+      "control_id": "T1.4.2",
+      "policy_passage_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_12",
+      "policy_name": "Asset Management Policy",
+      "policy_section": "5.6 Disposal of Media"
+    },
+    {
+      "control_id": "T1.4.2",
+      "policy_passage_id": "clientname-IS-POL-00-Asset Management Policy_passage_12",
+      "policy_name": "Asset Management Policy",
+      "policy_section": "5.6 Disposal of Media"
+    },
+    {
+      "control_id": "T2.1.1",
+      "policy_passage_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_3",
+      "policy_name": "Physical and Environmental Security Policy",
+      "policy_section": "1 INTRODUCTION"
+    },
+    {
+      "control_id": "T2.1.1",
+      "policy_passage_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_4",
+      "policy_name": "Physical and Environmental Security Policy",
+      "policy_section": "2 PURPOSE"
+    },
+    {
+      "control_id": "T2.1.1",
+      "policy_passage_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_6",
+      "policy_name": "Physical and Environmental Security Policy",
+      "policy_section": "4 POLICY STATEMENT"
+    },
+    {
       "control_id": "T2.2.2",
       "policy_passage_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_8",
       "policy_name": "Physical and Environmental Security Policy",
       "policy_section": "5.1 Implement Physical Security Controls"
+    },
+    {
+      "control_id": "T2.2.5",
+      "policy_passage_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_10",
+      "policy_name": "Physical and Environmental Security Policy",
+      "policy_section": "5.3 Working in Secure Areas"
     },
     {
       "control_id": "T2.2.6",
@@ -571,10 +421,22 @@
       "policy_section": "5.5 Ensure Effective Supporting Utilities"
     },
     {
+      "control_id": "T2.3.6",
+      "policy_passage_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_15",
+      "policy_name": "Physical and Environmental Security Policy",
+      "policy_section": "5.8 Secure Disposal or Reuse of Equipment"
+    },
+    {
       "control_id": "T3.1.1",
       "policy_passage_id": "clientname-IS-POL-00-Security Operations Policy_passage_2",
       "policy_name": "Security Operations Policy",
       "policy_section": "2 INTRODUCTION"
+    },
+    {
+      "control_id": "T3.1.1",
+      "policy_passage_id": "clientname-IS-POL-00-Security Operations Policy_passage_5",
+      "policy_name": "Security Operations Policy",
+      "policy_section": "5 POLICY STATEMENT"
     },
     {
       "control_id": "T3.2.1",
@@ -583,10 +445,28 @@
       "policy_section": "6.5 System Acceptance"
     },
     {
+      "control_id": "T3.2.2",
+      "policy_passage_id": "clientname-IS-POL-00-Security Operations Policy_passage_6",
+      "policy_name": "Security Operations Policy",
+      "policy_section": "6.1 Documenting the Operating Procedures"
+    },
+    {
+      "control_id": "T3.2.5",
+      "policy_passage_id": "clientname-IS-POL-00-Security Operations Policy_passage_8",
+      "policy_name": "Security Operations Policy",
+      "policy_section": "6.3 Separation of Development, Test and Operational Environments"
+    },
+    {
       "control_id": "T3.3.1",
       "policy_passage_id": "clientname-IS-POL-00-Security Operations Policy_passage_9",
       "policy_name": "Security Operations Policy",
       "policy_section": "6.4 Purchasing, Installation, Allocation and Management of New IT Systems"
+    },
+    {
+      "control_id": "T3.6.3",
+      "policy_passage_id": "clientname-IS-POL-00-Vulnerability Management Policy v1.2 (V_A)_passage_5",
+      "policy_name": "Vulnerability Management Policy",
+      "policy_section": "4 SCOPE"
     },
     {
       "control_id": "T4.1.1",
@@ -601,6 +481,42 @@
       "policy_section": "4 POLICY STATEMENT"
     },
     {
+      "control_id": "T4.2.1",
+      "policy_passage_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_11",
+      "policy_name": "Network and Communications Security Policy",
+      "policy_section": "5.5 Information Transfer Security Procedures"
+    },
+    {
+      "control_id": "T4.2.2",
+      "policy_passage_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_12",
+      "policy_name": "Network and Communications Security Policy",
+      "policy_section": "5.6 Agreements on Information Transfer"
+    },
+    {
+      "control_id": "T4.2.3",
+      "policy_passage_id": "clientname-IS-POL-00-Asset Management Policy_passage_13",
+      "policy_name": "Asset Management Policy",
+      "policy_section": "5.7 Physical Media Transfer"
+    },
+    {
+      "control_id": "T4.5.2",
+      "policy_passage_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_8",
+      "policy_name": "Network and Communications Security Policy",
+      "policy_section": "5.2 Security of Network Services"
+    },
+    {
+      "control_id": "T4.5.4",
+      "policy_passage_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_10",
+      "policy_name": "Network and Communications Security Policy",
+      "policy_section": "5.4 Security of Wireless Networks"
+    },
+    {
+      "control_id": "T5.2.1",
+      "policy_passage_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_6",
+      "policy_name": "Access Control Policy - CPX policy is reference",
+      "policy_section": "7 POLICY STATEMENT"
+    },
+    {
       "control_id": "T5.2.2",
       "policy_passage_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_12",
       "policy_name": "Access Control Policy - CPX policy is reference",
@@ -608,9 +524,21 @@
     },
     {
       "control_id": "T5.2.3",
+      "policy_passage_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_14",
+      "policy_name": "Access Control Policy - CPX policy is reference",
+      "policy_section": "8.8 User Security Credentials Management"
+    },
+    {
+      "control_id": "T5.2.3",
       "policy_passage_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_15",
       "policy_name": "Access Control Policy - CPX policy is reference",
       "policy_section": "8.9 Use of Security Credentials &amp; UAEPP Password Policy"
+    },
+    {
+      "control_id": "T5.5.1",
+      "policy_passage_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_16",
+      "policy_name": "Access Control Policy - CPX policy is reference",
+      "policy_section": "8.10 Secure Log-on"
     },
     {
       "control_id": "T5.6.3",
@@ -643,16 +571,82 @@
       "policy_section": "7.3 Managing Changes to Third-party Services"
     },
     {
+      "control_id": "T7.1.1",
+      "policy_passage_id": "clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2_passage_3",
+      "policy_name": "Information Systems Acquisition Development and Maintenance Policy",
+      "policy_section": "1 INTRODUCTION"
+    },
+    {
+      "control_id": "T7.1.1",
+      "policy_passage_id": "clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2_passage_4",
+      "policy_name": "Information Systems Acquisition Development and Maintenance Policy",
+      "policy_section": "2 PURPOSE"
+    },
+    {
+      "control_id": "T7.1.1",
+      "policy_passage_id": "clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2_passage_6",
+      "policy_name": "Information Systems Acquisition Development and Maintenance Policy",
+      "policy_section": "4 POLICY STATEMENT"
+    },
+    {
+      "control_id": "T8.1.1",
+      "policy_passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 2_passage_3",
+      "policy_name": "Information Security Incident Management Policy",
+      "policy_section": "1 INTRODUCTION"
+    },
+    {
+      "control_id": "T8.1.1",
+      "policy_passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_3",
+      "policy_name": "Information Security Incident Management Policy",
+      "policy_section": "1 INTRODUCTION"
+    },
+    {
       "control_id": "T8.2.1",
       "policy_passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_6",
       "policy_name": "Information Security Incident Management Policy",
       "policy_section": "4 POLICY STATEMENT"
     },
     {
+      "control_id": "T8.2.3",
+      "policy_passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 2_passage_9",
+      "policy_name": "Information Security Incident Management Policy",
+      "policy_section": "5.3 Incident Classification"
+    },
+    {
+      "control_id": "T8.2.3",
+      "policy_passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_9",
+      "policy_name": "Information Security Incident Management Policy",
+      "policy_section": "5.3 Incident Classification"
+    },
+    {
       "control_id": "T8.2.6",
       "policy_passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_7",
       "policy_name": "Information Security Incident Management Policy",
       "policy_section": "5.1 Computer Security Incident Response Team (CSIRT)"
+    },
+    {
+      "control_id": "T8.2.8",
+      "policy_passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 2_passage_13",
+      "policy_name": "Information Security Incident Management Policy",
+      "policy_section": "5.8 Learning from Information Security Incidents"
+    },
+    {
+      "control_id": "T8.2.8",
+      "policy_passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_13",
+      "policy_name": "Information Security Incident Management Policy",
+      "policy_section": "5.8 Learning from Information Security Incidents"
+    },
+    {
+      "control_id": "T8.3.1",
+      "policy_passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 2_passage_15",
+      "policy_name": "Information Security Incident Management Policy",
+      "policy_section": "5.10 Situational Awareness"
+    },
+    {
+      "control_id": "T8.3.1",
+      "policy_passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_15",
+      "policy_name": "Information Security Incident Management Policy",
+      "policy_section": "5.10 Situational Awareness"
     },
     {
       "control_id": "T8.3.2",

@@ -85,6 +85,10 @@ class AutomatedDocumentParser:
             return self._parse_with_llamaparse(docx_path, output_path)
         elif self.method == "unstructured":
             return self._parse_with_unstructured(docx_path, output_path)
+        else:
+            raise ValueError(
+                f"Unsupported method '{self.method}'. Use 'llamaparse' or 'unstructured'."
+            )
     
     def _parse_with_llamaparse(self, docx_path: str, output_path: Optional[str] = None) -> Dict:
         """Parse using LlamaParse"""

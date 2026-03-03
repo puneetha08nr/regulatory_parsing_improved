@@ -55,8 +55,15 @@ def generate_tasks(
     controls_list = controls_raw if isinstance(controls_raw, list) else [controls_raw]
     control_map = {}
     for ctrl in controls_list:
-        c = ctrl.get("control", {})
-        control_map[c.get("id", "")] = ctrl
+        # Support both nested format {"control": {"id": ...}} (UAE IA)
+        # and flat format {"control_id": ...} (ADHICS and others)
+        cid = (
+            ctrl.get("control", {}).get("id")
+            or ctrl.get("control_id")
+            or ""
+        )
+        if cid:
+            control_map[cid] = ctrl
 
     if Path(policies_path).exists():
         policies_list = load_json(policies_path)

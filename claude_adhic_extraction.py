@@ -231,7 +231,7 @@ class PositionBasedExtractor:
             # Check if this is a continuation of current item or sub-item
             if current_item is not None:
                 # Higher indent likely means continuation of sub-item
-                if current_item.get("sub") and block.indent_level > base_indent:
+                if len(current_item.get("sub", [])) > 0 and block.indent_level > base_indent:
                     # Append to last sub-item
                     current_item["sub"][-1] = current_item["sub"][-1] + " " + text
                 else:

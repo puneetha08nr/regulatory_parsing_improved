@@ -212,6 +212,12 @@ def main():
         print(f"   GPU mode  top_k_retrieve={_top_k_retrieve}  top_k_rerank={_top_k_rerank}"
               f"  top_k_per_doc={_top_k_per_doc}  top_k_per_control={_top_k_per_control}")
 
+    # Reranker score thresholds — lowered from 0.60/0.35 because BGE-reranker-base
+    # (untuned) produces scores in the 0.3–0.6 range for genuine matches.
+    # Raise back to 0.60/0.35 once the reranker has been fine-tuned on golden data.
+    _threshold_full    = float(os.environ.get("THRESHOLD_FULL",    "0.45"))
+    _threshold_partial = float(os.environ.get("THRESHOLD_PARTIAL", "0.25"))
+
     try:
         pipeline.create_mappings(
             filter_obligations_only=True,
@@ -219,6 +225,8 @@ def main():
             top_k_rerank=_top_k_rerank,
             top_k_per_doc=_top_k_per_doc,
             top_k_per_control=_top_k_per_control,
+            threshold_full=_threshold_full,
+            threshold_partial=_threshold_partial,
         )
     except Exception as e:
         print(f"❌ Error creating mappings: {e}")
@@ -245,8 +253,8 @@ def main():
     pipeline.create_passage_to_control_mappings(
         str(output_dir / "mappings_by_passage.json"),
         filter_obligations_only=True,
-        threshold_full=0.60,
-        threshold_partial=0.35,
+        threshold_full=0.45,   # lowered from 0.60 — BGE-reranker-base (untuned) scores
+        threshold_partial=0.25,  # cluster 0.3–0.6 for correct pairs; fine-tune later
         batch_size=64,
     )
 

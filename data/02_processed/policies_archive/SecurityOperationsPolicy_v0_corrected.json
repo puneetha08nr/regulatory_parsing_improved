@@ -1,0 +1,197 @@
+[
+  {
+    "id": "clientname-IS-POL-00-Security Operations Policy_passage_1",
+    "name": "Security Operations Policy - Passage 1",
+    "text": "<!-- image -->\n\n-IS-POL-0\n\nAbstract\n\nThis Security Operations Policy sets the premise to ensure secure and effective operations in order to protect and safeguard  information and information systems.\n\n**STATEMENT OF CONFIDENTIALITY**\n\nAll information in this document is  PRIVILEGED and for INTERNAL USE ONLY.\n\nThe information in this document may contain  proprietary trade secrets and confidential information, the disclosure of which could substantially benefit competitors. As a result, this document should not be disclosed, used or duplicated – in whole or in part without the explicit authorization of  management.\n\nThe information is intended solely for the use of authorized recipients. If you are not the intended recipient, you are prohibited from reading, using, disseminating, distributing and copying this document.\n\nIn accessing the document, the reader warrants that the information contained herein shall only be treated for internal use. No content of any nature shall be shared wit",
+    "section": "Passage 1",
+    "metadata": {
+      "policy_id": "clientname-IS-POL-00-Security Operations Policy",
+      "policy_name": "Security Operations Policy",
+      "heading": null,
+      "validation_status": "Complete",
+      "correction_notes": null
+    }
+  },
+  {
+    "id": "clientname-IS-POL-00-Security Operations Policy_passage_2",
+    "name": "Security Operations Policy - 2 INTRODUCTION",
+    "text": "2 INTRODUCTION\n\nSecurity operations refer to the combination of information security (IS) and IT operations to improve collaboration and reduce risks. \nThis Security Operations Policy (“Policy”) defines how Security Operations will be planned, established, implemented, operated, monitored, reviewed, maintained, and improved within <CLIENT>. This Policy and its supporting policies set the premise for the organization's objective of safeguarding its information and underlying assets against internal and external threats continually strengthening its security posture.\n2 INTRODUCTION\n\nSecurity operations  to the combination of information security (IS) and IT operations to improve collaboration and reduce risks.\n\nThis Security Operations Policy (“Policy”) defines how Security Operations will be planned, established, implemented, operated, monitored, reviewed, maintained, and improved within . This Policy and its supporting policies set the premise for the organization's objective of safeguarding its information and underlying assets against internal and external threats continually strengthening its security posture.",
+    "section": "2 INTRODUCTION",
+    "metadata": {
+      "policy_id": "clientname-IS-POL-00-Security Operations Policy",
+      "policy_name": "Security Operations Policy",
+      "heading": "2 INTRODUCTION",
+      "validation_status": "Complete",
+      "correction_notes": null
+    }
+  },
+  {
+    "id": "clientname-IS-POL-00-Security Operations Policy_passage_3",
+    "name": "Security Operations Policy - 3 PURPOSE",
+    "text": "3 PURPOSE\n\nThe purpose of this Policy is to protect data/Information and information processing facilities through secure and effective operations at <CLIENT>.\n3 PURPOSE\n\nThe purpose of this Policy is to protect data/Information and information processing facilities through secure and effective operations at .",
+    "section": "3 PURPOSE",
+    "metadata": {
+      "policy_id": "clientname-IS-POL-00-Security Operations Policy",
+      "policy_name": "Security Operations Policy",
+      "heading": "3 PURPOSE",
+      "validation_status": "Complete",
+      "correction_notes": null
+    }
+  },
+  {
+    "id": "clientname-IS-POL-00-Security Operations Policy_passage_4",
+    "name": "Security Operations Policy - 4 SCOPE",
+    "text": "4 SCOPE\n\nThis Policy applies to all employees, contractors and third parties who access or manage information and information assets or use the organization's information and communications technology (ICT) systems.\n\nAny exceptions on the applicability of this Policy should be formally requested through the 'Policy Exception Management procedure.' \n4 SCOPE\n\nThis Policy applies to all employees, contractors and third parties who access or manage information and information assets or use the organization's information and communications technology (ICT) systems.\n\n**Any exceptions on the applicability of this Policy should be formally requested through the 'Policy Exception Management procedure.'**",
+    "section": "4 SCOPE",
+    "metadata": {
+      "policy_id": "clientname-IS-POL-00-Security Operations Policy",
+      "policy_name": "Security Operations Policy",
+      "heading": "4 SCOPE",
+      "validation_status": "Complete",
+      "correction_notes": null
+    }
+  },
+  {
+    "id": "clientname-IS-POL-00-Security Operations Policy_passage_5",
+    "name": "Security Operations Policy - 5 POLICY STATEMENT",
+    "text": "5 POLICY STATEMENT\n\n<CLIENT> shall develop, implement, and maintain a Security Operations Policy (\"Policy\") to ensure protection of assets through secure operational processes thereby contributing to an overall safe and secure organization.\n5 POLICY STATEMENT\n\nshall develop, implement, and maintain a Security Operations Policy (\"Policy\")  protection of assets through secure operational processes thereby contributing to an overall safe and secure organization.",
+    "section": "5 POLICY STATEMENT",
+    "metadata": {
+      "policy_id": "clientname-IS-POL-00-Security Operations Policy",
+      "policy_name": "Security Operations Policy",
+      "heading": "5 POLICY STATEMENT",
+      "validation_status": "Complete",
+      "correction_notes": null
+    }
+  },
+  {
+    "id": "clientname-IS-POL-00-Security Operations Policy_passage_6",
+    "name": "Security Operations Policy - 5.1 Documenting the Operating Procedures",
+    "text": "5.1 Documenting the Operating Procedures\n\n<CLIENT> shall ensure that the: \n            5.1.1 IT Team ensures that Operating procedures and work instructions for all information systems and standards are:\n                a) Documented and approved.\n                b) Reviewed and updated periodically when there are:\n                    ◦ Alterations to the designs.\n                    ◦ Changes to Equipment/Systems Technology and Configurations.\n                    ◦ Changes to business services.\n            5.1.2 Various activities covered under IT operations are inclusive of but are not limited to: \n                a) Change Management.\n                b) Release Management.\n                c) Software Development.\n                d) Problem Management. \n                e) Incident Management.\n            5.1.3 Operating procedures specify the instructions for the execution of each task, as appropriate, including backup and restoration of data/information, error handling, processing and handling of information, system restart and recovery procedures for use in the event of system failure.\n            5.1.4 IT Team ensures that procedures are kept up-to-date are available to the users when needed.\n            5.1.5 Activities shall be carried out in accordance with operating procedures.\n5.1 Documenting the Operating Procedures\n\nshall ensure that the:\n\n1. IT Team ensures that Operating procedures and work instructions for all information systems and standards are:\n2. Reviewed and updated periodically when there are:\n3. Changes to Equipment/Systems Technology and Configurations.\n4. Changes to business services.\n4. Release Management.\n5. Software Development.\n6. Problem Management.\n7. Incident Management.\n4. IT Team ensures that procedures are kept up-to-date are available to the users when needed.\n5. Activities shall be carried out in accordance with operating procedures.\n\n1. Documented and approved.\n    - Alterations to the designs.\n\n3. Change Management.",
+    "section": "5.1 Documenting the Operating Procedures",
+    "metadata": {
+      "policy_id": "clientname-IS-POL-00-Security Operations Policy",
+      "policy_name": "Security Operations Policy",
+      "heading": "5.1 Documenting the Operating Procedures",
+      "validation_status": "Complete",
+      "correction_notes": null
+    }
+  },
+  {
+    "id": "clientname-IS-POL-00-Security Operations Policy_passage_7",
+    "name": "Security Operations Policy - 5.2 Controls ver System Documentation",
+    "text": "5.2 Controls ver System Documentation\n\nCLIENT> shall ensure that:\n            5.2.1 System documentation is kept under safe custody.\n            5.2.2 Access is restricted to only those who have a business need and are authorized.\n            5.2.3 Version control is implemented to ensure that the current version is consistently available.\n            5.2.4 Copying of any system documentation shall be controlled and shall be allowed only after authorization.\n            5.2.5 The respective custodians of documents shall hold the original set of the system documentation.\n5.2 Controls ver System Documentation\n\nshall ensure that:\n\n1. System documentation is kept under safe custody.\n2. Access is restricted to only those who have a business need and are authorized.\n3. Version control is implemented to ensure that the current version is consistently available.\n4. Copying of any system documentation shall be controlled and shall be allowed only after authorization.\n5. The respective custodians of documents shall hold the original set of the system documentation.",
+    "section": "5.2 Controls ver System Documentation",
+    "metadata": {
+      "policy_id": "clientname-IS-POL-00-Security Operations Policy",
+      "policy_name": "Security Operations Policy",
+      "heading": "5.2 Controls ver System Documentation",
+      "validation_status": "Complete",
+      "correction_notes": null
+    }
+  },
+  {
+    "id": "clientname-IS-POL-00-Security Operations Policy_passage_8",
+    "name": "Security Operations Policy - 5.3 Separation of Development, Test and Operational Environments",
+    "text": "5.3 Separation of Development, Test and Operational Environments\n\n<CLIENT> shall ensure that:\n            5.3.1 Production environment shall be logically separated from test and development environments.\n            5.3.2 Access to each environment shall be controlled using firewalls.\n            5.3.3 Transfer of software between the development, test and production environments shall be subject to specific procedures such as the <CLIENT> Information Systems Acquisition, Development and Maintenance Procedure and will be documented.\n            5.3.4 Development staff shall not have access to the production environment.\n            5.3.5 Production data files shall not be used for application development and testing. When such use is necessitated, copies of the production data files will be made redacted/obfuscated, sanitized and taken offline for that purpose. Those copies shall be handled carefully and later deleted to prevent unauthorized exposure of production data.\n5.3 Separation of Development, Test and Operational Environments\n\nshall ensure that:\n\n1. Production environment shall be logically separated from test and development environments.\n2. Access to each environment shall be controlled using firewalls.\n3. Transfer of software between the development, test and production environments shall be subject to specific procedures such as the  Information Systems Acquisition, Development and Maintenance Procedure and will be documented.\n4. Development staff shall not have access to the production environment.\n5. Production data files shall not be used for application development and testing. When such use is necessitated, copies of the production data files will be made redacted/obfuscated, sanitized and taken offline for that purpose. Those copies shall be handled carefully and later deleted to prevent unauthorized exposure of production data.",
+    "section": "5.3 Separation of Development, Test and Operational Environments",
+    "metadata": {
+      "policy_id": "clientname-IS-POL-00-Security Operations Policy",
+      "policy_name": "Security Operations Policy",
+      "heading": "5.3 Separation of Development, Test and Operational Environments",
+      "validation_status": "Complete",
+      "correction_notes": null
+    }
+  },
+  {
+    "id": "clientname-IS-POL-00-Security Operations Policy_passage_9",
+    "name": "Security Operations Policy - 5.4 Purchasing, Installation, Allocation and Management of New IT Systems",
+    "text": "5.4 Purchasing, Installation, Allocation and Management of New IT Systems\n\n<CLIENT> shall ensure that: \n            5.4.1 All purchases of software, IT equipment and peripherals shall follow a standard evaluation process, documented and done using approved vendors only.\n            5.4.2 All software and hardware installations shall be tested prior to being moved to live production environment by both IT and business users. Any changes to software or hardware configuration shall be appropriately authorized.\n            5.4.3 Capacity requirements shall be monitored to avoid failures due to inadequate capacity.\n            5.4.4 The IT team establishes and implements a formal process for capacity management which shall include following periodic activities:\n                a) Review and analysis of the resource utilization reports and trends.\n                b) Review and analysis of the business plan covering ongoing and upcoming IT projects.\n                c) Develop capacity plans to meet the current and projected demands for capacity, power and reliability of systems and networks.\n                d) Conduct appropriate load and stress tests and define acceptable capacity levels for new or upgraded enterprise applications.\n            5.4.5 Allocation of information systems (Laptops, PCs, tablet PCs etc.) shall be as per an established process through allocation form.\n            5.4.6 Any changes to existing systems (such as Laptops, PCs, Servers, Databases etc.) shall be as per the <CLIENT> Change Management Policy and procedure.\n            5.4.7 All critical servers and databases shall be tested (Vulnerability Assessment and Penetration Testing), periodically for inherent vulnerabilities or those which are developed over the time.\n5.4 Purchasing, Installation, Allocation and Management of New IT Systems\n\nshall ensure that:\n\n1. All purchases of software, IT equipment and peripherals shall follow a standard evaluation process, documented and done using approved vendors only.\n2. All software and hardware installations shall be tested prior to being moved to live production environment by both IT and business users. Any changes to software or hardware configuration shall be appropriately authorized.\n3. Capacity requirements shall be monitored to avoid failures due to inadequate capacity.\n4. The IT team establishes and implements a formal process for capacity management which shall include following periodic activities:\n2. Review and analysis of the business plan covering ongoing and upcoming IT projects.\n3. Develop capacity plans to meet the current and projected demands for capacity, power and reliability of systems and networks.\n4. Conduct appropriate load and stress tests and define acceptable capacity levels for",
+    "section": "5.4 Purchasing, Installation, Allocation and Management of New IT Systems",
+    "metadata": {
+      "policy_id": "clientname-IS-POL-00-Security Operations Policy",
+      "policy_name": "Security Operations Policy",
+      "heading": "5.4 Purchasing, Installation, Allocation and Management of New IT Systems",
+      "validation_status": "Complete",
+      "correction_notes": null
+    }
+  },
+  {
+    "id": "clientname-IS-POL-00-Security Operations Policy_passage_10",
+    "name": "Security Operations Policy - 5.5 System Acceptance",
+    "text": "5.5 System Acceptance\n\n<CLIENT> shall ensure that: \n            5.5.1 System acceptance tests are done in an appropriate test environment.\n            5.5.2 Before moving any new system into production, it shall be tested as per the System Acceptance Plan.\n                a) An appropriate System Acceptance Plan shall be established to cover:\n                b) <CLIENT>’s system performance requirements.\n                c) <CLIENT>’s Security requirements.\n                d) <CLIENT>’s business continuity requirements.\n                e) Error recovery and restart procedures.\n                f) Effects of the new system on other existing systems.\n                g) User training requirements and ease of use of new systems, so as to ensure desired level of user performance.\n                h) Backup Plan, Roll Back Plan and DR (Disaster Recovery) Plan.\n            5.5.3 The system is sanitized after successful testing, the system which includes removal of test users, dummy transactions and test data.\n\n5.5 System Acceptance\n\nshall ensure that:\n\n1. System acceptance tests are done in an appropriate test environment.\n2. Before moving any new system into production, it shall be tested as per the System Acceptance Plan.\n2. ’s system performance requirements.\n3. ’s Security requirements.\n4. ’s business continuity requirements.\n5. Error recovery and restart procedures.\n6. Effects of the new system on other existing systems.\n7. User training requirements and ease of use of new systems, so as to ensure desired level of user performance.\n8. Backup Plan, Roll Back Plan and DR (Disaster Recovery) Plan.\n\n1. An appropriate System Acceptance Plan shall be established to cover:",
+    "section": "5.5 System Acceptance",
+    "metadata": {
+      "policy_id": "clientname-IS-POL-00-Security Operations Policy",
+      "policy_name": "Security Operations Policy",
+      "heading": "5.5 System Acceptance",
+      "validation_status": "Complete",
+      "correction_notes": null
+    }
+  },
+  {
+    "id": "clientname-IS-POL-00-Security Operations Policy_passage_11",
+    "name": "Security Operations Policy - 5.6 Segregation of Duties",
+    "text": "5.6 Segregation of Duties\n\n<CLIENT> shall: \n            5.6.1 Adopt the principle of segregation of duties to the maximum extent possible. \n            5.6.2 Include compensating controls such as monitoring of activities, maintenance and review of audit trails and management supervision where segregation of duties is not possible or practical.\n\n5.6 Segregation of Duties\n\nshall:\n\n1. Adopt the principle of segregation of duties to the maximum extent possible.\n2. Include compensating controls such as monitoring of activities, maintenance and review of audit trails and management supervision where segregation of duties is not possible or practical.",
+    "section": "5.6 Segregation of Duties",
+    "metadata": {
+      "policy_id": "clientname-IS-POL-00-Security Operations Policy",
+      "policy_name": "Security Operations Policy",
+      "heading": "5.6 Segregation of Duties",
+      "validation_status": "Complete",
+      "correction_notes": null
+    }
+  },
+  {
+    "id": "clientname-IS-POL-00-Security Operations Policy_passage_12",
+    "name": "Security Operations Policy - 6 ROLES AND RESPONSIBILITIES",
+    "text": "6 ROLES AND RESPONSIBILITIES\n\nExecutives & Senior Management shall:\n        6.1 Approve any change to this document, based upon an endorsement by the CISO and relevant stakeholders.\nInformation Technology shall:\n        6.2 Test all software and hardware installations prior to being moved to live production environment.\n        6.3 Allocate information systems (Laptops, PCs, tablet PCs etc.) to appropriate personnel inclusive but not limited to employees and third-party contractors. \n        6.4 Ensure that all purchases of IT infrastructure follow a standard, documented evaluation process. \n        6.5 Monitor infrastructure’s capacity requirements. \n        6.6 Ensure documentation, updating and periodic review of operating procedures for all information systems.\n        6.7 Responsible to implement technical controls as per this Policy.\nIS (Information Security) Team shall:\n        6.8 Develop and enforce Security Operations policies implementation.\n        6.9 Establish operating procedures in co-ordination with all relevant stakeholders.\n        6.10 Manage initiatives and projects related to Security Operations.\n        6.11 Conduct third-party information security and data protection risk and compliance assessments and track risk mitigation.\n        6.12 Conduct periodic internal audits based on requirements of ISO 27001, ISO27701 and ISO 20000 standards.\n        6.13 Develop Information Security Incident Management policies and plans.\nIMS Steering Committee shall:\n        6.15 Responsible for the review of this Policy on a scheduled and ongoing basis to ensure their continuing suitability, adequacy, and effectiveness.\nLegal shall:\n        6.16 Identify all relevant and applicable laws and regulations to <CLIENT> and communicate to the respective parties.\n        6.17 Define standard legal clauses and terms for the contract/agreement to be signed with external parties, employment contracts, confidentiality, and Non-Disclosure Agreements (NDAs).\n        6.18 Liaise with IS Team to define and review Information Security and Data Protection clauses in third-party contracts/agreements, employment contracts, confidentiality, and Non-Disclosure Agreements (NDAs).\n        6.19 Review third-party vendor, clients, and partner contracts and involve IS Team in the review of clauses concerning Information Security and Data Protection responsibilities.\n\n6 ROLES AND RESPONSIBILITIES\n\n|    |    |\n|----|----|\n|    |    |\n|    |    |\n|    |    |\n|    |    |\n|    |    |",
+    "section": "6 ROLES AND RESPONSIBILITIES",
+    "metadata": {
+      "policy_id": "clientname-IS-POL-00-Security Operations Policy",
+      "policy_name": "Security Operations Policy",
+      "heading": "6 ROLES AND RESPONSIBILITIES",
+      "validation_status": "Complete",
+      "correction_notes": null
+    }
+  },
+  {
+    "id": "clientname-IS-POL-00-Security Operations Policy_passage_13",
+    "name": "Security Operations Policy - 7 POLICY ENFORCEMENT AND EXCEPTIONS",
+    "text": "7 POLICY ENFORCEMENT AND EXCEPTIONS\n\nAll employees, contractors and third parties are responsible for understanding and adhering to this Policy. Any violation of this Policy shall be reported to Policy Owner. In addition, violation of this Policy shall be subjected to disciplinary action by the <CLIENT>'s Human Capital Department, considering the recommendation of IS Team and in accordance with other applicable policies, laws, and regulations.\nDisciplinary action may range from a verbal warning to discontinuation of access to facility or services, or termination of employment/contract/agreement, and possible legal action. The actual action taken shall depend on factors such as the seriousness of the breach and the user's disciplinary record.\nAny exceptions on the applicability of this Policy should be formally requested through the 'Policy Exception Management procedure.'\n\n7 POLICY ENFORCEMENT AND EXCEPTIONS\n\nAll employees, contractors and third parties are responsible for understanding and adhering to this Policy. Any violation of this Policy shall be reported to Policy Owner. In addition, violation of this Policy shall be subjected to disciplinary action by the 's Human Capital Department, considering the recommendation of IS Team and in accordance with other applicable policies, laws, and regulations.\n\nDisciplinary action may range from a verbal warning to discontinuation of access to facility or services, or termination of employment/contract/agreement, and possible legal action. The actual action taken shall depend on factors such as the seriousness of the breach and the user's disciplinary record.\n\nAny exceptions on the applicability of this Policy should be formally requested through the 'Policy Exception Management procedure.'",
+    "section": "7 POLICY ENFORCEMENT AND EXCEPTIONS",
+    "metadata": {
+      "policy_id": "clientname-IS-POL-00-Security Operations Policy",
+      "policy_name": "Security Operations Policy",
+      "heading": "7 POLICY ENFORCEMENT AND EXCEPTIONS",
+      "validation_status": "Complete",
+      "correction_notes": null
+    }
+  },
+  {
+    "id": "clientname-IS-POL-00-Security Operations Policy_passage_14",
+    "name": "Security Operations Policy - 8 MONITORING AND REVIEW",
+    "text": "8 MONITORING AND REVIEW\n\nThis Policy is developed and owned by the <CLIENT> Information Security (IS) Team. It is reviewed by the CISO and approved by the CEO. \n<CLIENT> IS Team shall initiate a review of this Policy annually or whenever a significant change occurs in the organization's operating environment.\nFeedback, suggestions, or questions regarding the Policy shall be directed to the CISO at CISO@<CLIENT>.net.\n8 MONITORING AND REVIEW\n\nThis Policy is developed and owned by the  Information Security (IS) Team. It is reviewed by the CISO and approved by the CEO.\n\nIS Team shall initiate a review of this Policy annually or whenever a significant change occurs in the organization's operating environment.\n\nFeedback, suggestions, or questions regarding the Policy shall be directed to the CISO at CISO@.net.",
+    "section": "8 MONITORING AND REVIEW",
+    "metadata": {
+      "policy_id": "clientname-IS-POL-00-Security Operations Policy",
+      "policy_name": "Security Operations Policy",
+      "heading": "8 MONITORING AND REVIEW",
+      "validation_status": "Complete",
+      "correction_notes": null
+    }
+  },
+  {
+    "id": "clientname-IS-POL-00-Security Operations Policy_passage_15",
+    "name": "Security Operations Policy - 9 Policy – UAE IA Control Mapping",
+    "text": "9 Policy – UAE IA Control Mapping",
+    "section": "9 Policy – UAE IA Control Mapping",
+    "metadata": {
+      "policy_id": "clientname-IS-POL-00-Security Operations Policy",
+      "policy_name": "Security Operations Policy",
+      "heading": "9 Policy – UAE IA Control Mapping",
+      "validation_status": "Complete",
+      "correction_notes": null
+    }
+  }
+]

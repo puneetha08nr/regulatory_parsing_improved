@@ -1,82 +1,92 @@
 [
   {
-    "policy_doc_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3",
-    "file": "clientname-IS-POL-00-Information_Security_Incident_Management_Policy_3.json",
-    "count": 45
-  },
-  {
-    "policy_doc_id": "clientname-IS-POL-00-Information Security Incident Management Policy 2",
-    "file": "clientname-IS-POL-00-Information_Security_Incident_Management_Policy_2.json",
-    "count": 44
-  },
-  {
-    "policy_doc_id": "clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping",
-    "file": "clientname-IS-POL-00-Security_Awareness_and_Training_Policy_v2.0_UAE_IA_Mapping.json",
-    "count": 37
-  },
-  {
-    "policy_doc_id": "clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping",
-    "file": "clientname-IS-POL-00-Third-Party_Security_Policy_v2.0_UAE_IA_Mapping.json",
-    "count": 36
-  },
-  {
-    "policy_doc_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2",
-    "file": "clientname-IS-POL-00-Physical_and_Environmental_Security_Policy_v1.2.json",
-    "count": 34
-  },
-  {
     "policy_doc_id": "clientname-IS-POL-00-Asset Management Policy 6",
     "file": "clientname-IS-POL-00-Asset_Management_Policy_6.json",
-    "count": 33
+    "count": 195
   },
   {
     "policy_doc_id": "clientname-IS-POL-00-Asset Management Policy",
     "file": "clientname-IS-POL-00-Asset_Management_Policy.json",
-    "count": 31
-  },
-  {
-    "policy_doc_id": "clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2",
-    "file": "clientname-IS-POL-00-Information_Systems_Acquisition_Development_and_Maintenance_Policy_2.json",
-    "count": 23
+    "count": 181
   },
   {
     "policy_doc_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2",
     "file": "clientname-IS-POL-00-Network_and_Communications_Security_Policy_v1.2_2.json",
-    "count": 22
+    "count": 157
+  },
+  {
+    "policy_doc_id": "clientname-IS-POL-00-Information Security Incident Management Policy 2",
+    "file": "clientname-IS-POL-00-Information_Security_Incident_Management_Policy_2.json",
+    "count": 140
+  },
+  {
+    "policy_doc_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3",
+    "file": "clientname-IS-POL-00-Information_Security_Incident_Management_Policy_3.json",
+    "count": 127
   },
   {
     "policy_doc_id": "clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2",
     "file": "clientname-IS-POL-00-Information_Security_Compliance_Policy_v2.0_UAE_IA_Mapping_2.json",
-    "count": 19
+    "count": 97
   },
   {
-    "policy_doc_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4",
-    "file": "clientname-IS-POL-00-Access_Control_Policy_-_CPX_policy_is_reference_4.json",
-    "count": 17
+    "policy_doc_id": "clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping",
+    "file": "clientname-IS-POL-00-Security_Awareness_and_Training_Policy_v2.0_UAE_IA_Mapping.json",
+    "count": 72
   },
   {
-    "policy_doc_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 1",
-    "file": "clientname-IS-POL-00-Information_Risk_Management_Policy_v1.2_1.json",
-    "count": 12
-  },
-  {
-    "policy_doc_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2",
-    "file": "clientname-IS-POL-00-Information_Risk_Management_Policy_v1.2_2.json",
-    "count": 12
-  },
-  {
-    "policy_doc_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 3",
-    "file": "clientname-IS-POL-00-Information_Risk_Management_Policy_v1.2_3.json",
-    "count": 12
-  },
-  {
-    "policy_doc_id": "clientname-IS-POL-00-Security Operations Policy",
-    "file": "clientname-IS-POL-00-Security_Operations_Policy.json",
-    "count": 8
+    "policy_doc_id": "clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping",
+    "file": "clientname-IS-POL-00-Third-Party_Security_Policy_v2.0_UAE_IA_Mapping.json",
+    "count": 47
   },
   {
     "policy_doc_id": "clientname-IS-POL-00-Vulnerability Management Policy v1.2 (V_A)",
     "file": "clientname-IS-POL-00-Vulnerability_Management_Policy_v1.2_(V_A).json",
+    "count": 47
+  },
+  {
+    "policy_doc_id": "clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2",
+    "file": "clientname-IS-POL-00-Information_Systems_Acquisition_Development_and_Maintenance_Policy_2.json",
+    "count": 46
+  },
+  {
+    "policy_doc_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2",
+    "file": "clientname-IS-POL-00-Physical_and_Environmental_Security_Policy_v1.2.json",
+    "count": 41
+  },
+  {
+    "policy_doc_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 1",
+    "file": "clientname-IS-POL-00-Information_Risk_Management_Policy_v1.2_1.json",
+    "count": 28
+  },
+  {
+    "policy_doc_id": "clientname-IS-POL-00-Security Operations Policy",
+    "file": "clientname-IS-POL-00-Security_Operations_Policy.json",
+    "count": 27
+  },
+  {
+    "policy_doc_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2",
+    "file": "clientname-IS-POL-00-Information_Risk_Management_Policy_v1.2_2.json",
+    "count": 24
+  },
+  {
+    "policy_doc_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 3",
+    "file": "clientname-IS-POL-00-Information_Risk_Management_Policy_v1.2_3.json",
+    "count": 22
+  },
+  {
+    "policy_doc_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4",
+    "file": "clientname-IS-POL-00-Access_Control_Policy_-_CPX_policy_is_reference_4.json",
+    "count": 11
+  },
+  {
+    "policy_doc_id": "clientname-IS-POL-00-Logging and Monitoring Policy 2",
+    "file": "clientname-IS-POL-00-Logging_and_Monitoring_Policy_2.json",
+    "count": 1
+  },
+  {
+    "policy_doc_id": "clientname-IS-POL-00-Logging and Monitoring Policy 3",
+    "file": "clientname-IS-POL-00-Logging_and_Monitoring_Policy_3.json",
     "count": 1
   }
 ]

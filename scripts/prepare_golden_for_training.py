@@ -24,8 +24,12 @@ Usage:
 import argparse
 import json
 import random
+import sys
 from pathlib import Path
 from typing import Any, Dict, List
+
+# Allow imports from the project root (flexible_policy_extractor, etc.)
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 # Status -> NLI label (3-class)
 STATUS_TO_NLI = {
@@ -90,12 +94,19 @@ def load_policy_passages(path: str) -> Dict[str, Dict]:
                 out[pid] = item
         return out
     if p.is_dir():
-        from flexible_policy_extractor import load_all_policies_from_dir
-        raw = load_all_policies_from_dir(str(p))
-        for item in raw:
-            pid = item.get("id", "")
-            if pid:
-                out[pid] = item
+        # Load all .json files in the directory regardless of naming convention
+        # (handles both *_corrected.json and *_for_mapping.json)
+        for f in sorted(p.glob("*.json")):
+            try:
+                with open(f, encoding="utf-8") as fp:
+                    data = json.load(fp)
+                items = data if isinstance(data, list) else [data]
+                for item in items:
+                    pid = item.get("id", "")
+                    if pid:
+                        out[pid] = item
+            except Exception:
+                continue
         return out
     return {}
 

@@ -6,7 +6,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.27938398718833923,
     "evidence_text": "8.5 User Access Provisioning\n\nUAE Public Prosecution shall:\n\n2. The provisioning process for assigning or revoking access rights for users shall consider the followings:\n2. Segregation of duties to ensure a proper access level is given.\n3. Access rights are not activated until an authorization process is completed.\n4. Records reflecting all user access rights are centrally kept up-to-date.\n5. Reviewing users access rights in a regular basis.\n\n1. Ensure that the provisioning/deprovisioning proces",
-    "mapping_date": "2026-03-05T15:36:06.715899",
+    "mapping_date": "2026-03-05T15:54:20.863748",
     "reviewer": null,
     "notes": "Reranker: 0.279"
   },
@@ -17,9 +17,20 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2614509165287018,
     "evidence_text": "8.12 Publicly Accessible Content\n\nUAE Public Prosecution shall:\n\n2. Designate individuals who are authorized to review and post information onto a publicly accessible information system.\n3. Provide training and awareness sessions for authorized individuals to ensure that publicly accessible information is sanitized from non-public information.\n4. Periodically scan publicly accessible information for non-public information and correct any inconsistency.\n\n1. Define publishing guidelines with requi",
-    "mapping_date": "2026-03-05T15:37:24.434468",
+    "mapping_date": "2026-03-05T15:55:38.613573",
     "reviewer": null,
     "notes": "Reranker: 0.261"
+  },
+  {
+    "mapping_id": "T1.2.2_clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_7",
+    "source_control_id": "T1.2.2",
+    "target_policy_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_7",
+    "status": "Partially Addressed",
+    "entailment_score": 0.2472921907901764,
+    "evidence_text": "8.1 Access Control\n\nUAE Public Prosecution shall:\n\n1. Ensure that asset owners determine appropriate access rules, privileges, and restrictions for specific user roles towards their assets.\n2. Ensure that the following factors are considered while defining the access control framework:\n2. Information dissemination and authorization process, e.g., the need-to-know principle, information security levels and classification of information.\n3. Consistency between the access rights and data classifica",
+    "mapping_date": "2026-03-05T15:56:08.661490",
+    "reviewer": null,
+    "notes": "Reranker: 0.247"
   },
   {
     "mapping_id": "T1.3.3_clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_7",
@@ -28,7 +39,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.25485873222351074,
     "evidence_text": "8.1 Access Control\n\nUAE Public Prosecution shall:\n\n1. Ensure that asset owners determine appropriate access rules, privileges, and restrictions for specific user roles towards their assets.\n2. Ensure that the following factors are considered while defining the access control framework:\n2. Information dissemination and authorization process, e.g., the need-to-know principle, information security levels and classification of information.\n3. Consistency between the access rights and data classifica",
-    "mapping_date": "2026-03-05T15:38:05.168858",
+    "mapping_date": "2026-03-05T15:56:19.337876",
     "reviewer": null,
     "notes": "Reranker: 0.255"
   },
@@ -39,7 +50,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.27264490723609924,
     "evidence_text": "8.5 User Access Provisioning\n\nUAE Public Prosecution shall:\n\n2. The provisioning process for assigning or revoking access rights for users shall consider the followings:\n2. Segregation of duties to ensure a proper access level is given.\n3. Access rights are not activated until an authorization process is completed.\n4. Records reflecting all user access rights are centrally kept up-to-date.\n5. Reviewing users access rights in a regular basis.\n\n1. Ensure that the provisioning/deprovisioning proces",
-    "mapping_date": "2026-03-05T15:39:42.260317",
+    "mapping_date": "2026-03-05T15:57:56.310278",
     "reviewer": null,
     "notes": "Reranker: 0.273"
   },
@@ -50,7 +61,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2682698667049408,
     "evidence_text": "8.3 Wireless Access\n\nUAE Public Prosecution shall:\n\n1. Utilize authentication protocols which provide credential protection and mutual authentication for wireless networks.\n2. Ensure the selection of appropriate controls for wireless networks to address security risks such as undetected interception.\n3. Conduct periodic wireless surveys to determine security and quality of the wireless network.",
-    "mapping_date": "2026-03-05T15:39:53.355174",
+    "mapping_date": "2026-03-05T15:58:07.297220",
     "reviewer": null,
     "notes": "Reranker: 0.268"
   },
@@ -61,7 +72,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2751888334751129,
     "evidence_text": "8.4 User Registration and De-Registration\n\nUAE Public Prosecution shall:\n\n2. The use of shared IDs is prohibited by default, unless there is a valid business justification which is approved by UAEPP’s senior management and CISO.\n3. Immediately disable or remove user ID’s of users who have left the organization.\n4. Perform periodic review of user access across the information and information assets to determine and disable redundant user ID’s and access privileges that are no longer required or a",
-    "mapping_date": "2026-03-05T15:39:56.021327",
+    "mapping_date": "2026-03-05T15:58:09.939519",
     "reviewer": null,
     "notes": "Reranker: 0.275"
   },
@@ -72,7 +83,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.26892197132110596,
     "evidence_text": "8.11 Use of Privileged Utility Programs\n\n10. System utilities shall be restricted from all users unless approved by CISO/ IS Team.\n11. All access to system utilities shall be logged and reviewed by UAEPP IS Team.\n12. Access to and use of system programs shall be restricted and controlled.\n13. All unnecessary system utilities and software shall be removed.",
-    "mapping_date": "2026-03-05T15:39:58.669314",
+    "mapping_date": "2026-03-05T15:58:12.555812",
     "reviewer": null,
     "notes": "Reranker: 0.269"
   },
@@ -83,7 +94,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.28375720977783203,
     "evidence_text": "8.5 User Access Provisioning\n\nUAE Public Prosecution shall:\n\n2. The provisioning process for assigning or revoking access rights for users shall consider the followings:\n2. Segregation of duties to ensure a proper access level is given.\n3. Access rights are not activated until an authorization process is completed.\n4. Records reflecting all user access rights are centrally kept up-to-date.\n5. Reviewing users access rights in a regular basis.\n\n1. Ensure that the provisioning/deprovisioning proces",
-    "mapping_date": "2026-03-05T15:40:03.928188",
+    "mapping_date": "2026-03-05T15:58:17.764012",
     "reviewer": null,
     "notes": "Reranker: 0.284"
   },
@@ -94,7 +105,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2608660161495209,
     "evidence_text": "8.4 User Registration and De-Registration\n\nUAE Public Prosecution shall:\n\n2. The use of shared IDs is prohibited by default, unless there is a valid business justification which is approved by UAEPP’s senior management and CISO.\n3. Immediately disable or remove user ID’s of users who have left the organization.\n4. Perform periodic review of user access across the information and information assets to determine and disable redundant user ID’s and access privileges that are no longer required or a",
-    "mapping_date": "2026-03-05T15:40:03.928206",
+    "mapping_date": "2026-03-05T15:58:17.764028",
     "reviewer": null,
     "notes": "Reranker: 0.261"
   },
@@ -105,7 +116,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2566258907318115,
     "evidence_text": "8.1 Access Control\n\nUAE Public Prosecution shall:\n\n1. Ensure that asset owners determine appropriate access rules, privileges, and restrictions for specific user roles towards their assets.\n2. Ensure that the following factors are considered while defining the access control framework:\n2. Information dissemination and authorization process, e.g., the need-to-know principle, information security levels and classification of information.\n3. Consistency between the access rights and data classifica",
-    "mapping_date": "2026-03-05T15:40:03.928173",
+    "mapping_date": "2026-03-05T15:58:17.763997",
     "reviewer": null,
     "notes": "Reranker: 0.257"
   },
@@ -116,7 +127,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.25799742341041565,
     "evidence_text": "8.3 Wireless Access\n\nUAE Public Prosecution shall:\n\n1. Utilize authentication protocols which provide credential protection and mutual authentication for wireless networks.\n2. Ensure the selection of appropriate controls for wireless networks to address security risks such as undetected interception.\n3. Conduct periodic wireless surveys to determine security and quality of the wireless network.",
-    "mapping_date": "2026-03-05T15:40:11.899120",
+    "mapping_date": "2026-03-05T15:58:25.649090",
     "reviewer": null,
     "notes": "Reranker: 0.258"
   }

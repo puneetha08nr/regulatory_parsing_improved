@@ -6,7 +6,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2547028958797455,
     "evidence_text": "4 POLICY STATEMENT\n\n&lt;CLIENT&gt; shall develop, implement, and maintain Information Systems Acquisition, Development and Maintenance Procedure to:\n\n1. Provide strategies, tools, and techniques to protect risks towards supply chain.\n2. Prevent unauthorized modification or misuse of the information in applications.\n3. Maintain security in development and support processes.\n4. Manage technical vulnerabilities.",
-    "mapping_date": "2026-03-05T15:35:42.354739",
+    "mapping_date": "2026-03-05T15:53:56.426169",
     "reviewer": null,
     "notes": "Reranker: 0.255"
   },
@@ -17,7 +17,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.26364582777023315,
     "evidence_text": "5 POLICY DETAILS\n\n5. **Information Security Requirements Analysis and Specification**\n\n&lt;CLIENT&gt; shall:\n\n1. Identify, document and review information security (IS) requirements using various methods such as deriving compliance requirements, threat modelling, incident reviews and/or use of vulnerability thresholds.\n2. Ensure that the IS requirements and measures reflect the business value and potential adverse business impact resulting from lack of adequate security.\n3. Identify and manage I",
-    "mapping_date": "2026-03-05T15:35:44.954755",
+    "mapping_date": "2026-03-05T15:53:59.026221",
     "reviewer": null,
     "notes": "Reranker: 0.264"
   },
@@ -28,7 +28,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2705013155937195,
     "evidence_text": "4 POLICY STATEMENT\n\n&lt;CLIENT&gt; shall develop, implement, and maintain Information Systems Acquisition, Development and Maintenance Procedure to:\n\n1. Provide strategies, tools, and techniques to protect risks towards supply chain.\n2. Prevent unauthorized modification or misuse of the information in applications.\n3. Maintain security in development and support processes.\n4. Manage technical vulnerabilities.",
-    "mapping_date": "2026-03-05T15:35:47.528603",
+    "mapping_date": "2026-03-05T15:54:01.621511",
     "reviewer": null,
     "notes": "Reranker: 0.271"
   },
@@ -39,7 +39,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2688579857349396,
     "evidence_text": "5 POLICY DETAILS\n\n5. **Information Security Requirements Analysis and Specification**\n\n&lt;CLIENT&gt; shall:\n\n1. Identify, document and review information security (IS) requirements using various methods such as deriving compliance requirements, threat modelling, incident reviews and/or use of vulnerability thresholds.\n2. Ensure that the IS requirements and measures reflect the business value and potential adverse business impact resulting from lack of adequate security.\n3. Identify and manage I",
-    "mapping_date": "2026-03-05T15:35:47.528585",
+    "mapping_date": "2026-03-05T15:54:01.621493",
     "reviewer": null,
     "notes": "Reranker: 0.269"
   },
@@ -50,7 +50,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2813728153705597,
     "evidence_text": "5 POLICY DETAILS\n\n5. **Information Security Requirements Analysis and Specification**\n\n&lt;CLIENT&gt; shall:\n\n1. Identify, document and review information security (IS) requirements using various methods such as deriving compliance requirements, threat modelling, incident reviews and/or use of vulnerability thresholds.\n2. Ensure that the IS requirements and measures reflect the business value and potential adverse business impact resulting from lack of adequate security.\n3. Identify and manage I",
-    "mapping_date": "2026-03-05T15:35:50.121603",
+    "mapping_date": "2026-03-05T15:54:04.208931",
     "reviewer": null,
     "notes": "Reranker: 0.281"
   },
@@ -61,7 +61,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2559194266796112,
     "evidence_text": "4 POLICY STATEMENT\n\n&lt;CLIENT&gt; shall develop, implement, and maintain Information Systems Acquisition, Development and Maintenance Procedure to:\n\n1. Provide strategies, tools, and techniques to protect risks towards supply chain.\n2. Prevent unauthorized modification or misuse of the information in applications.\n3. Maintain security in development and support processes.\n4. Manage technical vulnerabilities.",
-    "mapping_date": "2026-03-05T15:35:52.686312",
+    "mapping_date": "2026-03-05T15:54:06.767063",
     "reviewer": null,
     "notes": "Reranker: 0.256"
   },
@@ -72,7 +72,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2713981568813324,
     "evidence_text": "4 POLICY STATEMENT\n\n&lt;CLIENT&gt; shall develop, implement, and maintain Information Systems Acquisition, Development and Maintenance Procedure to:\n\n1. Provide strategies, tools, and techniques to protect risks towards supply chain.\n2. Prevent unauthorized modification or misuse of the information in applications.\n3. Maintain security in development and support processes.\n4. Manage technical vulnerabilities.",
-    "mapping_date": "2026-03-05T15:36:13.417892",
+    "mapping_date": "2026-03-05T15:54:27.567739",
     "reviewer": null,
     "notes": "Reranker: 0.271"
   },
@@ -83,9 +83,31 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2622355818748474,
     "evidence_text": "4 POLICY STATEMENT\n\n&lt;CLIENT&gt; shall develop, implement, and maintain Information Systems Acquisition, Development and Maintenance Procedure to:\n\n1. Provide strategies, tools, and techniques to protect risks towards supply chain.\n2. Prevent unauthorized modification or misuse of the information in applications.\n3. Maintain security in development and support processes.\n4. Manage technical vulnerabilities.",
-    "mapping_date": "2026-03-05T15:36:16.014555",
+    "mapping_date": "2026-03-05T15:54:30.164666",
     "reviewer": null,
     "notes": "Reranker: 0.262"
+  },
+  {
+    "mapping_id": "M2.3.2_clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2_passage_7",
+    "source_control_id": "M2.3.2",
+    "target_policy_id": "clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2_passage_7",
+    "status": "Partially Addressed",
+    "entailment_score": 0.22621935606002808,
+    "evidence_text": "5 POLICY DETAILS\n\n5. **Information Security Requirements Analysis and Specification**\n\n&lt;CLIENT&gt; shall:\n\n1. Identify, document and review information security (IS) requirements using various methods such as deriving compliance requirements, threat modelling, incident reviews and/or use of vulnerability thresholds.\n2. Ensure that the IS requirements and measures reflect the business value and potential adverse business impact resulting from lack of adequate security.\n3. Identify and manage I",
+    "mapping_date": "2026-03-05T15:54:40.495197",
+    "reviewer": null,
+    "notes": "Reranker: 0.226"
+  },
+  {
+    "mapping_id": "M2.3.2_clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2_passage_6",
+    "source_control_id": "M2.3.2",
+    "target_policy_id": "clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2_passage_6",
+    "status": "Partially Addressed",
+    "entailment_score": 0.220617413520813,
+    "evidence_text": "4 POLICY STATEMENT\n\n&lt;CLIENT&gt; shall develop, implement, and maintain Information Systems Acquisition, Development and Maintenance Procedure to:\n\n1. Provide strategies, tools, and techniques to protect risks towards supply chain.\n2. Prevent unauthorized modification or misuse of the information in applications.\n3. Maintain security in development and support processes.\n4. Manage technical vulnerabilities.",
+    "mapping_date": "2026-03-05T15:54:40.495240",
+    "reviewer": null,
+    "notes": "Reranker: 0.221"
   },
   {
     "mapping_id": "M3.1.1_clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2_passage_6",
@@ -94,7 +116,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2663278877735138,
     "evidence_text": "4 POLICY STATEMENT\n\n&lt;CLIENT&gt; shall develop, implement, and maintain Information Systems Acquisition, Development and Maintenance Procedure to:\n\n1. Provide strategies, tools, and techniques to protect risks towards supply chain.\n2. Prevent unauthorized modification or misuse of the information in applications.\n3. Maintain security in development and support processes.\n4. Manage technical vulnerabilities.",
-    "mapping_date": "2026-03-05T15:36:34.543478",
+    "mapping_date": "2026-03-05T15:54:48.702192",
     "reviewer": null,
     "notes": "Reranker: 0.266"
   },
@@ -105,7 +127,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.25780436396598816,
     "evidence_text": "4 POLICY STATEMENT\n\n&lt;CLIENT&gt; shall develop, implement, and maintain Information Systems Acquisition, Development and Maintenance Procedure to:\n\n1. Provide strategies, tools, and techniques to protect risks towards supply chain.\n2. Prevent unauthorized modification or misuse of the information in applications.\n3. Maintain security in development and support processes.\n4. Manage technical vulnerabilities.",
-    "mapping_date": "2026-03-05T15:36:37.096341",
+    "mapping_date": "2026-03-05T15:54:51.261513",
     "reviewer": null,
     "notes": "Reranker: 0.258"
   },
@@ -116,7 +138,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2793390154838562,
     "evidence_text": "5 POLICY DETAILS\n\n5. **Information Security Requirements Analysis and Specification**\n\n&lt;CLIENT&gt; shall:\n\n1. Identify, document and review information security (IS) requirements using various methods such as deriving compliance requirements, threat modelling, incident reviews and/or use of vulnerability thresholds.\n2. Ensure that the IS requirements and measures reflect the business value and potential adverse business impact resulting from lack of adequate security.\n3. Identify and manage I",
-    "mapping_date": "2026-03-05T15:36:39.637461",
+    "mapping_date": "2026-03-05T15:54:53.789632",
     "reviewer": null,
     "notes": "Reranker: 0.279"
   },
@@ -127,7 +149,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2718944847583771,
     "evidence_text": "4 POLICY STATEMENT\n\n&lt;CLIENT&gt; shall develop, implement, and maintain Information Systems Acquisition, Development and Maintenance Procedure to:\n\n1. Provide strategies, tools, and techniques to protect risks towards supply chain.\n2. Prevent unauthorized modification or misuse of the information in applications.\n3. Maintain security in development and support processes.\n4. Manage technical vulnerabilities.",
-    "mapping_date": "2026-03-05T15:36:49.974005",
+    "mapping_date": "2026-03-05T15:55:04.137170",
     "reviewer": null,
     "notes": "Reranker: 0.272"
   },
@@ -138,7 +160,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2746375501155853,
     "evidence_text": "4 POLICY STATEMENT\n\n&lt;CLIENT&gt; shall develop, implement, and maintain Information Systems Acquisition, Development and Maintenance Procedure to:\n\n1. Provide strategies, tools, and techniques to protect risks towards supply chain.\n2. Prevent unauthorized modification or misuse of the information in applications.\n3. Maintain security in development and support processes.\n4. Manage technical vulnerabilities.",
-    "mapping_date": "2026-03-05T15:36:58.351255",
+    "mapping_date": "2026-03-05T15:55:12.493619",
     "reviewer": null,
     "notes": "Reranker: 0.275"
   },
@@ -149,7 +171,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2613805830478668,
     "evidence_text": "5 POLICY DETAILS\n\n5. **Information Security Requirements Analysis and Specification**\n\n&lt;CLIENT&gt; shall:\n\n1. Identify, document and review information security (IS) requirements using various methods such as deriving compliance requirements, threat modelling, incident reviews and/or use of vulnerability thresholds.\n2. Ensure that the IS requirements and measures reflect the business value and potential adverse business impact resulting from lack of adequate security.\n3. Identify and manage I",
-    "mapping_date": "2026-03-05T15:37:09.262603",
+    "mapping_date": "2026-03-05T15:55:23.415157",
     "reviewer": null,
     "notes": "Reranker: 0.261"
   },
@@ -160,9 +182,31 @@
     "status": "Partially Addressed",
     "entailment_score": 0.28892654180526733,
     "evidence_text": "5 POLICY DETAILS\n\n5. **Information Security Requirements Analysis and Specification**\n\n&lt;CLIENT&gt; shall:\n\n1. Identify, document and review information security (IS) requirements using various methods such as deriving compliance requirements, threat modelling, incident reviews and/or use of vulnerability thresholds.\n2. Ensure that the IS requirements and measures reflect the business value and potential adverse business impact resulting from lack of adequate security.\n3. Identify and manage I",
-    "mapping_date": "2026-03-05T15:37:12.068329",
+    "mapping_date": "2026-03-05T15:55:26.233530",
     "reviewer": null,
     "notes": "Reranker: 0.289"
+  },
+  {
+    "mapping_id": "M5.2.4_clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2_passage_7",
+    "source_control_id": "M5.2.4",
+    "target_policy_id": "clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2_passage_7",
+    "status": "Partially Addressed",
+    "entailment_score": 0.24611467123031616,
+    "evidence_text": "5 POLICY DETAILS\n\n5. **Information Security Requirements Analysis and Specification**\n\n&lt;CLIENT&gt; shall:\n\n1. Identify, document and review information security (IS) requirements using various methods such as deriving compliance requirements, threat modelling, incident reviews and/or use of vulnerability thresholds.\n2. Ensure that the IS requirements and measures reflect the business value and potential adverse business impact resulting from lack of adequate security.\n3. Identify and manage I",
+    "mapping_date": "2026-03-05T15:55:34.699903",
+    "reviewer": null,
+    "notes": "Reranker: 0.246"
+  },
+  {
+    "mapping_id": "M5.2.6_clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2_passage_7",
+    "source_control_id": "M5.2.6",
+    "target_policy_id": "clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2_passage_7",
+    "status": "Partially Addressed",
+    "entailment_score": 0.24233773350715637,
+    "evidence_text": "5 POLICY DETAILS\n\n5. **Information Security Requirements Analysis and Specification**\n\n&lt;CLIENT&gt; shall:\n\n1. Identify, document and review information security (IS) requirements using various methods such as deriving compliance requirements, threat modelling, incident reviews and/or use of vulnerability thresholds.\n2. Ensure that the IS requirements and measures reflect the business value and potential adverse business impact resulting from lack of adequate security.\n3. Identify and manage I",
+    "mapping_date": "2026-03-05T15:55:37.385350",
+    "reviewer": null,
+    "notes": "Reranker: 0.242"
   },
   {
     "mapping_id": "M5.3.1_clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2_passage_7",
@@ -171,7 +215,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2674320936203003,
     "evidence_text": "5 POLICY DETAILS\n\n5. **Information Security Requirements Analysis and Specification**\n\n&lt;CLIENT&gt; shall:\n\n1. Identify, document and review information security (IS) requirements using various methods such as deriving compliance requirements, threat modelling, incident reviews and/or use of vulnerability thresholds.\n2. Ensure that the IS requirements and measures reflect the business value and potential adverse business impact resulting from lack of adequate security.\n3. Identify and manage I",
-    "mapping_date": "2026-03-05T15:37:28.939365",
+    "mapping_date": "2026-03-05T15:55:43.141697",
     "reviewer": null,
     "notes": "Reranker: 0.267"
   },
@@ -182,7 +226,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.271234393119812,
     "evidence_text": "4 POLICY STATEMENT\n\n&lt;CLIENT&gt; shall develop, implement, and maintain Information Systems Acquisition, Development and Maintenance Procedure to:\n\n1. Provide strategies, tools, and techniques to protect risks towards supply chain.\n2. Prevent unauthorized modification or misuse of the information in applications.\n3. Maintain security in development and support processes.\n4. Manage technical vulnerabilities.",
-    "mapping_date": "2026-03-05T15:37:31.656956",
+    "mapping_date": "2026-03-05T15:55:45.867965",
     "reviewer": null,
     "notes": "Reranker: 0.271"
   },
@@ -193,7 +237,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.27273932099342346,
     "evidence_text": "4 POLICY STATEMENT\n\n&lt;CLIENT&gt; shall develop, implement, and maintain Information Systems Acquisition, Development and Maintenance Procedure to:\n\n1. Provide strategies, tools, and techniques to protect risks towards supply chain.\n2. Prevent unauthorized modification or misuse of the information in applications.\n3. Maintain security in development and support processes.\n4. Manage technical vulnerabilities.",
-    "mapping_date": "2026-03-05T15:37:37.260161",
+    "mapping_date": "2026-03-05T15:55:51.495959",
     "reviewer": null,
     "notes": "Reranker: 0.273"
   },
@@ -204,7 +248,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2746638059616089,
     "evidence_text": "4 POLICY STATEMENT\n\n&lt;CLIENT&gt; shall develop, implement, and maintain Information Systems Acquisition, Development and Maintenance Procedure to:\n\n1. Provide strategies, tools, and techniques to protect risks towards supply chain.\n2. Prevent unauthorized modification or misuse of the information in applications.\n3. Maintain security in development and support processes.\n4. Manage technical vulnerabilities.",
-    "mapping_date": "2026-03-05T15:37:42.761426",
+    "mapping_date": "2026-03-05T15:55:57.025135",
     "reviewer": null,
     "notes": "Reranker: 0.275"
   },
@@ -215,7 +259,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2627142071723938,
     "evidence_text": "4 POLICY STATEMENT\n\n&lt;CLIENT&gt; shall develop, implement, and maintain Information Systems Acquisition, Development and Maintenance Procedure to:\n\n1. Provide strategies, tools, and techniques to protect risks towards supply chain.\n2. Prevent unauthorized modification or misuse of the information in applications.\n3. Maintain security in development and support processes.\n4. Manage technical vulnerabilities.",
-    "mapping_date": "2026-03-05T15:38:41.456345",
+    "mapping_date": "2026-03-05T15:56:55.673323",
     "reviewer": null,
     "notes": "Reranker: 0.263"
   },
@@ -226,7 +270,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2569725513458252,
     "evidence_text": "4 POLICY STATEMENT\n\n&lt;CLIENT&gt; shall develop, implement, and maintain Information Systems Acquisition, Development and Maintenance Procedure to:\n\n1. Provide strategies, tools, and techniques to protect risks towards supply chain.\n2. Prevent unauthorized modification or misuse of the information in applications.\n3. Maintain security in development and support processes.\n4. Manage technical vulnerabilities.",
-    "mapping_date": "2026-03-05T15:38:44.050645",
+    "mapping_date": "2026-03-05T15:56:58.253518",
     "reviewer": null,
     "notes": "Reranker: 0.257"
   },
@@ -237,7 +281,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.28934794664382935,
     "evidence_text": "4 POLICY STATEMENT\n\n&lt;CLIENT&gt; shall develop, implement, and maintain Information Systems Acquisition, Development and Maintenance Procedure to:\n\n1. Provide strategies, tools, and techniques to protect risks towards supply chain.\n2. Prevent unauthorized modification or misuse of the information in applications.\n3. Maintain security in development and support processes.\n4. Manage technical vulnerabilities.",
-    "mapping_date": "2026-03-05T15:38:49.216600",
+    "mapping_date": "2026-03-05T15:57:03.430590",
     "reviewer": null,
     "notes": "Reranker: 0.289"
   },
@@ -248,7 +292,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2581067383289337,
     "evidence_text": "4 POLICY STATEMENT\n\n&lt;CLIENT&gt; shall develop, implement, and maintain Information Systems Acquisition, Development and Maintenance Procedure to:\n\n1. Provide strategies, tools, and techniques to protect risks towards supply chain.\n2. Prevent unauthorized modification or misuse of the information in applications.\n3. Maintain security in development and support processes.\n4. Manage technical vulnerabilities.",
-    "mapping_date": "2026-03-05T15:38:54.397070",
+    "mapping_date": "2026-03-05T15:57:08.614516",
     "reviewer": null,
     "notes": "Reranker: 0.258"
   },
@@ -259,7 +303,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.26210400462150574,
     "evidence_text": "4 POLICY STATEMENT\n\n&lt;CLIENT&gt; shall develop, implement, and maintain Information Systems Acquisition, Development and Maintenance Procedure to:\n\n1. Provide strategies, tools, and techniques to protect risks towards supply chain.\n2. Prevent unauthorized modification or misuse of the information in applications.\n3. Maintain security in development and support processes.\n4. Manage technical vulnerabilities.",
-    "mapping_date": "2026-03-05T15:38:59.924556",
+    "mapping_date": "2026-03-05T15:57:14.158309",
     "reviewer": null,
     "notes": "Reranker: 0.262"
   },
@@ -270,7 +314,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2754395306110382,
     "evidence_text": "4 POLICY STATEMENT\n\n&lt;CLIENT&gt; shall develop, implement, and maintain Information Systems Acquisition, Development and Maintenance Procedure to:\n\n1. Provide strategies, tools, and techniques to protect risks towards supply chain.\n2. Prevent unauthorized modification or misuse of the information in applications.\n3. Maintain security in development and support processes.\n4. Manage technical vulnerabilities.",
-    "mapping_date": "2026-03-05T15:39:08.442194",
+    "mapping_date": "2026-03-05T15:57:22.704933",
     "reviewer": null,
     "notes": "Reranker: 0.275"
   },
@@ -281,7 +325,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.28844937682151794,
     "evidence_text": "4 POLICY STATEMENT\n\n&lt;CLIENT&gt; shall develop, implement, and maintain Information Systems Acquisition, Development and Maintenance Procedure to:\n\n1. Provide strategies, tools, and techniques to protect risks towards supply chain.\n2. Prevent unauthorized modification or misuse of the information in applications.\n3. Maintain security in development and support processes.\n4. Manage technical vulnerabilities.",
-    "mapping_date": "2026-03-05T15:39:13.744826",
+    "mapping_date": "2026-03-05T15:57:27.993955",
     "reviewer": null,
     "notes": "Reranker: 0.288"
   },
@@ -292,7 +336,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2656668722629547,
     "evidence_text": "4 POLICY STATEMENT\n\n&lt;CLIENT&gt; shall develop, implement, and maintain Information Systems Acquisition, Development and Maintenance Procedure to:\n\n1. Provide strategies, tools, and techniques to protect risks towards supply chain.\n2. Prevent unauthorized modification or misuse of the information in applications.\n3. Maintain security in development and support processes.\n4. Manage technical vulnerabilities.",
-    "mapping_date": "2026-03-05T15:39:16.356562",
+    "mapping_date": "2026-03-05T15:57:30.642887",
     "reviewer": null,
     "notes": "Reranker: 0.266"
   },
@@ -303,7 +347,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.25080224871635437,
     "evidence_text": "4 POLICY STATEMENT\n\n&lt;CLIENT&gt; shall develop, implement, and maintain Information Systems Acquisition, Development and Maintenance Procedure to:\n\n1. Provide strategies, tools, and techniques to protect risks towards supply chain.\n2. Prevent unauthorized modification or misuse of the information in applications.\n3. Maintain security in development and support processes.\n4. Manage technical vulnerabilities.",
-    "mapping_date": "2026-03-05T15:39:24.371465",
+    "mapping_date": "2026-03-05T15:57:38.579959",
     "reviewer": null,
     "notes": "Reranker: 0.251"
   },
@@ -314,7 +358,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2848101854324341,
     "evidence_text": "4 POLICY STATEMENT\n\n&lt;CLIENT&gt; shall develop, implement, and maintain Information Systems Acquisition, Development and Maintenance Procedure to:\n\n1. Provide strategies, tools, and techniques to protect risks towards supply chain.\n2. Prevent unauthorized modification or misuse of the information in applications.\n3. Maintain security in development and support processes.\n4. Manage technical vulnerabilities.",
-    "mapping_date": "2026-03-05T15:39:35.108895",
+    "mapping_date": "2026-03-05T15:57:49.199953",
     "reviewer": null,
     "notes": "Reranker: 0.285"
   },
@@ -325,9 +369,20 @@
     "status": "Partially Addressed",
     "entailment_score": 0.286149799823761,
     "evidence_text": "4 POLICY STATEMENT\n\n&lt;CLIENT&gt; shall develop, implement, and maintain Information Systems Acquisition, Development and Maintenance Procedure to:\n\n1. Provide strategies, tools, and techniques to protect risks towards supply chain.\n2. Prevent unauthorized modification or misuse of the information in applications.\n3. Maintain security in development and support processes.\n4. Manage technical vulnerabilities.",
-    "mapping_date": "2026-03-05T15:39:43.804712",
+    "mapping_date": "2026-03-05T15:57:57.834318",
     "reviewer": null,
     "notes": "Reranker: 0.286"
+  },
+  {
+    "mapping_id": "T5.2.1_clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2_passage_6",
+    "source_control_id": "T5.2.1",
+    "target_policy_id": "clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2_passage_6",
+    "status": "Partially Addressed",
+    "entailment_score": 0.22039426863193512,
+    "evidence_text": "4 POLICY STATEMENT\n\n&lt;CLIENT&gt; shall develop, implement, and maintain Information Systems Acquisition, Development and Maintenance Procedure to:\n\n1. Provide strategies, tools, and techniques to protect risks towards supply chain.\n2. Prevent unauthorized modification or misuse of the information in applications.\n3. Maintain security in development and support processes.\n4. Manage technical vulnerabilities.",
+    "mapping_date": "2026-03-05T15:58:11.414110",
+    "reviewer": null,
+    "notes": "Reranker: 0.220"
   },
   {
     "mapping_id": "T5.6.1_clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2_passage_6",
@@ -336,7 +391,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.25134947896003723,
     "evidence_text": "4 POLICY STATEMENT\n\n&lt;CLIENT&gt; shall develop, implement, and maintain Information Systems Acquisition, Development and Maintenance Procedure to:\n\n1. Provide strategies, tools, and techniques to protect risks towards supply chain.\n2. Prevent unauthorized modification or misuse of the information in applications.\n3. Maintain security in development and support processes.\n4. Manage technical vulnerabilities.",
-    "mapping_date": "2026-03-05T15:40:26.750588",
+    "mapping_date": "2026-03-05T15:58:40.345285",
     "reviewer": null,
     "notes": "Reranker: 0.251"
   },
@@ -347,7 +402,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.26532772183418274,
     "evidence_text": "5 POLICY DETAILS\n\n5. **Information Security Requirements Analysis and Specification**\n\n&lt;CLIENT&gt; shall:\n\n1. Identify, document and review information security (IS) requirements using various methods such as deriving compliance requirements, threat modelling, incident reviews and/or use of vulnerability thresholds.\n2. Ensure that the IS requirements and measures reflect the business value and potential adverse business impact resulting from lack of adequate security.\n3. Identify and manage I",
-    "mapping_date": "2026-03-05T15:40:45.563623",
+    "mapping_date": "2026-03-05T15:58:58.932197",
     "reviewer": null,
     "notes": "Reranker: 0.265"
   },
@@ -358,7 +413,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.25673288106918335,
     "evidence_text": "5 POLICY DETAILS\n\n5. **Information Security Requirements Analysis and Specification**\n\n&lt;CLIENT&gt; shall:\n\n1. Identify, document and review information security (IS) requirements using various methods such as deriving compliance requirements, threat modelling, incident reviews and/or use of vulnerability thresholds.\n2. Ensure that the IS requirements and measures reflect the business value and potential adverse business impact resulting from lack of adequate security.\n3. Identify and manage I",
-    "mapping_date": "2026-03-05T15:40:48.246689",
+    "mapping_date": "2026-03-05T15:59:01.625802",
     "reviewer": null,
     "notes": "Reranker: 0.257"
   },
@@ -369,7 +424,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.26318490505218506,
     "evidence_text": "5 POLICY DETAILS\n\n5. **Information Security Requirements Analysis and Specification**\n\n&lt;CLIENT&gt; shall:\n\n1. Identify, document and review information security (IS) requirements using various methods such as deriving compliance requirements, threat modelling, incident reviews and/or use of vulnerability thresholds.\n2. Ensure that the IS requirements and measures reflect the business value and potential adverse business impact resulting from lack of adequate security.\n3. Identify and manage I",
-    "mapping_date": "2026-03-05T15:40:53.575659",
+    "mapping_date": "2026-03-05T15:59:06.915799",
     "reviewer": null,
     "notes": "Reranker: 0.263"
   },
@@ -380,7 +435,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.25325414538383484,
     "evidence_text": "4 POLICY STATEMENT\n\n&lt;CLIENT&gt; shall develop, implement, and maintain Information Systems Acquisition, Development and Maintenance Procedure to:\n\n1. Provide strategies, tools, and techniques to protect risks towards supply chain.\n2. Prevent unauthorized modification or misuse of the information in applications.\n3. Maintain security in development and support processes.\n4. Manage technical vulnerabilities.",
-    "mapping_date": "2026-03-05T15:41:01.660370",
+    "mapping_date": "2026-03-05T15:59:14.920395",
     "reviewer": null,
     "notes": "Reranker: 0.253"
   },
@@ -391,7 +446,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2563757300376892,
     "evidence_text": "4 POLICY STATEMENT\n\n&lt;CLIENT&gt; shall develop, implement, and maintain Information Systems Acquisition, Development and Maintenance Procedure to:\n\n1. Provide strategies, tools, and techniques to protect risks towards supply chain.\n2. Prevent unauthorized modification or misuse of the information in applications.\n3. Maintain security in development and support processes.\n4. Manage technical vulnerabilities.",
-    "mapping_date": "2026-03-05T15:41:14.849952",
+    "mapping_date": "2026-03-05T15:59:27.963507",
     "reviewer": null,
     "notes": "Reranker: 0.256"
   },
@@ -402,7 +457,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2561856806278229,
     "evidence_text": "4 POLICY STATEMENT\n\n&lt;CLIENT&gt; shall develop, implement, and maintain Information Systems Acquisition, Development and Maintenance Procedure to:\n\n1. Provide strategies, tools, and techniques to protect risks towards supply chain.\n2. Prevent unauthorized modification or misuse of the information in applications.\n3. Maintain security in development and support processes.\n4. Manage technical vulnerabilities.",
-    "mapping_date": "2026-03-05T15:41:17.458491",
+    "mapping_date": "2026-03-05T15:59:30.551194",
     "reviewer": null,
     "notes": "Reranker: 0.256"
   },
@@ -413,7 +468,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2701563537120819,
     "evidence_text": "4 POLICY STATEMENT\n\n&lt;CLIENT&gt; shall develop, implement, and maintain Information Systems Acquisition, Development and Maintenance Procedure to:\n\n1. Provide strategies, tools, and techniques to protect risks towards supply chain.\n2. Prevent unauthorized modification or misuse of the information in applications.\n3. Maintain security in development and support processes.\n4. Manage technical vulnerabilities.",
-    "mapping_date": "2026-03-05T15:41:20.098818",
+    "mapping_date": "2026-03-05T15:59:33.172886",
     "reviewer": null,
     "notes": "Reranker: 0.270"
   },
@@ -424,7 +479,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2717624604701996,
     "evidence_text": "4 POLICY STATEMENT\n\n&lt;CLIENT&gt; shall develop, implement, and maintain Information Systems Acquisition, Development and Maintenance Procedure to:\n\n1. Provide strategies, tools, and techniques to protect risks towards supply chain.\n2. Prevent unauthorized modification or misuse of the information in applications.\n3. Maintain security in development and support processes.\n4. Manage technical vulnerabilities.",
-    "mapping_date": "2026-03-05T15:41:25.500843",
+    "mapping_date": "2026-03-05T15:59:38.497572",
     "reviewer": null,
     "notes": "Reranker: 0.272"
   },
@@ -435,7 +490,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.26610538363456726,
     "evidence_text": "4 POLICY STATEMENT\n\n&lt;CLIENT&gt; shall develop, implement, and maintain Information Systems Acquisition, Development and Maintenance Procedure to:\n\n1. Provide strategies, tools, and techniques to protect risks towards supply chain.\n2. Prevent unauthorized modification or misuse of the information in applications.\n3. Maintain security in development and support processes.\n4. Manage technical vulnerabilities.",
-    "mapping_date": "2026-03-05T15:41:30.817217",
+    "mapping_date": "2026-03-05T15:59:43.754066",
     "reviewer": null,
     "notes": "Reranker: 0.266"
   },
@@ -446,7 +501,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2814945876598358,
     "evidence_text": "4 POLICY STATEMENT\n\n&lt;CLIENT&gt; shall develop, implement, and maintain Information Systems Acquisition, Development and Maintenance Procedure to:\n\n1. Provide strategies, tools, and techniques to protect risks towards supply chain.\n2. Prevent unauthorized modification or misuse of the information in applications.\n3. Maintain security in development and support processes.\n4. Manage technical vulnerabilities.",
-    "mapping_date": "2026-03-05T15:41:33.492556",
+    "mapping_date": "2026-03-05T15:59:46.395803",
     "reviewer": null,
     "notes": "Reranker: 0.281"
   },
@@ -457,7 +512,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.27630019187927246,
     "evidence_text": "5 POLICY DETAILS\n\n5. **Information Security Requirements Analysis and Specification**\n\n&lt;CLIENT&gt; shall:\n\n1. Identify, document and review information security (IS) requirements using various methods such as deriving compliance requirements, threat modelling, incident reviews and/or use of vulnerability thresholds.\n2. Ensure that the IS requirements and measures reflect the business value and potential adverse business impact resulting from lack of adequate security.\n3. Identify and manage I",
-    "mapping_date": "2026-03-05T15:41:33.492552",
+    "mapping_date": "2026-03-05T15:59:46.395797",
     "reviewer": null,
     "notes": "Reranker: 0.276"
   },
@@ -468,7 +523,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2799455523490906,
     "evidence_text": "5 POLICY DETAILS\n\n5. **Information Security Requirements Analysis and Specification**\n\n&lt;CLIENT&gt; shall:\n\n1. Identify, document and review information security (IS) requirements using various methods such as deriving compliance requirements, threat modelling, incident reviews and/or use of vulnerability thresholds.\n2. Ensure that the IS requirements and measures reflect the business value and potential adverse business impact resulting from lack of adequate security.\n3. Identify and manage I",
-    "mapping_date": "2026-03-05T15:41:41.521888",
+    "mapping_date": "2026-03-05T15:59:54.323537",
     "reviewer": null,
     "notes": "Reranker: 0.280"
   },
@@ -479,7 +534,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2624540328979492,
     "evidence_text": "4 POLICY STATEMENT\n\n&lt;CLIENT&gt; shall develop, implement, and maintain Information Systems Acquisition, Development and Maintenance Procedure to:\n\n1. Provide strategies, tools, and techniques to protect risks towards supply chain.\n2. Prevent unauthorized modification or misuse of the information in applications.\n3. Maintain security in development and support processes.\n4. Manage technical vulnerabilities.",
-    "mapping_date": "2026-03-05T15:42:00.063618",
+    "mapping_date": "2026-03-05T16:00:12.811156",
     "reviewer": null,
     "notes": "Reranker: 0.262"
   },
@@ -490,7 +545,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.26487621665000916,
     "evidence_text": "4 POLICY STATEMENT\n\n&lt;CLIENT&gt; shall develop, implement, and maintain Information Systems Acquisition, Development and Maintenance Procedure to:\n\n1. Provide strategies, tools, and techniques to protect risks towards supply chain.\n2. Prevent unauthorized modification or misuse of the information in applications.\n3. Maintain security in development and support processes.\n4. Manage technical vulnerabilities.",
-    "mapping_date": "2026-03-05T15:42:02.649535",
+    "mapping_date": "2026-03-05T16:00:15.407939",
     "reviewer": null,
     "notes": "Reranker: 0.265"
   },
@@ -501,7 +556,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2567395269870758,
     "evidence_text": "4 POLICY STATEMENT\n\n&lt;CLIENT&gt; shall develop, implement, and maintain Information Systems Acquisition, Development and Maintenance Procedure to:\n\n1. Provide strategies, tools, and techniques to protect risks towards supply chain.\n2. Prevent unauthorized modification or misuse of the information in applications.\n3. Maintain security in development and support processes.\n4. Manage technical vulnerabilities.",
-    "mapping_date": "2026-03-05T15:42:05.271668",
+    "mapping_date": "2026-03-05T16:00:18.013089",
     "reviewer": null,
     "notes": "Reranker: 0.257"
   }

@@ -168,6 +168,28 @@ def main():
         save_best_model=True,
     )
 
+    # ── Explicitly save the final model ──────────────────────────────────────
+    # sentence-transformers v3 fit() only saves best checkpoints during training;
+    # it does NOT guarantee the final in-memory model is on disk afterwards.
+    # Calling model.save() here ensures the weights are always persisted.
+    print(f"\nSaving final model to {output_path} ...")
+    model.save(output_path)
+
+    # Verify the save actually produced files
+    import os
+    saved_files = []
+    for root, dirs, files in os.walk(output_path):
+        for f in files:
+            saved_files.append(os.path.relpath(os.path.join(root, f), output_path))
+    if saved_files:
+        print(f"  ✓ {len(saved_files)} file(s) written:")
+        for sf in saved_files[:10]:
+            print(f"    {sf}")
+        if len(saved_files) > 10:
+            print(f"    ... and {len(saved_files) - 10} more")
+    else:
+        print("  WARNING: No files found after save — check disk space / permissions.")
+
     # ── Post-training evaluation ─────────────────────────────────────────────
     print("\nAfter fine-tuning:")
     trained = evaluate(model, dev_rows)

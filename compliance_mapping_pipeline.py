@@ -558,9 +558,28 @@ class CrossEncoderReranker:
         except Exception:
             return False
 
+    def _patch_all_configs_under(self, root: str) -> None:
+        """Patch every config.json under root (including subdirs) to add model_type if missing."""
+        import os
+        for dirpath, _dirnames, filenames in os.walk(root):
+            if "config.json" in filenames:
+                self._ensure_config_model_type(dirpath)
+
     def _try_load(self, model_name: str):
         """Load CrossEncoder, handling sentence-transformers v3 subdirectory layout and missing config.model_type."""
         import os
+        # Resolve to absolute path; if relative and not under cwd, try relative to this file (repo root)
+        if not os.path.isabs(model_name):
+            abs_cwd = os.path.abspath(model_name)
+            if os.path.isdir(abs_cwd):
+                model_name = abs_cwd
+            else:
+                repo_root = Path(__file__).resolve().parent
+                abs_repo = (repo_root / model_name).resolve()
+                model_name = str(abs_repo) if abs_repo.is_dir() else abs_cwd
+        # Patch all config.json under the model dir before any load attempt
+        if os.path.isdir(model_name):
+            self._patch_all_configs_under(model_name)
         candidates = [model_name]
         # sentence-transformers v3 CrossEncoder.save() nests weights under 0_CrossEncoder/
         if os.path.isdir(model_name):
@@ -572,7 +591,6 @@ class CrossEncoderReranker:
         for path in candidates:
             if not os.path.isdir(path):
                 continue
-            self._ensure_config_model_type(path)
             try:
                 m = CrossEncoder(path)
                 print(f"   ✓ Reranker loaded from: {path}")

@@ -540,7 +540,7 @@ class CrossEncoderReranker:
             self.model = self._try_load(model_name)
 
     def _ensure_config_model_type(self, path: str) -> bool:
-        """If config.json exists but lacks model_type, add it (for HF AutoModel). Returns True if ok to load."""
+        """If config.json exists but lacks model_type, add it (for HF AutoModel). BGE uses xlm-roberta."""
         import os
         config_path = os.path.join(path, "config.json")
         if not os.path.isfile(config_path):
@@ -548,10 +548,11 @@ class CrossEncoderReranker:
         try:
             with open(config_path, encoding="utf-8") as f:
                 config = json.load(f)
-            if config.get("model_type"):
+            # Already has a valid model_type (non-empty)
+            if config.get("model_type") and str(config["model_type"]).strip():
                 return True
-            # sentence-transformers sometimes saves without model_type; BGE is RoBERTa-based
-            config["model_type"] = "roberta"
+            # BGE-reranker-base is XLMRobertaForSequenceClassification; HF expects model_type "xlm-roberta"
+            config["model_type"] = "xlm-roberta"
             with open(config_path, "w", encoding="utf-8") as f:
                 json.dump(config, f, indent=2)
             return True

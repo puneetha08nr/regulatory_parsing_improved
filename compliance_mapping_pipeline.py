@@ -537,11 +537,28 @@ class CrossEncoderReranker:
         self.model_name = model_name
         self.model = None
         if RERANKER_AVAILABLE and CrossEncoder is not None:
+            self.model = self._try_load(model_name)
+
+    def _try_load(self, model_name: str):
+        """Load CrossEncoder, handling sentence-transformers v3 subdirectory layout."""
+        import os
+        candidates = [model_name]
+        # sentence-transformers v3 CrossEncoder.save() nests weights under 0_CrossEncoder/
+        if os.path.isdir(model_name):
+            for sub in ["0_CrossEncoder", "1_CrossEncoder", "best_model"]:
+                p = os.path.join(model_name, sub)
+                if os.path.isdir(p):
+                    candidates.insert(0, p)
+        last_err = None
+        for path in candidates:
             try:
-                self.model = CrossEncoder(model_name)
+                m = CrossEncoder(path)
+                print(f"   ✓ Reranker loaded from: {path}")
+                return m
             except Exception as e:
-                print(f"Warning: Could not load reranker {model_name}: {e}")
-                self.model = None
+                last_err = e
+        print(f"Warning: Could not load reranker {model_name}: {last_err}")
+        return None
 
     def is_available(self) -> bool:
         return self.model is not None

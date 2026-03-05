@@ -37,25 +37,50 @@ def load_rows(path: str):
     return rows
 
 
-def make_examples(rows, hard_negative_weight: float = 2.0):
+def make_examples(rows, hard_negative_weight: float = 1.5, label_smoothing: float = 0.1):
     """
     Convert training rows to (sentence_pair, score) tuples.
+
+    Label smoothing: prevents the model from predicting extreme 0/1 scores,
+    which collapses the ranking (Spearman) even while binary accuracy improves.
+      1.0  →  1.0 - ε   (e.g. 0.90)
+      0.0  →  ε          (e.g. 0.10)
+    Mid-range scores (0.5, 0.7) are kept as-is.
+
     Hard negatives are duplicated to upweight them during training.
+    Default weight is 1.5 (one extra half-copy on average) rather than 2.0
+    to avoid over-suppressing the model's positive signal.
     """
     from sentence_transformers import InputExample
+
+    eps = label_smoothing
+
+    def smooth(score: float) -> float:
+        if score >= 0.9:
+            return 1.0 - eps
+        if score <= 0.05:
+            return eps
+        return score
 
     examples = []
     for r in rows:
         query = r["query"]
         passage = r["passage"]
-        score = float(r.get("score", 0.0))
+        raw_score = float(r.get("score", 0.0))
+        score = smooth(raw_score)
         is_hard_neg = r.get("is_hard_negative", False)
 
         examples.append(InputExample(texts=[query, passage], label=score))
 
-        # Duplicate hard negatives so the model sees them more often
-        if is_hard_neg and hard_negative_weight >= 2:
-            for _ in range(int(hard_negative_weight) - 1):
+        # Duplicate hard negatives; fractional weight handled by probabilistic copy
+        if is_hard_neg and hard_negative_weight > 1.0:
+            full_copies = int(hard_negative_weight) - 1
+            for _ in range(full_copies):
+                examples.append(InputExample(texts=[query, passage], label=score))
+            # Fractional part: add one more copy with that probability
+            import random
+            frac = hard_negative_weight - int(hard_negative_weight)
+            if frac > 0 and random.random() < frac:
                 examples.append(InputExample(texts=[query, passage], label=score))
 
     return examples
@@ -100,10 +125,12 @@ def main():
     parser.add_argument("--batch-size", type=int, default=16, help="Batch size (default: 16)")
     parser.add_argument("--warmup-ratio", type=float, default=0.1,
                         help="Fraction of steps for linear LR warmup (default: 0.1)")
-    parser.add_argument("--hard-neg-weight", type=float, default=2.0,
-                        help="Hard negative duplication multiplier (default: 2)")
+    parser.add_argument("--hard-neg-weight", type=float, default=1.5,
+                        help="Hard negative duplication multiplier (default: 1.5; lower = better Spearman)")
     parser.add_argument("--max-length", type=int, default=512,
                         help="Max token length for query+passage (default: 512)")
+    parser.add_argument("--label-smoothing", type=float, default=0.1,
+                        help="Label smoothing: shifts 1.0→(1-ε) and 0.0→ε to prevent score collapse (default: 0.1)")
     args = parser.parse_args()
 
     try:
@@ -133,11 +160,16 @@ def main():
     print(f"  Score distribution: {score_buckets}")
 
     hard_negs = sum(1 for r in train_rows if r.get("is_hard_negative"))
-    print(f"  Hard negatives: {hard_negs} (will be duplicated ×{int(args.hard_neg_weight)})")
+    print(f"  Hard negatives: {hard_negs} (duplication weight ×{args.hard_neg_weight})")
 
     # ── Build examples ───────────────────────────────────────────────────────
-    train_examples = make_examples(train_rows, hard_negative_weight=args.hard_neg_weight)
+    train_examples = make_examples(
+        train_rows,
+        hard_negative_weight=args.hard_neg_weight,
+        label_smoothing=args.label_smoothing,
+    )
     print(f"  Effective training examples after hard-neg duplication: {len(train_examples)}")
+    print(f"  Label smoothing ε={args.label_smoothing}  (1.0→{1.0-args.label_smoothing:.2f}, 0.0→{args.label_smoothing:.2f})")
 
     # ── Load model ───────────────────────────────────────────────────────────
     print(f"\nLoading base model: {args.base_model}")

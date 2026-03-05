@@ -1,189 +1,123 @@
 [
   {
-    "mapping_id": "T1.2.4_clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_6",
-    "source_control_id": "T1.2.4",
-    "target_policy_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_6",
+    "mapping_id": "M1.4.1_clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_11",
+    "source_control_id": "M1.4.1",
+    "target_policy_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_11",
     "status": "Partially Addressed",
-    "entailment_score": 0.3854409158229828,
-    "evidence_text": "7 POLICY STATEMENT\n\nThe organization shall develop, implement, and maintain an organization wide access control framework to:\n\n- Control access to information and information assets.\n- Manage registration and deregistration of user accounts/access.\n- Control access to both internal and external network services.\n- Control access to operating systems.\n- Control access to applications.\n- Ensure appropriate protection when accessing mobile computing and teleworking services.",
-    "mapping_date": "2026-03-03T18:00:37.386845",
+    "entailment_score": 0.27938398718833923,
+    "evidence_text": "8.5 User Access Provisioning\n\nUAE Public Prosecution shall:\n\n2. The provisioning process for assigning or revoking access rights for users shall consider the followings:\n2. Segregation of duties to ensure a proper access level is given.\n3. Access rights are not activated until an authorization process is completed.\n4. Records reflecting all user access rights are centrally kept up-to-date.\n5. Reviewing users access rights in a regular basis.\n\n1. Ensure that the provisioning/deprovisioning proces",
+    "mapping_date": "2026-03-05T15:36:06.715899",
     "reviewer": null,
-    "notes": "Reranker: 0.385"
+    "notes": "Reranker: 0.279"
   },
   {
-    "mapping_id": "T3.4.1_clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_6",
-    "source_control_id": "T3.4.1",
-    "target_policy_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_6",
+    "mapping_id": "M5.2.7_clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_18",
+    "source_control_id": "M5.2.7",
+    "target_policy_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_18",
     "status": "Partially Addressed",
-    "entailment_score": 0.30875444412231445,
-    "evidence_text": "7 POLICY STATEMENT\n\nThe organization shall develop, implement, and maintain an organization wide access control framework to:\n\n- Control access to information and information assets.\n- Manage registration and deregistration of user accounts/access.\n- Control access to both internal and external network services.\n- Control access to operating systems.\n- Control access to applications.\n- Ensure appropriate protection when accessing mobile computing and teleworking services.",
-    "mapping_date": "2026-03-03T18:01:54.095942",
+    "entailment_score": 0.2614509165287018,
+    "evidence_text": "8.12 Publicly Accessible Content\n\nUAE Public Prosecution shall:\n\n2. Designate individuals who are authorized to review and post information onto a publicly accessible information system.\n3. Provide training and awareness sessions for authorized individuals to ensure that publicly accessible information is sanitized from non-public information.\n4. Periodically scan publicly accessible information for non-public information and correct any inconsistency.\n\n1. Define publishing guidelines with requi",
+    "mapping_date": "2026-03-05T15:37:24.434468",
     "reviewer": null,
-    "notes": "Reranker: 0.309"
+    "notes": "Reranker: 0.261"
   },
   {
-    "mapping_id": "T4.2.5_clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_6",
-    "source_control_id": "T4.2.5",
-    "target_policy_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_6",
+    "mapping_id": "T1.3.3_clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_7",
+    "source_control_id": "T1.3.3",
+    "target_policy_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_7",
     "status": "Partially Addressed",
-    "entailment_score": 0.25963565707206726,
-    "evidence_text": "7 POLICY STATEMENT\n\nThe organization shall develop, implement, and maintain an organization wide access control framework to:\n\n- Control access to information and information assets.\n- Manage registration and deregistration of user accounts/access.\n- Control access to both internal and external network services.\n- Control access to operating systems.\n- Control access to applications.\n- Ensure appropriate protection when accessing mobile computing and teleworking services.",
-    "mapping_date": "2026-03-03T18:02:38.643055",
+    "entailment_score": 0.25485873222351074,
+    "evidence_text": "8.1 Access Control\n\nUAE Public Prosecution shall:\n\n1. Ensure that asset owners determine appropriate access rules, privileges, and restrictions for specific user roles towards their assets.\n2. Ensure that the following factors are considered while defining the access control framework:\n2. Information dissemination and authorization process, e.g., the need-to-know principle, information security levels and classification of information.\n3. Consistency between the access rights and data classifica",
+    "mapping_date": "2026-03-05T15:38:05.168858",
     "reviewer": null,
-    "notes": "Reranker: 0.260"
+    "notes": "Reranker: 0.255"
   },
   {
-    "mapping_id": "T4.5.1_clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_6",
-    "source_control_id": "T4.5.1",
-    "target_policy_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_6",
+    "mapping_id": "T4.3.3_clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_11",
+    "source_control_id": "T4.3.3",
+    "target_policy_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_11",
     "status": "Partially Addressed",
-    "entailment_score": 0.35958656668663025,
-    "evidence_text": "7 POLICY STATEMENT\n\nThe organization shall develop, implement, and maintain an organization wide access control framework to:\n\n- Control access to information and information assets.\n- Manage registration and deregistration of user accounts/access.\n- Control access to both internal and external network services.\n- Control access to operating systems.\n- Control access to applications.\n- Ensure appropriate protection when accessing mobile computing and teleworking services.",
-    "mapping_date": "2026-03-03T18:02:56.354781",
+    "entailment_score": 0.27264490723609924,
+    "evidence_text": "8.5 User Access Provisioning\n\nUAE Public Prosecution shall:\n\n2. The provisioning process for assigning or revoking access rights for users shall consider the followings:\n2. Segregation of duties to ensure a proper access level is given.\n3. Access rights are not activated until an authorization process is completed.\n4. Records reflecting all user access rights are centrally kept up-to-date.\n5. Reviewing users access rights in a regular basis.\n\n1. Ensure that the provisioning/deprovisioning proces",
+    "mapping_date": "2026-03-05T15:39:42.260317",
     "reviewer": null,
-    "notes": "Reranker: 0.360"
+    "notes": "Reranker: 0.273"
   },
   {
     "mapping_id": "T4.5.4_clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_9",
     "source_control_id": "T4.5.4",
     "target_policy_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_9",
-    "status": "Fully Addressed",
-    "entailment_score": 0.8605915904045105,
+    "status": "Partially Addressed",
+    "entailment_score": 0.2682698667049408,
     "evidence_text": "8.3 Wireless Access\n\nUAE Public Prosecution shall:\n\n1. Utilize authentication protocols which provide credential protection and mutual authentication for wireless networks.\n2. Ensure the selection of appropriate controls for wireless networks to address security risks such as undetected interception.\n3. Conduct periodic wireless surveys to determine security and quality of the wireless network.",
-    "mapping_date": "2026-03-03T18:03:03.535538",
+    "mapping_date": "2026-03-05T15:39:53.355174",
     "reviewer": null,
-    "notes": "Reranker: 0.861"
-  },
-  {
-    "mapping_id": "T4.5.4_clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_8",
-    "source_control_id": "T4.5.4",
-    "target_policy_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_8",
-    "status": "Fully Addressed",
-    "entailment_score": 0.45880118012428284,
-    "evidence_text": "8.2 Access to Network and Network Shares\n\nUAE Public Prosecution shall:\n\n1. Formulate a procedure to address security concerns in the use of network connections and network services including wireless network, VPN, and third-party/ external connections.\n2. Ensure that the procedure on the use of network services is consistent with this Policy.",
-    "mapping_date": "2026-03-03T18:03:03.535573",
-    "reviewer": null,
-    "notes": "Reranker: 0.459"
+    "notes": "Reranker: 0.268"
   },
   {
     "mapping_id": "T5.2.1_clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_10",
     "source_control_id": "T5.2.1",
     "target_policy_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_10",
-    "status": "Fully Addressed",
-    "entailment_score": 0.6118308305740356,
+    "status": "Partially Addressed",
+    "entailment_score": 0.2751888334751129,
     "evidence_text": "8.4 User Registration and De-Registration\n\nUAE Public Prosecution shall:\n\n2. The use of shared IDs is prohibited by default, unless there is a valid business justification which is approved by UAEPP’s senior management and CISO.\n3. Immediately disable or remove user ID’s of users who have left the organization.\n4. Perform periodic review of user access across the information and information assets to determine and disable redundant user ID’s and access privileges that are no longer required or a",
-    "mapping_date": "2026-03-03T18:03:06.891396",
+    "mapping_date": "2026-03-05T15:39:56.021327",
     "reviewer": null,
-    "notes": "Reranker: 0.612"
+    "notes": "Reranker: 0.275"
   },
   {
     "mapping_id": "T5.2.2_clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_17",
     "source_control_id": "T5.2.2",
     "target_policy_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_17",
     "status": "Partially Addressed",
-    "entailment_score": 0.38920989632606506,
+    "entailment_score": 0.26892197132110596,
     "evidence_text": "8.11 Use of Privileged Utility Programs\n\n10. System utilities shall be restricted from all users unless approved by CISO/ IS Team.\n11. All access to system utilities shall be logged and reviewed by UAEPP IS Team.\n12. Access to and use of system programs shall be restricted and controlled.\n13. All unnecessary system utilities and software shall be removed.",
-    "mapping_date": "2026-03-03T18:03:10.286848",
+    "mapping_date": "2026-03-05T15:39:58.669314",
     "reviewer": null,
-    "notes": "Reranker: 0.389"
+    "notes": "Reranker: 0.269"
   },
   {
     "mapping_id": "T5.2.4_clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_11",
     "source_control_id": "T5.2.4",
     "target_policy_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_11",
-    "status": "Fully Addressed",
-    "entailment_score": 0.7431731820106506,
+    "status": "Partially Addressed",
+    "entailment_score": 0.28375720977783203,
     "evidence_text": "8.5 User Access Provisioning\n\nUAE Public Prosecution shall:\n\n2. The provisioning process for assigning or revoking access rights for users shall consider the followings:\n2. Segregation of duties to ensure a proper access level is given.\n3. Access rights are not activated until an authorization process is completed.\n4. Records reflecting all user access rights are centrally kept up-to-date.\n5. Reviewing users access rights in a regular basis.\n\n1. Ensure that the provisioning/deprovisioning proces",
-    "mapping_date": "2026-03-03T18:03:17.006309",
+    "mapping_date": "2026-03-05T15:40:03.928188",
     "reviewer": null,
-    "notes": "Reranker: 0.743"
+    "notes": "Reranker: 0.284"
   },
   {
     "mapping_id": "T5.2.4_clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_10",
     "source_control_id": "T5.2.4",
     "target_policy_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_10",
     "status": "Partially Addressed",
-    "entailment_score": 0.4131614863872528,
+    "entailment_score": 0.2608660161495209,
     "evidence_text": "8.4 User Registration and De-Registration\n\nUAE Public Prosecution shall:\n\n2. The use of shared IDs is prohibited by default, unless there is a valid business justification which is approved by UAEPP’s senior management and CISO.\n3. Immediately disable or remove user ID’s of users who have left the organization.\n4. Perform periodic review of user access across the information and information assets to determine and disable redundant user ID’s and access privileges that are no longer required or a",
-    "mapping_date": "2026-03-03T18:03:17.006333",
+    "mapping_date": "2026-03-05T15:40:03.928206",
     "reviewer": null,
-    "notes": "Reranker: 0.413"
+    "notes": "Reranker: 0.261"
   },
   {
-    "mapping_id": "T5.3.1_clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_15",
-    "source_control_id": "T5.3.1",
-    "target_policy_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_15",
-    "status": "Fully Addressed",
-    "entailment_score": 0.5837892889976501,
-    "evidence_text": "8.9 Use of Security Credentials &amp; UAEPP Password Policy\n\n1. Ensure that the users are required to sign a statement to keep security credentials confidential.\n\nUAE Public Prosecution shall:\n\n2. Passwords shall not be transmitted in clear text during communications over networks or when stored.\n3. Credentials shall not be hardcoded into applications.\n4. The use of default credentials shall not be authorized.\n5. Approved encryption or hashing techniques shall be utilized where credentials are s",
-    "mapping_date": "2026-03-03T18:03:20.362479",
-    "reviewer": null,
-    "notes": "Reranker: 0.584"
-  },
-  {
-    "mapping_id": "T5.4.1_clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_16",
-    "source_control_id": "T5.4.1",
-    "target_policy_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_16",
+    "mapping_id": "T5.2.4_clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_7",
+    "source_control_id": "T5.2.4",
+    "target_policy_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_7",
     "status": "Partially Addressed",
-    "entailment_score": 0.2893922030925751,
-    "evidence_text": "8.10 Secure Log-on\n\n4. Login into operating systems shall be based on a formal secure logon procedure.\n5. All systems shall display a general notice warning message that access to UAEPP's systems is granted to authorized users only.\n6. The logon process on any system shall display only the limited information about the system and its purposed use.\n7. When strong authentication and identification is required, authentication methods other than passwords (e.g., token IDs, smart cards or biometrics)",
-    "mapping_date": "2026-03-03T18:03:23.912519",
+    "entailment_score": 0.2566258907318115,
+    "evidence_text": "8.1 Access Control\n\nUAE Public Prosecution shall:\n\n1. Ensure that asset owners determine appropriate access rules, privileges, and restrictions for specific user roles towards their assets.\n2. Ensure that the following factors are considered while defining the access control framework:\n2. Information dissemination and authorization process, e.g., the need-to-know principle, information security levels and classification of information.\n3. Consistency between the access rights and data classifica",
+    "mapping_date": "2026-03-05T15:40:03.928173",
     "reviewer": null,
-    "notes": "Reranker: 0.289"
+    "notes": "Reranker: 0.257"
   },
   {
     "mapping_id": "T5.4.2_clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_9",
     "source_control_id": "T5.4.2",
     "target_policy_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_9",
     "status": "Partially Addressed",
-    "entailment_score": 0.2529783546924591,
+    "entailment_score": 0.25799742341041565,
     "evidence_text": "8.3 Wireless Access\n\nUAE Public Prosecution shall:\n\n1. Utilize authentication protocols which provide credential protection and mutual authentication for wireless networks.\n2. Ensure the selection of appropriate controls for wireless networks to address security risks such as undetected interception.\n3. Conduct periodic wireless surveys to determine security and quality of the wireless network.",
-    "mapping_date": "2026-03-03T18:03:27.314314",
+    "mapping_date": "2026-03-05T15:40:11.899120",
     "reviewer": null,
-    "notes": "Reranker: 0.253"
-  },
-  {
-    "mapping_id": "T5.5.1_clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_6",
-    "source_control_id": "T5.5.1",
-    "target_policy_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_6",
-    "status": "Partially Addressed",
-    "entailment_score": 0.4073948860168457,
-    "evidence_text": "7 POLICY STATEMENT\n\nThe organization shall develop, implement, and maintain an organization wide access control framework to:\n\n- Control access to information and information assets.\n- Manage registration and deregistration of user accounts/access.\n- Control access to both internal and external network services.\n- Control access to operating systems.\n- Control access to applications.\n- Ensure appropriate protection when accessing mobile computing and teleworking services.",
-    "mapping_date": "2026-03-03T18:03:34.114888",
-    "reviewer": null,
-    "notes": "Reranker: 0.407"
-  },
-  {
-    "mapping_id": "T5.5.3_clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_14",
-    "source_control_id": "T5.5.3",
-    "target_policy_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_14",
-    "status": "Partially Addressed",
-    "entailment_score": 0.37575796246528625,
-    "evidence_text": "8.8 User Security Credentials Management\n\nUAE Public Prosecution shall:\n\n2. Configure information assets to implement prescribed controls on access management.\n3. Establish user access and secure credentials management procedures.",
-    "mapping_date": "2026-03-03T18:03:41.069429",
-    "reviewer": null,
-    "notes": "Reranker: 0.376"
-  },
-  {
-    "mapping_id": "T5.6.1_clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_6",
-    "source_control_id": "T5.6.1",
-    "target_policy_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_6",
-    "status": "Fully Addressed",
-    "entailment_score": 0.5445528030395508,
-    "evidence_text": "7 POLICY STATEMENT\n\nThe organization shall develop, implement, and maintain an organization wide access control framework to:\n\n- Control access to information and information assets.\n- Manage registration and deregistration of user accounts/access.\n- Control access to both internal and external network services.\n- Control access to operating systems.\n- Control access to applications.\n- Ensure appropriate protection when accessing mobile computing and teleworking services.",
-    "mapping_date": "2026-03-03T18:03:44.523873",
-    "reviewer": null,
-    "notes": "Reranker: 0.545"
-  },
-  {
-    "mapping_id": "T5.7.2_clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_6",
-    "source_control_id": "T5.7.2",
-    "target_policy_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_6",
-    "status": "Fully Addressed",
-    "entailment_score": 0.7784125208854675,
-    "evidence_text": "7 POLICY STATEMENT\n\nThe organization shall develop, implement, and maintain an organization wide access control framework to:\n\n- Control access to information and information assets.\n- Manage registration and deregistration of user accounts/access.\n- Control access to both internal and external network services.\n- Control access to operating systems.\n- Control access to applications.\n- Ensure appropriate protection when accessing mobile computing and teleworking services.",
-    "mapping_date": "2026-03-03T18:03:54.922675",
-    "reviewer": null,
-    "notes": "Reranker: 0.778"
+    "notes": "Reranker: 0.258"
   }
 ]

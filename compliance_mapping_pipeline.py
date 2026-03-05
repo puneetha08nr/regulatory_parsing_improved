@@ -539,8 +539,27 @@ class CrossEncoderReranker:
         if RERANKER_AVAILABLE and CrossEncoder is not None:
             self.model = self._try_load(model_name)
 
+    def _ensure_config_model_type(self, path: str) -> bool:
+        """If config.json exists but lacks model_type, add it (for HF AutoModel). Returns True if ok to load."""
+        import os
+        config_path = os.path.join(path, "config.json")
+        if not os.path.isfile(config_path):
+            return True  # no config here, skip
+        try:
+            with open(config_path, encoding="utf-8") as f:
+                config = json.load(f)
+            if config.get("model_type"):
+                return True
+            # sentence-transformers sometimes saves without model_type; BGE is RoBERTa-based
+            config["model_type"] = "roberta"
+            with open(config_path, "w", encoding="utf-8") as f:
+                json.dump(config, f, indent=2)
+            return True
+        except Exception:
+            return False
+
     def _try_load(self, model_name: str):
-        """Load CrossEncoder, handling sentence-transformers v3 subdirectory layout."""
+        """Load CrossEncoder, handling sentence-transformers v3 subdirectory layout and missing config.model_type."""
         import os
         candidates = [model_name]
         # sentence-transformers v3 CrossEncoder.save() nests weights under 0_CrossEncoder/
@@ -551,6 +570,9 @@ class CrossEncoderReranker:
                     candidates.insert(0, p)
         last_err = None
         for path in candidates:
+            if not os.path.isdir(path):
+                continue
+            self._ensure_config_model_type(path)
             try:
                 m = CrossEncoder(path)
                 print(f"   ✓ Reranker loaded from: {path}")

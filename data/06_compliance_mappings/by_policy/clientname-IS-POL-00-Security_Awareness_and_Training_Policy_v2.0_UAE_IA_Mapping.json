@@ -6,7 +6,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.25703299045562744,
     "evidence_text": "8.2 Role Specific Training\n\n&lt;&lt;CLIENT&gt;&gt; shall:\n\n1. Provide Role specific security training for employees/contractors with assigned administrative or technical roles and responsibilities involving access to sensitive information systems.\n2. Administer Role specific security training before granting employees/contractors privileged access to the information systems or before employees/contractors begin performing assigned duties.\n3. Define frequency for Role specific security trainings ",
-    "mapping_date": "2026-03-05T15:35:42.949822",
+    "mapping_date": "2026-03-05T15:53:57.022757",
     "reviewer": null,
     "notes": "Reranker: 0.257"
   },
@@ -17,7 +17,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2548655867576599,
     "evidence_text": "7 POLICY STATEMENT\n\n&lt;&lt;CLIENT&gt;&gt; shall develop, implement, and maintain an awareness and training program to inform all employees of the information security, business continuity and data privacy risks associated with their activities.\n\nFurther, &lt;&lt;CLIENT&gt;&gt; shall ensure that employees and third parties are adequately trained to carry out their assigned information security responsibilities.",
-    "mapping_date": "2026-03-05T15:35:42.949792",
+    "mapping_date": "2026-03-05T15:53:57.022728",
     "reviewer": null,
     "notes": "Reranker: 0.255"
   },
@@ -28,7 +28,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.28728917241096497,
     "evidence_text": "7 POLICY STATEMENT\n\n&lt;&lt;CLIENT&gt;&gt; shall develop, implement, and maintain an awareness and training program to inform all employees of the information security, business continuity and data privacy risks associated with their activities.\n\nFurther, &lt;&lt;CLIENT&gt;&gt; shall ensure that employees and third parties are adequately trained to carry out their assigned information security responsibilities.",
-    "mapping_date": "2026-03-05T15:35:45.551527",
+    "mapping_date": "2026-03-05T15:53:59.623873",
     "reviewer": null,
     "notes": "Reranker: 0.287"
   },
@@ -39,7 +39,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2832295000553131,
     "evidence_text": "7 POLICY STATEMENT\n\n&lt;&lt;CLIENT&gt;&gt; shall develop, implement, and maintain an awareness and training program to inform all employees of the information security, business continuity and data privacy risks associated with their activities.\n\nFurther, &lt;&lt;CLIENT&gt;&gt; shall ensure that employees and third parties are adequately trained to carry out their assigned information security responsibilities.",
-    "mapping_date": "2026-03-05T15:35:48.124903",
+    "mapping_date": "2026-03-05T15:54:02.219932",
     "reviewer": null,
     "notes": "Reranker: 0.283"
   },
@@ -50,7 +50,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2759369909763336,
     "evidence_text": "5 PURPOSE\n\nThe purpose of this Security Awareness and Training Policy (“Policy”) is to define a framework for security awareness and training processes to ensure that a proactive and risk-aware information security culture exists within &lt;&lt;CLIENT&gt;&gt;.\n\nFurther, this Policy establishes a commitment to comply with applicable sections of the federal and global laws and regulations, including but not limited to UAE Information Assurance Regulation, UAE Federal Law 45, ISO 20000, ISO 27001, ",
-    "mapping_date": "2026-03-05T15:35:48.124913",
+    "mapping_date": "2026-03-05T15:54:02.219948",
     "reviewer": null,
     "notes": "Reranker: 0.276"
   },
@@ -61,7 +61,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.28126823902130127,
     "evidence_text": "8.1 Awareness and Training Program\n\n&lt;&lt;CLIENT&gt;&gt; shall:\n\n1. Develop and formalize an Information Security (IS) awareness and training program that ensures continued awareness and competence of all &lt;&lt;CLIENT&gt;&gt; employees, including contractors, third-parties, and all other stakeholders with access to information assets.\n2. Ensure that Information Security awareness and training program raise awareness and compliance about &lt;&lt;CLIENT&gt;&gt;’s Integrated Management System a",
-    "mapping_date": "2026-03-05T15:35:50.718311",
+    "mapping_date": "2026-03-05T15:54:04.801825",
     "reviewer": null,
     "notes": "Reranker: 0.281"
   },
@@ -72,7 +72,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2544436454772949,
     "evidence_text": "8.2 Role Specific Training\n\n&lt;&lt;CLIENT&gt;&gt; shall:\n\n1. Provide Role specific security training for employees/contractors with assigned administrative or technical roles and responsibilities involving access to sensitive information systems.\n2. Administer Role specific security training before granting employees/contractors privileged access to the information systems or before employees/contractors begin performing assigned duties.\n3. Define frequency for Role specific security trainings ",
-    "mapping_date": "2026-03-05T15:35:53.269235",
+    "mapping_date": "2026-03-05T15:54:07.347176",
     "reviewer": null,
     "notes": "Reranker: 0.254"
   },
@@ -83,7 +83,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.25773558020591736,
     "evidence_text": "5 PURPOSE\n\nThe purpose of this Security Awareness and Training Policy (“Policy”) is to define a framework for security awareness and training processes to ensure that a proactive and risk-aware information security culture exists within &lt;&lt;CLIENT&gt;&gt;.\n\nFurther, this Policy establishes a commitment to comply with applicable sections of the federal and global laws and regulations, including but not limited to UAE Information Assurance Regulation, UAE Federal Law 45, ISO 20000, ISO 27001, ",
-    "mapping_date": "2026-03-05T15:35:55.883542",
+    "mapping_date": "2026-03-05T15:54:09.953388",
     "reviewer": null,
     "notes": "Reranker: 0.258"
   },
@@ -94,7 +94,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.27945253252983093,
     "evidence_text": "8.1 Awareness and Training Program\n\n&lt;&lt;CLIENT&gt;&gt; shall:\n\n1. Develop and formalize an Information Security (IS) awareness and training program that ensures continued awareness and competence of all &lt;&lt;CLIENT&gt;&gt; employees, including contractors, third-parties, and all other stakeholders with access to information assets.\n2. Ensure that Information Security awareness and training program raise awareness and compliance about &lt;&lt;CLIENT&gt;&gt;’s Integrated Management System a",
-    "mapping_date": "2026-03-05T15:36:03.581346",
+    "mapping_date": "2026-03-05T15:54:17.685010",
     "reviewer": null,
     "notes": "Reranker: 0.279"
   },
@@ -105,7 +105,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.281776487827301,
     "evidence_text": "8.1 Awareness and Training Program\n\n&lt;&lt;CLIENT&gt;&gt; shall:\n\n1. Develop and formalize an Information Security (IS) awareness and training program that ensures continued awareness and competence of all &lt;&lt;CLIENT&gt;&gt; employees, including contractors, third-parties, and all other stakeholders with access to information assets.\n2. Ensure that Information Security awareness and training program raise awareness and compliance about &lt;&lt;CLIENT&gt;&gt;’s Integrated Management System a",
-    "mapping_date": "2026-03-05T15:36:06.171515",
+    "mapping_date": "2026-03-05T15:54:20.319726",
     "reviewer": null,
     "notes": "Reranker: 0.282"
   },
@@ -116,7 +116,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.27587926387786865,
     "evidence_text": "7 POLICY STATEMENT\n\n&lt;&lt;CLIENT&gt;&gt; shall develop, implement, and maintain an awareness and training program to inform all employees of the information security, business continuity and data privacy risks associated with their activities.\n\nFurther, &lt;&lt;CLIENT&gt;&gt; shall ensure that employees and third parties are adequately trained to carry out their assigned information security responsibilities.",
-    "mapping_date": "2026-03-05T15:36:16.572829",
+    "mapping_date": "2026-03-05T15:54:30.718844",
     "reviewer": null,
     "notes": "Reranker: 0.276"
   },
@@ -127,7 +127,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2603079080581665,
     "evidence_text": "5 PURPOSE\n\nThe purpose of this Security Awareness and Training Policy (“Policy”) is to define a framework for security awareness and training processes to ensure that a proactive and risk-aware information security culture exists within &lt;&lt;CLIENT&gt;&gt;.\n\nFurther, this Policy establishes a commitment to comply with applicable sections of the federal and global laws and regulations, including but not limited to UAE Information Assurance Regulation, UAE Federal Law 45, ISO 20000, ISO 27001, ",
-    "mapping_date": "2026-03-05T15:36:16.572880",
+    "mapping_date": "2026-03-05T15:54:30.718895",
     "reviewer": null,
     "notes": "Reranker: 0.260"
   },
@@ -138,7 +138,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2861190140247345,
     "evidence_text": "7 POLICY STATEMENT\n\n&lt;&lt;CLIENT&gt;&gt; shall develop, implement, and maintain an awareness and training program to inform all employees of the information security, business continuity and data privacy risks associated with their activities.\n\nFurther, &lt;&lt;CLIENT&gt;&gt; shall ensure that employees and third parties are adequately trained to carry out their assigned information security responsibilities.",
-    "mapping_date": "2026-03-05T15:36:19.087716",
+    "mapping_date": "2026-03-05T15:54:33.237108",
     "reviewer": null,
     "notes": "Reranker: 0.286"
   },
@@ -149,9 +149,20 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2812756299972534,
     "evidence_text": "7 POLICY STATEMENT\n\n&lt;&lt;CLIENT&gt;&gt; shall develop, implement, and maintain an awareness and training program to inform all employees of the information security, business continuity and data privacy risks associated with their activities.\n\nFurther, &lt;&lt;CLIENT&gt;&gt; shall ensure that employees and third parties are adequately trained to carry out their assigned information security responsibilities.",
-    "mapping_date": "2026-03-05T15:36:21.627639",
+    "mapping_date": "2026-03-05T15:54:35.794747",
     "reviewer": null,
     "notes": "Reranker: 0.281"
+  },
+  {
+    "mapping_id": "M2.3.2_clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_6",
+    "source_control_id": "M2.3.2",
+    "target_policy_id": "clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_6",
+    "status": "Partially Addressed",
+    "entailment_score": 0.22197966277599335,
+    "evidence_text": "7 POLICY STATEMENT\n\n&lt;&lt;CLIENT&gt;&gt; shall develop, implement, and maintain an awareness and training program to inform all employees of the information security, business continuity and data privacy risks associated with their activities.\n\nFurther, &lt;&lt;CLIENT&gt;&gt; shall ensure that employees and third parties are adequately trained to carry out their assigned information security responsibilities.",
+    "mapping_date": "2026-03-05T15:54:41.107778",
+    "reviewer": null,
+    "notes": "Reranker: 0.222"
   },
   {
     "mapping_id": "M3.1.1_clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_6",
@@ -160,7 +171,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.31676438450813293,
     "evidence_text": "7 POLICY STATEMENT\n\n&lt;&lt;CLIENT&gt;&gt; shall develop, implement, and maintain an awareness and training program to inform all employees of the information security, business continuity and data privacy risks associated with their activities.\n\nFurther, &lt;&lt;CLIENT&gt;&gt; shall ensure that employees and third parties are adequately trained to carry out their assigned information security responsibilities.",
-    "mapping_date": "2026-03-05T15:36:35.108968",
+    "mapping_date": "2026-03-05T15:54:49.261402",
     "reviewer": null,
     "notes": "Reranker: 0.317"
   },
@@ -171,7 +182,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.30625253915786743,
     "evidence_text": "5 PURPOSE\n\nThe purpose of this Security Awareness and Training Policy (“Policy”) is to define a framework for security awareness and training processes to ensure that a proactive and risk-aware information security culture exists within &lt;&lt;CLIENT&gt;&gt;.\n\nFurther, this Policy establishes a commitment to comply with applicable sections of the federal and global laws and regulations, including but not limited to UAE Information Assurance Regulation, UAE Federal Law 45, ISO 20000, ISO 27001, ",
-    "mapping_date": "2026-03-05T15:36:35.108974",
+    "mapping_date": "2026-03-05T15:54:49.261408",
     "reviewer": null,
     "notes": "Reranker: 0.306"
   },
@@ -182,7 +193,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2891649007797241,
     "evidence_text": "8.1 Awareness and Training Program\n\n&lt;&lt;CLIENT&gt;&gt; shall:\n\n1. Develop and formalize an Information Security (IS) awareness and training program that ensures continued awareness and competence of all &lt;&lt;CLIENT&gt;&gt; employees, including contractors, third-parties, and all other stakeholders with access to information assets.\n2. Ensure that Information Security awareness and training program raise awareness and compliance about &lt;&lt;CLIENT&gt;&gt;’s Integrated Management System a",
-    "mapping_date": "2026-03-05T15:36:35.108942",
+    "mapping_date": "2026-03-05T15:54:49.261376",
     "reviewer": null,
     "notes": "Reranker: 0.289"
   },
@@ -193,7 +204,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2735287547111511,
     "evidence_text": "8.3 Training Records\n\n&lt;&lt;CLIENT&gt;&gt; shall:\n\n1. Document and monitor individual security training activities, including basic security awareness training and any Role specific security training.\n2. Retain training records for appropriate periods as defined by [&lt;&lt;CLIENT&gt;&gt;-ORG-IMS-POL-013-Records Retention and Protection Policy].",
-    "mapping_date": "2026-03-05T15:36:35.108996",
+    "mapping_date": "2026-03-05T15:54:49.261429",
     "reviewer": null,
     "notes": "Reranker: 0.274"
   },
@@ -204,7 +215,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.27164584398269653,
     "evidence_text": "5 PURPOSE\n\nThe purpose of this Security Awareness and Training Policy (“Policy”) is to define a framework for security awareness and training processes to ensure that a proactive and risk-aware information security culture exists within &lt;&lt;CLIENT&gt;&gt;.\n\nFurther, this Policy establishes a commitment to comply with applicable sections of the federal and global laws and regulations, including but not limited to UAE Information Assurance Regulation, UAE Federal Law 45, ISO 20000, ISO 27001, ",
-    "mapping_date": "2026-03-05T15:36:37.655039",
+    "mapping_date": "2026-03-05T15:54:51.820212",
     "reviewer": null,
     "notes": "Reranker: 0.272"
   },
@@ -215,7 +226,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2808460593223572,
     "evidence_text": "7 POLICY STATEMENT\n\n&lt;&lt;CLIENT&gt;&gt; shall develop, implement, and maintain an awareness and training program to inform all employees of the information security, business continuity and data privacy risks associated with their activities.\n\nFurther, &lt;&lt;CLIENT&gt;&gt; shall ensure that employees and third parties are adequately trained to carry out their assigned information security responsibilities.",
-    "mapping_date": "2026-03-05T15:36:40.195973",
+    "mapping_date": "2026-03-05T15:54:54.350156",
     "reviewer": null,
     "notes": "Reranker: 0.281"
   },
@@ -226,7 +237,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2767322361469269,
     "evidence_text": "5 PURPOSE\n\nThe purpose of this Security Awareness and Training Policy (“Policy”) is to define a framework for security awareness and training processes to ensure that a proactive and risk-aware information security culture exists within &lt;&lt;CLIENT&gt;&gt;.\n\nFurther, this Policy establishes a commitment to comply with applicable sections of the federal and global laws and regulations, including but not limited to UAE Information Assurance Regulation, UAE Federal Law 45, ISO 20000, ISO 27001, ",
-    "mapping_date": "2026-03-05T15:36:40.195958",
+    "mapping_date": "2026-03-05T15:54:54.350142",
     "reviewer": null,
     "notes": "Reranker: 0.277"
   },
@@ -237,9 +248,20 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2751336693763733,
     "evidence_text": "8.1 Awareness and Training Program\n\n&lt;&lt;CLIENT&gt;&gt; shall:\n\n1. Develop and formalize an Information Security (IS) awareness and training program that ensures continued awareness and competence of all &lt;&lt;CLIENT&gt;&gt; employees, including contractors, third-parties, and all other stakeholders with access to information assets.\n2. Ensure that Information Security awareness and training program raise awareness and compliance about &lt;&lt;CLIENT&gt;&gt;’s Integrated Management System a",
-    "mapping_date": "2026-03-05T15:36:40.195932",
+    "mapping_date": "2026-03-05T15:54:54.350119",
     "reviewer": null,
     "notes": "Reranker: 0.275"
+  },
+  {
+    "mapping_id": "M3.3.2_clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_8",
+    "source_control_id": "M3.3.2",
+    "target_policy_id": "clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_8",
+    "status": "Partially Addressed",
+    "entailment_score": 0.23679621517658234,
+    "evidence_text": "8.2 Role Specific Training\n\n&lt;&lt;CLIENT&gt;&gt; shall:\n\n1. Provide Role specific security training for employees/contractors with assigned administrative or technical roles and responsibilities involving access to sensitive information systems.\n2. Administer Role specific security training before granting employees/contractors privileged access to the information systems or before employees/contractors begin performing assigned duties.\n3. Define frequency for Role specific security trainings ",
+    "mapping_date": "2026-03-05T15:54:56.992032",
+    "reviewer": null,
+    "notes": "Reranker: 0.237"
   },
   {
     "mapping_id": "M3.3.4_clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_8",
@@ -248,7 +270,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2694178819656372,
     "evidence_text": "8.2 Role Specific Training\n\n&lt;&lt;CLIENT&gt;&gt; shall:\n\n1. Provide Role specific security training for employees/contractors with assigned administrative or technical roles and responsibilities involving access to sensitive information systems.\n2. Administer Role specific security training before granting employees/contractors privileged access to the information systems or before employees/contractors begin performing assigned duties.\n3. Define frequency for Role specific security trainings ",
-    "mapping_date": "2026-03-05T15:36:45.392600",
+    "mapping_date": "2026-03-05T15:54:59.540302",
     "reviewer": null,
     "notes": "Reranker: 0.269"
   },
@@ -259,7 +281,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2665713131427765,
     "evidence_text": "5 PURPOSE\n\nThe purpose of this Security Awareness and Training Policy (“Policy”) is to define a framework for security awareness and training processes to ensure that a proactive and risk-aware information security culture exists within &lt;&lt;CLIENT&gt;&gt;.\n\nFurther, this Policy establishes a commitment to comply with applicable sections of the federal and global laws and regulations, including but not limited to UAE Information Assurance Regulation, UAE Federal Law 45, ISO 20000, ISO 27001, ",
-    "mapping_date": "2026-03-05T15:36:45.392566",
+    "mapping_date": "2026-03-05T15:54:59.540273",
     "reviewer": null,
     "notes": "Reranker: 0.267"
   },
@@ -270,7 +292,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2644180357456207,
     "evidence_text": "8.3 Training Records\n\n&lt;&lt;CLIENT&gt;&gt; shall:\n\n1. Document and monitor individual security training activities, including basic security awareness training and any Role specific security training.\n2. Retain training records for appropriate periods as defined by [&lt;&lt;CLIENT&gt;&gt;-ORG-IMS-POL-013-Records Retention and Protection Policy].",
-    "mapping_date": "2026-03-05T15:36:45.392592",
+    "mapping_date": "2026-03-05T15:54:59.540296",
     "reviewer": null,
     "notes": "Reranker: 0.264"
   },
@@ -281,7 +303,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.26861876249313354,
     "evidence_text": "7 POLICY STATEMENT\n\n&lt;&lt;CLIENT&gt;&gt; shall develop, implement, and maintain an awareness and training program to inform all employees of the information security, business continuity and data privacy risks associated with their activities.\n\nFurther, &lt;&lt;CLIENT&gt;&gt; shall ensure that employees and third parties are adequately trained to carry out their assigned information security responsibilities.",
-    "mapping_date": "2026-03-05T15:36:47.966673",
+    "mapping_date": "2026-03-05T15:55:02.113714",
     "reviewer": null,
     "notes": "Reranker: 0.269"
   },
@@ -292,7 +314,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2665878236293793,
     "evidence_text": "8.1 Awareness and Training Program\n\n&lt;&lt;CLIENT&gt;&gt; shall:\n\n1. Develop and formalize an Information Security (IS) awareness and training program that ensures continued awareness and competence of all &lt;&lt;CLIENT&gt;&gt; employees, including contractors, third-parties, and all other stakeholders with access to information assets.\n2. Ensure that Information Security awareness and training program raise awareness and compliance about &lt;&lt;CLIENT&gt;&gt;’s Integrated Management System a",
-    "mapping_date": "2026-03-05T15:36:47.966637",
+    "mapping_date": "2026-03-05T15:55:02.113677",
     "reviewer": null,
     "notes": "Reranker: 0.267"
   },
@@ -303,7 +325,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2607717514038086,
     "evidence_text": "5 PURPOSE\n\nThe purpose of this Security Awareness and Training Policy (“Policy”) is to define a framework for security awareness and training processes to ensure that a proactive and risk-aware information security culture exists within &lt;&lt;CLIENT&gt;&gt;.\n\nFurther, this Policy establishes a commitment to comply with applicable sections of the federal and global laws and regulations, including but not limited to UAE Information Assurance Regulation, UAE Federal Law 45, ISO 20000, ISO 27001, ",
-    "mapping_date": "2026-03-05T15:36:47.966669",
+    "mapping_date": "2026-03-05T15:55:02.113710",
     "reviewer": null,
     "notes": "Reranker: 0.261"
   },
@@ -314,7 +336,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.26860949397087097,
     "evidence_text": "7 POLICY STATEMENT\n\n&lt;&lt;CLIENT&gt;&gt; shall develop, implement, and maintain an awareness and training program to inform all employees of the information security, business continuity and data privacy risks associated with their activities.\n\nFurther, &lt;&lt;CLIENT&gt;&gt; shall ensure that employees and third parties are adequately trained to carry out their assigned information security responsibilities.",
-    "mapping_date": "2026-03-05T15:36:50.586509",
+    "mapping_date": "2026-03-05T15:55:04.743847",
     "reviewer": null,
     "notes": "Reranker: 0.269"
   },
@@ -325,7 +347,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.27991169691085815,
     "evidence_text": "7 POLICY STATEMENT\n\n&lt;&lt;CLIENT&gt;&gt; shall develop, implement, and maintain an awareness and training program to inform all employees of the information security, business continuity and data privacy risks associated with their activities.\n\nFurther, &lt;&lt;CLIENT&gt;&gt; shall ensure that employees and third parties are adequately trained to carry out their assigned information security responsibilities.",
-    "mapping_date": "2026-03-05T15:36:56.225736",
+    "mapping_date": "2026-03-05T15:55:10.354925",
     "reviewer": null,
     "notes": "Reranker: 0.280"
   },
@@ -336,7 +358,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2728501856327057,
     "evidence_text": "8.1 Awareness and Training Program\n\n&lt;&lt;CLIENT&gt;&gt; shall:\n\n1. Develop and formalize an Information Security (IS) awareness and training program that ensures continued awareness and competence of all &lt;&lt;CLIENT&gt;&gt; employees, including contractors, third-parties, and all other stakeholders with access to information assets.\n2. Ensure that Information Security awareness and training program raise awareness and compliance about &lt;&lt;CLIENT&gt;&gt;’s Integrated Management System a",
-    "mapping_date": "2026-03-05T15:36:56.225789",
+    "mapping_date": "2026-03-05T15:55:10.354974",
     "reviewer": null,
     "notes": "Reranker: 0.273"
   },
@@ -347,7 +369,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.271295428276062,
     "evidence_text": "&lt;Client&gt;-ORG-IMS-POL-011\n\n<!-- image -->\n\nAbstract\n\nThis Policy outlines requirements and responsibilities towards formulating and delivering information security, data privacy and business continuity awareness trainings to its employees/end-users in effective and efficient ways.\n\n<!-- image -->\n\n**STATEMENT OF CONFIDENTIALITY**\n\nAll information in this document is PRIVILEGED and for INTERNAL USE ONLY.\n\nThe information in this document may contain  proprietary trade secrets and confidentia",
-    "mapping_date": "2026-03-05T15:36:56.225773",
+    "mapping_date": "2026-03-05T15:55:10.354961",
     "reviewer": null,
     "notes": "Reranker: 0.271"
   },
@@ -358,7 +380,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.28279218077659607,
     "evidence_text": "7 POLICY STATEMENT\n\n&lt;&lt;CLIENT&gt;&gt; shall develop, implement, and maintain an awareness and training program to inform all employees of the information security, business continuity and data privacy risks associated with their activities.\n\nFurther, &lt;&lt;CLIENT&gt;&gt; shall ensure that employees and third parties are adequately trained to carry out their assigned information security responsibilities.",
-    "mapping_date": "2026-03-05T15:36:58.968478",
+    "mapping_date": "2026-03-05T15:55:13.111349",
     "reviewer": null,
     "notes": "Reranker: 0.283"
   },
@@ -369,7 +391,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2699839770793915,
     "evidence_text": "8.1 Awareness and Training Program\n\n&lt;&lt;CLIENT&gt;&gt; shall:\n\n1. Develop and formalize an Information Security (IS) awareness and training program that ensures continued awareness and competence of all &lt;&lt;CLIENT&gt;&gt; employees, including contractors, third-parties, and all other stakeholders with access to information assets.\n2. Ensure that Information Security awareness and training program raise awareness and compliance about &lt;&lt;CLIENT&gt;&gt;’s Integrated Management System a",
-    "mapping_date": "2026-03-05T15:37:07.163325",
+    "mapping_date": "2026-03-05T15:55:21.317294",
     "reviewer": null,
     "notes": "Reranker: 0.270"
   },
@@ -380,7 +402,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.27342090010643005,
     "evidence_text": "7 POLICY STATEMENT\n\n&lt;&lt;CLIENT&gt;&gt; shall develop, implement, and maintain an awareness and training program to inform all employees of the information security, business continuity and data privacy risks associated with their activities.\n\nFurther, &lt;&lt;CLIENT&gt;&gt; shall ensure that employees and third parties are adequately trained to carry out their assigned information security responsibilities.",
-    "mapping_date": "2026-03-05T15:37:12.755171",
+    "mapping_date": "2026-03-05T15:55:26.919342",
     "reviewer": null,
     "notes": "Reranker: 0.273"
   },
@@ -391,7 +413,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.27286750078201294,
     "evidence_text": "5 PURPOSE\n\nThe purpose of this Security Awareness and Training Policy (“Policy”) is to define a framework for security awareness and training processes to ensure that a proactive and risk-aware information security culture exists within &lt;&lt;CLIENT&gt;&gt;.\n\nFurther, this Policy establishes a commitment to comply with applicable sections of the federal and global laws and regulations, including but not limited to UAE Information Assurance Regulation, UAE Federal Law 45, ISO 20000, ISO 27001, ",
-    "mapping_date": "2026-03-05T15:37:12.755218",
+    "mapping_date": "2026-03-05T15:55:26.919391",
     "reviewer": null,
     "notes": "Reranker: 0.273"
   },
@@ -402,7 +424,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2534492611885071,
     "evidence_text": "7 POLICY STATEMENT\n\n&lt;&lt;CLIENT&gt;&gt; shall develop, implement, and maintain an awareness and training program to inform all employees of the information security, business continuity and data privacy risks associated with their activities.\n\nFurther, &lt;&lt;CLIENT&gt;&gt; shall ensure that employees and third parties are adequately trained to carry out their assigned information security responsibilities.",
-    "mapping_date": "2026-03-05T15:37:21.154108",
+    "mapping_date": "2026-03-05T15:55:35.306921",
     "reviewer": null,
     "notes": "Reranker: 0.253"
   },
@@ -413,7 +435,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.27778884768486023,
     "evidence_text": "7 POLICY STATEMENT\n\n&lt;&lt;CLIENT&gt;&gt; shall develop, implement, and maintain an awareness and training program to inform all employees of the information security, business continuity and data privacy risks associated with their activities.\n\nFurther, &lt;&lt;CLIENT&gt;&gt; shall ensure that employees and third parties are adequately trained to carry out their assigned information security responsibilities.",
-    "mapping_date": "2026-03-05T15:37:29.593953",
+    "mapping_date": "2026-03-05T15:55:43.797357",
     "reviewer": null,
     "notes": "Reranker: 0.278"
   },
@@ -424,9 +446,20 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2676640450954437,
     "evidence_text": "5 PURPOSE\n\nThe purpose of this Security Awareness and Training Policy (“Policy”) is to define a framework for security awareness and training processes to ensure that a proactive and risk-aware information security culture exists within &lt;&lt;CLIENT&gt;&gt;.\n\nFurther, this Policy establishes a commitment to comply with applicable sections of the federal and global laws and regulations, including but not limited to UAE Information Assurance Regulation, UAE Federal Law 45, ISO 20000, ISO 27001, ",
-    "mapping_date": "2026-03-05T15:37:29.593984",
+    "mapping_date": "2026-03-05T15:55:43.797404",
     "reviewer": null,
     "notes": "Reranker: 0.268"
+  },
+  {
+    "mapping_id": "M6.1.1_clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_8",
+    "source_control_id": "M6.1.1",
+    "target_policy_id": "clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_8",
+    "status": "Partially Addressed",
+    "entailment_score": 0.23093219101428986,
+    "evidence_text": "8.2 Role Specific Training\n\n&lt;&lt;CLIENT&gt;&gt; shall:\n\n1. Provide Role specific security training for employees/contractors with assigned administrative or technical roles and responsibilities involving access to sensitive information systems.\n2. Administer Role specific security training before granting employees/contractors privileged access to the information systems or before employees/contractors begin performing assigned duties.\n3. Define frequency for Role specific security trainings ",
+    "mapping_date": "2026-03-05T15:55:54.948300",
+    "reviewer": null,
+    "notes": "Reranker: 0.231"
   },
   {
     "mapping_id": "M6.2.1_clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_6",
@@ -435,7 +468,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2718491554260254,
     "evidence_text": "7 POLICY STATEMENT\n\n&lt;&lt;CLIENT&gt;&gt; shall develop, implement, and maintain an awareness and training program to inform all employees of the information security, business continuity and data privacy risks associated with their activities.\n\nFurther, &lt;&lt;CLIENT&gt;&gt; shall ensure that employees and third parties are adequately trained to carry out their assigned information security responsibilities.",
-    "mapping_date": "2026-03-05T15:37:43.390850",
+    "mapping_date": "2026-03-05T15:55:57.649459",
     "reviewer": null,
     "notes": "Reranker: 0.272"
   },
@@ -446,7 +479,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.26150187849998474,
     "evidence_text": "8.2 Role Specific Training\n\n&lt;&lt;CLIENT&gt;&gt; shall:\n\n1. Provide Role specific security training for employees/contractors with assigned administrative or technical roles and responsibilities involving access to sensitive information systems.\n2. Administer Role specific security training before granting employees/contractors privileged access to the information systems or before employees/contractors begin performing assigned duties.\n3. Define frequency for Role specific security trainings ",
-    "mapping_date": "2026-03-05T15:37:46.119774",
+    "mapping_date": "2026-03-05T15:56:00.313279",
     "reviewer": null,
     "notes": "Reranker: 0.262"
   },
@@ -457,7 +490,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.26024022698402405,
     "evidence_text": "7 POLICY STATEMENT\n\n&lt;&lt;CLIENT&gt;&gt; shall develop, implement, and maintain an awareness and training program to inform all employees of the information security, business continuity and data privacy risks associated with their activities.\n\nFurther, &lt;&lt;CLIENT&gt;&gt; shall ensure that employees and third parties are adequately trained to carry out their assigned information security responsibilities.",
-    "mapping_date": "2026-03-05T15:37:46.119716",
+    "mapping_date": "2026-03-05T15:56:00.313246",
     "reviewer": null,
     "notes": "Reranker: 0.260"
   },
@@ -468,7 +501,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.26324263215065,
     "evidence_text": "8.1 Awareness and Training Program\n\n&lt;&lt;CLIENT&gt;&gt; shall:\n\n1. Develop and formalize an Information Security (IS) awareness and training program that ensures continued awareness and competence of all &lt;&lt;CLIENT&gt;&gt; employees, including contractors, third-parties, and all other stakeholders with access to information assets.\n2. Ensure that Information Security awareness and training program raise awareness and compliance about &lt;&lt;CLIENT&gt;&gt;’s Integrated Management System a",
-    "mapping_date": "2026-03-05T15:37:53.930989",
+    "mapping_date": "2026-03-05T15:56:08.085045",
     "reviewer": null,
     "notes": "Reranker: 0.263"
   },
@@ -479,7 +512,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2639857828617096,
     "evidence_text": "8.2 Role Specific Training\n\n&lt;&lt;CLIENT&gt;&gt; shall:\n\n1. Provide Role specific security training for employees/contractors with assigned administrative or technical roles and responsibilities involving access to sensitive information systems.\n2. Administer Role specific security training before granting employees/contractors privileged access to the information systems or before employees/contractors begin performing assigned duties.\n3. Define frequency for Role specific security trainings ",
-    "mapping_date": "2026-03-05T15:38:23.609904",
+    "mapping_date": "2026-03-05T15:56:37.820800",
     "reviewer": null,
     "notes": "Reranker: 0.264"
   },
@@ -490,7 +523,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.267036497592926,
     "evidence_text": "8.2 Role Specific Training\n\n&lt;&lt;CLIENT&gt;&gt; shall:\n\n1. Provide Role specific security training for employees/contractors with assigned administrative or technical roles and responsibilities involving access to sensitive information systems.\n2. Administer Role specific security training before granting employees/contractors privileged access to the information systems or before employees/contractors begin performing assigned duties.\n3. Define frequency for Role specific security trainings ",
-    "mapping_date": "2026-03-05T15:38:26.249198",
+    "mapping_date": "2026-03-05T15:56:40.463301",
     "reviewer": null,
     "notes": "Reranker: 0.267"
   },
@@ -501,9 +534,20 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2604575455188751,
     "evidence_text": "8.2 Role Specific Training\n\n&lt;&lt;CLIENT&gt;&gt; shall:\n\n1. Provide Role specific security training for employees/contractors with assigned administrative or technical roles and responsibilities involving access to sensitive information systems.\n2. Administer Role specific security training before granting employees/contractors privileged access to the information systems or before employees/contractors begin performing assigned duties.\n3. Define frequency for Role specific security trainings ",
-    "mapping_date": "2026-03-05T15:38:42.024826",
+    "mapping_date": "2026-03-05T15:56:56.236334",
     "reviewer": null,
     "notes": "Reranker: 0.260"
+  },
+  {
+    "mapping_id": "T3.2.1_clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_8",
+    "source_control_id": "T3.2.1",
+    "target_policy_id": "clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_8",
+    "status": "Partially Addressed",
+    "entailment_score": 0.24945494532585144,
+    "evidence_text": "8.2 Role Specific Training\n\n&lt;&lt;CLIENT&gt;&gt; shall:\n\n1. Provide Role specific security training for employees/contractors with assigned administrative or technical roles and responsibilities involving access to sensitive information systems.\n2. Administer Role specific security training before granting employees/contractors privileged access to the information systems or before employees/contractors begin performing assigned duties.\n3. Define frequency for Role specific security trainings ",
+    "mapping_date": "2026-03-05T15:56:58.850626",
+    "reviewer": null,
+    "notes": "Reranker: 0.249"
   },
   {
     "mapping_id": "T3.2.3_clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_8",
@@ -512,7 +556,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.27388995885849,
     "evidence_text": "8.2 Role Specific Training\n\n&lt;&lt;CLIENT&gt;&gt; shall:\n\n1. Provide Role specific security training for employees/contractors with assigned administrative or technical roles and responsibilities involving access to sensitive information systems.\n2. Administer Role specific security training before granting employees/contractors privileged access to the information systems or before employees/contractors begin performing assigned duties.\n3. Define frequency for Role specific security trainings ",
-    "mapping_date": "2026-03-05T15:38:49.784059",
+    "mapping_date": "2026-03-05T15:57:03.993312",
     "reviewer": null,
     "notes": "Reranker: 0.274"
   },
@@ -523,7 +567,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.26065635681152344,
     "evidence_text": "8.2 Role Specific Training\n\n&lt;&lt;CLIENT&gt;&gt; shall:\n\n1. Provide Role specific security training for employees/contractors with assigned administrative or technical roles and responsibilities involving access to sensitive information systems.\n2. Administer Role specific security training before granting employees/contractors privileged access to the information systems or before employees/contractors begin performing assigned duties.\n3. Define frequency for Role specific security trainings ",
-    "mapping_date": "2026-03-05T15:38:54.964308",
+    "mapping_date": "2026-03-05T15:57:09.179885",
     "reviewer": null,
     "notes": "Reranker: 0.261"
   },
@@ -534,7 +578,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.260911226272583,
     "evidence_text": "8.2 Role Specific Training\n\n&lt;&lt;CLIENT&gt;&gt; shall:\n\n1. Provide Role specific security training for employees/contractors with assigned administrative or technical roles and responsibilities involving access to sensitive information systems.\n2. Administer Role specific security training before granting employees/contractors privileged access to the information systems or before employees/contractors begin performing assigned duties.\n3. Define frequency for Role specific security trainings ",
-    "mapping_date": "2026-03-05T15:39:09.010979",
+    "mapping_date": "2026-03-05T15:57:23.277358",
     "reviewer": null,
     "notes": "Reranker: 0.261"
   },
@@ -545,7 +589,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2589333653450012,
     "evidence_text": "7 POLICY STATEMENT\n\n&lt;&lt;CLIENT&gt;&gt; shall develop, implement, and maintain an awareness and training program to inform all employees of the information security, business continuity and data privacy risks associated with their activities.\n\nFurther, &lt;&lt;CLIENT&gt;&gt; shall ensure that employees and third parties are adequately trained to carry out their assigned information security responsibilities.",
-    "mapping_date": "2026-03-05T15:39:09.010920",
+    "mapping_date": "2026-03-05T15:57:23.277300",
     "reviewer": null,
     "notes": "Reranker: 0.259"
   },
@@ -556,7 +600,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.27389875054359436,
     "evidence_text": "8.2 Role Specific Training\n\n&lt;&lt;CLIENT&gt;&gt; shall:\n\n1. Provide Role specific security training for employees/contractors with assigned administrative or technical roles and responsibilities involving access to sensitive information systems.\n2. Administer Role specific security training before granting employees/contractors privileged access to the information systems or before employees/contractors begin performing assigned duties.\n3. Define frequency for Role specific security trainings ",
-    "mapping_date": "2026-03-05T15:39:14.309415",
+    "mapping_date": "2026-03-05T15:57:28.564057",
     "reviewer": null,
     "notes": "Reranker: 0.274"
   },
@@ -567,9 +611,20 @@
     "status": "Partially Addressed",
     "entailment_score": 0.25063732266426086,
     "evidence_text": "8.2 Role Specific Training\n\n&lt;&lt;CLIENT&gt;&gt; shall:\n\n1. Provide Role specific security training for employees/contractors with assigned administrative or technical roles and responsibilities involving access to sensitive information systems.\n2. Administer Role specific security training before granting employees/contractors privileged access to the information systems or before employees/contractors begin performing assigned duties.\n3. Define frequency for Role specific security trainings ",
-    "mapping_date": "2026-03-05T15:39:24.986867",
+    "mapping_date": "2026-03-05T15:57:39.193732",
     "reviewer": null,
     "notes": "Reranker: 0.251"
+  },
+  {
+    "mapping_id": "T4.2.1_clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_8",
+    "source_control_id": "T4.2.1",
+    "target_policy_id": "clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_8",
+    "status": "Partially Addressed",
+    "entailment_score": 0.248046875,
+    "evidence_text": "8.2 Role Specific Training\n\n&lt;&lt;CLIENT&gt;&gt; shall:\n\n1. Provide Role specific security training for employees/contractors with assigned administrative or technical roles and responsibilities involving access to sensitive information systems.\n2. Administer Role specific security training before granting employees/contractors privileged access to the information systems or before employees/contractors begin performing assigned duties.\n3. Define frequency for Role specific security trainings ",
+    "mapping_date": "2026-03-05T15:57:41.877924",
+    "reviewer": null,
+    "notes": "Reranker: 0.248"
   },
   {
     "mapping_id": "T4.2.5_clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_6",
@@ -578,7 +633,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.27517297863960266,
     "evidence_text": "7 POLICY STATEMENT\n\n&lt;&lt;CLIENT&gt;&gt; shall develop, implement, and maintain an awareness and training program to inform all employees of the information security, business continuity and data privacy risks associated with their activities.\n\nFurther, &lt;&lt;CLIENT&gt;&gt; shall ensure that employees and third parties are adequately trained to carry out their assigned information security responsibilities.",
-    "mapping_date": "2026-03-05T15:39:35.725497",
+    "mapping_date": "2026-03-05T15:57:49.811377",
     "reviewer": null,
     "notes": "Reranker: 0.275"
   },
@@ -589,7 +644,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2619517743587494,
     "evidence_text": "8.2 Role Specific Training\n\n&lt;&lt;CLIENT&gt;&gt; shall:\n\n1. Provide Role specific security training for employees/contractors with assigned administrative or technical roles and responsibilities involving access to sensitive information systems.\n2. Administer Role specific security training before granting employees/contractors privileged access to the information systems or before employees/contractors begin performing assigned duties.\n3. Define frequency for Role specific security trainings ",
-    "mapping_date": "2026-03-05T15:40:00.761801",
+    "mapping_date": "2026-03-05T15:58:14.624228",
     "reviewer": null,
     "notes": "Reranker: 0.262"
   },
@@ -600,7 +655,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2519877851009369,
     "evidence_text": "8.2 Role Specific Training\n\n&lt;&lt;CLIENT&gt;&gt; shall:\n\n1. Provide Role specific security training for employees/contractors with assigned administrative or technical roles and responsibilities involving access to sensitive information systems.\n2. Administer Role specific security training before granting employees/contractors privileged access to the information systems or before employees/contractors begin performing assigned duties.\n3. Define frequency for Role specific security trainings ",
-    "mapping_date": "2026-03-05T15:40:27.384994",
+    "mapping_date": "2026-03-05T15:58:40.962387",
     "reviewer": null,
     "notes": "Reranker: 0.252"
   },
@@ -611,7 +666,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2541642189025879,
     "evidence_text": "7 POLICY STATEMENT\n\n&lt;&lt;CLIENT&gt;&gt; shall develop, implement, and maintain an awareness and training program to inform all employees of the information security, business continuity and data privacy risks associated with their activities.\n\nFurther, &lt;&lt;CLIENT&gt;&gt; shall ensure that employees and third parties are adequately trained to carry out their assigned information security responsibilities.",
-    "mapping_date": "2026-03-05T15:40:38.098995",
+    "mapping_date": "2026-03-05T15:58:51.576127",
     "reviewer": null,
     "notes": "Reranker: 0.254"
   },
@@ -622,7 +677,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2692684531211853,
     "evidence_text": "7 POLICY STATEMENT\n\n&lt;&lt;CLIENT&gt;&gt; shall develop, implement, and maintain an awareness and training program to inform all employees of the information security, business continuity and data privacy risks associated with their activities.\n\nFurther, &lt;&lt;CLIENT&gt;&gt; shall ensure that employees and third parties are adequately trained to carry out their assigned information security responsibilities.",
-    "mapping_date": "2026-03-05T15:40:43.436562",
+    "mapping_date": "2026-03-05T15:58:56.847847",
     "reviewer": null,
     "notes": "Reranker: 0.269"
   },
@@ -633,7 +688,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2577020525932312,
     "evidence_text": "8.2 Role Specific Training\n\n&lt;&lt;CLIENT&gt;&gt; shall:\n\n1. Provide Role specific security training for employees/contractors with assigned administrative or technical roles and responsibilities involving access to sensitive information systems.\n2. Administer Role specific security training before granting employees/contractors privileged access to the information systems or before employees/contractors begin performing assigned duties.\n3. Define frequency for Role specific security trainings ",
-    "mapping_date": "2026-03-05T15:40:48.862610",
+    "mapping_date": "2026-03-05T15:59:02.239579",
     "reviewer": null,
     "notes": "Reranker: 0.258"
   },
@@ -644,7 +699,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2571844160556793,
     "evidence_text": "8.2 Role Specific Training\n\n&lt;&lt;CLIENT&gt;&gt; shall:\n\n1. Provide Role specific security training for employees/contractors with assigned administrative or technical roles and responsibilities involving access to sensitive information systems.\n2. Administer Role specific security training before granting employees/contractors privileged access to the information systems or before employees/contractors begin performing assigned duties.\n3. Define frequency for Role specific security trainings ",
-    "mapping_date": "2026-03-05T15:40:51.516625",
+    "mapping_date": "2026-03-05T15:59:04.871309",
     "reviewer": null,
     "notes": "Reranker: 0.257"
   },
@@ -655,7 +710,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.26297134160995483,
     "evidence_text": "8.2 Role Specific Training\n\n&lt;&lt;CLIENT&gt;&gt; shall:\n\n1. Provide Role specific security training for employees/contractors with assigned administrative or technical roles and responsibilities involving access to sensitive information systems.\n2. Administer Role specific security training before granting employees/contractors privileged access to the information systems or before employees/contractors begin performing assigned duties.\n3. Define frequency for Role specific security trainings ",
-    "mapping_date": "2026-03-05T15:40:54.201078",
+    "mapping_date": "2026-03-05T15:59:07.532553",
     "reviewer": null,
     "notes": "Reranker: 0.263"
   },
@@ -666,9 +721,31 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2599436044692993,
     "evidence_text": "8.1 Awareness and Training Program\n\n&lt;&lt;CLIENT&gt;&gt; shall:\n\n1. Develop and formalize an Information Security (IS) awareness and training program that ensures continued awareness and competence of all &lt;&lt;CLIENT&gt;&gt; employees, including contractors, third-parties, and all other stakeholders with access to information assets.\n2. Ensure that Information Security awareness and training program raise awareness and compliance about &lt;&lt;CLIENT&gt;&gt;’s Integrated Management System a",
-    "mapping_date": "2026-03-05T15:40:54.201088",
+    "mapping_date": "2026-03-05T15:59:07.532563",
     "reviewer": null,
     "notes": "Reranker: 0.260"
+  },
+  {
+    "mapping_id": "T7.2.2_clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_8",
+    "source_control_id": "T7.2.2",
+    "target_policy_id": "clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_8",
+    "status": "Partially Addressed",
+    "entailment_score": 0.24958886206150055,
+    "evidence_text": "8.2 Role Specific Training\n\n&lt;&lt;CLIENT&gt;&gt; shall:\n\n1. Provide Role specific security training for employees/contractors with assigned administrative or technical roles and responsibilities involving access to sensitive information systems.\n2. Administer Role specific security training before granting employees/contractors privileged access to the information systems or before employees/contractors begin performing assigned duties.\n3. Define frequency for Role specific security trainings ",
+    "mapping_date": "2026-03-05T15:59:10.211852",
+    "reviewer": null,
+    "notes": "Reranker: 0.250"
+  },
+  {
+    "mapping_id": "T7.6.5_clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_8",
+    "source_control_id": "T7.6.5",
+    "target_policy_id": "clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_8",
+    "status": "Partially Addressed",
+    "entailment_score": 0.24496422708034515,
+    "evidence_text": "8.2 Role Specific Training\n\n&lt;&lt;CLIENT&gt;&gt; shall:\n\n1. Provide Role specific security training for employees/contractors with assigned administrative or technical roles and responsibilities involving access to sensitive information systems.\n2. Administer Role specific security training before granting employees/contractors privileged access to the information systems or before employees/contractors begin performing assigned duties.\n3. Define frequency for Role specific security trainings ",
+    "mapping_date": "2026-03-05T15:59:31.116099",
+    "reviewer": null,
+    "notes": "Reranker: 0.245"
   },
   {
     "mapping_id": "T7.8.1_clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_7",
@@ -677,9 +754,20 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2666618824005127,
     "evidence_text": "8.1 Awareness and Training Program\n\n&lt;&lt;CLIENT&gt;&gt; shall:\n\n1. Develop and formalize an Information Security (IS) awareness and training program that ensures continued awareness and competence of all &lt;&lt;CLIENT&gt;&gt; employees, including contractors, third-parties, and all other stakeholders with access to information assets.\n2. Ensure that Information Security awareness and training program raise awareness and compliance about &lt;&lt;CLIENT&gt;&gt;’s Integrated Management System a",
-    "mapping_date": "2026-03-05T15:41:20.728857",
+    "mapping_date": "2026-03-05T15:59:33.787728",
     "reviewer": null,
     "notes": "Reranker: 0.267"
+  },
+  {
+    "mapping_id": "T7.8.2_clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_8",
+    "source_control_id": "T7.8.2",
+    "target_policy_id": "clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_8",
+    "status": "Partially Addressed",
+    "entailment_score": 0.24249303340911865,
+    "evidence_text": "8.2 Role Specific Training\n\n&lt;&lt;CLIENT&gt;&gt; shall:\n\n1. Provide Role specific security training for employees/contractors with assigned administrative or technical roles and responsibilities involving access to sensitive information systems.\n2. Administer Role specific security training before granting employees/contractors privileged access to the information systems or before employees/contractors begin performing assigned duties.\n3. Define frequency for Role specific security trainings ",
+    "mapping_date": "2026-03-05T15:59:36.484358",
+    "reviewer": null,
+    "notes": "Reranker: 0.242"
   },
   {
     "mapping_id": "T7.8.4_clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_8",
@@ -688,7 +776,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2630552649497986,
     "evidence_text": "8.2 Role Specific Training\n\n&lt;&lt;CLIENT&gt;&gt; shall:\n\n1. Provide Role specific security training for employees/contractors with assigned administrative or technical roles and responsibilities involving access to sensitive information systems.\n2. Administer Role specific security training before granting employees/contractors privileged access to the information systems or before employees/contractors begin performing assigned duties.\n3. Define frequency for Role specific security trainings ",
-    "mapping_date": "2026-03-05T15:41:26.104400",
+    "mapping_date": "2026-03-05T15:59:39.089264",
     "reviewer": null,
     "notes": "Reranker: 0.263"
   },
@@ -699,7 +787,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2593338191509247,
     "evidence_text": "8.2 Role Specific Training\n\n&lt;&lt;CLIENT&gt;&gt; shall:\n\n1. Provide Role specific security training for employees/contractors with assigned administrative or technical roles and responsibilities involving access to sensitive information systems.\n2. Administer Role specific security training before granting employees/contractors privileged access to the information systems or before employees/contractors begin performing assigned duties.\n3. Define frequency for Role specific security trainings ",
-    "mapping_date": "2026-03-05T15:41:28.779128",
+    "mapping_date": "2026-03-05T15:59:41.739065",
     "reviewer": null,
     "notes": "Reranker: 0.259"
   },
@@ -710,7 +798,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2567764222621918,
     "evidence_text": "8.2 Role Specific Training\n\n&lt;&lt;CLIENT&gt;&gt; shall:\n\n1. Provide Role specific security training for employees/contractors with assigned administrative or technical roles and responsibilities involving access to sensitive information systems.\n2. Administer Role specific security training before granting employees/contractors privileged access to the information systems or before employees/contractors begin performing assigned duties.\n3. Define frequency for Role specific security trainings ",
-    "mapping_date": "2026-03-05T15:41:31.435049",
+    "mapping_date": "2026-03-05T15:59:44.363508",
     "reviewer": null,
     "notes": "Reranker: 0.257"
   },
@@ -721,7 +809,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2789735496044159,
     "evidence_text": "7 POLICY STATEMENT\n\n&lt;&lt;CLIENT&gt;&gt; shall develop, implement, and maintain an awareness and training program to inform all employees of the information security, business continuity and data privacy risks associated with their activities.\n\nFurther, &lt;&lt;CLIENT&gt;&gt; shall ensure that employees and third parties are adequately trained to carry out their assigned information security responsibilities.",
-    "mapping_date": "2026-03-05T15:41:34.112331",
+    "mapping_date": "2026-03-05T15:59:47.009716",
     "reviewer": null,
     "notes": "Reranker: 0.279"
   },
@@ -732,7 +820,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.27432048320770264,
     "evidence_text": "5 PURPOSE\n\nThe purpose of this Security Awareness and Training Policy (“Policy”) is to define a framework for security awareness and training processes to ensure that a proactive and risk-aware information security culture exists within &lt;&lt;CLIENT&gt;&gt;.\n\nFurther, this Policy establishes a commitment to comply with applicable sections of the federal and global laws and regulations, including but not limited to UAE Information Assurance Regulation, UAE Federal Law 45, ISO 20000, ISO 27001, ",
-    "mapping_date": "2026-03-05T15:41:34.112341",
+    "mapping_date": "2026-03-05T15:59:47.009728",
     "reviewer": null,
     "notes": "Reranker: 0.274"
   },
@@ -743,7 +831,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.27151966094970703,
     "evidence_text": "8.2 Role Specific Training\n\n&lt;&lt;CLIENT&gt;&gt; shall:\n\n1. Provide Role specific security training for employees/contractors with assigned administrative or technical roles and responsibilities involving access to sensitive information systems.\n2. Administer Role specific security training before granting employees/contractors privileged access to the information systems or before employees/contractors begin performing assigned duties.\n3. Define frequency for Role specific security trainings ",
-    "mapping_date": "2026-03-05T15:41:52.738222",
+    "mapping_date": "2026-03-05T16:00:05.478517",
     "reviewer": null,
     "notes": "Reranker: 0.272"
   },
@@ -754,7 +842,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2686555087566376,
     "evidence_text": "5 PURPOSE\n\nThe purpose of this Security Awareness and Training Policy (“Policy”) is to define a framework for security awareness and training processes to ensure that a proactive and risk-aware information security culture exists within &lt;&lt;CLIENT&gt;&gt;.\n\nFurther, this Policy establishes a commitment to comply with applicable sections of the federal and global laws and regulations, including but not limited to UAE Information Assurance Regulation, UAE Federal Law 45, ISO 20000, ISO 27001, ",
-    "mapping_date": "2026-03-05T15:41:52.738159",
+    "mapping_date": "2026-03-05T16:00:05.478435",
     "reviewer": null,
     "notes": "Reranker: 0.269"
   },
@@ -765,7 +853,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.261250764131546,
     "evidence_text": "7 POLICY STATEMENT\n\n&lt;&lt;CLIENT&gt;&gt; shall develop, implement, and maintain an awareness and training program to inform all employees of the information security, business continuity and data privacy risks associated with their activities.\n\nFurther, &lt;&lt;CLIENT&gt;&gt; shall ensure that employees and third parties are adequately trained to carry out their assigned information security responsibilities.",
-    "mapping_date": "2026-03-05T15:42:00.629949",
+    "mapping_date": "2026-03-05T16:00:13.385031",
     "reviewer": null,
     "notes": "Reranker: 0.261"
   },
@@ -776,7 +864,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.25138092041015625,
     "evidence_text": "8.2 Role Specific Training\n\n&lt;&lt;CLIENT&gt;&gt; shall:\n\n1. Provide Role specific security training for employees/contractors with assigned administrative or technical roles and responsibilities involving access to sensitive information systems.\n2. Administer Role specific security training before granting employees/contractors privileged access to the information systems or before employees/contractors begin performing assigned duties.\n3. Define frequency for Role specific security trainings ",
-    "mapping_date": "2026-03-05T15:42:00.630011",
+    "mapping_date": "2026-03-05T16:00:13.385120",
     "reviewer": null,
     "notes": "Reranker: 0.251"
   },
@@ -787,7 +875,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.26017770171165466,
     "evidence_text": "7 POLICY STATEMENT\n\n&lt;&lt;CLIENT&gt;&gt; shall develop, implement, and maintain an awareness and training program to inform all employees of the information security, business continuity and data privacy risks associated with their activities.\n\nFurther, &lt;&lt;CLIENT&gt;&gt; shall ensure that employees and third parties are adequately trained to carry out their assigned information security responsibilities.",
-    "mapping_date": "2026-03-05T15:42:03.212737",
+    "mapping_date": "2026-03-05T16:00:15.971941",
     "reviewer": null,
     "notes": "Reranker: 0.260"
   }

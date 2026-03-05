@@ -1,12 +1,45 @@
 [
   {
+    "mapping_id": "M2.3.2_clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_6",
+    "source_control_id": "M2.3.2",
+    "target_policy_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_6",
+    "status": "Partially Addressed",
+    "entailment_score": 0.23863108456134796,
+    "evidence_text": "4 POLICY STATEMENT\n\n&lt;CLIENTNAME&gt; shall implement physical and environmental security measures to ensure critical or sensitive information systems are physically protected from unauthorized access, damage, and interference. Further &lt;CLIENTNAME&gt; shall implement controls to protect people and equipment from physical and environmental threats.",
+    "mapping_date": "2026-03-05T15:54:40.992971",
+    "reviewer": null,
+    "notes": "Reranker: 0.239"
+  },
+  {
+    "mapping_id": "M2.3.2_clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_8",
+    "source_control_id": "M2.3.2",
+    "target_policy_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_8",
+    "status": "Partially Addressed",
+    "entailment_score": 0.22069641947746277,
+    "evidence_text": "5.1 Implement Physical Security Controls\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Record the date, time of entry and departure of employees/contractors/visitors and others who seek access to &lt;CLIENTNAME&gt; facilities.\n2. Perform physical security checks for all personnel entering the organizational premises.\n3. Restrict the entry and usage of devices within organizational premises according to security requirements.\n4. Supervise visitors at all times during their visit to secure areas.\n5. Verify the i",
+    "mapping_date": "2026-03-05T15:54:40.992999",
+    "reviewer": null,
+    "notes": "Reranker: 0.221"
+  },
+  {
+    "mapping_id": "M5.2.4_clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_8",
+    "source_control_id": "M5.2.4",
+    "target_policy_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_8",
+    "status": "Partially Addressed",
+    "entailment_score": 0.24381621181964874,
+    "evidence_text": "5.1 Implement Physical Security Controls\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Record the date, time of entry and departure of employees/contractors/visitors and others who seek access to &lt;CLIENTNAME&gt; facilities.\n2. Perform physical security checks for all personnel entering the organizational premises.\n3. Restrict the entry and usage of devices within organizational premises according to security requirements.\n4. Supervise visitors at all times during their visit to secure areas.\n5. Verify the i",
+    "mapping_date": "2026-03-05T15:55:35.190685",
+    "reviewer": null,
+    "notes": "Reranker: 0.244"
+  },
+  {
     "mapping_id": "M5.3.1_clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_8",
     "source_control_id": "M5.3.1",
     "target_policy_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_8",
     "status": "Partially Addressed",
     "entailment_score": 0.27024784684181213,
     "evidence_text": "5.1 Implement Physical Security Controls\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Record the date, time of entry and departure of employees/contractors/visitors and others who seek access to &lt;CLIENTNAME&gt; facilities.\n2. Perform physical security checks for all personnel entering the organizational premises.\n3. Restrict the entry and usage of devices within organizational premises according to security requirements.\n4. Supervise visitors at all times during their visit to secure areas.\n5. Verify the i",
-    "mapping_date": "2026-03-05T15:37:29.471796",
+    "mapping_date": "2026-03-05T15:55:43.675586",
     "reviewer": null,
     "notes": "Reranker: 0.270"
   },
@@ -17,7 +50,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.260459303855896,
     "evidence_text": "5.8 Secure Disposal or Reuse of Equipment\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Ensure storage media containing confidential information is physically destroyed or the information is destroyed, deleted, or overwritten using techniques to make the original information non-retrievable rather than using the standard delete or format function.",
-    "mapping_date": "2026-03-05T15:38:12.471387",
+    "mapping_date": "2026-03-05T15:56:26.653474",
     "reviewer": null,
     "notes": "Reranker: 0.260"
   },
@@ -28,7 +61,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2936406433582306,
     "evidence_text": "5.4 Protect Delivery and Loading Areas\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Establish access procedures to loading and unloading areas to restrict access to only authorized personnel.\n2. Design the delivery and loading area where supplies can be loaded and unloaded without delivery personnel gaining access to other parts of the building.\n3. Establish and implement procedures for the storage of hazardous or combustible materials to reduce their risks on secure areas.\n4. Physically segregate loading and",
-    "mapping_date": "2026-03-05T15:38:20.809582",
+    "mapping_date": "2026-03-05T15:56:35.021154",
     "reviewer": null,
     "notes": "Reranker: 0.294"
   },
@@ -39,7 +72,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.26251134276390076,
     "evidence_text": "5.3 Working in Secure Areas\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Establish guidelines for working in secure areas.\n2. Make sure all personnel accessing secure areas are aware of and accept organization’s rules and guidelines.",
-    "mapping_date": "2026-03-05T15:38:20.809618",
+    "mapping_date": "2026-03-05T15:56:35.021185",
     "reviewer": null,
     "notes": "Reranker: 0.263"
   },
@@ -50,7 +83,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2711232602596283,
     "evidence_text": "5.1 Implement Physical Security Controls\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Record the date, time of entry and departure of employees/contractors/visitors and others who seek access to &lt;CLIENTNAME&gt; facilities.\n2. Perform physical security checks for all personnel entering the organizational premises.\n3. Restrict the entry and usage of devices within organizational premises according to security requirements.\n4. Supervise visitors at all times during their visit to secure areas.\n5. Verify the i",
-    "mapping_date": "2026-03-05T15:38:23.495706",
+    "mapping_date": "2026-03-05T15:56:37.706688",
     "reviewer": null,
     "notes": "Reranker: 0.271"
   },
@@ -61,7 +94,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.26511940360069275,
     "evidence_text": "4 POLICY STATEMENT\n\n&lt;CLIENTNAME&gt; shall implement physical and environmental security measures to ensure critical or sensitive information systems are physically protected from unauthorized access, damage, and interference. Further &lt;CLIENTNAME&gt; shall implement controls to protect people and equipment from physical and environmental threats.",
-    "mapping_date": "2026-03-05T15:38:23.495760",
+    "mapping_date": "2026-03-05T15:56:37.706744",
     "reviewer": null,
     "notes": "Reranker: 0.265"
   },
@@ -72,7 +105,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2608558237552643,
     "evidence_text": "5.4 Protect Delivery and Loading Areas\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Establish access procedures to loading and unloading areas to restrict access to only authorized personnel.\n2. Design the delivery and loading area where supplies can be loaded and unloaded without delivery personnel gaining access to other parts of the building.\n3. Establish and implement procedures for the storage of hazardous or combustible materials to reduce their risks on secure areas.\n4. Physically segregate loading and",
-    "mapping_date": "2026-03-05T15:38:23.495764",
+    "mapping_date": "2026-03-05T15:56:37.706748",
     "reviewer": null,
     "notes": "Reranker: 0.261"
   },
@@ -83,7 +116,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2813147306442261,
     "evidence_text": "5.4 Protect Delivery and Loading Areas\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Establish access procedures to loading and unloading areas to restrict access to only authorized personnel.\n2. Design the delivery and loading area where supplies can be loaded and unloaded without delivery personnel gaining access to other parts of the building.\n3. Establish and implement procedures for the storage of hazardous or combustible materials to reduce their risks on secure areas.\n4. Physically segregate loading and",
-    "mapping_date": "2026-03-05T15:38:26.134133",
+    "mapping_date": "2026-03-05T15:56:40.345688",
     "reviewer": null,
     "notes": "Reranker: 0.281"
   },
@@ -94,7 +127,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2772400975227356,
     "evidence_text": "5.1 Implement Physical Security Controls\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Record the date, time of entry and departure of employees/contractors/visitors and others who seek access to &lt;CLIENTNAME&gt; facilities.\n2. Perform physical security checks for all personnel entering the organizational premises.\n3. Restrict the entry and usage of devices within organizational premises according to security requirements.\n4. Supervise visitors at all times during their visit to secure areas.\n5. Verify the i",
-    "mapping_date": "2026-03-05T15:38:26.134137",
+    "mapping_date": "2026-03-05T15:56:40.345692",
     "reviewer": null,
     "notes": "Reranker: 0.277"
   },
@@ -105,7 +138,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.26035135984420776,
     "evidence_text": "3 SCOPE\n\nThis Policy applies to all physical areas within &lt;CLIENTNAME&gt;, employees and third parties who access &lt;CLIENTNAME&gt; facilities, information assets and information and communications technology (ICT) systems housed within &lt;CLIENTNAME&gt; facilities.\n\n**Any exceptions on the applicability of this Policy should be formally requested through the ‘Policy Exception Management procedure’.**",
-    "mapping_date": "2026-03-05T15:38:26.134185",
+    "mapping_date": "2026-03-05T15:56:40.345727",
     "reviewer": null,
     "notes": "Reranker: 0.260"
   },
@@ -116,7 +149,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2902717590332031,
     "evidence_text": "5.7 Security of Equipment Off-Premises\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Establish an authorization procedure for taking information assets off-site.\n2. Ensure manufacturers' instructions for protecting equipment is adhered to at all times.\n3. Maintain the list of information assets off-site with the authorized employees and external party users.\n\nThe personnel shall:\n\n1. Ensure that equipment and media taken off the premises are not left unattended in public places.",
-    "mapping_date": "2026-03-05T15:38:28.752215",
+    "mapping_date": "2026-03-05T15:56:42.942968",
     "reviewer": null,
     "notes": "Reranker: 0.290"
   },
@@ -127,7 +160,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.28394046425819397,
     "evidence_text": "5.8 Secure Disposal or Reuse of Equipment\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Ensure storage media containing confidential information is physically destroyed or the information is destroyed, deleted, or overwritten using techniques to make the original information non-retrievable rather than using the standard delete or format function.",
-    "mapping_date": "2026-03-05T15:38:28.752248",
+    "mapping_date": "2026-03-05T15:56:42.942999",
     "reviewer": null,
     "notes": "Reranker: 0.284"
   },
@@ -138,7 +171,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.294078528881073,
     "evidence_text": "5.5 Ensure Effective Supporting Utilities\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Ensure that each facility’s supporting utilities (e.g., electricity, telecommunications, water supply, natural gas, sewage, heating ventilation and air conditioning) are in line with local legal requirements and manufacturer’s specifications as well as tested for malfunctions.\n2. Conduct preventive maintenance for all supporting utilities and necessary records maintained for the same.",
-    "mapping_date": "2026-03-05T15:38:31.420972",
+    "mapping_date": "2026-03-05T15:56:45.615338",
     "reviewer": null,
     "notes": "Reranker: 0.294"
   },
@@ -149,7 +182,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2720608115196228,
     "evidence_text": "5.2 Protecting Against External and Environmental Threats\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Provide adequate training to personnel responsible for responding to environmental and safety hazards.\n2. Ensure and monitor power, temperature and relative humidity inside data centers are in accordance with relevant regulations.\n3. Ensure data centers have 24/7 air conditioning and humidity control.\n4. Conduct planned maintenance for all supporting utilities and necessary records.\n5. Activate fire suppress",
-    "mapping_date": "2026-03-05T15:38:31.421020",
+    "mapping_date": "2026-03-05T15:56:45.615387",
     "reviewer": null,
     "notes": "Reranker: 0.272"
   },
@@ -160,7 +193,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2657056152820587,
     "evidence_text": "5.1 Implement Physical Security Controls\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Record the date, time of entry and departure of employees/contractors/visitors and others who seek access to &lt;CLIENTNAME&gt; facilities.\n2. Perform physical security checks for all personnel entering the organizational premises.\n3. Restrict the entry and usage of devices within organizational premises according to security requirements.\n4. Supervise visitors at all times during their visit to secure areas.\n5. Verify the i",
-    "mapping_date": "2026-03-05T15:38:31.421063",
+    "mapping_date": "2026-03-05T15:56:45.615430",
     "reviewer": null,
     "notes": "Reranker: 0.266"
   },
@@ -171,7 +204,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.26179271936416626,
     "evidence_text": "5.4 Protect Delivery and Loading Areas\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Establish access procedures to loading and unloading areas to restrict access to only authorized personnel.\n2. Design the delivery and loading area where supplies can be loaded and unloaded without delivery personnel gaining access to other parts of the building.\n3. Establish and implement procedures for the storage of hazardous or combustible materials to reduce their risks on secure areas.\n4. Physically segregate loading and",
-    "mapping_date": "2026-03-05T15:38:31.421036",
+    "mapping_date": "2026-03-05T15:56:45.615403",
     "reviewer": null,
     "notes": "Reranker: 0.262"
   },
@@ -182,7 +215,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2613016963005066,
     "evidence_text": "4 POLICY STATEMENT\n\n&lt;CLIENTNAME&gt; shall implement physical and environmental security measures to ensure critical or sensitive information systems are physically protected from unauthorized access, damage, and interference. Further &lt;CLIENTNAME&gt; shall implement controls to protect people and equipment from physical and environmental threats.",
-    "mapping_date": "2026-03-05T15:38:31.421024",
+    "mapping_date": "2026-03-05T15:56:45.615390",
     "reviewer": null,
     "notes": "Reranker: 0.261"
   },
@@ -193,7 +226,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2779024839401245,
     "evidence_text": "5.8 Secure Disposal or Reuse of Equipment\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Ensure storage media containing confidential information is physically destroyed or the information is destroyed, deleted, or overwritten using techniques to make the original information non-retrievable rather than using the standard delete or format function.",
-    "mapping_date": "2026-03-05T15:38:34.006663",
+    "mapping_date": "2026-03-05T15:56:48.216459",
     "reviewer": null,
     "notes": "Reranker: 0.278"
   },
@@ -204,7 +237,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.27776628732681274,
     "evidence_text": "5.5 Ensure Effective Supporting Utilities\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Ensure that each facility’s supporting utilities (e.g., electricity, telecommunications, water supply, natural gas, sewage, heating ventilation and air conditioning) are in line with local legal requirements and manufacturer’s specifications as well as tested for malfunctions.\n2. Conduct preventive maintenance for all supporting utilities and necessary records maintained for the same.",
-    "mapping_date": "2026-03-05T15:38:34.006720",
+    "mapping_date": "2026-03-05T15:56:48.216515",
     "reviewer": null,
     "notes": "Reranker: 0.278"
   },
@@ -215,7 +248,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2749503552913666,
     "evidence_text": "5.7 Security of Equipment Off-Premises\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Establish an authorization procedure for taking information assets off-site.\n2. Ensure manufacturers' instructions for protecting equipment is adhered to at all times.\n3. Maintain the list of information assets off-site with the authorized employees and external party users.\n\nThe personnel shall:\n\n1. Ensure that equipment and media taken off the premises are not left unattended in public places.",
-    "mapping_date": "2026-03-05T15:38:34.006638",
+    "mapping_date": "2026-03-05T15:56:48.216416",
     "reviewer": null,
     "notes": "Reranker: 0.275"
   },
@@ -226,7 +259,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.27281269431114197,
     "evidence_text": "5.2 Protecting Against External and Environmental Threats\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Provide adequate training to personnel responsible for responding to environmental and safety hazards.\n2. Ensure and monitor power, temperature and relative humidity inside data centers are in accordance with relevant regulations.\n3. Ensure data centers have 24/7 air conditioning and humidity control.\n4. Conduct planned maintenance for all supporting utilities and necessary records.\n5. Activate fire suppress",
-    "mapping_date": "2026-03-05T15:38:34.006724",
+    "mapping_date": "2026-03-05T15:56:48.216519",
     "reviewer": null,
     "notes": "Reranker: 0.273"
   },
@@ -237,7 +270,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2715371549129486,
     "evidence_text": "5.1 Implement Physical Security Controls\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Record the date, time of entry and departure of employees/contractors/visitors and others who seek access to &lt;CLIENTNAME&gt; facilities.\n2. Perform physical security checks for all personnel entering the organizational premises.\n3. Restrict the entry and usage of devices within organizational premises according to security requirements.\n4. Supervise visitors at all times during their visit to secure areas.\n5. Verify the i",
-    "mapping_date": "2026-03-05T15:38:34.006717",
+    "mapping_date": "2026-03-05T15:56:48.216512",
     "reviewer": null,
     "notes": "Reranker: 0.272"
   },
@@ -248,7 +281,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2928858697414398,
     "evidence_text": "5.1 Implement Physical Security Controls\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Record the date, time of entry and departure of employees/contractors/visitors and others who seek access to &lt;CLIENTNAME&gt; facilities.\n2. Perform physical security checks for all personnel entering the organizational premises.\n3. Restrict the entry and usage of devices within organizational premises according to security requirements.\n4. Supervise visitors at all times during their visit to secure areas.\n5. Verify the i",
-    "mapping_date": "2026-03-05T15:38:39.333885",
+    "mapping_date": "2026-03-05T15:56:53.537234",
     "reviewer": null,
     "notes": "Reranker: 0.293"
   },
@@ -259,7 +292,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2842963635921478,
     "evidence_text": "5.7 Security of Equipment Off-Premises\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Establish an authorization procedure for taking information assets off-site.\n2. Ensure manufacturers' instructions for protecting equipment is adhered to at all times.\n3. Maintain the list of information assets off-site with the authorized employees and external party users.\n\nThe personnel shall:\n\n1. Ensure that equipment and media taken off the premises are not left unattended in public places.",
-    "mapping_date": "2026-03-05T15:38:39.333857",
+    "mapping_date": "2026-03-05T15:56:53.537207",
     "reviewer": null,
     "notes": "Reranker: 0.284"
   },
@@ -270,9 +303,20 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2636343538761139,
     "evidence_text": "5.4 Protect Delivery and Loading Areas\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Establish access procedures to loading and unloading areas to restrict access to only authorized personnel.\n2. Design the delivery and loading area where supplies can be loaded and unloaded without delivery personnel gaining access to other parts of the building.\n3. Establish and implement procedures for the storage of hazardous or combustible materials to reduce their risks on secure areas.\n4. Physically segregate loading and",
-    "mapping_date": "2026-03-05T15:38:39.333917",
+    "mapping_date": "2026-03-05T15:56:53.537265",
     "reviewer": null,
     "notes": "Reranker: 0.264"
+  },
+  {
+    "mapping_id": "T3.2.1_clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_11",
+    "source_control_id": "T3.2.1",
+    "target_policy_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_11",
+    "status": "Partially Addressed",
+    "entailment_score": 0.24791234731674194,
+    "evidence_text": "5.4 Protect Delivery and Loading Areas\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Establish access procedures to loading and unloading areas to restrict access to only authorized personnel.\n2. Design the delivery and loading area where supplies can be loaded and unloaded without delivery personnel gaining access to other parts of the building.\n3. Establish and implement procedures for the storage of hazardous or combustible materials to reduce their risks on secure areas.\n4. Physically segregate loading and",
+    "mapping_date": "2026-03-05T15:56:58.736618",
+    "reviewer": null,
+    "notes": "Reranker: 0.248"
   },
   {
     "mapping_id": "T3.6.4_clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_6",
@@ -281,7 +325,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.26841673254966736,
     "evidence_text": "4 POLICY STATEMENT\n\n&lt;CLIENTNAME&gt; shall implement physical and environmental security measures to ensure critical or sensitive information systems are physically protected from unauthorized access, damage, and interference. Further &lt;CLIENTNAME&gt; shall implement controls to protect people and equipment from physical and environmental threats.",
-    "mapping_date": "2026-03-05T15:39:16.855722",
+    "mapping_date": "2026-03-05T15:57:31.141397",
     "reviewer": null,
     "notes": "Reranker: 0.268"
   },
@@ -292,7 +336,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.25042086839675903,
     "evidence_text": "5.1 Implement Physical Security Controls\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Record the date, time of entry and departure of employees/contractors/visitors and others who seek access to &lt;CLIENTNAME&gt; facilities.\n2. Perform physical security checks for all personnel entering the organizational premises.\n3. Restrict the entry and usage of devices within organizational premises according to security requirements.\n4. Supervise visitors at all times during their visit to secure areas.\n5. Verify the i",
-    "mapping_date": "2026-03-05T15:39:24.873430",
+    "mapping_date": "2026-03-05T15:57:39.079602",
     "reviewer": null,
     "notes": "Reranker: 0.250"
   },
@@ -303,7 +347,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.273401141166687,
     "evidence_text": "5.8 Secure Disposal or Reuse of Equipment\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Ensure storage media containing confidential information is physically destroyed or the information is destroyed, deleted, or overwritten using techniques to make the original information non-retrievable rather than using the standard delete or format function.",
-    "mapping_date": "2026-03-05T15:39:32.924998",
+    "mapping_date": "2026-03-05T15:57:47.038210",
     "reviewer": null,
     "notes": "Reranker: 0.273"
   },
@@ -314,7 +358,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.26005494594573975,
     "evidence_text": "5.4 Protect Delivery and Loading Areas\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Establish access procedures to loading and unloading areas to restrict access to only authorized personnel.\n2. Design the delivery and loading area where supplies can be loaded and unloaded without delivery personnel gaining access to other parts of the building.\n3. Establish and implement procedures for the storage of hazardous or combustible materials to reduce their risks on secure areas.\n4. Physically segregate loading and",
-    "mapping_date": "2026-03-05T15:39:32.925016",
+    "mapping_date": "2026-03-05T15:57:47.038228",
     "reviewer": null,
     "notes": "Reranker: 0.260"
   },
@@ -325,7 +369,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2736993134021759,
     "evidence_text": "5.1 Implement Physical Security Controls\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Record the date, time of entry and departure of employees/contractors/visitors and others who seek access to &lt;CLIENTNAME&gt; facilities.\n2. Perform physical security checks for all personnel entering the organizational premises.\n3. Restrict the entry and usage of devices within organizational premises according to security requirements.\n4. Supervise visitors at all times during their visit to secure areas.\n5. Verify the i",
-    "mapping_date": "2026-03-05T15:39:44.307376",
+    "mapping_date": "2026-03-05T15:57:58.332585",
     "reviewer": null,
     "notes": "Reranker: 0.274"
   },
@@ -336,7 +380,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2599264681339264,
     "evidence_text": "5.1 Implement Physical Security Controls\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Record the date, time of entry and departure of employees/contractors/visitors and others who seek access to &lt;CLIENTNAME&gt; facilities.\n2. Perform physical security checks for all personnel entering the organizational premises.\n3. Restrict the entry and usage of devices within organizational premises according to security requirements.\n4. Supervise visitors at all times during their visit to secure areas.\n5. Verify the i",
-    "mapping_date": "2026-03-05T15:39:47.003666",
+    "mapping_date": "2026-03-05T15:58:01.009883",
     "reviewer": null,
     "notes": "Reranker: 0.260"
   },
@@ -347,7 +391,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2645254135131836,
     "evidence_text": "5.1 Implement Physical Security Controls\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Record the date, time of entry and departure of employees/contractors/visitors and others who seek access to &lt;CLIENTNAME&gt; facilities.\n2. Perform physical security checks for all personnel entering the organizational premises.\n3. Restrict the entry and usage of devices within organizational premises according to security requirements.\n4. Supervise visitors at all times during their visit to secure areas.\n5. Verify the i",
-    "mapping_date": "2026-03-05T15:39:49.699760",
+    "mapping_date": "2026-03-05T15:58:03.666241",
     "reviewer": null,
     "notes": "Reranker: 0.265"
   },
@@ -358,7 +402,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.26237303018569946,
     "evidence_text": "5.1 Implement Physical Security Controls\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Record the date, time of entry and departure of employees/contractors/visitors and others who seek access to &lt;CLIENTNAME&gt; facilities.\n2. Perform physical security checks for all personnel entering the organizational premises.\n3. Restrict the entry and usage of devices within organizational premises according to security requirements.\n4. Supervise visitors at all times during their visit to secure areas.\n5. Verify the i",
-    "mapping_date": "2026-03-05T15:39:55.326578",
+    "mapping_date": "2026-03-05T15:58:09.248960",
     "reviewer": null,
     "notes": "Reranker: 0.262"
   },
@@ -369,9 +413,20 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2583301067352295,
     "evidence_text": "5.6 Cabling Security\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Ensure that power and telecommunications lines into information systems are underground wherever possible.\n2. Protect power and telecommunication lines adequately from interception of data or damage.\n3. Physically separate power cables from communications cables to minimize interference.\n4. Shield telecommunication cables to avoid information leakage due to electro-magnetic signals emanations.\n5. Consider the following controls for sensitive or",
-    "mapping_date": "2026-03-05T15:39:55.326626",
+    "mapping_date": "2026-03-05T15:58:09.249014",
     "reviewer": null,
     "notes": "Reranker: 0.258"
+  },
+  {
+    "mapping_id": "T5.2.1_clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_11",
+    "source_control_id": "T5.2.1",
+    "target_policy_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_11",
+    "status": "Partially Addressed",
+    "entailment_score": 0.2272389829158783,
+    "evidence_text": "5.4 Protect Delivery and Loading Areas\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Establish access procedures to loading and unloading areas to restrict access to only authorized personnel.\n2. Design the delivery and loading area where supplies can be loaded and unloaded without delivery personnel gaining access to other parts of the building.\n3. Establish and implement procedures for the storage of hazardous or combustible materials to reduce their risks on secure areas.\n4. Physically segregate loading and",
+    "mapping_date": "2026-03-05T15:58:11.898231",
+    "reviewer": null,
+    "notes": "Reranker: 0.227"
   },
   {
     "mapping_id": "T5.2.2_clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_11",
@@ -380,9 +435,20 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2587365508079529,
     "evidence_text": "5.4 Protect Delivery and Loading Areas\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Establish access procedures to loading and unloading areas to restrict access to only authorized personnel.\n2. Design the delivery and loading area where supplies can be loaded and unloaded without delivery personnel gaining access to other parts of the building.\n3. Establish and implement procedures for the storage of hazardous or combustible materials to reduce their risks on secure areas.\n4. Physically segregate loading and",
-    "mapping_date": "2026-03-05T15:40:00.646831",
+    "mapping_date": "2026-03-05T15:58:14.511160",
     "reviewer": null,
     "notes": "Reranker: 0.259"
+  },
+  {
+    "mapping_id": "T5.5.2_clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_8",
+    "source_control_id": "T5.5.2",
+    "target_policy_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_8",
+    "status": "Partially Addressed",
+    "entailment_score": 0.22944356501102448,
+    "evidence_text": "5.1 Implement Physical Security Controls\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Record the date, time of entry and departure of employees/contractors/visitors and others who seek access to &lt;CLIENTNAME&gt; facilities.\n2. Perform physical security checks for all personnel entering the organizational premises.\n3. Restrict the entry and usage of devices within organizational premises according to security requirements.\n4. Supervise visitors at all times during their visit to secure areas.\n5. Verify the i",
+    "mapping_date": "2026-03-05T15:58:35.559754",
+    "reviewer": null,
+    "notes": "Reranker: 0.229"
   },
   {
     "mapping_id": "T5.6.2_clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_8",
@@ -391,7 +457,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.27709195017814636,
     "evidence_text": "5.1 Implement Physical Security Controls\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Record the date, time of entry and departure of employees/contractors/visitors and others who seek access to &lt;CLIENTNAME&gt; facilities.\n2. Perform physical security checks for all personnel entering the organizational premises.\n3. Restrict the entry and usage of devices within organizational premises according to security requirements.\n4. Supervise visitors at all times during their visit to secure areas.\n5. Verify the i",
-    "mapping_date": "2026-03-05T15:40:29.946160",
+    "mapping_date": "2026-03-05T15:58:43.492725",
     "reviewer": null,
     "notes": "Reranker: 0.277"
   },
@@ -402,7 +468,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.28191861510276794,
     "evidence_text": "5.1 Implement Physical Security Controls\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Record the date, time of entry and departure of employees/contractors/visitors and others who seek access to &lt;CLIENTNAME&gt; facilities.\n2. Perform physical security checks for all personnel entering the organizational premises.\n3. Restrict the entry and usage of devices within organizational premises according to security requirements.\n4. Supervise visitors at all times during their visit to secure areas.\n5. Verify the i",
-    "mapping_date": "2026-03-05T15:40:35.280545",
+    "mapping_date": "2026-03-05T15:58:48.774275",
     "reviewer": null,
     "notes": "Reranker: 0.282"
   },
@@ -413,9 +479,20 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2765055000782013,
     "evidence_text": "4 POLICY STATEMENT\n\n&lt;CLIENTNAME&gt; shall implement physical and environmental security measures to ensure critical or sensitive information systems are physically protected from unauthorized access, damage, and interference. Further &lt;CLIENTNAME&gt; shall implement controls to protect people and equipment from physical and environmental threats.",
-    "mapping_date": "2026-03-05T15:40:35.280539",
+    "mapping_date": "2026-03-05T15:58:48.774269",
     "reviewer": null,
     "notes": "Reranker: 0.277"
+  },
+  {
+    "mapping_id": "T7.2.2_clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_9",
+    "source_control_id": "T7.2.2",
+    "target_policy_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_9",
+    "status": "Partially Addressed",
+    "entailment_score": 0.23975743353366852,
+    "evidence_text": "5.2 Protecting Against External and Environmental Threats\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Provide adequate training to personnel responsible for responding to environmental and safety hazards.\n2. Ensure and monitor power, temperature and relative humidity inside data centers are in accordance with relevant regulations.\n3. Ensure data centers have 24/7 air conditioning and humidity control.\n4. Conduct planned maintenance for all supporting utilities and necessary records.\n5. Activate fire suppress",
+    "mapping_date": "2026-03-05T15:59:10.096630",
+    "reviewer": null,
+    "notes": "Reranker: 0.240"
   },
   {
     "mapping_id": "T7.6.4_clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_13",
@@ -424,7 +501,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.28402429819107056,
     "evidence_text": "5.6 Cabling Security\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Ensure that power and telecommunications lines into information systems are underground wherever possible.\n2. Protect power and telecommunication lines adequately from interception of data or damage.\n3. Physically separate power cables from communications cables to minimize interference.\n4. Shield telecommunication cables to avoid information leakage due to electro-magnetic signals emanations.\n5. Consider the following controls for sensitive or",
-    "mapping_date": "2026-03-05T15:41:15.317684",
+    "mapping_date": "2026-03-05T15:59:28.417630",
     "reviewer": null,
     "notes": "Reranker: 0.284"
   },
@@ -435,7 +512,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2608893811702728,
     "evidence_text": "5.4 Protect Delivery and Loading Areas\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Establish access procedures to loading and unloading areas to restrict access to only authorized personnel.\n2. Design the delivery and loading area where supplies can be loaded and unloaded without delivery personnel gaining access to other parts of the building.\n3. Establish and implement procedures for the storage of hazardous or combustible materials to reduce their risks on secure areas.\n4. Physically segregate loading and",
-    "mapping_date": "2026-03-05T15:41:25.991397",
+    "mapping_date": "2026-03-05T15:59:38.976923",
     "reviewer": null,
     "notes": "Reranker: 0.261"
   },
@@ -446,7 +523,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2580532133579254,
     "evidence_text": "4 POLICY STATEMENT\n\n&lt;CLIENTNAME&gt; shall implement physical and environmental security measures to ensure critical or sensitive information systems are physically protected from unauthorized access, damage, and interference. Further &lt;CLIENTNAME&gt; shall implement controls to protect people and equipment from physical and environmental threats.",
-    "mapping_date": "2026-03-05T15:41:31.318919",
+    "mapping_date": "2026-03-05T15:59:44.250975",
     "reviewer": null,
     "notes": "Reranker: 0.258"
   }

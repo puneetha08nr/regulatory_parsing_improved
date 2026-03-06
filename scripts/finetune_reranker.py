@@ -123,8 +123,17 @@ def train_pairwise(cross_encoder, triplets: list, epochs: int,
         logits = hf_model(**enc).logits.squeeze(-1)   # (batch,)
         return torch.sigmoid(logits)                   # map to [0, 1]
 
+    try:
+        from tqdm import tqdm
+        use_tqdm = True
+    except ImportError:
+        use_tqdm = False
+
     best_loss = float("inf")
     Path(output_path).mkdir(parents=True, exist_ok=True)
+
+    steps_per_epoch = (len(triplets) + batch_size - 1) // batch_size
+    log_every = max(1, steps_per_epoch // 10)   # print ~10 times per epoch
 
     for epoch in range(epochs):
         random.shuffle(triplets)
@@ -132,7 +141,11 @@ def train_pairwise(cross_encoder, triplets: list, epochs: int,
         epoch_loss = 0.0
         steps = 0
 
-        for i in range(0, len(triplets), batch_size):
+        batches = range(0, len(triplets), batch_size)
+        if use_tqdm:
+            batches = tqdm(batches, desc=f"Epoch {epoch+1}/{epochs}", unit="batch")
+
+        for i in batches:
             batch = triplets[i : i + batch_size]
             queries   = [t[0] for t in batch]
             pos_pass  = [t[1] for t in batch]
@@ -141,7 +154,6 @@ def train_pairwise(cross_encoder, triplets: list, epochs: int,
             pos_scores = score_pairs(queries, pos_pass)    # (B,)
             neg_scores = score_pairs(queries, neg_pass)    # (B,)
 
-            # Target: pos should score 1.0 higher than neg (clamped via sigmoid)
             diff   = pos_scores - neg_scores               # want ≈ 1.0
             target = torch.ones_like(diff)
             loss   = mse(diff, target)
@@ -155,14 +167,19 @@ def train_pairwise(cross_encoder, triplets: list, epochs: int,
             epoch_loss += loss.item()
             steps += 1
 
-        avg = epoch_loss / max(steps, 1)
-        print(f"  Epoch {epoch + 1}/{epochs}  avg_loss={avg:.4f}")
+            if use_tqdm:
+                batches.set_postfix(loss=f"{loss.item():.4f}")
+            elif steps % log_every == 0:
+                print(f"  Epoch {epoch+1}/{epochs}  step {steps}/{steps_per_epoch}  "
+                      f"loss={loss.item():.4f}  avg={epoch_loss/steps:.4f}", flush=True)
 
-        # Save best checkpoint
+        avg = epoch_loss / max(steps, 1)
+        print(f"  Epoch {epoch+1}/{epochs} complete  avg_loss={avg:.4f}", flush=True)
+
         if avg < best_loss:
             best_loss = avg
             cross_encoder.save(output_path)
-            print(f"    → saved (best so far)")
+            print(f"    → checkpoint saved (best so far)", flush=True)
 
     print(f"\nBest pairwise loss: {best_loss:.4f}")
 

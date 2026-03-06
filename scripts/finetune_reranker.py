@@ -95,8 +95,9 @@ def train_pairwise(cross_encoder, triplets: list, epochs: int,
     For each triplet (q, pos, neg), we compute:
         loss = MSE(score(q, pos) - score(q, neg),  target=1.0)
 
-    This directly trains the ranking rather than hitting exact score values,
-    which preserves Spearman rank correlation.
+    Pos and neg pairs are concatenated into ONE forward pass of size 2×batch_size
+    to halve memory vs two separate passes. Mixed precision (fp16) is used
+    automatically when a CUDA GPU is available.
     """
     import torch
     import torch.nn as nn
@@ -107,21 +108,31 @@ def train_pairwise(cross_encoder, triplets: list, epochs: int,
     max_len   = cross_encoder.max_length
     device    = next(hf_model.parameters()).device
 
+    use_amp = device.type == "cuda"
+    scaler  = torch.cuda.amp.GradScaler() if use_amp else None
+
     optimizer = torch.optim.AdamW(hf_model.parameters(), lr=2e-5, weight_decay=0.01)
     total_steps = (len(triplets) // batch_size + 1) * epochs
     scheduler = get_linear_schedule_with_warmup(optimizer, warmup_steps, total_steps)
 
     mse = nn.MSELoss()
 
-    def score_pairs(queries, passages):
+    def score_pairs_combined(queries, pos_passages, neg_passages):
+        """Single forward pass for both pos and neg — halves peak GPU memory."""
+        all_q = queries + queries                    # [q…q, q…q]
+        all_p = pos_passages + neg_passages          # [pos…, neg…]
         enc = tokenizer(
-            queries, passages,
+            all_q, all_p,
             padding=True, truncation=True,
             max_length=max_len, return_tensors="pt"
         )
         enc = {k: v.to(device) for k, v in enc.items()}
-        logits = hf_model(**enc).logits.squeeze(-1)   # (batch,)
-        return torch.sigmoid(logits)                   # map to [0, 1]
+        with torch.cuda.amp.autocast(enabled=use_amp):
+            logits = hf_model(**enc).logits.squeeze(-1)   # (2B,)
+        B = len(queries)
+        pos_scores = torch.sigmoid(logits[:B])
+        neg_scores = torch.sigmoid(logits[B:])
+        return pos_scores, neg_scores
 
     try:
         from tqdm import tqdm
@@ -151,17 +162,23 @@ def train_pairwise(cross_encoder, triplets: list, epochs: int,
             pos_pass  = [t[1] for t in batch]
             neg_pass  = [t[2] for t in batch]
 
-            pos_scores = score_pairs(queries, pos_pass)    # (B,)
-            neg_scores = score_pairs(queries, neg_pass)    # (B,)
+            pos_scores, neg_scores = score_pairs_combined(queries, pos_pass, neg_pass)
 
             diff   = pos_scores - neg_scores               # want ≈ 1.0
             target = torch.ones_like(diff)
             loss   = mse(diff, target)
 
             optimizer.zero_grad()
-            loss.backward()
-            nn.utils.clip_grad_norm_(hf_model.parameters(), 1.0)
-            optimizer.step()
+            if scaler is not None:
+                scaler.scale(loss).backward()
+                scaler.unscale_(optimizer)
+                nn.utils.clip_grad_norm_(hf_model.parameters(), 1.0)
+                scaler.step(optimizer)
+                scaler.update()
+            else:
+                loss.backward()
+                nn.utils.clip_grad_norm_(hf_model.parameters(), 1.0)
+                optimizer.step()
             scheduler.step()
 
             epoch_loss += loss.item()
@@ -253,7 +270,9 @@ def main():
                         help="pairwise=MarginMSE ranking loss (default, fixes Spearman collapse); "
                              "mse=pointwise regression (legacy)")
     parser.add_argument("--epochs",         type=int,   default=5)
-    parser.add_argument("--batch-size",     type=int,   default=16)
+    parser.add_argument("--batch-size",     type=int,   default=8,
+                        help="Per-step triplet batch (pairwise mode runs 2× this through GPU; "
+                             "default=8 → 16 pairs per forward pass, safe on 15 GiB GPU)")
     parser.add_argument("--warmup-ratio",   type=float, default=0.1)
     parser.add_argument("--hard-neg-weight",type=float, default=1.5,
                         help="For mse mode: hard-neg duplication multiplier. "

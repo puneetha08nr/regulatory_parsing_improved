@@ -111,14 +111,20 @@ def train_pairwise(cross_encoder, triplets: list, epochs: int,
     use_amp = device.type == "cuda"
     scaler  = torch.cuda.amp.GradScaler() if use_amp else None
 
-    optimizer = torch.optim.AdamW(hf_model.parameters(), lr=2e-5, weight_decay=0.01)
+    optimizer = torch.optim.AdamW(hf_model.parameters(), lr=5e-6, weight_decay=0.01)
     total_steps = (len(triplets) // batch_size + 1) * epochs
     scheduler = get_linear_schedule_with_warmup(optimizer, warmup_steps, total_steps)
 
     mse = nn.MSELoss()
 
     def score_pairs_combined(queries, pos_passages, neg_passages):
-        """Single forward pass for both pos and neg — halves peak GPU memory."""
+        """Single forward pass for both pos and neg — halves peak GPU memory.
+
+        Returns RAW LOGITS (not sigmoid) so the MarginMSE diff target of 1.0
+        is achievable without forcing extreme weight values.  With sigmoid,
+        the max achievable diff is ~0.76 in normal logit range, which drives
+        the model to push weights to ±10 and destroys ranking quality.
+        """
         all_q = queries + queries                    # [q…q, q…q]
         all_p = pos_passages + neg_passages          # [pos…, neg…]
         enc = tokenizer(
@@ -128,11 +134,9 @@ def train_pairwise(cross_encoder, triplets: list, epochs: int,
         )
         enc = {k: v.to(device) for k, v in enc.items()}
         with torch.cuda.amp.autocast(enabled=use_amp):
-            logits = hf_model(**enc).logits.squeeze(-1)   # (2B,)
+            logits = hf_model(**enc).logits.squeeze(-1)   # (2B,)  raw logits
         B = len(queries)
-        pos_scores = torch.sigmoid(logits[:B])
-        neg_scores = torch.sigmoid(logits[B:])
-        return pos_scores, neg_scores
+        return logits[:B], logits[B:]   # pos_logits, neg_logits
 
     try:
         from tqdm import tqdm
@@ -162,9 +166,11 @@ def train_pairwise(cross_encoder, triplets: list, epochs: int,
             pos_pass  = [t[1] for t in batch]
             neg_pass  = [t[2] for t in batch]
 
-            pos_scores, neg_scores = score_pairs_combined(queries, pos_pass, neg_pass)
+            pos_logits, neg_logits = score_pairs_combined(queries, pos_pass, neg_pass)
 
-            diff   = pos_scores - neg_scores               # want ≈ 1.0
+            # MarginMSE on raw logits: pos logit should exceed neg logit by 1.0
+            # Using raw logits avoids sigmoid saturation that forces extreme weights
+            diff   = pos_logits - neg_logits               # want ≈ 1.0 in logit space
             target = torch.ones_like(diff)
             loss   = mse(diff, target)
 
@@ -269,7 +275,9 @@ def main():
     parser.add_argument("--loss",       default="pairwise", choices=["pairwise", "mse"],
                         help="pairwise=MarginMSE ranking loss (default, fixes Spearman collapse); "
                              "mse=pointwise regression (legacy)")
-    parser.add_argument("--epochs",         type=int,   default=5)
+    parser.add_argument("--epochs",         type=int,   default=3,
+                        help="Training epochs (default=3; more than 3 risks catastrophic forgetting "
+                             "on small datasets like this one)")
     parser.add_argument("--batch-size",     type=int,   default=8,
                         help="Per-step triplet batch (pairwise mode runs 2× this through GPU; "
                              "default=8 → 16 pairs per forward pass, safe on 15 GiB GPU)")

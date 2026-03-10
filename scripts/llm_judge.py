@@ -67,7 +67,7 @@ Does this passage address the control?"""
 # ── Ollama client ─────────────────────────────────────────────────────────────
 
 def call_ollama(prompt: str, model: str, host: str = "http://localhost:11434",
-                timeout: int = 60) -> str:
+                timeout: int = 180) -> str:
     import requests
     payload = {
         "model": model,
@@ -148,6 +148,9 @@ def main():
                         help="Ollama model name (default: llama3.2). "
                              "Alternatives: mistral, llama3.1:8b")
     parser.add_argument("--host",      default="http://localhost:11434")
+    parser.add_argument("--timeout",   type=int, default=180,
+                        help="Seconds to wait per Ollama response (default=180). "
+                             "Increase if you see ReadTimeout errors.")
     parser.add_argument("--limit",     type=int, default=None,
                         help="Only judge first N mappings (for testing)")
     parser.add_argument("--keep-not-addressed", action="store_true",
@@ -179,7 +182,7 @@ def main():
     # ── Verify Ollama is up ───────────────────────────────────────────────────
     print(f"\nVerifying Ollama connection (model: {args.model}) ...")
     try:
-        test = call_ollama("Reply with OK", model=args.model, host=args.host, timeout=30)
+        test = call_ollama("Reply with OK", model=args.model, host=args.host, timeout=args.timeout)
         print(f"  Ollama OK — response: {test[:40]!r}")
     except RuntimeError as e:
         print(f"\nERROR: {e}")
@@ -203,7 +206,7 @@ def main():
         )
 
         try:
-            response = call_ollama(prompt, model=args.model, host=args.host)
+            response = call_ollama(prompt, model=args.model, host=args.host, timeout=args.timeout)
             label, reason = parse_llm_verdict(response)
         except Exception as e:
             label, reason = "Not Addressed", f"LLM error: {e}"

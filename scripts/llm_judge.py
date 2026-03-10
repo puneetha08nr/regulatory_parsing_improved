@@ -41,40 +41,141 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
-# ── Prompt template ───────────────────────────────────────────────────────────
+# ── Prompt templates ──────────────────────────────────────────────────────────
+#
+# Strategy:
+#   1. Role + domain framing  — grounds the model in UAE IA compliance
+#   2. Criteria with examples — removes label ambiguity with concrete cases
+#   3. Chain-of-Thought (CoT) — forces the model to reason before labelling,
+#      which improves accuracy on small (1B) models significantly
+#   4. Structured output      — deterministic parsing even with verbose CoT
+#
+# Prompt variant is selectable via --prompt-style {strict|cot|fewshot}
+# default = "cot"  (best accuracy/speed balance for 1B models)
 
-SYSTEM_PROMPT = """You are a compliance auditor specialising in UAE Information Assurance (UAE IA) Regulation.
+# ── Style: strict (original, fastest) ─────────────────────────────────────────
+SYSTEM_PROMPT_STRICT = """You are a compliance auditor specialising in UAE Information Assurance (UAE IA) Regulation.
 Your task is to assess whether a policy passage addresses a specific compliance control.
 
-Be strict and precise:
-- "Fully Addressed": the passage explicitly and completely covers the control requirement.
-- "Partially Addressed": the passage touches on the topic but does not fully satisfy the control.
-- "Not Addressed": the passage is about a different topic and does not address the control.
+Definitions:
+- "Fully Addressed"   : The passage explicitly and completely satisfies the control requirement — \
+the control objective is clearly met with no gaps.
+- "Partially Addressed": The passage is relevant and touches on the control topic but leaves \
+some requirements unmet or only implied.
+- "Not Addressed"     : The passage is about a different topic, or only mentions the subject in \
+passing without addressing the control requirement.
 
-Respond with EXACTLY one of these three labels followed by a brief reason (1 sentence).
-Format: LABEL | reason"""
+Rules:
+- Generic statements like "we comply with regulations" do NOT count as Fully Addressed.
+- A passage that merely names the topic (e.g. "access control") without describing HOW it is \
+implemented is at most Partially Addressed.
+- If uncertain between Fully and Partially, choose Partially Addressed.
 
-USER_PROMPT_TEMPLATE = """Control ID: {control_id}
+Respond with EXACTLY one of the three labels, then a pipe, then one sentence of reasoning.
+Format: LABEL | reasoning"""
+
+USER_PROMPT_STRICT = """Control ID: {control_id}
 Control requirement:
 {control_text}
 
 Policy passage:
 {passage_text}
 
-Does this passage address the control?"""
+Verdict:"""
+
+# ── Style: cot (Chain-of-Thought, recommended for 1B models) ──────────────────
+SYSTEM_PROMPT_COT = """You are a compliance auditor specialising in UAE Information Assurance (UAE IA) Regulation.
+
+Your job: decide whether a POLICY PASSAGE addresses a COMPLIANCE CONTROL.
+
+Label definitions:
+- Fully Addressed    : passage explicitly and completely covers the control — no gaps.
+- Partially Addressed: passage is relevant but leaves requirements unmet or only implied.
+- Not Addressed      : passage is off-topic or too generic to satisfy the control.
+
+Strict rules:
+- Vague statements ("we follow best practices") = Not Addressed.
+- Topic mentioned but no HOW/WHAT details = Partially Addressed at best.
+- When in doubt between Fully and Partially → choose Partially Addressed.
+
+Think step by step BEFORE giving your verdict:
+  Step 1: What does the control require?
+  Step 2: What does the passage actually say?
+  Step 3: Is there a match? What is missing?
+  Verdict: LABEL | one-sentence reason
+
+Always end with the line:
+  Verdict: LABEL | reason"""
+
+USER_PROMPT_COT = """=== COMPLIANCE CONTROL ===
+ID: {control_id}
+Requirement:
+{control_text}
+
+=== POLICY PASSAGE ===
+{passage_text}
+
+=== YOUR ANALYSIS ===
+Step 1: What does the control require?"""
+
+# ── Style: fewshot (few-shot examples, best accuracy, slower) ─────────────────
+SYSTEM_PROMPT_FEWSHOT = """You are a compliance auditor specialising in UAE Information Assurance (UAE IA) Regulation.
+Assess whether a policy passage addresses a compliance control.
+
+Labels:
+- Fully Addressed    : passage explicitly and completely covers the control — no gaps.
+- Partially Addressed: passage is relevant but leaves requirements unmet or only implied.
+- Not Addressed      : passage is off-topic or too generic to satisfy the control.
+
+Here are examples of correct verdicts:
+
+--- EXAMPLE 1 ---
+Control: T1.1.1 - The organization shall maintain an asset inventory including hardware, software and data assets.
+Passage: "All information assets are classified and recorded in the asset register maintained by IT. The register is reviewed quarterly."
+Verdict: Fully Addressed | The passage explicitly describes maintaining an asset inventory (asset register) with regular review, directly satisfying the control.
+
+--- EXAMPLE 2 ---
+Control: T2.2.6 - Physical access to server rooms must be controlled and logged with biometric authentication.
+Passage: "Physical security of the organization premises is managed through access cards and CCTV surveillance."
+Verdict: Partially Addressed | The passage covers physical access control but does not mention server-room-specific controls or the required biometric authentication and access logging.
+
+--- EXAMPLE 3 ---
+Control: M3.2.1 - All staff must complete annual security awareness training covering phishing and social engineering.
+Passage: "The organization complies with all applicable laws and regulations relating to information security."
+Verdict: Not Addressed | The passage is a generic compliance statement and does not describe any training programme or address the control requirement.
+
+Now assess the following:"""
+
+USER_PROMPT_FEWSHOT = """Control ID: {control_id}
+Control requirement:
+{control_text}
+
+Policy passage:
+{passage_text}
+
+Verdict:"""
+
+# ── Active style registry ──────────────────────────────────────────────────────
+PROMPT_STYLES = {
+    "strict":  (SYSTEM_PROMPT_STRICT,  USER_PROMPT_STRICT),
+    "cot":     (SYSTEM_PROMPT_COT,     USER_PROMPT_COT),
+    "fewshot": (SYSTEM_PROMPT_FEWSHOT, USER_PROMPT_FEWSHOT),
+}
+DEFAULT_PROMPT_STYLE = "cot"
 
 
 # ── Ollama client ─────────────────────────────────────────────────────────────
 
-def call_ollama(prompt: str, model: str, host: str = "http://localhost:11434",
-                timeout: int = 180) -> str:
+def call_ollama(prompt: str, model: str, system: str,
+                host: str = "http://localhost:11434",
+                timeout: int = 180, num_predict: int = 200) -> str:
     import requests
     payload = {
         "model": model,
         "prompt": prompt,
-        "system": SYSTEM_PROMPT,
+        "system": system,
         "stream": False,
-        "options": {"temperature": 0, "num_predict": 80},
+        "options": {"temperature": 0, "num_predict": num_predict},
     }
     try:
         resp = requests.post(f"{host}/api/generate", json=payload, timeout=timeout)
@@ -90,9 +191,28 @@ def call_ollama(prompt: str, model: str, host: str = "http://localhost:11434",
 
 
 def parse_llm_verdict(response: str) -> tuple[str, str]:
-    """Extract (label, reason) from LLM response."""
+    """Extract (label, reason) from LLM response.
+
+    Handles three formats:
+      - Direct:   "Fully Addressed | reason"
+      - CoT:      "Verdict: Fully Addressed | reason"
+      - Fallback: scans full text for any valid label
+    """
     valid = {"fully addressed", "partially addressed", "not addressed"}
+
+    # Prioritise the explicit "Verdict:" line produced by CoT prompts
+    verdict_line = None
     for line in response.strip().splitlines():
+        stripped = line.strip()
+        if stripped.lower().startswith("verdict:"):
+            verdict_line = stripped[len("verdict:"):].strip()
+            break
+
+    candidates = ([verdict_line] if verdict_line else []) + response.strip().splitlines()
+
+    for line in candidates:
+        if not line:
+            continue
         parts = line.split("|", 1)
         label_raw = parts[0].strip().lower()
         for v in valid:
@@ -100,13 +220,14 @@ def parse_llm_verdict(response: str) -> tuple[str, str]:
                 label = v.title()
                 reason = parts[1].strip() if len(parts) > 1 else ""
                 return label, reason
-    # Fallback: scan for any valid label in full response
+
+    # Last-resort scan of full response
     low = response.lower()
     if "fully addressed" in low:
-        return "Fully Addressed", response[:120]
+        return "Fully Addressed", response[:200]
     if "partially addressed" in low:
-        return "Partially Addressed", response[:120]
-    return "Not Addressed", response[:120]
+        return "Partially Addressed", response[:200]
+    return "Not Addressed", response[:200]
 
 
 # ── Controls index ────────────────────────────────────────────────────────────
@@ -144,21 +265,32 @@ def main():
     parser.add_argument("--mappings",  default="data/06_compliance_mappings/mappings.json")
     parser.add_argument("--controls",  default="data/04_label_studio/imports/uae_ia_controls_raw.json")
     parser.add_argument("--output",    default="data/06_compliance_mappings/mappings_llm_judged.json")
-    parser.add_argument("--model",     default="llama3.2",
-                        help="Ollama model name (default: llama3.2). "
-                             "Alternatives: mistral, llama3.1:8b")
-    parser.add_argument("--host",      default="http://localhost:11434")
-    parser.add_argument("--timeout",   type=int, default=180,
+    parser.add_argument("--model",        default="llama3.2:1b",
+                        help="Ollama model name (default: llama3.2:1b). "
+                             "Alternatives: mistral, llama3.1:8b, llama3.2")
+    parser.add_argument("--prompt-style", default=DEFAULT_PROMPT_STYLE,
+                        choices=list(PROMPT_STYLES),
+                        help=("Prompting strategy: "
+                              "'strict' = direct label (fastest), "
+                              "'cot' = chain-of-thought reasoning (default, best for 1B), "
+                              "'fewshot' = 3 labelled examples (most accurate, slower)"))
+    parser.add_argument("--host",         default="http://localhost:11434")
+    parser.add_argument("--timeout",      type=int, default=180,
                         help="Seconds to wait per Ollama response (default=180). "
                              "Increase if you see ReadTimeout errors.")
-    parser.add_argument("--limit",     type=int, default=None,
+    parser.add_argument("--limit",        type=int, default=None,
                         help="Only judge first N mappings (for testing)")
     parser.add_argument("--keep-not-addressed", action="store_true",
                         help="Also include 'Not Addressed' LLM verdicts in output "
                              "(default: drop them)")
-    parser.add_argument("--evaluate",  action="store_true",
+    parser.add_argument("--evaluate",     action="store_true",
                         help="Run evaluation against golden set after judging")
     args = parser.parse_args()
+
+    system_prompt, user_template = PROMPT_STYLES[args.prompt_style]
+    # CoT needs more tokens to reason; strict/fewshot only need the label line
+    num_predict = 300 if args.prompt_style == "cot" else 100
+    print(f"Prompt style : {args.prompt_style}  (num_predict={num_predict})")
 
     # ── Load data ─────────────────────────────────────────────────────────────
     print(f"Loading mappings from {args.mappings} ...")
@@ -182,7 +314,8 @@ def main():
     # ── Verify Ollama is up ───────────────────────────────────────────────────
     print(f"\nVerifying Ollama connection (model: {args.model}) ...")
     try:
-        test = call_ollama("Reply with OK", model=args.model, host=args.host, timeout=args.timeout)
+        test = call_ollama("Reply with OK", model=args.model, system="You are a helpful assistant.",
+                           host=args.host, timeout=args.timeout, num_predict=20)
         print(f"  Ollama OK — response: {test[:40]!r}")
     except RuntimeError as e:
         print(f"\nERROR: {e}")
@@ -199,14 +332,16 @@ def main():
         passage = m.get("evidence_text", "")[:1200]   # cap to avoid token overflow
         ctrl_text = ctrl_index.get(ctrl_id, f"Control {ctrl_id}")
 
-        prompt = USER_PROMPT_TEMPLATE.format(
+        prompt = user_template.format(
             control_id=ctrl_id,
             control_text=ctrl_text[:600],
             passage_text=passage,
         )
 
         try:
-            response = call_ollama(prompt, model=args.model, host=args.host, timeout=args.timeout)
+            response = call_ollama(prompt, model=args.model, system=system_prompt,
+                                   host=args.host, timeout=args.timeout,
+                                   num_predict=num_predict)
             label, reason = parse_llm_verdict(response)
         except Exception as e:
             label, reason = "Not Addressed", f"LLM error: {e}"
@@ -217,6 +352,7 @@ def main():
         judged["llm_verdict"]       = label
         judged["llm_reason"]        = reason
         judged["llm_model"]         = args.model
+        judged["llm_prompt_style"]  = args.prompt_style
         judged["original_status"]   = m.get("status")
         judged["status"]            = label     # update status with LLM verdict
 

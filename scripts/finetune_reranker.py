@@ -272,6 +272,12 @@ def main():
     parser.add_argument("--dev",        required=True)
     parser.add_argument("--output",     default="models/compliance-reranker")
     parser.add_argument("--base-model", default="BAAI/bge-reranker-base")
+    parser.add_argument("--lora",       action="store_true",
+                        help="Use LoRA adapters (requires pip install peft). "
+                             "Trains only ~2M params instead of 278M — 10× faster on CPU, "
+                             "prevents catastrophic forgetting. Recommended for CPU runs.")
+    parser.add_argument("--lora-r",     type=int, default=16,
+                        help="LoRA rank (default=16; lower=faster/smaller, higher=more capacity)")
     parser.add_argument("--loss",       default="pairwise", choices=["pairwise", "mse"],
                         help="pairwise=MarginMSE ranking loss (default, fixes Spearman collapse); "
                              "mse=pointwise regression (legacy)")
@@ -317,6 +323,30 @@ def main():
     # ── Load model ────────────────────────────────────────────────────────────
     print(f"\nLoading base model: {args.base_model}")
     model = CrossEncoder(args.base_model, max_length=args.max_length, num_labels=1)
+
+    # ── Optional LoRA wrapping ────────────────────────────────────────────────
+    if args.lora:
+        try:
+            from peft import get_peft_model, LoraConfig, TaskType
+        except ImportError:
+            print("LoRA requires the peft library: pip install peft")
+            sys.exit(1)
+        peft_config = LoraConfig(
+            task_type=TaskType.SEQ_CLS,
+            r=args.lora_r,
+            lora_alpha=args.lora_r * 2,
+            lora_dropout=0.05,
+            target_modules=["query", "key", "value"],
+            bias="none",
+        )
+        model.model = get_peft_model(model.model, peft_config)
+        trainable, total = model.model.get_nb_trainable_parameters() if hasattr(
+            model.model, "get_nb_trainable_parameters") else (
+            sum(p.numel() for p in model.model.parameters() if p.requires_grad),
+            sum(p.numel() for p in model.model.parameters()))
+        print(f"\nLoRA enabled  rank={args.lora_r}  "
+              f"trainable={trainable:,} / {total:,} params "
+              f"({100 * trainable / total:.2f}%)")
 
     # ── Baseline ──────────────────────────────────────────────────────────────
     print("\nBaseline (before fine-tuning):")
@@ -368,6 +398,11 @@ def main():
 
     # ── Explicit final save ───────────────────────────────────────────────────
     print(f"\nSaving final model to {output_path} ...")
+    if args.lora:
+        # Merge LoRA adapters back into base weights before saving so the
+        # output is a standard CrossEncoder loadable without peft installed.
+        print("  Merging LoRA adapters into base weights...")
+        model.model = model.model.merge_and_unload()
     model.save(output_path)
 
     saved_files = []

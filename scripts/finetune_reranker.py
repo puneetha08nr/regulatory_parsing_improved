@@ -51,12 +51,13 @@ def load_rows(path: str):
 
 # ── Pairwise (MarginMSE) helpers ──────────────────────────────────────────────
 
-def make_triplets(rows: list, hard_neg_extra: int = 1) -> list:
+def make_triplets(rows: list, max_negs_per_pos: int = 5) -> list:
     """
     Group rows by query and build (query, positive_passage, negative_passage) triplets.
 
-    hard_neg_extra: how many *extra* times each hard negative appears in triplets
-                    on top of its normal occurrence (default=1 → appears twice).
+    max_negs_per_pos caps how many negatives each positive is paired with.
+    Hard negatives are prioritised; remaining slots filled with random negatives.
+    Default=5 keeps total triplets manageable for CPU (~3,500 vs 41,000+).
     """
     groups = defaultdict(lambda: {"pos": [], "neg": [], "hard": []})
     for r in rows:
@@ -72,18 +73,21 @@ def make_triplets(rows: list, hard_neg_extra: int = 1) -> list:
 
     triplets = []
     for q, g in groups.items():
-        # All negatives; hard negatives appear extra times to upweight them
-        all_negs = g["neg"] + g["hard"] * (1 + hard_neg_extra)
+        # Hard negatives first, then random negatives, capped per positive
+        all_negs = g["hard"] + g["neg"]
         if not all_negs:
             continue
         for pos in g["pos"]:
-            for neg in all_negs:
+            sampled = all_negs[:max_negs_per_pos]   # hard negs already first
+            for neg in sampled:
                 triplets.append((q, pos, neg))
 
     random.shuffle(triplets)
+    n_pos = sum(len(g["pos"]) for g in groups.values())
+    n_neg = sum(len(g["neg"]) + len(g["hard"]) for g in groups.values())
     print(f"  Triplets: {len(triplets)}  "
-          f"(from {sum(len(g['pos']) for g in groups.values())} positives × "
-          f"{sum(len(g['neg'])+len(g['hard']) for g in groups.values())} negatives)")
+          f"(from {n_pos} positives × up to {max_negs_per_pos} negatives each; "
+          f"{n_neg} total negatives available)")
     return triplets
 
 
@@ -115,7 +119,11 @@ def train_pairwise(cross_encoder, triplets: list, epochs: int,
     total_steps = (len(triplets) // batch_size + 1) * epochs
     scheduler = get_linear_schedule_with_warmup(optimizer, warmup_steps, total_steps)
 
-    mse = nn.MSELoss()
+    # BPR loss: -log(sigmoid(logit_pos - logit_neg))
+    # Maximises P(pos ranks above neg).  Numerically stable — no large values.
+    # Better than MSE on raw logits (which explodes when logits are ±10+).
+    def bpr_loss(pos_logits, neg_logits):
+        return -torch.log(torch.sigmoid(pos_logits - neg_logits) + 1e-8).mean()
 
     def score_pairs_combined(queries, pos_passages, neg_passages):
         """Single forward pass for both pos and neg — halves peak GPU memory.
@@ -167,12 +175,7 @@ def train_pairwise(cross_encoder, triplets: list, epochs: int,
             neg_pass  = [t[2] for t in batch]
 
             pos_logits, neg_logits = score_pairs_combined(queries, pos_pass, neg_pass)
-
-            # MarginMSE on raw logits: pos logit should exceed neg logit by 1.0
-            # Using raw logits avoids sigmoid saturation that forces extreme weights
-            diff   = pos_logits - neg_logits               # want ≈ 1.0 in logit space
-            target = torch.ones_like(diff)
-            loss   = mse(diff, target)
+            loss = bpr_loss(pos_logits, neg_logits)
 
             optimizer.zero_grad()
             if scaler is not None:
@@ -289,8 +292,11 @@ def main():
                              "default=8 → 16 pairs per forward pass, safe on 15 GiB GPU)")
     parser.add_argument("--warmup-ratio",   type=float, default=0.1)
     parser.add_argument("--hard-neg-weight",type=float, default=1.5,
-                        help="For mse mode: hard-neg duplication multiplier. "
-                             "For pairwise mode: extra triplet copies of hard negs (default 1.5 → 1 extra).")
+                        help="For mse mode: hard-neg duplication multiplier.")
+    parser.add_argument("--max-negs-per-pos", type=int, default=5,
+                        help="Pairwise mode: max negatives paired with each positive. "
+                             "Default=5 → ~3,500 triplets, feasible on CPU in ~20-30 min. "
+                             "Increase for GPU runs (e.g. 20 → ~14,000 triplets).")
     parser.add_argument("--max-length",     type=int,   default=512)
     parser.add_argument("--label-smoothing",type=float, default=0.0,
                         help="For mse mode only. 0.0 = no smoothing (default).")
@@ -360,8 +366,7 @@ def main():
     # ── Train ─────────────────────────────────────────────────────────────────
     if args.loss == "pairwise":
         print(f"\nBuilding triplets for pairwise MarginMSE training...")
-        hard_extra = max(0, int(args.hard_neg_weight) - 1)
-        triplets = make_triplets(train_rows, hard_neg_extra=hard_extra)
+        triplets = make_triplets(train_rows, max_negs_per_pos=args.max_negs_per_pos)
 
         total_steps  = (len(triplets) // args.batch_size + 1) * args.epochs
         warmup_steps = int(total_steps * args.warmup_ratio)

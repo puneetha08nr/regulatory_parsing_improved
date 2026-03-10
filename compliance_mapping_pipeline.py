@@ -1323,7 +1323,6 @@ class ComplianceMappingPipeline:
                     [
                         {
                             "control_id":      m.source_control_id,
-                            "control_name":    m.control_name,
                             "status":          m.status,
                             "entailment_score": round(m.entailment_score, 4),
                         }

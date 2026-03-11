@@ -147,33 +147,75 @@ def generate_with_retry(prompt: str, system: str, model: str, host: str,
 # ── Controls loader ───────────────────────────────────────────────────────────
 
 def load_controls(path: str) -> list:
-    """Load controls, filtering to those with a non-trivial control_statement."""
+    """Load controls from either clean (deduplicated) or raw file.
+
+    Clean file format (from deduplicate_controls.py):
+      Each record has a top-level 'control' dict with 'id', 'name',
+      'description', 'full_text', plus 'control_family' and 'has_useful_text'.
+
+    Raw file format (uae_ia_controls_raw.json):
+      Flat records with 'control_id', 'control_number', 'control_statement'.
+    """
     with open(path, encoding="utf-8") as f:
-        raw = json.load(f)
+        data = json.load(f)
 
     controls = []
     seen_ids = set()
-    for c in raw:
-        cid = c.get("control_id", "")
-        stmt = (c.get("control_statement") or "").strip()
-        num = c.get("control_number", cid)
-        # Skip chapter-level entries (no dot in number = family header like "M1", "T2")
-        if not stmt or len(stmt.split()) < 5:
-            continue
-        if cid in seen_ids:
-            continue
-        seen_ids.add(cid)
-        controls.append({
-            "control_id":     cid,
-            "control_number": num,
-            "control_statement": stmt,
-            "control_family":  c.get("control_family", ""),
-            "section_title":   c.get("section_title", ""),
-        })
+
+    for c in data:
+        # ── Clean file format ─────────────────────────────────────────────────
+        if "control" in c and isinstance(c["control"], dict):
+            ctrl = c["control"]
+            cid = ctrl.get("id", "").strip()
+            if not cid or cid in seen_ids:
+                continue
+            # Skip the 2 "Unknown" controls with no text
+            if not c.get("has_useful_text", True):
+                continue
+            # Use pre-built full_text if available, else construct from parts
+            full_text = (ctrl.get("full_text") or "").strip()
+            if not full_text:
+                parts = [ctrl.get("description",""), ctrl.get("implementation_guidelines","")]
+                full_text = " ".join(p for p in parts if p).strip()
+            if len(full_text.split()) < 5:
+                continue
+            family_name = ""
+            if isinstance(c.get("control_family"), dict):
+                family_name = c["control_family"].get("name", "")
+            seen_ids.add(cid)
+            controls.append({
+                "control_id":        f"UAE_IA_CTRL_{cid}",
+                "control_number":    cid,
+                "control_statement": full_text,
+                "control_family":    family_name,
+                "section_title":     c.get("breadcrumb", family_name),
+                "family_prefix":     cid.split(".")[0],   # e.g. "T5", "M1"
+            })
+
+        # ── Raw file format ───────────────────────────────────────────────────
+        else:
+            cid = c.get("control_id", "").strip()
+            stmt = (c.get("control_statement") or "").strip()
+            num = c.get("control_number", cid)
+            if not stmt or len(stmt.split()) < 5:
+                continue
+            if cid in seen_ids:
+                continue
+            seen_ids.add(cid)
+            controls.append({
+                "control_id":        cid,
+                "control_number":    num,
+                "control_statement": stmt,
+                "control_family":    c.get("control_family", ""),
+                "section_title":     c.get("section_title", ""),
+                "family_prefix":     num.split(".")[0] if "." in num else num[:2],
+            })
+
     return controls
 
 
-def build_control_text(ctrl: dict, max_chars: int = 600) -> str:
+def build_control_text(ctrl: dict, max_chars: int = 700) -> str:
+    """Return the prompt-ready control text, capped at max_chars."""
     return ctrl["control_statement"][:max_chars]
 
 
@@ -203,7 +245,10 @@ def make_record(ctrl: dict, status: str, passage: str, source: str) -> dict:
 
 def main():
     ap = argparse.ArgumentParser(description="Generate synthetic (control, passage) training pairs")
-    ap.add_argument("--controls",    default="data/04_label_studio/imports/uae_ia_controls_raw.json")
+    ap.add_argument("--controls",    default="data/02_processed/uae_ia_controls_clean.json",
+                    help="Controls file. Use the deduplicated clean file "
+                         "(produced by scripts/deduplicate_controls.py). "
+                         "Falls back to uae_ia_controls_raw.json if clean file not found.")
     ap.add_argument("--output",      default="data/07_golden_mapping/synthetic_pairs.json")
     ap.add_argument("--checkpoint",  default="data/07_golden_mapping/synthetic_pairs_checkpoint.json",
                     help="Partial results saved here every --save-every controls")
@@ -359,6 +404,11 @@ def main():
     from collections import Counter
     status_counts = Counter(r["compliance_status"] for r in results)
 
+    from collections import Counter as _Counter
+    family_counts = _Counter(r.get("control_id","").split(".")[0]
+                             .replace("UAE_IA_CTRL_","")[:2]
+                             for r in results)
+
     print(f"\n{'='*60}")
     print(f"Synthetic data generation complete in {elapsed_total/60:.1f} min")
     print(f"  Controls processed : {len(remaining)}")
@@ -366,6 +416,10 @@ def main():
     print(f"  By status          : {dict(status_counts)}")
     print(f"  Errors             : {errors}")
     print(f"  Output             : {out_path}")
+    print(f"\n  Records by family  :")
+    for fam, cnt in sorted(family_counts.items()):
+        bar = "█" * (cnt // 3)
+        print(f"    {fam:5s}: {cnt:4d}  {bar}")
     print(f"\nNext step:")
     print(f"  python3 scripts/prepare_golden_for_training.py \\")
     print(f"    --golden data/07_golden_mapping/golden_mapping_dataset.json \\")

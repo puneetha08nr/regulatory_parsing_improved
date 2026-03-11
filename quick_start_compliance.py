@@ -135,6 +135,7 @@ def main():
     # Step 1: Load IA Controls
     print("\n[Step 1/6] Loading UAE IA Controls...")
     controls_candidates = [
+        Path("data/02_processed/uae_ia_controls_clean.json"),       # deduplicated + enriched (best)
         Path("data/02_processed/uae_ia_controls_structured.json"),
         Path("data/02_processed/uae_ia_controls_corrected.json"),
         Path("data/02_processed/uae_ia_controls_from_label_studio.json"),

@@ -23,12 +23,24 @@ Loss modes
     Trains the model to output exact scores (1.0 / 0.5 / 0.0).
     Known issue: tends to collapse to binary predictions, hurting Spearman.
 
-Usage (GPU, full training):
+Usage:
+  # Step 1: generate synthetic data (run once, ~2-3 hrs on CPU)
+  python3 scripts/generate_synthetic_pairs.py --model llama3.2:1b
+
+  # Step 2: build unified training set (synthetic + real golden, real weighted 3×)
+  python3 scripts/prepare_golden_for_training.py \\
+      --golden data/07_golden_mapping/golden_mapping_dataset.json \\
+      --synthetic data/07_golden_mapping/synthetic_pairs.json \\
+      --real-weight 3 --format reranker
+
+  # Step 3a: CPU run with LoRA (recommended, ~2 hrs, low memory)
   python3 scripts/finetune_reranker.py \\
-      --train data/07_golden_mapping/training_data/train.json \\
-      --dev   data/07_golden_mapping/training_data/dev.json \\
-      --output models/compliance-reranker \\
-      --loss pairwise --epochs 5 --batch-size 16
+      --loss pairwise --lora --lora-r 16 --epochs 3 --lr 5e-6 \\
+      --max-negs-per-pos 5
+
+  # Step 3b: GPU run without LoRA (faster, ~30 min, higher capacity)
+  python3 scripts/finetune_reranker.py \\
+      --loss pairwise --epochs 3 --batch-size 16 --max-negs-per-pos 20
 """
 
 import argparse

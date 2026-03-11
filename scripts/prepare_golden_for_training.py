@@ -4,6 +4,7 @@ Prepare golden mapping dataset for training an NLI or Reranker model.
 
 Reads:
   - Golden JSON (from create_golden_set_tasks.py --mode export)
+  - Synthetic JSON (from scripts/generate_synthetic_pairs.py)  [optional]
   - Controls JSON (UAE IA structured)
   - Policy passages (dir of *_for_mapping.json or single JSON)
 
@@ -12,13 +13,20 @@ Outputs:
     reranker format (query, passage, label/score).
 
 Usage:
+  # Real data only
   python3 scripts/prepare_golden_for_training.py \\
     --golden data/07_golden_mapping/golden_mapping_dataset.json \\
     --controls data/02_processed/uae_ia_controls_structured.json \\
     --policies data/02_processed/policies \\
     --output data/07_golden_mapping/training_data \\
-    --format nli \\
-    --dev-ratio 0.15
+    --format reranker
+
+  # With synthetic data (recommended after generate_synthetic_pairs.py)
+  python3 scripts/prepare_golden_for_training.py \\
+    --golden data/07_golden_mapping/golden_mapping_dataset.json \\
+    --synthetic data/07_golden_mapping/synthetic_pairs.json \\
+    --real-weight 3 \\
+    --format reranker
 """
 
 import argparse
@@ -47,6 +55,17 @@ STATUS_TO_SCORE = {
     "Fully addressed": 1.0,
     "Partially Addressed": 0.5,
     "Partially addressed": 0.5,
+    "Not Addressed": 0.0,
+    "Not addressed": 0.0,
+}
+
+# Synthetic score downgrade — synthetic pairs count as slightly weaker signal
+# than human-verified ones. This prevents overfitting to LLM-generated text.
+SYNTHETIC_SCORE_MAP = {
+    "Fully Addressed": 0.85,
+    "Fully addressed": 0.85,
+    "Partially Addressed": 0.55,
+    "Partially addressed": 0.55,
     "Not Addressed": 0.0,
     "Not addressed": 0.0,
 }
@@ -293,15 +312,83 @@ def prepare_reranker(golden: List[Dict], control_map: Dict, policy_map: Dict) ->
     return rows
 
 
+def prepare_synthetic_reranker(synthetic: List[Dict]) -> List[Dict]:
+    """Convert synthetic_pairs.json records into reranker training rows.
+
+    Synthetic pairs use a lower score than real annotations to reflect the
+    slightly weaker signal quality of LLM-generated text.  The dev split
+    intentionally excludes synthetic rows so evaluation stays honest.
+    """
+    rows = []
+    for g in synthetic:
+        status = (g.get("compliance_status") or "").strip()
+        score = SYNTHETIC_SCORE_MAP.get(status)
+        if score is None:
+            continue
+        query = (g.get("control_text_snippet") or "").strip()
+        passage = (g.get("policy_text_snippet") or "").strip()
+        if not query or not passage or len(passage.split()) < 10:
+            continue
+        rows.append({
+            "query":             query[:512],
+            "passage":           passage[:2000],
+            "label":             status,
+            "score":             score,
+            "control_id":        g.get("control_id", ""),
+            "policy_passage_id": g.get("policy_passage_id", ""),
+            "is_hard_negative":  False,
+            "mismatch_reason":   None,
+            "is_synthetic":      True,
+            "source":            g.get("synthetic_source", "synthetic"),
+        })
+    return rows
+
+
+def prepare_synthetic_nli(synthetic: List[Dict]) -> List[Dict]:
+    """NLI version of synthetic rows."""
+    rows = []
+    for g in synthetic:
+        status = (g.get("compliance_status") or "").strip()
+        nli_label = STATUS_TO_NLI.get(status)
+        if nli_label is None:
+            continue
+        premise = (g.get("policy_text_snippet") or "").strip()
+        hypothesis = (g.get("control_text_snippet") or "").strip()
+        if not premise or not hypothesis or len(premise.split()) < 10:
+            continue
+        rows.append({
+            "premise":           premise[:2000],
+            "hypothesis":        hypothesis[:512],
+            "label":             nli_label,
+            "control_id":        g.get("control_id", ""),
+            "policy_passage_id": g.get("policy_passage_id", ""),
+            "is_synthetic":      True,
+        })
+    return rows
+
+
 def main():
     ap = argparse.ArgumentParser(description="Prepare golden data for NLI or Reranker training")
-    ap.add_argument("--golden", required=True, help="Golden mapping JSON (from create_golden_set_tasks export)")
-    ap.add_argument("--controls", default="data/02_processed/uae_ia_controls_structured.json", help="UAE IA controls JSON")
-    ap.add_argument("--policies", default="data/02_processed/policies", help="Policy passages: dir with *_for_mapping.json or single JSON")
-    ap.add_argument("--output", default="data/07_golden_mapping/training_data", help="Output dir for train/dev files")
-    ap.add_argument("--format", choices=["nli", "reranker"], default="nli", help="Output format")
-    ap.add_argument("--dev-ratio", type=float, default=0.15, help="Fraction for dev set (0.15 = 15%%)")
-    ap.add_argument("--seed", type=int, default=42, help="Random seed for split")
+    ap.add_argument("--golden",      required=True,
+                    help="Golden mapping JSON (from create_golden_set_tasks export)")
+    ap.add_argument("--synthetic",   default=None,
+                    help="Synthetic pairs JSON (from scripts/generate_synthetic_pairs.py). "
+                         "When provided, synthetic rows are added to train split only.")
+    ap.add_argument("--real-weight", type=int, default=3,
+                    help="Duplicate real human-annotated rows this many times so they "
+                         "outweigh synthetic rows during training (default: 3).")
+    ap.add_argument("--controls",    default="data/02_processed/uae_ia_controls_structured.json",
+                    help="UAE IA controls JSON")
+    ap.add_argument("--policies",    default="data/02_processed/policies",
+                    help="Policy passages: dir with *_for_mapping.json or single JSON")
+    ap.add_argument("--output",      default="data/07_golden_mapping/training_data",
+                    help="Output dir for train/dev files")
+    ap.add_argument("--format",      choices=["nli", "reranker"], default="reranker",
+                    help="Output format (default: reranker)")
+    ap.add_argument("--dev-ratio",   type=float, default=0.15,
+                    help="Fraction for dev set from REAL data only (0.15 = 15%%)")
+    ap.add_argument("--seed",        type=int, default=42,
+                    help="Random seed for split")
     args = ap.parse_args()
 
     golden_raw = load_json(args.golden)
@@ -309,39 +396,76 @@ def main():
     control_map = load_controls(args.controls)
     policy_map = load_policy_passages(args.policies)
 
-    print(f"Golden rows: {len(golden_list)}")
-    print(f"Controls loaded: {len(control_map)}, Passages loaded: {len(policy_map)}")
+    print(f"Golden rows  : {len(golden_list)}")
+    print(f"Controls     : {len(control_map)}  |  Passages: {len(policy_map)}")
 
+    # ── Real rows ─────────────────────────────────────────────────────────────
     if args.format == "nli":
-        rows = prepare_nli(golden_list, control_map, policy_map)
+        real_rows = prepare_nli(golden_list, control_map, policy_map)
     else:
-        rows = prepare_reranker(golden_list, control_map, policy_map)
+        real_rows = prepare_reranker(golden_list, control_map, policy_map)
 
-    if not rows:
-        print("No rows produced. Check golden file has compliance_status and control_id/policy_passage_id, and that controls/policies paths match.")
+    if not real_rows:
+        print("No rows produced from real data. Check control_id/policy_passage_id fields.")
         return 1
 
+    # ── Split real rows into train/dev (dev stays real-only for honest eval) ──
     random.seed(args.seed)
-    random.shuffle(rows)
-    n_dev = max(1, int(len(rows) * args.dev_ratio))
-    dev_rows = rows[:n_dev]
-    train_rows = rows[n_dev:]
+    random.shuffle(real_rows)
+    n_dev = max(1, int(len(real_rows) * args.dev_ratio))
+    dev_rows = real_rows[:n_dev]
+    train_real = real_rows[n_dev:]
 
+    # Apply real-weight duplication to train split so real pairs dominate
+    train_rows = train_real * args.real_weight
+
+    print(f"\nReal data    : {len(real_rows)} rows  "
+          f"(train={len(train_real)}, dev={len(dev_rows)})")
+    print(f"Real-weight  : ×{args.real_weight}  → {len(train_rows)} weighted train rows")
+
+    # ── Synthetic rows (train only) ───────────────────────────────────────────
+    if args.synthetic:
+        syn_raw = load_json(args.synthetic)
+        syn_list = syn_raw if isinstance(syn_raw, list) else [syn_raw]
+        if args.format == "nli":
+            syn_rows = prepare_synthetic_nli(syn_list)
+        else:
+            syn_rows = prepare_synthetic_reranker(syn_list)
+
+        train_rows = train_rows + syn_rows
+        random.shuffle(train_rows)
+
+        from collections import Counter as _Counter
+        syn_status = _Counter(r.get("label") or r.get("score") for r in syn_rows)
+        print(f"Synthetic    : {len(syn_list)} records → {len(syn_rows)} train rows")
+        print(f"  Status dist: {dict(syn_status)}")
+        print(f"Train total  : {len(train_rows)} rows  (real×{args.real_weight} + synthetic)")
+    else:
+        random.shuffle(train_rows)
+        print(f"Train total  : {len(train_rows)} rows  (real only, no synthetic)")
+
+    # ── Save ──────────────────────────────────────────────────────────────────
     out_dir = Path(args.output)
     out_dir.mkdir(parents=True, exist_ok=True)
 
     train_path = out_dir / "train.json"
-    dev_path = out_dir / "dev.json"
+    dev_path   = out_dir / "dev.json"
     with open(train_path, "w", encoding="utf-8") as f:
         json.dump(train_rows, f, indent=2, ensure_ascii=False)
     with open(dev_path, "w", encoding="utf-8") as f:
         json.dump(dev_rows, f, indent=2, ensure_ascii=False)
 
-    print(f"Train: {len(train_rows)} → {train_path}")
-    print(f"Dev:   {len(dev_rows)} → {dev_path}")
-    if args.format == "nli":
+    print(f"\nTrain: {len(train_rows)} → {train_path}")
+    print(f"Dev  : {len(dev_rows)} → {dev_path}  (real data only)")
+
+    if args.format == "reranker":
+        from collections import Counter
+        sc = Counter(r["score"] for r in train_rows)
+        print(f"Score distribution (train): {dict(sorted(sc.items()))}")
+    else:
         from collections import Counter
         print("Label counts (train):", Counter(r["label"] for r in train_rows))
+
     return 0
 
 

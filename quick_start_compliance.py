@@ -69,22 +69,23 @@ def main():
     use_reranker = os.environ.get("USE_RERANKER", "1") != "0"
     use_graph    = os.environ.get("USE_GRAPH", "0") == "1"
 
-    # CPU-only mode: swap heavy models for lightweight equivalents that still
-    # produce good results but fit in ~1 GB RAM and run in reasonable time.
+    # ── Model selection ────────────────────────────────────────────────────────
+    # Priority order for reranker:
+    #   1. RERANKER_MODEL env var  (explicit override)
+    #   2. models/compliance-reranker  (fine-tuned, produced by finetune_reranker.py)
+    #   3. BAAI/bge-reranker-base  (best base model, GPU)
+    #   4. cross-encoder/ms-marco-MiniLM-L-2-v2  (CPU fallback, 22 MB)
     #
-    # Override any of these with env vars, e.g.:
-    #   RERANKER_MODEL=cross-encoder/ms-marco-MiniLM-L-2-v2 python3 quick_start_compliance.py
-    #   CPU_MODE=0 python3 quick_start_compliance.py   (to disable the swap)
+    # Override any of these with env vars:
+    #   RERANKER_MODEL=models/compliance-reranker python3 quick_start_compliance.py
+    #   CPU_MODE=0 python3 quick_start_compliance.py   (to disable CPU swap)
     import torch as _torch
     _cpu_mode = not _torch.cuda.is_available() and os.environ.get("CPU_MODE", "1") != "0"
     if _cpu_mode:
-        # Use all available CPU cores for torch inference
         _torch.set_num_threads(8)
-        # cross-encoder/ms-marco-MiniLM-L-2-v2  — 22 MB, runs ~10x faster than bge-reranker-base
         _default_reranker = "cross-encoder/ms-marco-MiniLM-L-2-v2"
-        # cross-encoder/nli-MiniLM2-L6-H768 — 85 MB, 3-class NLI, fast on CPU
         _default_nli      = "cross-encoder/nli-MiniLM2-L6-H768"
-        print("\n   ⚙️  CPU-only mode: using lightweight models for speed")
+        print("\n   CPU-only mode: using lightweight models for speed")
         print(f"      Torch threads : 8")
         print(f"      Reranker      : {_default_reranker}  (~22 MB)")
         print(f"      NLI           : {_default_nli}  (~85 MB)")
@@ -93,8 +94,33 @@ def main():
         _default_reranker = "BAAI/bge-reranker-base"
         _default_nli      = None  # pipeline picks best available
 
-    reranker_model = os.environ.get("RERANKER_MODEL", _default_reranker)
-    nli_model      = os.environ.get("NLI_MODEL",      _default_nli)
+    # Auto-detect fine-tuned reranker if not explicitly overridden
+    _finetuned_reranker = Path("models/compliance-reranker")
+    if os.environ.get("RERANKER_MODEL"):
+        reranker_model = os.environ["RERANKER_MODEL"]
+        print(f"\n   Reranker (env override) : {reranker_model}")
+    elif (_finetuned_reranker / "config.json").exists():
+        reranker_model = str(_finetuned_reranker.resolve())
+        print(f"\n   Reranker (fine-tuned)   : {reranker_model}")
+        print(f"      Detected models/compliance-reranker — using domain-tuned model.")
+    else:
+        reranker_model = _default_reranker
+        print(f"\n   Reranker (base model)   : {reranker_model}")
+        print(f"      No fine-tuned model found at models/compliance-reranker.")
+        print(f"      Run scripts/finetune_reranker.py to train a domain-tuned version.")
+
+    nli_model = os.environ.get("NLI_MODEL", _default_nli)
+
+    # Auto-detect fine-tuned LLM judge
+    _finetuned_judge = Path("models/compliance-llm-judge")
+    _use_finetuned_judge = (_finetuned_judge / "config.json").exists()
+    if _use_finetuned_judge:
+        print(f"   LLM Judge (fine-tuned)  : {_finetuned_judge.resolve()}")
+        print(f"      Domain-tuned judge detected — will be used in post-processing step.")
+    else:
+        print(f"   LLM Judge               : Ollama (base model)")
+        print(f"      No fine-tuned judge at models/compliance-llm-judge.")
+        print(f"      Run scripts/finetune_llm_compliance.py to train one.")
 
     pipeline = ComplianceMappingPipeline(
         obligation_classifier="legalbert" if use_legalbert else "rule",
@@ -274,22 +300,69 @@ def main():
     )
     
     print("\n" + "=" * 60)
-    print("✅ COMPLIANCE MAPPING COMPLETE!")
+    print("COMPLIANCE MAPPING COMPLETE!")
     print("=" * 60)
-    print(f"\n📊 Results saved to: {output_dir}")
-    print(f"   - mappings.csv: All mappings (CSV)")
-    print(f"   - mappings.json: All mappings (combined JSON)")
-    print(f"   - by_policy/*.json: One JSON per policy document")
-    print(f"   - compliance_report.json: Summary report")
-    print("\n📋 Next steps:")
-    print("   1. Review mappings.csv / mappings.json")
-    print("   2. Import data/03_label_studio_input/golden_set_mapping_tasks.json into Label Studio")
-    print("      (run: python3 create_golden_set_tasks.py --candidates data/06_compliance_mappings/mappings.json)")
-    print("   3. Annotate tasks: mark wrong pairs as 'Not Addressed', choose mismatch reason,")
-    print("      enter the correct control ID if known")
-    print("   4. Export from Label Studio → run: python3 create_golden_set_tasks.py --mode export --input <export.json>")
-    print("      → saves data/07_golden_mapping/golden_mapping_dataset.json")
-    print("   5. Re-run this script — the blocklist is now applied automatically")
+    print(f"\nResults saved to: {output_dir}")
+    print(f"   - mappings.csv             : All mappings (CSV)")
+    print(f"   - mappings.json            : All mappings (combined JSON)")
+    print(f"   - mappings_by_passage.json : Passage-centric view")
+    print(f"   - by_policy/*.json         : One JSON per policy document")
+    print(f"   - compliance_report.json   : Summary report")
+    print(f"   - retrieval_log.json       : Per-control top-K passage IDs (for R@K)")
+
+    # ── LLM Judge post-processing step ────────────────────────────────────────
+    print("\n" + "-" * 60)
+    print("LLM Judge Post-Processing (recommended)")
+    print("-" * 60)
+    if _use_finetuned_judge:
+        _judge_cmd = (
+            f"python3 scripts/llm_judge.py \\\n"
+            f"    --mappings {output_dir}/mappings.json \\\n"
+            f"    --use-finetuned \\\n"
+            f"    --finetuned-model {_finetuned_judge.resolve()} \\\n"
+            f"    --evaluate"
+        )
+        print(f"Fine-tuned judge detected. Run:")
+    else:
+        _judge_cmd = (
+            f"python3 scripts/llm_judge.py \\\n"
+            f"    --mappings {output_dir}/mappings.json \\\n"
+            f"    --model llama3.2:1b \\\n"
+            f"    --prompt-style cot \\\n"
+            f"    --evaluate"
+        )
+        print(f"Ollama judge (base model). Run:")
+    print(f"\n  {_judge_cmd}\n")
+    print(f"This filters noisy predictions and re-evaluates against the golden set.")
+
+    # ── Training pipeline ──────────────────────────────────────────────────────
+    print("\n" + "-" * 60)
+    print("Controls-Aware Training Pipeline (to improve model quality)")
+    print("-" * 60)
+    print("  Step 1 — Generate synthetic training pairs (~2-3 hrs, run once):")
+    print("    python3 scripts/generate_synthetic_pairs.py --model llama3.2:1b")
+    print()
+    print("  Step 2 — Build unified training set:")
+    print("    python3 scripts/prepare_golden_for_training.py \\")
+    print("        --golden data/07_golden_mapping/golden_mapping_dataset.json \\")
+    print("        --synthetic data/07_golden_mapping/synthetic_pairs.json \\")
+    print("        --real-weight 3 --format reranker")
+    print()
+    print("  Step 3A — Fine-tune cross-encoder (~2 hrs CPU):")
+    print("    python3 scripts/finetune_reranker.py \\")
+    print("        --loss pairwise --lora --lora-r 16 --epochs 3")
+    print()
+    print("  Step 3B — Fine-tune LLM judge (~4 hrs CPU):")
+    print("    python3 scripts/finetune_llm_compliance.py \\")
+    print("        --synthetic data/07_golden_mapping/synthetic_pairs.json")
+    print()
+    print("  Step 4 — Re-run this script — fine-tuned models are auto-detected.")
+
+    print("\n" + "-" * 60)
+    print("Annotation (to grow the golden dataset):")
+    print("   python3 create_golden_set_tasks.py \\")
+    print("       --candidates data/06_compliance_mappings/mappings.json")
+    print("   → Import into Label Studio, annotate, export, then re-run Step 2 above.")
 
 
 if __name__ == "__main__":

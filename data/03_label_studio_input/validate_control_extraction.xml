@@ -1,53 +1,47 @@
 <View>
+  <!-- Single invisible target so all annotations attach to one object (prevents fields blanking on edit) -->
+  <Text name="task" value=" " style="display: none;"/>
   <Header value="UAE IA Control Extraction - Validation and Correction" size="4"/>
-  
+
   <View style="background: #f5f5f5; padding: 10px; margin-bottom: 10px;">
-    <Text name="control_id" value="Control ID: $control_id" style="font-weight: bold;"/>
-    <Text name="control_family" value="Family: $control_family"/>
-    <Text name="control_subfamily" value="Sub-family: $control_subfamily"/>
-    <Header value="Extracted Control Name:" size="5"/>
-    <Text name="control_name" value="$control_name"/>
-    
-    <Header value="Extracted Description:" size="5"/>
-    <TextArea name="control_description" value="$control_description" 
-              toName="control_description" rows="5" editable="true" 
+    <Header value="Control ID (editable):" size="5"/>
+    <TextArea name="control_id" value="$control_id" toName="task" rows="1" editable="true"
+              placeholder="e.g. M1.1.1"/>
+    <Header value="Family (editable):" size="5"/>
+    <TextArea name="control_family" value="$control_family" toName="task" rows="1" editable="true"
+              placeholder="e.g. M1 - Strategy and Planning"/>
+    <Header value="Sub-family (editable):" size="5"/>
+    <TextArea name="control_subfamily" value="$control_subfamily" toName="task" rows="1" editable="true"
+              placeholder="e.g. M1.1 - Entity Context and Leadership"/>
+    <Header value="Control Name (editable):" size="5"/>
+    <TextArea name="control_name" value="$control_name" toName="task" rows="2" editable="true"
+              placeholder="Short control name (e.g. Understanding the Entity and its Context)"/>
+
+    <Header value="Description:" size="5"/>
+    <TextArea name="control_description" value="$control_description"
+              toName="task" rows="5" editable="true"
               placeholder="Review and correct the extracted control description..."/>
-    
-    <Header value="Extracted Sub-Controls:" size="5"/>
-    <TextArea name="sub_controls" value="$sub_controls" 
-              toName="sub_controls" rows="8" editable="true"
+
+    <Header value="Sub-Controls:" size="5"/>
+    <TextArea name="sub_controls" value="$sub_controls"
+              toName="task" rows="8" editable="true"
               placeholder="Review and correct sub-controls (one per line)..."/>
-    
-    <Header value="Extracted Implementation Guidelines:" size="5"/>
+
+    <Header value="Implementation Guidelines:" size="5"/>
     <TextArea name="implementation_guidelines" value="$implementation_guidelines"
-              toName="implementation_guidelines" rows="6" editable="true"
+              toName="task" rows="6" editable="true"
               placeholder="Review and correct implementation guidelines..."/>
-    
-    <Header value="Extracted External Factors:" size="5"/>
-    <TextArea name="external_factors" value="$external_factors"
-              toName="external_factors" rows="4" editable="true"
-              placeholder="Review and correct external factors..."/>
-    
-    <Header value="Extracted Internal Factors:" size="5"/>
-    <TextArea name="internal_factors" value="$internal_factors"
-              toName="internal_factors" rows="4" editable="true"
-              placeholder="Review and correct internal factors..."/>
-    
-    <Header value="Extracted Guidance Points:" size="5"/>
-    <TextArea name="guidance_points" value="$guidance_points"
-              toName="guidance_points" rows="4" editable="true"
-              placeholder="Review and correct guidance points..."/>
   </View>
 
   <Header value="Validation Status" size="4"/>
-  <Choices name="validation_status" toName="control_description" required="true" showInLine="true">
+  <Choices name="validation_status" toName="task" required="true" showInLine="true">
     <Choice value="Complete" alias="Complete" background="#d4edda"/>
     <Choice value="Needs Correction" alias="Needs Fix" background="#fff3cd"/>
     <Choice value="Missing Content" alias="Missing" background="#f8d7da"/>
   </Choices>
 
   <Header value="Notes / Corrections" size="5"/>
-  <TextArea name="correction_notes" toName="control_description" 
-            placeholder="Add notes about what was corrected or what's missing..." 
+  <TextArea name="correction_notes" toName="task"
+            placeholder="Add notes about what was corrected or what's missing..."
             rows="3" editable="true"/>
 </View>

@@ -49,13 +49,15 @@ NEGATIVE_STATUSES  = {"Not Addressed"}
 # ── helpers ──────────────────────────────────────────────────────────────────
 
 def load_golden(path: str):
+    """Load golden set. Use corrected_control_id when present (human-approved control)."""
     with open(path, encoding="utf-8") as f:
         rows = json.load(f)
     positives = set()   # (control_id, passage_id) human says MATCH
     negatives  = set()  # (control_id, passage_id) human says NOT A MATCH
     meta = {}           # (control_id, passage_id) -> row metadata
     for r in rows:
-        cid = r.get("control_id", "").strip()
+        # Human truth: use corrected control when annotator fixed the pipeline's wrong control
+        cid = (r.get("corrected_control_id") or r.get("control_id") or "").strip()
         pid = r.get("policy_passage_id", "").strip()
         if not cid or not pid:
             continue

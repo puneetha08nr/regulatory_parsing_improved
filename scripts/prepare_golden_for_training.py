@@ -269,7 +269,8 @@ def prepare_reranker(golden: List[Dict], control_map: Dict, policy_map: Dict) ->
         status = (g.get("compliance_status") or "").strip()
         if status not in STATUS_TO_SCORE:
             continue
-        cid = g.get("control_id")
+        # Use human-approved control when annotator corrected the pipeline's wrong control
+        cid = (g.get("corrected_control_id") or g.get("control_id") or "").strip()
         pid = g.get("policy_passage_id")
         if not cid or not pid:
             continue

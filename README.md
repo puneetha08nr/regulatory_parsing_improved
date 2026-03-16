@@ -106,13 +106,23 @@ create_golden_set_tasks.py  ──►  Label Studio
                  next pipeline run         fine-tuning
 ```
 
-The golden dataset currently contains **89 verified positive pairs** and **200 verified negative pairs** across 12 policy documents.
+The golden dataset (`data/07_golden_mapping/golden_mapping_dataset.json`) contains:
+
+| Label | Count | Meaning |
+|-------|-------|---------|
+| **Fully Addressed** | 60 | Human confirmed: passage fully satisfies control |
+| **Partially Addressed** | 40 | Human confirmed: passage partially satisfies control |
+| **Not Addressed** | 1,046 | Human confirmed: passage does *not* match control |
+| **Positives (FA+PA)** | **100** | Ground truth for recall |
+| **Negatives (NA)** | **1,046** | Ground truth for precision; ~1,038 are **hard negatives** (retrieval surfaced them but human said no match — valuable for reranker training). |
+
+**Corrected control IDs:** In ~92% of pairs, the annotator corrected the pipeline’s control assignment. Evaluation and training use `corrected_control_id` when present so metrics and training targets reflect human-approved (control, passage) pairs. Domain-scoped retrieval (family router) directly addresses wrong-control attribution.
 
 ---
 
 ## Current Performance
 
-Evaluated against the golden dataset (89 human-verified matches):
+Evaluated against the golden dataset (100 human-verified positives):
 
 | Metric | Score | Target | Notes |
 |---|---|---|---|
@@ -121,7 +131,7 @@ Evaluated against the golden dataset (89 human-verified matches):
 | Recall@20 | **77.8%** | 80% | ⚠️ Near target |
 | Recall@50 | **81.5%** | 90% | ⚠️ Below target |
 | Precision | 0.6% | — | Low — 1,450 noisy predictions |
-| Recall | 10.1% | — | 9 of 89 matches surfaced post-threshold |
+| Recall | ~4–10% | — | TP of 100 golden positives (varies with judge/run) |
 | F1 | 1.2% | — | Dominated by precision |
 | RePASs | 0.688 | ≥ 0.70 | Near target on confirmed TPs |
 

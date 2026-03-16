@@ -1,0 +1,383 @@
+{
+    "version": "1.0",
+    "families": {
+        "M1": {
+            "name": "Strategy and Planning",
+            "type": "management",
+            "description": "Covers the overarching information security governance framework: leadership commitment, ISMS policy, roles and responsibilities, organisational structure, confidentiality agreements, and communication with external parties and authorities.",
+            "policy_document_types": [
+                "Information Security Policy",
+                "ISMS Policy",
+                "Governance Framework",
+                "Organisational Security Policy",
+                "Confidentiality / NDA Policy"
+            ],
+            "keywords": [
+                "governance",
+                "leadership",
+                "management commitment",
+                "information security policy",
+                "ISMS",
+                "roles and responsibilities",
+                "organisational structure",
+                "confidentiality agreement",
+                "external parties",
+                "authorities"
+            ],
+            "not_includes": "Risk assessment and treatment (M2), awareness and training programmes (M3), HR employment lifecycle controls (M4), detailed legal and regulatory compliance (M5), and ISMS performance measurement and internal audit (M6)."
+        },
+        "M2": {
+            "name": "Information Security Risk Management",
+            "type": "management",
+            "description": "Covers the full information security risk lifecycle: identification, analysis, evaluation, treatment selection, risk treatment plans, statement of applicability, and ongoing review and communication of risk.",
+            "policy_document_types": [
+                "Information Risk Management Policy",
+                "Risk Assessment Procedure",
+                "Risk Treatment Plan",
+                "Statement of Applicability"
+            ],
+            "keywords": [
+                "risk assessment",
+                "risk analysis",
+                "risk evaluation",
+                "risk treatment",
+                "risk acceptance",
+                "risk register",
+                "risk appetite",
+                "SoA",
+                "statement of applicability"
+            ],
+            "not_includes": "Day-to-day operational controls (T1–T9), security awareness activities (M3), and generic ISMS governance statements (M1)."
+        },
+        "M3": {
+            "name": "Awareness and Training",
+            "type": "management",
+            "description": "Covers security awareness and training: identifying training needs, planning and delivering awareness programmes, measuring effectiveness, and maintaining training records for all relevant personnel.",
+            "policy_document_types": [
+                "Security Awareness and Training Policy",
+                "Training Programme",
+                "Staff Awareness Procedure"
+            ],
+            "keywords": [
+                "awareness",
+                "training",
+                "education",
+                "security culture",
+                "campaign",
+                "e-learning",
+                "inductions",
+                "refresher training",
+                "training records"
+            ],
+            "not_includes": "HR screening and employment conditions (M4), technical access control configuration (T5), and performance measurement of the ISMS (M6)."
+        },
+        "M4": {
+            "name": "Human Resources Security",
+            "type": "management",
+            "description": "Covers security aspects of the HR lifecycle: pre-employment screening, contractual security clauses, responsibilities during employment, disciplinary process, termination and change of employment, return of assets, and revocation of access.",
+            "policy_document_types": [
+                "HR Security Policy",
+                "Joiners-Movers-Leavers Procedure",
+                "Disciplinary Policy",
+                "Employment Contract Template (security clauses)",
+                "Acceptable Use Policy (employment terms section)"
+            ],
+            "keywords": [
+                "pre-employment",
+                "background checks",
+                "screening",
+                "employment contract",
+                "disciplinary",
+                "termination",
+                "resignation",
+                "return of assets",
+                "removal of access",
+                "JML"
+            ],
+            "not_includes": "Security awareness programme content (M3), technical access provisioning details (T5), and generic organisational governance (M1)."
+        },
+        "M5": {
+            "name": "Compliance",
+            "type": "management",
+            "description": "Covers legal, regulatory, statutory, and contractual compliance related to information security, including privacy and data protection obligations, intellectual property rights, and compliance checking against internal policies and external standards.",
+            "policy_document_types": [
+                "Information Security Compliance Policy",
+                "Data Protection / Privacy Policy",
+                "Legal and Regulatory Register",
+                "Audit Policy",
+                "Intellectual Property Rights (IPR) Policy"
+            ],
+            "keywords": [
+                "compliance",
+                "regulatory",
+                "legal",
+                "statutory",
+                "IPR",
+                "intellectual property",
+                "privacy",
+                "data protection",
+                "audit",
+                "non-compliance"
+            ],
+            "not_includes": "Operational monitoring and logging (T3), risk management (M2), and generic governance statements (M1)."
+        },
+        "M6": {
+            "name": "Performance Evaluation and Improvement",
+            "type": "management",
+            "description": "Covers monitoring and measuring the performance of the ISMS, internal audits, management reviews, corrective and preventive actions, and continual improvement processes.",
+            "policy_document_types": [
+                "Internal Audit Policy",
+                "Performance Measurement Procedure",
+                "Corrective and Preventive Action Procedure",
+                "Management Review Procedure",
+                "Continual Improvement Procedure"
+            ],
+            "keywords": [
+                "performance measurement",
+                "key performance indicators",
+                "KPI",
+                "internal audit",
+                "management review",
+                "corrective action",
+                "CAPA",
+                "nonconformity",
+                "continual improvement"
+            ],
+            "not_includes": "Incident handling (T8), day-to-day operations (T3), and primary risk assessment activities (M2)."
+        },
+        "T1": {
+            "name": "Asset Management",
+            "type": "technical",
+            "description": "Covers information and asset management: asset inventory, ownership, classification, labelling, acceptable use, handling of removable media, and secure disposal of assets and information.",
+            "policy_document_types": [
+                "Asset Management Policy",
+                "Information Classification Policy",
+                "Data Handling Policy",
+                "BYOD Policy",
+                "Removable Media Policy"
+            ],
+            "keywords": [
+                "asset",
+                "inventory",
+                "asset register",
+                "asset ownership",
+                "classification",
+                "labelling",
+                "sensitivity",
+                "BYOD",
+                "removable media",
+                "asset disposal"
+            ],
+            "not_includes": "Physical protection of premises and equipment (T2), and third-party service provider controls (T6)."
+        },
+        "T2": {
+            "name": "Physical and Environmental Security",
+            "type": "technical",
+            "description": "Covers physical and environmental protection of information processing facilities: secure areas, entry controls, equipment security, environmental protections, clear desk and clear screen, and secure removal or reuse of equipment.",
+            "policy_document_types": [
+                "Physical Security Policy",
+                "Data Centre Security Policy",
+                "Clear Desk and Clear Screen Policy",
+                "Equipment Disposal Procedure"
+            ],
+            "keywords": [
+                "physical security",
+                "secure area",
+                "server room",
+                "data centre",
+                "entry control",
+                "badges",
+                "cctv",
+                "environmental controls",
+                "fire suppression",
+                "clear desk",
+                "clear screen",
+                "equipment disposal"
+            ],
+            "not_includes": "Logical access controls (T5), asset classification and ownership (T1), and incident response (T8)."
+        },
+        "T3": {
+            "name": "Operations Management",
+            "type": "technical",
+            "description": "Covers IT operational procedures and responsibilities: documented operating procedures, change management, separation of environments, capacity management, backup, malware protection, logging, log monitoring, and clock synchronisation.",
+            "policy_document_types": [
+                "Operations Management Policy",
+                "Change Management Policy",
+                "Backup and Restore Policy",
+                "Anti-Malware Policy",
+                "Logging and Monitoring Policy",
+                "Configuration Management Policy"
+            ],
+            "keywords": [
+                "operational procedures",
+                "change management",
+                "configuration management",
+                "backup",
+                "restore",
+                "capacity management",
+                "malware",
+                "antivirus",
+                "logging",
+                "log monitoring",
+                "time synchronisation"
+            ],
+            "not_includes": "Network design and communication security (T4), logical access control (T5), and incident response processes (T8)."
+        },
+        "T4": {
+            "name": "Communications Security",
+            "type": "technical",
+            "description": "Covers network and communications security: network segregation, routing control, information transfer procedures, secure use of email and messaging, protection of information in transit, and security of network services.",
+            "policy_document_types": [
+                "Network Security Policy",
+                "Communications Policy",
+                "Email and Messaging Policy",
+                "Data Transfer Policy",
+                "Wireless Network Policy"
+            ],
+            "keywords": [
+                "network security",
+                "firewall",
+                "segmentation",
+                "VLAN",
+                "VPN",
+                "communications",
+                "email",
+                "messaging",
+                "information transfer",
+                "encryption in transit",
+                "wireless"
+            ],
+            "not_includes": "User authentication and authorisation rules (T5), operational logging (T3), and supplier/third-party service management (T6)."
+        },
+        "T5": {
+            "name": "Access Control",
+            "type": "technical",
+            "description": "Covers identification and authentication and logical access control: access control policy, user registration and deregistration, privilege management, password and credential policies, network and system access, application access restriction, and mobile/remote access.",
+            "policy_document_types": [
+                "Access Control Policy",
+                "Identity and Access Management Policy",
+                "Privileged Access Policy",
+                "Remote Access Policy",
+                "Password Policy",
+                "Mobile Device Policy"
+            ],
+            "keywords": [
+                "access control",
+                "authentication",
+                "authorisation",
+                "identity management",
+                "IAM",
+                "user provisioning",
+                "privileged access",
+                "password",
+                "remote access",
+                "single sign-on",
+                "multi-factor authentication"
+            ],
+            "not_includes": "Physical access to sites and rooms (T2), HR joiners/movers/leavers processes (M4), and network design aspects (T4)."
+        },
+        "T6": {
+            "name": "Third Party Security",
+            "type": "technical",
+            "description": "Covers security requirements for third-party service providers, including outsourcing, cloud services, and other suppliers: security clauses in contracts, service level monitoring, changes to services, and on-going assurance.",
+            "policy_document_types": [
+                "Third Party Security Policy",
+                "Supplier Management Policy",
+                "Outsourcing Policy",
+                "Cloud Security Policy",
+                "Vendor Risk Management Procedure"
+            ],
+            "keywords": [
+                "third party",
+                "supplier",
+                "vendor",
+                "outsourcing",
+                "cloud service",
+                "service level agreement",
+                "SLA",
+                "contractual security",
+                "due diligence",
+                "vendor risk"
+            ],
+            "not_includes": "Internal HR employment terms (M4), development supply chain specifics (T7), and general asset management (T1)."
+        },
+        "T7": {
+            "name": "Information Systems Acquisition, Development and Maintenance",
+            "type": "technical",
+            "description": "Covers secure acquisition and development of information systems: security requirements, secure coding practices, testing, change control for applications, cryptographic controls and key management, vulnerability management, and supply chain security in development.",
+            "policy_document_types": [
+                "Secure Development Policy",
+                "SDLC Policy",
+                "Application Change Control Policy",
+                "Vulnerability Management Policy",
+                "Patch Management Policy",
+                "Cryptography Policy",
+                "Supply Chain Security Policy"
+            ],
+            "keywords": [
+                "system development",
+                "SDLC",
+                "secure coding",
+                "application security",
+                "change control",
+                "release management",
+                "vulnerability management",
+                "patching",
+                "cryptography",
+                "key management",
+                "software supply chain"
+            ],
+            "not_includes": "Day-to-day operational change in infrastructure (T3), network communications security (T4), and third-party service delivery management (T6)."
+        },
+        "T8": {
+            "name": "Information Security Incident Management",
+            "type": "technical",
+            "description": "Covers management of information security incidents and weaknesses: reporting, triage, response procedures, communication plans, evidence collection, post-incident review, and lessons learned.",
+            "policy_document_types": [
+                "Incident Management Policy",
+                "Incident Response Plan",
+                "Security Event Reporting Procedure",
+                "Breach Notification Procedure"
+            ],
+            "keywords": [
+                "incident",
+                "security event",
+                "breach",
+                "incident response",
+                "IR plan",
+                "reporting",
+                "triage",
+                "root cause analysis",
+                "lessons learned",
+                "evidence"
+            ],
+            "not_includes": "Business continuity and disaster recovery planning (T9), and routine operational monitoring (T3)."
+        },
+        "T9": {
+            "name": "Information Systems Continuity Management",
+            "type": "technical",
+            "description": "Covers continuity and recovery of information systems: business impact analysis, continuity strategy, IT service continuity planning, disaster recovery procedures, and testing and maintenance of continuity plans.",
+            "policy_document_types": [
+                "Business Continuity Policy",
+                "Disaster Recovery Policy",
+                "IT Service Continuity Plan",
+                "BCP / DR Testing Procedure"
+            ],
+            "keywords": [
+                "business continuity",
+                "BCP",
+                "disaster recovery",
+                "DR",
+                "IT service continuity",
+                "resilience",
+                "redundancy",
+                "failover",
+                "recovery time objective",
+                "RTO",
+                "recovery point objective",
+                "RPO"
+            ],
+            "not_includes": "Real-time incident handling (T8) and routine backup operations (T3), although these may feed into continuity capabilities."
+        }
+    }
+}

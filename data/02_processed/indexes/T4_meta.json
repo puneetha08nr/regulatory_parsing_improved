@@ -1,0 +1,107 @@
+[
+  {
+    "index": 0,
+    "control_id": "T4.1.1",
+    "control_name": "T4.1.1 - Communications Policy",
+    "family": "T4",
+    "subfamily": "T4.1"
+  },
+  {
+    "index": 1,
+    "control_id": "T4.2.1",
+    "control_name": "T4.2.1 - Information Transfer Procedures",
+    "family": "T4",
+    "subfamily": "T4.2"
+  },
+  {
+    "index": 2,
+    "control_id": "T4.2.2",
+    "control_name": "T4.2.2 - Agreements on Information Transfer",
+    "family": "T4",
+    "subfamily": "T4.2"
+  },
+  {
+    "index": 3,
+    "control_id": "T4.2.3",
+    "control_name": "T4.2.3 - Physical Media in Transit",
+    "family": "T4",
+    "subfamily": "T4.2"
+  },
+  {
+    "index": 4,
+    "control_id": "T4.2.4",
+    "control_name": "T4.2.4 - Electronic Messaging",
+    "family": "T4",
+    "subfamily": "T4.2"
+  },
+  {
+    "index": 5,
+    "control_id": "T4.2.5",
+    "control_name": "T4.2.5 - Business Information Systems",
+    "family": "T4",
+    "subfamily": "T4.2"
+  },
+  {
+    "index": 6,
+    "control_id": "T4.3.1",
+    "control_name": "T4.3.1 - Electronic Commerce",
+    "family": "T4",
+    "subfamily": "T4.3"
+  },
+  {
+    "index": 7,
+    "control_id": "T4.3.2",
+    "control_name": "T4.3.2 - On-Line Transactions",
+    "family": "T4",
+    "subfamily": "T4.3"
+  },
+  {
+    "index": 8,
+    "control_id": "T4.3.3",
+    "control_name": "T4.3.3 - Publicly Available Information",
+    "family": "T4",
+    "subfamily": "T4.3"
+  },
+  {
+    "index": 9,
+    "control_id": "T4.4.1",
+    "control_name": "T4.4.1 - Connectivity to Information Sharing Platforms",
+    "family": "T4",
+    "subfamily": "T4.4"
+  },
+  {
+    "index": 10,
+    "control_id": "T4.4.2",
+    "control_name": "4.4.2 - Information Released into Information Sharing Communities",
+    "family": "T4",
+    "subfamily": "T4.4"
+  },
+  {
+    "index": 11,
+    "control_id": "T4.5.1",
+    "control_name": "T4.5.1 - Network Controls",
+    "family": "T4",
+    "subfamily": "T4.5 -Netw"
+  },
+  {
+    "index": 12,
+    "control_id": "T4.5.2",
+    "control_name": "T4.5.2 - Security of Network Services",
+    "family": "T4",
+    "subfamily": "T4.5 -Netw"
+  },
+  {
+    "index": 13,
+    "control_id": "T4.5.3",
+    "control_name": "T4.5.3 - Segregation in Networks",
+    "family": "T4",
+    "subfamily": "T4.5 -Netw"
+  },
+  {
+    "index": 14,
+    "control_id": "T4.5.4",
+    "control_name": "T4.5.4 - Security of Wireless Networks",
+    "family": "T4",
+    "subfamily": "T4.5 -Netw"
+  }
+]

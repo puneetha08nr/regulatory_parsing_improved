@@ -1,0 +1,79 @@
+[
+  {
+    "index": 0,
+    "control_id": "M2.1.1",
+    "control_name": "M2.1.1 - Information Security Risk Management Policy",
+    "family": "M2",
+    "subfamily": "M2.1"
+  },
+  {
+    "index": 1,
+    "control_id": "M2.2.1",
+    "control_name": "M2.2.1 - Information Security Risk Identification",
+    "family": "M2",
+    "subfamily": "M2.2"
+  },
+  {
+    "index": 2,
+    "control_id": "M2.2.2",
+    "control_name": "M2.2.2 - Information Security Risk Analysis",
+    "family": "M2",
+    "subfamily": "M2.2"
+  },
+  {
+    "index": 3,
+    "control_id": "M2.2.3",
+    "control_name": "M2.2.3 - Information Security Risk Evaluation",
+    "family": "M2",
+    "subfamily": "M2.2"
+  },
+  {
+    "index": 4,
+    "control_id": "M2.3.1",
+    "control_name": "M2.3.1 - Information Security Risk Treatment Options",
+    "family": "M2",
+    "subfamily": "M2.3"
+  },
+  {
+    "index": 5,
+    "control_id": "M2.3.2",
+    "control_name": "M2.3.2 - Identification of Controls",
+    "family": "M2",
+    "subfamily": "M2.3"
+  },
+  {
+    "index": 6,
+    "control_id": "M2.3.3",
+    "control_name": "M2.3.3 - Risk Treatment Plan",
+    "family": "M2",
+    "subfamily": "M2.3"
+  },
+  {
+    "index": 7,
+    "control_id": "M2.3.4",
+    "control_name": "M2.3.4 - Statement of Applicability",
+    "family": "M2",
+    "subfamily": "M2.3"
+  },
+  {
+    "index": 8,
+    "control_id": "M2.3.5",
+    "control_name": "M2.3.5 - Information Security Objectives",
+    "family": "M2",
+    "subfamily": "M2.3"
+  },
+  {
+    "index": 9,
+    "control_id": "M2.4.1",
+    "control_name": "M2.4.1 - Information Security Risk Assessment Review and Update",
+    "family": "M2",
+    "subfamily": "M2.4"
+  },
+  {
+    "index": 10,
+    "control_id": "M2.4.2",
+    "control_name": "M2.4.2 - Risk Communication and Consultation",
+    "family": "M2",
+    "subfamily": "M2.4"
+  }
+]

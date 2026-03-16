@@ -1,0 +1,58 @@
+[
+  {
+    "index": 0,
+    "control_id": "M4.1.1",
+    "control_name": "M4.1.1 - Human Resources Security Policy",
+    "family": "M4",
+    "subfamily": "M4.1"
+  },
+  {
+    "index": 1,
+    "control_id": "M4.2.1",
+    "control_name": "M4.2.1 - Screening",
+    "family": "M4",
+    "subfamily": "M4.2"
+  },
+  {
+    "index": 2,
+    "control_id": "M4.2.2",
+    "control_name": "M4.2.2 - Terms and Conditions of Employment",
+    "family": "M4",
+    "subfamily": "M4.2"
+  },
+  {
+    "index": 3,
+    "control_id": "M4.3.1",
+    "control_name": "M4.3.1 - Management Responsibilities",
+    "family": "M4",
+    "subfamily": "M4.3  -Dur"
+  },
+  {
+    "index": 4,
+    "control_id": "M4.3.2",
+    "control_name": "M4.3.2 - Disciplinary Process",
+    "family": "M4",
+    "subfamily": "M4.3  -Dur"
+  },
+  {
+    "index": 5,
+    "control_id": "M4.4.1",
+    "control_name": "M4.4.1 - Termination Responsibilities",
+    "family": "M4",
+    "subfamily": "M4.4"
+  },
+  {
+    "index": 6,
+    "control_id": "M4.4.2",
+    "control_name": "M4.4.2 - Return of Assets",
+    "family": "M4",
+    "subfamily": "M4.4"
+  },
+  {
+    "index": 7,
+    "control_id": "M4.4.3",
+    "control_name": "M4.4.3 - Removal of Access Rights",
+    "family": "M4",
+    "subfamily": "M4.4"
+  }
+]

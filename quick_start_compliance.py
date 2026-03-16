@@ -154,6 +154,16 @@ def main():
     print(f"   Using: {controls_path}")
     pipeline.load_ia_controls(str(controls_path))
     
+    # Optional: load family routing (Tier-1 router output)
+    _routing_path = Path("data/02_processed/family_routing.jsonl")
+    if _routing_path.exists():
+        try:
+            pipeline.load_family_routing(str(_routing_path))
+        except Exception as _e:
+            print(f"   ⚠️  Could not load family routing from {_routing_path}: {_e}")
+    else:
+        print("   (No family_routing.jsonl found — retrieval will run against all families.)")
+
     # Step 2: Load Policies
     print("\n[Step 2/6] Loading Internal Policies...")
     if policy_list is not None:

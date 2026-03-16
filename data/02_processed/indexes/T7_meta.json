@@ -1,0 +1,177 @@
+[
+  {
+    "index": 0,
+    "control_id": "T7.1.1",
+    "control_name": "T7.1.1 - Information Systems Acquisition, Development and Maintenance Policy",
+    "family": "T7",
+    "subfamily": "T7.1"
+  },
+  {
+    "index": 1,
+    "control_id": "T7.2.1",
+    "control_name": "T7.2.1 - Security Requirements Analysis and Specification",
+    "family": "T7",
+    "subfamily": "T7.2"
+  },
+  {
+    "index": 2,
+    "control_id": "T7.2.2",
+    "control_name": "T7.2.2 - Developer-Provided Training",
+    "family": "T7",
+    "subfamily": "T7.2"
+  },
+  {
+    "index": 3,
+    "control_id": "T7.3.1",
+    "control_name": "T7.3.1 - Input Data Validation",
+    "family": "T7",
+    "subfamily": "T7.3"
+  },
+  {
+    "index": 4,
+    "control_id": "T7.3.2",
+    "control_name": "T7.3.2 - Control of Internal Processing",
+    "family": "T7",
+    "subfamily": "T7.3"
+  },
+  {
+    "index": 5,
+    "control_id": "T7.3.3",
+    "control_name": "T7.3.3 - Message Integrity",
+    "family": "T7",
+    "subfamily": "T7.3"
+  },
+  {
+    "index": 6,
+    "control_id": "T7.3.4",
+    "control_name": "T7.3.4 - Output Data Validation",
+    "family": "T7",
+    "subfamily": "T7.3"
+  },
+  {
+    "index": 7,
+    "control_id": "T7.4.1",
+    "control_name": "T7.4.1 - Policy on the Use of Cryptographic Controls",
+    "family": "T7",
+    "subfamily": "T7.4"
+  },
+  {
+    "index": 8,
+    "control_id": "T7.4.2",
+    "control_name": "T7.4.2 - Key Management",
+    "family": "T7",
+    "subfamily": "T7.4"
+  },
+  {
+    "index": 9,
+    "control_id": "T7.5.1",
+    "control_name": "T7.5.1 - Control of Operational Software",
+    "family": "T7",
+    "subfamily": "T7.5"
+  },
+  {
+    "index": 10,
+    "control_id": "T7.5.2",
+    "control_name": "T7.5.2 - Protection of System Test Data",
+    "family": "T7",
+    "subfamily": "T7.5"
+  },
+  {
+    "index": 11,
+    "control_id": "T7.5.3",
+    "control_name": "T7.5.3 Access Control to Program Source Code",
+    "family": "T7",
+    "subfamily": "T7.5"
+  },
+  {
+    "index": 12,
+    "control_id": "T7.6.1",
+    "control_name": "T7.6.1 - Change Control Procedures",
+    "family": "T7",
+    "subfamily": "T7.6"
+  },
+  {
+    "index": 13,
+    "control_id": "T7.6.2",
+    "control_name": "T7.6.2 - Technical Review of Applications After Operating System Changes",
+    "family": "T7",
+    "subfamily": "T7.6"
+  },
+  {
+    "index": 14,
+    "control_id": "T7.6.3",
+    "control_name": "T7.6.3 - Restrictions on Changes to Software Packages",
+    "family": "T7",
+    "subfamily": "T7.6"
+  },
+  {
+    "index": 15,
+    "control_id": "T7.6.4",
+    "control_name": "T7.6.4 - Information Leakage",
+    "family": "T7",
+    "subfamily": "T7.6"
+  },
+  {
+    "index": 16,
+    "control_id": "T7.6.5",
+    "control_name": "T7.6.5 - Outsourced Software Development",
+    "family": "T7",
+    "subfamily": "T7.6"
+  },
+  {
+    "index": 17,
+    "control_id": "T7.7.1",
+    "control_name": "T7.7.1 - Control of Technical Vulnerabilities",
+    "family": "T7",
+    "subfamily": "T7.7"
+  },
+  {
+    "index": 18,
+    "control_id": "T7.8.1",
+    "control_name": "T7.8.1 - Supply Chain Protection Strategy",
+    "family": "T7",
+    "subfamily": "T7.8"
+  },
+  {
+    "index": 19,
+    "control_id": "T7.8.2",
+    "control_name": "T7.8.2 - Supplier Reviews",
+    "family": "T7",
+    "subfamily": "T7.8"
+  },
+  {
+    "index": 20,
+    "control_id": "T7.8.3",
+    "control_name": "T7.8.3 - Limitation of Harm",
+    "family": "T7",
+    "subfamily": "T7.8"
+  },
+  {
+    "index": 21,
+    "control_id": "T7.8.4",
+    "control_name": "T7.8.4 - Supply Chain Operations Securit",
+    "family": "T7",
+    "subfamily": "T7.8"
+  },
+  {
+    "index": 22,
+    "control_id": "T7.8.5",
+    "control_name": "T7.8.5 - Reliable Delivery",
+    "family": "T7",
+    "subfamily": "T7.8"
+  },
+  {
+    "index": 23,
+    "control_id": "T7.8.6",
+    "control_name": "T7.8.6 - Processes to Address Weaknesses or Deficiencies",
+    "family": "T7",
+    "subfamily": "T7.8"
+  },
+  {
+    "index": 24,
+    "control_id": "T7.8.7",
+    "control_name": "T7.8.7 - Supply of Critical Information System Components",
+    "family": "T7",
+    "subfamily": "T7.8"
+  }
+]

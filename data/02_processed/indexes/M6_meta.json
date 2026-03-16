@@ -1,0 +1,37 @@
+[
+  {
+    "index": 0,
+    "control_id": "M6.1.1",
+    "control_name": "M6.1.1 - Performance Evaluation Policy",
+    "family": "M6",
+    "subfamily": "M6.1"
+  },
+  {
+    "index": 1,
+    "control_id": "M6.2.1",
+    "control_name": "M6.2.2 Monitoring, Measurement, Analysis and Evaluation",
+    "family": "M6",
+    "subfamily": "M6.2"
+  },
+  {
+    "index": 2,
+    "control_id": "M6.2.2",
+    "control_name": "M6.2.2 - Internal Audits",
+    "family": "M6",
+    "subfamily": "M6.2"
+  },
+  {
+    "index": 3,
+    "control_id": "M6.3.1",
+    "control_name": "M6.3.1 - Corrective Action",
+    "family": "M6",
+    "subfamily": "M6.3"
+  },
+  {
+    "index": 4,
+    "control_id": "M6.3.2",
+    "control_name": "M6.3.2 - Continual Improvement",
+    "family": "M6",
+    "subfamily": "M6.3"
+  }
+]

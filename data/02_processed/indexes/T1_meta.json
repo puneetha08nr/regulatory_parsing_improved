@@ -1,0 +1,72 @@
+[
+  {
+    "index": 0,
+    "control_id": "T1.1.1",
+    "control_name": "T1.1.1 - Asset Management Policy",
+    "family": "T1",
+    "subfamily": "T1.1"
+  },
+  {
+    "index": 1,
+    "control_id": "T1.2.1",
+    "control_name": "T1.2.1 - Inventory of Assets",
+    "family": "T1",
+    "subfamily": "T1.2"
+  },
+  {
+    "index": 2,
+    "control_id": "T1.2.2",
+    "control_name": "T1.2.2 - Ownership of Assets",
+    "family": "T1",
+    "subfamily": "T1.2"
+  },
+  {
+    "index": 3,
+    "control_id": "T1.2.3",
+    "control_name": "T1.2.3 - Acceptable Use of Assets",
+    "family": "T1",
+    "subfamily": "T1.2"
+  },
+  {
+    "index": 4,
+    "control_id": "T1.2.4",
+    "control_name": "T1.2.4 - Acceptable Bring Your Own Device (BYOD) Arrangements",
+    "family": "T1",
+    "subfamily": "T1.2"
+  },
+  {
+    "index": 5,
+    "control_id": "T1.3.1",
+    "control_name": "T1.3.1 - Classification of Information",
+    "family": "T1",
+    "subfamily": "T1.3"
+  },
+  {
+    "index": 6,
+    "control_id": "T1.3.2",
+    "control_name": "T1.3.2 - Labeling of Information",
+    "family": "T1",
+    "subfamily": "T1.3"
+  },
+  {
+    "index": 7,
+    "control_id": "T1.3.3",
+    "control_name": "T1.3.3 - Handling of Information Assets",
+    "family": "T1",
+    "subfamily": "T1.3"
+  },
+  {
+    "index": 8,
+    "control_id": "T1.4.1",
+    "control_name": "T1.4.1 - Management of Removable Media",
+    "family": "T1",
+    "subfamily": "T1.4"
+  },
+  {
+    "index": 9,
+    "control_id": "T1.4.2",
+    "control_name": "T1.4.2 - Disposal of Media",
+    "family": "T1",
+    "subfamily": "T1.4"
+  }
+]

@@ -6,7 +6,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2637237012386322,
     "evidence_text": "5.10 Situational Awareness\n\nThe CSIRT shall:\n\n1. Ensure priority information related to incidents are shared to relevant stakeholders in a timely manner even if it has not been fully analysed or resolved.\n2. Coordinate and share information in consultation with legal, with external entities, including, but not limited to external service providers, regulatory bodies, entities involved in the supply chain for organization’s information systems.\n3. Provide notice accordingly for all incidents invo",
-    "mapping_date": "2026-03-05T15:53:53.763067",
+    "mapping_date": "2026-03-16T09:45:05.940898",
     "reviewer": null,
     "notes": "Reranker: 0.264"
   },
@@ -17,7 +17,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2765688896179199,
     "evidence_text": "5.10 Situational Awareness\n\nThe CSIRT shall:\n\n1. Ensure priority information related to incidents are shared to relevant stakeholders in a timely manner even if it has not been fully analysed or resolved.\n2. Coordinate and share information in consultation with legal, with external entities, including, but not limited to external service providers, regulatory bodies, entities involved in the supply chain for organization’s information systems.\n3. Provide notice accordingly for all incidents invo",
-    "mapping_date": "2026-03-05T15:53:58.913060",
+    "mapping_date": "2026-03-16T09:45:11.198955",
     "reviewer": null,
     "notes": "Reranker: 0.277"
   },
@@ -28,7 +28,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2647523581981659,
     "evidence_text": "4 POLICY STATEMENT\n\n&lt;CLIENT&gt; shall develop, implement, and maintain an incident management program where personnel shall report information security events and weaknesses, collect, and analyze evidence of security incidents, and ensure security incidents are adequately managed.",
-    "mapping_date": "2026-03-05T15:53:58.913001",
+    "mapping_date": "2026-03-16T09:45:11.198877",
     "reviewer": null,
     "notes": "Reranker: 0.265"
   },
@@ -39,31 +39,9 @@
     "status": "Partially Addressed",
     "entailment_score": 0.27628907561302185,
     "evidence_text": "4 POLICY STATEMENT\n\n&lt;CLIENT&gt; shall develop, implement, and maintain an incident management program where personnel shall report information security events and weaknesses, collect, and analyze evidence of security incidents, and ensure security incidents are adequately managed.",
-    "mapping_date": "2026-03-05T15:54:01.505509",
+    "mapping_date": "2026-03-16T09:45:13.827227",
     "reviewer": null,
     "notes": "Reranker: 0.276"
-  },
-  {
-    "mapping_id": "M1.2.2_clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_15",
-    "source_control_id": "M1.2.2",
-    "target_policy_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_15",
-    "status": "Partially Addressed",
-    "entailment_score": 0.28674787282943726,
-    "evidence_text": "5.10 Situational Awareness\n\nThe CSIRT shall:\n\n1. Ensure priority information related to incidents are shared to relevant stakeholders in a timely manner even if it has not been fully analysed or resolved.\n2. Coordinate and share information in consultation with legal, with external entities, including, but not limited to external service providers, regulatory bodies, entities involved in the supply chain for organization’s information systems.\n3. Provide notice accordingly for all incidents invo",
-    "mapping_date": "2026-03-05T15:54:04.093893",
-    "reviewer": null,
-    "notes": "Reranker: 0.287"
-  },
-  {
-    "mapping_id": "M1.2.2_clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_7",
-    "source_control_id": "M1.2.2",
-    "target_policy_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_7",
-    "status": "Partially Addressed",
-    "entailment_score": 0.28403475880622864,
-    "evidence_text": "5.1 Computer Security Incident Response Team (CSIRT)\n\n&lt;CLIENT&gt; shall:\n\n1. Identify personnel to form the proper CSIRT.\n2. Establish the CSIRT before developing the incident response plan. Ensure that one of the first responsibilities of CSIRT is to create the incident response plan.\n3. Ensure that the CSIRT must include members from the following teams, at a minimum:\n2. Boundary Protection Experts - usually individuals who are experts in logical perimeter security (expertise on Firewalls, ",
-    "mapping_date": "2026-03-05T15:54:04.093870",
-    "reviewer": null,
-    "notes": "Reranker: 0.284"
   },
   {
     "mapping_id": "M1.3.3_clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_15",
@@ -72,7 +50,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.27446192502975464,
     "evidence_text": "5.10 Situational Awareness\n\nThe CSIRT shall:\n\n1. Ensure priority information related to incidents are shared to relevant stakeholders in a timely manner even if it has not been fully analysed or resolved.\n2. Coordinate and share information in consultation with legal, with external entities, including, but not limited to external service providers, regulatory bodies, entities involved in the supply chain for organization’s information systems.\n3. Provide notice accordingly for all incidents invo",
-    "mapping_date": "2026-03-05T15:54:11.798625",
+    "mapping_date": "2026-03-16T09:45:21.761839",
     "reviewer": null,
     "notes": "Reranker: 0.274"
   },
@@ -83,9 +61,20 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2717908024787903,
     "evidence_text": "5.1 Computer Security Incident Response Team (CSIRT)\n\n&lt;CLIENT&gt; shall:\n\n1. Identify personnel to form the proper CSIRT.\n2. Establish the CSIRT before developing the incident response plan. Ensure that one of the first responsibilities of CSIRT is to create the incident response plan.\n3. Ensure that the CSIRT must include members from the following teams, at a minimum:\n2. Boundary Protection Experts - usually individuals who are experts in logical perimeter security (expertise on Firewalls, ",
-    "mapping_date": "2026-03-05T15:54:11.798663",
+    "mapping_date": "2026-03-16T09:45:21.761878",
     "reviewer": null,
     "notes": "Reranker: 0.272"
+  },
+  {
+    "mapping_id": "M1.3.4_clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_15",
+    "source_control_id": "M1.3.4",
+    "target_policy_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_15",
+    "status": "Partially Addressed",
+    "entailment_score": 0.2628973424434662,
+    "evidence_text": "5.10 Situational Awareness\n\nThe CSIRT shall:\n\n1. Ensure priority information related to incidents are shared to relevant stakeholders in a timely manner even if it has not been fully analysed or resolved.\n2. Coordinate and share information in consultation with legal, with external entities, including, but not limited to external service providers, regulatory bodies, entities involved in the supply chain for organization’s information systems.\n3. Provide notice accordingly for all incidents invo",
+    "mapping_date": "2026-03-16T09:45:24.349743",
+    "reviewer": null,
+    "notes": "Reranker: 0.263"
   },
   {
     "mapping_id": "M1.3.5_clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_9",
@@ -94,7 +83,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2915341854095459,
     "evidence_text": "5.3 Incident Classification\n\nThe CSIRT shall:\n\n1. Define, classify, and prioritise incidents to help identify the impact and scope of the incident.\n2. Establish an incident classification scheme in line with the incident response plan considering regulatory issuances regarding incident management.\n3. Ensure that the SOC (Security Operations Centre) performs the following, at a minimum when an information security incident is reported:\n2. Decide whether the events should be classified as informat",
-    "mapping_date": "2026-03-05T15:54:14.346764",
+    "mapping_date": "2026-03-16T09:45:27.072268",
     "reviewer": null,
     "notes": "Reranker: 0.292"
   },
@@ -105,7 +94,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2909659147262573,
     "evidence_text": "5.6 Incident Handling\n\nThe CSIRT shall:\n\n1. Respond to information security incidents through a nominated point of contact and other relevant persons of the organization or external parties.\n2. Ensure that the response to incidents include the following activities, at a minimum:\n2. Conducting information security forensics analysis, as required.\n3. Escalation, as required.\n4. Ensuring all involved response activities are properly logged for later analysis.\n5. Communicating the existence of the i",
-    "mapping_date": "2026-03-05T15:54:14.346752",
+    "mapping_date": "2026-03-16T09:45:27.072256",
     "reviewer": null,
     "notes": "Reranker: 0.291"
   },
@@ -116,7 +105,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.28872552514076233,
     "evidence_text": "5.10 Situational Awareness\n\nThe CSIRT shall:\n\n1. Ensure priority information related to incidents are shared to relevant stakeholders in a timely manner even if it has not been fully analysed or resolved.\n2. Coordinate and share information in consultation with legal, with external entities, including, but not limited to external service providers, regulatory bodies, entities involved in the supply chain for organization’s information systems.\n3. Provide notice accordingly for all incidents invo",
-    "mapping_date": "2026-03-05T15:54:14.346720",
+    "mapping_date": "2026-03-16T09:45:27.072223",
     "reviewer": null,
     "notes": "Reranker: 0.289"
   },
@@ -127,7 +116,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2838127315044403,
     "evidence_text": "5.10 Situational Awareness\n\nThe CSIRT shall:\n\n1. Ensure priority information related to incidents are shared to relevant stakeholders in a timely manner even if it has not been fully analysed or resolved.\n2. Coordinate and share information in consultation with legal, with external entities, including, but not limited to external service providers, regulatory bodies, entities involved in the supply chain for organization’s information systems.\n3. Provide notice accordingly for all incidents invo",
-    "mapping_date": "2026-03-05T15:54:22.205200",
+    "mapping_date": "2026-03-16T09:45:35.153021",
     "reviewer": null,
     "notes": "Reranker: 0.284"
   },
@@ -138,53 +127,9 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2650417983531952,
     "evidence_text": "5.10 Situational Awareness\n\nThe CSIRT shall:\n\n1. Ensure priority information related to incidents are shared to relevant stakeholders in a timely manner even if it has not been fully analysed or resolved.\n2. Coordinate and share information in consultation with legal, with external entities, including, but not limited to external service providers, regulatory bodies, entities involved in the supply chain for organization’s information systems.\n3. Provide notice accordingly for all incidents invo",
-    "mapping_date": "2026-03-05T15:54:24.821895",
+    "mapping_date": "2026-03-16T09:45:37.851460",
     "reviewer": null,
     "notes": "Reranker: 0.265"
-  },
-  {
-    "mapping_id": "M2.2.1_clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_13",
-    "source_control_id": "M2.2.1",
-    "target_policy_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_13",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2860158681869507,
-    "evidence_text": "5.8 Learning from Information Security Incidents\n\nThe CSIRT shall:\n\n1. Implement relevant mechanisms to enable the types, volumes, costs (liaising with Finance Team), and impacts of information security incidents to be quantified and monitored.\n2. Utilize the information gained from evaluating information security incidents to identify recurring or high impact incidents and inform risk assessment and risk treatment activities.",
-    "mapping_date": "2026-03-05T15:54:32.569667",
-    "reviewer": null,
-    "notes": "Reranker: 0.286"
-  },
-  {
-    "mapping_id": "M2.2.2_clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_13",
-    "source_control_id": "M2.2.2",
-    "target_policy_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_13",
-    "status": "Partially Addressed",
-    "entailment_score": 0.29156023263931274,
-    "evidence_text": "5.8 Learning from Information Security Incidents\n\nThe CSIRT shall:\n\n1. Implement relevant mechanisms to enable the types, volumes, costs (liaising with Finance Team), and impacts of information security incidents to be quantified and monitored.\n2. Utilize the information gained from evaluating information security incidents to identify recurring or high impact incidents and inform risk assessment and risk treatment activities.",
-    "mapping_date": "2026-03-05T15:54:35.117465",
-    "reviewer": null,
-    "notes": "Reranker: 0.292"
-  },
-  {
-    "mapping_id": "M2.4.1_clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_15",
-    "source_control_id": "M2.4.1",
-    "target_policy_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_15",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2691802680492401,
-    "evidence_text": "5.10 Situational Awareness\n\nThe CSIRT shall:\n\n1. Ensure priority information related to incidents are shared to relevant stakeholders in a timely manner even if it has not been fully analysed or resolved.\n2. Coordinate and share information in consultation with legal, with external entities, including, but not limited to external service providers, regulatory bodies, entities involved in the supply chain for organization’s information systems.\n3. Provide notice accordingly for all incidents invo",
-    "mapping_date": "2026-03-05T15:54:43.156357",
-    "reviewer": null,
-    "notes": "Reranker: 0.269"
-  },
-  {
-    "mapping_id": "M2.4.1_clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_9",
-    "source_control_id": "M2.4.1",
-    "target_policy_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_9",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2666153013706207,
-    "evidence_text": "5.3 Incident Classification\n\nThe CSIRT shall:\n\n1. Define, classify, and prioritise incidents to help identify the impact and scope of the incident.\n2. Establish an incident classification scheme in line with the incident response plan considering regulatory issuances regarding incident management.\n3. Ensure that the SOC (Security Operations Centre) performs the following, at a minimum when an information security incident is reported:\n2. Decide whether the events should be classified as informat",
-    "mapping_date": "2026-03-05T15:54:43.156322",
-    "reviewer": null,
-    "notes": "Reranker: 0.267"
   },
   {
     "mapping_id": "M2.1.1_clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_9",
@@ -193,7 +138,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.28876635432243347,
     "evidence_text": "5.3 Incident Classification\n\nThe CSIRT shall:\n\n1. Define, classify, and prioritise incidents to help identify the impact and scope of the incident.\n2. Establish an incident classification scheme in line with the incident response plan considering regulatory issuances regarding incident management.\n3. Ensure that the SOC (Security Operations Centre) performs the following, at a minimum when an information security incident is reported:\n2. Decide whether the events should be classified as informat",
-    "mapping_date": "2026-03-05T15:54:45.949654",
+    "mapping_date": "2026-03-16T09:45:43.300992",
     "reviewer": null,
     "notes": "Reranker: 0.289"
   },
@@ -204,7 +149,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2883460521697998,
     "evidence_text": "5.10 Situational Awareness\n\nThe CSIRT shall:\n\n1. Ensure priority information related to incidents are shared to relevant stakeholders in a timely manner even if it has not been fully analysed or resolved.\n2. Coordinate and share information in consultation with legal, with external entities, including, but not limited to external service providers, regulatory bodies, entities involved in the supply chain for organization’s information systems.\n3. Provide notice accordingly for all incidents invo",
-    "mapping_date": "2026-03-05T15:54:45.949591",
+    "mapping_date": "2026-03-16T09:45:43.300937",
     "reviewer": null,
     "notes": "Reranker: 0.288"
   },
@@ -215,9 +160,97 @@
     "status": "Partially Addressed",
     "entailment_score": 0.28041183948516846,
     "evidence_text": "5.6 Incident Handling\n\nThe CSIRT shall:\n\n1. Respond to information security incidents through a nominated point of contact and other relevant persons of the organization or external parties.\n2. Ensure that the response to incidents include the following activities, at a minimum:\n2. Conducting information security forensics analysis, as required.\n3. Escalation, as required.\n4. Ensuring all involved response activities are properly logged for later analysis.\n5. Communicating the existence of the i",
-    "mapping_date": "2026-03-05T15:54:45.949646",
+    "mapping_date": "2026-03-16T09:45:43.300984",
     "reviewer": null,
     "notes": "Reranker: 0.280"
+  },
+  {
+    "mapping_id": "M2.2.1_clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_13",
+    "source_control_id": "M2.2.1",
+    "target_policy_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_13",
+    "status": "Partially Addressed",
+    "entailment_score": 0.2860158681869507,
+    "evidence_text": "5.8 Learning from Information Security Incidents\n\nThe CSIRT shall:\n\n1. Implement relevant mechanisms to enable the types, volumes, costs (liaising with Finance Team), and impacts of information security incidents to be quantified and monitored.\n2. Utilize the information gained from evaluating information security incidents to identify recurring or high impact incidents and inform risk assessment and risk treatment activities.",
+    "mapping_date": "2026-03-16T09:45:45.960953",
+    "reviewer": null,
+    "notes": "Reranker: 0.286"
+  },
+  {
+    "mapping_id": "M2.2.3_clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_13",
+    "source_control_id": "M2.2.3",
+    "target_policy_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_13",
+    "status": "Partially Addressed",
+    "entailment_score": 0.2911342680454254,
+    "evidence_text": "5.8 Learning from Information Security Incidents\n\nThe CSIRT shall:\n\n1. Implement relevant mechanisms to enable the types, volumes, costs (liaising with Finance Team), and impacts of information security incidents to be quantified and monitored.\n2. Utilize the information gained from evaluating information security incidents to identify recurring or high impact incidents and inform risk assessment and risk treatment activities.",
+    "mapping_date": "2026-03-16T09:45:51.571580",
+    "reviewer": null,
+    "notes": "Reranker: 0.291"
+  },
+  {
+    "mapping_id": "M2.3.3_clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_13",
+    "source_control_id": "M2.3.3",
+    "target_policy_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_13",
+    "status": "Partially Addressed",
+    "entailment_score": 0.25752437114715576,
+    "evidence_text": "5.8 Learning from Information Security Incidents\n\nThe CSIRT shall:\n\n1. Implement relevant mechanisms to enable the types, volumes, costs (liaising with Finance Team), and impacts of information security incidents to be quantified and monitored.\n2. Utilize the information gained from evaluating information security incidents to identify recurring or high impact incidents and inform risk assessment and risk treatment activities.",
+    "mapping_date": "2026-03-16T09:45:59.649619",
+    "reviewer": null,
+    "notes": "Reranker: 0.258"
+  },
+  {
+    "mapping_id": "M2.3.3_clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_15",
+    "source_control_id": "M2.3.3",
+    "target_policy_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_15",
+    "status": "Partially Addressed",
+    "entailment_score": 0.2523208558559418,
+    "evidence_text": "5.10 Situational Awareness\n\nThe CSIRT shall:\n\n1. Ensure priority information related to incidents are shared to relevant stakeholders in a timely manner even if it has not been fully analysed or resolved.\n2. Coordinate and share information in consultation with legal, with external entities, including, but not limited to external service providers, regulatory bodies, entities involved in the supply chain for organization’s information systems.\n3. Provide notice accordingly for all incidents invo",
+    "mapping_date": "2026-03-16T09:45:59.649644",
+    "reviewer": null,
+    "notes": "Reranker: 0.252"
+  },
+  {
+    "mapping_id": "M2.4.1_clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_15",
+    "source_control_id": "M2.4.1",
+    "target_policy_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_15",
+    "status": "Partially Addressed",
+    "entailment_score": 0.2691802680492401,
+    "evidence_text": "5.10 Situational Awareness\n\nThe CSIRT shall:\n\n1. Ensure priority information related to incidents are shared to relevant stakeholders in a timely manner even if it has not been fully analysed or resolved.\n2. Coordinate and share information in consultation with legal, with external entities, including, but not limited to external service providers, regulatory bodies, entities involved in the supply chain for organization’s information systems.\n3. Provide notice accordingly for all incidents invo",
+    "mapping_date": "2026-03-16T09:46:05.986685",
+    "reviewer": null,
+    "notes": "Reranker: 0.269"
+  },
+  {
+    "mapping_id": "M2.4.1_clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_9",
+    "source_control_id": "M2.4.1",
+    "target_policy_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_9",
+    "status": "Partially Addressed",
+    "entailment_score": 0.2666153013706207,
+    "evidence_text": "5.3 Incident Classification\n\nThe CSIRT shall:\n\n1. Define, classify, and prioritise incidents to help identify the impact and scope of the incident.\n2. Establish an incident classification scheme in line with the incident response plan considering regulatory issuances regarding incident management.\n3. Ensure that the SOC (Security Operations Centre) performs the following, at a minimum when an information security incident is reported:\n2. Decide whether the events should be classified as informat",
+    "mapping_date": "2026-03-16T09:46:05.986651",
+    "reviewer": null,
+    "notes": "Reranker: 0.267"
+  },
+  {
+    "mapping_id": "M2.4.2_clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_15",
+    "source_control_id": "M2.4.2",
+    "target_policy_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_15",
+    "status": "Partially Addressed",
+    "entailment_score": 0.28879567980766296,
+    "evidence_text": "5.10 Situational Awareness\n\nThe CSIRT shall:\n\n1. Ensure priority information related to incidents are shared to relevant stakeholders in a timely manner even if it has not been fully analysed or resolved.\n2. Coordinate and share information in consultation with legal, with external entities, including, but not limited to external service providers, regulatory bodies, entities involved in the supply chain for organization’s information systems.\n3. Provide notice accordingly for all incidents invo",
+    "mapping_date": "2026-03-16T09:46:08.818538",
+    "reviewer": null,
+    "notes": "Reranker: 0.289"
+  },
+  {
+    "mapping_id": "M2.4.2_clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_9",
+    "source_control_id": "M2.4.2",
+    "target_policy_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_9",
+    "status": "Partially Addressed",
+    "entailment_score": 0.27640098333358765,
+    "evidence_text": "5.3 Incident Classification\n\nThe CSIRT shall:\n\n1. Define, classify, and prioritise incidents to help identify the impact and scope of the incident.\n2. Establish an incident classification scheme in line with the incident response plan considering regulatory issuances regarding incident management.\n3. Ensure that the SOC (Security Operations Centre) performs the following, at a minimum when an information security incident is reported:\n2. Decide whether the events should be classified as informat",
+    "mapping_date": "2026-03-16T09:46:08.818576",
+    "reviewer": null,
+    "notes": "Reranker: 0.276"
   },
   {
     "mapping_id": "M3.2.1_clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_15",
@@ -226,7 +259,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2593769133090973,
     "evidence_text": "5.10 Situational Awareness\n\nThe CSIRT shall:\n\n1. Ensure priority information related to incidents are shared to relevant stakeholders in a timely manner even if it has not been fully analysed or resolved.\n2. Coordinate and share information in consultation with legal, with external entities, including, but not limited to external service providers, regulatory bodies, entities involved in the supply chain for organization’s information systems.\n3. Provide notice accordingly for all incidents invo",
-    "mapping_date": "2026-03-05T15:54:51.149231",
+    "mapping_date": "2026-03-16T09:46:14.149961",
     "reviewer": null,
     "notes": "Reranker: 0.259"
   },
@@ -237,31 +270,31 @@
     "status": "Partially Addressed",
     "entailment_score": 0.26347848773002625,
     "evidence_text": "5.10 Situational Awareness\n\nThe CSIRT shall:\n\n1. Ensure priority information related to incidents are shared to relevant stakeholders in a timely manner even if it has not been fully analysed or resolved.\n2. Coordinate and share information in consultation with legal, with external entities, including, but not limited to external service providers, regulatory bodies, entities involved in the supply chain for organization’s information systems.\n3. Provide notice accordingly for all incidents invo",
-    "mapping_date": "2026-03-05T15:54:53.678472",
+    "mapping_date": "2026-03-16T09:46:16.766845",
     "reviewer": null,
     "notes": "Reranker: 0.263"
   },
   {
-    "mapping_id": "M3.3.2_clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_15",
-    "source_control_id": "M3.3.2",
+    "mapping_id": "M3.3.3_clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_15",
+    "source_control_id": "M3.3.3",
     "target_policy_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_15",
     "status": "Partially Addressed",
-    "entailment_score": 0.24450555443763733,
+    "entailment_score": 0.2594943940639496,
     "evidence_text": "5.10 Situational Awareness\n\nThe CSIRT shall:\n\n1. Ensure priority information related to incidents are shared to relevant stakeholders in a timely manner even if it has not been fully analysed or resolved.\n2. Coordinate and share information in consultation with legal, with external entities, including, but not limited to external service providers, regulatory bodies, entities involved in the supply chain for organization’s information systems.\n3. Provide notice accordingly for all incidents invo",
-    "mapping_date": "2026-03-05T15:54:56.259641",
+    "mapping_date": "2026-03-16T09:46:22.145484",
     "reviewer": null,
-    "notes": "Reranker: 0.245"
+    "notes": "Reranker: 0.259"
   },
   {
-    "mapping_id": "M3.3.2_clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_7",
-    "source_control_id": "M3.3.2",
-    "target_policy_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_7",
+    "mapping_id": "M3.3.5_clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_15",
+    "source_control_id": "M3.3.5",
+    "target_policy_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_15",
     "status": "Partially Addressed",
-    "entailment_score": 0.23673659563064575,
-    "evidence_text": "5.1 Computer Security Incident Response Team (CSIRT)\n\n&lt;CLIENT&gt; shall:\n\n1. Identify personnel to form the proper CSIRT.\n2. Establish the CSIRT before developing the incident response plan. Ensure that one of the first responsibilities of CSIRT is to create the incident response plan.\n3. Ensure that the CSIRT must include members from the following teams, at a minimum:\n2. Boundary Protection Experts - usually individuals who are experts in logical perimeter security (expertise on Firewalls, ",
-    "mapping_date": "2026-03-05T15:54:56.259618",
+    "entailment_score": 0.2660161852836609,
+    "evidence_text": "5.10 Situational Awareness\n\nThe CSIRT shall:\n\n1. Ensure priority information related to incidents are shared to relevant stakeholders in a timely manner even if it has not been fully analysed or resolved.\n2. Coordinate and share information in consultation with legal, with external entities, including, but not limited to external service providers, regulatory bodies, entities involved in the supply chain for organization’s information systems.\n3. Provide notice accordingly for all incidents invo",
+    "mapping_date": "2026-03-16T09:46:27.417388",
     "reviewer": null,
-    "notes": "Reranker: 0.237"
+    "notes": "Reranker: 0.266"
   },
   {
     "mapping_id": "M3.4.1_clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_7",
@@ -270,7 +303,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.26322615146636963,
     "evidence_text": "5.1 Computer Security Incident Response Team (CSIRT)\n\n&lt;CLIENT&gt; shall:\n\n1. Identify personnel to form the proper CSIRT.\n2. Establish the CSIRT before developing the incident response plan. Ensure that one of the first responsibilities of CSIRT is to create the incident response plan.\n3. Ensure that the CSIRT must include members from the following teams, at a minimum:\n2. Boundary Protection Experts - usually individuals who are experts in logical perimeter security (expertise on Firewalls, ",
-    "mapping_date": "2026-03-05T15:55:01.439683",
+    "mapping_date": "2026-03-16T09:46:30.071884",
     "reviewer": null,
     "notes": "Reranker: 0.263"
   },
@@ -281,7 +314,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.26078155636787415,
     "evidence_text": "5.10 Situational Awareness\n\nThe CSIRT shall:\n\n1. Ensure priority information related to incidents are shared to relevant stakeholders in a timely manner even if it has not been fully analysed or resolved.\n2. Coordinate and share information in consultation with legal, with external entities, including, but not limited to external service providers, regulatory bodies, entities involved in the supply chain for organization’s information systems.\n3. Provide notice accordingly for all incidents invo",
-    "mapping_date": "2026-03-05T15:55:01.439649",
+    "mapping_date": "2026-03-16T09:46:30.071851",
     "reviewer": null,
     "notes": "Reranker: 0.261"
   },
@@ -292,7 +325,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.27628400921821594,
     "evidence_text": "4 POLICY STATEMENT\n\n&lt;CLIENT&gt; shall develop, implement, and maintain an incident management program where personnel shall report information security events and weaknesses, collect, and analyze evidence of security incidents, and ensure security incidents are adequately managed.",
-    "mapping_date": "2026-03-05T15:55:04.021361",
+    "mapping_date": "2026-03-16T09:46:32.746713",
     "reviewer": null,
     "notes": "Reranker: 0.276"
   },
@@ -303,7 +336,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2814582586288452,
     "evidence_text": "5.3 Incident Classification\n\nThe CSIRT shall:\n\n1. Define, classify, and prioritise incidents to help identify the impact and scope of the incident.\n2. Establish an incident classification scheme in line with the incident response plan considering regulatory issuances regarding incident management.\n3. Ensure that the SOC (Security Operations Centre) performs the following, at a minimum when an information security incident is reported:\n2. Decide whether the events should be classified as informat",
-    "mapping_date": "2026-03-05T15:55:06.723958",
+    "mapping_date": "2026-03-16T09:46:35.547062",
     "reviewer": null,
     "notes": "Reranker: 0.281"
   },
@@ -314,7 +347,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2798720598220825,
     "evidence_text": "5.10 Situational Awareness\n\nThe CSIRT shall:\n\n1. Ensure priority information related to incidents are shared to relevant stakeholders in a timely manner even if it has not been fully analysed or resolved.\n2. Coordinate and share information in consultation with legal, with external entities, including, but not limited to external service providers, regulatory bodies, entities involved in the supply chain for organization’s information systems.\n3. Provide notice accordingly for all incidents invo",
-    "mapping_date": "2026-03-05T15:55:06.723930",
+    "mapping_date": "2026-03-16T09:46:35.547032",
     "reviewer": null,
     "notes": "Reranker: 0.280"
   },
@@ -325,7 +358,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.26912403106689453,
     "evidence_text": "5.1 Computer Security Incident Response Team (CSIRT)\n\n&lt;CLIENT&gt; shall:\n\n1. Identify personnel to form the proper CSIRT.\n2. Establish the CSIRT before developing the incident response plan. Ensure that one of the first responsibilities of CSIRT is to create the incident response plan.\n3. Ensure that the CSIRT must include members from the following teams, at a minimum:\n2. Boundary Protection Experts - usually individuals who are experts in logical perimeter security (expertise on Firewalls, ",
-    "mapping_date": "2026-03-05T15:55:06.723946",
+    "mapping_date": "2026-03-16T09:46:35.547050",
     "reviewer": null,
     "notes": "Reranker: 0.269"
   },
@@ -336,7 +369,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.27400699257850647,
     "evidence_text": "5.10 Situational Awareness\n\nThe CSIRT shall:\n\n1. Ensure priority information related to incidents are shared to relevant stakeholders in a timely manner even if it has not been fully analysed or resolved.\n2. Coordinate and share information in consultation with legal, with external entities, including, but not limited to external service providers, regulatory bodies, entities involved in the supply chain for organization’s information systems.\n3. Provide notice accordingly for all incidents invo",
-    "mapping_date": "2026-03-05T15:55:09.556293",
+    "mapping_date": "2026-03-16T09:46:38.485126",
     "reviewer": null,
     "notes": "Reranker: 0.274"
   },
@@ -347,64 +380,20 @@
     "status": "Partially Addressed",
     "entailment_score": 0.26994216442108154,
     "evidence_text": "5.3 Incident Classification\n\nThe CSIRT shall:\n\n1. Define, classify, and prioritise incidents to help identify the impact and scope of the incident.\n2. Establish an incident classification scheme in line with the incident response plan considering regulatory issuances regarding incident management.\n3. Ensure that the SOC (Security Operations Centre) performs the following, at a minimum when an information security incident is reported:\n2. Decide whether the events should be classified as informat",
-    "mapping_date": "2026-03-05T15:55:12.368877",
+    "mapping_date": "2026-03-16T09:46:41.388016",
     "reviewer": null,
     "notes": "Reranker: 0.270"
-  },
-  {
-    "mapping_id": "M4.3.2_clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_15",
-    "source_control_id": "M4.3.2",
-    "target_policy_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_15",
-    "status": "Partially Addressed",
-    "entailment_score": 0.24604634940624237,
-    "evidence_text": "5.10 Situational Awareness\n\nThe CSIRT shall:\n\n1. Ensure priority information related to incidents are shared to relevant stakeholders in a timely manner even if it has not been fully analysed or resolved.\n2. Coordinate and share information in consultation with legal, with external entities, including, but not limited to external service providers, regulatory bodies, entities involved in the supply chain for organization’s information systems.\n3. Provide notice accordingly for all incidents invo",
-    "mapping_date": "2026-03-05T15:55:15.043011",
-    "reviewer": null,
-    "notes": "Reranker: 0.246"
-  },
-  {
-    "mapping_id": "M4.3.2_clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_14",
-    "source_control_id": "M4.3.2",
-    "target_policy_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_14",
-    "status": "Partially Addressed",
-    "entailment_score": 0.24039068818092346,
-    "evidence_text": "5.9 Collection of Evidence\n\n&lt;CLIENT&gt; shall:\n\n1. Develop and follow internal procedures when dealing with evidence for the purposes of disciplinary and legal action.\n2. Include the following processes related to the collection of potential evidence for incidents, at a minimum:\n2. **Collection process** : the process of gathering the physical items that can contain potential evidence.\n3. **Acquisition process** : the process of creating a copy of data within a defined set.\n4. **Preservation ",
-    "mapping_date": "2026-03-05T15:55:15.042963",
-    "reviewer": null,
-    "notes": "Reranker: 0.240"
-  },
-  {
-    "mapping_id": "M4.4.1_clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_9",
-    "source_control_id": "M4.4.1",
-    "target_policy_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_9",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2747251093387604,
-    "evidence_text": "5.3 Incident Classification\n\nThe CSIRT shall:\n\n1. Define, classify, and prioritise incidents to help identify the impact and scope of the incident.\n2. Establish an incident classification scheme in line with the incident response plan considering regulatory issuances regarding incident management.\n3. Ensure that the SOC (Security Operations Centre) performs the following, at a minimum when an information security incident is reported:\n2. Decide whether the events should be classified as informat",
-    "mapping_date": "2026-03-05T15:55:17.781283",
-    "reviewer": null,
-    "notes": "Reranker: 0.275"
   },
   {
     "mapping_id": "M4.4.1_clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_15",
     "source_control_id": "M4.4.1",
     "target_policy_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_15",
     "status": "Partially Addressed",
-    "entailment_score": 0.27369359135627747,
+    "entailment_score": 0.26100078225135803,
     "evidence_text": "5.10 Situational Awareness\n\nThe CSIRT shall:\n\n1. Ensure priority information related to incidents are shared to relevant stakeholders in a timely manner even if it has not been fully analysed or resolved.\n2. Coordinate and share information in consultation with legal, with external entities, including, but not limited to external service providers, regulatory bodies, entities involved in the supply chain for organization’s information systems.\n3. Provide notice accordingly for all incidents invo",
-    "mapping_date": "2026-03-05T15:55:17.781296",
+    "mapping_date": "2026-03-16T09:46:46.967761",
     "reviewer": null,
-    "notes": "Reranker: 0.274"
-  },
-  {
-    "mapping_id": "M4.4.1_clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_8",
-    "source_control_id": "M4.4.1",
-    "target_policy_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_8",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2704106569290161,
-    "evidence_text": "5.2 Incident Response Plan\n\nThe CSIRT shall:\n\n1. Develop, implement, and maintain an incident response plan that includes the following, at a minimum:\n2. A process to define reportable incidents and metrics for measuring the severity and Impact of incidents.\n3. Define the required resources and management support to effectively maintain and mature an incident response capability.\n4. Documentation that is reviewed and approved by defined personnel or roles.\n5. Distribute copies of the incident re",
-    "mapping_date": "2026-03-05T15:55:17.781244",
-    "reviewer": null,
-    "notes": "Reranker: 0.270"
+    "notes": "Reranker: 0.261"
   },
   {
     "mapping_id": "M4.4.2_clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_15",
@@ -413,7 +402,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.26221758127212524,
     "evidence_text": "5.10 Situational Awareness\n\nThe CSIRT shall:\n\n1. Ensure priority information related to incidents are shared to relevant stakeholders in a timely manner even if it has not been fully analysed or resolved.\n2. Coordinate and share information in consultation with legal, with external entities, including, but not limited to external service providers, regulatory bodies, entities involved in the supply chain for organization’s information systems.\n3. Provide notice accordingly for all incidents invo",
-    "mapping_date": "2026-03-05T15:55:20.541316",
+    "mapping_date": "2026-03-16T09:46:49.836883",
     "reviewer": null,
     "notes": "Reranker: 0.262"
   },
@@ -424,7 +413,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.26638638973236084,
     "evidence_text": "5.10 Situational Awareness\n\nThe CSIRT shall:\n\n1. Ensure priority information related to incidents are shared to relevant stakeholders in a timely manner even if it has not been fully analysed or resolved.\n2. Coordinate and share information in consultation with legal, with external entities, including, but not limited to external service providers, regulatory bodies, entities involved in the supply chain for organization’s information systems.\n3. Provide notice accordingly for all incidents invo",
-    "mapping_date": "2026-03-05T15:55:23.293707",
+    "mapping_date": "2026-03-16T09:46:52.680589",
     "reviewer": null,
     "notes": "Reranker: 0.266"
   },
@@ -435,7 +424,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.26210612058639526,
     "evidence_text": "5.3 Incident Classification\n\nThe CSIRT shall:\n\n1. Define, classify, and prioritise incidents to help identify the impact and scope of the incident.\n2. Establish an incident classification scheme in line with the incident response plan considering regulatory issuances regarding incident management.\n3. Ensure that the SOC (Security Operations Centre) performs the following, at a minimum when an information security incident is reported:\n2. Decide whether the events should be classified as informat",
-    "mapping_date": "2026-03-05T15:55:23.293699",
+    "mapping_date": "2026-03-16T09:46:52.680581",
     "reviewer": null,
     "notes": "Reranker: 0.262"
   },
@@ -446,7 +435,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.26679542660713196,
     "evidence_text": "5.9 Collection of Evidence\n\n&lt;CLIENT&gt; shall:\n\n1. Develop and follow internal procedures when dealing with evidence for the purposes of disciplinary and legal action.\n2. Include the following processes related to the collection of potential evidence for incidents, at a minimum:\n2. **Collection process** : the process of gathering the physical items that can contain potential evidence.\n3. **Acquisition process** : the process of creating a copy of data within a defined set.\n4. **Preservation ",
-    "mapping_date": "2026-03-05T15:55:31.874316",
+    "mapping_date": "2026-03-16T09:47:01.585401",
     "reviewer": null,
     "notes": "Reranker: 0.267"
   },
@@ -457,7 +446,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2895519733428955,
     "evidence_text": "5.10 Situational Awareness\n\nThe CSIRT shall:\n\n1. Ensure priority information related to incidents are shared to relevant stakeholders in a timely manner even if it has not been fully analysed or resolved.\n2. Coordinate and share information in consultation with legal, with external entities, including, but not limited to external service providers, regulatory bodies, entities involved in the supply chain for organization’s information systems.\n3. Provide notice accordingly for all incidents invo",
-    "mapping_date": "2026-03-05T15:55:40.104162",
+    "mapping_date": "2026-03-16T09:47:12.894337",
     "reviewer": null,
     "notes": "Reranker: 0.290"
   },
@@ -468,7 +457,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.271744042634964,
     "evidence_text": "5.3 Incident Classification\n\nThe CSIRT shall:\n\n1. Define, classify, and prioritise incidents to help identify the impact and scope of the incident.\n2. Establish an incident classification scheme in line with the incident response plan considering regulatory issuances regarding incident management.\n3. Ensure that the SOC (Security Operations Centre) performs the following, at a minimum when an information security incident is reported:\n2. Decide whether the events should be classified as informat",
-    "mapping_date": "2026-03-05T15:55:40.104191",
+    "mapping_date": "2026-03-16T09:47:12.894367",
     "reviewer": null,
     "notes": "Reranker: 0.272"
   },
@@ -479,20 +468,9 @@
     "status": "Partially Addressed",
     "entailment_score": 0.26825064420700073,
     "evidence_text": "5.10 Situational Awareness\n\nThe CSIRT shall:\n\n1. Ensure priority information related to incidents are shared to relevant stakeholders in a timely manner even if it has not been fully analysed or resolved.\n2. Coordinate and share information in consultation with legal, with external entities, including, but not limited to external service providers, regulatory bodies, entities involved in the supply chain for organization’s information systems.\n3. Provide notice accordingly for all incidents invo",
-    "mapping_date": "2026-03-05T15:55:43.024368",
+    "mapping_date": "2026-03-16T09:47:15.901135",
     "reviewer": null,
     "notes": "Reranker: 0.268"
-  },
-  {
-    "mapping_id": "M5.4.1_clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_15",
-    "source_control_id": "M5.4.1",
-    "target_policy_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_15",
-    "status": "Partially Addressed",
-    "entailment_score": 0.26614996790885925,
-    "evidence_text": "5.10 Situational Awareness\n\nThe CSIRT shall:\n\n1. Ensure priority information related to incidents are shared to relevant stakeholders in a timely manner even if it has not been fully analysed or resolved.\n2. Coordinate and share information in consultation with legal, with external entities, including, but not limited to external service providers, regulatory bodies, entities involved in the supply chain for organization’s information systems.\n3. Provide notice accordingly for all incidents invo",
-    "mapping_date": "2026-03-05T15:55:45.750088",
-    "reviewer": null,
-    "notes": "Reranker: 0.266"
   },
   {
     "mapping_id": "M5.5.1_clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_9",
@@ -501,7 +479,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2710152864456177,
     "evidence_text": "5.3 Incident Classification\n\nThe CSIRT shall:\n\n1. Define, classify, and prioritise incidents to help identify the impact and scope of the incident.\n2. Establish an incident classification scheme in line with the incident response plan considering regulatory issuances regarding incident management.\n3. Ensure that the SOC (Security Operations Centre) performs the following, at a minimum when an information security incident is reported:\n2. Decide whether the events should be classified as informat",
-    "mapping_date": "2026-03-05T15:55:48.586398",
+    "mapping_date": "2026-03-16T09:47:21.702438",
     "reviewer": null,
     "notes": "Reranker: 0.271"
   },
@@ -512,7 +490,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2627318501472473,
     "evidence_text": "5.10 Situational Awareness\n\nThe CSIRT shall:\n\n1. Ensure priority information related to incidents are shared to relevant stakeholders in a timely manner even if it has not been fully analysed or resolved.\n2. Coordinate and share information in consultation with legal, with external entities, including, but not limited to external service providers, regulatory bodies, entities involved in the supply chain for organization’s information systems.\n3. Provide notice accordingly for all incidents invo",
-    "mapping_date": "2026-03-05T15:55:48.586394",
+    "mapping_date": "2026-03-16T09:47:21.702434",
     "reviewer": null,
     "notes": "Reranker: 0.263"
   },
@@ -523,9 +501,20 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2592495381832123,
     "evidence_text": "5.10 Situational Awareness\n\nThe CSIRT shall:\n\n1. Ensure priority information related to incidents are shared to relevant stakeholders in a timely manner even if it has not been fully analysed or resolved.\n2. Coordinate and share information in consultation with legal, with external entities, including, but not limited to external service providers, regulatory bodies, entities involved in the supply chain for organization’s information systems.\n3. Provide notice accordingly for all incidents invo",
-    "mapping_date": "2026-03-05T15:55:51.370692",
+    "mapping_date": "2026-03-16T09:47:24.593306",
     "reviewer": null,
     "notes": "Reranker: 0.259"
+  },
+  {
+    "mapping_id": "M5.5.3_clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_15",
+    "source_control_id": "M5.5.3",
+    "target_policy_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_15",
+    "status": "Partially Addressed",
+    "entailment_score": 0.26294878125190735,
+    "evidence_text": "5.10 Situational Awareness\n\nThe CSIRT shall:\n\n1. Ensure priority information related to incidents are shared to relevant stakeholders in a timely manner even if it has not been fully analysed or resolved.\n2. Coordinate and share information in consultation with legal, with external entities, including, but not limited to external service providers, regulatory bodies, entities involved in the supply chain for organization’s information systems.\n3. Provide notice accordingly for all incidents invo",
+    "mapping_date": "2026-03-16T09:47:27.404108",
+    "reviewer": null,
+    "notes": "Reranker: 0.263"
   },
   {
     "mapping_id": "M6.1.1_clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_15",
@@ -534,7 +523,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.25327301025390625,
     "evidence_text": "5.10 Situational Awareness\n\nThe CSIRT shall:\n\n1. Ensure priority information related to incidents are shared to relevant stakeholders in a timely manner even if it has not been fully analysed or resolved.\n2. Coordinate and share information in consultation with legal, with external entities, including, but not limited to external service providers, regulatory bodies, entities involved in the supply chain for organization’s information systems.\n3. Provide notice accordingly for all incidents invo",
-    "mapping_date": "2026-03-05T15:55:54.192013",
+    "mapping_date": "2026-03-16T09:47:30.350457",
     "reviewer": null,
     "notes": "Reranker: 0.253"
   },
@@ -543,11 +532,22 @@
     "source_control_id": "M6.2.1",
     "target_policy_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_15",
     "status": "Partially Addressed",
-    "entailment_score": 0.27762871980667114,
+    "entailment_score": 0.27765366435050964,
     "evidence_text": "5.10 Situational Awareness\n\nThe CSIRT shall:\n\n1. Ensure priority information related to incidents are shared to relevant stakeholders in a timely manner even if it has not been fully analysed or resolved.\n2. Coordinate and share information in consultation with legal, with external entities, including, but not limited to external service providers, regulatory bodies, entities involved in the supply chain for organization’s information systems.\n3. Provide notice accordingly for all incidents invo",
-    "mapping_date": "2026-03-05T15:55:56.909673",
+    "mapping_date": "2026-03-16T09:47:33.169201",
     "reviewer": null,
     "notes": "Reranker: 0.278"
+  },
+  {
+    "mapping_id": "M6.2.1_clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_9",
+    "source_control_id": "M6.2.1",
+    "target_policy_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_9",
+    "status": "Partially Addressed",
+    "entailment_score": 0.27200788259506226,
+    "evidence_text": "5.3 Incident Classification\n\nThe CSIRT shall:\n\n1. Define, classify, and prioritise incidents to help identify the impact and scope of the incident.\n2. Establish an incident classification scheme in line with the incident response plan considering regulatory issuances regarding incident management.\n3. Ensure that the SOC (Security Operations Centre) performs the following, at a minimum when an information security incident is reported:\n2. Decide whether the events should be classified as informat",
+    "mapping_date": "2026-03-16T09:47:33.169146",
+    "reviewer": null,
+    "notes": "Reranker: 0.272"
   },
   {
     "mapping_id": "M6.2.2_clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_9",
@@ -556,20 +556,20 @@
     "status": "Partially Addressed",
     "entailment_score": 0.261269748210907,
     "evidence_text": "5.3 Incident Classification\n\nThe CSIRT shall:\n\n1. Define, classify, and prioritise incidents to help identify the impact and scope of the incident.\n2. Establish an incident classification scheme in line with the incident response plan considering regulatory issuances regarding incident management.\n3. Ensure that the SOC (Security Operations Centre) performs the following, at a minimum when an information security incident is reported:\n2. Decide whether the events should be classified as informat",
-    "mapping_date": "2026-03-05T15:55:59.586115",
+    "mapping_date": "2026-03-16T09:47:35.949474",
     "reviewer": null,
     "notes": "Reranker: 0.261"
   },
   {
-    "mapping_id": "M6.3.1_clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_15",
-    "source_control_id": "M6.3.1",
-    "target_policy_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_15",
+    "mapping_id": "M6.3.2_clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_6",
+    "source_control_id": "M6.3.2",
+    "target_policy_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_6",
     "status": "Partially Addressed",
-    "entailment_score": 0.2333446592092514,
-    "evidence_text": "5.10 Situational Awareness\n\nThe CSIRT shall:\n\n1. Ensure priority information related to incidents are shared to relevant stakeholders in a timely manner even if it has not been fully analysed or resolved.\n2. Coordinate and share information in consultation with legal, with external entities, including, but not limited to external service providers, regulatory bodies, entities involved in the supply chain for organization’s information systems.\n3. Provide notice accordingly for all incidents invo",
-    "mapping_date": "2026-03-05T15:56:02.215498",
+    "entailment_score": 0.2573249042034149,
+    "evidence_text": "4 POLICY STATEMENT\n\n&lt;CLIENT&gt; shall develop, implement, and maintain an incident management program where personnel shall report information security events and weaknesses, collect, and analyze evidence of security incidents, and ensure security incidents are adequately managed.",
+    "mapping_date": "2026-03-16T09:47:41.397275",
     "reviewer": null,
-    "notes": "Reranker: 0.233"
+    "notes": "Reranker: 0.257"
   },
   {
     "mapping_id": "T1.3.1_clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_9",
@@ -578,7 +578,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.26244163513183594,
     "evidence_text": "5.3 Incident Classification\n\nThe CSIRT shall:\n\n1. Define, classify, and prioritise incidents to help identify the impact and scope of the incident.\n2. Establish an incident classification scheme in line with the incident response plan considering regulatory issuances regarding incident management.\n3. Ensure that the SOC (Security Operations Centre) performs the following, at a minimum when an information security incident is reported:\n2. Decide whether the events should be classified as informat",
-    "mapping_date": "2026-03-05T15:56:15.375265",
+    "mapping_date": "2026-03-16T09:47:55.113353",
     "reviewer": null,
     "notes": "Reranker: 0.262"
   },
@@ -589,7 +589,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2633102536201477,
     "evidence_text": "5.3 Incident Classification\n\nThe CSIRT shall:\n\n1. Define, classify, and prioritise incidents to help identify the impact and scope of the incident.\n2. Establish an incident classification scheme in line with the incident response plan considering regulatory issuances regarding incident management.\n3. Ensure that the SOC (Security Operations Centre) performs the following, at a minimum when an information security incident is reported:\n2. Decide whether the events should be classified as informat",
-    "mapping_date": "2026-03-05T15:56:18.015955",
+    "mapping_date": "2026-03-16T09:47:57.853086",
     "reviewer": null,
     "notes": "Reranker: 0.263"
   },
@@ -600,7 +600,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2610190212726593,
     "evidence_text": "5.9 Collection of Evidence\n\n&lt;CLIENT&gt; shall:\n\n1. Develop and follow internal procedures when dealing with evidence for the purposes of disciplinary and legal action.\n2. Include the following processes related to the collection of potential evidence for incidents, at a minimum:\n2. **Collection process** : the process of gathering the physical items that can contain potential evidence.\n3. **Acquisition process** : the process of creating a copy of data within a defined set.\n4. **Preservation ",
-    "mapping_date": "2026-03-05T15:56:18.016039",
+    "mapping_date": "2026-03-16T09:47:57.853177",
     "reviewer": null,
     "notes": "Reranker: 0.261"
   },
@@ -611,7 +611,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.25541141629219055,
     "evidence_text": "5.10 Situational Awareness\n\nThe CSIRT shall:\n\n1. Ensure priority information related to incidents are shared to relevant stakeholders in a timely manner even if it has not been fully analysed or resolved.\n2. Coordinate and share information in consultation with legal, with external entities, including, but not limited to external service providers, regulatory bodies, entities involved in the supply chain for organization’s information systems.\n3. Provide notice accordingly for all incidents invo",
-    "mapping_date": "2026-03-05T15:56:20.724213",
+    "mapping_date": "2026-03-16T09:48:00.661831",
     "reviewer": null,
     "notes": "Reranker: 0.255"
   },
@@ -622,20 +622,9 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2529279887676239,
     "evidence_text": "5.10 Situational Awareness\n\nThe CSIRT shall:\n\n1. Ensure priority information related to incidents are shared to relevant stakeholders in a timely manner even if it has not been fully analysed or resolved.\n2. Coordinate and share information in consultation with legal, with external entities, including, but not limited to external service providers, regulatory bodies, entities involved in the supply chain for organization’s information systems.\n3. Provide notice accordingly for all incidents invo",
-    "mapping_date": "2026-03-05T15:56:23.452000",
+    "mapping_date": "2026-03-16T09:48:03.520691",
     "reviewer": null,
     "notes": "Reranker: 0.253"
-  },
-  {
-    "mapping_id": "T1.4.2_clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_15",
-    "source_control_id": "T1.4.2",
-    "target_policy_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_15",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2448430210351944,
-    "evidence_text": "5.10 Situational Awareness\n\nThe CSIRT shall:\n\n1. Ensure priority information related to incidents are shared to relevant stakeholders in a timely manner even if it has not been fully analysed or resolved.\n2. Coordinate and share information in consultation with legal, with external entities, including, but not limited to external service providers, regulatory bodies, entities involved in the supply chain for organization’s information systems.\n3. Provide notice accordingly for all incidents invo",
-    "mapping_date": "2026-03-05T15:56:26.085860",
-    "reviewer": null,
-    "notes": "Reranker: 0.245"
   },
   {
     "mapping_id": "T2.2.1_clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_15",
@@ -644,7 +633,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.28874263167381287,
     "evidence_text": "5.10 Situational Awareness\n\nThe CSIRT shall:\n\n1. Ensure priority information related to incidents are shared to relevant stakeholders in a timely manner even if it has not been fully analysed or resolved.\n2. Coordinate and share information in consultation with legal, with external entities, including, but not limited to external service providers, regulatory bodies, entities involved in the supply chain for organization’s information systems.\n3. Provide notice accordingly for all incidents invo",
-    "mapping_date": "2026-03-05T15:56:31.510277",
+    "mapping_date": "2026-03-16T09:48:11.913160",
     "reviewer": null,
     "notes": "Reranker: 0.289"
   },
@@ -655,7 +644,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.28276529908180237,
     "evidence_text": "5.3 Incident Classification\n\nThe CSIRT shall:\n\n1. Define, classify, and prioritise incidents to help identify the impact and scope of the incident.\n2. Establish an incident classification scheme in line with the incident response plan considering regulatory issuances regarding incident management.\n3. Ensure that the SOC (Security Operations Centre) performs the following, at a minimum when an information security incident is reported:\n2. Decide whether the events should be classified as informat",
-    "mapping_date": "2026-03-05T15:56:42.368757",
+    "mapping_date": "2026-03-16T09:48:26.026023",
     "reviewer": null,
     "notes": "Reranker: 0.283"
   },
@@ -666,7 +655,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2771812677383423,
     "evidence_text": "5.1 Computer Security Incident Response Team (CSIRT)\n\n&lt;CLIENT&gt; shall:\n\n1. Identify personnel to form the proper CSIRT.\n2. Establish the CSIRT before developing the incident response plan. Ensure that one of the first responsibilities of CSIRT is to create the incident response plan.\n3. Ensure that the CSIRT must include members from the following teams, at a minimum:\n2. Boundary Protection Experts - usually individuals who are experts in logical perimeter security (expertise on Firewalls, ",
-    "mapping_date": "2026-03-05T15:56:42.368746",
+    "mapping_date": "2026-03-16T09:48:26.026011",
     "reviewer": null,
     "notes": "Reranker: 0.277"
   },
@@ -677,7 +666,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2761775553226471,
     "evidence_text": "5.10 Situational Awareness\n\nThe CSIRT shall:\n\n1. Ensure priority information related to incidents are shared to relevant stakeholders in a timely manner even if it has not been fully analysed or resolved.\n2. Coordinate and share information in consultation with legal, with external entities, including, but not limited to external service providers, regulatory bodies, entities involved in the supply chain for organization’s information systems.\n3. Provide notice accordingly for all incidents invo",
-    "mapping_date": "2026-03-05T15:56:47.641783",
+    "mapping_date": "2026-03-16T09:48:34.346887",
     "reviewer": null,
     "notes": "Reranker: 0.276"
   },
@@ -688,7 +677,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2638747990131378,
     "evidence_text": "5.3 Incident Classification\n\nThe CSIRT shall:\n\n1. Define, classify, and prioritise incidents to help identify the impact and scope of the incident.\n2. Establish an incident classification scheme in line with the incident response plan considering regulatory issuances regarding incident management.\n3. Ensure that the SOC (Security Operations Centre) performs the following, at a minimum when an information security incident is reported:\n2. Decide whether the events should be classified as informat",
-    "mapping_date": "2026-03-05T15:56:52.948513",
+    "mapping_date": "2026-03-16T09:48:45.372441",
     "reviewer": null,
     "notes": "Reranker: 0.264"
   },
@@ -699,7 +688,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2623741030693054,
     "evidence_text": "5.3 Incident Classification\n\nThe CSIRT shall:\n\n1. Define, classify, and prioritise incidents to help identify the impact and scope of the incident.\n2. Establish an incident classification scheme in line with the incident response plan considering regulatory issuances regarding incident management.\n3. Ensure that the SOC (Security Operations Centre) performs the following, at a minimum when an information security incident is reported:\n2. Decide whether the events should be classified as informat",
-    "mapping_date": "2026-03-05T15:57:00.766748",
+    "mapping_date": "2026-03-16T09:48:53.667518",
     "reviewer": null,
     "notes": "Reranker: 0.262"
   },
@@ -710,7 +699,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2614738941192627,
     "evidence_text": "5.10 Situational Awareness\n\nThe CSIRT shall:\n\n1. Ensure priority information related to incidents are shared to relevant stakeholders in a timely manner even if it has not been fully analysed or resolved.\n2. Coordinate and share information in consultation with legal, with external entities, including, but not limited to external service providers, regulatory bodies, entities involved in the supply chain for organization’s information systems.\n3. Provide notice accordingly for all incidents invo",
-    "mapping_date": "2026-03-05T15:57:00.766753",
+    "mapping_date": "2026-03-16T09:48:53.667522",
     "reviewer": null,
     "notes": "Reranker: 0.261"
   },
@@ -721,7 +710,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.28347349166870117,
     "evidence_text": "5.10 Situational Awareness\n\nThe CSIRT shall:\n\n1. Ensure priority information related to incidents are shared to relevant stakeholders in a timely manner even if it has not been fully analysed or resolved.\n2. Coordinate and share information in consultation with legal, with external entities, including, but not limited to external service providers, regulatory bodies, entities involved in the supply chain for organization’s information systems.\n3. Provide notice accordingly for all incidents invo",
-    "mapping_date": "2026-03-05T15:57:03.316378",
+    "mapping_date": "2026-03-16T09:48:56.334534",
     "reviewer": null,
     "notes": "Reranker: 0.283"
   },
@@ -732,20 +721,20 @@
     "status": "Partially Addressed",
     "entailment_score": 0.28097212314605713,
     "evidence_text": "5.3 Incident Classification\n\nThe CSIRT shall:\n\n1. Define, classify, and prioritise incidents to help identify the impact and scope of the incident.\n2. Establish an incident classification scheme in line with the incident response plan considering regulatory issuances regarding incident management.\n3. Ensure that the SOC (Security Operations Centre) performs the following, at a minimum when an information security incident is reported:\n2. Decide whether the events should be classified as informat",
-    "mapping_date": "2026-03-05T15:57:03.316429",
+    "mapping_date": "2026-03-16T09:48:56.334591",
     "reviewer": null,
     "notes": "Reranker: 0.281"
   },
   {
-    "mapping_id": "T3.2.5_clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_15",
-    "source_control_id": "T3.2.5",
-    "target_policy_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_15",
+    "mapping_id": "T3.2.4_clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_7",
+    "source_control_id": "T3.2.4",
+    "target_policy_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_7",
     "status": "Partially Addressed",
-    "entailment_score": 0.2415323257446289,
-    "evidence_text": "5.10 Situational Awareness\n\nThe CSIRT shall:\n\n1. Ensure priority information related to incidents are shared to relevant stakeholders in a timely manner even if it has not been fully analysed or resolved.\n2. Coordinate and share information in consultation with legal, with external entities, including, but not limited to external service providers, regulatory bodies, entities involved in the supply chain for organization’s information systems.\n3. Provide notice accordingly for all incidents invo",
-    "mapping_date": "2026-03-05T15:57:05.922097",
+    "entailment_score": 0.26564228534698486,
+    "evidence_text": "5.1 Computer Security Incident Response Team (CSIRT)\n\n&lt;CLIENT&gt; shall:\n\n1. Identify personnel to form the proper CSIRT.\n2. Establish the CSIRT before developing the incident response plan. Ensure that one of the first responsibilities of CSIRT is to create the incident response plan.\n3. Ensure that the CSIRT must include members from the following teams, at a minimum:\n2. Boundary Protection Experts - usually individuals who are experts in logical perimeter security (expertise on Firewalls, ",
+    "mapping_date": "2026-03-16T09:48:59.028534",
     "reviewer": null,
-    "notes": "Reranker: 0.242"
+    "notes": "Reranker: 0.266"
   },
   {
     "mapping_id": "T3.3.1_clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_15",
@@ -754,7 +743,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2585320770740509,
     "evidence_text": "5.10 Situational Awareness\n\nThe CSIRT shall:\n\n1. Ensure priority information related to incidents are shared to relevant stakeholders in a timely manner even if it has not been fully analysed or resolved.\n2. Coordinate and share information in consultation with legal, with external entities, including, but not limited to external service providers, regulatory bodies, entities involved in the supply chain for organization’s information systems.\n3. Provide notice accordingly for all incidents invo",
-    "mapping_date": "2026-03-05T15:57:08.506562",
+    "mapping_date": "2026-03-16T09:49:04.433274",
     "reviewer": null,
     "notes": "Reranker: 0.259"
   },
@@ -765,20 +754,9 @@
     "status": "Partially Addressed",
     "entailment_score": 0.26153579354286194,
     "evidence_text": "5.10 Situational Awareness\n\nThe CSIRT shall:\n\n1. Ensure priority information related to incidents are shared to relevant stakeholders in a timely manner even if it has not been fully analysed or resolved.\n2. Coordinate and share information in consultation with legal, with external entities, including, but not limited to external service providers, regulatory bodies, entities involved in the supply chain for organization’s information systems.\n3. Provide notice accordingly for all incidents invo",
-    "mapping_date": "2026-03-05T15:57:11.284915",
+    "mapping_date": "2026-03-16T09:49:07.320579",
     "reviewer": null,
     "notes": "Reranker: 0.262"
-  },
-  {
-    "mapping_id": "T9.2.2_clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_15",
-    "source_control_id": "T9.2.2",
-    "target_policy_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_15",
-    "status": "Partially Addressed",
-    "entailment_score": 0.27837884426116943,
-    "evidence_text": "5.10 Situational Awareness\n\nThe CSIRT shall:\n\n1. Ensure priority information related to incidents are shared to relevant stakeholders in a timely manner even if it has not been fully analysed or resolved.\n2. Coordinate and share information in consultation with legal, with external entities, including, but not limited to external service providers, regulatory bodies, entities involved in the supply chain for organization’s information systems.\n3. Provide notice accordingly for all incidents invo",
-    "mapping_date": "2026-03-05T15:57:19.659816",
-    "reviewer": null,
-    "notes": "Reranker: 0.278"
   },
   {
     "mapping_id": "T3.6.2_clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_6",
@@ -787,7 +765,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.273775190114975,
     "evidence_text": "4 POLICY STATEMENT\n\n&lt;CLIENT&gt; shall develop, implement, and maintain an incident management program where personnel shall report information security events and weaknesses, collect, and analyze evidence of security incidents, and ensure security incidents are adequately managed.",
-    "mapping_date": "2026-03-05T15:57:25.229677",
+    "mapping_date": "2026-03-16T09:49:18.341284",
     "reviewer": null,
     "notes": "Reranker: 0.274"
   },
@@ -798,7 +776,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2698359489440918,
     "evidence_text": "5.10 Situational Awareness\n\nThe CSIRT shall:\n\n1. Ensure priority information related to incidents are shared to relevant stakeholders in a timely manner even if it has not been fully analysed or resolved.\n2. Coordinate and share information in consultation with legal, with external entities, including, but not limited to external service providers, regulatory bodies, entities involved in the supply chain for organization’s information systems.\n3. Provide notice accordingly for all incidents invo",
-    "mapping_date": "2026-03-05T15:57:25.229725",
+    "mapping_date": "2026-03-16T09:49:18.341332",
     "reviewer": null,
     "notes": "Reranker: 0.270"
   },
@@ -809,7 +787,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.26748260855674744,
     "evidence_text": "5.3 Incident Classification\n\nThe CSIRT shall:\n\n1. Define, classify, and prioritise incidents to help identify the impact and scope of the incident.\n2. Establish an incident classification scheme in line with the incident response plan considering regulatory issuances regarding incident management.\n3. Ensure that the SOC (Security Operations Centre) performs the following, at a minimum when an information security incident is reported:\n2. Decide whether the events should be classified as informat",
-    "mapping_date": "2026-03-05T15:57:25.229713",
+    "mapping_date": "2026-03-16T09:49:18.341319",
     "reviewer": null,
     "notes": "Reranker: 0.267"
   },
@@ -820,7 +798,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2766761779785156,
     "evidence_text": "5.10 Situational Awareness\n\nThe CSIRT shall:\n\n1. Ensure priority information related to incidents are shared to relevant stakeholders in a timely manner even if it has not been fully analysed or resolved.\n2. Coordinate and share information in consultation with legal, with external entities, including, but not limited to external service providers, regulatory bodies, entities involved in the supply chain for organization’s information systems.\n3. Provide notice accordingly for all incidents invo",
-    "mapping_date": "2026-03-05T15:57:27.880860",
+    "mapping_date": "2026-03-16T09:49:21.123262",
     "reviewer": null,
     "notes": "Reranker: 0.277"
   },
@@ -831,7 +809,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.26778918504714966,
     "evidence_text": "5.3 Incident Classification\n\nThe CSIRT shall:\n\n1. Define, classify, and prioritise incidents to help identify the impact and scope of the incident.\n2. Establish an incident classification scheme in line with the incident response plan considering regulatory issuances regarding incident management.\n3. Ensure that the SOC (Security Operations Centre) performs the following, at a minimum when an information security incident is reported:\n2. Decide whether the events should be classified as informat",
-    "mapping_date": "2026-03-05T15:57:33.162781",
+    "mapping_date": "2026-03-16T09:49:26.625596",
     "reviewer": null,
     "notes": "Reranker: 0.268"
   },
@@ -842,7 +820,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.26335409283638,
     "evidence_text": "5.1 Computer Security Incident Response Team (CSIRT)\n\n&lt;CLIENT&gt; shall:\n\n1. Identify personnel to form the proper CSIRT.\n2. Establish the CSIRT before developing the incident response plan. Ensure that one of the first responsibilities of CSIRT is to create the incident response plan.\n3. Ensure that the CSIRT must include members from the following teams, at a minimum:\n2. Boundary Protection Experts - usually individuals who are experts in logical perimeter security (expertise on Firewalls, ",
-    "mapping_date": "2026-03-05T15:57:33.162772",
+    "mapping_date": "2026-03-16T09:49:26.625587",
     "reviewer": null,
     "notes": "Reranker: 0.263"
   },
@@ -853,20 +831,9 @@
     "status": "Partially Addressed",
     "entailment_score": 0.25762954354286194,
     "evidence_text": "5.10 Situational Awareness\n\nThe CSIRT shall:\n\n1. Ensure priority information related to incidents are shared to relevant stakeholders in a timely manner even if it has not been fully analysed or resolved.\n2. Coordinate and share information in consultation with legal, with external entities, including, but not limited to external service providers, regulatory bodies, entities involved in the supply chain for organization’s information systems.\n3. Provide notice accordingly for all incidents invo",
-    "mapping_date": "2026-03-05T15:57:33.162719",
+    "mapping_date": "2026-03-16T09:49:26.625534",
     "reviewer": null,
     "notes": "Reranker: 0.258"
-  },
-  {
-    "mapping_id": "T3.6.7_clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_15",
-    "source_control_id": "T3.6.7",
-    "target_policy_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_15",
-    "status": "Partially Addressed",
-    "entailment_score": 0.23103880882263184,
-    "evidence_text": "5.10 Situational Awareness\n\nThe CSIRT shall:\n\n1. Ensure priority information related to incidents are shared to relevant stakeholders in a timely manner even if it has not been fully analysed or resolved.\n2. Coordinate and share information in consultation with legal, with external entities, including, but not limited to external service providers, regulatory bodies, entities involved in the supply chain for organization’s information systems.\n3. Provide notice accordingly for all incidents invo",
-    "mapping_date": "2026-03-05T15:57:35.803182",
-    "reviewer": null,
-    "notes": "Reranker: 0.231"
   },
   {
     "mapping_id": "T4.2.2_clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_15",
@@ -875,7 +842,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2668241560459137,
     "evidence_text": "5.10 Situational Awareness\n\nThe CSIRT shall:\n\n1. Ensure priority information related to incidents are shared to relevant stakeholders in a timely manner even if it has not been fully analysed or resolved.\n2. Coordinate and share information in consultation with legal, with external entities, including, but not limited to external service providers, regulatory bodies, entities involved in the supply chain for organization’s information systems.\n3. Provide notice accordingly for all incidents invo",
-    "mapping_date": "2026-03-05T15:57:43.828313",
+    "mapping_date": "2026-03-16T09:49:37.854103",
     "reviewer": null,
     "notes": "Reranker: 0.267"
   },
@@ -886,7 +853,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2893986403942108,
     "evidence_text": "5.3 Incident Classification\n\nThe CSIRT shall:\n\n1. Define, classify, and prioritise incidents to help identify the impact and scope of the incident.\n2. Establish an incident classification scheme in line with the incident response plan considering regulatory issuances regarding incident management.\n3. Ensure that the SOC (Security Operations Centre) performs the following, at a minimum when an information security incident is reported:\n2. Decide whether the events should be classified as informat",
-    "mapping_date": "2026-03-05T15:57:51.928554",
+    "mapping_date": "2026-03-16T09:49:46.431946",
     "reviewer": null,
     "notes": "Reranker: 0.289"
   },
@@ -897,7 +864,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2733621895313263,
     "evidence_text": "5.9 Collection of Evidence\n\n&lt;CLIENT&gt; shall:\n\n1. Develop and follow internal procedures when dealing with evidence for the purposes of disciplinary and legal action.\n2. Include the following processes related to the collection of potential evidence for incidents, at a minimum:\n2. **Collection process** : the process of gathering the physical items that can contain potential evidence.\n3. **Acquisition process** : the process of creating a copy of data within a defined set.\n4. **Preservation ",
-    "mapping_date": "2026-03-05T15:57:51.928569",
+    "mapping_date": "2026-03-16T09:49:46.431963",
     "reviewer": null,
     "notes": "Reranker: 0.273"
   },
@@ -908,7 +875,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.26788994669914246,
     "evidence_text": "5.10 Situational Awareness\n\nThe CSIRT shall:\n\n1. Ensure priority information related to incidents are shared to relevant stakeholders in a timely manner even if it has not been fully analysed or resolved.\n2. Coordinate and share information in consultation with legal, with external entities, including, but not limited to external service providers, regulatory bodies, entities involved in the supply chain for organization’s information systems.\n3. Provide notice accordingly for all incidents invo",
-    "mapping_date": "2026-03-05T15:57:54.849263",
+    "mapping_date": "2026-03-16T09:49:49.500072",
     "reviewer": null,
     "notes": "Reranker: 0.268"
   },
@@ -919,7 +886,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2579505741596222,
     "evidence_text": "5.3 Incident Classification\n\nThe CSIRT shall:\n\n1. Define, classify, and prioritise incidents to help identify the impact and scope of the incident.\n2. Establish an incident classification scheme in line with the incident response plan considering regulatory issuances regarding incident management.\n3. Ensure that the SOC (Security Operations Centre) performs the following, at a minimum when an information security incident is reported:\n2. Decide whether the events should be classified as informat",
-    "mapping_date": "2026-03-05T15:57:54.849320",
+    "mapping_date": "2026-03-16T09:49:49.500107",
     "reviewer": null,
     "notes": "Reranker: 0.258"
   },
@@ -930,9 +897,31 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2687036693096161,
     "evidence_text": "5.10 Situational Awareness\n\nThe CSIRT shall:\n\n1. Ensure priority information related to incidents are shared to relevant stakeholders in a timely manner even if it has not been fully analysed or resolved.\n2. Coordinate and share information in consultation with legal, with external entities, including, but not limited to external service providers, regulatory bodies, entities involved in the supply chain for organization’s information systems.\n3. Provide notice accordingly for all incidents invo",
-    "mapping_date": "2026-03-05T15:57:57.718912",
+    "mapping_date": "2026-03-16T09:49:52.532904",
     "reviewer": null,
     "notes": "Reranker: 0.269"
+  },
+  {
+    "mapping_id": "T4.4.2_clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_15",
+    "source_control_id": "T4.4.2",
+    "target_policy_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_15",
+    "status": "Partially Addressed",
+    "entailment_score": 0.25264400243759155,
+    "evidence_text": "5.10 Situational Awareness\n\nThe CSIRT shall:\n\n1. Ensure priority information related to incidents are shared to relevant stakeholders in a timely manner even if it has not been fully analysed or resolved.\n2. Coordinate and share information in consultation with legal, with external entities, including, but not limited to external service providers, regulatory bodies, entities involved in the supply chain for organization’s information systems.\n3. Provide notice accordingly for all incidents invo",
+    "mapping_date": "2026-03-16T09:49:58.211326",
+    "reviewer": null,
+    "notes": "Reranker: 0.253"
+  },
+  {
+    "mapping_id": "T4.4.2_clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_14",
+    "source_control_id": "T4.4.2",
+    "target_policy_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_14",
+    "status": "Partially Addressed",
+    "entailment_score": 0.25222837924957275,
+    "evidence_text": "5.9 Collection of Evidence\n\n&lt;CLIENT&gt; shall:\n\n1. Develop and follow internal procedures when dealing with evidence for the purposes of disciplinary and legal action.\n2. Include the following processes related to the collection of potential evidence for incidents, at a minimum:\n2. **Collection process** : the process of gathering the physical items that can contain potential evidence.\n3. **Acquisition process** : the process of creating a copy of data within a defined set.\n4. **Preservation ",
+    "mapping_date": "2026-03-16T09:49:58.211343",
+    "reviewer": null,
+    "notes": "Reranker: 0.252"
   },
   {
     "mapping_id": "T4.5.2_clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_15",
@@ -941,20 +930,20 @@
     "status": "Partially Addressed",
     "entailment_score": 0.25061339139938354,
     "evidence_text": "5.10 Situational Awareness\n\nThe CSIRT shall:\n\n1. Ensure priority information related to incidents are shared to relevant stakeholders in a timely manner even if it has not been fully analysed or resolved.\n2. Coordinate and share information in consultation with legal, with external entities, including, but not limited to external service providers, regulatory bodies, entities involved in the supply chain for organization’s information systems.\n3. Provide notice accordingly for all incidents invo",
-    "mapping_date": "2026-03-05T15:58:05.892712",
+    "mapping_date": "2026-03-16T09:50:04.051810",
     "reviewer": null,
     "notes": "Reranker: 0.251"
   },
   {
-    "mapping_id": "T4.5.4_clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_9",
-    "source_control_id": "T4.5.4",
-    "target_policy_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_9",
+    "mapping_id": "T4.5.3_clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_15",
+    "source_control_id": "T4.5.3",
+    "target_policy_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_15",
     "status": "Partially Addressed",
-    "entailment_score": 0.24904119968414307,
-    "evidence_text": "5.3 Incident Classification\n\nThe CSIRT shall:\n\n1. Define, classify, and prioritise incidents to help identify the impact and scope of the incident.\n2. Establish an incident classification scheme in line with the incident response plan considering regulatory issuances regarding incident management.\n3. Ensure that the SOC (Security Operations Centre) performs the following, at a minimum when an information security incident is reported:\n2. Decide whether the events should be classified as informat",
-    "mapping_date": "2026-03-05T15:58:08.651402",
+    "entailment_score": 0.28780341148376465,
+    "evidence_text": "5.10 Situational Awareness\n\nThe CSIRT shall:\n\n1. Ensure priority information related to incidents are shared to relevant stakeholders in a timely manner even if it has not been fully analysed or resolved.\n2. Coordinate and share information in consultation with legal, with external entities, including, but not limited to external service providers, regulatory bodies, entities involved in the supply chain for organization’s information systems.\n3. Provide notice accordingly for all incidents invo",
+    "mapping_date": "2026-03-16T09:50:08.154160",
     "reviewer": null,
-    "notes": "Reranker: 0.249"
+    "notes": "Reranker: 0.288"
   },
   {
     "mapping_id": "T5.2.4_clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_9",
@@ -963,7 +952,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.25712665915489197,
     "evidence_text": "5.3 Incident Classification\n\nThe CSIRT shall:\n\n1. Define, classify, and prioritise incidents to help identify the impact and scope of the incident.\n2. Establish an incident classification scheme in line with the incident response plan considering regulatory issuances regarding incident management.\n3. Ensure that the SOC (Security Operations Centre) performs the following, at a minimum when an information security incident is reported:\n2. Decide whether the events should be classified as informat",
-    "mapping_date": "2026-03-05T15:58:19.102148",
+    "mapping_date": "2026-03-16T09:50:22.854119",
     "reviewer": null,
     "notes": "Reranker: 0.257"
   },
@@ -974,7 +963,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.26094359159469604,
     "evidence_text": "5.10 Situational Awareness\n\nThe CSIRT shall:\n\n1. Ensure priority information related to incidents are shared to relevant stakeholders in a timely manner even if it has not been fully analysed or resolved.\n2. Coordinate and share information in consultation with legal, with external entities, including, but not limited to external service providers, regulatory bodies, entities involved in the supply chain for organization’s information systems.\n3. Provide notice accordingly for all incidents invo",
-    "mapping_date": "2026-03-05T15:58:21.702086",
+    "mapping_date": "2026-03-16T09:50:25.611004",
     "reviewer": null,
     "notes": "Reranker: 0.261"
   },
@@ -985,31 +974,20 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2558780610561371,
     "evidence_text": "5.3 Incident Classification\n\nThe CSIRT shall:\n\n1. Define, classify, and prioritise incidents to help identify the impact and scope of the incident.\n2. Establish an incident classification scheme in line with the incident response plan considering regulatory issuances regarding incident management.\n3. Ensure that the SOC (Security Operations Centre) performs the following, at a minimum when an information security incident is reported:\n2. Decide whether the events should be classified as informat",
-    "mapping_date": "2026-03-05T15:58:21.702063",
+    "mapping_date": "2026-03-16T09:50:25.610980",
     "reviewer": null,
     "notes": "Reranker: 0.256"
   },
   {
-    "mapping_id": "T5.4.1_clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_15",
-    "source_control_id": "T5.4.1",
-    "target_policy_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_15",
+    "mapping_id": "T5.4.3_clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_9",
+    "source_control_id": "T5.4.3",
+    "target_policy_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_9",
     "status": "Partially Addressed",
-    "entailment_score": 0.2353147566318512,
-    "evidence_text": "5.10 Situational Awareness\n\nThe CSIRT shall:\n\n1. Ensure priority information related to incidents are shared to relevant stakeholders in a timely manner even if it has not been fully analysed or resolved.\n2. Coordinate and share information in consultation with legal, with external entities, including, but not limited to external service providers, regulatory bodies, entities involved in the supply chain for organization’s information systems.\n3. Provide notice accordingly for all incidents invo",
-    "mapping_date": "2026-03-05T15:58:24.355288",
+    "entailment_score": 0.28335389494895935,
+    "evidence_text": "5.3 Incident Classification\n\nThe CSIRT shall:\n\n1. Define, classify, and prioritise incidents to help identify the impact and scope of the incident.\n2. Establish an incident classification scheme in line with the incident response plan considering regulatory issuances regarding incident management.\n3. Ensure that the SOC (Security Operations Centre) performs the following, at a minimum when an information security incident is reported:\n2. Decide whether the events should be classified as informat",
+    "mapping_date": "2026-03-16T09:50:34.322299",
     "reviewer": null,
-    "notes": "Reranker: 0.235"
-  },
-  {
-    "mapping_id": "T5.4.4_clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_15",
-    "source_control_id": "T5.4.4",
-    "target_policy_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_15",
-    "status": "Partially Addressed",
-    "entailment_score": 0.24973319470882416,
-    "evidence_text": "5.10 Situational Awareness\n\nThe CSIRT shall:\n\n1. Ensure priority information related to incidents are shared to relevant stakeholders in a timely manner even if it has not been fully analysed or resolved.\n2. Coordinate and share information in consultation with legal, with external entities, including, but not limited to external service providers, regulatory bodies, entities involved in the supply chain for organization’s information systems.\n3. Provide notice accordingly for all incidents invo",
-    "mapping_date": "2026-03-05T15:58:29.603574",
-    "reviewer": null,
-    "notes": "Reranker: 0.250"
+    "notes": "Reranker: 0.283"
   },
   {
     "mapping_id": "T5.6.1_clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_15",
@@ -1018,7 +996,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2538374662399292,
     "evidence_text": "5.10 Situational Awareness\n\nThe CSIRT shall:\n\n1. Ensure priority information related to incidents are shared to relevant stakeholders in a timely manner even if it has not been fully analysed or resolved.\n2. Coordinate and share information in consultation with legal, with external entities, including, but not limited to external service providers, regulatory bodies, entities involved in the supply chain for organization’s information systems.\n3. Provide notice accordingly for all incidents invo",
-    "mapping_date": "2026-03-05T15:58:40.227843",
+    "mapping_date": "2026-03-16T09:50:51.436177",
     "reviewer": null,
     "notes": "Reranker: 0.254"
   },
@@ -1029,7 +1007,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.27390095591545105,
     "evidence_text": "5.3 Incident Classification\n\nThe CSIRT shall:\n\n1. Define, classify, and prioritise incidents to help identify the impact and scope of the incident.\n2. Establish an incident classification scheme in line with the incident response plan considering regulatory issuances regarding incident management.\n3. Ensure that the SOC (Security Operations Centre) performs the following, at a minimum when an information security incident is reported:\n2. Decide whether the events should be classified as informat",
-    "mapping_date": "2026-03-05T15:58:42.896171",
+    "mapping_date": "2026-03-16T09:50:54.261400",
     "reviewer": null,
     "notes": "Reranker: 0.274"
   },
@@ -1040,20 +1018,20 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2628120183944702,
     "evidence_text": "5.10 Situational Awareness\n\nThe CSIRT shall:\n\n1. Ensure priority information related to incidents are shared to relevant stakeholders in a timely manner even if it has not been fully analysed or resolved.\n2. Coordinate and share information in consultation with legal, with external entities, including, but not limited to external service providers, regulatory bodies, entities involved in the supply chain for organization’s information systems.\n3. Provide notice accordingly for all incidents invo",
-    "mapping_date": "2026-03-05T15:58:45.471703",
+    "mapping_date": "2026-03-16T09:50:57.010115",
     "reviewer": null,
     "notes": "Reranker: 0.263"
   },
   {
-    "mapping_id": "T5.6.3_clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_14",
-    "source_control_id": "T5.6.3",
-    "target_policy_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_14",
+    "mapping_id": "T5.7.1_clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_9",
+    "source_control_id": "T5.7.1",
+    "target_policy_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_9",
     "status": "Partially Addressed",
-    "entailment_score": 0.2470763921737671,
-    "evidence_text": "5.9 Collection of Evidence\n\n&lt;CLIENT&gt; shall:\n\n1. Develop and follow internal procedures when dealing with evidence for the purposes of disciplinary and legal action.\n2. Include the following processes related to the collection of potential evidence for incidents, at a minimum:\n2. **Collection process** : the process of gathering the physical items that can contain potential evidence.\n3. **Acquisition process** : the process of creating a copy of data within a defined set.\n4. **Preservation ",
-    "mapping_date": "2026-03-05T15:58:45.471736",
+    "entailment_score": 0.2943527102470398,
+    "evidence_text": "5.3 Incident Classification\n\nThe CSIRT shall:\n\n1. Define, classify, and prioritise incidents to help identify the impact and scope of the incident.\n2. Establish an incident classification scheme in line with the incident response plan considering regulatory issuances regarding incident management.\n3. Ensure that the SOC (Security Operations Centre) performs the following, at a minimum when an information security incident is reported:\n2. Decide whether the events should be classified as informat",
+    "mapping_date": "2026-03-16T09:50:59.916134",
     "reviewer": null,
-    "notes": "Reranker: 0.247"
+    "notes": "Reranker: 0.294"
   },
   {
     "mapping_id": "T5.7.2_clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_15",
@@ -1062,7 +1040,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2752411365509033,
     "evidence_text": "5.10 Situational Awareness\n\nThe CSIRT shall:\n\n1. Ensure priority information related to incidents are shared to relevant stakeholders in a timely manner even if it has not been fully analysed or resolved.\n2. Coordinate and share information in consultation with legal, with external entities, including, but not limited to external service providers, regulatory bodies, entities involved in the supply chain for organization’s information systems.\n3. Provide notice accordingly for all incidents invo",
-    "mapping_date": "2026-03-05T15:58:48.146262",
+    "mapping_date": "2026-03-16T09:51:02.970481",
     "reviewer": null,
     "notes": "Reranker: 0.275"
   },
@@ -1073,7 +1051,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2866918742656708,
     "evidence_text": "5.3 Incident Classification\n\nThe CSIRT shall:\n\n1. Define, classify, and prioritise incidents to help identify the impact and scope of the incident.\n2. Establish an incident classification scheme in line with the incident response plan considering regulatory issuances regarding incident management.\n3. Ensure that the SOC (Security Operations Centre) performs the following, at a minimum when an information security incident is reported:\n2. Decide whether the events should be classified as informat",
-    "mapping_date": "2026-03-05T15:58:53.476455",
+    "mapping_date": "2026-03-16T09:51:08.602637",
     "reviewer": null,
     "notes": "Reranker: 0.287"
   },
@@ -1084,9 +1062,31 @@
     "status": "Partially Addressed",
     "entailment_score": 0.281228244304657,
     "evidence_text": "5.10 Situational Awareness\n\nThe CSIRT shall:\n\n1. Ensure priority information related to incidents are shared to relevant stakeholders in a timely manner even if it has not been fully analysed or resolved.\n2. Coordinate and share information in consultation with legal, with external entities, including, but not limited to external service providers, regulatory bodies, entities involved in the supply chain for organization’s information systems.\n3. Provide notice accordingly for all incidents invo",
-    "mapping_date": "2026-03-05T15:58:53.476387",
+    "mapping_date": "2026-03-16T09:51:08.602585",
     "reviewer": null,
     "notes": "Reranker: 0.281"
+  },
+  {
+    "mapping_id": "T6.2.2_clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_15",
+    "source_control_id": "T6.2.2",
+    "target_policy_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_15",
+    "status": "Partially Addressed",
+    "entailment_score": 0.2653711438179016,
+    "evidence_text": "5.10 Situational Awareness\n\nThe CSIRT shall:\n\n1. Ensure priority information related to incidents are shared to relevant stakeholders in a timely manner even if it has not been fully analysed or resolved.\n2. Coordinate and share information in consultation with legal, with external entities, including, but not limited to external service providers, regulatory bodies, entities involved in the supply chain for organization’s information systems.\n3. Provide notice accordingly for all incidents invo",
+    "mapping_date": "2026-03-16T09:51:11.345887",
+    "reviewer": null,
+    "notes": "Reranker: 0.265"
+  },
+  {
+    "mapping_id": "T6.2.2_clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_7",
+    "source_control_id": "T6.2.2",
+    "target_policy_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_7",
+    "status": "Partially Addressed",
+    "entailment_score": 0.26459571719169617,
+    "evidence_text": "5.1 Computer Security Incident Response Team (CSIRT)\n\n&lt;CLIENT&gt; shall:\n\n1. Identify personnel to form the proper CSIRT.\n2. Establish the CSIRT before developing the incident response plan. Ensure that one of the first responsibilities of CSIRT is to create the incident response plan.\n3. Ensure that the CSIRT must include members from the following teams, at a minimum:\n2. Boundary Protection Experts - usually individuals who are experts in logical perimeter security (expertise on Firewalls, ",
+    "mapping_date": "2026-03-16T09:51:11.345892",
+    "reviewer": null,
+    "notes": "Reranker: 0.265"
   },
   {
     "mapping_id": "T6.2.3_clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_9",
@@ -1095,7 +1095,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.26821011304855347,
     "evidence_text": "5.3 Incident Classification\n\nThe CSIRT shall:\n\n1. Define, classify, and prioritise incidents to help identify the impact and scope of the incident.\n2. Establish an incident classification scheme in line with the incident response plan considering regulatory issuances regarding incident management.\n3. Ensure that the SOC (Security Operations Centre) performs the following, at a minimum when an information security incident is reported:\n2. Decide whether the events should be classified as informat",
-    "mapping_date": "2026-03-05T15:58:56.113676",
+    "mapping_date": "2026-03-16T09:51:14.205695",
     "reviewer": null,
     "notes": "Reranker: 0.268"
   },
@@ -1106,7 +1106,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2674005329608917,
     "evidence_text": "5.10 Situational Awareness\n\nThe CSIRT shall:\n\n1. Ensure priority information related to incidents are shared to relevant stakeholders in a timely manner even if it has not been fully analysed or resolved.\n2. Coordinate and share information in consultation with legal, with external entities, including, but not limited to external service providers, regulatory bodies, entities involved in the supply chain for organization’s information systems.\n3. Provide notice accordingly for all incidents invo",
-    "mapping_date": "2026-03-05T15:58:56.113688",
+    "mapping_date": "2026-03-16T09:51:14.205708",
     "reviewer": null,
     "notes": "Reranker: 0.267"
   },
@@ -1117,20 +1117,9 @@
     "status": "Partially Addressed",
     "entailment_score": 0.26316651701927185,
     "evidence_text": "5.10 Situational Awareness\n\nThe CSIRT shall:\n\n1. Ensure priority information related to incidents are shared to relevant stakeholders in a timely manner even if it has not been fully analysed or resolved.\n2. Coordinate and share information in consultation with legal, with external entities, including, but not limited to external service providers, regulatory bodies, entities involved in the supply chain for organization’s information systems.\n3. Provide notice accordingly for all incidents invo",
-    "mapping_date": "2026-03-05T15:58:58.816755",
+    "mapping_date": "2026-03-16T09:51:17.056674",
     "reviewer": null,
     "notes": "Reranker: 0.263"
-  },
-  {
-    "mapping_id": "T7.2.2_clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_15",
-    "source_control_id": "T7.2.2",
-    "target_policy_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_15",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2445744127035141,
-    "evidence_text": "5.10 Situational Awareness\n\nThe CSIRT shall:\n\n1. Ensure priority information related to incidents are shared to relevant stakeholders in a timely manner even if it has not been fully analysed or resolved.\n2. Coordinate and share information in consultation with legal, with external entities, including, but not limited to external service providers, regulatory bodies, entities involved in the supply chain for organization’s information systems.\n3. Provide notice accordingly for all incidents invo",
-    "mapping_date": "2026-03-05T15:59:09.481093",
-    "reviewer": null,
-    "notes": "Reranker: 0.245"
   },
   {
     "mapping_id": "T7.5.2_clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_9",
@@ -1139,7 +1128,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2721085250377655,
     "evidence_text": "5.3 Incident Classification\n\nThe CSIRT shall:\n\n1. Define, classify, and prioritise incidents to help identify the impact and scope of the incident.\n2. Establish an incident classification scheme in line with the incident response plan considering regulatory issuances regarding incident management.\n3. Ensure that the SOC (Security Operations Centre) performs the following, at a minimum when an information security incident is reported:\n2. Decide whether the events should be classified as informat",
-    "mapping_date": "2026-03-05T15:59:22.653491",
+    "mapping_date": "2026-03-16T09:51:42.219773",
     "reviewer": null,
     "notes": "Reranker: 0.272"
   },
@@ -1150,20 +1139,9 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2702808380126953,
     "evidence_text": "5.10 Situational Awareness\n\nThe CSIRT shall:\n\n1. Ensure priority information related to incidents are shared to relevant stakeholders in a timely manner even if it has not been fully analysed or resolved.\n2. Coordinate and share information in consultation with legal, with external entities, including, but not limited to external service providers, regulatory bodies, entities involved in the supply chain for organization’s information systems.\n3. Provide notice accordingly for all incidents invo",
-    "mapping_date": "2026-03-05T15:59:22.653471",
+    "mapping_date": "2026-03-16T09:51:42.219741",
     "reviewer": null,
     "notes": "Reranker: 0.270"
-  },
-  {
-    "mapping_id": "T7.8.2_clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_15",
-    "source_control_id": "T7.8.2",
-    "target_policy_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_15",
-    "status": "Partially Addressed",
-    "entailment_score": 0.24937906861305237,
-    "evidence_text": "5.10 Situational Awareness\n\nThe CSIRT shall:\n\n1. Ensure priority information related to incidents are shared to relevant stakeholders in a timely manner even if it has not been fully analysed or resolved.\n2. Coordinate and share information in consultation with legal, with external entities, including, but not limited to external service providers, regulatory bodies, entities involved in the supply chain for organization’s information systems.\n3. Provide notice accordingly for all incidents invo",
-    "mapping_date": "2026-03-05T15:59:35.745290",
-    "reviewer": null,
-    "notes": "Reranker: 0.249"
   },
   {
     "mapping_id": "T7.8.4_clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_15",
@@ -1172,7 +1150,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2659187614917755,
     "evidence_text": "5.10 Situational Awareness\n\nThe CSIRT shall:\n\n1. Ensure priority information related to incidents are shared to relevant stakeholders in a timely manner even if it has not been fully analysed or resolved.\n2. Coordinate and share information in consultation with legal, with external entities, including, but not limited to external service providers, regulatory bodies, entities involved in the supply chain for organization’s information systems.\n3. Provide notice accordingly for all incidents invo",
-    "mapping_date": "2026-03-05T15:59:38.380319",
+    "mapping_date": "2026-03-16T09:52:01.670113",
     "reviewer": null,
     "notes": "Reranker: 0.266"
   },
@@ -1183,9 +1161,31 @@
     "status": "Partially Addressed",
     "entailment_score": 0.25554218888282776,
     "evidence_text": "5.10 Situational Awareness\n\nThe CSIRT shall:\n\n1. Ensure priority information related to incidents are shared to relevant stakeholders in a timely manner even if it has not been fully analysed or resolved.\n2. Coordinate and share information in consultation with legal, with external entities, including, but not limited to external service providers, regulatory bodies, entities involved in the supply chain for organization’s information systems.\n3. Provide notice accordingly for all incidents invo",
-    "mapping_date": "2026-03-05T15:59:41.028160",
+    "mapping_date": "2026-03-16T09:52:04.456283",
     "reviewer": null,
     "notes": "Reranker: 0.256"
+  },
+  {
+    "mapping_id": "T7.8.6_clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_11",
+    "source_control_id": "T7.8.6",
+    "target_policy_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_11",
+    "status": "Partially Addressed",
+    "entailment_score": 0.2534671723842621,
+    "evidence_text": "5.5 Incident Response Testing\n\nThe CSIRT in coordination with other appropriate teams shall:\n\n1. Develop incident response testing procedures to:\n2. Identify potential weaknesses or deficiencies.\n3. Utilize checklists, table top (discussion-based) exercises, and functional (performance of duties in a simulated environment) exercises for incident response testing.\n4. Participate in sector, national, and international exercises to further test the organization’s incident response capabilities.\n\n1.",
+    "mapping_date": "2026-03-16T09:52:07.236415",
+    "reviewer": null,
+    "notes": "Reranker: 0.253"
+  },
+  {
+    "mapping_id": "T7.8.6_clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_15",
+    "source_control_id": "T7.8.6",
+    "target_policy_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_15",
+    "status": "Partially Addressed",
+    "entailment_score": 0.2522135078907013,
+    "evidence_text": "5.10 Situational Awareness\n\nThe CSIRT shall:\n\n1. Ensure priority information related to incidents are shared to relevant stakeholders in a timely manner even if it has not been fully analysed or resolved.\n2. Coordinate and share information in consultation with legal, with external entities, including, but not limited to external service providers, regulatory bodies, entities involved in the supply chain for organization’s information systems.\n3. Provide notice accordingly for all incidents invo",
+    "mapping_date": "2026-03-16T09:52:07.236377",
+    "reviewer": null,
+    "notes": "Reranker: 0.252"
   },
   {
     "mapping_id": "T7.8.7_clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_15",
@@ -1194,7 +1194,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2647818922996521,
     "evidence_text": "5.10 Situational Awareness\n\nThe CSIRT shall:\n\n1. Ensure priority information related to incidents are shared to relevant stakeholders in a timely manner even if it has not been fully analysed or resolved.\n2. Coordinate and share information in consultation with legal, with external entities, including, but not limited to external service providers, regulatory bodies, entities involved in the supply chain for organization’s information systems.\n3. Provide notice accordingly for all incidents invo",
-    "mapping_date": "2026-03-05T15:59:43.636808",
+    "mapping_date": "2026-03-16T09:52:10.050636",
     "reviewer": null,
     "notes": "Reranker: 0.265"
   },
@@ -1205,7 +1205,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2957378327846527,
     "evidence_text": "4 POLICY STATEMENT\n\n&lt;CLIENT&gt; shall develop, implement, and maintain an incident management program where personnel shall report information security events and weaknesses, collect, and analyze evidence of security incidents, and ensure security incidents are adequately managed.",
-    "mapping_date": "2026-03-05T15:59:46.280023",
+    "mapping_date": "2026-03-16T09:52:12.839521",
     "reviewer": null,
     "notes": "Reranker: 0.296"
   },
@@ -1216,7 +1216,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2888493239879608,
     "evidence_text": "5.6 Incident Handling\n\nThe CSIRT shall:\n\n1. Respond to information security incidents through a nominated point of contact and other relevant persons of the organization or external parties.\n2. Ensure that the response to incidents include the following activities, at a minimum:\n2. Conducting information security forensics analysis, as required.\n3. Escalation, as required.\n4. Ensuring all involved response activities are properly logged for later analysis.\n5. Communicating the existence of the i",
-    "mapping_date": "2026-03-05T15:59:46.280014",
+    "mapping_date": "2026-03-16T09:52:12.839513",
     "reviewer": null,
     "notes": "Reranker: 0.289"
   },
@@ -1227,7 +1227,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.29734307527542114,
     "evidence_text": "5.2 Incident Response Plan\n\nThe CSIRT shall:\n\n1. Develop, implement, and maintain an incident response plan that includes the following, at a minimum:\n2. A process to define reportable incidents and metrics for measuring the severity and Impact of incidents.\n3. Define the required resources and management support to effectively maintain and mature an incident response capability.\n4. Documentation that is reviewed and approved by defined personnel or roles.\n5. Distribute copies of the incident re",
-    "mapping_date": "2026-03-05T15:59:48.903903",
+    "mapping_date": "2026-03-16T09:52:15.609898",
     "reviewer": null,
     "notes": "Reranker: 0.297"
   },
@@ -1238,7 +1238,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.27735260128974915,
     "evidence_text": "5.3 Incident Classification\n\nThe CSIRT shall:\n\n1. Define, classify, and prioritise incidents to help identify the impact and scope of the incident.\n2. Establish an incident classification scheme in line with the incident response plan considering regulatory issuances regarding incident management.\n3. Ensure that the SOC (Security Operations Centre) performs the following, at a minimum when an information security incident is reported:\n2. Decide whether the events should be classified as informat",
-    "mapping_date": "2026-03-05T15:59:48.903970",
+    "mapping_date": "2026-03-16T09:52:15.609983",
     "reviewer": null,
     "notes": "Reranker: 0.277"
   },
@@ -1249,7 +1249,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.274659126996994,
     "evidence_text": "5.1 Computer Security Incident Response Team (CSIRT)\n\n&lt;CLIENT&gt; shall:\n\n1. Identify personnel to form the proper CSIRT.\n2. Establish the CSIRT before developing the incident response plan. Ensure that one of the first responsibilities of CSIRT is to create the incident response plan.\n3. Ensure that the CSIRT must include members from the following teams, at a minimum:\n2. Boundary Protection Experts - usually individuals who are experts in logical perimeter security (expertise on Firewalls, ",
-    "mapping_date": "2026-03-05T15:59:48.903956",
+    "mapping_date": "2026-03-16T09:52:15.609970",
     "reviewer": null,
     "notes": "Reranker: 0.275"
   },
@@ -1260,7 +1260,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2680404782295227,
     "evidence_text": "5.10 Situational Awareness\n\nThe CSIRT shall:\n\n1. Ensure priority information related to incidents are shared to relevant stakeholders in a timely manner even if it has not been fully analysed or resolved.\n2. Coordinate and share information in consultation with legal, with external entities, including, but not limited to external service providers, regulatory bodies, entities involved in the supply chain for organization’s information systems.\n3. Provide notice accordingly for all incidents invo",
-    "mapping_date": "2026-03-05T15:59:48.903993",
+    "mapping_date": "2026-03-16T09:52:15.610007",
     "reviewer": null,
     "notes": "Reranker: 0.268"
   },
@@ -1271,64 +1271,42 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2659972012042999,
     "evidence_text": "5.4 Incident Response Training\n\nThe CSIRT shall:\n\n1. Ensure that the incident response training provided by the organisation is linked to assigned roles and responsibilities of respective personnel to include appropriate content and level of detail in such training.",
-    "mapping_date": "2026-03-05T15:59:48.903966",
+    "mapping_date": "2026-03-16T09:52:15.609979",
     "reviewer": null,
     "notes": "Reranker: 0.266"
-  },
-  {
-    "mapping_id": "T8.2.2_clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_7",
-    "source_control_id": "T8.2.2",
-    "target_policy_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_7",
-    "status": "Partially Addressed",
-    "entailment_score": 0.3034382164478302,
-    "evidence_text": "5.1 Computer Security Incident Response Team (CSIRT)\n\n&lt;CLIENT&gt; shall:\n\n1. Identify personnel to form the proper CSIRT.\n2. Establish the CSIRT before developing the incident response plan. Ensure that one of the first responsibilities of CSIRT is to create the incident response plan.\n3. Ensure that the CSIRT must include members from the following teams, at a minimum:\n2. Boundary Protection Experts - usually individuals who are experts in logical perimeter security (expertise on Firewalls, ",
-    "mapping_date": "2026-03-05T15:59:51.579598",
-    "reviewer": null,
-    "notes": "Reranker: 0.303"
-  },
-  {
-    "mapping_id": "T8.2.2_clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_9",
-    "source_control_id": "T8.2.2",
-    "target_policy_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_9",
-    "status": "Partially Addressed",
-    "entailment_score": 0.28629782795906067,
-    "evidence_text": "5.3 Incident Classification\n\nThe CSIRT shall:\n\n1. Define, classify, and prioritise incidents to help identify the impact and scope of the incident.\n2. Establish an incident classification scheme in line with the incident response plan considering regulatory issuances regarding incident management.\n3. Ensure that the SOC (Security Operations Centre) performs the following, at a minimum when an information security incident is reported:\n2. Decide whether the events should be classified as informat",
-    "mapping_date": "2026-03-05T15:59:51.579604",
-    "reviewer": null,
-    "notes": "Reranker: 0.286"
   },
   {
     "mapping_id": "T8.2.2_clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_8",
     "source_control_id": "T8.2.2",
     "target_policy_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_8",
     "status": "Partially Addressed",
-    "entailment_score": 0.28278663754463196,
+    "entailment_score": 0.30888068675994873,
     "evidence_text": "5.2 Incident Response Plan\n\nThe CSIRT shall:\n\n1. Develop, implement, and maintain an incident response plan that includes the following, at a minimum:\n2. A process to define reportable incidents and metrics for measuring the severity and Impact of incidents.\n3. Define the required resources and management support to effectively maintain and mature an incident response capability.\n4. Documentation that is reviewed and approved by defined personnel or roles.\n5. Distribute copies of the incident re",
-    "mapping_date": "2026-03-05T15:59:51.579609",
+    "mapping_date": "2026-03-16T09:52:18.824098",
     "reviewer": null,
-    "notes": "Reranker: 0.283"
+    "notes": "Reranker: 0.309"
   },
   {
-    "mapping_id": "T8.2.2_clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_15",
+    "mapping_id": "T8.2.2_clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_7",
     "source_control_id": "T8.2.2",
-    "target_policy_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_15",
+    "target_policy_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_7",
     "status": "Partially Addressed",
-    "entailment_score": 0.2761707603931427,
-    "evidence_text": "5.10 Situational Awareness\n\nThe CSIRT shall:\n\n1. Ensure priority information related to incidents are shared to relevant stakeholders in a timely manner even if it has not been fully analysed or resolved.\n2. Coordinate and share information in consultation with legal, with external entities, including, but not limited to external service providers, regulatory bodies, entities involved in the supply chain for organization’s information systems.\n3. Provide notice accordingly for all incidents invo",
-    "mapping_date": "2026-03-05T15:59:51.579647",
+    "entailment_score": 0.30449748039245605,
+    "evidence_text": "5.1 Computer Security Incident Response Team (CSIRT)\n\n&lt;CLIENT&gt; shall:\n\n1. Identify personnel to form the proper CSIRT.\n2. Establish the CSIRT before developing the incident response plan. Ensure that one of the first responsibilities of CSIRT is to create the incident response plan.\n3. Ensure that the CSIRT must include members from the following teams, at a minimum:\n2. Boundary Protection Experts - usually individuals who are experts in logical perimeter security (expertise on Firewalls, ",
+    "mapping_date": "2026-03-16T09:52:18.824140",
     "reviewer": null,
-    "notes": "Reranker: 0.276"
+    "notes": "Reranker: 0.304"
   },
   {
-    "mapping_id": "T8.2.2_clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_6",
+    "mapping_id": "T8.2.2_clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_9",
     "source_control_id": "T8.2.2",
-    "target_policy_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_6",
+    "target_policy_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_9",
     "status": "Partially Addressed",
-    "entailment_score": 0.27501925826072693,
-    "evidence_text": "4 POLICY STATEMENT\n\n&lt;CLIENT&gt; shall develop, implement, and maintain an incident management program where personnel shall report information security events and weaknesses, collect, and analyze evidence of security incidents, and ensure security incidents are adequately managed.",
-    "mapping_date": "2026-03-05T15:59:51.579643",
+    "entailment_score": 0.29597264528274536,
+    "evidence_text": "5.3 Incident Classification\n\nThe CSIRT shall:\n\n1. Define, classify, and prioritise incidents to help identify the impact and scope of the incident.\n2. Establish an incident classification scheme in line with the incident response plan considering regulatory issuances regarding incident management.\n3. Ensure that the SOC (Security Operations Centre) performs the following, at a minimum when an information security incident is reported:\n2. Decide whether the events should be classified as informat",
+    "mapping_date": "2026-03-16T09:52:18.824162",
     "reviewer": null,
-    "notes": "Reranker: 0.275"
+    "notes": "Reranker: 0.296"
   },
   {
     "mapping_id": "T8.2.3_clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_13",
@@ -1337,7 +1315,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.3130604922771454,
     "evidence_text": "5.8 Learning from Information Security Incidents\n\nThe CSIRT shall:\n\n1. Implement relevant mechanisms to enable the types, volumes, costs (liaising with Finance Team), and impacts of information security incidents to be quantified and monitored.\n2. Utilize the information gained from evaluating information security incidents to identify recurring or high impact incidents and inform risk assessment and risk treatment activities.",
-    "mapping_date": "2026-03-05T15:59:54.212017",
+    "mapping_date": "2026-03-16T09:52:22.035720",
     "reviewer": null,
     "notes": "Reranker: 0.313"
   },
@@ -1348,7 +1326,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.295669287443161,
     "evidence_text": "5.6 Incident Handling\n\nThe CSIRT shall:\n\n1. Respond to information security incidents through a nominated point of contact and other relevant persons of the organization or external parties.\n2. Ensure that the response to incidents include the following activities, at a minimum:\n2. Conducting information security forensics analysis, as required.\n3. Escalation, as required.\n4. Ensuring all involved response activities are properly logged for later analysis.\n5. Communicating the existence of the i",
-    "mapping_date": "2026-03-05T15:59:54.212044",
+    "mapping_date": "2026-03-16T09:52:22.035746",
     "reviewer": null,
     "notes": "Reranker: 0.296"
   },
@@ -1359,7 +1337,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.29296672344207764,
     "evidence_text": "4 POLICY STATEMENT\n\n&lt;CLIENT&gt; shall develop, implement, and maintain an incident management program where personnel shall report information security events and weaknesses, collect, and analyze evidence of security incidents, and ensure security incidents are adequately managed.",
-    "mapping_date": "2026-03-05T15:59:54.212013",
+    "mapping_date": "2026-03-16T09:52:22.035714",
     "reviewer": null,
     "notes": "Reranker: 0.293"
   },
@@ -1370,7 +1348,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.286728173494339,
     "evidence_text": "5.4 Incident Response Training\n\nThe CSIRT shall:\n\n1. Ensure that the incident response training provided by the organisation is linked to assigned roles and responsibilities of respective personnel to include appropriate content and level of detail in such training.",
-    "mapping_date": "2026-03-05T15:59:56.815773",
+    "mapping_date": "2026-03-16T09:52:24.776039",
     "reviewer": null,
     "notes": "Reranker: 0.287"
   },
@@ -1381,7 +1359,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2775486409664154,
     "evidence_text": "5.10 Situational Awareness\n\nThe CSIRT shall:\n\n1. Ensure priority information related to incidents are shared to relevant stakeholders in a timely manner even if it has not been fully analysed or resolved.\n2. Coordinate and share information in consultation with legal, with external entities, including, but not limited to external service providers, regulatory bodies, entities involved in the supply chain for organization’s information systems.\n3. Provide notice accordingly for all incidents invo",
-    "mapping_date": "2026-03-05T15:59:56.815838",
+    "mapping_date": "2026-03-16T09:52:24.776093",
     "reviewer": null,
     "notes": "Reranker: 0.278"
   },
@@ -1392,9 +1370,31 @@
     "status": "Partially Addressed",
     "entailment_score": 0.26480531692504883,
     "evidence_text": "5.1 Computer Security Incident Response Team (CSIRT)\n\n&lt;CLIENT&gt; shall:\n\n1. Identify personnel to form the proper CSIRT.\n2. Establish the CSIRT before developing the incident response plan. Ensure that one of the first responsibilities of CSIRT is to create the incident response plan.\n3. Ensure that the CSIRT must include members from the following teams, at a minimum:\n2. Boundary Protection Experts - usually individuals who are experts in logical perimeter security (expertise on Firewalls, ",
-    "mapping_date": "2026-03-05T15:59:56.815842",
+    "mapping_date": "2026-03-16T09:52:24.776097",
     "reviewer": null,
     "notes": "Reranker: 0.265"
+  },
+  {
+    "mapping_id": "T8.2.5_clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_9",
+    "source_control_id": "T8.2.5",
+    "target_policy_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_9",
+    "status": "Partially Addressed",
+    "entailment_score": 0.26975634694099426,
+    "evidence_text": "5.3 Incident Classification\n\nThe CSIRT shall:\n\n1. Define, classify, and prioritise incidents to help identify the impact and scope of the incident.\n2. Establish an incident classification scheme in line with the incident response plan considering regulatory issuances regarding incident management.\n3. Ensure that the SOC (Security Operations Centre) performs the following, at a minimum when an information security incident is reported:\n2. Decide whether the events should be classified as informat",
+    "mapping_date": "2026-03-16T09:52:27.479100",
+    "reviewer": null,
+    "notes": "Reranker: 0.270"
+  },
+  {
+    "mapping_id": "T8.2.5_clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_7",
+    "source_control_id": "T8.2.5",
+    "target_policy_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_7",
+    "status": "Partially Addressed",
+    "entailment_score": 0.2656967043876648,
+    "evidence_text": "5.1 Computer Security Incident Response Team (CSIRT)\n\n&lt;CLIENT&gt; shall:\n\n1. Identify personnel to form the proper CSIRT.\n2. Establish the CSIRT before developing the incident response plan. Ensure that one of the first responsibilities of CSIRT is to create the incident response plan.\n3. Ensure that the CSIRT must include members from the following teams, at a minimum:\n2. Boundary Protection Experts - usually individuals who are experts in logical perimeter security (expertise on Firewalls, ",
+    "mapping_date": "2026-03-16T09:52:27.479073",
+    "reviewer": null,
+    "notes": "Reranker: 0.266"
   },
   {
     "mapping_id": "T8.2.6_clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_15",
@@ -1403,7 +1403,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2757439613342285,
     "evidence_text": "5.10 Situational Awareness\n\nThe CSIRT shall:\n\n1. Ensure priority information related to incidents are shared to relevant stakeholders in a timely manner even if it has not been fully analysed or resolved.\n2. Coordinate and share information in consultation with legal, with external entities, including, but not limited to external service providers, regulatory bodies, entities involved in the supply chain for organization’s information systems.\n3. Provide notice accordingly for all incidents invo",
-    "mapping_date": "2026-03-05T15:59:59.427461",
+    "mapping_date": "2026-03-16T09:52:30.228583",
     "reviewer": null,
     "notes": "Reranker: 0.276"
   },
@@ -1414,7 +1414,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2632761001586914,
     "evidence_text": "5.2 Incident Response Plan\n\nThe CSIRT shall:\n\n1. Develop, implement, and maintain an incident response plan that includes the following, at a minimum:\n2. A process to define reportable incidents and metrics for measuring the severity and Impact of incidents.\n3. Define the required resources and management support to effectively maintain and mature an incident response capability.\n4. Documentation that is reviewed and approved by defined personnel or roles.\n5. Distribute copies of the incident re",
-    "mapping_date": "2026-03-05T15:59:59.427368",
+    "mapping_date": "2026-03-16T09:52:30.228462",
     "reviewer": null,
     "notes": "Reranker: 0.263"
   },
@@ -1425,9 +1425,64 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2578079104423523,
     "evidence_text": "5.3 Incident Classification\n\nThe CSIRT shall:\n\n1. Define, classify, and prioritise incidents to help identify the impact and scope of the incident.\n2. Establish an incident classification scheme in line with the incident response plan considering regulatory issuances regarding incident management.\n3. Ensure that the SOC (Security Operations Centre) performs the following, at a minimum when an information security incident is reported:\n2. Decide whether the events should be classified as informat",
-    "mapping_date": "2026-03-05T15:59:59.427430",
+    "mapping_date": "2026-03-16T09:52:30.228562",
     "reviewer": null,
     "notes": "Reranker: 0.258"
+  },
+  {
+    "mapping_id": "T8.2.7_clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_9",
+    "source_control_id": "T8.2.7",
+    "target_policy_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_9",
+    "status": "Partially Addressed",
+    "entailment_score": 0.29070156812667847,
+    "evidence_text": "5.3 Incident Classification\n\nThe CSIRT shall:\n\n1. Define, classify, and prioritise incidents to help identify the impact and scope of the incident.\n2. Establish an incident classification scheme in line with the incident response plan considering regulatory issuances regarding incident management.\n3. Ensure that the SOC (Security Operations Centre) performs the following, at a minimum when an information security incident is reported:\n2. Decide whether the events should be classified as informat",
+    "mapping_date": "2026-03-16T09:52:32.993601",
+    "reviewer": null,
+    "notes": "Reranker: 0.291"
+  },
+  {
+    "mapping_id": "T8.2.7_clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_13",
+    "source_control_id": "T8.2.7",
+    "target_policy_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_13",
+    "status": "Partially Addressed",
+    "entailment_score": 0.286668986082077,
+    "evidence_text": "5.8 Learning from Information Security Incidents\n\nThe CSIRT shall:\n\n1. Implement relevant mechanisms to enable the types, volumes, costs (liaising with Finance Team), and impacts of information security incidents to be quantified and monitored.\n2. Utilize the information gained from evaluating information security incidents to identify recurring or high impact incidents and inform risk assessment and risk treatment activities.",
+    "mapping_date": "2026-03-16T09:52:32.993621",
+    "reviewer": null,
+    "notes": "Reranker: 0.287"
+  },
+  {
+    "mapping_id": "T8.2.7_clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_6",
+    "source_control_id": "T8.2.7",
+    "target_policy_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_6",
+    "status": "Partially Addressed",
+    "entailment_score": 0.2860819101333618,
+    "evidence_text": "4 POLICY STATEMENT\n\n&lt;CLIENT&gt; shall develop, implement, and maintain an incident management program where personnel shall report information security events and weaknesses, collect, and analyze evidence of security incidents, and ensure security incidents are adequately managed.",
+    "mapping_date": "2026-03-16T09:52:32.993573",
+    "reviewer": null,
+    "notes": "Reranker: 0.286"
+  },
+  {
+    "mapping_id": "T8.2.7_clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_12",
+    "source_control_id": "T8.2.7",
+    "target_policy_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_12",
+    "status": "Partially Addressed",
+    "entailment_score": 0.2851512134075165,
+    "evidence_text": "5.6 Incident Handling\n\nThe CSIRT shall:\n\n1. Respond to information security incidents through a nominated point of contact and other relevant persons of the organization or external parties.\n2. Ensure that the response to incidents include the following activities, at a minimum:\n2. Conducting information security forensics analysis, as required.\n3. Escalation, as required.\n4. Ensuring all involved response activities are properly logged for later analysis.\n5. Communicating the existence of the i",
+    "mapping_date": "2026-03-16T09:52:32.993607",
+    "reviewer": null,
+    "notes": "Reranker: 0.285"
+  },
+  {
+    "mapping_id": "T8.2.7_clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_15",
+    "source_control_id": "T8.2.7",
+    "target_policy_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_15",
+    "status": "Partially Addressed",
+    "entailment_score": 0.28307101130485535,
+    "evidence_text": "5.10 Situational Awareness\n\nThe CSIRT shall:\n\n1. Ensure priority information related to incidents are shared to relevant stakeholders in a timely manner even if it has not been fully analysed or resolved.\n2. Coordinate and share information in consultation with legal, with external entities, including, but not limited to external service providers, regulatory bodies, entities involved in the supply chain for organization’s information systems.\n3. Provide notice accordingly for all incidents invo",
+    "mapping_date": "2026-03-16T09:52:32.993639",
+    "reviewer": null,
+    "notes": "Reranker: 0.283"
   },
   {
     "mapping_id": "T8.2.8_clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_6",
@@ -1436,7 +1491,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2623979449272156,
     "evidence_text": "4 POLICY STATEMENT\n\n&lt;CLIENT&gt; shall develop, implement, and maintain an incident management program where personnel shall report information security events and weaknesses, collect, and analyze evidence of security incidents, and ensure security incidents are adequately managed.",
-    "mapping_date": "2026-03-05T16:00:02.060915",
+    "mapping_date": "2026-03-16T09:52:35.693081",
     "reviewer": null,
     "notes": "Reranker: 0.262"
   },
@@ -1447,7 +1502,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2602614760398865,
     "evidence_text": "5.10 Situational Awareness\n\nThe CSIRT shall:\n\n1. Ensure priority information related to incidents are shared to relevant stakeholders in a timely manner even if it has not been fully analysed or resolved.\n2. Coordinate and share information in consultation with legal, with external entities, including, but not limited to external service providers, regulatory bodies, entities involved in the supply chain for organization’s information systems.\n3. Provide notice accordingly for all incidents invo",
-    "mapping_date": "2026-03-05T16:00:02.060936",
+    "mapping_date": "2026-03-16T09:52:35.693101",
     "reviewer": null,
     "notes": "Reranker: 0.260"
   },
@@ -1458,9 +1513,31 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2598287761211395,
     "evidence_text": "5.3 Incident Classification\n\nThe CSIRT shall:\n\n1. Define, classify, and prioritise incidents to help identify the impact and scope of the incident.\n2. Establish an incident classification scheme in line with the incident response plan considering regulatory issuances regarding incident management.\n3. Ensure that the SOC (Security Operations Centre) performs the following, at a minimum when an information security incident is reported:\n2. Decide whether the events should be classified as informat",
-    "mapping_date": "2026-03-05T16:00:02.060876",
+    "mapping_date": "2026-03-16T09:52:35.693044",
     "reviewer": null,
     "notes": "Reranker: 0.260"
+  },
+  {
+    "mapping_id": "T8.2.9_clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_14",
+    "source_control_id": "T8.2.9",
+    "target_policy_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_14",
+    "status": "Partially Addressed",
+    "entailment_score": 0.28622257709503174,
+    "evidence_text": "5.9 Collection of Evidence\n\n&lt;CLIENT&gt; shall:\n\n1. Develop and follow internal procedures when dealing with evidence for the purposes of disciplinary and legal action.\n2. Include the following processes related to the collection of potential evidence for incidents, at a minimum:\n2. **Collection process** : the process of gathering the physical items that can contain potential evidence.\n3. **Acquisition process** : the process of creating a copy of data within a defined set.\n4. **Preservation ",
+    "mapping_date": "2026-03-16T09:52:38.498587",
+    "reviewer": null,
+    "notes": "Reranker: 0.286"
+  },
+  {
+    "mapping_id": "T8.2.9_clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_6",
+    "source_control_id": "T8.2.9",
+    "target_policy_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_6",
+    "status": "Partially Addressed",
+    "entailment_score": 0.26789426803588867,
+    "evidence_text": "4 POLICY STATEMENT\n\n&lt;CLIENT&gt; shall develop, implement, and maintain an incident management program where personnel shall report information security events and weaknesses, collect, and analyze evidence of security incidents, and ensure security incidents are adequately managed.",
+    "mapping_date": "2026-03-16T09:52:38.498629",
+    "reviewer": null,
+    "notes": "Reranker: 0.268"
   },
   {
     "mapping_id": "T8.3.1_clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_9",
@@ -1469,7 +1546,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.28092721104621887,
     "evidence_text": "5.3 Incident Classification\n\nThe CSIRT shall:\n\n1. Define, classify, and prioritise incidents to help identify the impact and scope of the incident.\n2. Establish an incident classification scheme in line with the incident response plan considering regulatory issuances regarding incident management.\n3. Ensure that the SOC (Security Operations Centre) performs the following, at a minimum when an information security incident is reported:\n2. Decide whether the events should be classified as informat",
-    "mapping_date": "2026-03-05T16:00:04.755132",
+    "mapping_date": "2026-03-16T09:52:41.389974",
     "reviewer": null,
     "notes": "Reranker: 0.281"
   },
@@ -1480,75 +1557,75 @@
     "status": "Partially Addressed",
     "entailment_score": 0.27158021926879883,
     "evidence_text": "4 POLICY STATEMENT\n\n&lt;CLIENT&gt; shall develop, implement, and maintain an incident management program where personnel shall report information security events and weaknesses, collect, and analyze evidence of security incidents, and ensure security incidents are adequately managed.",
-    "mapping_date": "2026-03-05T16:00:04.755167",
+    "mapping_date": "2026-03-16T09:52:41.390012",
     "reviewer": null,
     "notes": "Reranker: 0.272"
-  },
-  {
-    "mapping_id": "T8.3.2_clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_6",
-    "source_control_id": "T8.3.2",
-    "target_policy_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_6",
-    "status": "Partially Addressed",
-    "entailment_score": 0.29516610503196716,
-    "evidence_text": "4 POLICY STATEMENT\n\n&lt;CLIENT&gt; shall develop, implement, and maintain an incident management program where personnel shall report information security events and weaknesses, collect, and analyze evidence of security incidents, and ensure security incidents are adequately managed.",
-    "mapping_date": "2026-03-05T16:00:07.380561",
-    "reviewer": null,
-    "notes": "Reranker: 0.295"
   },
   {
     "mapping_id": "T8.3.2_clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_9",
     "source_control_id": "T8.3.2",
     "target_policy_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_9",
     "status": "Partially Addressed",
-    "entailment_score": 0.2828478515148163,
+    "entailment_score": 0.28797316551208496,
     "evidence_text": "5.3 Incident Classification\n\nThe CSIRT shall:\n\n1. Define, classify, and prioritise incidents to help identify the impact and scope of the incident.\n2. Establish an incident classification scheme in line with the incident response plan considering regulatory issuances regarding incident management.\n3. Ensure that the SOC (Security Operations Centre) performs the following, at a minimum when an information security incident is reported:\n2. Decide whether the events should be classified as informat",
-    "mapping_date": "2026-03-05T16:00:07.380528",
+    "mapping_date": "2026-03-16T09:52:44.984298",
     "reviewer": null,
-    "notes": "Reranker: 0.283"
+    "notes": "Reranker: 0.288"
   },
   {
     "mapping_id": "T8.3.2_clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_15",
     "source_control_id": "T8.3.2",
     "target_policy_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_15",
     "status": "Partially Addressed",
-    "entailment_score": 0.2737859785556793,
+    "entailment_score": 0.2875206172466278,
     "evidence_text": "5.10 Situational Awareness\n\nThe CSIRT shall:\n\n1. Ensure priority information related to incidents are shared to relevant stakeholders in a timely manner even if it has not been fully analysed or resolved.\n2. Coordinate and share information in consultation with legal, with external entities, including, but not limited to external service providers, regulatory bodies, entities involved in the supply chain for organization’s information systems.\n3. Provide notice accordingly for all incidents invo",
-    "mapping_date": "2026-03-05T16:00:07.380637",
+    "mapping_date": "2026-03-16T09:52:44.984285",
     "reviewer": null,
-    "notes": "Reranker: 0.274"
+    "notes": "Reranker: 0.288"
   },
   {
-    "mapping_id": "T8.3.3_clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_6",
-    "source_control_id": "T8.3.3",
-    "target_policy_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_6",
+    "mapping_id": "T8.3.2_clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_8",
+    "source_control_id": "T8.3.2",
+    "target_policy_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_8",
     "status": "Partially Addressed",
-    "entailment_score": 0.27775654196739197,
-    "evidence_text": "4 POLICY STATEMENT\n\n&lt;CLIENT&gt; shall develop, implement, and maintain an incident management program where personnel shall report information security events and weaknesses, collect, and analyze evidence of security incidents, and ensure security incidents are adequately managed.",
-    "mapping_date": "2026-03-05T16:00:10.042364",
+    "entailment_score": 0.28602054715156555,
+    "evidence_text": "5.2 Incident Response Plan\n\nThe CSIRT shall:\n\n1. Develop, implement, and maintain an incident response plan that includes the following, at a minimum:\n2. A process to define reportable incidents and metrics for measuring the severity and Impact of incidents.\n3. Define the required resources and management support to effectively maintain and mature an incident response capability.\n4. Documentation that is reviewed and approved by defined personnel or roles.\n5. Distribute copies of the incident re",
+    "mapping_date": "2026-03-16T09:52:44.984248",
     "reviewer": null,
-    "notes": "Reranker: 0.278"
+    "notes": "Reranker: 0.286"
+  },
+  {
+    "mapping_id": "T8.3.3_clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_9",
+    "source_control_id": "T8.3.3",
+    "target_policy_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_9",
+    "status": "Partially Addressed",
+    "entailment_score": 0.28797316551208496,
+    "evidence_text": "5.3 Incident Classification\n\nThe CSIRT shall:\n\n1. Define, classify, and prioritise incidents to help identify the impact and scope of the incident.\n2. Establish an incident classification scheme in line with the incident response plan considering regulatory issuances regarding incident management.\n3. Ensure that the SOC (Security Operations Centre) performs the following, at a minimum when an information security incident is reported:\n2. Decide whether the events should be classified as informat",
+    "mapping_date": "2026-03-16T09:52:49.089246",
+    "reviewer": null,
+    "notes": "Reranker: 0.288"
   },
   {
     "mapping_id": "T8.3.3_clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_15",
     "source_control_id": "T8.3.3",
     "target_policy_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_15",
     "status": "Partially Addressed",
-    "entailment_score": 0.2586343288421631,
+    "entailment_score": 0.2875206172466278,
     "evidence_text": "5.10 Situational Awareness\n\nThe CSIRT shall:\n\n1. Ensure priority information related to incidents are shared to relevant stakeholders in a timely manner even if it has not been fully analysed or resolved.\n2. Coordinate and share information in consultation with legal, with external entities, including, but not limited to external service providers, regulatory bodies, entities involved in the supply chain for organization’s information systems.\n3. Provide notice accordingly for all incidents invo",
-    "mapping_date": "2026-03-05T16:00:10.042461",
+    "mapping_date": "2026-03-16T09:52:49.089232",
     "reviewer": null,
-    "notes": "Reranker: 0.259"
+    "notes": "Reranker: 0.288"
   },
   {
-    "mapping_id": "T8.3.3_clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_7",
+    "mapping_id": "T8.3.3_clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_8",
     "source_control_id": "T8.3.3",
-    "target_policy_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_7",
+    "target_policy_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_8",
     "status": "Partially Addressed",
-    "entailment_score": 0.24891965091228485,
-    "evidence_text": "5.1 Computer Security Incident Response Team (CSIRT)\n\n&lt;CLIENT&gt; shall:\n\n1. Identify personnel to form the proper CSIRT.\n2. Establish the CSIRT before developing the incident response plan. Ensure that one of the first responsibilities of CSIRT is to create the incident response plan.\n3. Ensure that the CSIRT must include members from the following teams, at a minimum:\n2. Boundary Protection Experts - usually individuals who are experts in logical perimeter security (expertise on Firewalls, ",
-    "mapping_date": "2026-03-05T16:00:10.042501",
+    "entailment_score": 0.28602054715156555,
+    "evidence_text": "5.2 Incident Response Plan\n\nThe CSIRT shall:\n\n1. Develop, implement, and maintain an incident response plan that includes the following, at a minimum:\n2. A process to define reportable incidents and metrics for measuring the severity and Impact of incidents.\n3. Define the required resources and management support to effectively maintain and mature an incident response capability.\n4. Documentation that is reviewed and approved by defined personnel or roles.\n5. Distribute copies of the incident re",
+    "mapping_date": "2026-03-16T09:52:49.089196",
     "reviewer": null,
-    "notes": "Reranker: 0.249"
+    "notes": "Reranker: 0.286"
   },
   {
     "mapping_id": "T9.2.1_clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_15",
@@ -1557,8 +1634,19 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2528079152107239,
     "evidence_text": "5.10 Situational Awareness\n\nThe CSIRT shall:\n\n1. Ensure priority information related to incidents are shared to relevant stakeholders in a timely manner even if it has not been fully analysed or resolved.\n2. Coordinate and share information in consultation with legal, with external entities, including, but not limited to external service providers, regulatory bodies, entities involved in the supply chain for organization’s information systems.\n3. Provide notice accordingly for all incidents invo",
-    "mapping_date": "2026-03-05T16:00:15.294970",
+    "mapping_date": "2026-03-16T09:52:55.108851",
     "reviewer": null,
     "notes": "Reranker: 0.253"
+  },
+  {
+    "mapping_id": "T9.2.2_clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_15",
+    "source_control_id": "T9.2.2",
+    "target_policy_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_15",
+    "status": "Partially Addressed",
+    "entailment_score": 0.27837884426116943,
+    "evidence_text": "5.10 Situational Awareness\n\nThe CSIRT shall:\n\n1. Ensure priority information related to incidents are shared to relevant stakeholders in a timely manner even if it has not been fully analysed or resolved.\n2. Coordinate and share information in consultation with legal, with external entities, including, but not limited to external service providers, regulatory bodies, entities involved in the supply chain for organization’s information systems.\n3. Provide notice accordingly for all incidents invo",
+    "mapping_date": "2026-03-16T09:52:58.256062",
+    "reviewer": null,
+    "notes": "Reranker: 0.278"
   }
 ]

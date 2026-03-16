@@ -1,13 +1,13 @@
 {
   "golden_positives": 89,
   "golden_negatives": 200,
-  "pipeline_predicted": 1448,
-  "true_positives": 9,
+  "pipeline_predicted": 444,
+  "true_positives": 4,
   "false_positives": 0,
-  "false_negatives": 80,
-  "precision": 0.0062,
-  "recall": 0.1011,
-  "f1": 0.0117,
+  "false_negatives": 85,
+  "precision": 0.009,
+  "recall": 0.0449,
+  "f1": 0.015,
   "recall_at_k": {
     "R@5": {
       "score": 0.704,
@@ -22,11 +22,83 @@
       "target": 0.8
     },
     "R@50": {
-      "score": 0.815,
+      "score": 0.778,
       "target": 0.9
     }
   },
   "recall_at_k_misses_at_20": [
+    {
+      "control_id": "T2.2.6",
+      "reason": "control not in retrieval log",
+      "gold_passages": [
+        "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_11"
+      ]
+    },
+    {
+      "control_id": "T1.2.1",
+      "reason": "control not in retrieval log",
+      "gold_passages": [
+        "clientname-IS-POL-00-Asset Management Policy_passage_7",
+        "clientname-IS-POL-00-Asset Management Policy 6_passage_7"
+      ]
+    },
+    {
+      "control_id": "T8.3.3",
+      "reason": "gold passage not in top-20",
+      "gold_passages": [
+        "clientname-IS-POL-00-Information Security Incident Management Policy 2_passage_6"
+      ],
+      "top_retrieved": [
+        "clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_7",
+        "clientname-IS-POL-00-Security Operations Policy_passage_8",
+        "clientname-IS-POL-00-Information Security Incident Management Policy 2_passage_9",
+        "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_9",
+        "clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_10"
+      ]
+    },
+    {
+      "control_id": "T4.1.1",
+      "reason": "gold passage not in top-20",
+      "gold_passages": [
+        "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_6",
+        "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_4"
+      ],
+      "top_retrieved": [
+        "clientname-IS-POL-00-Asset Management Policy 6_passage_13",
+        "clientname-IS-POL-00-Asset Management Policy_passage_13",
+        "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_13",
+        "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_9",
+        "clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_3"
+      ]
+    },
+    {
+      "control_id": "M1.1.2",
+      "reason": "gold passage not in top-20",
+      "gold_passages": [
+        "clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_10"
+      ],
+      "top_retrieved": [
+        "clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_3",
+        "clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping_passage_9",
+        "clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_8",
+        "clientname-IS-POL-00-Asset Management Policy 6_passage_3",
+        "clientname-IS-POL-00-Asset Management Policy_passage_3"
+      ]
+    },
+    {
+      "control_id": "T6.2.1",
+      "reason": "gold passage not in top-20",
+      "gold_passages": [
+        "clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping_passage_4"
+      ],
+      "top_retrieved": [
+        "clientname-IS-POL-00-Information Security Incident Management Policy 2_passage_9",
+        "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_9",
+        "clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping_passage_9",
+        "clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping_passage_7",
+        "clientname-IS-POL-00-Information Security Incident Management Policy 2_passage_15"
+      ]
+    },
     {
       "control_id": "T2.3.1",
       "reason": "gold passage not in top-20",
@@ -42,16 +114,37 @@
       ]
     },
     {
-      "control_id": "M5.4.1",
+      "control_id": "T3.3.1",
       "reason": "gold passage not in top-20",
       "gold_passages": [
-        "clientname-IS-POL-00-Vulnerability Management Policy v1.2 (V_A)_passage_6"
+        "clientname-IS-POL-00-Security Operations Policy_passage_9"
       ],
       "top_retrieved": [
-        "clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_3",
-        "clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_6",
-        "clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_10",
+        "clientname-IS-POL-00-Asset Management Policy 6_passage_10",
+        "clientname-IS-POL-00-Asset Management Policy_passage_10",
+        "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_9",
+        "clientname-IS-POL-00-Asset Management Policy 6_passage_13",
+        "clientname-IS-POL-00-Asset Management Policy_passage_13"
+      ]
+    },
+    {
+      "control_id": "T3.2.1",
+      "reason": "control not in retrieval log",
+      "gold_passages": [
+        "clientname-IS-POL-00-Security Operations Policy_passage_10"
+      ]
+    },
+    {
+      "control_id": "T5.2.2",
+      "reason": "gold passage not in top-20",
+      "gold_passages": [
+        "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_12"
+      ],
+      "top_retrieved": [
+        "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_10",
         "clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_8",
+        "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_17",
+        "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_9",
         "clientname-IS-POL-00-Asset Management Policy 6_passage_10"
       ]
     },
@@ -70,117 +163,22 @@
       ]
     },
     {
-      "control_id": "T2.2.6",
-      "reason": "control not in retrieval log",
-      "gold_passages": [
-        "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_11"
-      ]
-    },
-    {
-      "control_id": "T4.1.1",
+      "control_id": "M5.4.1",
       "reason": "gold passage not in top-20",
       "gold_passages": [
-        "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_4",
-        "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_6"
+        "clientname-IS-POL-00-Vulnerability Management Policy v1.2 (V_A)_passage_6"
       ],
       "top_retrieved": [
-        "clientname-IS-POL-00-Asset Management Policy 6_passage_13",
-        "clientname-IS-POL-00-Asset Management Policy_passage_13",
-        "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_13",
-        "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_9",
-        "clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_3"
-      ]
-    },
-    {
-      "control_id": "T1.2.3",
-      "reason": "control not in retrieval log",
-      "gold_passages": [
-        "clientname-IS-POL-00-Asset Management Policy 6_passage_14",
-        "clientname-IS-POL-00-Asset Management Policy_passage_14"
-      ]
-    },
-    {
-      "control_id": "T6.2.2",
-      "reason": "control not in retrieval log",
-      "gold_passages": [
-        "clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping_passage_9",
-        "clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping_passage_8",
-        "clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping_passage_7"
-      ]
-    },
-    {
-      "control_id": "T3.3.1",
-      "reason": "gold passage not in top-20",
-      "gold_passages": [
-        "clientname-IS-POL-00-Security Operations Policy_passage_9"
-      ],
-      "top_retrieved": [
-        "clientname-IS-POL-00-Asset Management Policy 6_passage_10",
-        "clientname-IS-POL-00-Asset Management Policy_passage_10",
-        "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_9",
-        "clientname-IS-POL-00-Asset Management Policy 6_passage_13",
-        "clientname-IS-POL-00-Asset Management Policy_passage_13"
-      ]
-    },
-    {
-      "control_id": "M1.1.2",
-      "reason": "gold passage not in top-20",
-      "gold_passages": [
-        "clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_10"
-      ],
-      "top_retrieved": [
+        "clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_10",
+        "clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_3",
+        "clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_4",
         "clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_3",
-        "clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping_passage_9",
-        "clientname-IS-POL-00-Asset Management Policy 6_passage_3",
-        "clientname-IS-POL-00-Asset Management Policy_passage_3",
-        "clientname-IS-POL-00-Information Risk Management Policy v1.2 1_passage_6"
-      ]
-    },
-    {
-      "control_id": "T3.2.1",
-      "reason": "gold passage not in top-20",
-      "gold_passages": [
-        "clientname-IS-POL-00-Security Operations Policy_passage_10"
-      ],
-      "top_retrieved": [
-        "clientname-IS-POL-00-Asset Management Policy 6_passage_10",
-        "clientname-IS-POL-00-Asset Management Policy_passage_10",
-        "clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2_passage_6",
-        "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_9",
-        "clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping_passage_9"
-      ]
-    },
-    {
-      "control_id": "T6.2.1",
-      "reason": "gold passage not in top-20",
-      "gold_passages": [
-        "clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping_passage_4"
-      ],
-      "top_retrieved": [
-        "clientname-IS-POL-00-Information Security Incident Management Policy 2_passage_9",
-        "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_9",
-        "clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping_passage_9",
-        "clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping_passage_7",
-        "clientname-IS-POL-00-Information Security Incident Management Policy 2_passage_15"
-      ]
-    },
-    {
-      "control_id": "T5.2.2",
-      "reason": "gold passage not in top-20",
-      "gold_passages": [
-        "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_12"
-      ],
-      "top_retrieved": [
-        "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_10",
-        "clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_8",
-        "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_17",
-        "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_9",
-        "clientname-IS-POL-00-Asset Management Policy 6_passage_10"
+        "clientname-IS-POL-00-Asset Management Policy 6_passage_4"
       ]
     }
   ],
   "repas": {
-    "avg_score": 0.424,
+    "avg_score": 0.488,
     "target": 0.7,
     "components": {
       "entailment_weight": 0.5,
@@ -188,50 +186,6 @@
       "answer_stability_weight": 0.15
     },
     "weak_mappings": [
-      {
-        "control_id": "T5.2.1",
-        "policy_passage_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_10",
-        "repas_score": 0.498,
-        "entailment": 0.2751888334751129,
-        "coverage": 0.6,
-        "confidence": 5,
-        "policy_name": "Access Control Policy - CPX policy is reference",
-        "policy_section": "8.4 User Registration and De-Registration",
-        "mapping_status": "Fully Addressed"
-      },
-      {
-        "control_id": "M2.3.1",
-        "policy_passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 3_passage_9",
-        "repas_score": 0.302,
-        "entailment": 0.30464276671409607,
-        "coverage": 0.0,
-        "confidence": 5,
-        "policy_name": "Information Risk Management Policy",
-        "policy_section": "5.4 Information Risk Treatment",
-        "mapping_status": "Partially Addressed"
-      },
-      {
-        "control_id": "M2.3.1",
-        "policy_passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 1_passage_9",
-        "repas_score": 0.302,
-        "entailment": 0.30464276671409607,
-        "coverage": 0.0,
-        "confidence": 5,
-        "policy_name": "Information Risk Management Policy",
-        "policy_section": "5.4 Information Risk Treatment",
-        "mapping_status": "Partially Addressed"
-      },
-      {
-        "control_id": "M2.3.1",
-        "policy_passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2_passage_9",
-        "repas_score": 0.302,
-        "entailment": 0.30464276671409607,
-        "coverage": 0.0,
-        "confidence": 5,
-        "policy_name": "Information Risk Management Policy",
-        "policy_section": "5.4 Information Risk Treatment",
-        "mapping_status": "Partially Addressed"
-      },
       {
         "control_id": "T6.2.3",
         "policy_passage_id": "clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping_passage_7",
@@ -241,17 +195,6 @@
         "confidence": 5,
         "policy_name": "Third-Party Security Policy",
         "policy_section": "7.1 Third-Party Security Approach",
-        "mapping_status": "Partially Addressed"
-      },
-      {
-        "control_id": "T8.3.3",
-        "policy_passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 2_passage_6",
-        "repas_score": 0.464,
-        "entailment": 0.27775654196739197,
-        "coverage": 0.5,
-        "confidence": 5,
-        "policy_name": "Information Security Incident Management Policy",
-        "policy_section": "4 POLICY STATEMENT",
         "mapping_status": "Partially Addressed"
       },
       {
@@ -316,6 +259,24 @@
       "policy_passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 3_passage_6",
       "policy_name": "Information Risk Management Policy",
       "policy_section": "4 POLICY STATEMENT"
+    },
+    {
+      "control_id": "M2.3.1",
+      "policy_passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 1_passage_9",
+      "policy_name": "Information Risk Management Policy",
+      "policy_section": "5.4 Information Risk Treatment"
+    },
+    {
+      "control_id": "M2.3.1",
+      "policy_passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2_passage_9",
+      "policy_name": "Information Risk Management Policy",
+      "policy_section": "5.4 Information Risk Treatment"
+    },
+    {
+      "control_id": "M2.3.1",
+      "policy_passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 3_passage_9",
+      "policy_name": "Information Risk Management Policy",
+      "policy_section": "5.4 Information Risk Treatment"
     },
     {
       "control_id": "M3.1.1",
@@ -613,6 +574,12 @@
     },
     {
       "control_id": "T5.2.1",
+      "policy_passage_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_10",
+      "policy_name": "Access Control Policy - CPX policy is reference",
+      "policy_section": "8.4 User Registration and De-Registration"
+    },
+    {
+      "control_id": "T5.2.1",
       "policy_passage_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_6",
       "policy_name": "Access Control Policy - CPX policy is reference",
       "policy_section": "7 POLICY STATEMENT"
@@ -748,6 +715,12 @@
       "policy_passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_15",
       "policy_name": "Information Security Incident Management Policy",
       "policy_section": "5.10 Situational Awareness"
+    },
+    {
+      "control_id": "T8.3.3",
+      "policy_passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 2_passage_6",
+      "policy_name": "Information Security Incident Management Policy",
+      "policy_section": "4 POLICY STATEMENT"
     }
   ]
 }

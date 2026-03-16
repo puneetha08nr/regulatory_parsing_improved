@@ -1,0 +1,30 @@
+[
+  {
+    "index": 0,
+    "control_id": "T9.1.1",
+    "control_name": "T9.1.1 - Information Systems Continuity Management Policy",
+    "family": "T9",
+    "subfamily": "T9.1"
+  },
+  {
+    "index": 1,
+    "control_id": "T9.2.1",
+    "control_name": "T9.2.1 - Developing Information Systems Continuity Plans",
+    "family": "T9",
+    "subfamily": "T9.2"
+  },
+  {
+    "index": 2,
+    "control_id": "T9.2.2",
+    "control_name": "T9.2.2 - Implementing Information Systems Continuity Plans",
+    "family": "T9",
+    "subfamily": "T9.2"
+  },
+  {
+    "index": 3,
+    "control_id": "T9.3.1",
+    "control_name": "T9.3.1 - Testing, Maintaining and Re-Assessing Information Systems Continuity Plans",
+    "family": "T9",
+    "subfamily": "T9.3"
+  }
+]

@@ -733,6 +733,8 @@ class ComplianceMappingPipeline:
         self.use_graph = use_graph
         self.reranker = CrossEncoderReranker(reranker_model) if use_reranker else None
         self.policy_graph = PolicyGraph() if use_graph else None
+        # Optional: policy document → routed family codes (from scripts/family_router.py)
+        self._family_routing_by_doc: Dict[str, List[str]] = {}
     
     def load_ia_controls(self, controls_path: str):
         """Load UAE IA controls from structured JSON"""
@@ -767,6 +769,44 @@ class ComplianceMappingPipeline:
             self.ia_controls.append(control)
         
         print(f"✓ Loaded {len(self.ia_controls)} IA controls")
+
+    def load_family_routing(self, routing_path: str):
+        """
+        Load policy-to-family routing from JSONL produced by scripts/family_router.py.
+        Each line should contain at least:
+            {
+              \"document_id\": \"...\",
+              \"routed_families\": [\"T5\", \"M4\"],
+              \"confidence\": [...]
+            }
+        """
+        path = Path(routing_path)
+        if not path.exists():
+            print(f"⚠️  Family routing file not found: {routing_path} — proceeding without routing.")
+            self._family_routing_by_doc = {}
+            return
+        routing: Dict[str, List[str]] = {}
+        with path.open("r", encoding="utf-8") as f:
+            for line in f:
+                line = line.strip()
+                if not line:
+                    continue
+                try:
+                    obj = json.loads(line)
+                except json.JSONDecodeError:
+                    continue
+                doc_id = (
+                    obj.get("document_id")
+                    or obj.get("document")
+                    or obj.get("policy_doc")
+                    or ""
+                )
+                fams = obj.get("routed_families") or obj.get("families") or []
+                if not doc_id or not fams:
+                    continue
+                routing[str(doc_id)] = [str(f).strip() for f in fams if str(f).strip()]
+        self._family_routing_by_doc = routing
+        print(f"✓ Loaded family routing for {len(self._family_routing_by_doc)} policy document(s)")
     
     def load_policy_passages_from_list(self, policy_data: list):
         """Load policy passages from an in-memory list (e.g. from load_all_policies_from_dir)."""
@@ -1216,10 +1256,10 @@ class ComplianceMappingPipeline:
         ]
 
         print(f"\n[Passage-centric] BM25+Dense → Cross-Encoder (passage → controls)")
-        print(f"  {len(passages_to_map)} passages,  {len(controls_to_use)} obligation controls")
+        print(f"  {len(passages_to_map)} passages,  {len(controls_to_use)} obligation controls (before routing filter)")
         print(f"  top_k_retrieve={top_k_retrieve}  → {len(passages_to_map) * top_k_retrieve:,} CE calls total")
 
-        # Build retrieval index over control texts (one-time cost)
+        # Build retrieval index over control texts (one-time cost, global space)
         print("  Building control retrieval index (BM25 + Dense)...")
         ctrl_index = ControlRetrieval(
             controls_to_use,
@@ -1235,8 +1275,26 @@ class ComplianceMappingPipeline:
 
             passage_text = passage.passage_text[:512]
 
+            # Optional Tier-1 routing: restrict candidate controls to families
+            # assigned to this passage's parent policy document.
+            routed_fams: List[str] = []
+            if getattr(self, "_family_routing_by_doc", None):
+                doc_id = _policy_doc_id_from_target(passage.policy_id)
+                routed_fams = self._family_routing_by_doc.get(doc_id, [])
+            if routed_fams:
+                fam_set = set(routed_fams)
+                allowed_indices = [
+                    i for i in range(len(controls_to_use))
+                    if getattr(controls_to_use[i], "control_family", "") in fam_set
+                ]
+            else:
+                allowed_indices = list(range(len(controls_to_use)))
+
             # Step 1: retrieve top-K candidate controls for this passage
-            candidate_idxs = ctrl_index.search(passage_text, top_k=top_k_retrieve)
+            candidate_idxs = [
+                i for i in ctrl_index.search(passage_text, top_k=top_k_retrieve)
+                if i in allowed_indices
+            ]
             candidate_controls = [controls_to_use[i] for i in candidate_idxs]
 
             if not candidate_controls:

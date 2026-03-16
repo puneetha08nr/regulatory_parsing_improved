@@ -1,0 +1,44 @@
+[
+  {
+    "index": 0,
+    "control_id": "T6.1.1",
+    "control_name": "T6.1.1 - Third Party Security Policy",
+    "family": "T6",
+    "subfamily": "T6.1"
+  },
+  {
+    "index": 1,
+    "control_id": "T6.2.1",
+    "control_name": "T6.2.1 - Service Delivery",
+    "family": "T6",
+    "subfamily": "T6.2"
+  },
+  {
+    "index": 2,
+    "control_id": "T6.2.2",
+    "control_name": "T6.2.2 - Monitoring and Review of Third Party Services",
+    "family": "T6",
+    "subfamily": "T6.2"
+  },
+  {
+    "index": 3,
+    "control_id": "T6.2.3",
+    "control_name": "T6.2.3 - Managing Changes to Third Party Services",
+    "family": "T6",
+    "subfamily": "T6.2"
+  },
+  {
+    "index": 4,
+    "control_id": "T6.3.1",
+    "control_name": "T6.3.1 - Information Security Requirements for Cloud Environments",
+    "family": "T6",
+    "subfamily": "T6.3"
+  },
+  {
+    "index": 5,
+    "control_id": "T6.3.2",
+    "control_name": "T6.3.2 - Service Delivery Agreements with Cloud Providers",
+    "family": "T6",
+    "subfamily": "T6.3"
+  }
+]

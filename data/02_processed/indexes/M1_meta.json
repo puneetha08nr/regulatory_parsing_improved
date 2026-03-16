@@ -1,0 +1,107 @@
+[
+  {
+    "index": 0,
+    "control_id": "M1.1.1",
+    "control_name": "M1.1.1 - Understanding the Entity and its Context",
+    "family": "M1",
+    "subfamily": "M1.1"
+  },
+  {
+    "index": 1,
+    "control_id": "M1.1.2",
+    "control_name": "M1.1.2 - Leadership and Management Commitment",
+    "family": "M1",
+    "subfamily": "M1.1"
+  },
+  {
+    "index": 2,
+    "control_id": "M1.1.3",
+    "control_name": "M1.1.3 - Roles and Responsibilities for Information Security",
+    "family": "M1",
+    "subfamily": "M1.1"
+  },
+  {
+    "index": 3,
+    "control_id": "M1.2.1",
+    "control_name": "Information Security Policy",
+    "family": "M1",
+    "subfamily": "M1.2"
+  },
+  {
+    "index": 4,
+    "control_id": "M1.2.2",
+    "control_name": "M1.2.2 - Supporting Policies for Information Security",
+    "family": "M1",
+    "subfamily": "M1.2"
+  },
+  {
+    "index": 5,
+    "control_id": "M1.3.1",
+    "control_name": "M1.3.1 - Authorization Process for Information Systems",
+    "family": "M1",
+    "subfamily": "M1.3"
+  },
+  {
+    "index": 6,
+    "control_id": "M1.3.2",
+    "control_name": "M1.3.2 - Confidentiality Agreements",
+    "family": "M1",
+    "subfamily": "M1.3"
+  },
+  {
+    "index": 7,
+    "control_id": "M1.3.3",
+    "control_name": "M1.3.3 - Contact With Authorities",
+    "family": "M1",
+    "subfamily": "M1.3"
+  },
+  {
+    "index": 8,
+    "control_id": "M1.3.4",
+    "control_name": "M1.3.4 - Contact with Special Interest Groups",
+    "family": "M1",
+    "subfamily": "M1.3"
+  },
+  {
+    "index": 9,
+    "control_id": "M1.3.5",
+    "control_name": "M1.3.5 - Identification of Risks Related to External Parties",
+    "family": "M1",
+    "subfamily": "M1.3"
+  },
+  {
+    "index": 10,
+    "control_id": "M1.3.6",
+    "control_name": "M1.3.6 - Addressing Security When Dealing With Customers",
+    "family": "M1",
+    "subfamily": "M1.3"
+  },
+  {
+    "index": 11,
+    "control_id": "M1.3.7",
+    "control_name": "M1.3.7 - Addressing Security in Third Party Agreements",
+    "family": "M1",
+    "subfamily": "M1.3"
+  },
+  {
+    "index": 12,
+    "control_id": "M1.4.1",
+    "control_name": "M1.4.1 - Resources",
+    "family": "M1",
+    "subfamily": "M1.4"
+  },
+  {
+    "index": 13,
+    "control_id": "M1.4.2",
+    "control_name": "M1.4.2 - Internal and External Communication",
+    "family": "M1",
+    "subfamily": "M1.4"
+  },
+  {
+    "index": 14,
+    "control_id": "M1.4.3",
+    "control_name": "M1.4.3 - Documentation",
+    "family": "M1",
+    "subfamily": "M1.4"
+  }
+]

@@ -138,7 +138,102 @@ Three controls never enter the retrieval stage at all (BM25 keyword miss):
 - `T1.2.3` — Asset classification sub-control
 - `T6.2.2` — Third-party security sub-control
 
-These require a controls file audit or query expansion.
+These require a controls file audit or query expansion. **Policy-to-domain routing** (see below) addresses this by scoping retrieval to the relevant control families so the right documents are compared only to the right controls.
+
+---
+
+## Policy-to-Domain Routing (Recommended Approach)
+
+UAE IA controls are hierarchical: each **section** (family) has controls and sub-controls, and **only a subset of controls is applicable to a given policy document**. An Asset Management policy should be matched only against the Asset Management section (e.g. T2); a Logging and Monitoring policy only against the relevant section. Running every policy against all 263 controls dilutes signal and hurts both efficiency and precision.
+
+### Core idea: Policy-to-domain routing
+
+Introduce a **routing layer** that classifies which control domain(s) a policy document belongs to, then run retrieval and ranking **only within that subset** of controls.
+
+```
+Policy Document
+      ↓
+  Domain Router
+      ↓
+Relevant Control Families (e.g. T2, M4)
+      ↓
+Retrieval + Reranking within that subset only
+      ↓
+Mappings
+```
+
+This is not only an efficiency gain — it is a **quality gain**. The reranker no longer has to distinguish signal from noise across 263 controls; if scoped to 30–40 controls per document, the ranking task is easier and precision improves naturally.
+
+### Two-level structure to model
+
+UAE IA controls have a natural hierarchy:
+
+- **Family** (e.g. T2 — Asset Management)
+  - **Subfamily** (e.g. T2.1 — Asset Inventory)
+    - **Control** (e.g. T2.1.1 — Hardware Asset Register)
+      - **Sub-control** (e.g. T2.1.1.a — quarterly review)
+
+Routing should happen at **family level first**, then optionally at **subfamily**. Do not route directly to individual controls — that is too granular and will miss documents (e.g. "Access Control Policy") that legitimately touch multiple families (e.g. T3 Access Management and M4 HR Security).
+
+### How domain routing works in practice
+
+**Step 1 — Build a domain taxonomy.**  
+For each control family (M1–M6, T1–T9), write a short canonical description of what policy documents belong there (one-time, human-authored). Example: T2 covers asset inventory, asset classification, asset ownership, hardware/software lifecycle. Any policy with those themes routes to T2.
+
+**Step 2 — Policy document classification.**  
+When a new policy document arrives, classify it into **one or more** control families. Options, in increasing sophistication:
+
+- **Keyword/title matching** — cheapest; works for obvious cases like "Asset Management Policy" → T2. Fails for generic titles.
+- **Embedding similarity** — embed the policy’s title + first 500 words, compare to embedded family descriptions, take top-3 families by cosine similarity. No LLM, works well.
+- **LLM classification** — prompt with document summary and family list, return applicable families. Most accurate but slowest; use as fallback when confidence is low (e.g. top-1 similarity below a threshold).
+
+Recommended: **embedding similarity as primary**, LLM as fallback when confidence is low.
+
+**Step 3 — Retrieve only within routed families.**  
+BM25 and dense retrieval should be **partitioned by control family** (one index with family as filter, or separate indexes per family). When a document is routed to T2 and M4, retrieval runs only over those ~120 controls, not all 263.
+
+### Multi-domain policy documents
+
+Many policies span more than one family (e.g. "Information Security Policy" → M1, M2, M3). The router must return a **ranked list of families**, not a single label.
+
+- Use **top-K family routing** with a confidence threshold: include any family whose similarity score exceeds the threshold (e.g. 0.4), with a cap of 4–5 families to avoid over-scoping.
+- **Always-applicable controls** (e.g. applicability `["P1", "always"]`) should bypass the router and always be included in every document’s candidate set.
+
+### Optional: subfamily refinement
+
+After routing to a family, a second step can narrow to **subfamilies**. For example, "Access Control Policy" routed to T3 is more likely to address T3.1 (User Access Management) and T3.2 (Privileged Access) than T3.5 (Cryptography). Score the policy against each subfamily’s aggregate text (e.g. BM25), keep top-3 subfamilies, and run control-level retrieval only within those. That can reduce the candidate set from ~50 to ~15–20 controls per document.
+
+### What this changes in the pipeline
+
+| Stage | Change |
+|-------|--------|
+| **Document ingestion** | Add a classification step after extraction. Each document gets `routing_metadata`: assigned families and confidence scores. |
+| **Retrieval** | Replace global retrieval with **family-scoped** retrieval (index filtered by family, or per-family indexes). Top-K can drop from 50 to 20–25. |
+| **Reranker** | No structural change; runs on fewer, domain-relevant candidates. Precision improves from scoping alone. |
+| **NLI / LLM Judge** | Same; both benefit from narrowed candidates. The judge prompt can include family context ("This control is from the Asset Management domain"). |
+
+### Why this fixes the “missing controls” problem
+
+The three controls (T2.2.6, T1.2.3, T6.2.2) that never appear in retrieval are BM25 keyword misses in a **global** pool. With domain-scoped retrieval, T2.2.6 (physical server room biometric access) is only evaluated against documents **routed to T2**, where vocabulary and intent align. The right documents are no longer diluted by unrelated policies.
+
+### Risks and mitigations
+
+| Risk | Mitigation |
+|------|------------|
+| **Router under-scopes** (misses a family) | Prefer recall over precision in routing: top-3 families, or a low similarity threshold. Include always-applicable controls in every run. |
+| **Multi-domain documents** | Explicitly design for multi-domain: top-K families above threshold, cap at 4–5. Tune on a few broad documents. |
+| **Taxonomy quality** | One-time human-authored family (and subfamily) descriptions; validate that expected policies route to the right families. |
+| **Subfamily over-narrowing** | Add subfamily routing only after family-level routing is stable; keep top-2 or top-3 subfamilies per family. |
+
+### Recommended rollout
+
+1. **Define the taxonomy** — one canonical description per family; list of always-applicable control IDs.
+2. **Implement family-level routing only** — e.g. embedding similarity → top-K families + always-applicable. No subfamily yet.
+3. **Scope retrieval** — restrict BM25 + dense + reranker to controls in those families. Measure recall/precision vs golden set; verify the three previously missing controls are in scope for the right documents.
+4. **Add subfamily routing only if needed** — if family-level scope is still too large (e.g. 40+ controls per doc), add subfamily scoring and narrow to top-2 or top-3 subfamilies per family.
+5. **Enrich the judge** — once routing is stable, add family (and optionally subfamily) context to the LLM judge prompt.
+
+This architecture scales: new documents get automatic domain assignment; when adding cross-framework mapping (UAE IA ↔ ISO 27001), the family structure maps cleanly onto ISO clause numbers.
 
 ---
 
@@ -247,7 +342,8 @@ The control hierarchy (e.g. T2.2 → T2.2.1, T2.2.2 …) and cross-framework equ
 
 ## Roadmap
 
-- [ ] Fix 3 missing controls (`T2.2.6`, `T1.2.3`, `T6.2.2`) — BM25 query expansion or controls file audit
+- [ ] **Policy-to-domain routing** — Family-level router (embedding similarity → top-K families) + family-scoped retrieval; see [Policy-to-Domain Routing](#policy-to-domain-routing-recommended-approach) above. Addresses missing controls (T2.2.6, T1.2.3, T6.2.2) and improves precision.
+- [ ] Fix 3 missing controls (`T2.2.6`, `T1.2.3`, `T6.2.2`) — BM25 query expansion or controls file audit (or superseded by domain routing)
 - [ ] Run full LLM-as-Judge pass on 1,450 predictions and re-evaluate
 - [ ] Annotate more golden pairs (target: 200+ positives) via Label Studio
 - [ ] Resume BPR + LoRA fine-tuning with larger golden dataset

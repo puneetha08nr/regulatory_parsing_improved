@@ -1,0 +1,58 @@
+[
+  {
+    "index": 0,
+    "control_id": "M3.1.1",
+    "control_name": "M3.1.1 - Awareness and Training Policy",
+    "family": "M3",
+    "subfamily": "M3.1"
+  },
+  {
+    "index": 1,
+    "control_id": "M3.2.1",
+    "control_name": "M3.2.1 - Awareness and Training Program",
+    "family": "M3",
+    "subfamily": "M3.2"
+  },
+  {
+    "index": 2,
+    "control_id": "M3.3.1",
+    "control_name": "M3.3.1 - Training Needs",
+    "family": "M3",
+    "subfamily": "M3.3"
+  },
+  {
+    "index": 3,
+    "control_id": "M3.3.2",
+    "control_name": "M3.3.2 - Implementation Plan",
+    "family": "M3",
+    "subfamily": "M3.3"
+  },
+  {
+    "index": 4,
+    "control_id": "M3.3.3",
+    "control_name": "M3.3.3 - Training Execution",
+    "family": "M3",
+    "subfamily": "M3.3"
+  },
+  {
+    "index": 5,
+    "control_id": "M3.3.4",
+    "control_name": "M3.3.4 - Training Results",
+    "family": "M3",
+    "subfamily": "M3.3"
+  },
+  {
+    "index": 6,
+    "control_id": "M3.3.5",
+    "control_name": "M3.3.5 - Records Documentation",
+    "family": "M3",
+    "subfamily": "M3.3"
+  },
+  {
+    "index": 7,
+    "control_id": "M3.4.1",
+    "control_name": "M3.4.1- Awareness Campaign",
+    "family": "M3",
+    "subfamily": "M3.4"
+  }
+]

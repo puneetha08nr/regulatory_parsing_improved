@@ -1,0 +1,93 @@
+[
+  {
+    "index": 0,
+    "control_id": "T8.1.1",
+    "control_name": "T8.1.1 - Reporting Information Security Events",
+    "family": "T8",
+    "subfamily": "T8.1"
+  },
+  {
+    "index": 1,
+    "control_id": "T8.2.1",
+    "control_name": "T8.2.1 - Incident Response Plan",
+    "family": "T8",
+    "subfamily": "T8.2"
+  },
+  {
+    "index": 2,
+    "control_id": "T8.2.2",
+    "control_name": "T8.2.2 - Incident Classification",
+    "family": "T8",
+    "subfamily": "T8.2"
+  },
+  {
+    "index": 3,
+    "control_id": "T8.2.3",
+    "control_name": "T8.2.3 - Incident Classification",
+    "family": "T8",
+    "subfamily": "T8.2"
+  },
+  {
+    "index": 4,
+    "control_id": "T8.2.4",
+    "control_name": "T8.2.4 - Incident Response Training",
+    "family": "T8",
+    "subfamily": "T8.2"
+  },
+  {
+    "index": 5,
+    "control_id": "T8.2.5",
+    "control_name": "T8.2.5 - Incident Response Testing",
+    "family": "T8",
+    "subfamily": "T8.2"
+  },
+  {
+    "index": 6,
+    "control_id": "T8.2.6",
+    "control_name": "T8.2.6 - Incident Response Assistance",
+    "family": "T8",
+    "subfamily": "T8.2"
+  },
+  {
+    "index": 7,
+    "control_id": "T8.2.7",
+    "control_name": "T8.2.7 - Information Security Incident Documentation",
+    "family": "T8",
+    "subfamily": "T8.2"
+  },
+  {
+    "index": 8,
+    "control_id": "T8.2.8",
+    "control_name": "T8.2.8 - Learning From Information Security Incidents",
+    "family": "T8",
+    "subfamily": "T8.2"
+  },
+  {
+    "index": 9,
+    "control_id": "T8.2.9",
+    "control_name": "T8.2.9 - Collection of Evidence",
+    "family": "T8",
+    "subfamily": "T8.2"
+  },
+  {
+    "index": 10,
+    "control_id": "T8.3.1",
+    "control_name": "T8.3.1 - Situational Awareness",
+    "family": "T8",
+    "subfamily": "T8.3"
+  },
+  {
+    "index": 11,
+    "control_id": "T8.3.2",
+    "control_name": "T8.3.2 - Information Security Incident Response Policy",
+    "family": "T8",
+    "subfamily": "T8.3"
+  },
+  {
+    "index": 12,
+    "control_id": "T8.3.3",
+    "control_name": "T8.3.3 - Reporting Security Weaknesses",
+    "family": "T8",
+    "subfamily": "T8.3"
+  }
+]

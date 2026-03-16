@@ -1,0 +1,121 @@
+[
+  {
+    "index": 0,
+    "control_id": "T3.1.1",
+    "control_name": "T3.1.1 - Operations Management Policy",
+    "family": "T3",
+    "subfamily": "T3.1"
+  },
+  {
+    "index": 1,
+    "control_id": "T3.2.1",
+    "control_name": "T3.2.1 - Common Systems Configuration Guidelines",
+    "family": "T3",
+    "subfamily": "T3.2"
+  },
+  {
+    "index": 2,
+    "control_id": "T3.2.2",
+    "control_name": "T3.2.2 - Documented Operating Procedures",
+    "family": "T3",
+    "subfamily": "T3.2"
+  },
+  {
+    "index": 3,
+    "control_id": "T3.2.3",
+    "control_name": "T3.2.3 - Change Management",
+    "family": "T3",
+    "subfamily": "T3.2"
+  },
+  {
+    "index": 4,
+    "control_id": "T3.2.4",
+    "control_name": "T3.2.4 - Segregation of Duties",
+    "family": "T3",
+    "subfamily": "T3.2"
+  },
+  {
+    "index": 5,
+    "control_id": "T3.2.5",
+    "control_name": "T3.2.5 - Separation of Development, Test and Operational Facilities",
+    "family": "T3",
+    "subfamily": "T3.2"
+  },
+  {
+    "index": 6,
+    "control_id": "T3.3.1",
+    "control_name": "T3.3.1 - Capacity Management",
+    "family": "T3",
+    "subfamily": "T3.3"
+  },
+  {
+    "index": 7,
+    "control_id": "T3.3.2",
+    "control_name": "T3.3.2 - System Acceptance and Testing",
+    "family": "T3",
+    "subfamily": "T3.3"
+  },
+  {
+    "index": 8,
+    "control_id": "T3.4.1",
+    "control_name": "T3.4.1 - Controls Against Malware",
+    "family": "T3",
+    "subfamily": "T3.4"
+  },
+  {
+    "index": 9,
+    "control_id": "T3.5.1",
+    "control_name": "T3.5.1 - Information Backup",
+    "family": "T3",
+    "subfamily": "T3.5"
+  },
+  {
+    "index": 10,
+    "control_id": "T3.6.1",
+    "control_name": "T3.6.1 - Monitoring Policy and Procedures",
+    "family": "T3",
+    "subfamily": "T3.6"
+  },
+  {
+    "index": 11,
+    "control_id": "T3.6.2",
+    "control_name": "T3.6.2- Audit Logging",
+    "family": "T3",
+    "subfamily": "T3.6"
+  },
+  {
+    "index": 12,
+    "control_id": "T3.6.3",
+    "control_name": "T3.6.3 - Monitoring System Use",
+    "family": "T3",
+    "subfamily": "T3.6"
+  },
+  {
+    "index": 13,
+    "control_id": "T3.6.4",
+    "control_name": "T3.6.4 - Protection of Log Information",
+    "family": "T3",
+    "subfamily": "T3.6"
+  },
+  {
+    "index": 14,
+    "control_id": "T3.6.5",
+    "control_name": "T3.6.5 - Administrator and Operator Logs",
+    "family": "T3",
+    "subfamily": "T3.6"
+  },
+  {
+    "index": 15,
+    "control_id": "T3.6.6",
+    "control_name": "T3.6.6 - Fault Logging",
+    "family": "T3",
+    "subfamily": "T3.6"
+  },
+  {
+    "index": 16,
+    "control_id": "T3.6.7",
+    "control_name": "T3.6.7 - Clock Synchronization",
+    "family": "T3",
+    "subfamily": "T3.6"
+  }
+]

@@ -123,9 +123,42 @@ def generate_policy_validation_tasks(policies_path: str, output_path: str, max_t
     return len(tasks)
 
 
+def _build_full_text(description: str, implementation_guidelines: str, sub_controls: List[str]) -> str:
+    """Build composite full_text for clean schema (description + impl + sub_controls)."""
+    parts = []
+    if (description or "").strip():
+        parts.append(description.strip())
+    if (implementation_guidelines or "").strip():
+        parts.append("Implementation: " + implementation_guidelines.strip())
+    for sc in (sub_controls or [])[:5]:
+        sc_text = (sc.strip() if isinstance(sc, str) else str(sc)).strip()
+        if sc_text:
+            parts.append(sc_text)
+    return "\n".join(parts).strip()
+
+
+def _parse_family_subfamily(text: str) -> Dict[str, str]:
+    """Parse 'M1 - Strategy and Planning' or 'M1.1 - Entity Context' into {number, name}."""
+    text = (text or "").strip()
+    if " - " in text:
+        num, name = text.split(" - ", 1)
+        return {"number": num.strip(), "name": name.strip()}
+    if text:
+        return {"number": text[:10], "name": text}
+    return {"number": "", "name": ""}
+
+
 def _parse_corrected_from_result(result: List[Dict], data: Dict) -> Dict[str, Any]:
     """Parse Label Studio result into a flat corrected dict (description, sub_controls, etc.)."""
+    def _text_to_str(val: dict) -> str:
+        text = val.get("text") or []
+        return "\n".join(str(t) for t in (text if isinstance(text, list) else [text])).strip()
+
     corrected = {
+        "control_id": data.get("control_id", ""),
+        "control_family": data.get("control_family", ""),
+        "control_subfamily": data.get("control_subfamily", ""),
+        "control_name": data.get("control_name", ""),
         "description": data.get("control_description", ""),
         "sub_controls": [],
         "implementation_guidelines": data.get("implementation_guidelines", ""),
@@ -138,7 +171,15 @@ def _parse_corrected_from_result(result: List[Dict], data: Dict) -> Dict[str, An
     for r in result:
         from_name = r.get("from_name", "")
         val = r.get("value") or {}
-        if "control_description" in from_name:
+        if from_name == "control_id":
+            corrected["control_id"] = _text_to_str(val)
+        elif from_name == "control_family":
+            corrected["control_family"] = _text_to_str(val)
+        elif from_name == "control_subfamily":
+            corrected["control_subfamily"] = _text_to_str(val)
+        elif from_name == "control_name":
+            corrected["control_name"] = _text_to_str(val)
+        elif "control_description" in from_name:
             text = val.get("text") or []
             corrected["description"] = "\n".join(str(t) for t in (text if isinstance(text, list) else [text])).strip()
         elif "sub_controls" in from_name:
@@ -209,10 +250,14 @@ def export_corrected_controls(
         corrected_by_id[control_id] = _parse_corrected_from_result(result, data)
 
     if source_controls_path:
-        # Merge with source: preserve order and full list, same nested schema
+        # Merge with source: preserve order and full list, same nested schema.
+        # Preserve clean-file fields (enrichment_sources, has_useful_text, etc.) when present.
+        # Recompute control.full_text from description + implementation_guidelines + sub_controls.
+        # Append any task in the export whose control_id is not in source (new controls added in Label Studio).
         source_controls = load_json(source_controls_path)
         if not isinstance(source_controls, list):
             source_controls = [source_controls]
+        source_ids = {c.get("control", {}).get("id", "") for c in source_controls if c.get("control", {}).get("id")}
         merged = []
         for ctrl in source_controls:
             fam = ctrl.get("control_family") or {}
@@ -224,26 +269,95 @@ def export_corrected_controls(
                 continue
             if cid in corrected_by_id:
                 cor = corrected_by_id[cid]
-                merged.append({
-                    "control_family": fam,
-                    "control_subfamily": subfam,
+                desc = cor.get("description", c.get("description", "") or "")
+                impl = cor.get("implementation_guidelines") if cor.get("implementation_guidelines") is not None else (c.get("implementation_guidelines") or "")
+                subs = cor.get("sub_controls") if cor.get("sub_controls") is not None else (c.get("sub_controls") or [])
+                ext = cor.get("external_factors") if cor.get("external_factors") is not None else (c.get("external_factors") or [])
+                int_ = cor.get("internal_factors") if cor.get("internal_factors") is not None else (c.get("internal_factors") or [])
+                guid = cor.get("guidance_points") if cor.get("guidance_points") is not None else (c.get("guidance_points") or [])
+                full_text = _build_full_text(desc, impl, subs)
+                # Apply edited control_id, name, family, subfamily from Label Studio
+                out_id = (cor.get("control_id") or "").strip() or c.get("id", "")
+                out_name = (cor.get("control_name") or "").strip() or c.get("name", "")
+                out_fam = _parse_family_subfamily((cor.get("control_family") or "").strip()) if (cor.get("control_family") or "").strip() else fam
+                out_subfam = _parse_family_subfamily((cor.get("control_subfamily") or "").strip()) if (cor.get("control_subfamily") or "").strip() else subfam
+                rec = {
+                    "control_family": out_fam,
+                    "control_subfamily": out_subfam,
                     "control": {
-                        "id": c.get("id"),
-                        "name": c.get("name"),
-                        "description": cor.get("description", c.get("description", "")),
-                        "sub_controls": cor.get("sub_controls") if cor.get("sub_controls") is not None else c.get("sub_controls", []),
-                        "implementation_guidelines": cor.get("implementation_guidelines") if cor.get("implementation_guidelines") is not None else c.get("implementation_guidelines", ""),
-                        "external_factors": cor.get("external_factors") if cor.get("external_factors") is not None else c.get("external_factors", []),
-                        "internal_factors": cor.get("internal_factors") if cor.get("internal_factors") is not None else c.get("internal_factors", []),
-                        "guidance_points": cor.get("guidance_points") if cor.get("guidance_points") is not None else c.get("guidance_points", []),
+                        "id": out_id,
+                        "name": out_name,
+                        "description": desc,
+                        "sub_controls": subs,
+                        "implementation_guidelines": impl,
+                        "external_factors": ext,
+                        "internal_factors": int_,
+                        "guidance_points": guid,
+                        "full_text": full_text,
                     },
-                    "applicablility": ctrl.get("applicablility", ctrl.get("applicability", [])),
+                    "applicability": ctrl.get("applicability", ctrl.get("applicablility", [])),
                     "breadcrumb": ctrl.get("breadcrumb", ""),
-                    "validation_status": corrected_by_id[cid].get("validation_status"),
-                    "correction_notes": corrected_by_id[cid].get("correction_notes"),
-                })
+                    "validation_status": cor.get("validation_status"),
+                    "correction_notes": cor.get("correction_notes"),
+                }
+                # Preserve clean-file–specific fields if present in source
+                for key in ("enrichment_sources", "has_useful_text", "full_text_length", "source_row_count"):
+                    if key in ctrl:
+                        rec[key] = ctrl[key]
+                if "enrichment_sources" not in rec:
+                    rec["enrichment_sources"] = ctrl.get("enrichment_sources", ["label_studio"])
+                rec["has_useful_text"] = len(full_text.strip()) > 20
+                rec["full_text_length"] = len(full_text)
+                rec["source_row_count"] = ctrl.get("source_row_count", 1)
+                merged.append(rec)
             else:
                 merged.append(ctrl)
+        # Append new controls (tasks in export whose control_id was not in source)
+        for item in items:
+            anns = item.get("annotations", [])
+            data = item.get("data", {})
+            cid = data.get("control_id") or (item.get("meta") or {}).get("control_id")
+            if not cid or cid in source_ids:
+                continue
+            if not anns:
+                continue
+            source_ids.add(cid)
+            cor = corrected_by_id.get(cid) or _parse_corrected_from_result(anns[0].get("result", []), data)
+            desc = cor.get("description", data.get("control_description", "") or "")
+            impl = cor.get("implementation_guidelines", data.get("implementation_guidelines", "") or "")
+            subs = cor.get("sub_controls")
+            if subs is None:
+                raw = data.get("sub_controls", "") or ""
+                subs = [s.strip() for s in str(raw).split("\n") if s.strip()]
+            full_text = _build_full_text(desc, impl, subs)
+            fam_text = (cor.get("control_family") or "").strip() or (data.get("control_family", "") or "")
+            subfam_text = (cor.get("control_subfamily") or "").strip() or (data.get("control_subfamily", "") or "")
+            out_cid = (cor.get("control_id") or "").strip() or cid
+            out_name = (cor.get("control_name") or "").strip() or data.get("control_name", cid)
+            fam = _parse_family_subfamily(fam_text)
+            subfam = _parse_family_subfamily(subfam_text)
+            merged.append({
+                "control_family": fam,
+                "control_subfamily": subfam,
+                "control": {
+                    "id": out_cid,
+                    "name": out_name,
+                    "description": desc,
+                    "sub_controls": subs,
+                    "implementation_guidelines": impl,
+                    "external_factors": cor.get("external_factors", []),
+                    "internal_factors": cor.get("internal_factors", []),
+                    "guidance_points": cor.get("guidance_points", []),
+                    "full_text": full_text,
+                },
+                "applicability": [],
+                "breadcrumb": f"{fam_text} > {subfam_text}".strip(),
+                "validation_status": cor.get("validation_status"),
+                "enrichment_sources": ["label_studio"],
+                "has_useful_text": len(full_text.strip()) > 20,
+                "full_text_length": len(full_text),
+                "source_row_count": 1,
+            })
         out = Path(output_path)
         out.parent.mkdir(parents=True, exist_ok=True)
         with open(out, "w", encoding="utf-8") as f:

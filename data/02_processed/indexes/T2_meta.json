@@ -1,0 +1,114 @@
+[
+  {
+    "index": 0,
+    "control_id": "T2.1.1",
+    "control_name": "T2.1.1 - Physical and Environmental Security Policy",
+    "family": "T2",
+    "subfamily": "T2.1"
+  },
+  {
+    "index": 1,
+    "control_id": "T2.2.1",
+    "control_name": "T2.2.1 - Physical Security Perimeter",
+    "family": "T2",
+    "subfamily": "T2.2"
+  },
+  {
+    "index": 2,
+    "control_id": "T2.2.2",
+    "control_name": "T2.2.2 - Physical Entry Controls",
+    "family": "T2",
+    "subfamily": "T2.2"
+  },
+  {
+    "index": 3,
+    "control_id": "T2.2.3",
+    "control_name": "T2.2.3 - Securing Offices, Rooms and Facilities",
+    "family": "T2",
+    "subfamily": "T2.2"
+  },
+  {
+    "index": 4,
+    "control_id": "T2.2.4",
+    "control_name": "T2.2.4 - Protecting Against External and Environmental Threats",
+    "family": "T2",
+    "subfamily": "T2.2"
+  },
+  {
+    "index": 5,
+    "control_id": "T2.2.5",
+    "control_name": "T2.2.5 - Working in Secure Areas",
+    "family": "T2",
+    "subfamily": "T2.2"
+  },
+  {
+    "index": 6,
+    "control_id": "T2.2.6",
+    "control_name": "T2.2.6 - Public Access, Delivery, and Loading Areas",
+    "family": "T2",
+    "subfamily": "T2.2"
+  },
+  {
+    "index": 7,
+    "control_id": "T2.3.1",
+    "control_name": "T2.3.1 - Equipment Siting and Protection",
+    "family": "T2",
+    "subfamily": "T2.3"
+  },
+  {
+    "index": 8,
+    "control_id": "T2.3.2",
+    "control_name": "T2.3.2 - Supporting Utilities",
+    "family": "T2",
+    "subfamily": "T2.3"
+  },
+  {
+    "index": 9,
+    "control_id": "T2.3.3",
+    "control_name": "T2.3.3 - Cabling Security",
+    "family": "T2",
+    "subfamily": "T2.3"
+  },
+  {
+    "index": 10,
+    "control_id": "T2.3.4",
+    "control_name": "T2.3.4 - Equipment Maintenance",
+    "family": "T2",
+    "subfamily": "T2.3"
+  },
+  {
+    "index": 11,
+    "control_id": "T2.3.5",
+    "control_name": "T2.3.5 - Security of Equipment Off-Premises",
+    "family": "T2",
+    "subfamily": "T2.3"
+  },
+  {
+    "index": 12,
+    "control_id": "T2.3.6",
+    "control_name": "T2.3.6 - Secure Disposal or Re-Use of Equipment",
+    "family": "T2",
+    "subfamily": "T2.3"
+  },
+  {
+    "index": 13,
+    "control_id": "T2.3.7",
+    "control_name": "T2.3.7 - Removal of Property",
+    "family": "T2",
+    "subfamily": "T2.3"
+  },
+  {
+    "index": 14,
+    "control_id": "T2.3.8",
+    "control_name": "T2.3.8 - Unattended User Equipment",
+    "family": "T2",
+    "subfamily": "T2.3"
+  },
+  {
+    "index": 15,
+    "control_id": "T2.3.9",
+    "control_name": "T2.3.9 - Clear Desk and Clear Screen Policy",
+    "family": "T2",
+    "subfamily": "T2.3"
+  }
+]

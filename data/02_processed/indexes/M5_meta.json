@@ -1,0 +1,93 @@
+[
+  {
+    "index": 0,
+    "control_id": "M5.1.1",
+    "control_name": "M5.1.1 - Compliance Policy",
+    "family": "M5",
+    "subfamily": "M5.1"
+  },
+  {
+    "index": 1,
+    "control_id": "M5.2.1",
+    "control_name": "M5.2.1 - Identification of Applicable Legislation",
+    "family": "M5",
+    "subfamily": "M5.2"
+  },
+  {
+    "index": 2,
+    "control_id": "M5.2.2",
+    "control_name": "M5.2.2 - Intellectual Property Rights (IPR)",
+    "family": "M5",
+    "subfamily": "M5.2"
+  },
+  {
+    "index": 3,
+    "control_id": "M5.2.3",
+    "control_name": "M5.2.3 - Protection of Organizational Records",
+    "family": "M5",
+    "subfamily": "M5.2"
+  },
+  {
+    "index": 4,
+    "control_id": "M5.2.4",
+    "control_name": "M5.2.4 - Data Protection and Privacy of Personal Information",
+    "family": "M5",
+    "subfamily": "M5.2"
+  },
+  {
+    "index": 5,
+    "control_id": "M5.2.5",
+    "control_name": "M5.2.5 - Prevention of Misuse of  Information Systems",
+    "family": "M5",
+    "subfamily": "M5.2"
+  },
+  {
+    "index": 6,
+    "control_id": "M5.2.6",
+    "control_name": "M5.2.6 - Regulation of Cryptographic Controls",
+    "family": "M5",
+    "subfamily": "M5.2"
+  },
+  {
+    "index": 7,
+    "control_id": "M5.2.7",
+    "control_name": "M5.2.7 - Liability to the Information Sharing Community",
+    "family": "M5",
+    "subfamily": "M5.2"
+  },
+  {
+    "index": 8,
+    "control_id": "M5.3.1",
+    "control_name": "M5.3.1 - Compliance with Security Policies and Standards",
+    "family": "M5",
+    "subfamily": "M5.3"
+  },
+  {
+    "index": 9,
+    "control_id": "M5.4.1",
+    "control_name": "M5.4.1 - Technical Compliance Checking",
+    "family": "M5",
+    "subfamily": "M5.4"
+  },
+  {
+    "index": 10,
+    "control_id": "M5.5.1",
+    "control_name": "5.5.1 - Information Systems Audit Controls",
+    "family": "M5",
+    "subfamily": "M5.5"
+  },
+  {
+    "index": 11,
+    "control_id": "M5.5.2",
+    "control_name": "M5.5.2 - Protection of Information Systems Audit Tools",
+    "family": "M5",
+    "subfamily": "M5.5"
+  },
+  {
+    "index": 12,
+    "control_id": "M5.5.3",
+    "control_name": "M5.5.3 - Audit of Community Functions",
+    "family": "M5",
+    "subfamily": "M5.5"
+  }
+]

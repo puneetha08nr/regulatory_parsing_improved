@@ -1,0 +1,156 @@
+[
+  {
+    "index": 0,
+    "control_id": "T5.1.1",
+    "control_name": "T5.1.1 - Access Control Policy",
+    "family": "T5",
+    "subfamily": "T5.1"
+  },
+  {
+    "index": 1,
+    "control_id": "T5.2.1",
+    "control_name": "T5.2.1 - User Registration",
+    "family": "T5",
+    "subfamily": "T5.2"
+  },
+  {
+    "index": 2,
+    "control_id": "T5.2.2",
+    "control_name": "T5.2.2 - Privilege Management",
+    "family": "T5",
+    "subfamily": "T5.2"
+  },
+  {
+    "index": 3,
+    "control_id": "T5.2.3",
+    "control_name": "T5.2.3 - User Security Credentials Management",
+    "family": "T5",
+    "subfamily": "T5.2"
+  },
+  {
+    "index": 4,
+    "control_id": "T5.2.4",
+    "control_name": "T5.2.4 - Review of User Access Rights",
+    "family": "T5",
+    "subfamily": "T5.2"
+  },
+  {
+    "index": 5,
+    "control_id": "T5.3.1",
+    "control_name": "T5.3.1 - Use of Security Credentials",
+    "family": "T5",
+    "subfamily": "T5.3"
+  },
+  {
+    "index": 6,
+    "control_id": "T5.4.1",
+    "control_name": "T5.4.1 - Policy on Use of Network Services",
+    "family": "T5",
+    "subfamily": "T5.4"
+  },
+  {
+    "index": 7,
+    "control_id": "T5.4.2",
+    "control_name": "T5.4.2 - User Authentication for External Connections",
+    "family": "T5",
+    "subfamily": "T5.4"
+  },
+  {
+    "index": 8,
+    "control_id": "T5.4.3",
+    "control_name": "T5.4.3 - Equipment Identification in Networks",
+    "family": "T5",
+    "subfamily": "T5.4"
+  },
+  {
+    "index": 9,
+    "control_id": "T5.4.4",
+    "control_name": "T5.4.4 - Remote Diagnostic and Configuration Protection",
+    "family": "T5",
+    "subfamily": "T5.4"
+  },
+  {
+    "index": 10,
+    "control_id": "T5.4.5",
+    "control_name": "T5.4.5 - Network Connection Control",
+    "family": "T5",
+    "subfamily": "T5.4"
+  },
+  {
+    "index": 11,
+    "control_id": "T5.4.6",
+    "control_name": "T5.4.6 - Network Routing Control",
+    "family": "T5",
+    "subfamily": "T5.4"
+  },
+  {
+    "index": 12,
+    "control_id": "T5.4.7",
+    "control_name": "T5.4.7 - Wireless Access",
+    "family": "T5",
+    "subfamily": "T5.4"
+  },
+  {
+    "index": 13,
+    "control_id": "T5.5.1",
+    "control_name": "T5.5.1 - Secure Log-On Procedures",
+    "family": "T5",
+    "subfamily": "T5.5"
+  },
+  {
+    "index": 14,
+    "control_id": "T5.5.2",
+    "control_name": "T5.5.2 - User Identification and Authentication",
+    "family": "T5",
+    "subfamily": "T5.5"
+  },
+  {
+    "index": 15,
+    "control_id": "T5.5.3",
+    "control_name": "T5.5.3 - User Credentials Management System",
+    "family": "T5",
+    "subfamily": "T5.5"
+  },
+  {
+    "index": 16,
+    "control_id": "T5.5.4",
+    "control_name": "T5.5.4 - Use of System Utilities",
+    "family": "T5",
+    "subfamily": "T5.5"
+  },
+  {
+    "index": 17,
+    "control_id": "T5.6.1",
+    "control_name": "T5.6.1 - Information Access Restriction",
+    "family": "T5",
+    "subfamily": "T5.6"
+  },
+  {
+    "index": 18,
+    "control_id": "T5.6.2",
+    "control_name": "T5.6.2 - Sensitive System Isolation",
+    "family": "T5",
+    "subfamily": "T5.6"
+  },
+  {
+    "index": 19,
+    "control_id": "T5.6.3",
+    "control_name": "T5.6.3 - Publicly Accessible Content",
+    "family": "T5",
+    "subfamily": "T5.6"
+  },
+  {
+    "index": 20,
+    "control_id": "T5.7.1",
+    "control_name": "T5.7.1 - Access Control for Mobile Devices",
+    "family": "T5",
+    "subfamily": "T5.7"
+  },
+  {
+    "index": 21,
+    "control_id": "T5.7.2",
+    "control_name": "T5.7.2 - Teleworking",
+    "family": "T5",
+    "subfamily": "T5.7"
+  }
+]

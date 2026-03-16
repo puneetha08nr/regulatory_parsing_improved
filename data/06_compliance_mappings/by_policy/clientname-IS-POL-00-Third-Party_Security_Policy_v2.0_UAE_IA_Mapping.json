@@ -1,25 +1,14 @@
 [
   {
-    "mapping_id": "M1.1.1_clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping_passage_9",
-    "source_control_id": "M1.1.1",
-    "target_policy_id": "clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping_passage_9",
-    "status": "Partially Addressed",
-    "entailment_score": 0.24870333075523376,
-    "evidence_text": "7.3 Managing Changes to Third-party Services\n\n&lt;&lt;CLIENT&gt;&gt; shall consider the following aspects for information security and data protection review when managing changes to third-party services, at a minimum:\n\n1. Changes to third-party agreements and/ or sub-contracting to another third-party.\n2. Enhancements to the current services offered.\n3. Development and/ use of new applications, systems, and technologies.\n4. Modifications or updates of the organization’s policies and procedures.",
-    "mapping_date": "2026-03-05T15:53:54.718770",
-    "reviewer": null,
-    "notes": "Reranker: 0.249"
-  },
-  {
     "mapping_id": "M1.1.2_clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping_passage_9",
     "source_control_id": "M1.1.2",
     "target_policy_id": "clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping_passage_9",
     "status": "Partially Addressed",
-    "entailment_score": 0.2628396451473236,
+    "entailment_score": 0.25900962948799133,
     "evidence_text": "7.3 Managing Changes to Third-party Services\n\n&lt;&lt;CLIENT&gt;&gt; shall consider the following aspects for information security and data protection review when managing changes to third-party services, at a minimum:\n\n1. Changes to third-party agreements and/ or sub-contracting to another third-party.\n2. Enhancements to the current services offered.\n3. Development and/ use of new applications, systems, and technologies.\n4. Modifications or updates of the organization’s policies and procedures.",
-    "mapping_date": "2026-03-05T15:53:57.271340",
+    "mapping_date": "2026-03-16T09:45:09.518697",
     "reviewer": null,
-    "notes": "Reranker: 0.263"
+    "notes": "Reranker: 0.259"
   },
   {
     "mapping_id": "M1.1.3_clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping_passage_9",
@@ -28,7 +17,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2646431028842926,
     "evidence_text": "7.3 Managing Changes to Third-party Services\n\n&lt;&lt;CLIENT&gt;&gt; shall consider the following aspects for information security and data protection review when managing changes to third-party services, at a minimum:\n\n1. Changes to third-party agreements and/ or sub-contracting to another third-party.\n2. Enhancements to the current services offered.\n3. Development and/ use of new applications, systems, and technologies.\n4. Modifications or updates of the organization’s policies and procedures.",
-    "mapping_date": "2026-03-05T15:53:59.873726",
+    "mapping_date": "2026-03-16T09:45:12.174159",
     "reviewer": null,
     "notes": "Reranker: 0.265"
   },
@@ -39,7 +28,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2680853307247162,
     "evidence_text": "7.3 Managing Changes to Third-party Services\n\n&lt;&lt;CLIENT&gt;&gt; shall consider the following aspects for information security and data protection review when managing changes to third-party services, at a minimum:\n\n1. Changes to third-party agreements and/ or sub-contracting to another third-party.\n2. Enhancements to the current services offered.\n3. Development and/ use of new applications, systems, and technologies.\n4. Modifications or updates of the organization’s policies and procedures.",
-    "mapping_date": "2026-03-05T15:54:02.473925",
+    "mapping_date": "2026-03-16T09:45:14.811636",
     "reviewer": null,
     "notes": "Reranker: 0.268"
   },
@@ -50,7 +39,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.25058603286743164,
     "evidence_text": "7.3 Managing Changes to Third-party Services\n\n&lt;&lt;CLIENT&gt;&gt; shall consider the following aspects for information security and data protection review when managing changes to third-party services, at a minimum:\n\n1. Changes to third-party agreements and/ or sub-contracting to another third-party.\n2. Enhancements to the current services offered.\n3. Development and/ use of new applications, systems, and technologies.\n4. Modifications or updates of the organization’s policies and procedures.",
-    "mapping_date": "2026-03-05T15:54:07.573702",
+    "mapping_date": "2026-03-16T09:45:17.379524",
     "reviewer": null,
     "notes": "Reranker: 0.251"
   },
@@ -59,22 +48,11 @@
     "source_control_id": "M1.3.2",
     "target_policy_id": "clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping_passage_6",
     "status": "Partially Addressed",
-    "entailment_score": 0.2616634964942932,
+    "entailment_score": 0.25084611773490906,
     "evidence_text": "6 POLICY STATEMENT\n\n&lt;&lt;CLIENT&gt;&gt; shall ensure that all third parties comply with this Policy's information security requirements while providing services that could impact the confidentiality, integrity, availability, secrecy and privacy of the organization’s information and information assets.",
-    "mapping_date": "2026-03-05T15:54:10.198359",
+    "mapping_date": "2026-03-16T09:45:20.117388",
     "reviewer": null,
-    "notes": "Reranker: 0.262"
-  },
-  {
-    "mapping_id": "M1.3.2_clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping_passage_8",
-    "source_control_id": "M1.3.2",
-    "target_policy_id": "clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping_passage_8",
-    "status": "Partially Addressed",
-    "entailment_score": 0.25496965646743774,
-    "evidence_text": "7.2 Addressing Security and Data Protection Requirements with Third-party Agreements\n\n&lt;&lt;CLIENT&gt;&gt; shall:\n\n1. Use only third-party service providers providing sufficient guarantees to implement appropriate technical and organizational measures in such a manner that processing will meet the requirements of this Policy.\n2. Define the conditions under which information security and data protection requirements and controls will be documented in an agreement signed by both parties.\n3. Mana",
-    "mapping_date": "2026-03-05T15:54:10.198349",
-    "reviewer": null,
-    "notes": "Reranker: 0.255"
+    "notes": "Reranker: 0.251"
   },
   {
     "mapping_id": "M1.3.6_clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping_passage_6",
@@ -83,7 +61,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.29397496581077576,
     "evidence_text": "6 POLICY STATEMENT\n\n&lt;&lt;CLIENT&gt;&gt; shall ensure that all third parties comply with this Policy's information security requirements while providing services that could impact the confidentiality, integrity, availability, secrecy and privacy of the organization’s information and information assets.",
-    "mapping_date": "2026-03-05T15:54:17.919909",
+    "mapping_date": "2026-03-16T09:45:30.734214",
     "reviewer": null,
     "notes": "Reranker: 0.294"
   },
@@ -94,42 +72,42 @@
     "status": "Partially Addressed",
     "entailment_score": 0.28529778122901917,
     "evidence_text": "7.1 Third-Party Security Approach\n\n&lt;&lt;CLIENT&gt;&gt; shall:\n\n1. Identify, mandate, and monitor information security and data protection controls processes and procedures to address third-party access to the organization’s information and information assets.\n2. Establish a standardized process and lifecycle for managing third-party relationships, their access to the organization’s information and information assets and the security requirements.\n3. Define the types of obligations applicable ",
-    "mapping_date": "2026-03-05T15:54:17.919887",
+    "mapping_date": "2026-03-16T09:45:30.734188",
     "reviewer": null,
     "notes": "Reranker: 0.285"
-  },
-  {
-    "mapping_id": "M1.3.7_clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping_passage_6",
-    "source_control_id": "M1.3.7",
-    "target_policy_id": "clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping_passage_6",
-    "status": "Partially Addressed",
-    "entailment_score": 0.3045504093170166,
-    "evidence_text": "6 POLICY STATEMENT\n\n&lt;&lt;CLIENT&gt;&gt; shall ensure that all third parties comply with this Policy's information security requirements while providing services that could impact the confidentiality, integrity, availability, secrecy and privacy of the organization’s information and information assets.",
-    "mapping_date": "2026-03-05T15:54:20.561241",
-    "reviewer": null,
-    "notes": "Reranker: 0.305"
   },
   {
     "mapping_id": "M1.3.7_clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping_passage_7",
     "source_control_id": "M1.3.7",
     "target_policy_id": "clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping_passage_7",
     "status": "Partially Addressed",
-    "entailment_score": 0.2975870668888092,
+    "entailment_score": 0.2921583652496338,
     "evidence_text": "7.1 Third-Party Security Approach\n\n&lt;&lt;CLIENT&gt;&gt; shall:\n\n1. Identify, mandate, and monitor information security and data protection controls processes and procedures to address third-party access to the organization’s information and information assets.\n2. Establish a standardized process and lifecycle for managing third-party relationships, their access to the organization’s information and information assets and the security requirements.\n3. Define the types of obligations applicable ",
-    "mapping_date": "2026-03-05T15:54:20.561236",
+    "mapping_date": "2026-03-16T09:45:33.443756",
     "reviewer": null,
-    "notes": "Reranker: 0.298"
+    "notes": "Reranker: 0.292"
+  },
+  {
+    "mapping_id": "M1.3.7_clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping_passage_6",
+    "source_control_id": "M1.3.7",
+    "target_policy_id": "clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping_passage_6",
+    "status": "Partially Addressed",
+    "entailment_score": 0.291251540184021,
+    "evidence_text": "6 POLICY STATEMENT\n\n&lt;&lt;CLIENT&gt;&gt; shall ensure that all third parties comply with this Policy's information security requirements while providing services that could impact the confidentiality, integrity, availability, secrecy and privacy of the organization’s information and information assets.",
+    "mapping_date": "2026-03-16T09:45:33.443761",
+    "reviewer": null,
+    "notes": "Reranker: 0.291"
   },
   {
     "mapping_id": "M1.3.7_clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping_passage_8",
     "source_control_id": "M1.3.7",
     "target_policy_id": "clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping_passage_8",
     "status": "Partially Addressed",
-    "entailment_score": 0.29189184308052063,
+    "entailment_score": 0.2862510085105896,
     "evidence_text": "7.2 Addressing Security and Data Protection Requirements with Third-party Agreements\n\n&lt;&lt;CLIENT&gt;&gt; shall:\n\n1. Use only third-party service providers providing sufficient guarantees to implement appropriate technical and organizational measures in such a manner that processing will meet the requirements of this Policy.\n2. Define the conditions under which information security and data protection requirements and controls will be documented in an agreement signed by both parties.\n3. Mana",
-    "mapping_date": "2026-03-05T15:54:20.561245",
+    "mapping_date": "2026-03-16T09:45:33.443765",
     "reviewer": null,
-    "notes": "Reranker: 0.292"
+    "notes": "Reranker: 0.286"
   },
   {
     "mapping_id": "M1.4.2_clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping_passage_9",
@@ -138,7 +116,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.26267209649086,
     "evidence_text": "7.3 Managing Changes to Third-party Services\n\n&lt;&lt;CLIENT&gt;&gt; shall consider the following aspects for information security and data protection review when managing changes to third-party services, at a minimum:\n\n1. Changes to third-party agreements and/ or sub-contracting to another third-party.\n2. Enhancements to the current services offered.\n3. Development and/ use of new applications, systems, and technologies.\n4. Modifications or updates of the organization’s policies and procedures.",
-    "mapping_date": "2026-03-05T15:54:25.803642",
+    "mapping_date": "2026-03-16T09:45:38.854738",
     "reviewer": null,
     "notes": "Reranker: 0.263"
   },
@@ -149,7 +127,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2696817219257355,
     "evidence_text": "7.1 Third-Party Security Approach\n\n&lt;&lt;CLIENT&gt;&gt; shall:\n\n1. Identify, mandate, and monitor information security and data protection controls processes and procedures to address third-party access to the organization’s information and information assets.\n2. Establish a standardized process and lifecycle for managing third-party relationships, their access to the organization’s information and information assets and the security requirements.\n3. Define the types of obligations applicable ",
-    "mapping_date": "2026-03-05T15:54:28.429725",
+    "mapping_date": "2026-03-16T09:45:41.540805",
     "reviewer": null,
     "notes": "Reranker: 0.270"
   },
@@ -160,7 +138,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.26162680983543396,
     "evidence_text": "7.3 Managing Changes to Third-party Services\n\n&lt;&lt;CLIENT&gt;&gt; shall consider the following aspects for information security and data protection review when managing changes to third-party services, at a minimum:\n\n1. Changes to third-party agreements and/ or sub-contracting to another third-party.\n2. Enhancements to the current services offered.\n3. Development and/ use of new applications, systems, and technologies.\n4. Modifications or updates of the organization’s policies and procedures.",
-    "mapping_date": "2026-03-05T15:54:44.222572",
+    "mapping_date": "2026-03-16T09:46:07.090992",
     "reviewer": null,
     "notes": "Reranker: 0.262"
   },
@@ -171,7 +149,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.26401031017303467,
     "evidence_text": "7.2 Addressing Security and Data Protection Requirements with Third-party Agreements\n\n&lt;&lt;CLIENT&gt;&gt; shall:\n\n1. Use only third-party service providers providing sufficient guarantees to implement appropriate technical and organizational measures in such a manner that processing will meet the requirements of this Policy.\n2. Define the conditions under which information security and data protection requirements and controls will be documented in an agreement signed by both parties.\n3. Mana",
-    "mapping_date": "2026-03-05T15:54:54.596929",
+    "mapping_date": "2026-03-16T09:46:17.719210",
     "reviewer": null,
     "notes": "Reranker: 0.264"
   },
@@ -182,7 +160,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.27918848395347595,
     "evidence_text": "7.1 Third-Party Security Approach\n\n&lt;&lt;CLIENT&gt;&gt; shall:\n\n1. Identify, mandate, and monitor information security and data protection controls processes and procedures to address third-party access to the organization’s information and information assets.\n2. Establish a standardized process and lifecycle for managing third-party relationships, their access to the organization’s information and information assets and the security requirements.\n3. Define the types of obligations applicable ",
-    "mapping_date": "2026-03-05T15:55:10.624148",
+    "mapping_date": "2026-03-16T09:46:39.592028",
     "reviewer": null,
     "notes": "Reranker: 0.279"
   },
@@ -193,7 +171,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2806611955165863,
     "evidence_text": "7.1 Third-Party Security Approach\n\n&lt;&lt;CLIENT&gt;&gt; shall:\n\n1. Identify, mandate, and monitor information security and data protection controls processes and procedures to address third-party access to the organization’s information and information assets.\n2. Establish a standardized process and lifecycle for managing third-party relationships, their access to the organization’s information and information assets and the security requirements.\n3. Define the types of obligations applicable ",
-    "mapping_date": "2026-03-05T15:55:13.357130",
+    "mapping_date": "2026-03-16T09:46:42.404587",
     "reviewer": null,
     "notes": "Reranker: 0.281"
   },
@@ -204,7 +182,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2714404761791229,
     "evidence_text": "7.3 Managing Changes to Third-party Services\n\n&lt;&lt;CLIENT&gt;&gt; shall consider the following aspects for information security and data protection review when managing changes to third-party services, at a minimum:\n\n1. Changes to third-party agreements and/ or sub-contracting to another third-party.\n2. Enhancements to the current services offered.\n3. Development and/ use of new applications, systems, and technologies.\n4. Modifications or updates of the organization’s policies and procedures.",
-    "mapping_date": "2026-03-05T15:55:13.357174",
+    "mapping_date": "2026-03-16T09:46:42.404628",
     "reviewer": null,
     "notes": "Reranker: 0.271"
   },
@@ -215,7 +193,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2805875539779663,
     "evidence_text": "7.2 Addressing Security and Data Protection Requirements with Third-party Agreements\n\n&lt;&lt;CLIENT&gt;&gt; shall:\n\n1. Use only third-party service providers providing sufficient guarantees to implement appropriate technical and organizational measures in such a manner that processing will meet the requirements of this Policy.\n2. Define the conditions under which information security and data protection requirements and controls will be documented in an agreement signed by both parties.\n3. Mana",
-    "mapping_date": "2026-03-05T15:55:27.199960",
+    "mapping_date": "2026-03-16T09:46:56.736028",
     "reviewer": null,
     "notes": "Reranker: 0.281"
   },
@@ -226,7 +204,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.27542251348495483,
     "evidence_text": "7.1 Third-Party Security Approach\n\n&lt;&lt;CLIENT&gt;&gt; shall:\n\n1. Identify, mandate, and monitor information security and data protection controls processes and procedures to address third-party access to the organization’s information and information assets.\n2. Establish a standardized process and lifecycle for managing third-party relationships, their access to the organization’s information and information assets and the security requirements.\n3. Define the types of obligations applicable ",
-    "mapping_date": "2026-03-05T15:55:27.199930",
+    "mapping_date": "2026-03-16T09:46:56.735997",
     "reviewer": null,
     "notes": "Reranker: 0.275"
   },
@@ -237,7 +215,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2751534581184387,
     "evidence_text": "6 POLICY STATEMENT\n\n&lt;&lt;CLIENT&gt;&gt; shall ensure that all third parties comply with this Policy's information security requirements while providing services that could impact the confidentiality, integrity, availability, secrecy and privacy of the organization’s information and information assets.",
-    "mapping_date": "2026-03-05T15:55:27.199964",
+    "mapping_date": "2026-03-16T09:46:56.736032",
     "reviewer": null,
     "notes": "Reranker: 0.275"
   },
@@ -248,31 +226,20 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2514689862728119,
     "evidence_text": "6 POLICY STATEMENT\n\n&lt;&lt;CLIENT&gt;&gt; shall ensure that all third parties comply with this Policy's information security requirements while providing services that could impact the confidentiality, integrity, availability, secrecy and privacy of the organization’s information and information assets.",
-    "mapping_date": "2026-03-05T15:55:35.582079",
+    "mapping_date": "2026-03-16T09:47:05.435075",
     "reviewer": null,
     "notes": "Reranker: 0.251"
-  },
-  {
-    "mapping_id": "M6.2.1_clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping_passage_7",
-    "source_control_id": "M6.2.1",
-    "target_policy_id": "clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping_passage_7",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2731500267982483,
-    "evidence_text": "7.1 Third-Party Security Approach\n\n&lt;&lt;CLIENT&gt;&gt; shall:\n\n1. Identify, mandate, and monitor information security and data protection controls processes and procedures to address third-party access to the organization’s information and information assets.\n2. Establish a standardized process and lifecycle for managing third-party relationships, their access to the organization’s information and information assets and the security requirements.\n3. Define the types of obligations applicable ",
-    "mapping_date": "2026-03-05T15:55:57.912641",
-    "reviewer": null,
-    "notes": "Reranker: 0.273"
   },
   {
     "mapping_id": "M6.2.1_clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping_passage_9",
     "source_control_id": "M6.2.1",
     "target_policy_id": "clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping_passage_9",
     "status": "Partially Addressed",
-    "entailment_score": 0.271925687789917,
+    "entailment_score": 0.2694903016090393,
     "evidence_text": "7.3 Managing Changes to Third-party Services\n\n&lt;&lt;CLIENT&gt;&gt; shall consider the following aspects for information security and data protection review when managing changes to third-party services, at a minimum:\n\n1. Changes to third-party agreements and/ or sub-contracting to another third-party.\n2. Enhancements to the current services offered.\n3. Development and/ use of new applications, systems, and technologies.\n4. Modifications or updates of the organization’s policies and procedures.",
-    "mapping_date": "2026-03-05T15:55:57.912657",
+    "mapping_date": "2026-03-16T09:47:34.214232",
     "reviewer": null,
-    "notes": "Reranker: 0.272"
+    "notes": "Reranker: 0.269"
   },
   {
     "mapping_id": "M6.2.2_clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping_passage_9",
@@ -281,20 +248,31 @@
     "status": "Partially Addressed",
     "entailment_score": 0.26351198554039,
     "evidence_text": "7.3 Managing Changes to Third-party Services\n\n&lt;&lt;CLIENT&gt;&gt; shall consider the following aspects for information security and data protection review when managing changes to third-party services, at a minimum:\n\n1. Changes to third-party agreements and/ or sub-contracting to another third-party.\n2. Enhancements to the current services offered.\n3. Development and/ use of new applications, systems, and technologies.\n4. Modifications or updates of the organization’s policies and procedures.",
-    "mapping_date": "2026-03-05T15:56:00.571033",
+    "mapping_date": "2026-03-16T09:47:36.981873",
     "reviewer": null,
     "notes": "Reranker: 0.264"
   },
   {
-    "mapping_id": "T3.2.1_clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping_passage_9",
-    "source_control_id": "T3.2.1",
+    "mapping_id": "M6.3.2_clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping_passage_9",
+    "source_control_id": "M6.3.2",
     "target_policy_id": "clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping_passage_9",
     "status": "Partially Addressed",
-    "entailment_score": 0.2525862455368042,
+    "entailment_score": 0.2586000859737396,
     "evidence_text": "7.3 Managing Changes to Third-party Services\n\n&lt;&lt;CLIENT&gt;&gt; shall consider the following aspects for information security and data protection review when managing changes to third-party services, at a minimum:\n\n1. Changes to third-party agreements and/ or sub-contracting to another third-party.\n2. Enhancements to the current services offered.\n3. Development and/ use of new applications, systems, and technologies.\n4. Modifications or updates of the organization’s policies and procedures.",
-    "mapping_date": "2026-03-05T15:56:59.108206",
+    "mapping_date": "2026-03-16T09:47:42.397879",
     "reviewer": null,
-    "notes": "Reranker: 0.253"
+    "notes": "Reranker: 0.259"
+  },
+  {
+    "mapping_id": "T1.2.3_clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping_passage_7",
+    "source_control_id": "T1.2.3",
+    "target_policy_id": "clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping_passage_7",
+    "status": "Partially Addressed",
+    "entailment_score": 0.26873579621315,
+    "evidence_text": "7.1 Third-Party Security Approach\n\n&lt;&lt;CLIENT&gt;&gt; shall:\n\n1. Identify, mandate, and monitor information security and data protection controls processes and procedures to address third-party access to the organization’s information and information assets.\n2. Establish a standardized process and lifecycle for managing third-party relationships, their access to the organization’s information and information assets and the security requirements.\n3. Define the types of obligations applicable ",
+    "mapping_date": "2026-03-16T09:47:50.573855",
+    "reviewer": null,
+    "notes": "Reranker: 0.269"
   },
   {
     "mapping_id": "T3.3.2_clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping_passage_9",
@@ -303,7 +281,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2529450058937073,
     "evidence_text": "7.3 Managing Changes to Third-party Services\n\n&lt;&lt;CLIENT&gt;&gt; shall consider the following aspects for information security and data protection review when managing changes to third-party services, at a minimum:\n\n1. Changes to third-party agreements and/ or sub-contracting to another third-party.\n2. Enhancements to the current services offered.\n3. Development and/ use of new applications, systems, and technologies.\n4. Modifications or updates of the organization’s policies and procedures.",
-    "mapping_date": "2026-03-05T15:57:12.375954",
+    "mapping_date": "2026-03-16T09:49:08.463123",
     "reviewer": null,
     "notes": "Reranker: 0.253"
   },
@@ -314,7 +292,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.26681363582611084,
     "evidence_text": "7.1 Third-Party Security Approach\n\n&lt;&lt;CLIENT&gt;&gt; shall:\n\n1. Identify, mandate, and monitor information security and data protection controls processes and procedures to address third-party access to the organization’s information and information assets.\n2. Establish a standardized process and lifecycle for managing third-party relationships, their access to the organization’s information and information assets and the security requirements.\n3. Define the types of obligations applicable ",
-    "mapping_date": "2026-03-05T15:57:14.966523",
+    "mapping_date": "2026-03-16T09:49:11.148479",
     "reviewer": null,
     "notes": "Reranker: 0.267"
   },
@@ -325,7 +303,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.25576451420783997,
     "evidence_text": "7.3 Managing Changes to Third-party Services\n\n&lt;&lt;CLIENT&gt;&gt; shall consider the following aspects for information security and data protection review when managing changes to third-party services, at a minimum:\n\n1. Changes to third-party agreements and/ or sub-contracting to another third-party.\n2. Enhancements to the current services offered.\n3. Development and/ use of new applications, systems, and technologies.\n4. Modifications or updates of the organization’s policies and procedures.",
-    "mapping_date": "2026-03-05T15:57:23.541400",
+    "mapping_date": "2026-03-16T09:49:16.571276",
     "reviewer": null,
     "notes": "Reranker: 0.256"
   },
@@ -336,7 +314,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.25014251470565796,
     "evidence_text": "7.3 Managing Changes to Third-party Services\n\n&lt;&lt;CLIENT&gt;&gt; shall consider the following aspects for information security and data protection review when managing changes to third-party services, at a minimum:\n\n1. Changes to third-party agreements and/ or sub-contracting to another third-party.\n2. Enhancements to the current services offered.\n3. Development and/ use of new applications, systems, and technologies.\n4. Modifications or updates of the organization’s policies and procedures.",
-    "mapping_date": "2026-03-05T15:57:42.146236",
+    "mapping_date": "2026-03-16T09:49:36.076041",
     "reviewer": null,
     "notes": "Reranker: 0.250"
   },
@@ -347,7 +325,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2631421387195587,
     "evidence_text": "7.3 Managing Changes to Third-party Services\n\n&lt;&lt;CLIENT&gt;&gt; shall consider the following aspects for information security and data protection review when managing changes to third-party services, at a minimum:\n\n1. Changes to third-party agreements and/ or sub-contracting to another third-party.\n2. Enhancements to the current services offered.\n3. Development and/ use of new applications, systems, and technologies.\n4. Modifications or updates of the organization’s policies and procedures.",
-    "mapping_date": "2026-03-05T15:57:44.804109",
+    "mapping_date": "2026-03-16T09:49:38.886556",
     "reviewer": null,
     "notes": "Reranker: 0.263"
   },
@@ -358,7 +336,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.255605548620224,
     "evidence_text": "7.2 Addressing Security and Data Protection Requirements with Third-party Agreements\n\n&lt;&lt;CLIENT&gt;&gt; shall:\n\n1. Use only third-party service providers providing sufficient guarantees to implement appropriate technical and organizational measures in such a manner that processing will meet the requirements of this Policy.\n2. Define the conditions under which information security and data protection requirements and controls will be documented in an agreement signed by both parties.\n3. Mana",
-    "mapping_date": "2026-03-05T15:57:44.804061",
+    "mapping_date": "2026-03-16T09:49:38.886510",
     "reviewer": null,
     "notes": "Reranker: 0.256"
   },
@@ -369,7 +347,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2625125050544739,
     "evidence_text": "7.3 Managing Changes to Third-party Services\n\n&lt;&lt;CLIENT&gt;&gt; shall consider the following aspects for information security and data protection review when managing changes to third-party services, at a minimum:\n\n1. Changes to third-party agreements and/ or sub-contracting to another third-party.\n2. Enhancements to the current services offered.\n3. Development and/ use of new applications, systems, and technologies.\n4. Modifications or updates of the organization’s policies and procedures.",
-    "mapping_date": "2026-03-05T15:58:01.368504",
+    "mapping_date": "2026-03-16T09:49:56.381593",
     "reviewer": null,
     "notes": "Reranker: 0.263"
   },
@@ -380,7 +358,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.26137056946754456,
     "evidence_text": "7.2 Addressing Security and Data Protection Requirements with Third-party Agreements\n\n&lt;&lt;CLIENT&gt;&gt; shall:\n\n1. Use only third-party service providers providing sufficient guarantees to implement appropriate technical and organizational measures in such a manner that processing will meet the requirements of this Policy.\n2. Define the conditions under which information security and data protection requirements and controls will be documented in an agreement signed by both parties.\n3. Mana",
-    "mapping_date": "2026-03-05T15:58:06.971085",
+    "mapping_date": "2026-03-16T09:50:05.193503",
     "reviewer": null,
     "notes": "Reranker: 0.261"
   },
@@ -391,7 +369,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2572144865989685,
     "evidence_text": "7.3 Managing Changes to Third-party Services\n\n&lt;&lt;CLIENT&gt;&gt; shall consider the following aspects for information security and data protection review when managing changes to third-party services, at a minimum:\n\n1. Changes to third-party agreements and/ or sub-contracting to another third-party.\n2. Enhancements to the current services offered.\n3. Development and/ use of new applications, systems, and technologies.\n4. Modifications or updates of the organization’s policies and procedures.",
-    "mapping_date": "2026-03-05T15:58:06.971100",
+    "mapping_date": "2026-03-16T09:50:05.193523",
     "reviewer": null,
     "notes": "Reranker: 0.257"
   },
@@ -402,7 +380,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2816098928451538,
     "evidence_text": "7.1 Third-Party Security Approach\n\n&lt;&lt;CLIENT&gt;&gt; shall:\n\n1. Identify, mandate, and monitor information security and data protection controls processes and procedures to address third-party access to the organization’s information and information assets.\n2. Establish a standardized process and lifecycle for managing third-party relationships, their access to the organization’s information and information assets and the security requirements.\n3. Define the types of obligations applicable ",
-    "mapping_date": "2026-03-05T15:58:51.845422",
+    "mapping_date": "2026-03-16T09:51:06.876631",
     "reviewer": null,
     "notes": "Reranker: 0.282"
   },
@@ -413,7 +391,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2595144212245941,
     "evidence_text": "7.2 Addressing Security and Data Protection Requirements with Third-party Agreements\n\n&lt;&lt;CLIENT&gt;&gt; shall:\n\n1. Use only third-party service providers providing sufficient guarantees to implement appropriate technical and organizational measures in such a manner that processing will meet the requirements of this Policy.\n2. Define the conditions under which information security and data protection requirements and controls will be documented in an agreement signed by both parties.\n3. Mana",
-    "mapping_date": "2026-03-05T15:58:51.845459",
+    "mapping_date": "2026-03-16T09:51:06.876650",
     "reviewer": null,
     "notes": "Reranker: 0.260"
   },
@@ -424,7 +402,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.25031423568725586,
     "evidence_text": "7.3 Managing Changes to Third-party Services\n\n&lt;&lt;CLIENT&gt;&gt; shall consider the following aspects for information security and data protection review when managing changes to third-party services, at a minimum:\n\n1. Changes to third-party agreements and/ or sub-contracting to another third-party.\n2. Enhancements to the current services offered.\n3. Development and/ use of new applications, systems, and technologies.\n4. Modifications or updates of the organization’s policies and procedures.",
-    "mapping_date": "2026-03-05T15:58:51.845427",
+    "mapping_date": "2026-03-16T09:51:06.876637",
     "reviewer": null,
     "notes": "Reranker: 0.250"
   },
@@ -435,7 +413,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.28502464294433594,
     "evidence_text": "7.3 Managing Changes to Third-party Services\n\n&lt;&lt;CLIENT&gt;&gt; shall consider the following aspects for information security and data protection review when managing changes to third-party services, at a minimum:\n\n1. Changes to third-party agreements and/ or sub-contracting to another third-party.\n2. Enhancements to the current services offered.\n3. Development and/ use of new applications, systems, and technologies.\n4. Modifications or updates of the organization’s policies and procedures.",
-    "mapping_date": "2026-03-05T15:58:54.406499",
+    "mapping_date": "2026-03-16T09:51:09.583955",
     "reviewer": null,
     "notes": "Reranker: 0.285"
   },
@@ -446,7 +424,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2845170497894287,
     "evidence_text": "7.1 Third-Party Security Approach\n\n&lt;&lt;CLIENT&gt;&gt; shall:\n\n1. Identify, mandate, and monitor information security and data protection controls processes and procedures to address third-party access to the organization’s information and information assets.\n2. Establish a standardized process and lifecycle for managing third-party relationships, their access to the organization’s information and information assets and the security requirements.\n3. Define the types of obligations applicable ",
-    "mapping_date": "2026-03-05T15:58:54.406480",
+    "mapping_date": "2026-03-16T09:51:09.583937",
     "reviewer": null,
     "notes": "Reranker: 0.285"
   },
@@ -457,7 +435,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.31514284014701843,
     "evidence_text": "7.3 Managing Changes to Third-party Services\n\n&lt;&lt;CLIENT&gt;&gt; shall consider the following aspects for information security and data protection review when managing changes to third-party services, at a minimum:\n\n1. Changes to third-party agreements and/ or sub-contracting to another third-party.\n2. Enhancements to the current services offered.\n3. Development and/ use of new applications, systems, and technologies.\n4. Modifications or updates of the organization’s policies and procedures.",
-    "mapping_date": "2026-03-05T15:58:57.101568",
+    "mapping_date": "2026-03-16T09:51:15.244998",
     "reviewer": null,
     "notes": "Reranker: 0.315"
   },
@@ -468,7 +446,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.28427866101264954,
     "evidence_text": "7.1 Third-Party Security Approach\n\n&lt;&lt;CLIENT&gt;&gt; shall:\n\n1. Identify, mandate, and monitor information security and data protection controls processes and procedures to address third-party access to the organization’s information and information assets.\n2. Establish a standardized process and lifecycle for managing third-party relationships, their access to the organization’s information and information assets and the security requirements.\n3. Define the types of obligations applicable ",
-    "mapping_date": "2026-03-05T15:58:57.101596",
+    "mapping_date": "2026-03-16T09:51:15.245025",
     "reviewer": null,
     "notes": "Reranker: 0.284"
   },
@@ -479,7 +457,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.27389001846313477,
     "evidence_text": "7.2 Addressing Security and Data Protection Requirements with Third-party Agreements\n\n&lt;&lt;CLIENT&gt;&gt; shall:\n\n1. Use only third-party service providers providing sufficient guarantees to implement appropriate technical and organizational measures in such a manner that processing will meet the requirements of this Policy.\n2. Define the conditions under which information security and data protection requirements and controls will be documented in an agreement signed by both parties.\n3. Mana",
-    "mapping_date": "2026-03-05T15:58:57.101601",
+    "mapping_date": "2026-03-16T09:51:15.245030",
     "reviewer": null,
     "notes": "Reranker: 0.274"
   },
@@ -490,7 +468,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.26733559370040894,
     "evidence_text": "6 POLICY STATEMENT\n\n&lt;&lt;CLIENT&gt;&gt; shall ensure that all third parties comply with this Policy's information security requirements while providing services that could impact the confidentiality, integrity, availability, secrecy and privacy of the organization’s information and information assets.",
-    "mapping_date": "2026-03-05T15:58:59.815611",
+    "mapping_date": "2026-03-16T09:51:18.094992",
     "reviewer": null,
     "notes": "Reranker: 0.267"
   },
@@ -501,7 +479,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.26803094148635864,
     "evidence_text": "7.2 Addressing Security and Data Protection Requirements with Third-party Agreements\n\n&lt;&lt;CLIENT&gt;&gt; shall:\n\n1. Use only third-party service providers providing sufficient guarantees to implement appropriate technical and organizational measures in such a manner that processing will meet the requirements of this Policy.\n2. Define the conditions under which information security and data protection requirements and controls will be documented in an agreement signed by both parties.\n3. Mana",
-    "mapping_date": "2026-03-05T15:59:02.481723",
+    "mapping_date": "2026-03-16T09:51:20.903393",
     "reviewer": null,
     "notes": "Reranker: 0.268"
   },
@@ -512,20 +490,9 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2696431577205658,
     "evidence_text": "7.3 Managing Changes to Third-party Services\n\n&lt;&lt;CLIENT&gt;&gt; shall consider the following aspects for information security and data protection review when managing changes to third-party services, at a minimum:\n\n1. Changes to third-party agreements and/ or sub-contracting to another third-party.\n2. Enhancements to the current services offered.\n3. Development and/ use of new applications, systems, and technologies.\n4. Modifications or updates of the organization’s policies and procedures.",
-    "mapping_date": "2026-03-05T15:59:07.771904",
+    "mapping_date": "2026-03-16T09:51:26.496888",
     "reviewer": null,
     "notes": "Reranker: 0.270"
-  },
-  {
-    "mapping_id": "T7.2.2_clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping_passage_9",
-    "source_control_id": "T7.2.2",
-    "target_policy_id": "clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping_passage_9",
-    "status": "Partially Addressed",
-    "entailment_score": 0.23988443613052368,
-    "evidence_text": "7.3 Managing Changes to Third-party Services\n\n&lt;&lt;CLIENT&gt;&gt; shall consider the following aspects for information security and data protection review when managing changes to third-party services, at a minimum:\n\n1. Changes to third-party agreements and/ or sub-contracting to another third-party.\n2. Enhancements to the current services offered.\n3. Development and/ use of new applications, systems, and technologies.\n4. Modifications or updates of the organization’s policies and procedures.",
-    "mapping_date": "2026-03-05T15:59:10.462718",
-    "reviewer": null,
-    "notes": "Reranker: 0.240"
   },
   {
     "mapping_id": "T7.6.2_clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping_passage_9",
@@ -534,30 +501,8 @@
     "status": "Partially Addressed",
     "entailment_score": 0.263877809047699,
     "evidence_text": "7.3 Managing Changes to Third-party Services\n\n&lt;&lt;CLIENT&gt;&gt; shall consider the following aspects for information security and data protection review when managing changes to third-party services, at a minimum:\n\n1. Changes to third-party agreements and/ or sub-contracting to another third-party.\n2. Enhancements to the current services offered.\n3. Development and/ use of new applications, systems, and technologies.\n4. Modifications or updates of the organization’s policies and procedures.",
-    "mapping_date": "2026-03-05T15:59:26.213640",
+    "mapping_date": "2026-03-16T09:51:45.987253",
     "reviewer": null,
     "notes": "Reranker: 0.264"
-  },
-  {
-    "mapping_id": "T7.6.5_clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping_passage_9",
-    "source_control_id": "T7.6.5",
-    "target_policy_id": "clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping_passage_9",
-    "status": "Partially Addressed",
-    "entailment_score": 0.24569329619407654,
-    "evidence_text": "7.3 Managing Changes to Third-party Services\n\n&lt;&lt;CLIENT&gt;&gt; shall consider the following aspects for information security and data protection review when managing changes to third-party services, at a minimum:\n\n1. Changes to third-party agreements and/ or sub-contracting to another third-party.\n2. Enhancements to the current services offered.\n3. Development and/ use of new applications, systems, and technologies.\n4. Modifications or updates of the organization’s policies and procedures.",
-    "mapping_date": "2026-03-05T15:59:31.371857",
-    "reviewer": null,
-    "notes": "Reranker: 0.246"
-  },
-  {
-    "mapping_id": "T7.8.2_clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping_passage_9",
-    "source_control_id": "T7.8.2",
-    "target_policy_id": "clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping_passage_9",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2361326813697815,
-    "evidence_text": "7.3 Managing Changes to Third-party Services\n\n&lt;&lt;CLIENT&gt;&gt; shall consider the following aspects for information security and data protection review when managing changes to third-party services, at a minimum:\n\n1. Changes to third-party agreements and/ or sub-contracting to another third-party.\n2. Enhancements to the current services offered.\n3. Development and/ use of new applications, systems, and technologies.\n4. Modifications or updates of the organization’s policies and procedures.",
-    "mapping_date": "2026-03-05T15:59:36.737276",
-    "reviewer": null,
-    "notes": "Reranker: 0.236"
   }
 ]

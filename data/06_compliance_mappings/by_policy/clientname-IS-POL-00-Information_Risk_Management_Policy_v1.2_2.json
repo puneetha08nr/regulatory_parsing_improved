@@ -4,22 +4,11 @@
     "source_control_id": "M1.1.2",
     "target_policy_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2_passage_6",
     "status": "Partially Addressed",
-    "entailment_score": 0.2577521502971649,
+    "entailment_score": 0.25374123454093933,
     "evidence_text": "4 POLICY STATEMENT\n\n&lt;CLIENTNAME&gt; shall implement an information risk management program that shall require conducting risk assessments, identifying information risks, treating the risks and continuously monitoring risks by evaluating the effectiveness of information security controls to ensure efficient risk handling.",
-    "mapping_date": "2026-03-05T15:53:55.704360",
+    "mapping_date": "2026-03-16T09:45:07.919095",
     "reviewer": null,
-    "notes": "Reranker: 0.258"
-  },
-  {
-    "mapping_id": "M1.2.2_clientname-IS-POL-00-Information Risk Management Policy v1.2 2_passage_8",
-    "source_control_id": "M1.2.2",
-    "target_policy_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2_passage_8",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2920089662075043,
-    "evidence_text": "5.2 Information Risk Assessment\n\n1. Identification of the vulnerabilities that exist in the information assets.\n2. Identification of threats that may exploit a vulnerability.\n3. Qualitative analysis and evaluation of the impact to the confidentiality, integrity, availability, secrecy and privacy of information assets if a threat exploits vulnerabilities.\n4. Identification and definition of measures and/or controls used to protect the confidentiality, integrity, availability, secrecy and privacy ",
-    "mapping_date": "2026-03-05T15:54:03.475875",
-    "reviewer": null,
-    "notes": "Reranker: 0.292"
+    "notes": "Reranker: 0.254"
   },
   {
     "mapping_id": "M1.3.5_clientname-IS-POL-00-Information Risk Management Policy v1.2 2_passage_7",
@@ -28,9 +17,20 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2944890260696411,
     "evidence_text": "5.1 Information Risk Management Framework\n\n1. Prepare: Establish context by understanding mission, business objectives, and information systems to manage &lt;CLIENTNAME&gt;, its security, privacy, and business continuity risks.\n2. Identify: Provide a structured way to determine the criticality of the information assets at &lt;CLIENTNAME&gt;, and identify its associated risks.\n3. Assess: Analyze, evaluate and categorize risks based on its likelihood of materializing and its impacts to &lt;CLIENTN",
-    "mapping_date": "2026-03-05T15:54:13.700682",
+    "mapping_date": "2026-03-16T09:45:26.408845",
     "reviewer": null,
     "notes": "Reranker: 0.294"
+  },
+  {
+    "mapping_id": "M2.1.1_clientname-IS-POL-00-Information Risk Management Policy v1.2 2_passage_9",
+    "source_control_id": "M2.1.1",
+    "target_policy_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2_passage_9",
+    "status": "Partially Addressed",
+    "entailment_score": 0.2704433500766754,
+    "evidence_text": "5.4 Information Risk Treatment\n\n1. Risk Reduction: Reducing risk by applying security controls.\n2. Risk Avoidance: Avoiding the activity or condition causing the risk.\n3. Risk Transfer: Transferring the risk to another party.\n4. Risk Retention: Accepting the risk based on the organization’s risk acceptance criteria established in the Information Security Risk Management Framework.\n\n5. Description of information risks.\n6. Appropriate management actions.\n7. Responsibilities and priorities for mana",
+    "mapping_date": "2026-03-16T09:45:42.623963",
+    "reviewer": null,
+    "notes": "Reranker: 0.270"
   },
   {
     "mapping_id": "M2.2.1_clientname-IS-POL-00-Information Risk Management Policy v1.2 2_passage_7",
@@ -39,7 +39,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.29329192638397217,
     "evidence_text": "5.1 Information Risk Management Framework\n\n1. Prepare: Establish context by understanding mission, business objectives, and information systems to manage &lt;CLIENTNAME&gt;, its security, privacy, and business continuity risks.\n2. Identify: Provide a structured way to determine the criticality of the information assets at &lt;CLIENTNAME&gt;, and identify its associated risks.\n3. Assess: Analyze, evaluate and categorize risks based on its likelihood of materializing and its impacts to &lt;CLIENTN",
-    "mapping_date": "2026-03-05T15:54:31.944374",
+    "mapping_date": "2026-03-16T09:45:45.320538",
     "reviewer": null,
     "notes": "Reranker: 0.293"
   },
@@ -50,64 +50,75 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2892738878726959,
     "evidence_text": "4 POLICY STATEMENT\n\n&lt;CLIENTNAME&gt; shall implement an information risk management program that shall require conducting risk assessments, identifying information risks, treating the risks and continuously monitoring risks by evaluating the effectiveness of information security controls to ensure efficient risk handling.",
-    "mapping_date": "2026-03-05T15:54:31.944379",
+    "mapping_date": "2026-03-16T09:45:45.320544",
     "reviewer": null,
     "notes": "Reranker: 0.289"
   },
   {
-    "mapping_id": "M2.2.2_clientname-IS-POL-00-Information Risk Management Policy v1.2 2_passage_7",
+    "mapping_id": "M2.2.2_clientname-IS-POL-00-Information Risk Management Policy v1.2 2_passage_8",
     "source_control_id": "M2.2.2",
-    "target_policy_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2_passage_7",
+    "target_policy_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2_passage_8",
     "status": "Partially Addressed",
-    "entailment_score": 0.2918531000614166,
-    "evidence_text": "5.1 Information Risk Management Framework\n\n1. Prepare: Establish context by understanding mission, business objectives, and information systems to manage &lt;CLIENTNAME&gt;, its security, privacy, and business continuity risks.\n2. Identify: Provide a structured way to determine the criticality of the information assets at &lt;CLIENTNAME&gt;, and identify its associated risks.\n3. Assess: Analyze, evaluate and categorize risks based on its likelihood of materializing and its impacts to &lt;CLIENTN",
-    "mapping_date": "2026-03-05T15:54:34.464807",
+    "entailment_score": 0.3020939826965332,
+    "evidence_text": "5.2 Information Risk Assessment\n\n1. Identification of the vulnerabilities that exist in the information assets.\n2. Identification of threats that may exploit a vulnerability.\n3. Qualitative analysis and evaluation of the impact to the confidentiality, integrity, availability, secrecy and privacy of information assets if a threat exploits vulnerabilities.\n4. Identification and definition of measures and/or controls used to protect the confidentiality, integrity, availability, secrecy and privacy ",
+    "mapping_date": "2026-03-16T09:45:48.020790",
     "reviewer": null,
-    "notes": "Reranker: 0.292"
+    "notes": "Reranker: 0.302"
   },
   {
-    "mapping_id": "M2.2.2_clientname-IS-POL-00-Information Risk Management Policy v1.2 2_passage_6",
-    "source_control_id": "M2.2.2",
+    "mapping_id": "M2.2.3_clientname-IS-POL-00-Information Risk Management Policy v1.2 2_passage_7",
+    "source_control_id": "M2.2.3",
+    "target_policy_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2_passage_7",
+    "status": "Partially Addressed",
+    "entailment_score": 0.2893041968345642,
+    "evidence_text": "5.1 Information Risk Management Framework\n\n1. Prepare: Establish context by understanding mission, business objectives, and information systems to manage &lt;CLIENTNAME&gt;, its security, privacy, and business continuity risks.\n2. Identify: Provide a structured way to determine the criticality of the information assets at &lt;CLIENTNAME&gt;, and identify its associated risks.\n3. Assess: Analyze, evaluate and categorize risks based on its likelihood of materializing and its impacts to &lt;CLIENTN",
+    "mapping_date": "2026-03-16T09:45:50.919428",
+    "reviewer": null,
+    "notes": "Reranker: 0.289"
+  },
+  {
+    "mapping_id": "M2.2.3_clientname-IS-POL-00-Information Risk Management Policy v1.2 2_passage_6",
+    "source_control_id": "M2.2.3",
     "target_policy_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2_passage_6",
     "status": "Partially Addressed",
-    "entailment_score": 0.283085435628891,
+    "entailment_score": 0.2858777344226837,
     "evidence_text": "4 POLICY STATEMENT\n\n&lt;CLIENTNAME&gt; shall implement an information risk management program that shall require conducting risk assessments, identifying information risks, treating the risks and continuously monitoring risks by evaluating the effectiveness of information security controls to ensure efficient risk handling.",
-    "mapping_date": "2026-03-05T15:54:34.464778",
+    "mapping_date": "2026-03-16T09:45:50.919434",
     "reviewer": null,
-    "notes": "Reranker: 0.283"
+    "notes": "Reranker: 0.286"
   },
   {
     "mapping_id": "M2.3.1_clientname-IS-POL-00-Information Risk Management Policy v1.2 2_passage_9",
     "source_control_id": "M2.3.1",
     "target_policy_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2_passage_9",
     "status": "Partially Addressed",
-    "entailment_score": 0.30464276671409607,
+    "entailment_score": 0.28862398862838745,
     "evidence_text": "5.4 Information Risk Treatment\n\n1. Risk Reduction: Reducing risk by applying security controls.\n2. Risk Avoidance: Avoiding the activity or condition causing the risk.\n3. Risk Transfer: Transferring the risk to another party.\n4. Risk Retention: Accepting the risk based on the organization’s risk acceptance criteria established in the Information Security Risk Management Framework.\n\n5. Description of information risks.\n6. Appropriate management actions.\n7. Responsibilities and priorities for mana",
-    "mapping_date": "2026-03-05T15:54:37.076796",
+    "mapping_date": "2026-03-16T09:45:53.556964",
     "reviewer": null,
-    "notes": "Reranker: 0.305"
+    "notes": "Reranker: 0.289"
   },
   {
     "mapping_id": "M2.3.1_clientname-IS-POL-00-Information Risk Management Policy v1.2 2_passage_6",
     "source_control_id": "M2.3.1",
     "target_policy_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2_passage_6",
     "status": "Partially Addressed",
-    "entailment_score": 0.279904305934906,
+    "entailment_score": 0.2744308412075043,
     "evidence_text": "4 POLICY STATEMENT\n\n&lt;CLIENTNAME&gt; shall implement an information risk management program that shall require conducting risk assessments, identifying information risks, treating the risks and continuously monitoring risks by evaluating the effectiveness of information security controls to ensure efficient risk handling.",
-    "mapping_date": "2026-03-05T15:54:37.076828",
+    "mapping_date": "2026-03-16T09:45:53.556901",
     "reviewer": null,
-    "notes": "Reranker: 0.280"
+    "notes": "Reranker: 0.274"
   },
   {
     "mapping_id": "M2.3.1_clientname-IS-POL-00-Information Risk Management Policy v1.2 2_passage_7",
     "source_control_id": "M2.3.1",
     "target_policy_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2_passage_7",
     "status": "Partially Addressed",
-    "entailment_score": 0.27595970034599304,
+    "entailment_score": 0.27018797397613525,
     "evidence_text": "5.1 Information Risk Management Framework\n\n1. Prepare: Establish context by understanding mission, business objectives, and information systems to manage &lt;CLIENTNAME&gt;, its security, privacy, and business continuity risks.\n2. Identify: Provide a structured way to determine the criticality of the information assets at &lt;CLIENTNAME&gt;, and identify its associated risks.\n3. Assess: Analyze, evaluate and categorize risks based on its likelihood of materializing and its impacts to &lt;CLIENTN",
-    "mapping_date": "2026-03-05T15:54:37.076842",
+    "mapping_date": "2026-03-16T09:45:53.556985",
     "reviewer": null,
-    "notes": "Reranker: 0.276"
+    "notes": "Reranker: 0.270"
   },
   {
     "mapping_id": "M2.3.2_clientname-IS-POL-00-Information Risk Management Policy v1.2 2_passage_6",
@@ -116,9 +127,20 @@
     "status": "Partially Addressed",
     "entailment_score": 0.27041569352149963,
     "evidence_text": "4 POLICY STATEMENT\n\n&lt;CLIENTNAME&gt; shall implement an information risk management program that shall require conducting risk assessments, identifying information risks, treating the risks and continuously monitoring risks by evaluating the effectiveness of information security controls to ensure efficient risk handling.",
-    "mapping_date": "2026-03-05T15:54:39.699753",
+    "mapping_date": "2026-03-16T09:45:56.286434",
     "reviewer": null,
     "notes": "Reranker: 0.270"
+  },
+  {
+    "mapping_id": "M2.3.3_clientname-IS-POL-00-Information Risk Management Policy v1.2 2_passage_6",
+    "source_control_id": "M2.3.3",
+    "target_policy_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2_passage_6",
+    "status": "Partially Addressed",
+    "entailment_score": 0.2626027762889862,
+    "evidence_text": "4 POLICY STATEMENT\n\n&lt;CLIENTNAME&gt; shall implement an information risk management program that shall require conducting risk assessments, identifying information risks, treating the risks and continuously monitoring risks by evaluating the effectiveness of information security controls to ensure efficient risk handling.",
+    "mapping_date": "2026-03-16T09:45:59.007282",
+    "reviewer": null,
+    "notes": "Reranker: 0.263"
   },
   {
     "mapping_id": "M2.4.1_clientname-IS-POL-00-Information Risk Management Policy v1.2 2_passage_9",
@@ -127,20 +149,31 @@
     "status": "Partially Addressed",
     "entailment_score": 0.26415327191352844,
     "evidence_text": "5.4 Information Risk Treatment\n\n1. Risk Reduction: Reducing risk by applying security controls.\n2. Risk Avoidance: Avoiding the activity or condition causing the risk.\n3. Risk Transfer: Transferring the risk to another party.\n4. Risk Retention: Accepting the risk based on the organization’s risk acceptance criteria established in the Information Security Risk Management Framework.\n\n5. Description of information risks.\n6. Appropriate management actions.\n7. Responsibilities and priorities for mana",
-    "mapping_date": "2026-03-05T15:54:42.469997",
+    "mapping_date": "2026-03-16T09:46:05.271754",
     "reviewer": null,
     "notes": "Reranker: 0.264"
   },
   {
-    "mapping_id": "M2.1.1_clientname-IS-POL-00-Information Risk Management Policy v1.2 2_passage_9",
-    "source_control_id": "M2.1.1",
-    "target_policy_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2_passage_9",
+    "mapping_id": "M2.4.2_clientname-IS-POL-00-Information Risk Management Policy v1.2 2_passage_6",
+    "source_control_id": "M2.4.2",
+    "target_policy_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2_passage_6",
     "status": "Partially Addressed",
-    "entailment_score": 0.2704433500766754,
-    "evidence_text": "5.4 Information Risk Treatment\n\n1. Risk Reduction: Reducing risk by applying security controls.\n2. Risk Avoidance: Avoiding the activity or condition causing the risk.\n3. Risk Transfer: Transferring the risk to another party.\n4. Risk Retention: Accepting the risk based on the organization’s risk acceptance criteria established in the Information Security Risk Management Framework.\n\n5. Description of information risks.\n6. Appropriate management actions.\n7. Responsibilities and priorities for mana",
-    "mapping_date": "2026-03-05T15:54:45.297041",
+    "entailment_score": 0.28049835562705994,
+    "evidence_text": "4 POLICY STATEMENT\n\n&lt;CLIENTNAME&gt; shall implement an information risk management program that shall require conducting risk assessments, identifying information risks, treating the risks and continuously monitoring risks by evaluating the effectiveness of information security controls to ensure efficient risk handling.",
+    "mapping_date": "2026-03-16T09:46:08.141181",
     "reviewer": null,
-    "notes": "Reranker: 0.270"
+    "notes": "Reranker: 0.280"
+  },
+  {
+    "mapping_id": "M2.4.2_clientname-IS-POL-00-Information Risk Management Policy v1.2 2_passage_7",
+    "source_control_id": "M2.4.2",
+    "target_policy_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2_passage_7",
+    "status": "Partially Addressed",
+    "entailment_score": 0.2766200006008148,
+    "evidence_text": "5.1 Information Risk Management Framework\n\n1. Prepare: Establish context by understanding mission, business objectives, and information systems to manage &lt;CLIENTNAME&gt;, its security, privacy, and business continuity risks.\n2. Identify: Provide a structured way to determine the criticality of the information assets at &lt;CLIENTNAME&gt;, and identify its associated risks.\n3. Assess: Analyze, evaluate and categorize risks based on its likelihood of materializing and its impacts to &lt;CLIENTN",
+    "mapping_date": "2026-03-16T09:46:08.141235",
+    "reviewer": null,
+    "notes": "Reranker: 0.277"
   },
   {
     "mapping_id": "M3.3.4_clientname-IS-POL-00-Information Risk Management Policy v1.2 2_passage_6",
@@ -149,7 +182,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2728634178638458,
     "evidence_text": "4 POLICY STATEMENT\n\n&lt;CLIENTNAME&gt; shall implement an information risk management program that shall require conducting risk assessments, identifying information risks, treating the risks and continuously monitoring risks by evaluating the effectiveness of information security controls to ensure efficient risk handling.",
-    "mapping_date": "2026-03-05T15:54:58.226172",
+    "mapping_date": "2026-03-16T09:46:24.108604",
     "reviewer": null,
     "notes": "Reranker: 0.273"
   },
@@ -160,7 +193,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2662305235862732,
     "evidence_text": "4 POLICY STATEMENT\n\n&lt;CLIENTNAME&gt; shall implement an information risk management program that shall require conducting risk assessments, identifying information risks, treating the risks and continuously monitoring risks by evaluating the effectiveness of information security controls to ensure efficient risk handling.",
-    "mapping_date": "2026-03-05T15:55:03.375661",
+    "mapping_date": "2026-03-16T09:46:32.090586",
     "reviewer": null,
     "notes": "Reranker: 0.266"
   },
@@ -171,7 +204,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2621817886829376,
     "evidence_text": "5.4 Information Risk Treatment\n\n1. Risk Reduction: Reducing risk by applying security controls.\n2. Risk Avoidance: Avoiding the activity or condition causing the risk.\n3. Risk Transfer: Transferring the risk to another party.\n4. Risk Retention: Accepting the risk based on the organization’s risk acceptance criteria established in the Information Security Risk Management Framework.\n\n5. Description of information risks.\n6. Appropriate management actions.\n7. Responsibilities and priorities for mana",
-    "mapping_date": "2026-03-05T15:55:47.886451",
+    "mapping_date": "2026-03-16T09:47:20.980568",
     "reviewer": null,
     "notes": "Reranker: 0.262"
   },
@@ -180,11 +213,22 @@
     "source_control_id": "M6.2.1",
     "target_policy_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2_passage_6",
     "status": "Partially Addressed",
-    "entailment_score": 0.29158785939216614,
+    "entailment_score": 0.29538339376449585,
     "evidence_text": "4 POLICY STATEMENT\n\n&lt;CLIENTNAME&gt; shall implement an information risk management program that shall require conducting risk assessments, identifying information risks, treating the risks and continuously monitoring risks by evaluating the effectiveness of information security controls to ensure efficient risk handling.",
-    "mapping_date": "2026-03-05T15:55:56.257377",
+    "mapping_date": "2026-03-16T09:47:32.487985",
     "reviewer": null,
-    "notes": "Reranker: 0.292"
+    "notes": "Reranker: 0.295"
+  },
+  {
+    "mapping_id": "M6.3.2_clientname-IS-POL-00-Information Risk Management Policy v1.2 2_passage_6",
+    "source_control_id": "M6.3.2",
+    "target_policy_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2_passage_6",
+    "status": "Partially Addressed",
+    "entailment_score": 0.26336470246315,
+    "evidence_text": "4 POLICY STATEMENT\n\n&lt;CLIENTNAME&gt; shall implement an information risk management program that shall require conducting risk assessments, identifying information risks, treating the risks and continuously monitoring risks by evaluating the effectiveness of information security controls to ensure efficient risk handling.",
+    "mapping_date": "2026-03-16T09:47:40.722988",
+    "reviewer": null,
+    "notes": "Reranker: 0.263"
   },
   {
     "mapping_id": "T3.3.2_clientname-IS-POL-00-Information Risk Management Policy v1.2 2_passage_8",
@@ -193,20 +237,20 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2518666982650757,
     "evidence_text": "5.2 Information Risk Assessment\n\n1. Identification of the vulnerabilities that exist in the information assets.\n2. Identification of threats that may exploit a vulnerability.\n3. Qualitative analysis and evaluation of the impact to the confidentiality, integrity, availability, secrecy and privacy of information assets if a threat exploits vulnerabilities.\n4. Identification and definition of measures and/or controls used to protect the confidentiality, integrity, availability, secrecy and privacy ",
-    "mapping_date": "2026-03-05T15:57:10.554508",
+    "mapping_date": "2026-03-16T09:49:06.558824",
     "reviewer": null,
     "notes": "Reranker: 0.252"
   },
   {
-    "mapping_id": "T9.2.2_clientname-IS-POL-00-Information Risk Management Policy v1.2 2_passage_8",
-    "source_control_id": "T9.2.2",
-    "target_policy_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2_passage_8",
+    "mapping_id": "T4.5.3_clientname-IS-POL-00-Information Risk Management Policy v1.2 2_passage_4",
+    "source_control_id": "T4.5.3",
+    "target_policy_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2_passage_4",
     "status": "Partially Addressed",
-    "entailment_score": 0.28025680780410767,
-    "evidence_text": "5.2 Information Risk Assessment\n\n1. Identification of the vulnerabilities that exist in the information assets.\n2. Identification of threats that may exploit a vulnerability.\n3. Qualitative analysis and evaluation of the impact to the confidentiality, integrity, availability, secrecy and privacy of information assets if a threat exploits vulnerabilities.\n4. Identification and definition of measures and/or controls used to protect the confidentiality, integrity, availability, secrecy and privacy ",
-    "mapping_date": "2026-03-05T15:57:18.852622",
+    "entailment_score": 0.2855096161365509,
+    "evidence_text": "2 PURPOSE\n\nThe purpose of this Policy is to ensure that information risks in the organization are identified, assessed, evaluated, monitored, reported and treated according to the business, security, privacy and continuity requirements and objectives of the organization.\n\nFurther, the Policy establishes a commitment to comply with applicable sections of the federal laws and regulations, including but not limited to UAE Information Assurance Regulation (UAE IAR) and ISO 27001.\n\nThe following are ",
+    "mapping_date": "2026-03-16T09:50:06.972018",
     "reviewer": null,
-    "notes": "Reranker: 0.280"
+    "notes": "Reranker: 0.286"
   },
   {
     "mapping_id": "T7.8.1_clientname-IS-POL-00-Information Risk Management Policy v1.2 2_passage_7",
@@ -215,7 +259,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.26687419414520264,
     "evidence_text": "5.1 Information Risk Management Framework\n\n1. Prepare: Establish context by understanding mission, business objectives, and information systems to manage &lt;CLIENTNAME&gt;, its security, privacy, and business continuity risks.\n2. Identify: Provide a structured way to determine the criticality of the information assets at &lt;CLIENTNAME&gt;, and identify its associated risks.\n3. Assess: Analyze, evaluate and categorize risks based on its likelihood of materializing and its impacts to &lt;CLIENTN",
-    "mapping_date": "2026-03-05T15:59:32.412877",
+    "mapping_date": "2026-03-16T09:51:52.552343",
     "reviewer": null,
     "notes": "Reranker: 0.267"
   },
@@ -226,7 +270,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2655647099018097,
     "evidence_text": "5.2 Information Risk Assessment\n\n1. Identification of the vulnerabilities that exist in the information assets.\n2. Identification of threats that may exploit a vulnerability.\n3. Qualitative analysis and evaluation of the impact to the confidentiality, integrity, availability, secrecy and privacy of information assets if a threat exploits vulnerabilities.\n4. Identification and definition of measures and/or controls used to protect the confidentiality, integrity, availability, secrecy and privacy ",
-    "mapping_date": "2026-03-05T15:59:32.412823",
+    "mapping_date": "2026-03-16T09:51:52.552293",
     "reviewer": null,
     "notes": "Reranker: 0.266"
   },
@@ -237,7 +281,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.27796778082847595,
     "evidence_text": "4 POLICY STATEMENT\n\n&lt;CLIENTNAME&gt; shall implement an information risk management program that shall require conducting risk assessments, identifying information risks, treating the risks and continuously monitoring risks by evaluating the effectiveness of information security controls to ensure efficient risk handling.",
-    "mapping_date": "2026-03-05T15:59:45.641099",
+    "mapping_date": "2026-03-16T09:52:12.161782",
     "reviewer": null,
     "notes": "Reranker: 0.278"
   },
@@ -248,9 +292,20 @@
     "status": "Partially Addressed",
     "entailment_score": 0.2779790461063385,
     "evidence_text": "5.1 Information Risk Management Framework\n\n1. Prepare: Establish context by understanding mission, business objectives, and information systems to manage &lt;CLIENTNAME&gt;, its security, privacy, and business continuity risks.\n2. Identify: Provide a structured way to determine the criticality of the information assets at &lt;CLIENTNAME&gt;, and identify its associated risks.\n3. Assess: Analyze, evaluate and categorize risks based on its likelihood of materializing and its impacts to &lt;CLIENTN",
-    "mapping_date": "2026-03-05T15:59:53.575943",
+    "mapping_date": "2026-03-16T09:52:21.370087",
     "reviewer": null,
     "notes": "Reranker: 0.278"
+  },
+  {
+    "mapping_id": "T9.2.2_clientname-IS-POL-00-Information Risk Management Policy v1.2 2_passage_8",
+    "source_control_id": "T9.2.2",
+    "target_policy_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2_passage_8",
+    "status": "Partially Addressed",
+    "entailment_score": 0.28025680780410767,
+    "evidence_text": "5.2 Information Risk Assessment\n\n1. Identification of the vulnerabilities that exist in the information assets.\n2. Identification of threats that may exploit a vulnerability.\n3. Qualitative analysis and evaluation of the impact to the confidentiality, integrity, availability, secrecy and privacy of information assets if a threat exploits vulnerabilities.\n4. Identification and definition of measures and/or controls used to protect the confidentiality, integrity, availability, secrecy and privacy ",
+    "mapping_date": "2026-03-16T09:52:57.408246",
+    "reviewer": null,
+    "notes": "Reranker: 0.280"
   },
   {
     "mapping_id": "T9.3.1_clientname-IS-POL-00-Information Risk Management Policy v1.2 2_passage_7",
@@ -259,7 +314,7 @@
     "status": "Partially Addressed",
     "entailment_score": 0.258687824010849,
     "evidence_text": "5.1 Information Risk Management Framework\n\n1. Prepare: Establish context by understanding mission, business objectives, and information systems to manage &lt;CLIENTNAME&gt;, its security, privacy, and business continuity risks.\n2. Identify: Provide a structured way to determine the criticality of the information assets at &lt;CLIENTNAME&gt;, and identify its associated risks.\n3. Assess: Analyze, evaluate and categorize risks based on its likelihood of materializing and its impacts to &lt;CLIENTN",
-    "mapping_date": "2026-03-05T16:00:17.259641",
+    "mapping_date": "2026-03-16T09:53:00.694844",
     "reviewer": null,
     "notes": "Reranker: 0.259"
   }

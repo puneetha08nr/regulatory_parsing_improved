@@ -2,77 +2,77 @@
   {
     "policy_doc_id": "clientname-IS-POL-00-Asset Management Policy 6",
     "file": "clientname-IS-POL-00-Asset_Management_Policy_6.json",
-    "count": 234
+    "count": 219
   },
   {
     "policy_doc_id": "clientname-IS-POL-00-Asset Management Policy",
     "file": "clientname-IS-POL-00-Asset_Management_Policy.json",
-    "count": 211
+    "count": 202
   },
   {
     "policy_doc_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2",
     "file": "clientname-IS-POL-00-Network_and_Communications_Security_Policy_v1.2_2.json",
-    "count": 199
+    "count": 177
   },
   {
     "policy_doc_id": "clientname-IS-POL-00-Information Security Incident Management Policy 2",
     "file": "clientname-IS-POL-00-Information_Security_Incident_Management_Policy_2.json",
-    "count": 156
+    "count": 162
   },
   {
     "policy_doc_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3",
     "file": "clientname-IS-POL-00-Information_Security_Incident_Management_Policy_3.json",
-    "count": 142
+    "count": 150
   },
   {
     "policy_doc_id": "clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2",
     "file": "clientname-IS-POL-00-Information_Security_Compliance_Policy_v2.0_UAE_IA_Mapping_2.json",
-    "count": 110
+    "count": 113
   },
   {
     "policy_doc_id": "clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping",
     "file": "clientname-IS-POL-00-Security_Awareness_and_Training_Policy_v2.0_UAE_IA_Mapping.json",
-    "count": 80
-  },
-  {
-    "policy_doc_id": "clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2",
-    "file": "clientname-IS-POL-00-Information_Systems_Acquisition_Development_and_Maintenance_Policy_2.json",
-    "count": 51
-  },
-  {
-    "policy_doc_id": "clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping",
-    "file": "clientname-IS-POL-00-Third-Party_Security_Policy_v2.0_UAE_IA_Mapping.json",
-    "count": 51
-  },
-  {
-    "policy_doc_id": "clientname-IS-POL-00-Vulnerability Management Policy v1.2 (V_A)",
-    "file": "clientname-IS-POL-00-Vulnerability_Management_Policy_v1.2_(V_A).json",
-    "count": 51
+    "count": 77
   },
   {
     "policy_doc_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2",
     "file": "clientname-IS-POL-00-Physical_and_Environmental_Security_Policy_v1.2.json",
-    "count": 48
+    "count": 58
+  },
+  {
+    "policy_doc_id": "clientname-IS-POL-00-Vulnerability Management Policy v1.2 (V_A)",
+    "file": "clientname-IS-POL-00-Vulnerability_Management_Policy_v1.2_(V_A).json",
+    "count": 54
+  },
+  {
+    "policy_doc_id": "clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2",
+    "file": "clientname-IS-POL-00-Information_Systems_Acquisition_Development_and_Maintenance_Policy_2.json",
+    "count": 46
+  },
+  {
+    "policy_doc_id": "clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping",
+    "file": "clientname-IS-POL-00-Third-Party_Security_Policy_v2.0_UAE_IA_Mapping.json",
+    "count": 46
   },
   {
     "policy_doc_id": "clientname-IS-POL-00-Security Operations Policy",
     "file": "clientname-IS-POL-00-Security_Operations_Policy.json",
-    "count": 29
+    "count": 35
   },
   {
     "policy_doc_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 1",
     "file": "clientname-IS-POL-00-Information_Risk_Management_Policy_v1.2_1.json",
-    "count": 28
+    "count": 34
   },
   {
     "policy_doc_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2",
     "file": "clientname-IS-POL-00-Information_Risk_Management_Policy_v1.2_2.json",
-    "count": 24
+    "count": 29
   },
   {
     "policy_doc_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 3",
     "file": "clientname-IS-POL-00-Information_Risk_Management_Policy_v1.2_3.json",
-    "count": 22
+    "count": 27
   },
   {
     "policy_doc_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4",
@@ -82,11 +82,11 @@
   {
     "policy_doc_id": "clientname-IS-POL-00-Logging and Monitoring Policy 2",
     "file": "clientname-IS-POL-00-Logging_and_Monitoring_Policy_2.json",
-    "count": 1
+    "count": 2
   },
   {
     "policy_doc_id": "clientname-IS-POL-00-Logging and Monitoring Policy 3",
     "file": "clientname-IS-POL-00-Logging_and_Monitoring_Policy_3.json",
-    "count": 1
+    "count": 2
   }
 ]

@@ -104,7 +104,8 @@ def make_triplets(rows: list, max_negs_per_pos: int = 5) -> list:
 
 
 def train_pairwise(cross_encoder, triplets: list, epochs: int,
-                   batch_size: int, warmup_steps: int, output_path: str):
+                   batch_size: int, warmup_steps: int, output_path: str,
+                   lr: float = 2e-5):
     """
     MarginMSE pairwise training loop.
 
@@ -127,7 +128,7 @@ def train_pairwise(cross_encoder, triplets: list, epochs: int,
     use_amp = device.type == "cuda"
     scaler  = torch.cuda.amp.GradScaler() if use_amp else None
 
-    optimizer = torch.optim.AdamW(hf_model.parameters(), lr=5e-6, weight_decay=0.01)
+    optimizer = torch.optim.AdamW(hf_model.parameters(), lr=lr, weight_decay=0.01)
     total_steps = (len(triplets) // batch_size + 1) * epochs
     scheduler = get_linear_schedule_with_warmup(optimizer, warmup_steps, total_steps)
 
@@ -302,6 +303,8 @@ def main():
     parser.add_argument("--batch-size",     type=int,   default=8,
                         help="Per-step triplet batch (pairwise mode runs 2× this through GPU; "
                              "default=8 → 16 pairs per forward pass, safe on 15 GiB GPU)")
+    parser.add_argument("--lr",             type=float, default=2e-5,
+                        help="Learning rate (default=2e-5; was hardcoded 5e-6 before which was too low)")
     parser.add_argument("--warmup-ratio",   type=float, default=0.1)
     parser.add_argument("--hard-neg-weight",type=float, default=1.5,
                         help="For mse mode: hard-neg duplication multiplier.")
@@ -391,7 +394,7 @@ def main():
               f"total={total_steps} steps)…")
 
         train_pairwise(model, triplets, args.epochs, args.batch_size,
-                       warmup_steps, output_path)
+                       warmup_steps, output_path, lr=args.lr)
 
     else:  # mse
         print(f"\nBuilding pointwise examples for MSE training...")

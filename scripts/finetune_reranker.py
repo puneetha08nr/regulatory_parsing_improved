@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Fine-tune BAAI/bge-reranker-base (or any CrossEncoder) on the compliance golden dataset.
+Fine-tune ms-marco-MiniLM-L-6-v2 (or any CrossEncoder) on the compliance golden dataset.
 
 Training data produced by:
   python3 scripts/prepare_golden_for_training.py --format reranker
@@ -11,36 +11,37 @@ Each row: { query, passage, score }
   score 0.5  → Partially Addressed, single-control
   score 0.0  → Not Addressed / hard negative
 
-Loss modes
-----------
---loss pairwise  (DEFAULT) MarginMSE ranking loss.
-    Builds (query, positive, negative) triplets and trains the model to satisfy
-    score(q, pos) - score(q, neg) ≈ 1.0.
-    Directly optimises ranking (preserves Spearman) while still learning binary boundaries.
-    Fixes the Spearman collapse seen with pointwise MSE training.
+Loss
+----
+BPR (Bayesian Personalised Ranking) pairwise loss:
+    loss = -log(sigmoid(pos_logit - neg_logit))
 
---loss mse       Pointwise regression on raw scores (legacy, kept for comparison).
-    Trains the model to output exact scores (1.0 / 0.5 / 0.0).
-    Known issue: tends to collapse to binary predictions, hurting Spearman.
+Only cares about relative ordering (pos > neg) — never pushes logits toward a
+specific value, preventing score collapse.  A small pos_penalty regulariser
+keeps positive pair logits above 0, preventing them from drifting negative.
 
-Usage:
-  # Step 1: generate synthetic data (run once, ~2-3 hrs on CPU)
-  python3 scripts/generate_synthetic_pairs.py --model llama3.2:1b
+Early stopping monitors Spearman correlation on the dev set after each epoch
+and stops training (restoring the best checkpoint) if Spearman doesn't improve
+for `--patience` consecutive epochs.
 
-  # Step 2: build unified training set (synthetic + real golden, real weighted 3×)
-  python3 scripts/prepare_golden_for_training.py \\
-      --golden data/07_golden_mapping/golden_mapping_dataset.json \\
-      --synthetic data/07_golden_mapping/synthetic_pairs.json \\
-      --real-weight 3 --format reranker
-
-  # Step 3a: CPU run with LoRA (recommended, ~2 hrs, low memory)
+GPU run (~10 min on T4):
   python3 scripts/finetune_reranker.py \\
-      --loss pairwise --lora --lora-r 16 --epochs 3 --lr 5e-6 \\
-      --max-negs-per-pos 5
+      --base-model cross-encoder/ms-marco-MiniLM-L-6-v2 \\
+      --loss bpr --max-negs-per-pos 3 --epochs 3 --lr 2e-5 \\
+      --batch-size 16 --early-stopping \\
+      --output models/reranker-finetuned-v3
 
-  # Step 3b: GPU run without LoRA (faster, ~30 min, higher capacity)
+CPU run with LoRA (~45 min):
   python3 scripts/finetune_reranker.py \\
-      --loss pairwise --epochs 3 --batch-size 16 --max-negs-per-pos 20
+      --base-model cross-encoder/ms-marco-MiniLM-L-6-v2 \\
+      --loss bpr --lora --lora-r 8 --max-negs-per-pos 3 \\
+      --epochs 3 --lr 2e-5 --batch-size 8 --max-length 128 \\
+      --early-stopping --output models/reranker-finetuned-v3
+
+Eval only (epochs=0):
+  python3 scripts/finetune_reranker.py \\
+      --base-model models/reranker-finetuned-v3 \\
+      --epochs 0 --output /tmp/eval_only
 """
 
 import argparse
@@ -61,17 +62,23 @@ def load_rows(path: str):
         return json.load(f)
 
 
-# ── Pairwise (MarginMSE) helpers ──────────────────────────────────────────────
+# ── Triplet building ──────────────────────────────────────────────────────────
 
-def make_triplets(rows: list, max_negs_per_pos: int = 5) -> list:
+def make_triplets(rows: list, max_negs_per_pos: int = 3) -> list:
     """
-    Group rows by query and build (query, positive_passage, negative_passage) triplets.
+    Build (query, positive_passage, negative_passage) triplets.
 
-    max_negs_per_pos caps how many negatives each positive is paired with.
-    Hard negatives are prioritised; remaining slots filled with random negatives.
-    Default=5 keeps total triplets manageable for CPU (~3,500 vs 41,000+).
+    Negative selection priority per query:
+      1. Hard negatives (is_hard_negative=True) — domain-relevant wrong controls
+      2. Random negatives from the same query group
+      3. Cross-query hard negatives if local supply is exhausted
+
+    max_negs_per_pos=3 is the recommended default.  Using more (e.g. 10) causes
+    score collapse: the gradient pressure to push neg scores down overwhelms the
+    pressure to keep pos scores up, and the model learns to output low logits for
+    everything.
     """
-    groups = defaultdict(lambda: {"pos": [], "neg": [], "hard": []})
+    groups = defaultdict(lambda: {"pos": [], "hard": [], "neg": []})
     for r in rows:
         q = r["query"]
         p = r["passage"]
@@ -83,38 +90,96 @@ def make_triplets(rows: list, max_negs_per_pos: int = 5) -> list:
         else:
             groups[q]["neg"].append(p)
 
+    # Collect all hard negatives for cross-query fallback
+    all_hard_negs = [p for g in groups.values() for p in g["hard"]]
+
     triplets = []
     for q, g in groups.items():
-        # Hard negatives first, then random negatives, capped per positive
-        all_negs = g["hard"] + g["neg"]
-        if not all_negs:
+        if not g["pos"]:
             continue
+        # Ordered preference: hard → random → cross-query hard
+        ordered_negs = g["hard"] + g["neg"]
+        if len(ordered_negs) < max_negs_per_pos and all_hard_negs:
+            extra = [h for h in all_hard_negs if h not in g["hard"]]
+            random.shuffle(extra)
+            ordered_negs = ordered_negs + extra
+
         for pos in g["pos"]:
-            sampled = all_negs[:max_negs_per_pos]   # hard negs already first
-            for neg in sampled:
+            for neg in ordered_negs[:max_negs_per_pos]:
                 triplets.append((q, pos, neg))
 
     random.shuffle(triplets)
-    n_pos = sum(len(g["pos"]) for g in groups.values())
-    n_neg = sum(len(g["neg"]) + len(g["hard"]) for g in groups.values())
+    n_pos  = sum(len(g["pos"])  for g in groups.values())
+    n_neg  = sum(len(g["hard"]) + len(g["neg"]) for g in groups.values())
+    n_hard = sum(len(g["hard"]) for g in groups.values())
     print(f"  Triplets: {len(triplets)}  "
           f"(from {n_pos} positives × up to {max_negs_per_pos} negatives each; "
-          f"{n_neg} total negatives available)")
+          f"{n_neg} local negatives, {n_hard} hard)")
     return triplets
 
 
-def train_pairwise(cross_encoder, triplets: list, epochs: int,
-                   batch_size: int, warmup_steps: int, output_path: str,
-                   lr: float = 2e-5):
+# ── Evaluation ────────────────────────────────────────────────────────────────
+
+def evaluate(model, dev_rows: list, sample_n: int = None) -> dict:
     """
-    MarginMSE pairwise training loop.
+    Evaluate ranking quality on dev set.
 
-    For each triplet (q, pos, neg), we compute:
-        loss = MSE(score(q, pos) - score(q, neg),  target=1.0)
+    Binary threshold is 0.0 (logit > 0 = positive) which is appropriate for
+    raw-logit cross-encoder models (not sigmoid-activated outputs).
+    """
+    import statistics
+    rows = dev_rows
+    if sample_n and len(rows) > sample_n:
+        rows = random.sample(rows, sample_n)
 
-    Pos and neg pairs are concatenated into ONE forward pass of size 2×batch_size
-    to halve memory vs two separate passes. Mixed precision (fp16) is used
-    automatically when a CUDA GPU is available.
+    pairs = [[r["query"], r["passage"]] for r in rows]
+    gold  = [float(r.get("score", 0.0)) for r in rows]
+    pred  = model.predict(pairs, show_progress_bar=False)
+
+    mae = statistics.mean(abs(p - g) for p, g in zip(pred, gold))
+
+    try:
+        from scipy.stats import spearmanr
+        corr, _ = spearmanr(pred, gold)
+    except ImportError:
+        corr = float("nan")
+
+    # Use logit threshold 0.0 (not 0.5): raw logits are centred near 0, not 0-1.
+    binary_correct = sum(1 for p, g in zip(pred, gold) if (p >= 0.0) == (g >= 0.5))
+    accuracy = binary_correct / len(gold) if gold else 0.0
+
+    pos_logits = [p for p, g in zip(pred, gold) if g >= 0.5]
+    neg_logits = [p for p, g in zip(pred, gold) if g < 0.5]
+    avg_pos = sum(pos_logits) / len(pos_logits) if pos_logits else float("nan")
+    avg_neg = sum(neg_logits) / len(neg_logits) if neg_logits else float("nan")
+
+    return {
+        "mae": mae,
+        "spearman": corr,
+        "binary_accuracy": accuracy,
+        "avg_pos_logit": avg_pos,
+        "avg_neg_logit": avg_neg,
+    }
+
+
+# ── BPR training loop ─────────────────────────────────────────────────────────
+
+def train_bpr(cross_encoder, triplets: list, dev_rows: list,
+              epochs: int, batch_size: int, warmup_steps: int,
+              output_path: str, lr: float = 2e-5,
+              pos_penalty_weight: float = 0.1,
+              early_stopping: bool = True, patience: int = 2):
+    """
+    BPR (Bayesian Personalised Ranking) pairwise training loop.
+
+    loss = -log(sigmoid(pos_logit - neg_logit))
+         + pos_penalty_weight * relu(-pos_logit).mean()
+
+    The pos_penalty term prevents score collapse: it penalises the model when
+    positive pair logits go negative, keeping them above 0 without forcing them
+    to a specific value.
+
+    Best checkpoint is saved based on dev Spearman (not train loss).
     """
     import torch
     import torch.nn as nn
@@ -126,38 +191,28 @@ def train_pairwise(cross_encoder, triplets: list, epochs: int,
     device    = next(hf_model.parameters()).device
 
     use_amp = device.type == "cuda"
-    scaler  = torch.cuda.amp.GradScaler() if use_amp else None
+    scaler  = torch.amp.GradScaler("cuda") if use_amp else None
 
     optimizer = torch.optim.AdamW(hf_model.parameters(), lr=lr, weight_decay=0.01)
     total_steps = (len(triplets) // batch_size + 1) * epochs
-    scheduler = get_linear_schedule_with_warmup(optimizer, warmup_steps, total_steps)
+    scheduler   = get_linear_schedule_with_warmup(optimizer, warmup_steps, total_steps)
 
-    # BPR loss: -log(sigmoid(logit_pos - logit_neg))
-    # Maximises P(pos ranks above neg).  Numerically stable — no large values.
-    # Better than MSE on raw logits (which explodes when logits are ±10+).
-    def bpr_loss(pos_logits, neg_logits):
+    def bpr_loss_fn(pos_logits, neg_logits):
         return -torch.log(torch.sigmoid(pos_logits - neg_logits) + 1e-8).mean()
 
-    def score_pairs_combined(queries, pos_passages, neg_passages):
-        """Single forward pass for both pos and neg — halves peak GPU memory.
-
-        Returns RAW LOGITS (not sigmoid) so the MarginMSE diff target of 1.0
-        is achievable without forcing extreme weight values.  With sigmoid,
-        the max achievable diff is ~0.76 in normal logit range, which drives
-        the model to push weights to ±10 and destroys ranking quality.
-        """
-        all_q = queries + queries                    # [q…q, q…q]
-        all_p = pos_passages + neg_passages          # [pos…, neg…]
+    def score_combined(queries, pos_passages, neg_passages):
+        all_q = queries + queries
+        all_p = pos_passages + neg_passages
         enc = tokenizer(
             all_q, all_p,
             padding=True, truncation=True,
             max_length=max_len, return_tensors="pt"
         )
         enc = {k: v.to(device) for k, v in enc.items()}
-        with torch.cuda.amp.autocast(enabled=use_amp):
-            logits = hf_model(**enc).logits.squeeze(-1)   # (2B,)  raw logits
+        with torch.amp.autocast("cuda", enabled=use_amp):
+            logits = hf_model(**enc).logits.squeeze(-1)
         B = len(queries)
-        return logits[:B], logits[B:]   # pos_logits, neg_logits
+        return logits[:B], logits[B:]
 
     try:
         from tqdm import tqdm
@@ -165,11 +220,12 @@ def train_pairwise(cross_encoder, triplets: list, epochs: int,
     except ImportError:
         use_tqdm = False
 
-    best_loss = float("inf")
     Path(output_path).mkdir(parents=True, exist_ok=True)
 
+    best_spearman   = float("-inf")
+    no_improve_cnt  = 0
     steps_per_epoch = (len(triplets) + batch_size - 1) // batch_size
-    log_every = max(1, steps_per_epoch // 10)   # print ~10 times per epoch
+    log_every       = max(1, steps_per_epoch // 10)
 
     for epoch in range(epochs):
         random.shuffle(triplets)
@@ -182,13 +238,19 @@ def train_pairwise(cross_encoder, triplets: list, epochs: int,
             batches = tqdm(batches, desc=f"Epoch {epoch+1}/{epochs}", unit="batch")
 
         for i in batches:
-            batch = triplets[i : i + batch_size]
-            queries   = [t[0] for t in batch]
-            pos_pass  = [t[1] for t in batch]
-            neg_pass  = [t[2] for t in batch]
+            batch      = triplets[i : i + batch_size]
+            queries    = [t[0] for t in batch]
+            pos_pass   = [t[1] for t in batch]
+            neg_pass   = [t[2] for t in batch]
 
-            pos_logits, neg_logits = score_pairs_combined(queries, pos_pass, neg_pass)
-            loss = bpr_loss(pos_logits, neg_logits)
+            pos_logits, neg_logits = score_combined(queries, pos_pass, neg_pass)
+
+            loss = bpr_loss_fn(pos_logits, neg_logits)
+
+            # Pos-penalty: penalise when positive logits go below 0
+            if pos_penalty_weight > 0:
+                pos_penalty = torch.relu(-pos_logits).mean()
+                loss = loss + pos_penalty_weight * pos_penalty
 
             optimizer.zero_grad()
             if scaler is not None:
@@ -209,18 +271,37 @@ def train_pairwise(cross_encoder, triplets: list, epochs: int,
             if use_tqdm:
                 batches.set_postfix(loss=f"{loss.item():.4f}")
             elif steps % log_every == 0:
-                print(f"  Epoch {epoch+1}/{epochs}  step {steps}/{steps_per_epoch}  "
+                print(f"  step {steps}/{steps_per_epoch}  "
                       f"loss={loss.item():.4f}  avg={epoch_loss/steps:.4f}", flush=True)
 
-        avg = epoch_loss / max(steps, 1)
-        print(f"  Epoch {epoch+1}/{epochs} complete  avg_loss={avg:.4f}", flush=True)
+        avg_loss = epoch_loss / max(steps, 1)
 
-        if avg < best_loss:
-            best_loss = avg
+        # Per-epoch Spearman on a dev sample (fast)
+        hf_model.eval()
+        dev_metrics = evaluate(cross_encoder, dev_rows, sample_n=200)
+        sp = dev_metrics["spearman"]
+        avg_pos = dev_metrics["avg_pos_logit"]
+        avg_neg = dev_metrics["avg_neg_logit"]
+
+        print(f"  Epoch {epoch+1}/{epochs}  "
+              f"loss={avg_loss:.4f}  spearman={sp:.4f}  "
+              f"binary_acc={dev_metrics['binary_accuracy']:.4f}  "
+              f"avg_pos={avg_pos:.2f}  avg_neg={avg_neg:.2f}", flush=True)
+
+        if sp > best_spearman:
+            best_spearman = sp
+            no_improve_cnt = 0
             cross_encoder.save(output_path)
-            print(f"    → checkpoint saved (best so far)", flush=True)
+            print(f"    → checkpoint saved (best spearman={sp:.4f})", flush=True)
+        else:
+            no_improve_cnt += 1
+            print(f"    → no improvement ({no_improve_cnt}/{patience})", flush=True)
+            if early_stopping and no_improve_cnt >= patience:
+                print(f"  Early stopping triggered — restoring best checkpoint.", flush=True)
+                break
 
-    print(f"\nBest pairwise loss: {best_loss:.4f}")
+    print(f"\nBest dev Spearman: {best_spearman:.4f}")
+    return best_spearman
 
 
 # ── Pointwise (MSE) helpers ───────────────────────────────────────────────────
@@ -257,29 +338,6 @@ def make_examples(rows, hard_negative_weight=1.5, label_smoothing=0.0):
     return examples
 
 
-# ── Evaluation ────────────────────────────────────────────────────────────────
-
-def evaluate(model, dev_rows: list) -> dict:
-    import statistics
-
-    pairs = [[r["query"], r["passage"]] for r in dev_rows]
-    gold  = [float(r.get("score", 0.0)) for r in dev_rows]
-    pred  = model.predict(pairs, show_progress_bar=False)
-
-    mae = statistics.mean(abs(p - g) for p, g in zip(pred, gold))
-
-    try:
-        from scipy.stats import spearmanr
-        corr, _ = spearmanr(pred, gold)
-    except ImportError:
-        corr = float("nan")
-
-    binary_correct = sum(1 for p, g in zip(pred, gold) if (p >= 0.5) == (g >= 0.5))
-    accuracy = binary_correct / len(gold) if gold else 0.0
-
-    return {"mae": mae, "spearman": corr, "binary_accuracy": accuracy}
-
-
 # ── Main ──────────────────────────────────────────────────────────────────────
 
 def main():
@@ -287,34 +345,35 @@ def main():
     parser.add_argument("--train",      required=True)
     parser.add_argument("--dev",        required=True)
     parser.add_argument("--output",     default="models/compliance-reranker")
-    parser.add_argument("--base-model", default="BAAI/bge-reranker-base")
+    parser.add_argument("--base-model", default="cross-encoder/ms-marco-MiniLM-L-6-v2")
     parser.add_argument("--lora",       action="store_true",
                         help="Use LoRA adapters (requires pip install peft). "
-                             "Trains only ~2M params instead of 278M — 10× faster on CPU, "
-                             "prevents catastrophic forgetting. Recommended for CPU runs.")
-    parser.add_argument("--lora-r",     type=int, default=16,
-                        help="LoRA rank (default=16; lower=faster/smaller, higher=more capacity)")
-    parser.add_argument("--loss",       default="pairwise", choices=["pairwise", "mse"],
-                        help="pairwise=MarginMSE ranking loss (default, fixes Spearman collapse); "
+                             "Recommended for CPU runs.")
+    parser.add_argument("--lora-r",     type=int, default=8)
+    parser.add_argument("--loss",       default="bpr", choices=["bpr", "pairwise", "mse"],
+                        help="bpr=BPR ranking loss (default, prevents score collapse); "
+                             "pairwise=alias for bpr; "
                              "mse=pointwise regression (legacy)")
-    parser.add_argument("--epochs",         type=int,   default=3,
-                        help="Training epochs (default=3; more than 3 risks catastrophic forgetting "
-                             "on small datasets like this one)")
-    parser.add_argument("--batch-size",     type=int,   default=8,
-                        help="Per-step triplet batch (pairwise mode runs 2× this through GPU; "
-                             "default=8 → 16 pairs per forward pass, safe on 15 GiB GPU)")
-    parser.add_argument("--lr",             type=float, default=2e-5,
-                        help="Learning rate (default=2e-5; was hardcoded 5e-6 before which was too low)")
+    parser.add_argument("--epochs",         type=int,   default=3)
+    parser.add_argument("--batch-size",     type=int,   default=16)
+    parser.add_argument("--lr",             type=float, default=2e-5)
     parser.add_argument("--warmup-ratio",   type=float, default=0.1)
+    parser.add_argument("--pos-penalty",    type=float, default=0.1,
+                        help="Weight for positive-logit regulariser (keeps pos logits > 0). "
+                             "Default=0.1. Set 0 to disable.")
+    parser.add_argument("--early-stopping", action="store_true",
+                        help="Stop training if dev Spearman does not improve for --patience epochs.")
+    parser.add_argument("--patience",       type=int,   default=2,
+                        help="Early stopping patience (default=2 epochs).")
     parser.add_argument("--hard-neg-weight",type=float, default=1.5,
                         help="For mse mode: hard-neg duplication multiplier.")
-    parser.add_argument("--max-negs-per-pos", type=int, default=5,
-                        help="Pairwise mode: max negatives paired with each positive. "
-                             "Default=5 → ~3,500 triplets, feasible on CPU in ~20-30 min. "
-                             "Increase for GPU runs (e.g. 20 → ~14,000 triplets).")
-    parser.add_argument("--max-length",     type=int,   default=512)
+    parser.add_argument("--max-negs-per-pos", type=int, default=3,
+                        help="Max negatives per positive for BPR triplets. "
+                             "Default=3 prevents score collapse. "
+                             "Hard negatives are prioritised.")
+    parser.add_argument("--max-length",     type=int,   default=256)
     parser.add_argument("--label-smoothing",type=float, default=0.0,
-                        help="For mse mode only. 0.0 = no smoothing (default).")
+                        help="For mse mode only.")
     args = parser.parse_args()
 
     try:
@@ -346,8 +405,6 @@ def main():
     model = CrossEncoder(args.base_model, max_length=args.max_length, num_labels=1)
 
     # ── Optional LoRA wrapping ────────────────────────────────────────────────
-    # Skip LoRA when epochs=0 (eval-only mode): the loaded model is already
-    # fine-tuned and merged; re-wrapping would corrupt its weights.
     if args.lora and args.epochs > 0:
         try:
             from peft import get_peft_model, LoraConfig, TaskType
@@ -363,38 +420,61 @@ def main():
             bias="none",
         )
         model.model = get_peft_model(model.model, peft_config)
-        trainable, total = model.model.get_nb_trainable_parameters() if hasattr(
-            model.model, "get_nb_trainable_parameters") else (
-            sum(p.numel() for p in model.model.parameters() if p.requires_grad),
-            sum(p.numel() for p in model.model.parameters()))
+        trainable, total = (
+            model.model.get_nb_trainable_parameters()
+            if hasattr(model.model, "get_nb_trainable_parameters")
+            else (
+                sum(p.numel() for p in model.model.parameters() if p.requires_grad),
+                sum(p.numel() for p in model.model.parameters()),
+            )
+        )
         print(f"\nLoRA enabled  rank={args.lora_r}  "
               f"trainable={trainable:,} / {total:,} params "
               f"({100 * trainable / total:.2f}%)")
     elif args.lora and args.epochs == 0:
-        print("  (--lora ignored in eval-only mode — model already fine-tuned)")
+        print("  (--lora ignored in eval-only mode)")
 
     # ── Baseline ──────────────────────────────────────────────────────────────
     print("\nBaseline (before fine-tuning):")
     baseline = evaluate(model, dev_rows)
-    print(f"  MAE={baseline['mae']:.4f}  Spearman={baseline['spearman']:.4f}  "
-          f"BinaryAcc={baseline['binary_accuracy']:.4f}")
+    print(f"  Spearman={baseline['spearman']:.4f}  "
+          f"BinaryAcc={baseline['binary_accuracy']:.4f}  "
+          f"avg_pos_logit={baseline['avg_pos_logit']:.2f}  "
+          f"avg_neg_logit={baseline['avg_neg_logit']:.2f}")
+
+    if args.epochs == 0:
+        print("\n(eval-only mode — no training)")
+        return
 
     output_path = str(Path(args.output).resolve())
     Path(output_path).mkdir(parents=True, exist_ok=True)
 
     # ── Train ─────────────────────────────────────────────────────────────────
-    if args.loss == "pairwise":
-        print(f"\nBuilding triplets for pairwise MarginMSE training...")
+    if args.loss in ("bpr", "pairwise"):
+        print(f"\nBuilding BPR triplets  (max_negs_per_pos={args.max_negs_per_pos})...")
         triplets = make_triplets(train_rows, max_negs_per_pos=args.max_negs_per_pos)
 
         total_steps  = (len(triplets) // args.batch_size + 1) * args.epochs
         warmup_steps = int(total_steps * args.warmup_ratio)
         print(f"\nFine-tuning for {args.epochs} epochs  "
-              f"(batch={args.batch_size}, warmup={warmup_steps} steps, "
-              f"total={total_steps} steps)…")
+              f"(batch={args.batch_size}, lr={args.lr:.0e}, "
+              f"warmup={warmup_steps}, total={total_steps})…")
+        if args.early_stopping:
+            print(f"  Early stopping: patience={args.patience} epochs (metric=Spearman)")
+        if args.pos_penalty > 0:
+            print(f"  Pos-penalty weight: {args.pos_penalty} (keeps positive logits > 0)")
 
-        train_pairwise(model, triplets, args.epochs, args.batch_size,
-                       warmup_steps, output_path, lr=args.lr)
+        train_bpr(
+            model, triplets, dev_rows,
+            epochs=args.epochs,
+            batch_size=args.batch_size,
+            warmup_steps=warmup_steps,
+            output_path=output_path,
+            lr=args.lr,
+            pos_penalty_weight=args.pos_penalty,
+            early_stopping=args.early_stopping,
+            patience=args.patience,
+        )
 
     else:  # mse
         print(f"\nBuilding pointwise examples for MSE training...")
@@ -420,48 +500,47 @@ def main():
             save_best_model=True,
         )
 
-    # ── Explicit final save (skipped in eval-only mode) ──────────────────────
-    if args.epochs > 0:
-        print(f"\nSaving final model to {output_path} ...")
-        if args.lora:
-            # Merge LoRA adapters back into base weights before saving so the
-            # output is a standard CrossEncoder loadable without peft installed.
-            print("  Merging LoRA adapters into base weights...")
-            model.model = model.model.merge_and_unload()
-        model.save(output_path)
+    # ── Final save ────────────────────────────────────────────────────────────
+    # For BPR mode the best checkpoint is already saved inside train_bpr().
+    # For MSE mode model.fit() handles saving. We do a final explicit save here
+    # to ensure the merged (non-PEFT) weights are always on disk.
+    print(f"\nSaving final model to {output_path} ...")
+    if args.lora:
+        print("  Merging LoRA adapters into base weights...")
+        model.model = model.model.merge_and_unload()
+    model.save(output_path)
 
-        saved_files = []
-        for root, _, files in os.walk(output_path):
-            for f in files:
-                saved_files.append(os.path.relpath(os.path.join(root, f), output_path))
-        if saved_files:
-            print(f"  ✓ {len(saved_files)} file(s) written:")
-            for sf in saved_files[:10]:
-                print(f"    {sf}")
-            if len(saved_files) > 10:
-                print(f"    ... and {len(saved_files) - 10} more")
-        else:
-            print("  WARNING: No files found after save — check disk space / permissions.")
+    saved_files = []
+    for root, _, files in os.walk(output_path):
+        for f in files:
+            saved_files.append(os.path.relpath(os.path.join(root, f), output_path))
+    if saved_files:
+        print(f"  ✓ {len(saved_files)} file(s) saved:")
+        for sf in saved_files[:10]:
+            print(f"    {sf}")
+        if len(saved_files) > 10:
+            print(f"    ... and {len(saved_files) - 10} more")
+    else:
+        print("  WARNING: no files found — check disk space / permissions.")
 
-    # ── Post-training evaluation ──────────────────────────────────────────────
-    label = "Eval (loaded model)" if args.epochs == 0 else "After fine-tuning"
-    print(f"\n{label}:")
+    # ── Final evaluation ──────────────────────────────────────────────────────
+    print("\nAfter fine-tuning (full dev set):")
     trained = evaluate(model, dev_rows)
-    pred_sample = model.predict([[dev_rows[0]["query"], dev_rows[0]["passage"]]])[0]
-    print(f"  MAE={trained['mae']:.4f}  Spearman={trained['spearman']:.4f}  "
-          f"BinaryAcc={trained['binary_accuracy']:.4f}")
-    print(f"  (note: MAE uses raw logits vs 0-1 labels — Spearman is the key metric)")
-    print(f"  Sample logit: {pred_sample:.4f}  (positive = relevant, negative = not relevant)")
+    print(f"  Spearman={trained['spearman']:.4f}  "
+          f"BinaryAcc={trained['binary_accuracy']:.4f}  "
+          f"avg_pos_logit={trained['avg_pos_logit']:.2f}  "
+          f"avg_neg_logit={trained['avg_neg_logit']:.2f}")
 
-    if args.epochs > 0:
-        print(f"\n  Δ MAE      = {baseline['mae'] - trained['mae']:+.4f}  (positive = improvement)")
-        print(f"  Δ Spearman = {trained['spearman'] - baseline['spearman']:+.4f}  (positive = improvement)")
-        print(f"  Δ Acc      = {trained['binary_accuracy'] - baseline['binary_accuracy']:+.4f}")
+    print(f"\n  Δ Spearman   = {trained['spearman'] - baseline['spearman']:+.4f}  "
+          f"(positive = improvement)")
+    print(f"  Δ BinaryAcc  = {trained['binary_accuracy'] - baseline['binary_accuracy']:+.4f}")
+    print(f"  Δ avg_pos    = {trained['avg_pos_logit'] - baseline['avg_pos_logit']:+.2f}  "
+          f"(positive = pos logits moved up)")
 
-        print(f"\nModel saved → {output_path}")
-        print("\nTo use the fine-tuned model in the pipeline, set:")
-        print(f"  export RERANKER_MODEL={output_path}")
-        print("  python3 quick_start_compliance.py")
+    print(f"\nModel saved → {output_path}")
+    print("\nTo use in the pipeline:")
+    print(f"  export RERANKER_MODEL={output_path}")
+    print("  python3 quick_start_compliance.py")
 
 
 if __name__ == "__main__":

@@ -343,7 +343,9 @@ def main():
     model = CrossEncoder(args.base_model, max_length=args.max_length, num_labels=1)
 
     # ── Optional LoRA wrapping ────────────────────────────────────────────────
-    if args.lora:
+    # Skip LoRA when epochs=0 (eval-only mode): the loaded model is already
+    # fine-tuned and merged; re-wrapping would corrupt its weights.
+    if args.lora and args.epochs > 0:
         try:
             from peft import get_peft_model, LoraConfig, TaskType
         except ImportError:
@@ -365,6 +367,8 @@ def main():
         print(f"\nLoRA enabled  rank={args.lora_r}  "
               f"trainable={trainable:,} / {total:,} params "
               f"({100 * trainable / total:.2f}%)")
+    elif args.lora and args.epochs == 0:
+        print("  (--lora ignored in eval-only mode — model already fine-tuned)")
 
     # ── Baseline ──────────────────────────────────────────────────────────────
     print("\nBaseline (before fine-tuning):")
@@ -413,42 +417,48 @@ def main():
             save_best_model=True,
         )
 
-    # ── Explicit final save ───────────────────────────────────────────────────
-    print(f"\nSaving final model to {output_path} ...")
-    if args.lora:
-        # Merge LoRA adapters back into base weights before saving so the
-        # output is a standard CrossEncoder loadable without peft installed.
-        print("  Merging LoRA adapters into base weights...")
-        model.model = model.model.merge_and_unload()
-    model.save(output_path)
+    # ── Explicit final save (skipped in eval-only mode) ──────────────────────
+    if args.epochs > 0:
+        print(f"\nSaving final model to {output_path} ...")
+        if args.lora:
+            # Merge LoRA adapters back into base weights before saving so the
+            # output is a standard CrossEncoder loadable without peft installed.
+            print("  Merging LoRA adapters into base weights...")
+            model.model = model.model.merge_and_unload()
+        model.save(output_path)
 
-    saved_files = []
-    for root, _, files in os.walk(output_path):
-        for f in files:
-            saved_files.append(os.path.relpath(os.path.join(root, f), output_path))
-    if saved_files:
-        print(f"  ✓ {len(saved_files)} file(s) written:")
-        for sf in saved_files[:10]:
-            print(f"    {sf}")
-        if len(saved_files) > 10:
-            print(f"    ... and {len(saved_files) - 10} more")
-    else:
-        print("  WARNING: No files found after save — check disk space / permissions.")
+        saved_files = []
+        for root, _, files in os.walk(output_path):
+            for f in files:
+                saved_files.append(os.path.relpath(os.path.join(root, f), output_path))
+        if saved_files:
+            print(f"  ✓ {len(saved_files)} file(s) written:")
+            for sf in saved_files[:10]:
+                print(f"    {sf}")
+            if len(saved_files) > 10:
+                print(f"    ... and {len(saved_files) - 10} more")
+        else:
+            print("  WARNING: No files found after save — check disk space / permissions.")
 
     # ── Post-training evaluation ──────────────────────────────────────────────
-    print("\nAfter fine-tuning:")
+    label = "Eval (loaded model)" if args.epochs == 0 else "After fine-tuning"
+    print(f"\n{label}:")
     trained = evaluate(model, dev_rows)
+    pred_sample = model.predict([[dev_rows[0]["query"], dev_rows[0]["passage"]]])[0]
     print(f"  MAE={trained['mae']:.4f}  Spearman={trained['spearman']:.4f}  "
           f"BinaryAcc={trained['binary_accuracy']:.4f}")
+    print(f"  (note: MAE uses raw logits vs 0-1 labels — Spearman is the key metric)")
+    print(f"  Sample logit: {pred_sample:.4f}  (positive = relevant, negative = not relevant)")
 
-    print(f"\n  Δ MAE      = {baseline['mae'] - trained['mae']:+.4f}  (positive = improvement)")
-    print(f"  Δ Spearman = {trained['spearman'] - baseline['spearman']:+.4f}  (positive = improvement)")
-    print(f"  Δ Acc      = {trained['binary_accuracy'] - baseline['binary_accuracy']:+.4f}")
+    if args.epochs > 0:
+        print(f"\n  Δ MAE      = {baseline['mae'] - trained['mae']:+.4f}  (positive = improvement)")
+        print(f"  Δ Spearman = {trained['spearman'] - baseline['spearman']:+.4f}  (positive = improvement)")
+        print(f"  Δ Acc      = {trained['binary_accuracy'] - baseline['binary_accuracy']:+.4f}")
 
-    print(f"\nModel saved → {output_path}")
-    print("\nTo use the fine-tuned model in the pipeline, set:")
-    print(f"  export RERANKER_MODEL={output_path}")
-    print("  python3 quick_start_compliance.py")
+        print(f"\nModel saved → {output_path}")
+        print("\nTo use the fine-tuned model in the pipeline, set:")
+        print(f"  export RERANKER_MODEL={output_path}")
+        print("  python3 quick_start_compliance.py")
 
 
 if __name__ == "__main__":

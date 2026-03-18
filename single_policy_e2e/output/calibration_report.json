@@ -1,0 +1,77 @@
+{
+  "mappings_source": "single_policy_e2e/output/mappings.json",
+  "golden_source": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing_improved/data/07_golden_mapping/golden_mapping_dataset.json",
+  "joined_count": 15,
+  "label_counts": {
+    "Not Addressed": 6,
+    "Fully Addressed": 4,
+    "Partially Addressed": 5
+  },
+  "score_distributions": {
+    "Fully Addressed": {
+      "n": 4,
+      "min": 0.8554,
+      "max": 5.8374,
+      "mean": 4.0096,
+      "median": 4.6729,
+      "std": 2.2608
+    },
+    "Partially Addressed": {
+      "n": 5,
+      "min": 0.7044,
+      "max": 5.0027,
+      "mean": 2.8189,
+      "median": 2.2386,
+      "std": 1.74
+    },
+    "Not Addressed": {
+      "n": 6,
+      "min": 2.0057,
+      "max": 6.1459,
+      "mean": 4.1514,
+      "median": 4.1913,
+      "std": 1.4392
+    }
+  },
+  "best_f1": {
+    "threshold_full": 0.6,
+    "threshold_partial": 0.6,
+    "precision": 0.6,
+    "recall": 1.0,
+    "f1": 0.7499999999999999,
+    "tp": 9,
+    "fp": 6,
+    "fn": 0
+  },
+  "best_recall": {
+    "threshold_full": 0.6,
+    "threshold_partial": 0.6,
+    "precision": 0.6,
+    "recall": 1.0,
+    "f1": 0.7499999999999999,
+    "tp": 9,
+    "fp": 6,
+    "fn": 0
+  },
+  "recommended": {
+    "mode": "f1",
+    "threshold_full": 0.6,
+    "threshold_partial": 0.6,
+    "precision": 0.6,
+    "recall": 1.0,
+    "f1": 0.7499999999999999,
+    "tp": 9,
+    "fp": 6,
+    "fn": 0
+  },
+  "relabelling_before": {
+    "Fully Addressed": 22,
+    "Partially Addressed": 1,
+    "Not Addressed": 0
+  },
+  "relabelling_after": {
+    "Fully Addressed": 21,
+    "Partially Addressed": 0,
+    "Not Addressed": 2
+  }
+}

@@ -99,28 +99,6 @@
     "notes": "Reranker: 0.284"
   },
   {
-    "mapping_id": "T5.2.4_clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_10",
-    "source_control_id": "T5.2.4",
-    "target_policy_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_10",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2608660161495209,
-    "evidence_text": "8.4 User Registration and De-Registration\n\nUAE Public Prosecution shall:\n\n2. The use of shared IDs is prohibited by default, unless there is a valid business justification which is approved by UAEPP’s senior management and CISO.\n3. Immediately disable or remove user ID’s of users who have left the organization.\n4. Perform periodic review of user access across the information and information assets to determine and disable redundant user ID’s and access privileges that are no longer required or a",
-    "mapping_date": "2026-03-16T09:50:21.437905",
-    "reviewer": null,
-    "notes": "Reranker: 0.261"
-  },
-  {
-    "mapping_id": "T5.2.4_clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_7",
-    "source_control_id": "T5.2.4",
-    "target_policy_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_7",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2566258907318115,
-    "evidence_text": "8.1 Access Control\n\nUAE Public Prosecution shall:\n\n1. Ensure that asset owners determine appropriate access rules, privileges, and restrictions for specific user roles towards their assets.\n2. Ensure that the following factors are considered while defining the access control framework:\n2. Information dissemination and authorization process, e.g., the need-to-know principle, information security levels and classification of information.\n3. Consistency between the access rights and data classifica",
-    "mapping_date": "2026-03-16T09:50:21.437876",
-    "reviewer": null,
-    "notes": "Reranker: 0.257"
-  },
-  {
     "mapping_id": "T5.4.2_clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_9",
     "source_control_id": "T5.4.2",
     "target_policy_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_9",

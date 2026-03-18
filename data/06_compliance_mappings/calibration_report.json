@@ -1,0 +1,77 @@
+{
+  "mappings_source": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing_improved/data/06_compliance_mappings/mappings.json",
+  "golden_source": "/home/puneetha/Documents/IterativeResearch/feb6/regulatory_parsing_improved/data/07_golden_mapping/golden_mapping_dataset.json",
+  "joined_count": 85,
+  "label_counts": {
+    "Not Addressed": 76,
+    "Partially Addressed": 7,
+    "Fully Addressed": 2
+  },
+  "score_distributions": {
+    "Fully Addressed": {
+      "n": 2,
+      "min": 0.2752,
+      "max": 0.2909,
+      "mean": 0.283,
+      "median": 0.283,
+      "std": 0.0111
+    },
+    "Partially Addressed": {
+      "n": 7,
+      "min": 0.2711,
+      "max": 0.3151,
+      "mean": 0.2914,
+      "median": 0.2916,
+      "std": 0.0129
+    },
+    "Not Addressed": {
+      "n": 76,
+      "min": 0.2533,
+      "max": 0.3168,
+      "mean": 0.2783,
+      "median": 0.2759,
+      "std": 0.013
+    }
+  },
+  "best_f1": {
+    "threshold_full": 0.15,
+    "threshold_partial": 0.15,
+    "precision": 0.10588235294117647,
+    "recall": 1.0,
+    "f1": 0.19148936170212766,
+    "tp": 9,
+    "fp": 76,
+    "fn": 0
+  },
+  "best_recall": {
+    "threshold_full": 0.15,
+    "threshold_partial": 0.15,
+    "precision": 0.10588235294117647,
+    "recall": 1.0,
+    "f1": 0.19148936170212766,
+    "tp": 9,
+    "fp": 76,
+    "fn": 0
+  },
+  "recommended": {
+    "mode": "f1",
+    "threshold_full": 0.15,
+    "threshold_partial": 0.15,
+    "precision": 0.10588235294117647,
+    "recall": 1.0,
+    "f1": 0.19148936170212766,
+    "tp": 9,
+    "fp": 76,
+    "fn": 0
+  },
+  "relabelling_before": {
+    "Fully Addressed": 0,
+    "Partially Addressed": 162,
+    "Not Addressed": 0
+  },
+  "relabelling_after": {
+    "Fully Addressed": 162,
+    "Partially Addressed": 0,
+    "Not Addressed": 0
+  }
+}

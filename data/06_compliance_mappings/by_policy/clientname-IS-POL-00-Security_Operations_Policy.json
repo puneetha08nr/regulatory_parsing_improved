@@ -11,17 +11,6 @@
     "notes": "Reranker: 0.294"
   },
   {
-    "mapping_id": "M2.3.5_clientname-IS-POL-00-Security Operations Policy_passage_4",
-    "source_control_id": "M2.3.5",
-    "target_policy_id": "clientname-IS-POL-00-Security Operations Policy_passage_4",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2919006943702698,
-    "evidence_text": "4 SCOPE\n\nThis Policy applies to all employees, contractors and third parties who access or manage information and information assets or use the organization's information and communications technology (ICT) systems.\n\n**Any exceptions on the applicability of this Policy should be formally requested through the 'Policy Exception Management procedure.'**",
-    "mapping_date": "2026-03-16T09:46:03.906224",
-    "reviewer": null,
-    "notes": "Reranker: 0.292"
-  },
-  {
     "mapping_id": "M2.4.1_clientname-IS-POL-00-Security Operations Policy_passage_6",
     "source_control_id": "M2.4.1",
     "target_policy_id": "clientname-IS-POL-00-Security Operations Policy_passage_6",
@@ -75,17 +64,6 @@
     "mapping_date": "2026-03-16T09:46:42.259222",
     "reviewer": null,
     "notes": "Reranker: 0.274"
-  },
-  {
-    "mapping_id": "M4.3.1_clientname-IS-POL-00-Security Operations Policy_passage_5",
-    "source_control_id": "M4.3.1",
-    "target_policy_id": "clientname-IS-POL-00-Security Operations Policy_passage_5",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2692209780216217,
-    "evidence_text": "5 POLICY STATEMENT\n\nshall develop, implement, and maintain a Security Operations Policy (\"Policy\")  protection of assets through secure operational processes thereby contributing to an overall safe and secure organization.",
-    "mapping_date": "2026-03-16T09:46:42.259210",
-    "reviewer": null,
-    "notes": "Reranker: 0.269"
   },
   {
     "mapping_id": "M5.2.1_clientname-IS-POL-00-Security Operations Policy_passage_10",
@@ -176,28 +154,6 @@
     "notes": "Reranker: 0.287"
   },
   {
-    "mapping_id": "T3.3.2_clientname-IS-POL-00-Security Operations Policy_passage_8",
-    "source_control_id": "T3.3.2",
-    "target_policy_id": "clientname-IS-POL-00-Security Operations Policy_passage_8",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2585065960884094,
-    "evidence_text": "6.3 Separation of Development, Test and Operational Environments\n\nshall ensure that:\n\n1. Production environment shall be logically separated from test and development environments.\n2. Access to each environment shall be controlled using firewalls.\n3. Transfer of software between the development, test and production environments shall be subject to specific procedures such as the  Information Systems Acquisition, Development and Maintenance Procedure and will be documented.\n4. Development staff s",
-    "mapping_date": "2026-03-16T09:49:08.295642",
-    "reviewer": null,
-    "notes": "Reranker: 0.259"
-  },
-  {
-    "mapping_id": "T3.3.2_clientname-IS-POL-00-Security Operations Policy_passage_6",
-    "source_control_id": "T3.3.2",
-    "target_policy_id": "clientname-IS-POL-00-Security Operations Policy_passage_6",
-    "status": "Partially Addressed",
-    "entailment_score": 0.25235360860824585,
-    "evidence_text": "6.1 Documenting the Operating Procedures\n\nshall ensure that the:\n\n1. IT Team ensures that Operating procedures and work instructions for all information systems and standards are:\n2. Reviewed and updated periodically when there are:\n3. Changes to Equipment/Systems Technology and Configurations.\n4. Changes to business services.\n4. Release Management.\n5. Software Development.\n6. Problem Management.\n7. Incident Management.\n4. IT Team ensures that procedures are kept up-to-date are available to the ",
-    "mapping_date": "2026-03-16T09:49:08.295638",
-    "reviewer": null,
-    "notes": "Reranker: 0.252"
-  },
-  {
     "mapping_id": "T5.4.3_clientname-IS-POL-00-Security Operations Policy_passage_8",
     "source_control_id": "T5.4.3",
     "target_policy_id": "clientname-IS-POL-00-Security Operations Policy_passage_8",
@@ -242,28 +198,6 @@
     "notes": "Reranker: 0.283"
   },
   {
-    "mapping_id": "T7.3.4_clientname-IS-POL-00-Security Operations Policy_passage_10",
-    "source_control_id": "T7.3.4",
-    "target_policy_id": "clientname-IS-POL-00-Security Operations Policy_passage_10",
-    "status": "Partially Addressed",
-    "entailment_score": 0.28193578124046326,
-    "evidence_text": "6.5 System Acceptance\n\nshall ensure that:\n\n1. System acceptance tests are done in an appropriate test environment.\n2. Before moving any new system into production, it shall be tested as per the System Acceptance Plan.\n2. ’s system performance requirements.\n3. ’s Security requirements.\n4. ’s business continuity requirements.\n5. Error recovery and restart procedures.\n6. Effects of the new system on other existing systems.\n7. User training requirements and ease of use of new systems, so as to ensur",
-    "mapping_date": "2026-03-16T09:51:37.506896",
-    "reviewer": null,
-    "notes": "Reranker: 0.282"
-  },
-  {
-    "mapping_id": "T7.3.4_clientname-IS-POL-00-Security Operations Policy_passage_9",
-    "source_control_id": "T7.3.4",
-    "target_policy_id": "clientname-IS-POL-00-Security Operations Policy_passage_9",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2798316180706024,
-    "evidence_text": "6.4 Purchasing, Installation, Allocation and Management of New IT Systems\n\nshall ensure that:\n\n1. All purchases of software, IT equipment and peripherals shall follow a standard evaluation process, documented and done using approved vendors only.\n2. All software and hardware installations shall be tested prior to being moved to live production environment by both IT and business users. Any changes to software or hardware configuration shall be appropriately authorized.\n3. Capacity requirements s",
-    "mapping_date": "2026-03-16T09:51:37.506951",
-    "reviewer": null,
-    "notes": "Reranker: 0.280"
-  },
-  {
     "mapping_id": "T7.5.2_clientname-IS-POL-00-Security Operations Policy_passage_7",
     "source_control_id": "T7.5.2",
     "target_policy_id": "clientname-IS-POL-00-Security Operations Policy_passage_7",
@@ -284,17 +218,6 @@
     "mapping_date": "2026-03-16T09:51:45.838326",
     "reviewer": null,
     "notes": "Reranker: 0.270"
-  },
-  {
-    "mapping_id": "T7.6.2_clientname-IS-POL-00-Security Operations Policy_passage_10",
-    "source_control_id": "T7.6.2",
-    "target_policy_id": "clientname-IS-POL-00-Security Operations Policy_passage_10",
-    "status": "Partially Addressed",
-    "entailment_score": 0.261745810508728,
-    "evidence_text": "6.5 System Acceptance\n\nshall ensure that:\n\n1. System acceptance tests are done in an appropriate test environment.\n2. Before moving any new system into production, it shall be tested as per the System Acceptance Plan.\n2. ’s system performance requirements.\n3. ’s Security requirements.\n4. ’s business continuity requirements.\n5. Error recovery and restart procedures.\n6. Effects of the new system on other existing systems.\n7. User training requirements and ease of use of new systems, so as to ensur",
-    "mapping_date": "2026-03-16T09:51:45.838361",
-    "reviewer": null,
-    "notes": "Reranker: 0.262"
   },
   {
     "mapping_id": "T7.6.5_clientname-IS-POL-00-Security Operations Policy_passage_6",
@@ -330,17 +253,6 @@
     "notes": "Reranker: 0.293"
   },
   {
-    "mapping_id": "T8.3.2_clientname-IS-POL-00-Security Operations Policy_passage_7",
-    "source_control_id": "T8.3.2",
-    "target_policy_id": "clientname-IS-POL-00-Security Operations Policy_passage_7",
-    "status": "Partially Addressed",
-    "entailment_score": 0.28451067209243774,
-    "evidence_text": "6.2 Controls ver System Documentation\n\nshall ensure that:\n\n1. System documentation is kept under safe custody.\n2. Access is restricted to only those who have a business need and are authorized.\n3. Version control is implemented to ensure that the current version is consistently available.\n4. Copying of any system documentation shall be controlled and shall be allowed only after authorization.\n5. The respective custodians of documents shall hold the original set of the system documentation.",
-    "mapping_date": "2026-03-16T09:52:46.284961",
-    "reviewer": null,
-    "notes": "Reranker: 0.285"
-  },
-  {
     "mapping_id": "T8.3.3_clientname-IS-POL-00-Security Operations Policy_passage_8",
     "source_control_id": "T8.3.3",
     "target_policy_id": "clientname-IS-POL-00-Security Operations Policy_passage_8",
@@ -350,17 +262,6 @@
     "mapping_date": "2026-03-16T09:52:50.381255",
     "reviewer": null,
     "notes": "Reranker: 0.293"
-  },
-  {
-    "mapping_id": "T8.3.3_clientname-IS-POL-00-Security Operations Policy_passage_7",
-    "source_control_id": "T8.3.3",
-    "target_policy_id": "clientname-IS-POL-00-Security Operations Policy_passage_7",
-    "status": "Partially Addressed",
-    "entailment_score": 0.28451067209243774,
-    "evidence_text": "6.2 Controls ver System Documentation\n\nshall ensure that:\n\n1. System documentation is kept under safe custody.\n2. Access is restricted to only those who have a business need and are authorized.\n3. Version control is implemented to ensure that the current version is consistently available.\n4. Copying of any system documentation shall be controlled and shall be allowed only after authorization.\n5. The respective custodians of documents shall hold the original set of the system documentation.",
-    "mapping_date": "2026-03-16T09:52:50.381258",
-    "reviewer": null,
-    "notes": "Reranker: 0.285"
   },
   {
     "mapping_id": "T9.2.2_clientname-IS-POL-00-Security Operations Policy_passage_8",

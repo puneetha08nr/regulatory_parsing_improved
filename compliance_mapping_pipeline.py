@@ -569,36 +569,43 @@ class CrossEncoderReranker:
     def _try_load(self, model_name: str):
         """Load CrossEncoder, handling sentence-transformers v3 subdirectory layout and missing config.model_type."""
         import os
-        # Resolve to absolute path; if relative and not under cwd, try relative to this file (repo root)
-        if not os.path.isabs(model_name):
+        original_name = model_name
+
+        # If model_name points to a local directory (absolute or relative), load from disk.
+        local_dir = None
+        if os.path.isabs(model_name) and os.path.isdir(model_name):
+            local_dir = model_name
+        elif not os.path.isabs(model_name):
             abs_cwd = os.path.abspath(model_name)
             if os.path.isdir(abs_cwd):
-                model_name = abs_cwd
+                local_dir = abs_cwd
             else:
                 repo_root = Path(__file__).resolve().parent
-                abs_repo = (repo_root / model_name).resolve()
-                model_name = str(abs_repo) if abs_repo.is_dir() else abs_cwd
-        # Patch all config.json under the model dir before any load attempt
-        if os.path.isdir(model_name):
-            self._patch_all_configs_under(model_name)
-        candidates = [model_name]
-        # sentence-transformers v3 CrossEncoder.save() nests weights under 0_CrossEncoder/
-        if os.path.isdir(model_name):
+                abs_repo = str((repo_root / model_name).resolve())
+                if os.path.isdir(abs_repo):
+                    local_dir = abs_repo
+
+        if local_dir:
+            # Patch all config.json under the model dir before any load attempt
+            self._patch_all_configs_under(local_dir)
+            candidates = [local_dir]
+            # sentence-transformers v3 CrossEncoder.save() nests weights under 0_CrossEncoder/
             for sub in ["0_CrossEncoder", "1_CrossEncoder", "best_model"]:
-                p = os.path.join(model_name, sub)
+                p = os.path.join(local_dir, sub)
                 if os.path.isdir(p):
                     candidates.insert(0, p)
+        else:
+            # Treat as HuggingFace model id and let CrossEncoder download it.
+            candidates = [original_name]
         last_err = None
         for path in candidates:
-            if not os.path.isdir(path):
-                continue
             try:
                 m = CrossEncoder(path)
                 print(f"   ✓ Reranker loaded from: {path}")
                 return m
             except Exception as e:
                 last_err = e
-        print(f"Warning: Could not load reranker {model_name}: {last_err}")
+        print(f"Warning: Could not load reranker {original_name}: {last_err}")
         return None
 
     def is_available(self) -> bool:
@@ -785,7 +792,9 @@ class ComplianceMappingPipeline:
             print(f"⚠️  Family routing file not found: {routing_path} — proceeding without routing.")
             self._family_routing_by_doc = {}
             return
-        routing: Dict[str, List[str]] = {}
+        # Aggregate by document: routing file may have passage-level document_id (e.g. ..._passage_1).
+        # We want one entry per policy doc with union of families from all its passages.
+        routing_agg: Dict[str, set] = {}
         with path.open("r", encoding="utf-8") as f:
             for line in f:
                 line = line.strip()
@@ -795,17 +804,18 @@ class ComplianceMappingPipeline:
                     obj = json.loads(line)
                 except json.JSONDecodeError:
                     continue
-                doc_id = (
+                raw_id = (
                     obj.get("document_id")
                     or obj.get("document")
                     or obj.get("policy_doc")
                     or ""
                 )
                 fams = obj.get("routed_families") or obj.get("families") or []
-                if not doc_id or not fams:
+                if not raw_id or not fams:
                     continue
-                routing[str(doc_id)] = [str(f).strip() for f in fams if str(f).strip()]
-        self._family_routing_by_doc = routing
+                doc_id = _policy_doc_id_from_target(raw_id) if "_passage_" in raw_id else raw_id
+                routing_agg.setdefault(doc_id, set()).update(str(f).strip() for f in fams if str(f).strip())
+        self._family_routing_by_doc = {k: list(v) for k, v in routing_agg.items()}
         print(f"✓ Loaded family routing for {len(self._family_routing_by_doc)} policy document(s)")
     
     def load_policy_passages_from_list(self, policy_data: list):
@@ -866,13 +876,15 @@ class ComplianceMappingPipeline:
             self.policy_passages_by_doc.setdefault(doc_id, []).append(p)
         print(f"✓ Loaded {len(self.policy_passages)} policy passages in {len(self.policy_passages_by_doc)} document(s)")
     
-    def initialize_entailment_mapper(self):
-        """Initialize NLI model for entailment checking"""
+    def initialize_entailment_mapper(self, model_name: Optional[str] = None):
+        """Initialize NLI model for entailment checking.
+        model_name: Optional HuggingFace model id (e.g. cross-encoder/nli-MiniLM2-L6-H768). If None, EntailmentMapper picks a default.
+        """
         if not NLI_AVAILABLE:
             print("⚠️  NLI not available. Using rule-based mapping only.")
             return
         
-        self.entailment_mapper = EntailmentMapper()
+        self.entailment_mapper = EntailmentMapper(model_name=model_name)
         print("✓ Entailment mapper ready")
     
     def load_confirmed_negatives(self, path: str) -> None:
@@ -881,6 +893,12 @@ class ComplianceMappingPipeline:
         These are (control_id, policy_passage_id) pairs annotated as 'Not Addressed'
         with high confidence and a mismatch reason (e.g. keyword overlap). They are
         excluded from create_mappings() output so the pipeline does not surface them.
+
+        Conflict-aware: if the same pair appears as positive (Fully/Partially Addressed)
+        anywhere in the golden file, it is NOT added to the blocklist (avoids blocking
+        true positives when annotations conflict or duplicate rows exist).
+
+        Uses corrected_control_id when present (same as evaluation).
 
         File: golden_mapping_dataset.json (from create_golden_set_tasks --mode export).
         """
@@ -891,6 +909,16 @@ class ComplianceMappingPipeline:
         except Exception as e:
             print(f"Warning: could not load confirmed negatives from {path}: {e}")
             return
+
+        # Positive pairs: never block these (handles conflicts/duplicates)
+        positive_pairs = set()
+        for r in rows:
+            if (r.get("compliance_status") or "").strip() in ("Fully Addressed", "Partially Addressed"):
+                cid = (r.get("corrected_control_id") or r.get("control_id") or "").strip()
+                pid = (r.get("policy_passage_id") or "").strip()
+                if cid and pid:
+                    positive_pairs.add((cid, pid))
+
         self._confirmed_negatives = set()
         for r in rows:
             if r.get("is_hard_negative") or (
@@ -899,9 +927,9 @@ class ComplianceMappingPipeline:
                 and r.get("mismatch_reason")
                 and r.get("mismatch_reason", "").lower() != "correct match"
             ):
-                cid = r.get("control_id", "")
-                pid = r.get("policy_passage_id", "")
-                if cid and pid:
+                cid = (r.get("corrected_control_id") or r.get("control_id") or "").strip()
+                pid = (r.get("policy_passage_id") or "").strip()
+                if cid and pid and (cid, pid) not in positive_pairs:
                     self._confirmed_negatives.add((cid, pid))
         print(f"  Loaded {len(self._confirmed_negatives)} confirmed negative pairs (will be excluded from mappings)")
 
@@ -1001,6 +1029,19 @@ class ComplianceMappingPipeline:
         self._retrieval_log: dict = {}
         controls_to_map = [c for c in self.ia_controls if c.is_obligation] if filter_obligations_only else self.ia_controls
 
+        # When family routing is loaded: only map controls whose family is routed for at least one document.
+        # Per (control, doc) we skip docs where this control's family is not in that doc's routed families.
+        routing_by_doc = getattr(self, "_family_routing_by_doc", None) or {}
+        if routing_by_doc:
+            # IMPORTANT: restrict to docs loaded in *this* run (not every doc present in the routing file)
+            all_routed_families = set()
+            for doc_id in self.policy_passages_by_doc.keys():
+                for fam in (routing_by_doc.get(doc_id, []) or []):
+                    if fam:
+                        all_routed_families.add(fam)
+            controls_to_map = [c for c in controls_to_map if getattr(c, "control_family", "") in all_routed_families]
+            print(f"  Family routing: mapping {len(controls_to_map)} controls (families relevant to loaded policy doc(s))")
+
         # One retrieval index per policy document (can take several minutes: BM25 + Dense embeddings)
         if use_retrieval and BM25_AVAILABLE:
             self.retrievals_by_doc = {}
@@ -1042,6 +1083,11 @@ class ComplianceMappingPipeline:
             doc_idx = 0
             for doc_id, passages in self.policy_passages_by_doc.items():
                 doc_idx += 1
+                # Skip this document if family routing says this control's family is not relevant to this doc
+                if routing_by_doc:
+                    routed_fams = set(routing_by_doc.get(doc_id, []))
+                    if routed_fams and getattr(control, "control_family", "") not in routed_fams:
+                        continue
                 if i == 0 and use_reranker_now:
                     print(f"    Control 1: doc {doc_idx}/{num_docs}", flush=True)
                 if use_retrieval and doc_id in self.retrievals_by_doc:

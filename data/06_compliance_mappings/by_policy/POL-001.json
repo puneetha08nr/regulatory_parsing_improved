@@ -220,17 +220,6 @@
     "notes": "NLI label: neutral, entailment_prob: 0.010"
   },
   {
-    "mapping_id": "M2.1.1_POL-001",
-    "source_control_id": "M2.1.1",
-    "target_policy_id": "POL-001",
-    "status": "Not Addressed",
-    "entailment_score": 0.008534815162420273,
-    "evidence_text": "Your policy text here. This should contain requirements that map to UAE IA controls.",
-    "mapping_date": "2026-02-16T12:45:41.635489",
-    "reviewer": null,
-    "notes": "NLI label: neutral, entailment_prob: 0.009"
-  },
-  {
     "mapping_id": "M3.1.1_POL-001",
     "source_control_id": "M3.1.1",
     "target_policy_id": "POL-001",

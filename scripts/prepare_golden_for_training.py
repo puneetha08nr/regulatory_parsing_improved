@@ -240,7 +240,7 @@ def prepare_nli(golden: List[Dict], control_map: Dict, policy_map: Dict) -> List
         nli_label = STATUS_TO_NLI.get(status)
         if nli_label is None:
             continue
-        cid = g.get("control_id")
+        cid = g.get("original_control_id") or g.get("control_id")
         pid = g.get("policy_passage_id")
         if not cid or not pid:
             continue
@@ -294,8 +294,12 @@ def prepare_reranker(golden: List[Dict], control_map: Dict, policy_map: Dict) ->
         status = (g.get("compliance_status") or "").strip()
         if status not in STATUS_TO_SCORE:
             continue
-        # Use human-approved control when annotator corrected the pipeline's wrong control
-        cid = (g.get("corrected_control_id") or g.get("control_id") or "").strip()
+        # IMPORTANT: always use the ORIGINAL control for the main row so the negative
+        # signal is correctly associated with the wrong assignment.  The corrected
+        # positive pair is added separately by _corrected_positive_rows_reranker below.
+        # Using corrected_control_id here caused (corrected_ctrl, passage, 0.0) to
+        # collide with the (corrected_ctrl, passage, 1.0) row → contradictory labels.
+        cid = (g.get("original_control_id") or g.get("control_id") or "").strip()
         pid = g.get("policy_passage_id")
         if not cid or not pid:
             continue
@@ -486,6 +490,24 @@ def main():
     if not real_rows:
         print("No rows produced from real data. Check control_id/policy_passage_id fields.")
         return 1
+
+    # ── Deduplicate by (query_text, passage_text): resolve conflicts by max score ─
+    # Conflicts arise when the same (control_text, passage_text) pair appears with
+    # different labels (e.g. FA in one policy document, NA in another with identical text).
+    # Resolution rule: keep the highest score (FA > PA > NA) — if evidence shows the
+    # passage satisfies the control in any context, it should be a positive.
+    if args.format == "reranker":
+        seen: dict = {}
+        n_before = len(real_rows)
+        for row in real_rows:
+            key = (row["query"][:200], row["passage"][:200])
+            if key not in seen or row.get("score", 0) > seen[key].get("score", 0):
+                seen[key] = row
+        real_rows = list(seen.values())
+        n_removed = n_before - len(real_rows)
+        if n_removed:
+            print(f"  Deduplication removed {n_removed} conflicting rows "
+                  f"(same text, different labels) — kept highest score")
 
     # ── Split real rows into train/dev (dev stays real-only for honest eval) ──
     random.seed(args.seed)

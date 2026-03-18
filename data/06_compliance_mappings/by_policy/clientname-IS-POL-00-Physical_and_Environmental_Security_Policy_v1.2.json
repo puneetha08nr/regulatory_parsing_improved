@@ -33,28 +33,6 @@
     "notes": "Reranker: 0.267"
   },
   {
-    "mapping_id": "M3.3.5_clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_10",
-    "source_control_id": "M3.3.5",
-    "target_policy_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_10",
-    "status": "Partially Addressed",
-    "entailment_score": 0.26430797576904297,
-    "evidence_text": "5.3 Working in Secure Areas\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Establish guidelines for working in secure areas.\n2. Make sure all personnel accessing secure areas are aware of and accept organization’s rules and guidelines.",
-    "mapping_date": "2026-03-16T09:46:28.001357",
-    "reviewer": null,
-    "notes": "Reranker: 0.264"
-  },
-  {
-    "mapping_id": "M3.3.5_clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_9",
-    "source_control_id": "M3.3.5",
-    "target_policy_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_9",
-    "status": "Partially Addressed",
-    "entailment_score": 0.25953271985054016,
-    "evidence_text": "5.2 Protecting Against External and Environmental Threats\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Provide adequate training to personnel responsible for responding to environmental and safety hazards.\n2. Ensure and monitor power, temperature and relative humidity inside data centers are in accordance with relevant regulations.\n3. Ensure data centers have 24/7 air conditioning and humidity control.\n4. Conduct planned maintenance for all supporting utilities and necessary records.\n5. Activate fire suppress",
-    "mapping_date": "2026-03-16T09:46:28.001350",
-    "reviewer": null,
-    "notes": "Reranker: 0.260"
-  },
-  {
     "mapping_id": "M5.2.5_clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_6",
     "source_control_id": "M5.2.5",
     "target_policy_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_6",
@@ -64,17 +42,6 @@
     "mapping_date": "2026-03-16T09:47:07.824077",
     "reviewer": null,
     "notes": "Reranker: 0.269"
-  },
-  {
-    "mapping_id": "M5.2.5_clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_8",
-    "source_control_id": "M5.2.5",
-    "target_policy_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_8",
-    "status": "Partially Addressed",
-    "entailment_score": 0.266594260931015,
-    "evidence_text": "5.1 Implement Physical Security Controls\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Record the date, time of entry and departure of employees/contractors/visitors and others who seek access to &lt;CLIENTNAME&gt; facilities.\n2. Perform physical security checks for all personnel entering the organizational premises.\n3. Restrict the entry and usage of devices within organizational premises according to security requirements.\n4. Supervise visitors at all times during their visit to secure areas.\n5. Verify the i",
-    "mapping_date": "2026-03-16T09:47:07.824099",
-    "reviewer": null,
-    "notes": "Reranker: 0.267"
   },
   {
     "mapping_id": "M5.3.1_clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_8",
@@ -110,17 +77,6 @@
     "notes": "Reranker: 0.294"
   },
   {
-    "mapping_id": "T2.2.2_clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_10",
-    "source_control_id": "T2.2.2",
-    "target_policy_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_10",
-    "status": "Partially Addressed",
-    "entailment_score": 0.26251134276390076,
-    "evidence_text": "5.3 Working in Secure Areas\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Establish guidelines for working in secure areas.\n2. Make sure all personnel accessing secure areas are aware of and accept organization’s rules and guidelines.",
-    "mapping_date": "2026-03-16T09:48:15.556042",
-    "reviewer": null,
-    "notes": "Reranker: 0.263"
-  },
-  {
     "mapping_id": "T2.2.3_clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_8",
     "source_control_id": "T2.2.3",
     "target_policy_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_8",
@@ -130,28 +86,6 @@
     "mapping_date": "2026-03-16T09:48:18.350546",
     "reviewer": null,
     "notes": "Reranker: 0.271"
-  },
-  {
-    "mapping_id": "T2.2.3_clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_6",
-    "source_control_id": "T2.2.3",
-    "target_policy_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_6",
-    "status": "Partially Addressed",
-    "entailment_score": 0.26511940360069275,
-    "evidence_text": "4 POLICY STATEMENT\n\n&lt;CLIENTNAME&gt; shall implement physical and environmental security measures to ensure critical or sensitive information systems are physically protected from unauthorized access, damage, and interference. Further &lt;CLIENTNAME&gt; shall implement controls to protect people and equipment from physical and environmental threats.",
-    "mapping_date": "2026-03-16T09:48:18.350598",
-    "reviewer": null,
-    "notes": "Reranker: 0.265"
-  },
-  {
-    "mapping_id": "T2.2.3_clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_11",
-    "source_control_id": "T2.2.3",
-    "target_policy_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_11",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2608558237552643,
-    "evidence_text": "5.4 Protect Delivery and Loading Areas\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Establish access procedures to loading and unloading areas to restrict access to only authorized personnel.\n2. Design the delivery and loading area where supplies can be loaded and unloaded without delivery personnel gaining access to other parts of the building.\n3. Establish and implement procedures for the storage of hazardous or combustible materials to reduce their risks on secure areas.\n4. Physically segregate loading and",
-    "mapping_date": "2026-03-16T09:48:18.350602",
-    "reviewer": null,
-    "notes": "Reranker: 0.261"
   },
   {
     "mapping_id": "T2.2.4_clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_6",
@@ -176,28 +110,6 @@
     "notes": "Reranker: 0.281"
   },
   {
-    "mapping_id": "T2.2.5_clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_8",
-    "source_control_id": "T2.2.5",
-    "target_policy_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_8",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2772400975227356,
-    "evidence_text": "5.1 Implement Physical Security Controls\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Record the date, time of entry and departure of employees/contractors/visitors and others who seek access to &lt;CLIENTNAME&gt; facilities.\n2. Perform physical security checks for all personnel entering the organizational premises.\n3. Restrict the entry and usage of devices within organizational premises according to security requirements.\n4. Supervise visitors at all times during their visit to secure areas.\n5. Verify the i",
-    "mapping_date": "2026-03-16T09:48:23.913972",
-    "reviewer": null,
-    "notes": "Reranker: 0.277"
-  },
-  {
-    "mapping_id": "T2.2.5_clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_5",
-    "source_control_id": "T2.2.5",
-    "target_policy_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_5",
-    "status": "Partially Addressed",
-    "entailment_score": 0.26035135984420776,
-    "evidence_text": "3 SCOPE\n\nThis Policy applies to all physical areas within &lt;CLIENTNAME&gt;, employees and third parties who access &lt;CLIENTNAME&gt; facilities, information assets and information and communications technology (ICT) systems housed within &lt;CLIENTNAME&gt; facilities.\n\n**Any exceptions on the applicability of this Policy should be formally requested through the ‘Policy Exception Management procedure’.**",
-    "mapping_date": "2026-03-16T09:48:23.914007",
-    "reviewer": null,
-    "notes": "Reranker: 0.260"
-  },
-  {
     "mapping_id": "T2.3.1_clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_14",
     "source_control_id": "T2.3.1",
     "target_policy_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_14",
@@ -207,17 +119,6 @@
     "mapping_date": "2026-03-16T09:48:26.621866",
     "reviewer": null,
     "notes": "Reranker: 0.290"
-  },
-  {
-    "mapping_id": "T2.3.1_clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_15",
-    "source_control_id": "T2.3.1",
-    "target_policy_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_15",
-    "status": "Partially Addressed",
-    "entailment_score": 0.28394046425819397,
-    "evidence_text": "5.8 Secure Disposal or Reuse of Equipment\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Ensure storage media containing confidential information is physically destroyed or the information is destroyed, deleted, or overwritten using techniques to make the original information non-retrievable rather than using the standard delete or format function.",
-    "mapping_date": "2026-03-16T09:48:26.621900",
-    "reviewer": null,
-    "notes": "Reranker: 0.284"
   },
   {
     "mapping_id": "T2.3.2_clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_12",
@@ -231,50 +132,6 @@
     "notes": "Reranker: 0.294"
   },
   {
-    "mapping_id": "T2.3.2_clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_9",
-    "source_control_id": "T2.3.2",
-    "target_policy_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_9",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2720608115196228,
-    "evidence_text": "5.2 Protecting Against External and Environmental Threats\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Provide adequate training to personnel responsible for responding to environmental and safety hazards.\n2. Ensure and monitor power, temperature and relative humidity inside data centers are in accordance with relevant regulations.\n3. Ensure data centers have 24/7 air conditioning and humidity control.\n4. Conduct planned maintenance for all supporting utilities and necessary records.\n5. Activate fire suppress",
-    "mapping_date": "2026-03-16T09:48:29.408067",
-    "reviewer": null,
-    "notes": "Reranker: 0.272"
-  },
-  {
-    "mapping_id": "T2.3.2_clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_8",
-    "source_control_id": "T2.3.2",
-    "target_policy_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_8",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2657056152820587,
-    "evidence_text": "5.1 Implement Physical Security Controls\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Record the date, time of entry and departure of employees/contractors/visitors and others who seek access to &lt;CLIENTNAME&gt; facilities.\n2. Perform physical security checks for all personnel entering the organizational premises.\n3. Restrict the entry and usage of devices within organizational premises according to security requirements.\n4. Supervise visitors at all times during their visit to secure areas.\n5. Verify the i",
-    "mapping_date": "2026-03-16T09:48:29.408110",
-    "reviewer": null,
-    "notes": "Reranker: 0.266"
-  },
-  {
-    "mapping_id": "T2.3.2_clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_11",
-    "source_control_id": "T2.3.2",
-    "target_policy_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_11",
-    "status": "Partially Addressed",
-    "entailment_score": 0.26179271936416626,
-    "evidence_text": "5.4 Protect Delivery and Loading Areas\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Establish access procedures to loading and unloading areas to restrict access to only authorized personnel.\n2. Design the delivery and loading area where supplies can be loaded and unloaded without delivery personnel gaining access to other parts of the building.\n3. Establish and implement procedures for the storage of hazardous or combustible materials to reduce their risks on secure areas.\n4. Physically segregate loading and",
-    "mapping_date": "2026-03-16T09:48:29.408083",
-    "reviewer": null,
-    "notes": "Reranker: 0.262"
-  },
-  {
-    "mapping_id": "T2.3.2_clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_6",
-    "source_control_id": "T2.3.2",
-    "target_policy_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_6",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2613016963005066,
-    "evidence_text": "4 POLICY STATEMENT\n\n&lt;CLIENTNAME&gt; shall implement physical and environmental security measures to ensure critical or sensitive information systems are physically protected from unauthorized access, damage, and interference. Further &lt;CLIENTNAME&gt; shall implement controls to protect people and equipment from physical and environmental threats.",
-    "mapping_date": "2026-03-16T09:48:29.408071",
-    "reviewer": null,
-    "notes": "Reranker: 0.261"
-  },
-  {
     "mapping_id": "T2.3.4_clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_15",
     "source_control_id": "T2.3.4",
     "target_policy_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_15",
@@ -284,50 +141,6 @@
     "mapping_date": "2026-03-16T09:48:34.946661",
     "reviewer": null,
     "notes": "Reranker: 0.278"
-  },
-  {
-    "mapping_id": "T2.3.4_clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_12",
-    "source_control_id": "T2.3.4",
-    "target_policy_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_12",
-    "status": "Partially Addressed",
-    "entailment_score": 0.27776628732681274,
-    "evidence_text": "5.5 Ensure Effective Supporting Utilities\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Ensure that each facility’s supporting utilities (e.g., electricity, telecommunications, water supply, natural gas, sewage, heating ventilation and air conditioning) are in line with local legal requirements and manufacturer’s specifications as well as tested for malfunctions.\n2. Conduct preventive maintenance for all supporting utilities and necessary records maintained for the same.",
-    "mapping_date": "2026-03-16T09:48:34.946717",
-    "reviewer": null,
-    "notes": "Reranker: 0.278"
-  },
-  {
-    "mapping_id": "T2.3.4_clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_14",
-    "source_control_id": "T2.3.4",
-    "target_policy_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_14",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2749503552913666,
-    "evidence_text": "5.7 Security of Equipment Off-Premises\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Establish an authorization procedure for taking information assets off-site.\n2. Ensure manufacturers' instructions for protecting equipment is adhered to at all times.\n3. Maintain the list of information assets off-site with the authorized employees and external party users.\n\nThe personnel shall:\n\n1. Ensure that equipment and media taken off the premises are not left unattended in public places.",
-    "mapping_date": "2026-03-16T09:48:34.946633",
-    "reviewer": null,
-    "notes": "Reranker: 0.275"
-  },
-  {
-    "mapping_id": "T2.3.4_clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_9",
-    "source_control_id": "T2.3.4",
-    "target_policy_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_9",
-    "status": "Partially Addressed",
-    "entailment_score": 0.27281269431114197,
-    "evidence_text": "5.2 Protecting Against External and Environmental Threats\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Provide adequate training to personnel responsible for responding to environmental and safety hazards.\n2. Ensure and monitor power, temperature and relative humidity inside data centers are in accordance with relevant regulations.\n3. Ensure data centers have 24/7 air conditioning and humidity control.\n4. Conduct planned maintenance for all supporting utilities and necessary records.\n5. Activate fire suppress",
-    "mapping_date": "2026-03-16T09:48:34.946721",
-    "reviewer": null,
-    "notes": "Reranker: 0.273"
-  },
-  {
-    "mapping_id": "T2.3.4_clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_8",
-    "source_control_id": "T2.3.4",
-    "target_policy_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_8",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2715371549129486,
-    "evidence_text": "5.1 Implement Physical Security Controls\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Record the date, time of entry and departure of employees/contractors/visitors and others who seek access to &lt;CLIENTNAME&gt; facilities.\n2. Perform physical security checks for all personnel entering the organizational premises.\n3. Restrict the entry and usage of devices within organizational premises according to security requirements.\n4. Supervise visitors at all times during their visit to secure areas.\n5. Verify the i",
-    "mapping_date": "2026-03-16T09:48:34.946714",
-    "reviewer": null,
-    "notes": "Reranker: 0.272"
   },
   {
     "mapping_id": "T2.3.5_clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_11",
@@ -341,28 +154,6 @@
     "notes": "Reranker: 0.256"
   },
   {
-    "mapping_id": "T2.3.5_clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_6",
-    "source_control_id": "T2.3.5",
-    "target_policy_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_6",
-    "status": "Partially Addressed",
-    "entailment_score": 0.25438690185546875,
-    "evidence_text": "4 POLICY STATEMENT\n\n&lt;CLIENTNAME&gt; shall implement physical and environmental security measures to ensure critical or sensitive information systems are physically protected from unauthorized access, damage, and interference. Further &lt;CLIENTNAME&gt; shall implement controls to protect people and equipment from physical and environmental threats.",
-    "mapping_date": "2026-03-16T09:48:37.638320",
-    "reviewer": null,
-    "notes": "Reranker: 0.254"
-  },
-  {
-    "mapping_id": "T2.3.5_clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_15",
-    "source_control_id": "T2.3.5",
-    "target_policy_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_15",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2536590099334717,
-    "evidence_text": "5.8 Secure Disposal or Reuse of Equipment\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Ensure storage media containing confidential information is physically destroyed or the information is destroyed, deleted, or overwritten using techniques to make the original information non-retrievable rather than using the standard delete or format function.",
-    "mapping_date": "2026-03-16T09:48:37.638351",
-    "reviewer": null,
-    "notes": "Reranker: 0.254"
-  },
-  {
     "mapping_id": "T2.3.7_clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_14",
     "source_control_id": "T2.3.7",
     "target_policy_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_14",
@@ -374,17 +165,6 @@
     "notes": "Reranker: 0.287"
   },
   {
-    "mapping_id": "T2.3.7_clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_8",
-    "source_control_id": "T2.3.7",
-    "target_policy_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_8",
-    "status": "Partially Addressed",
-    "entailment_score": 0.26100337505340576,
-    "evidence_text": "5.1 Implement Physical Security Controls\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Record the date, time of entry and departure of employees/contractors/visitors and others who seek access to &lt;CLIENTNAME&gt; facilities.\n2. Perform physical security checks for all personnel entering the organizational premises.\n3. Restrict the entry and usage of devices within organizational premises according to security requirements.\n4. Supervise visitors at all times during their visit to secure areas.\n5. Verify the i",
-    "mapping_date": "2026-03-16T09:48:43.268838",
-    "reviewer": null,
-    "notes": "Reranker: 0.261"
-  },
-  {
     "mapping_id": "T2.3.8_clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_8",
     "source_control_id": "T2.3.8",
     "target_policy_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_8",
@@ -394,28 +174,6 @@
     "mapping_date": "2026-03-16T09:48:45.990975",
     "reviewer": null,
     "notes": "Reranker: 0.293"
-  },
-  {
-    "mapping_id": "T2.3.8_clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_14",
-    "source_control_id": "T2.3.8",
-    "target_policy_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_14",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2842963635921478,
-    "evidence_text": "5.7 Security of Equipment Off-Premises\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Establish an authorization procedure for taking information assets off-site.\n2. Ensure manufacturers' instructions for protecting equipment is adhered to at all times.\n3. Maintain the list of information assets off-site with the authorized employees and external party users.\n\nThe personnel shall:\n\n1. Ensure that equipment and media taken off the premises are not left unattended in public places.",
-    "mapping_date": "2026-03-16T09:48:45.990946",
-    "reviewer": null,
-    "notes": "Reranker: 0.284"
-  },
-  {
-    "mapping_id": "T2.3.8_clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_11",
-    "source_control_id": "T2.3.8",
-    "target_policy_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_11",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2636343538761139,
-    "evidence_text": "5.4 Protect Delivery and Loading Areas\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Establish access procedures to loading and unloading areas to restrict access to only authorized personnel.\n2. Design the delivery and loading area where supplies can be loaded and unloaded without delivery personnel gaining access to other parts of the building.\n3. Establish and implement procedures for the storage of hazardous or combustible materials to reduce their risks on secure areas.\n4. Physically segregate loading and",
-    "mapping_date": "2026-03-16T09:48:45.991009",
-    "reviewer": null,
-    "notes": "Reranker: 0.264"
   },
   {
     "mapping_id": "T3.6.4_clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_6",
@@ -449,17 +207,6 @@
     "mapping_date": "2026-03-16T09:49:41.261883",
     "reviewer": null,
     "notes": "Reranker: 0.273"
-  },
-  {
-    "mapping_id": "T4.2.3_clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_11",
-    "source_control_id": "T4.2.3",
-    "target_policy_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_11",
-    "status": "Partially Addressed",
-    "entailment_score": 0.26005494594573975,
-    "evidence_text": "5.4 Protect Delivery and Loading Areas\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Establish access procedures to loading and unloading areas to restrict access to only authorized personnel.\n2. Design the delivery and loading area where supplies can be loaded and unloaded without delivery personnel gaining access to other parts of the building.\n3. Establish and implement procedures for the storage of hazardous or combustible materials to reduce their risks on secure areas.\n4. Physically segregate loading and",
-    "mapping_date": "2026-03-16T09:49:41.261901",
-    "reviewer": null,
-    "notes": "Reranker: 0.260"
   },
   {
     "mapping_id": "T4.3.3_clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_8",
@@ -506,17 +253,6 @@
     "notes": "Reranker: 0.262"
   },
   {
-    "mapping_id": "T4.5.4_clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_13",
-    "source_control_id": "T4.5.4",
-    "target_policy_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_13",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2583301067352295,
-    "evidence_text": "5.6 Cabling Security\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Ensure that power and telecommunications lines into information systems are underground wherever possible.\n2. Protect power and telecommunication lines adequately from interception of data or damage.\n3. Physically separate power cables from communications cables to minimize interference.\n4. Shield telecommunication cables to avoid information leakage due to electro-magnetic signals emanations.\n5. Consider the following controls for sensitive or",
-    "mapping_date": "2026-03-16T09:50:12.450365",
-    "reviewer": null,
-    "notes": "Reranker: 0.258"
-  },
-  {
     "mapping_id": "T5.2.2_clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_11",
     "source_control_id": "T5.2.2",
     "target_policy_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_11",
@@ -561,28 +297,6 @@
     "notes": "Reranker: 0.317"
   },
   {
-    "mapping_id": "T5.7.1_clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_10",
-    "source_control_id": "T5.7.1",
-    "target_policy_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_10",
-    "status": "Partially Addressed",
-    "entailment_score": 0.3096906840801239,
-    "evidence_text": "5.3 Working in Secure Areas\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Establish guidelines for working in secure areas.\n2. Make sure all personnel accessing secure areas are aware of and accept organization’s rules and guidelines.",
-    "mapping_date": "2026-03-16T09:51:00.671794",
-    "reviewer": null,
-    "notes": "Reranker: 0.310"
-  },
-  {
-    "mapping_id": "T5.7.1_clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_11",
-    "source_control_id": "T5.7.1",
-    "target_policy_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_11",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2913845181465149,
-    "evidence_text": "5.4 Protect Delivery and Loading Areas\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Establish access procedures to loading and unloading areas to restrict access to only authorized personnel.\n2. Design the delivery and loading area where supplies can be loaded and unloaded without delivery personnel gaining access to other parts of the building.\n3. Establish and implement procedures for the storage of hazardous or combustible materials to reduce their risks on secure areas.\n4. Physically segregate loading and",
-    "mapping_date": "2026-03-16T09:51:00.671847",
-    "reviewer": null,
-    "notes": "Reranker: 0.291"
-  },
-  {
     "mapping_id": "T5.7.2_clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_8",
     "source_control_id": "T5.7.2",
     "target_policy_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_8",
@@ -592,17 +306,6 @@
     "mapping_date": "2026-03-16T09:51:03.621628",
     "reviewer": null,
     "notes": "Reranker: 0.282"
-  },
-  {
-    "mapping_id": "T5.7.2_clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_6",
-    "source_control_id": "T5.7.2",
-    "target_policy_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_6",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2765055000782013,
-    "evidence_text": "4 POLICY STATEMENT\n\n&lt;CLIENTNAME&gt; shall implement physical and environmental security measures to ensure critical or sensitive information systems are physically protected from unauthorized access, damage, and interference. Further &lt;CLIENTNAME&gt; shall implement controls to protect people and equipment from physical and environmental threats.",
-    "mapping_date": "2026-03-16T09:51:03.621623",
-    "reviewer": null,
-    "notes": "Reranker: 0.277"
   },
   {
     "mapping_id": "T7.6.4_clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_13",

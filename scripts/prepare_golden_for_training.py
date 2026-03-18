@@ -27,6 +27,21 @@ Usage:
     --synthetic data/07_golden_mapping/synthetic_pairs.json \\
     --real-weight 3 \\
     --format reranker
+
+  # With confusable NA negatives (from generate_na_controls.py)
+  python3 scripts/prepare_golden_for_training.py \\
+    --golden data/07_golden_mapping/golden_mapping_dataset.json \\
+    --na-controls data/07_golden_mapping/na_confusable_pairs.json \\
+    --format reranker
+
+  Training weights applied:
+    Real FA          → score 1.0   weight 3x
+    Real PA          → score 0.7   weight 3x
+    Real NA          → score 0.0   weight 2x
+    Confusable NA    → score 0.0   weight 3x  (hardest negatives)
+
+  Target composition: 1 positive : 3 negatives
+    1 real NA  +  1 confusable NA  +  1 cross-family NA
 """
 
 import argparse
@@ -53,10 +68,20 @@ STATUS_TO_NLI = {
 STATUS_TO_SCORE = {
     "Fully Addressed": 1.0,
     "Fully addressed": 1.0,
-    "Partially Addressed": 0.5,
-    "Partially addressed": 0.5,
+    "Partially Addressed": 0.7,   # PA raised from 0.5 — passage genuinely relevant
+    "Partially addressed": 0.7,
     "Not Addressed": 0.0,
     "Not addressed": 0.0,
+}
+
+# Per-status training weights (number of times each row is duplicated in train split)
+# Confusable NA gets highest weight — these are the hardest cases the model fails on
+STATUS_WEIGHTS = {
+    "real_fa":        3,   # Real FA: weight 3x
+    "real_pa":        3,   # Real PA: weight 3x
+    "real_na":        2,   # Real NA: weight 2x
+    "confusable_na":  3,   # LLM-generated confusable NA: weight 3x
+    "synthetic":      1,   # Synthetic: weight 1x (least trusted)
 }
 
 # Synthetic score downgrade — synthetic pairs count as slightly weaker signal
@@ -368,6 +393,54 @@ def prepare_synthetic_nli(synthetic: List[Dict]) -> List[Dict]:
     return rows
 
 
+def prepare_confusable_na_reranker(na_pairs: List[Dict], control_map: Dict) -> List[Dict]:
+    """Build reranker rows from confusable NA pairs (from generate_na_controls.py)."""
+    rows = []
+    for g in na_pairs:
+        cid = (g.get("corrected_control_id") or g.get("control_id") or "").strip()
+        passage_text = (g.get("policy_text_snippet") or "").strip()
+        if not cid or not passage_text:
+            continue
+        ctrl = control_map.get(cid)
+        query = build_control_text(ctrl) if ctrl else cid
+        rows.append({
+            "query":            query[:512],
+            "passage":          passage_text[:2000],
+            "label":            "Not Addressed",
+            "score":            0.0,
+            "control_id":       cid,
+            "policy_passage_id": g.get("policy_passage_id", ""),
+            "is_hard_negative": True,
+            "mismatch_reason":  "confusable_neighbour",
+            "why_confused":     g.get("why_confused", ""),
+            "why_wrong":        g.get("why_wrong", ""),
+            "source":           "confusable_na",
+        })
+    return rows
+
+
+def prepare_confusable_na_nli(na_pairs: List[Dict], control_map: Dict) -> List[Dict]:
+    """Build NLI rows from confusable NA pairs."""
+    rows = []
+    for g in na_pairs:
+        cid = (g.get("corrected_control_id") or g.get("control_id") or "").strip()
+        passage_text = (g.get("policy_text_snippet") or "").strip()
+        if not cid or not passage_text:
+            continue
+        ctrl = control_map.get(cid)
+        hypothesis = build_control_text(ctrl) if ctrl else cid
+        rows.append({
+            "premise":          passage_text[:2000],
+            "hypothesis":       hypothesis[:512],
+            "label":            "contradiction",
+            "control_id":       cid,
+            "policy_passage_id": g.get("policy_passage_id", ""),
+            "is_hard_negative": True,
+            "source":           "confusable_na",
+        })
+    return rows
+
+
 def main():
     ap = argparse.ArgumentParser(description="Prepare golden data for NLI or Reranker training")
     ap.add_argument("--golden",      required=True,
@@ -375,9 +448,13 @@ def main():
     ap.add_argument("--synthetic",   default=None,
                     help="Synthetic pairs JSON (from scripts/generate_synthetic_pairs.py). "
                          "When provided, synthetic rows are added to train split only.")
-    ap.add_argument("--real-weight", type=int, default=3,
-                    help="Duplicate real human-annotated rows this many times so they "
-                         "outweigh synthetic rows during training (default: 3).")
+    ap.add_argument("--na-controls", default=None,
+                    help="Confusable NA pairs JSON (from scripts/generate_na_controls.py). "
+                         "Hard negatives weighted 3x during training.")
+    ap.add_argument("--real-weight", type=int, default=None,
+                    help="Override default per-status weights. When set, all real rows "
+                         "are duplicated this many times (legacy behaviour). "
+                         "When omitted, per-status weights are used: FA=3x PA=3x NA=2x confusable=3x.")
     ap.add_argument("--controls",    default="data/02_processed/uae_ia_controls_structured.json",
                     help="UAE IA controls JSON")
     ap.add_argument("--policies",    default="data/02_processed/policies",
@@ -417,12 +494,51 @@ def main():
     dev_rows = real_rows[:n_dev]
     train_real = real_rows[n_dev:]
 
-    # Apply real-weight duplication to train split so real pairs dominate
-    train_rows = train_real * args.real_weight
+    # ── Apply per-status weights (or legacy --real-weight) ────────────────────
+    if args.real_weight is not None:
+        # Legacy: uniform weight for all real rows
+        train_rows = train_real * args.real_weight
+        print(f"\nReal data    : {len(real_rows)} rows  "
+              f"(train={len(train_real)}, dev={len(dev_rows)})")
+        print(f"Real-weight  : ×{args.real_weight}  → {len(train_rows)} weighted train rows")
+    else:
+        # Per-status weights
+        train_rows = []
+        fa_count = pa_count = na_count = 0
+        for row in train_real:
+            score = row.get("score")
+            label = row.get("label", "")
+            if score == 1.0 or label in ("Fully Addressed", "entailment"):
+                weight = STATUS_WEIGHTS["real_fa"]
+                fa_count += 1
+            elif score == 0.7 or label in ("Partially Addressed", "neutral"):
+                weight = STATUS_WEIGHTS["real_pa"]
+                pa_count += 1
+            else:
+                weight = STATUS_WEIGHTS["real_na"]
+                na_count += 1
+            train_rows.extend([row] * weight)
+        print(f"\nReal data    : {len(real_rows)} rows  "
+              f"(train={len(train_real)}, dev={len(dev_rows)})")
+        print(f"  FA={fa_count}×{STATUS_WEIGHTS['real_fa']}  "
+              f"PA={pa_count}×{STATUS_WEIGHTS['real_pa']}  "
+              f"NA={na_count}×{STATUS_WEIGHTS['real_na']}  "
+              f"→ {len(train_rows)} weighted rows")
 
-    print(f"\nReal data    : {len(real_rows)} rows  "
-          f"(train={len(train_real)}, dev={len(dev_rows)})")
-    print(f"Real-weight  : ×{args.real_weight}  → {len(train_rows)} weighted train rows")
+    # ── Confusable NA rows (train only, highest weight) ───────────────────────
+    if args.na_controls:
+        na_raw = load_json(args.na_controls)
+        na_list = na_raw if isinstance(na_raw, list) else [na_raw]
+        if args.format == "nli":
+            na_rows = prepare_confusable_na_nli(na_list, control_map)
+        else:
+            na_rows = prepare_confusable_na_reranker(na_list, control_map)
+
+        weight = STATUS_WEIGHTS["confusable_na"]
+        weighted_na = na_rows * weight
+        train_rows = train_rows + weighted_na
+        print(f"Confusable NA: {len(na_list)} records → {len(na_rows)} rows "
+              f"×{weight} = {len(weighted_na)} weighted rows  (hardest negatives)")
 
     # ── Synthetic rows (train only) ───────────────────────────────────────────
     if args.synthetic:
@@ -434,16 +550,15 @@ def main():
             syn_rows = prepare_synthetic_reranker(syn_list)
 
         train_rows = train_rows + syn_rows
-        random.shuffle(train_rows)
-
         from collections import Counter as _Counter
         syn_status = _Counter(r.get("label") or r.get("score") for r in syn_rows)
-        print(f"Synthetic    : {len(syn_list)} records → {len(syn_rows)} train rows")
+        print(f"Synthetic    : {len(syn_list)} records → {len(syn_rows)} rows")
         print(f"  Status dist: {dict(syn_status)}")
-        print(f"Train total  : {len(train_rows)} rows  (real×{args.real_weight} + synthetic)")
-    else:
-        random.shuffle(train_rows)
-        print(f"Train total  : {len(train_rows)} rows  (real only, no synthetic)")
+
+    random.shuffle(train_rows)
+    na_flag = f" + confusable_na×{STATUS_WEIGHTS['confusable_na']}" if args.na_controls else ""
+    syn_flag = " + synthetic" if args.synthetic else ""
+    print(f"Train total  : {len(train_rows)} rows{na_flag}{syn_flag}")
 
     # ── Save ──────────────────────────────────────────────────────────────────
     out_dir = Path(args.output)

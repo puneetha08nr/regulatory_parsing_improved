@@ -1,12 +1,18 @@
 """
 Quick Start Script for Compliance Mapping
-Run this to get started with compliance mapping
+Run this to get started with compliance mapping.
+
+Single-policy mode (run pipeline on one document only):
+  python3 quick_start_compliance.py "data/02_processed/policies/Asset Management Policy 6_corrected.json"
+  # or
+  SINGLE_POLICY="data/02_processed/policies/Asset Management Policy 6_corrected.json" python3 quick_start_compliance.py
 """
 
 from compliance_mapping_pipeline import ComplianceMappingPipeline
 from pathlib import Path
 import json
 import os
+import sys
 
 def main():
     print("=" * 60)
@@ -18,36 +24,59 @@ def main():
     combined_path = policies_dir / "all_policies_for_mapping.json"
     template_path = Path("data/policies/internal_policies.json")
 
-    # Prefer extracted policies (policies/ then backup/); fall back to combined or manual template
     policy_path = None
     policy_list = None
     policy_source_label = None
-    from flexible_policy_extractor import load_all_policies_from_dir
-    policy_list = load_all_policies_from_dir(str(policies_dir))
-    if policy_list:
-        policy_source_label = "data/02_processed/policies/*_for_mapping.json"
+
+    # Single-policy mode: one JSON file (e.g. one _corrected.json or one _for_mapping.json)
+    single_policy_path = os.environ.get("SINGLE_POLICY")
+    if not single_policy_path and len(sys.argv) > 1:
+        arg = sys.argv[1].strip()
+        if arg.endswith(".json") and Path(arg).exists():
+            single_policy_path = arg
+    if single_policy_path:
+        p = Path(single_policy_path)
+        if not p.exists():
+            print(f"\n⚠️  Single policy file not found: {p}")
+            return
+        try:
+            with open(p, "r", encoding="utf-8") as f:
+                data = json.load(f)
+            policy_list = data if isinstance(data, list) else [data]
+            policy_source_label = f"single policy: {p.name}"
+            print(f"\n   Single-policy mode: {p.name} ({len(policy_list)} passages)")
+        except Exception as e:
+            print(f"\n⚠️  Failed to load single policy: {e}")
+            return
     else:
-        policy_list = load_all_policies_from_dir(str(backup_dir))
+        # Prefer extracted policies (policies/ then backup/); fall back to combined or manual template
+        from flexible_policy_extractor import load_all_policies_from_dir
+        policy_list = load_all_policies_from_dir(str(policies_dir))
         if policy_list:
-            policy_source_label = "data/02_processed/backup/*_for_mapping.json"
-    if policy_list:
-        pass  # use policy_list
-    elif combined_path.exists():
-        policy_path = combined_path
-        policy_list = None
-    elif template_path.exists():
-        policy_path = template_path
-        policy_list = None
-    else:
-        print("\n⚠️  Policy file not found!")
-        print("\n   Expected:")
-        print("   - data/02_processed/policies/*_for_mapping.json (one per doc, from run_policy_extraction_and_label_studio.py)")
-        print("   - data/02_processed/backup/*_for_mapping.json (if policies moved to backup)")
-        print("   - data/02_processed/policies/all_policies_for_mapping.json (legacy combined)")
-        print("   - data/policies/internal_policies.json (manual)")
-        print("\n📋 To extract policies: put DOCX/PDF in data/01_raw/policies/ then run:")
-        print("   python3 run_policy_extraction_and_label_studio.py")
-        return
+            policy_source_label = "data/02_processed/policies/*_for_mapping.json"
+        else:
+            policy_list = load_all_policies_from_dir(str(backup_dir))
+            if policy_list:
+                policy_source_label = "data/02_processed/backup/*_for_mapping.json"
+        if policy_list:
+            pass  # use policy_list
+        elif combined_path.exists():
+            policy_path = combined_path
+            policy_list = None
+        elif template_path.exists():
+            policy_path = template_path
+            policy_list = None
+        else:
+            print("\n⚠️  Policy file not found!")
+            print("\n   Expected:")
+            print("   - Single policy:  python3 quick_start_compliance.py data/02_processed/policies/<PolicyName>_corrected.json")
+            print("   - data/02_processed/policies/*_for_mapping.json")
+            print("   - data/02_processed/backup/*_for_mapping.json")
+            print("   - data/02_processed/policies/all_policies_for_mapping.json")
+            print("   - data/policies/internal_policies.json")
+            print("\n📋 To extract policies: put DOCX/PDF in data/01_raw/policies/ then run:")
+            print("   python3 run_policy_extraction_and_label_studio.py")
+            return
     
     # Optional: use LegalBERT obligation classifier (RegNLP-style)
     # Set LEGALBERT_MODEL_PATH to a local path (e.g. from RePASs train_model.py) or leave unset for rule-based.
@@ -181,11 +210,8 @@ def main():
     print("\n[Step 3/6] Initializing Entailment Mapper...")
     print("   (This will download the NLI model if not already present)")
     try:
-        _nli_kwarg = {}
         _nli_model = getattr(pipeline, "_cpu_nli_model", None)
-        if _nli_model:
-            _nli_kwarg["model_name"] = _nli_model
-        pipeline.initialize_entailment_mapper(**_nli_kwarg)
+        pipeline.initialize_entailment_mapper(model_name=_nli_model)
     except Exception as e:
         print(f"❌ Error initializing entailment mapper: {e}")
         print("   Install: pip install transformers torch")
@@ -271,8 +297,11 @@ def main():
     
     # Step 5: Save Mappings (per-policy JSONs + combined + CSV)
     print("\n[Step 5/6] Saving Mappings...")
-    output_dir = Path("data/06_compliance_mappings")
+    is_single_policy = policy_source_label and policy_source_label.startswith("single policy:")
+    output_dir = Path("data/06_compliance_mappings/single_policy") if is_single_policy else Path("data/06_compliance_mappings")
     output_dir.mkdir(parents=True, exist_ok=True)
+    if is_single_policy:
+        print(f"   Single-policy output dir: {output_dir}")
     
     pipeline.save_mappings(
         str(output_dir / "mappings.csv"),

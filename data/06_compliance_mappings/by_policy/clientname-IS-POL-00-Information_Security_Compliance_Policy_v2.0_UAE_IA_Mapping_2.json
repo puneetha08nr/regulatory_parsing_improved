@@ -22,17 +22,6 @@
     "notes": "Reranker: 0.278"
   },
   {
-    "mapping_id": "M1.2.1_clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_8",
-    "source_control_id": "M1.2.1",
-    "target_policy_id": "clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_8",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2702966630458832,
-    "evidence_text": "5.2 Intellectual Property Rights (IPR)\n\n&lt;&lt;CLIENT&gt;&gt; shall:\n\n5.2.1 Implement appropriate processes, controls, responsibilities and system requirements to ensure compliance with intellectual property rights, including but not limited to:\n\n5.2.1.a Maintaining appropriate asset registers and identify all assets with requirements to protect intellectual property rights.\n\n5.2.1.b Acquiring software only through known and reputable sources to ensure that no intellectual property rights are v",
-    "mapping_date": "2026-03-16T09:45:13.471008",
-    "reviewer": null,
-    "notes": "Reranker: 0.270"
-  },
-  {
     "mapping_id": "M1.3.1_clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_8",
     "source_control_id": "M1.3.1",
     "target_policy_id": "clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_8",
@@ -51,17 +40,6 @@
     "entailment_score": 0.2617895007133484,
     "evidence_text": "5.4 Compliance with Security Policies and Standards\n\n&lt;&lt;CLIENT&gt;&gt; shall:\n\n1. Conduct compliance assessments periodically with respect to applicable standards, laws and regulations.\n2. Report compliance results to appropriate personnel and senior management.\n3. Take necessary corrective actions identified.\n4. Record, monitor and review corrective actions to ensure compliance is maintained.",
     "mapping_date": "2026-03-16T09:45:21.406216",
-    "reviewer": null,
-    "notes": "Reranker: 0.262"
-  },
-  {
-    "mapping_id": "M1.3.3_clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_8",
-    "source_control_id": "M1.3.3",
-    "target_policy_id": "clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_8",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2615584433078766,
-    "evidence_text": "5.2 Intellectual Property Rights (IPR)\n\n&lt;&lt;CLIENT&gt;&gt; shall:\n\n5.2.1 Implement appropriate processes, controls, responsibilities and system requirements to ensure compliance with intellectual property rights, including but not limited to:\n\n5.2.1.a Maintaining appropriate asset registers and identify all assets with requirements to protect intellectual property rights.\n\n5.2.1.b Acquiring software only through known and reputable sources to ensure that no intellectual property rights are v",
-    "mapping_date": "2026-03-16T09:45:21.406278",
     "reviewer": null,
     "notes": "Reranker: 0.262"
   },
@@ -110,17 +88,6 @@
     "notes": "Reranker: 0.273"
   },
   {
-    "mapping_id": "M1.4.3_clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_8",
-    "source_control_id": "M1.4.3",
-    "target_policy_id": "clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_8",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2711265981197357,
-    "evidence_text": "5.2 Intellectual Property Rights (IPR)\n\n&lt;&lt;CLIENT&gt;&gt; shall:\n\n5.2.1 Implement appropriate processes, controls, responsibilities and system requirements to ensure compliance with intellectual property rights, including but not limited to:\n\n5.2.1.a Maintaining appropriate asset registers and identify all assets with requirements to protect intellectual property rights.\n\n5.2.1.b Acquiring software only through known and reputable sources to ensure that no intellectual property rights are v",
-    "mapping_date": "2026-03-16T09:45:40.183872",
-    "reviewer": null,
-    "notes": "Reranker: 0.271"
-  },
-  {
     "mapping_id": "M2.2.2_clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_9",
     "source_control_id": "M2.2.2",
     "target_policy_id": "clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_9",
@@ -150,17 +117,6 @@
     "entailment_score": 0.2593211829662323,
     "evidence_text": "5.2 Intellectual Property Rights (IPR)\n\n&lt;&lt;CLIENT&gt;&gt; shall:\n\n5.2.1 Implement appropriate processes, controls, responsibilities and system requirements to ensure compliance with intellectual property rights, including but not limited to:\n\n5.2.1.a Maintaining appropriate asset registers and identify all assets with requirements to protect intellectual property rights.\n\n5.2.1.b Acquiring software only through known and reputable sources to ensure that no intellectual property rights are v",
     "mapping_date": "2026-03-16T09:46:13.786566",
-    "reviewer": null,
-    "notes": "Reranker: 0.259"
-  },
-  {
-    "mapping_id": "M3.2.1_clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_10",
-    "source_control_id": "M3.2.1",
-    "target_policy_id": "clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_10",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2585838735103607,
-    "evidence_text": "5.4 Compliance with Security Policies and Standards\n\n&lt;&lt;CLIENT&gt;&gt; shall:\n\n1. Conduct compliance assessments periodically with respect to applicable standards, laws and regulations.\n2. Report compliance results to appropriate personnel and senior management.\n3. Take necessary corrective actions identified.\n4. Record, monitor and review corrective actions to ensure compliance is maintained.",
-    "mapping_date": "2026-03-16T09:46:13.786586",
     "reviewer": null,
     "notes": "Reranker: 0.259"
   },
@@ -209,17 +165,6 @@
     "notes": "Reranker: 0.274"
   },
   {
-    "mapping_id": "M4.1.1_clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_10",
-    "source_control_id": "M4.1.1",
-    "target_policy_id": "clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_10",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2656018137931824,
-    "evidence_text": "5.4 Compliance with Security Policies and Standards\n\n&lt;&lt;CLIENT&gt;&gt; shall:\n\n1. Conduct compliance assessments periodically with respect to applicable standards, laws and regulations.\n2. Report compliance results to appropriate personnel and senior management.\n3. Take necessary corrective actions identified.\n4. Record, monitor and review corrective actions to ensure compliance is maintained.",
-    "mapping_date": "2026-03-16T09:46:32.381562",
-    "reviewer": null,
-    "notes": "Reranker: 0.266"
-  },
-  {
     "mapping_id": "M4.2.2_clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_7",
     "source_control_id": "M4.2.2",
     "target_policy_id": "clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_7",
@@ -253,17 +198,6 @@
     "notes": "Reranker: 0.259"
   },
   {
-    "mapping_id": "M4.4.1_clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_7",
-    "source_control_id": "M4.4.1",
-    "target_policy_id": "clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_7",
-    "status": "Partially Addressed",
-    "entailment_score": 0.25744542479515076,
-    "evidence_text": "5.1 Identification of Compliance Requirements\n\n&lt;&lt;CLIENT&gt;&gt; shall:\n\n1. Identify, define and establish compliance with all relevant statutory, regulatory, and contractual requirements, including those of intellectual property rights and business continuity, and data privacy.\n2. Define and implement security controls and assign responsibilities to meet relevant statutory, regulatory, and contractual requirements.",
-    "mapping_date": "2026-03-16T09:46:46.593384",
-    "reviewer": null,
-    "notes": "Reranker: 0.257"
-  },
-  {
     "mapping_id": "M4.4.2_clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_8",
     "source_control_id": "M4.4.2",
     "target_policy_id": "clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_8",
@@ -286,28 +220,6 @@
     "notes": "Reranker: 0.288"
   },
   {
-    "mapping_id": "M5.1.1_clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_10",
-    "source_control_id": "M5.1.1",
-    "target_policy_id": "clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_10",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2717219889163971,
-    "evidence_text": "5.4 Compliance with Security Policies and Standards\n\n&lt;&lt;CLIENT&gt;&gt; shall:\n\n1. Conduct compliance assessments periodically with respect to applicable standards, laws and regulations.\n2. Report compliance results to appropriate personnel and senior management.\n3. Take necessary corrective actions identified.\n4. Record, monitor and review corrective actions to ensure compliance is maintained.",
-    "mapping_date": "2026-03-16T09:46:52.310089",
-    "reviewer": null,
-    "notes": "Reranker: 0.272"
-  },
-  {
-    "mapping_id": "M5.1.1_clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_8",
-    "source_control_id": "M5.1.1",
-    "target_policy_id": "clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_8",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2628144323825836,
-    "evidence_text": "5.2 Intellectual Property Rights (IPR)\n\n&lt;&lt;CLIENT&gt;&gt; shall:\n\n5.2.1 Implement appropriate processes, controls, responsibilities and system requirements to ensure compliance with intellectual property rights, including but not limited to:\n\n5.2.1.a Maintaining appropriate asset registers and identify all assets with requirements to protect intellectual property rights.\n\n5.2.1.b Acquiring software only through known and reputable sources to ensure that no intellectual property rights are v",
-    "mapping_date": "2026-03-16T09:46:52.310122",
-    "reviewer": null,
-    "notes": "Reranker: 0.263"
-  },
-  {
     "mapping_id": "M5.2.1_clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_6",
     "source_control_id": "M5.2.1",
     "target_policy_id": "clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_6",
@@ -317,17 +229,6 @@
     "mapping_date": "2026-03-16T09:46:55.211660",
     "reviewer": null,
     "notes": "Reranker: 0.286"
-  },
-  {
-    "mapping_id": "M5.2.1_clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_10",
-    "source_control_id": "M5.2.1",
-    "target_policy_id": "clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_10",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2779255509376526,
-    "evidence_text": "5.4 Compliance with Security Policies and Standards\n\n&lt;&lt;CLIENT&gt;&gt; shall:\n\n1. Conduct compliance assessments periodically with respect to applicable standards, laws and regulations.\n2. Report compliance results to appropriate personnel and senior management.\n3. Take necessary corrective actions identified.\n4. Record, monitor and review corrective actions to ensure compliance is maintained.",
-    "mapping_date": "2026-03-16T09:46:55.211680",
-    "reviewer": null,
-    "notes": "Reranker: 0.278"
   },
   {
     "mapping_id": "M5.2.2_clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_7",
@@ -352,17 +253,6 @@
     "notes": "Reranker: 0.276"
   },
   {
-    "mapping_id": "M5.2.3_clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_8",
-    "source_control_id": "M5.2.3",
-    "target_policy_id": "clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_8",
-    "status": "Partially Addressed",
-    "entailment_score": 0.26318439841270447,
-    "evidence_text": "5.2 Intellectual Property Rights (IPR)\n\n&lt;&lt;CLIENT&gt;&gt; shall:\n\n5.2.1 Implement appropriate processes, controls, responsibilities and system requirements to ensure compliance with intellectual property rights, including but not limited to:\n\n5.2.1.a Maintaining appropriate asset registers and identify all assets with requirements to protect intellectual property rights.\n\n5.2.1.b Acquiring software only through known and reputable sources to ensure that no intellectual property rights are v",
-    "mapping_date": "2026-03-16T09:47:01.213910",
-    "reviewer": null,
-    "notes": "Reranker: 0.263"
-  },
-  {
     "mapping_id": "M5.2.4_clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_7",
     "source_control_id": "M5.2.4",
     "target_policy_id": "clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_7",
@@ -372,28 +262,6 @@
     "mapping_date": "2026-03-16T09:47:04.031843",
     "reviewer": null,
     "notes": "Reranker: 0.265"
-  },
-  {
-    "mapping_id": "M5.2.4_clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_6",
-    "source_control_id": "M5.2.4",
-    "target_policy_id": "clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_6",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2616424262523651,
-    "evidence_text": "4 POLICY STATEMENT\n\n&lt;&lt;CLIENT&gt;&gt; shall develop, implement, and maintain an organization-wide information security compliance Policy to:\n\n- Implement and operate applicable and relevant security measures and controls to ensure compliance with applicable standards, laws and regulations.\n- Avoid breaches of legal, statutory, regulatory or contractual obligations related to information security, business continuity and privacy.",
-    "mapping_date": "2026-03-16T09:47:04.031859",
-    "reviewer": null,
-    "notes": "Reranker: 0.262"
-  },
-  {
-    "mapping_id": "M5.2.4_clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_8",
-    "source_control_id": "M5.2.4",
-    "target_policy_id": "clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_8",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2513454854488373,
-    "evidence_text": "5.2 Intellectual Property Rights (IPR)\n\n&lt;&lt;CLIENT&gt;&gt; shall:\n\n5.2.1 Implement appropriate processes, controls, responsibilities and system requirements to ensure compliance with intellectual property rights, including but not limited to:\n\n5.2.1.a Maintaining appropriate asset registers and identify all assets with requirements to protect intellectual property rights.\n\n5.2.1.b Acquiring software only through known and reputable sources to ensure that no intellectual property rights are v",
-    "mapping_date": "2026-03-16T09:47:04.031876",
-    "reviewer": null,
-    "notes": "Reranker: 0.251"
   },
   {
     "mapping_id": "M5.2.5_clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_8",
@@ -416,17 +284,6 @@
     "mapping_date": "2026-03-16T09:47:09.599498",
     "reviewer": null,
     "notes": "Reranker: 0.256"
-  },
-  {
-    "mapping_id": "M5.2.6_clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_9",
-    "source_control_id": "M5.2.6",
-    "target_policy_id": "clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_9",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2529350519180298,
-    "evidence_text": "5.3 Protection of Records and Personal Data\n\n&lt;&lt;CLIENT&gt;&gt; shall:\n\n5.3.1    Define and categorize records by record type (e.g. financial, database, transaction logs, audit logs, operational procedures) and include details of retention periods and type of storage media.\n\n1. Store related cryptographic key material to permit decryption of records for the period the records are retained or archived.\n2. Consider the potential deterioration of media used for storing digital records when prot",
-    "mapping_date": "2026-03-16T09:47:09.599512",
-    "reviewer": null,
-    "notes": "Reranker: 0.253"
   },
   {
     "mapping_id": "M5.3.1_clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_7",
@@ -495,28 +352,6 @@
     "notes": "Reranker: 0.269"
   },
   {
-    "mapping_id": "T1.1.1_clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_9",
-    "source_control_id": "T1.1.1",
-    "target_policy_id": "clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_9",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2626051902770996,
-    "evidence_text": "5.3 Protection of Records and Personal Data\n\n&lt;&lt;CLIENT&gt;&gt; shall:\n\n5.3.1    Define and categorize records by record type (e.g. financial, database, transaction logs, audit logs, operational procedures) and include details of retention periods and type of storage media.\n\n1. Store related cryptographic key material to permit decryption of records for the period the records are retained or archived.\n2. Consider the potential deterioration of media used for storing digital records when prot",
-    "mapping_date": "2026-03-16T09:47:43.751339",
-    "reviewer": null,
-    "notes": "Reranker: 0.263"
-  },
-  {
-    "mapping_id": "T1.1.1_clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_10",
-    "source_control_id": "T1.1.1",
-    "target_policy_id": "clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_10",
-    "status": "Partially Addressed",
-    "entailment_score": 0.26084932684898376,
-    "evidence_text": "5.4 Compliance with Security Policies and Standards\n\n&lt;&lt;CLIENT&gt;&gt; shall:\n\n1. Conduct compliance assessments periodically with respect to applicable standards, laws and regulations.\n2. Report compliance results to appropriate personnel and senior management.\n3. Take necessary corrective actions identified.\n4. Record, monitor and review corrective actions to ensure compliance is maintained.",
-    "mapping_date": "2026-03-16T09:47:43.751363",
-    "reviewer": null,
-    "notes": "Reranker: 0.261"
-  },
-  {
     "mapping_id": "T1.2.2_clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_8",
     "source_control_id": "T1.2.2",
     "target_policy_id": "clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_8",
@@ -581,17 +416,6 @@
     "mapping_date": "2026-03-16T09:48:00.285593",
     "reviewer": null,
     "notes": "Reranker: 0.270"
-  },
-  {
-    "mapping_id": "T1.3.3_clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_9",
-    "source_control_id": "T1.3.3",
-    "target_policy_id": "clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_9",
-    "status": "Partially Addressed",
-    "entailment_score": 0.254976361989975,
-    "evidence_text": "5.3 Protection of Records and Personal Data\n\n&lt;&lt;CLIENT&gt;&gt; shall:\n\n5.3.1    Define and categorize records by record type (e.g. financial, database, transaction logs, audit logs, operational procedures) and include details of retention periods and type of storage media.\n\n1. Store related cryptographic key material to permit decryption of records for the period the records are retained or archived.\n2. Consider the potential deterioration of media used for storing digital records when prot",
-    "mapping_date": "2026-03-16T09:48:00.285565",
-    "reviewer": null,
-    "notes": "Reranker: 0.255"
   },
   {
     "mapping_id": "T1.4.1_clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_9",
@@ -704,28 +528,6 @@
     "notes": "Reranker: 0.263"
   },
   {
-    "mapping_id": "T3.1.1_clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_8",
-    "source_control_id": "T3.1.1",
-    "target_policy_id": "clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_8",
-    "status": "Partially Addressed",
-    "entailment_score": 0.26297006011009216,
-    "evidence_text": "5.2 Intellectual Property Rights (IPR)\n\n&lt;&lt;CLIENT&gt;&gt; shall:\n\n5.2.1 Implement appropriate processes, controls, responsibilities and system requirements to ensure compliance with intellectual property rights, including but not limited to:\n\n5.2.1.a Maintaining appropriate asset registers and identify all assets with requirements to protect intellectual property rights.\n\n5.2.1.b Acquiring software only through known and reputable sources to ensure that no intellectual property rights are v",
-    "mapping_date": "2026-03-16T09:48:50.603616",
-    "reviewer": null,
-    "notes": "Reranker: 0.263"
-  },
-  {
-    "mapping_id": "T3.1.1_clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_10",
-    "source_control_id": "T3.1.1",
-    "target_policy_id": "clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_10",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2609340250492096,
-    "evidence_text": "5.4 Compliance with Security Policies and Standards\n\n&lt;&lt;CLIENT&gt;&gt; shall:\n\n1. Conduct compliance assessments periodically with respect to applicable standards, laws and regulations.\n2. Report compliance results to appropriate personnel and senior management.\n3. Take necessary corrective actions identified.\n4. Record, monitor and review corrective actions to ensure compliance is maintained.",
-    "mapping_date": "2026-03-16T09:48:50.603598",
-    "reviewer": null,
-    "notes": "Reranker: 0.261"
-  },
-  {
     "mapping_id": "T3.2.2_clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_9",
     "source_control_id": "T3.2.2",
     "target_policy_id": "clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_9",
@@ -770,17 +572,6 @@
     "notes": "Reranker: 0.262"
   },
   {
-    "mapping_id": "T3.5.1_clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_9",
-    "source_control_id": "T3.5.1",
-    "target_policy_id": "clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_9",
-    "status": "Partially Addressed",
-    "entailment_score": 0.256306529045105,
-    "evidence_text": "5.3 Protection of Records and Personal Data\n\n&lt;&lt;CLIENT&gt;&gt; shall:\n\n5.3.1    Define and categorize records by record type (e.g. financial, database, transaction logs, audit logs, operational procedures) and include details of retention periods and type of storage media.\n\n1. Store related cryptographic key material to permit decryption of records for the period the records are retained or archived.\n2. Consider the potential deterioration of media used for storing digital records when prot",
-    "mapping_date": "2026-03-16T09:49:12.498392",
-    "reviewer": null,
-    "notes": "Reranker: 0.256"
-  },
-  {
     "mapping_id": "T3.6.1_clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_10",
     "source_control_id": "T3.6.1",
     "target_policy_id": "clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_10",
@@ -790,17 +581,6 @@
     "mapping_date": "2026-03-16T09:49:15.226884",
     "reviewer": null,
     "notes": "Reranker: 0.257"
-  },
-  {
-    "mapping_id": "T3.6.1_clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_8",
-    "source_control_id": "T3.6.1",
-    "target_policy_id": "clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_8",
-    "status": "Partially Addressed",
-    "entailment_score": 0.25529682636260986,
-    "evidence_text": "5.2 Intellectual Property Rights (IPR)\n\n&lt;&lt;CLIENT&gt;&gt; shall:\n\n5.2.1 Implement appropriate processes, controls, responsibilities and system requirements to ensure compliance with intellectual property rights, including but not limited to:\n\n5.2.1.a Maintaining appropriate asset registers and identify all assets with requirements to protect intellectual property rights.\n\n5.2.1.b Acquiring software only through known and reputable sources to ensure that no intellectual property rights are v",
-    "mapping_date": "2026-03-16T09:49:15.226900",
-    "reviewer": null,
-    "notes": "Reranker: 0.255"
   },
   {
     "mapping_id": "T3.6.2_clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_9",
@@ -858,17 +638,6 @@
     "notes": "Reranker: 0.263"
   },
   {
-    "mapping_id": "T4.2.3_clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_9",
-    "source_control_id": "T4.2.3",
-    "target_policy_id": "clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_9",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2552342116832733,
-    "evidence_text": "5.3 Protection of Records and Personal Data\n\n&lt;&lt;CLIENT&gt;&gt; shall:\n\n5.3.1    Define and categorize records by record type (e.g. financial, database, transaction logs, audit logs, operational procedures) and include details of retention periods and type of storage media.\n\n1. Store related cryptographic key material to permit decryption of records for the period the records are retained or archived.\n2. Consider the potential deterioration of media used for storing digital records when prot",
-    "mapping_date": "2026-03-16T09:49:40.248962",
-    "reviewer": null,
-    "notes": "Reranker: 0.255"
-  },
-  {
     "mapping_id": "T4.3.1_clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_9",
     "source_control_id": "T4.3.1",
     "target_policy_id": "clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_9",
@@ -900,17 +669,6 @@
     "mapping_date": "2026-03-16T09:49:52.119262",
     "reviewer": null,
     "notes": "Reranker: 0.278"
-  },
-  {
-    "mapping_id": "T4.3.3_clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_9",
-    "source_control_id": "T4.3.3",
-    "target_policy_id": "clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_9",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2726784944534302,
-    "evidence_text": "5.3 Protection of Records and Personal Data\n\n&lt;&lt;CLIENT&gt;&gt; shall:\n\n5.3.1    Define and categorize records by record type (e.g. financial, database, transaction logs, audit logs, operational procedures) and include details of retention periods and type of storage media.\n\n1. Store related cryptographic key material to permit decryption of records for the period the records are retained or archived.\n2. Consider the potential deterioration of media used for storing digital records when prot",
-    "mapping_date": "2026-03-16T09:49:52.119300",
-    "reviewer": null,
-    "notes": "Reranker: 0.273"
   },
   {
     "mapping_id": "T4.5.1_clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_8",
@@ -1001,17 +759,6 @@
     "notes": "Reranker: 0.253"
   },
   {
-    "mapping_id": "T5.5.1_clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_9",
-    "source_control_id": "T5.5.1",
-    "target_policy_id": "clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_9",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2507813274860382,
-    "evidence_text": "5.3 Protection of Records and Personal Data\n\n&lt;&lt;CLIENT&gt;&gt; shall:\n\n5.3.1    Define and categorize records by record type (e.g. financial, database, transaction logs, audit logs, operational procedures) and include details of retention periods and type of storage media.\n\n1. Store related cryptographic key material to permit decryption of records for the period the records are retained or archived.\n2. Consider the potential deterioration of media used for storing digital records when prot",
-    "mapping_date": "2026-03-16T09:50:39.777277",
-    "reviewer": null,
-    "notes": "Reranker: 0.251"
-  },
-  {
     "mapping_id": "T5.6.3_clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_8",
     "source_control_id": "T5.6.3",
     "target_policy_id": "clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_8",
@@ -1034,17 +781,6 @@
     "notes": "Reranker: 0.268"
   },
   {
-    "mapping_id": "T6.2.2_clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_10",
-    "source_control_id": "T6.2.2",
-    "target_policy_id": "clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_10",
-    "status": "Partially Addressed",
-    "entailment_score": 0.26641833782196045,
-    "evidence_text": "5.4 Compliance with Security Policies and Standards\n\n&lt;&lt;CLIENT&gt;&gt; shall:\n\n1. Conduct compliance assessments periodically with respect to applicable standards, laws and regulations.\n2. Report compliance results to appropriate personnel and senior management.\n3. Take necessary corrective actions identified.\n4. Record, monitor and review corrective actions to ensure compliance is maintained.",
-    "mapping_date": "2026-03-16T09:51:10.971708",
-    "reviewer": null,
-    "notes": "Reranker: 0.266"
-  },
-  {
     "mapping_id": "T6.3.1_clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_9",
     "source_control_id": "T6.3.1",
     "target_policy_id": "clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_9",
@@ -1054,17 +790,6 @@
     "mapping_date": "2026-03-16T09:51:16.681523",
     "reviewer": null,
     "notes": "Reranker: 0.269"
-  },
-  {
-    "mapping_id": "T6.3.1_clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_8",
-    "source_control_id": "T6.3.1",
-    "target_policy_id": "clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_8",
-    "status": "Partially Addressed",
-    "entailment_score": 0.26392221450805664,
-    "evidence_text": "5.2 Intellectual Property Rights (IPR)\n\n&lt;&lt;CLIENT&gt;&gt; shall:\n\n5.2.1 Implement appropriate processes, controls, responsibilities and system requirements to ensure compliance with intellectual property rights, including but not limited to:\n\n5.2.1.a Maintaining appropriate asset registers and identify all assets with requirements to protect intellectual property rights.\n\n5.2.1.b Acquiring software only through known and reputable sources to ensure that no intellectual property rights are v",
-    "mapping_date": "2026-03-16T09:51:16.681591",
-    "reviewer": null,
-    "notes": "Reranker: 0.264"
   },
   {
     "mapping_id": "T7.1.1_clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_8",
@@ -1098,17 +823,6 @@
     "mapping_date": "2026-03-16T09:51:39.048058",
     "reviewer": null,
     "notes": "Reranker: 0.259"
-  },
-  {
-    "mapping_id": "T7.4.2_clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_8",
-    "source_control_id": "T7.4.2",
-    "target_policy_id": "clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_8",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2506040930747986,
-    "evidence_text": "5.2 Intellectual Property Rights (IPR)\n\n&lt;&lt;CLIENT&gt;&gt; shall:\n\n5.2.1 Implement appropriate processes, controls, responsibilities and system requirements to ensure compliance with intellectual property rights, including but not limited to:\n\n5.2.1.a Maintaining appropriate asset registers and identify all assets with requirements to protect intellectual property rights.\n\n5.2.1.b Acquiring software only through known and reputable sources to ensure that no intellectual property rights are v",
-    "mapping_date": "2026-03-16T09:51:39.048133",
-    "reviewer": null,
-    "notes": "Reranker: 0.251"
   },
   {
     "mapping_id": "T7.5.2_clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_8",
@@ -1166,17 +880,6 @@
     "notes": "Reranker: 0.280"
   },
   {
-    "mapping_id": "T8.2.9_clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_9",
-    "source_control_id": "T8.2.9",
-    "target_policy_id": "clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_9",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2720964550971985,
-    "evidence_text": "5.3 Protection of Records and Personal Data\n\n&lt;&lt;CLIENT&gt;&gt; shall:\n\n5.3.1    Define and categorize records by record type (e.g. financial, database, transaction logs, audit logs, operational procedures) and include details of retention periods and type of storage media.\n\n1. Store related cryptographic key material to permit decryption of records for the period the records are retained or archived.\n2. Consider the potential deterioration of media used for storing digital records when prot",
-    "mapping_date": "2026-03-16T09:52:38.124077",
-    "reviewer": null,
-    "notes": "Reranker: 0.272"
-  },
-  {
     "mapping_id": "T8.3.2_clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_7",
     "source_control_id": "T8.3.2",
     "target_policy_id": "clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_7",
@@ -1188,17 +891,6 @@
     "notes": "Reranker: 0.295"
   },
   {
-    "mapping_id": "T8.3.2_clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_10",
-    "source_control_id": "T8.3.2",
-    "target_policy_id": "clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_10",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2876848876476288,
-    "evidence_text": "5.4 Compliance with Security Policies and Standards\n\n&lt;&lt;CLIENT&gt;&gt; shall:\n\n1. Conduct compliance assessments periodically with respect to applicable standards, laws and regulations.\n2. Report compliance results to appropriate personnel and senior management.\n3. Take necessary corrective actions identified.\n4. Record, monitor and review corrective actions to ensure compliance is maintained.",
-    "mapping_date": "2026-03-16T09:52:44.433600",
-    "reviewer": null,
-    "notes": "Reranker: 0.288"
-  },
-  {
     "mapping_id": "T8.3.3_clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_7",
     "source_control_id": "T8.3.3",
     "target_policy_id": "clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_7",
@@ -1208,17 +900,6 @@
     "mapping_date": "2026-03-16T09:52:48.540462",
     "reviewer": null,
     "notes": "Reranker: 0.295"
-  },
-  {
-    "mapping_id": "T8.3.3_clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_10",
-    "source_control_id": "T8.3.3",
-    "target_policy_id": "clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_10",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2876848876476288,
-    "evidence_text": "5.4 Compliance with Security Policies and Standards\n\n&lt;&lt;CLIENT&gt;&gt; shall:\n\n1. Conduct compliance assessments periodically with respect to applicable standards, laws and regulations.\n2. Report compliance results to appropriate personnel and senior management.\n3. Take necessary corrective actions identified.\n4. Record, monitor and review corrective actions to ensure compliance is maintained.",
-    "mapping_date": "2026-03-16T09:52:48.540439",
-    "reviewer": null,
-    "notes": "Reranker: 0.288"
   },
   {
     "mapping_id": "T9.1.1_clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_8",

@@ -33,17 +33,6 @@
     "notes": "Reranker: 0.271"
   },
   {
-    "mapping_id": "M1.2.1_clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2_passage_7",
-    "source_control_id": "M1.2.1",
-    "target_policy_id": "clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2_passage_7",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2688579857349396,
-    "evidence_text": "5 POLICY DETAILS\n\n5. **Information Security Requirements Analysis and Specification**\n\n&lt;CLIENT&gt; shall:\n\n1. Identify, document and review information security (IS) requirements using various methods such as deriving compliance requirements, threat modelling, incident reviews and/or use of vulnerability thresholds.\n2. Ensure that the IS requirements and measures reflect the business value and potential adverse business impact resulting from lack of adequate security.\n3. Identify and manage I",
-    "mapping_date": "2026-03-16T09:45:13.944095",
-    "reviewer": null,
-    "notes": "Reranker: 0.269"
-  },
-  {
     "mapping_id": "M1.3.1_clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2_passage_6",
     "source_control_id": "M1.3.1",
     "target_policy_id": "clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2_passage_6",
@@ -438,17 +427,6 @@
     "mapping_date": "2026-03-16T09:52:12.963258",
     "reviewer": null,
     "notes": "Reranker: 0.281"
-  },
-  {
-    "mapping_id": "T8.1.1_clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2_passage_7",
-    "source_control_id": "T8.1.1",
-    "target_policy_id": "clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2_passage_7",
-    "status": "Partially Addressed",
-    "entailment_score": 0.27630019187927246,
-    "evidence_text": "5 POLICY DETAILS\n\n5. **Information Security Requirements Analysis and Specification**\n\n&lt;CLIENT&gt; shall:\n\n1. Identify, document and review information security (IS) requirements using various methods such as deriving compliance requirements, threat modelling, incident reviews and/or use of vulnerability thresholds.\n2. Ensure that the IS requirements and measures reflect the business value and potential adverse business impact resulting from lack of adequate security.\n3. Identify and manage I",
-    "mapping_date": "2026-03-16T09:52:12.963254",
-    "reviewer": null,
-    "notes": "Reranker: 0.276"
   },
   {
     "mapping_id": "T8.2.2_clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2_passage_5",

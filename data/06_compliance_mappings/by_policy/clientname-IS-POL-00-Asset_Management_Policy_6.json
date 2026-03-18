@@ -44,17 +44,6 @@
     "notes": "Reranker: 0.261"
   },
   {
-    "mapping_id": "M1.3.1_clientname-IS-POL-00-Asset Management Policy 6_passage_10",
-    "source_control_id": "M1.3.1",
-    "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_10",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2589738667011261,
-    "evidence_text": "5.4 Asset Handling\n\n&lt;CLIENT&gt; shall:\n\n1. Develop procedures for handling, processing, storing, and communicating information consistent with its classification level. The following items should be considered, at a minimum:\n2. Access restrictions supporting the protection requirements for each level of classification.\n3. Protection of temporary or permanent copies of information to a level consistent with the protection of the original information.\n4. Storage of IT assets in accordance with ",
-    "mapping_date": "2026-03-16T09:45:15.314884",
-    "reviewer": null,
-    "notes": "Reranker: 0.259"
-  },
-  {
     "mapping_id": "M1.3.3_clientname-IS-POL-00-Asset Management Policy 6_passage_13",
     "source_control_id": "M1.3.3",
     "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_13",
@@ -77,28 +66,6 @@
     "notes": "Reranker: 0.281"
   },
   {
-    "mapping_id": "M1.3.6_clientname-IS-POL-00-Asset Management Policy 6_passage_15",
-    "source_control_id": "M1.3.6",
-    "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_15",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2785658836364746,
-    "evidence_text": "5.9 Bring Your Own Device (BYOD) Arrangements\n\n&lt;CLIENT&gt; shall:\n\n1. Provide means to securely access organizational information and information assets via ‘Bring Your Own Device’ (BYOD).\n2. Establish and implement information security requirements to secure organizational information and information assets via ‘Bring Your Own Device’ (BYOD) in line with &lt;CLIENT&gt; Bring Your Own Device (BYOD) Policy (&lt;CLIENT&gt;-ORG-IMS-POL-020).",
-    "mapping_date": "2026-03-16T09:45:28.588276",
-    "reviewer": null,
-    "notes": "Reranker: 0.279"
-  },
-  {
-    "mapping_id": "M1.3.6_clientname-IS-POL-00-Asset Management Policy 6_passage_6",
-    "source_control_id": "M1.3.6",
-    "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_6",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2738317549228668,
-    "evidence_text": "4 POLICY STATEMENT\n\n&lt;CLIENT&gt; shall ensure the security of assets by:\n\n1. Identifying information assets.\n2. Ensuring that a current and accurate inventory of assets is developed and maintained through an asset register to include responsibilities and classification based on Data Security Policy (&lt;CLIENT&gt;-ORG-IMS-POL-003).",
-    "mapping_date": "2026-03-16T09:45:28.588225",
-    "reviewer": null,
-    "notes": "Reranker: 0.274"
-  },
-  {
     "mapping_id": "M1.3.7_clientname-IS-POL-00-Asset Management Policy 6_passage_8",
     "source_control_id": "M1.3.7",
     "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_8",
@@ -108,39 +75,6 @@
     "mapping_date": "2026-03-16T09:45:31.270204",
     "reviewer": null,
     "notes": "Reranker: 0.284"
-  },
-  {
-    "mapping_id": "M1.3.7_clientname-IS-POL-00-Asset Management Policy 6_passage_14",
-    "source_control_id": "M1.3.7",
-    "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_14",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2799214720726013,
-    "evidence_text": "5.8 Acceptable Use of Assets\n\n&lt;CLIENT&gt; shall:\n\n1. Ensure that usage of all organization’s information, information assets and information and communications technology (ICT) systems are approved by the information security department prior to deployment.\n2. Establish, document, and circulate the rules for the acceptable use of assets in line with the &lt;CLIENT&gt; Acceptable Use Policy (&lt;CLIENT&gt;-ORG-IMS-POL-002) and disciplinary procedures.\n3. Consider the information provided by ot",
-    "mapping_date": "2026-03-16T09:45:31.270187",
-    "reviewer": null,
-    "notes": "Reranker: 0.280"
-  },
-  {
-    "mapping_id": "M1.3.7_clientname-IS-POL-00-Asset Management Policy 6_passage_15",
-    "source_control_id": "M1.3.7",
-    "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_15",
-    "status": "Partially Addressed",
-    "entailment_score": 0.27871406078338623,
-    "evidence_text": "5.9 Bring Your Own Device (BYOD) Arrangements\n\n&lt;CLIENT&gt; shall:\n\n1. Provide means to securely access organizational information and information assets via ‘Bring Your Own Device’ (BYOD).\n2. Establish and implement information security requirements to secure organizational information and information assets via ‘Bring Your Own Device’ (BYOD) in line with &lt;CLIENT&gt; Bring Your Own Device (BYOD) Policy (&lt;CLIENT&gt;-ORG-IMS-POL-020).",
-    "mapping_date": "2026-03-16T09:45:31.270235",
-    "reviewer": null,
-    "notes": "Reranker: 0.279"
-  },
-  {
-    "mapping_id": "M1.3.7_clientname-IS-POL-00-Asset Management Policy 6_passage_10",
-    "source_control_id": "M1.3.7",
-    "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_10",
-    "status": "Partially Addressed",
-    "entailment_score": 0.27635613083839417,
-    "evidence_text": "5.4 Asset Handling\n\n&lt;CLIENT&gt; shall:\n\n1. Develop procedures for handling, processing, storing, and communicating information consistent with its classification level. The following items should be considered, at a minimum:\n2. Access restrictions supporting the protection requirements for each level of classification.\n3. Protection of temporary or permanent copies of information to a level consistent with the protection of the original information.\n4. Storage of IT assets in accordance with ",
-    "mapping_date": "2026-03-16T09:45:31.270194",
-    "reviewer": null,
-    "notes": "Reranker: 0.276"
   },
   {
     "mapping_id": "M1.4.1_clientname-IS-POL-00-Asset Management Policy 6_passage_7",
@@ -154,28 +88,6 @@
     "notes": "Reranker: 0.282"
   },
   {
-    "mapping_id": "M1.4.1_clientname-IS-POL-00-Asset Management Policy 6_passage_14",
-    "source_control_id": "M1.4.1",
-    "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_14",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2811768352985382,
-    "evidence_text": "5.8 Acceptable Use of Assets\n\n&lt;CLIENT&gt; shall:\n\n1. Ensure that usage of all organization’s information, information assets and information and communications technology (ICT) systems are approved by the information security department prior to deployment.\n2. Establish, document, and circulate the rules for the acceptable use of assets in line with the &lt;CLIENT&gt; Acceptable Use Policy (&lt;CLIENT&gt;-ORG-IMS-POL-002) and disciplinary procedures.\n3. Consider the information provided by ot",
-    "mapping_date": "2026-03-16T09:45:33.977763",
-    "reviewer": null,
-    "notes": "Reranker: 0.281"
-  },
-  {
-    "mapping_id": "M1.4.1_clientname-IS-POL-00-Asset Management Policy 6_passage_10",
-    "source_control_id": "M1.4.1",
-    "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_10",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2791966199874878,
-    "evidence_text": "5.4 Asset Handling\n\n&lt;CLIENT&gt; shall:\n\n1. Develop procedures for handling, processing, storing, and communicating information consistent with its classification level. The following items should be considered, at a minimum:\n2. Access restrictions supporting the protection requirements for each level of classification.\n3. Protection of temporary or permanent copies of information to a level consistent with the protection of the original information.\n4. Storage of IT assets in accordance with ",
-    "mapping_date": "2026-03-16T09:45:33.977717",
-    "reviewer": null,
-    "notes": "Reranker: 0.279"
-  },
-  {
     "mapping_id": "M1.4.2_clientname-IS-POL-00-Asset Management Policy 6_passage_13",
     "source_control_id": "M1.4.2",
     "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_13",
@@ -187,17 +99,6 @@
     "notes": "Reranker: 0.262"
   },
   {
-    "mapping_id": "M1.4.2_clientname-IS-POL-00-Asset Management Policy 6_passage_10",
-    "source_control_id": "M1.4.2",
-    "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_10",
-    "status": "Partially Addressed",
-    "entailment_score": 0.26062506437301636,
-    "evidence_text": "5.4 Asset Handling\n\n&lt;CLIENT&gt; shall:\n\n1. Develop procedures for handling, processing, storing, and communicating information consistent with its classification level. The following items should be considered, at a minimum:\n2. Access restrictions supporting the protection requirements for each level of classification.\n3. Protection of temporary or permanent copies of information to a level consistent with the protection of the original information.\n4. Storage of IT assets in accordance with ",
-    "mapping_date": "2026-03-16T09:45:36.676261",
-    "reviewer": null,
-    "notes": "Reranker: 0.261"
-  },
-  {
     "mapping_id": "M1.4.3_clientname-IS-POL-00-Asset Management Policy 6_passage_10",
     "source_control_id": "M1.4.3",
     "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_10",
@@ -207,17 +108,6 @@
     "mapping_date": "2026-03-16T09:45:39.390974",
     "reviewer": null,
     "notes": "Reranker: 0.274"
-  },
-  {
-    "mapping_id": "M1.4.3_clientname-IS-POL-00-Asset Management Policy 6_passage_11",
-    "source_control_id": "M1.4.3",
-    "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_11",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2690986394882202,
-    "evidence_text": "5.5 Removable Media Management\n\n&lt;CLIENT&gt; shall:\n\n1. Ensure that all information is stored only in organization authorized media.\n2. Ensure that contents of any re-usable media that are to be removed from the organization is made unrecoverable when no longer required.\n3. Ensure that appropriate authorization is obtained for media removed from the organization and a record of such removals is kept in order to maintain an audit trail.\n4. Store all media in a safe and secure environment in acc",
-    "mapping_date": "2026-03-16T09:45:39.391039",
-    "reviewer": null,
-    "notes": "Reranker: 0.269"
   },
   {
     "mapping_id": "M2.2.2_clientname-IS-POL-00-Asset Management Policy 6_passage_10",
@@ -286,17 +176,6 @@
     "notes": "Reranker: 0.259"
   },
   {
-    "mapping_id": "M3.3.3_clientname-IS-POL-00-Asset Management Policy 6_passage_10",
-    "source_control_id": "M3.3.3",
-    "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_10",
-    "status": "Partially Addressed",
-    "entailment_score": 0.25582027435302734,
-    "evidence_text": "5.4 Asset Handling\n\n&lt;CLIENT&gt; shall:\n\n1. Develop procedures for handling, processing, storing, and communicating information consistent with its classification level. The following items should be considered, at a minimum:\n2. Access restrictions supporting the protection requirements for each level of classification.\n3. Protection of temporary or permanent copies of information to a level consistent with the protection of the original information.\n4. Storage of IT assets in accordance with ",
-    "mapping_date": "2026-03-16T09:46:20.974391",
-    "reviewer": null,
-    "notes": "Reranker: 0.256"
-  },
-  {
     "mapping_id": "M3.3.4_clientname-IS-POL-00-Asset Management Policy 6_passage_13",
     "source_control_id": "M3.3.4",
     "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_13",
@@ -363,17 +242,6 @@
     "notes": "Reranker: 0.259"
   },
   {
-    "mapping_id": "M4.4.1_clientname-IS-POL-00-Asset Management Policy 6_passage_13",
-    "source_control_id": "M4.4.1",
-    "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_13",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2586360275745392,
-    "evidence_text": "5.7 Physical Media Transfer\n\n&lt;CLIENT&gt; shall:\n\n1. Utilize reliable transport or couriers for transportation of physical media between sites.\n2. Develop a list of authorized couriers that are approved by the management.\n3. Define labelling requirements for physical media carrying sensitive information.\n4. Ensure that logs of the transfer are kept identifying the content of the media, protection applied, time(s) of transfer to the transit custodian(s), and the receipt at destination.\n5. Consi",
-    "mapping_date": "2026-03-16T09:46:45.757014",
-    "reviewer": null,
-    "notes": "Reranker: 0.259"
-  },
-  {
     "mapping_id": "M4.4.2_clientname-IS-POL-00-Asset Management Policy 6_passage_8",
     "source_control_id": "M4.4.2",
     "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_8",
@@ -383,28 +251,6 @@
     "mapping_date": "2026-03-16T09:46:48.580783",
     "reviewer": null,
     "notes": "Reranker: 0.273"
-  },
-  {
-    "mapping_id": "M4.4.2_clientname-IS-POL-00-Asset Management Policy 6_passage_14",
-    "source_control_id": "M4.4.2",
-    "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_14",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2620103359222412,
-    "evidence_text": "5.8 Acceptable Use of Assets\n\n&lt;CLIENT&gt; shall:\n\n1. Ensure that usage of all organization’s information, information assets and information and communications technology (ICT) systems are approved by the information security department prior to deployment.\n2. Establish, document, and circulate the rules for the acceptable use of assets in line with the &lt;CLIENT&gt; Acceptable Use Policy (&lt;CLIENT&gt;-ORG-IMS-POL-002) and disciplinary procedures.\n3. Consider the information provided by ot",
-    "mapping_date": "2026-03-16T09:46:48.580798",
-    "reviewer": null,
-    "notes": "Reranker: 0.262"
-  },
-  {
-    "mapping_id": "M4.4.2_clientname-IS-POL-00-Asset Management Policy 6_passage_7",
-    "source_control_id": "M4.4.2",
-    "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_7",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2605225145816803,
-    "evidence_text": "5.1 Asset Inventory\n\n&lt;CLIENT&gt; shall:\n\n1. Identify assets relevant in the information lifecycle (creation, processing, storage, transmission, deletion, destruction, and protection) and document their importance.\n2. Ensure that all organizational assets are considered for the asset management process using a centralized and efficient approach.\n3. Ensure that documentation is done in dedicated asset inventories as appropriate. The asset inventory at a minimum shall contain:\n2. Asset ownership",
-    "mapping_date": "2026-03-16T09:46:48.580754",
-    "reviewer": null,
-    "notes": "Reranker: 0.261"
   },
   {
     "mapping_id": "M5.1.1_clientname-IS-POL-00-Asset Management Policy 6_passage_8",
@@ -429,28 +275,6 @@
     "notes": "Reranker: 0.273"
   },
   {
-    "mapping_id": "M5.2.2_clientname-IS-POL-00-Asset Management Policy 6_passage_10",
-    "source_control_id": "M5.2.2",
-    "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_10",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2711285650730133,
-    "evidence_text": "5.4 Asset Handling\n\n&lt;CLIENT&gt; shall:\n\n1. Develop procedures for handling, processing, storing, and communicating information consistent with its classification level. The following items should be considered, at a minimum:\n2. Access restrictions supporting the protection requirements for each level of classification.\n3. Protection of temporary or permanent copies of information to a level consistent with the protection of the original information.\n4. Storage of IT assets in accordance with ",
-    "mapping_date": "2026-03-16T09:46:57.331184",
-    "reviewer": null,
-    "notes": "Reranker: 0.271"
-  },
-  {
-    "mapping_id": "M5.2.2_clientname-IS-POL-00-Asset Management Policy 6_passage_8",
-    "source_control_id": "M5.2.2",
-    "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_8",
-    "status": "Partially Addressed",
-    "entailment_score": 0.26858437061309814,
-    "evidence_text": "5.2 Asset Ownership\n\n&lt;CLIENT&gt; shall:\n\n1. Establish and implement a process to ensure timely assignment of asset ownership.\n2. Assign/reassign ownership when assets are created or transferred.\n3. Assign ownership to individuals having approved management responsibility across the asset lifecycle. Asset owners shall have the following responsibilities at a minimum:\n2. Classify and protect the assets.\n3. Define and periodically review access restrictions and classifications to important asset",
-    "mapping_date": "2026-03-16T09:46:57.331250",
-    "reviewer": null,
-    "notes": "Reranker: 0.269"
-  },
-  {
     "mapping_id": "M5.2.3_clientname-IS-POL-00-Asset Management Policy 6_passage_12",
     "source_control_id": "M5.2.3",
     "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_12",
@@ -462,28 +286,6 @@
     "notes": "Reranker: 0.263"
   },
   {
-    "mapping_id": "M5.2.3_clientname-IS-POL-00-Asset Management Policy 6_passage_11",
-    "source_control_id": "M5.2.3",
-    "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_11",
-    "status": "Partially Addressed",
-    "entailment_score": 0.26289984583854675,
-    "evidence_text": "5.5 Removable Media Management\n\n&lt;CLIENT&gt; shall:\n\n1. Ensure that all information is stored only in organization authorized media.\n2. Ensure that contents of any re-usable media that are to be removed from the organization is made unrecoverable when no longer required.\n3. Ensure that appropriate authorization is obtained for media removed from the organization and a record of such removals is kept in order to maintain an audit trail.\n4. Store all media in a safe and secure environment in acc",
-    "mapping_date": "2026-03-16T09:47:00.369676",
-    "reviewer": null,
-    "notes": "Reranker: 0.263"
-  },
-  {
-    "mapping_id": "M5.2.3_clientname-IS-POL-00-Asset Management Policy 6_passage_7",
-    "source_control_id": "M5.2.3",
-    "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_7",
-    "status": "Partially Addressed",
-    "entailment_score": 0.26194846630096436,
-    "evidence_text": "5.1 Asset Inventory\n\n&lt;CLIENT&gt; shall:\n\n1. Identify assets relevant in the information lifecycle (creation, processing, storage, transmission, deletion, destruction, and protection) and document their importance.\n2. Ensure that all organizational assets are considered for the asset management process using a centralized and efficient approach.\n3. Ensure that documentation is done in dedicated asset inventories as appropriate. The asset inventory at a minimum shall contain:\n2. Asset ownership",
-    "mapping_date": "2026-03-16T09:47:00.369715",
-    "reviewer": null,
-    "notes": "Reranker: 0.262"
-  },
-  {
     "mapping_id": "M5.2.5_clientname-IS-POL-00-Asset Management Policy 6_passage_11",
     "source_control_id": "M5.2.5",
     "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_11",
@@ -493,17 +295,6 @@
     "mapping_date": "2026-03-16T09:47:05.993842",
     "reviewer": null,
     "notes": "Reranker: 0.272"
-  },
-  {
-    "mapping_id": "M5.2.5_clientname-IS-POL-00-Asset Management Policy 6_passage_13",
-    "source_control_id": "M5.2.5",
-    "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_13",
-    "status": "Partially Addressed",
-    "entailment_score": 0.26452919840812683,
-    "evidence_text": "5.7 Physical Media Transfer\n\n&lt;CLIENT&gt; shall:\n\n1. Utilize reliable transport or couriers for transportation of physical media between sites.\n2. Develop a list of authorized couriers that are approved by the management.\n3. Define labelling requirements for physical media carrying sensitive information.\n4. Ensure that logs of the transfer are kept identifying the content of the media, protection applied, time(s) of transfer to the transit custodian(s), and the receipt at destination.\n5. Consi",
-    "mapping_date": "2026-03-16T09:47:05.993859",
-    "reviewer": null,
-    "notes": "Reranker: 0.265"
   },
   {
     "mapping_id": "M5.2.7_clientname-IS-POL-00-Asset Management Policy 6_passage_12",
@@ -539,17 +330,6 @@
     "notes": "Reranker: 0.252"
   },
   {
-    "mapping_id": "M5.5.2_clientname-IS-POL-00-Asset Management Policy 6_passage_11",
-    "source_control_id": "M5.5.2",
-    "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_11",
-    "status": "Partially Addressed",
-    "entailment_score": 0.251802921295166,
-    "evidence_text": "5.5 Removable Media Management\n\n&lt;CLIENT&gt; shall:\n\n1. Ensure that all information is stored only in organization authorized media.\n2. Ensure that contents of any re-usable media that are to be removed from the organization is made unrecoverable when no longer required.\n3. Ensure that appropriate authorization is obtained for media removed from the organization and a record of such removals is kept in order to maintain an audit trail.\n4. Store all media in a safe and secure environment in acc",
-    "mapping_date": "2026-03-16T09:47:23.400059",
-    "reviewer": null,
-    "notes": "Reranker: 0.252"
-  },
-  {
     "mapping_id": "M6.2.2_clientname-IS-POL-00-Asset Management Policy 6_passage_13",
     "source_control_id": "M6.2.2",
     "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_13",
@@ -559,17 +339,6 @@
     "mapping_date": "2026-03-16T09:47:34.764383",
     "reviewer": null,
     "notes": "Reranker: 0.267"
-  },
-  {
-    "mapping_id": "M6.2.2_clientname-IS-POL-00-Asset Management Policy 6_passage_10",
-    "source_control_id": "M6.2.2",
-    "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_10",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2664896249771118,
-    "evidence_text": "5.4 Asset Handling\n\n&lt;CLIENT&gt; shall:\n\n1. Develop procedures for handling, processing, storing, and communicating information consistent with its classification level. The following items should be considered, at a minimum:\n2. Access restrictions supporting the protection requirements for each level of classification.\n3. Protection of temporary or permanent copies of information to a level consistent with the protection of the original information.\n4. Storage of IT assets in accordance with ",
-    "mapping_date": "2026-03-16T09:47:34.764352",
-    "reviewer": null,
-    "notes": "Reranker: 0.266"
   },
   {
     "mapping_id": "T1.1.1_clientname-IS-POL-00-Asset Management Policy 6_passage_10",
@@ -583,28 +352,6 @@
     "notes": "Reranker: 0.273"
   },
   {
-    "mapping_id": "T1.1.1_clientname-IS-POL-00-Asset Management Policy 6_passage_8",
-    "source_control_id": "T1.1.1",
-    "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_8",
-    "status": "Partially Addressed",
-    "entailment_score": 0.27019771933555603,
-    "evidence_text": "5.2 Asset Ownership\n\n&lt;CLIENT&gt; shall:\n\n1. Establish and implement a process to ensure timely assignment of asset ownership.\n2. Assign/reassign ownership when assets are created or transferred.\n3. Assign ownership to individuals having approved management responsibility across the asset lifecycle. Asset owners shall have the following responsibilities at a minimum:\n2. Classify and protect the assets.\n3. Define and periodically review access restrictions and classifications to important asset",
-    "mapping_date": "2026-03-16T09:47:42.932794",
-    "reviewer": null,
-    "notes": "Reranker: 0.270"
-  },
-  {
-    "mapping_id": "T1.1.1_clientname-IS-POL-00-Asset Management Policy 6_passage_13",
-    "source_control_id": "T1.1.1",
-    "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_13",
-    "status": "Partially Addressed",
-    "entailment_score": 0.26463139057159424,
-    "evidence_text": "5.7 Physical Media Transfer\n\n&lt;CLIENT&gt; shall:\n\n1. Utilize reliable transport or couriers for transportation of physical media between sites.\n2. Develop a list of authorized couriers that are approved by the management.\n3. Define labelling requirements for physical media carrying sensitive information.\n4. Ensure that logs of the transfer are kept identifying the content of the media, protection applied, time(s) of transfer to the transit custodian(s), and the receipt at destination.\n5. Consi",
-    "mapping_date": "2026-03-16T09:47:42.932904",
-    "reviewer": null,
-    "notes": "Reranker: 0.265"
-  },
-  {
     "mapping_id": "T1.2.2_clientname-IS-POL-00-Asset Management Policy 6_passage_7",
     "source_control_id": "T1.2.2",
     "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_7",
@@ -614,39 +361,6 @@
     "mapping_date": "2026-03-16T09:47:45.617239",
     "reviewer": null,
     "notes": "Reranker: 0.292"
-  },
-  {
-    "mapping_id": "T1.2.2_clientname-IS-POL-00-Asset Management Policy 6_passage_10",
-    "source_control_id": "T1.2.2",
-    "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_10",
-    "status": "Partially Addressed",
-    "entailment_score": 0.26916271448135376,
-    "evidence_text": "5.4 Asset Handling\n\n&lt;CLIENT&gt; shall:\n\n1. Develop procedures for handling, processing, storing, and communicating information consistent with its classification level. The following items should be considered, at a minimum:\n2. Access restrictions supporting the protection requirements for each level of classification.\n3. Protection of temporary or permanent copies of information to a level consistent with the protection of the original information.\n4. Storage of IT assets in accordance with ",
-    "mapping_date": "2026-03-16T09:47:45.617244",
-    "reviewer": null,
-    "notes": "Reranker: 0.269"
-  },
-  {
-    "mapping_id": "T1.2.2_clientname-IS-POL-00-Asset Management Policy 6_passage_9",
-    "source_control_id": "T1.2.2",
-    "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_9",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2626754641532898,
-    "evidence_text": "5.3 Asset Labelling\n\n&lt;CLIENT&gt; shall:\n\n1. Label information assets in physical and electronic formats according to the established information classification scheme as per the &lt;CLIENT&gt; Data Security Policy (&lt;CLIENT&gt;-ORG-IMS-POL-003).\n2. Ensure that output from systems carry an appropriate classification label aligned to &lt;CLIENT&gt; Data Security Policy (&lt;CLIENT&gt;-ORG-IMS-POL-003).\n3. Ensure labels are easily recognizable and are included in emails, header, and footer of ",
-    "mapping_date": "2026-03-16T09:47:45.617301",
-    "reviewer": null,
-    "notes": "Reranker: 0.263"
-  },
-  {
-    "mapping_id": "T1.2.2_clientname-IS-POL-00-Asset Management Policy 6_passage_13",
-    "source_control_id": "T1.2.2",
-    "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_13",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2518610656261444,
-    "evidence_text": "5.7 Physical Media Transfer\n\n&lt;CLIENT&gt; shall:\n\n1. Utilize reliable transport or couriers for transportation of physical media between sites.\n2. Develop a list of authorized couriers that are approved by the management.\n3. Define labelling requirements for physical media carrying sensitive information.\n4. Ensure that logs of the transfer are kept identifying the content of the media, protection applied, time(s) of transfer to the transit custodian(s), and the receipt at destination.\n5. Consi",
-    "mapping_date": "2026-03-16T09:47:45.617288",
-    "reviewer": null,
-    "notes": "Reranker: 0.252"
   },
   {
     "mapping_id": "T1.2.3_clientname-IS-POL-00-Asset Management Policy 6_passage_10",
@@ -660,28 +374,6 @@
     "notes": "Reranker: 0.277"
   },
   {
-    "mapping_id": "T1.2.3_clientname-IS-POL-00-Asset Management Policy 6_passage_7",
-    "source_control_id": "T1.2.3",
-    "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_7",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2750032842159271,
-    "evidence_text": "5.1 Asset Inventory\n\n&lt;CLIENT&gt; shall:\n\n1. Identify assets relevant in the information lifecycle (creation, processing, storage, transmission, deletion, destruction, and protection) and document their importance.\n2. Ensure that all organizational assets are considered for the asset management process using a centralized and efficient approach.\n3. Ensure that documentation is done in dedicated asset inventories as appropriate. The asset inventory at a minimum shall contain:\n2. Asset ownership",
-    "mapping_date": "2026-03-16T09:47:48.366484",
-    "reviewer": null,
-    "notes": "Reranker: 0.275"
-  },
-  {
-    "mapping_id": "T1.2.3_clientname-IS-POL-00-Asset Management Policy 6_passage_9",
-    "source_control_id": "T1.2.3",
-    "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_9",
-    "status": "Partially Addressed",
-    "entailment_score": 0.27086055278778076,
-    "evidence_text": "5.3 Asset Labelling\n\n&lt;CLIENT&gt; shall:\n\n1. Label information assets in physical and electronic formats according to the established information classification scheme as per the &lt;CLIENT&gt; Data Security Policy (&lt;CLIENT&gt;-ORG-IMS-POL-003).\n2. Ensure that output from systems carry an appropriate classification label aligned to &lt;CLIENT&gt; Data Security Policy (&lt;CLIENT&gt;-ORG-IMS-POL-003).\n3. Ensure labels are easily recognizable and are included in emails, header, and footer of ",
-    "mapping_date": "2026-03-16T09:47:48.366467",
-    "reviewer": null,
-    "notes": "Reranker: 0.271"
-  },
-  {
     "mapping_id": "T1.2.4_clientname-IS-POL-00-Asset Management Policy 6_passage_14",
     "source_control_id": "T1.2.4",
     "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_14",
@@ -691,28 +383,6 @@
     "mapping_date": "2026-03-16T09:47:51.135606",
     "reviewer": null,
     "notes": "Reranker: 0.292"
-  },
-  {
-    "mapping_id": "T1.2.4_clientname-IS-POL-00-Asset Management Policy 6_passage_15",
-    "source_control_id": "T1.2.4",
-    "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_15",
-    "status": "Partially Addressed",
-    "entailment_score": 0.29104870557785034,
-    "evidence_text": "5.9 Bring Your Own Device (BYOD) Arrangements\n\n&lt;CLIENT&gt; shall:\n\n1. Provide means to securely access organizational information and information assets via ‘Bring Your Own Device’ (BYOD).\n2. Establish and implement information security requirements to secure organizational information and information assets via ‘Bring Your Own Device’ (BYOD) in line with &lt;CLIENT&gt; Bring Your Own Device (BYOD) Policy (&lt;CLIENT&gt;-ORG-IMS-POL-020).",
-    "mapping_date": "2026-03-16T09:47:51.135660",
-    "reviewer": null,
-    "notes": "Reranker: 0.291"
-  },
-  {
-    "mapping_id": "T1.2.4_clientname-IS-POL-00-Asset Management Policy 6_passage_10",
-    "source_control_id": "T1.2.4",
-    "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_10",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2616727650165558,
-    "evidence_text": "5.4 Asset Handling\n\n&lt;CLIENT&gt; shall:\n\n1. Develop procedures for handling, processing, storing, and communicating information consistent with its classification level. The following items should be considered, at a minimum:\n2. Access restrictions supporting the protection requirements for each level of classification.\n3. Protection of temporary or permanent copies of information to a level consistent with the protection of the original information.\n4. Storage of IT assets in accordance with ",
-    "mapping_date": "2026-03-16T09:47:51.135632",
-    "reviewer": null,
-    "notes": "Reranker: 0.262"
   },
   {
     "mapping_id": "T1.3.1_clientname-IS-POL-00-Asset Management Policy 6_passage_10",
@@ -726,28 +396,6 @@
     "notes": "Reranker: 0.274"
   },
   {
-    "mapping_id": "T1.3.1_clientname-IS-POL-00-Asset Management Policy 6_passage_9",
-    "source_control_id": "T1.3.1",
-    "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_9",
-    "status": "Partially Addressed",
-    "entailment_score": 0.26644304394721985,
-    "evidence_text": "5.3 Asset Labelling\n\n&lt;CLIENT&gt; shall:\n\n1. Label information assets in physical and electronic formats according to the established information classification scheme as per the &lt;CLIENT&gt; Data Security Policy (&lt;CLIENT&gt;-ORG-IMS-POL-003).\n2. Ensure that output from systems carry an appropriate classification label aligned to &lt;CLIENT&gt; Data Security Policy (&lt;CLIENT&gt;-ORG-IMS-POL-003).\n3. Ensure labels are easily recognizable and are included in emails, header, and footer of ",
-    "mapping_date": "2026-03-16T09:47:53.927256",
-    "reviewer": null,
-    "notes": "Reranker: 0.266"
-  },
-  {
-    "mapping_id": "T1.3.1_clientname-IS-POL-00-Asset Management Policy 6_passage_13",
-    "source_control_id": "T1.3.1",
-    "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_13",
-    "status": "Partially Addressed",
-    "entailment_score": 0.25853538513183594,
-    "evidence_text": "5.7 Physical Media Transfer\n\n&lt;CLIENT&gt; shall:\n\n1. Utilize reliable transport or couriers for transportation of physical media between sites.\n2. Develop a list of authorized couriers that are approved by the management.\n3. Define labelling requirements for physical media carrying sensitive information.\n4. Ensure that logs of the transfer are kept identifying the content of the media, protection applied, time(s) of transfer to the transit custodian(s), and the receipt at destination.\n5. Consi",
-    "mapping_date": "2026-03-16T09:47:53.927312",
-    "reviewer": null,
-    "notes": "Reranker: 0.259"
-  },
-  {
     "mapping_id": "T1.3.2_clientname-IS-POL-00-Asset Management Policy 6_passage_10",
     "source_control_id": "T1.3.2",
     "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_10",
@@ -757,28 +405,6 @@
     "mapping_date": "2026-03-16T09:47:56.648324",
     "reviewer": null,
     "notes": "Reranker: 0.269"
-  },
-  {
-    "mapping_id": "T1.3.2_clientname-IS-POL-00-Asset Management Policy 6_passage_8",
-    "source_control_id": "T1.3.2",
-    "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_8",
-    "status": "Partially Addressed",
-    "entailment_score": 0.26273345947265625,
-    "evidence_text": "5.2 Asset Ownership\n\n&lt;CLIENT&gt; shall:\n\n1. Establish and implement a process to ensure timely assignment of asset ownership.\n2. Assign/reassign ownership when assets are created or transferred.\n3. Assign ownership to individuals having approved management responsibility across the asset lifecycle. Asset owners shall have the following responsibilities at a minimum:\n2. Classify and protect the assets.\n3. Define and periodically review access restrictions and classifications to important asset",
-    "mapping_date": "2026-03-16T09:47:56.648374",
-    "reviewer": null,
-    "notes": "Reranker: 0.263"
-  },
-  {
-    "mapping_id": "T1.3.2_clientname-IS-POL-00-Asset Management Policy 6_passage_13",
-    "source_control_id": "T1.3.2",
-    "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_13",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2603622376918793,
-    "evidence_text": "5.7 Physical Media Transfer\n\n&lt;CLIENT&gt; shall:\n\n1. Utilize reliable transport or couriers for transportation of physical media between sites.\n2. Develop a list of authorized couriers that are approved by the management.\n3. Define labelling requirements for physical media carrying sensitive information.\n4. Ensure that logs of the transfer are kept identifying the content of the media, protection applied, time(s) of transfer to the transit custodian(s), and the receipt at destination.\n5. Consi",
-    "mapping_date": "2026-03-16T09:47:56.648362",
-    "reviewer": null,
-    "notes": "Reranker: 0.260"
   },
   {
     "mapping_id": "T1.3.3_clientname-IS-POL-00-Asset Management Policy 6_passage_9",
@@ -792,28 +418,6 @@
     "notes": "Reranker: 0.291"
   },
   {
-    "mapping_id": "T1.3.3_clientname-IS-POL-00-Asset Management Policy 6_passage_8",
-    "source_control_id": "T1.3.3",
-    "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_8",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2775748074054718,
-    "evidence_text": "5.2 Asset Ownership\n\n&lt;CLIENT&gt; shall:\n\n1. Establish and implement a process to ensure timely assignment of asset ownership.\n2. Assign/reassign ownership when assets are created or transferred.\n3. Assign ownership to individuals having approved management responsibility across the asset lifecycle. Asset owners shall have the following responsibilities at a minimum:\n2. Classify and protect the assets.\n3. Define and periodically review access restrictions and classifications to important asset",
-    "mapping_date": "2026-03-16T09:47:59.455600",
-    "reviewer": null,
-    "notes": "Reranker: 0.278"
-  },
-  {
-    "mapping_id": "T1.3.3_clientname-IS-POL-00-Asset Management Policy 6_passage_7",
-    "source_control_id": "T1.3.3",
-    "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_7",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2728005051612854,
-    "evidence_text": "5.1 Asset Inventory\n\n&lt;CLIENT&gt; shall:\n\n1. Identify assets relevant in the information lifecycle (creation, processing, storage, transmission, deletion, destruction, and protection) and document their importance.\n2. Ensure that all organizational assets are considered for the asset management process using a centralized and efficient approach.\n3. Ensure that documentation is done in dedicated asset inventories as appropriate. The asset inventory at a minimum shall contain:\n2. Asset ownership",
-    "mapping_date": "2026-03-16T09:47:59.455584",
-    "reviewer": null,
-    "notes": "Reranker: 0.273"
-  },
-  {
     "mapping_id": "T1.4.1_clientname-IS-POL-00-Asset Management Policy 6_passage_13",
     "source_control_id": "T1.4.1",
     "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_13",
@@ -823,39 +427,6 @@
     "mapping_date": "2026-03-16T09:48:02.256501",
     "reviewer": null,
     "notes": "Reranker: 0.262"
-  },
-  {
-    "mapping_id": "T1.4.1_clientname-IS-POL-00-Asset Management Policy 6_passage_10",
-    "source_control_id": "T1.4.1",
-    "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_10",
-    "status": "Partially Addressed",
-    "entailment_score": 0.25481972098350525,
-    "evidence_text": "5.4 Asset Handling\n\n&lt;CLIENT&gt; shall:\n\n1. Develop procedures for handling, processing, storing, and communicating information consistent with its classification level. The following items should be considered, at a minimum:\n2. Access restrictions supporting the protection requirements for each level of classification.\n3. Protection of temporary or permanent copies of information to a level consistent with the protection of the original information.\n4. Storage of IT assets in accordance with ",
-    "mapping_date": "2026-03-16T09:48:02.256495",
-    "reviewer": null,
-    "notes": "Reranker: 0.255"
-  },
-  {
-    "mapping_id": "T1.4.1_clientname-IS-POL-00-Asset Management Policy 6_passage_8",
-    "source_control_id": "T1.4.1",
-    "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_8",
-    "status": "Partially Addressed",
-    "entailment_score": 0.25317567586898804,
-    "evidence_text": "5.2 Asset Ownership\n\n&lt;CLIENT&gt; shall:\n\n1. Establish and implement a process to ensure timely assignment of asset ownership.\n2. Assign/reassign ownership when assets are created or transferred.\n3. Assign ownership to individuals having approved management responsibility across the asset lifecycle. Asset owners shall have the following responsibilities at a minimum:\n2. Classify and protect the assets.\n3. Define and periodically review access restrictions and classifications to important asset",
-    "mapping_date": "2026-03-16T09:48:02.256538",
-    "reviewer": null,
-    "notes": "Reranker: 0.253"
-  },
-  {
-    "mapping_id": "T1.4.1_clientname-IS-POL-00-Asset Management Policy 6_passage_9",
-    "source_control_id": "T1.4.1",
-    "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_9",
-    "status": "Partially Addressed",
-    "entailment_score": 0.25257623195648193,
-    "evidence_text": "5.3 Asset Labelling\n\n&lt;CLIENT&gt; shall:\n\n1. Label information assets in physical and electronic formats according to the established information classification scheme as per the &lt;CLIENT&gt; Data Security Policy (&lt;CLIENT&gt;-ORG-IMS-POL-003).\n2. Ensure that output from systems carry an appropriate classification label aligned to &lt;CLIENT&gt; Data Security Policy (&lt;CLIENT&gt;-ORG-IMS-POL-003).\n3. Ensure labels are easily recognizable and are included in emails, header, and footer of ",
-    "mapping_date": "2026-03-16T09:48:02.256505",
-    "reviewer": null,
-    "notes": "Reranker: 0.253"
   },
   {
     "mapping_id": "T1.4.2_clientname-IS-POL-00-Asset Management Policy 6_passage_11",
@@ -869,17 +440,6 @@
     "notes": "Reranker: 0.287"
   },
   {
-    "mapping_id": "T1.4.2_clientname-IS-POL-00-Asset Management Policy 6_passage_13",
-    "source_control_id": "T1.4.2",
-    "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_13",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2516835629940033,
-    "evidence_text": "5.7 Physical Media Transfer\n\n&lt;CLIENT&gt; shall:\n\n1. Utilize reliable transport or couriers for transportation of physical media between sites.\n2. Develop a list of authorized couriers that are approved by the management.\n3. Define labelling requirements for physical media carrying sensitive information.\n4. Ensure that logs of the transfer are kept identifying the content of the media, protection applied, time(s) of transfer to the transit custodian(s), and the receipt at destination.\n5. Consi",
-    "mapping_date": "2026-03-16T09:48:05.073205",
-    "reviewer": null,
-    "notes": "Reranker: 0.252"
-  },
-  {
     "mapping_id": "T2.1.1_clientname-IS-POL-00-Asset Management Policy 6_passage_14",
     "source_control_id": "T2.1.1",
     "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_14",
@@ -889,28 +449,6 @@
     "mapping_date": "2026-03-16T09:48:07.766579",
     "reviewer": null,
     "notes": "Reranker: 0.273"
-  },
-  {
-    "mapping_id": "T2.1.1_clientname-IS-POL-00-Asset Management Policy 6_passage_7",
-    "source_control_id": "T2.1.1",
-    "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_7",
-    "status": "Partially Addressed",
-    "entailment_score": 0.26784056425094604,
-    "evidence_text": "5.1 Asset Inventory\n\n&lt;CLIENT&gt; shall:\n\n1. Identify assets relevant in the information lifecycle (creation, processing, storage, transmission, deletion, destruction, and protection) and document their importance.\n2. Ensure that all organizational assets are considered for the asset management process using a centralized and efficient approach.\n3. Ensure that documentation is done in dedicated asset inventories as appropriate. The asset inventory at a minimum shall contain:\n2. Asset ownership",
-    "mapping_date": "2026-03-16T09:48:07.766563",
-    "reviewer": null,
-    "notes": "Reranker: 0.268"
-  },
-  {
-    "mapping_id": "T2.1.1_clientname-IS-POL-00-Asset Management Policy 6_passage_8",
-    "source_control_id": "T2.1.1",
-    "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_8",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2668500244617462,
-    "evidence_text": "5.2 Asset Ownership\n\n&lt;CLIENT&gt; shall:\n\n1. Establish and implement a process to ensure timely assignment of asset ownership.\n2. Assign/reassign ownership when assets are created or transferred.\n3. Assign ownership to individuals having approved management responsibility across the asset lifecycle. Asset owners shall have the following responsibilities at a minimum:\n2. Classify and protect the assets.\n3. Define and periodically review access restrictions and classifications to important asset",
-    "mapping_date": "2026-03-16T09:48:07.766533",
-    "reviewer": null,
-    "notes": "Reranker: 0.267"
   },
   {
     "mapping_id": "T2.2.1_clientname-IS-POL-00-Asset Management Policy 6_passage_12",
@@ -924,28 +462,6 @@
     "notes": "Reranker: 0.280"
   },
   {
-    "mapping_id": "T2.2.1_clientname-IS-POL-00-Asset Management Policy 6_passage_10",
-    "source_control_id": "T2.2.1",
-    "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_10",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2786403298377991,
-    "evidence_text": "5.4 Asset Handling\n\n&lt;CLIENT&gt; shall:\n\n1. Develop procedures for handling, processing, storing, and communicating information consistent with its classification level. The following items should be considered, at a minimum:\n2. Access restrictions supporting the protection requirements for each level of classification.\n3. Protection of temporary or permanent copies of information to a level consistent with the protection of the original information.\n4. Storage of IT assets in accordance with ",
-    "mapping_date": "2026-03-16T09:48:10.600127",
-    "reviewer": null,
-    "notes": "Reranker: 0.279"
-  },
-  {
-    "mapping_id": "T2.2.1_clientname-IS-POL-00-Asset Management Policy 6_passage_11",
-    "source_control_id": "T2.2.1",
-    "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_11",
-    "status": "Partially Addressed",
-    "entailment_score": 0.27856793999671936,
-    "evidence_text": "5.5 Removable Media Management\n\n&lt;CLIENT&gt; shall:\n\n1. Ensure that all information is stored only in organization authorized media.\n2. Ensure that contents of any re-usable media that are to be removed from the organization is made unrecoverable when no longer required.\n3. Ensure that appropriate authorization is obtained for media removed from the organization and a record of such removals is kept in order to maintain an audit trail.\n4. Store all media in a safe and secure environment in acc",
-    "mapping_date": "2026-03-16T09:48:10.600115",
-    "reviewer": null,
-    "notes": "Reranker: 0.279"
-  },
-  {
     "mapping_id": "T2.2.3_clientname-IS-POL-00-Asset Management Policy 6_passage_10",
     "source_control_id": "T2.2.3",
     "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_10",
@@ -955,17 +471,6 @@
     "mapping_date": "2026-03-16T09:48:16.518960",
     "reviewer": null,
     "notes": "Reranker: 0.258"
-  },
-  {
-    "mapping_id": "T2.2.3_clientname-IS-POL-00-Asset Management Policy 6_passage_13",
-    "source_control_id": "T2.2.3",
-    "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_13",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2574485242366791,
-    "evidence_text": "5.7 Physical Media Transfer\n\n&lt;CLIENT&gt; shall:\n\n1. Utilize reliable transport or couriers for transportation of physical media between sites.\n2. Develop a list of authorized couriers that are approved by the management.\n3. Define labelling requirements for physical media carrying sensitive information.\n4. Ensure that logs of the transfer are kept identifying the content of the media, protection applied, time(s) of transfer to the transit custodian(s), and the receipt at destination.\n5. Consi",
-    "mapping_date": "2026-03-16T09:48:16.518947",
-    "reviewer": null,
-    "notes": "Reranker: 0.257"
   },
   {
     "mapping_id": "T2.2.4_clientname-IS-POL-00-Asset Management Policy 6_passage_13",
@@ -1012,17 +517,6 @@
     "notes": "Reranker: 0.263"
   },
   {
-    "mapping_id": "T2.3.2_clientname-IS-POL-00-Asset Management Policy 6_passage_7",
-    "source_control_id": "T2.3.2",
-    "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_7",
-    "status": "Partially Addressed",
-    "entailment_score": 0.25733259320259094,
-    "evidence_text": "5.1 Asset Inventory\n\n&lt;CLIENT&gt; shall:\n\n1. Identify assets relevant in the information lifecycle (creation, processing, storage, transmission, deletion, destruction, and protection) and document their importance.\n2. Ensure that all organizational assets are considered for the asset management process using a centralized and efficient approach.\n3. Ensure that documentation is done in dedicated asset inventories as appropriate. The asset inventory at a minimum shall contain:\n2. Asset ownership",
-    "mapping_date": "2026-03-16T09:48:27.566662",
-    "reviewer": null,
-    "notes": "Reranker: 0.257"
-  },
-  {
     "mapping_id": "T2.3.3_clientname-IS-POL-00-Asset Management Policy 6_passage_11",
     "source_control_id": "T2.3.3",
     "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_11",
@@ -1032,28 +526,6 @@
     "mapping_date": "2026-03-16T09:48:30.364047",
     "reviewer": null,
     "notes": "Reranker: 0.270"
-  },
-  {
-    "mapping_id": "T2.3.3_clientname-IS-POL-00-Asset Management Policy 6_passage_10",
-    "source_control_id": "T2.3.3",
-    "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_10",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2673172354698181,
-    "evidence_text": "5.4 Asset Handling\n\n&lt;CLIENT&gt; shall:\n\n1. Develop procedures for handling, processing, storing, and communicating information consistent with its classification level. The following items should be considered, at a minimum:\n2. Access restrictions supporting the protection requirements for each level of classification.\n3. Protection of temporary or permanent copies of information to a level consistent with the protection of the original information.\n4. Storage of IT assets in accordance with ",
-    "mapping_date": "2026-03-16T09:48:30.364014",
-    "reviewer": null,
-    "notes": "Reranker: 0.267"
-  },
-  {
-    "mapping_id": "T2.3.3_clientname-IS-POL-00-Asset Management Policy 6_passage_14",
-    "source_control_id": "T2.3.3",
-    "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_14",
-    "status": "Partially Addressed",
-    "entailment_score": 0.26180124282836914,
-    "evidence_text": "5.8 Acceptable Use of Assets\n\n&lt;CLIENT&gt; shall:\n\n1. Ensure that usage of all organization’s information, information assets and information and communications technology (ICT) systems are approved by the information security department prior to deployment.\n2. Establish, document, and circulate the rules for the acceptable use of assets in line with the &lt;CLIENT&gt; Acceptable Use Policy (&lt;CLIENT&gt;-ORG-IMS-POL-002) and disciplinary procedures.\n3. Consider the information provided by ot",
-    "mapping_date": "2026-03-16T09:48:30.364064",
-    "reviewer": null,
-    "notes": "Reranker: 0.262"
   },
   {
     "mapping_id": "T2.3.4_clientname-IS-POL-00-Asset Management Policy 6_passage_10",
@@ -1078,17 +550,6 @@
     "notes": "Reranker: 0.264"
   },
   {
-    "mapping_id": "T2.3.5_clientname-IS-POL-00-Asset Management Policy 6_passage_13",
-    "source_control_id": "T2.3.5",
-    "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_13",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2571464776992798,
-    "evidence_text": "5.7 Physical Media Transfer\n\n&lt;CLIENT&gt; shall:\n\n1. Utilize reliable transport or couriers for transportation of physical media between sites.\n2. Develop a list of authorized couriers that are approved by the management.\n3. Define labelling requirements for physical media carrying sensitive information.\n4. Ensure that logs of the transfer are kept identifying the content of the media, protection applied, time(s) of transfer to the transit custodian(s), and the receipt at destination.\n5. Consi",
-    "mapping_date": "2026-03-16T09:48:35.855970",
-    "reviewer": null,
-    "notes": "Reranker: 0.257"
-  },
-  {
     "mapping_id": "T2.3.6_clientname-IS-POL-00-Asset Management Policy 6_passage_12",
     "source_control_id": "T2.3.6",
     "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_12",
@@ -1100,39 +561,6 @@
     "notes": "Reranker: 0.269"
   },
   {
-    "mapping_id": "T2.3.6_clientname-IS-POL-00-Asset Management Policy 6_passage_11",
-    "source_control_id": "T2.3.6",
-    "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_11",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2676241993904114,
-    "evidence_text": "5.5 Removable Media Management\n\n&lt;CLIENT&gt; shall:\n\n1. Ensure that all information is stored only in organization authorized media.\n2. Ensure that contents of any re-usable media that are to be removed from the organization is made unrecoverable when no longer required.\n3. Ensure that appropriate authorization is obtained for media removed from the organization and a record of such removals is kept in order to maintain an audit trail.\n4. Store all media in a safe and secure environment in acc",
-    "mapping_date": "2026-03-16T09:48:38.573292",
-    "reviewer": null,
-    "notes": "Reranker: 0.268"
-  },
-  {
-    "mapping_id": "T2.3.6_clientname-IS-POL-00-Asset Management Policy 6_passage_10",
-    "source_control_id": "T2.3.6",
-    "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_10",
-    "status": "Partially Addressed",
-    "entailment_score": 0.26707834005355835,
-    "evidence_text": "5.4 Asset Handling\n\n&lt;CLIENT&gt; shall:\n\n1. Develop procedures for handling, processing, storing, and communicating information consistent with its classification level. The following items should be considered, at a minimum:\n2. Access restrictions supporting the protection requirements for each level of classification.\n3. Protection of temporary or permanent copies of information to a level consistent with the protection of the original information.\n4. Storage of IT assets in accordance with ",
-    "mapping_date": "2026-03-16T09:48:38.573362",
-    "reviewer": null,
-    "notes": "Reranker: 0.267"
-  },
-  {
-    "mapping_id": "T2.3.6_clientname-IS-POL-00-Asset Management Policy 6_passage_14",
-    "source_control_id": "T2.3.6",
-    "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_14",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2592919170856476,
-    "evidence_text": "5.8 Acceptable Use of Assets\n\n&lt;CLIENT&gt; shall:\n\n1. Ensure that usage of all organization’s information, information assets and information and communications technology (ICT) systems are approved by the information security department prior to deployment.\n2. Establish, document, and circulate the rules for the acceptable use of assets in line with the &lt;CLIENT&gt; Acceptable Use Policy (&lt;CLIENT&gt;-ORG-IMS-POL-002) and disciplinary procedures.\n3. Consider the information provided by ot",
-    "mapping_date": "2026-03-16T09:48:38.573358",
-    "reviewer": null,
-    "notes": "Reranker: 0.259"
-  },
-  {
     "mapping_id": "T2.3.7_clientname-IS-POL-00-Asset Management Policy 6_passage_10",
     "source_control_id": "T2.3.7",
     "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_10",
@@ -1142,17 +570,6 @@
     "mapping_date": "2026-03-16T09:48:41.400439",
     "reviewer": null,
     "notes": "Reranker: 0.271"
-  },
-  {
-    "mapping_id": "T2.3.7_clientname-IS-POL-00-Asset Management Policy 6_passage_14",
-    "source_control_id": "T2.3.7",
-    "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_14",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2568363547325134,
-    "evidence_text": "5.8 Acceptable Use of Assets\n\n&lt;CLIENT&gt; shall:\n\n1. Ensure that usage of all organization’s information, information assets and information and communications technology (ICT) systems are approved by the information security department prior to deployment.\n2. Establish, document, and circulate the rules for the acceptable use of assets in line with the &lt;CLIENT&gt; Acceptable Use Policy (&lt;CLIENT&gt;-ORG-IMS-POL-002) and disciplinary procedures.\n3. Consider the information provided by ot",
-    "mapping_date": "2026-03-16T09:48:41.400427",
-    "reviewer": null,
-    "notes": "Reranker: 0.257"
   },
   {
     "mapping_id": "T2.3.8_clientname-IS-POL-00-Asset Management Policy 6_passage_10",
@@ -1188,17 +605,6 @@
     "notes": "Reranker: 0.265"
   },
   {
-    "mapping_id": "T3.1.1_clientname-IS-POL-00-Asset Management Policy 6_passage_10",
-    "source_control_id": "T3.1.1",
-    "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_10",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2605213224887848,
-    "evidence_text": "5.4 Asset Handling\n\n&lt;CLIENT&gt; shall:\n\n1. Develop procedures for handling, processing, storing, and communicating information consistent with its classification level. The following items should be considered, at a minimum:\n2. Access restrictions supporting the protection requirements for each level of classification.\n3. Protection of temporary or permanent copies of information to a level consistent with the protection of the original information.\n4. Storage of IT assets in accordance with ",
-    "mapping_date": "2026-03-16T09:48:49.778767",
-    "reviewer": null,
-    "notes": "Reranker: 0.261"
-  },
-  {
     "mapping_id": "T3.2.2_clientname-IS-POL-00-Asset Management Policy 6_passage_13",
     "source_control_id": "T3.2.2",
     "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_13",
@@ -1206,17 +612,6 @@
     "entailment_score": 0.26706406474113464,
     "evidence_text": "5.7 Physical Media Transfer\n\n&lt;CLIENT&gt; shall:\n\n1. Utilize reliable transport or couriers for transportation of physical media between sites.\n2. Develop a list of authorized couriers that are approved by the management.\n3. Define labelling requirements for physical media carrying sensitive information.\n4. Ensure that logs of the transfer are kept identifying the content of the media, protection applied, time(s) of transfer to the transit custodian(s), and the receipt at destination.\n5. Consi",
     "mapping_date": "2026-03-16T09:48:52.472905",
-    "reviewer": null,
-    "notes": "Reranker: 0.267"
-  },
-  {
-    "mapping_id": "T3.2.2_clientname-IS-POL-00-Asset Management Policy 6_passage_10",
-    "source_control_id": "T3.2.2",
-    "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_10",
-    "status": "Partially Addressed",
-    "entailment_score": 0.26658719778060913,
-    "evidence_text": "5.4 Asset Handling\n\n&lt;CLIENT&gt; shall:\n\n1. Develop procedures for handling, processing, storing, and communicating information consistent with its classification level. The following items should be considered, at a minimum:\n2. Access restrictions supporting the protection requirements for each level of classification.\n3. Protection of temporary or permanent copies of information to a level consistent with the protection of the original information.\n4. Storage of IT assets in accordance with ",
-    "mapping_date": "2026-03-16T09:48:52.472834",
     "reviewer": null,
     "notes": "Reranker: 0.267"
   },
@@ -1243,17 +638,6 @@
     "notes": "Reranker: 0.279"
   },
   {
-    "mapping_id": "T3.2.4_clientname-IS-POL-00-Asset Management Policy 6_passage_13",
-    "source_control_id": "T3.2.4",
-    "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_13",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2604966163635254,
-    "evidence_text": "5.7 Physical Media Transfer\n\n&lt;CLIENT&gt; shall:\n\n1. Utilize reliable transport or couriers for transportation of physical media between sites.\n2. Develop a list of authorized couriers that are approved by the management.\n3. Define labelling requirements for physical media carrying sensitive information.\n4. Ensure that logs of the transfer are kept identifying the content of the media, protection applied, time(s) of transfer to the transit custodian(s), and the receipt at destination.\n5. Consi",
-    "mapping_date": "2026-03-16T09:48:57.845852",
-    "reviewer": null,
-    "notes": "Reranker: 0.260"
-  },
-  {
     "mapping_id": "T3.2.5_clientname-IS-POL-00-Asset Management Policy 6_passage_13",
     "source_control_id": "T3.2.5",
     "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_13",
@@ -1263,17 +647,6 @@
     "mapping_date": "2026-03-16T09:49:00.518638",
     "reviewer": null,
     "notes": "Reranker: 0.257"
-  },
-  {
-    "mapping_id": "T3.2.5_clientname-IS-POL-00-Asset Management Policy 6_passage_10",
-    "source_control_id": "T3.2.5",
-    "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_10",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2516723871231079,
-    "evidence_text": "5.4 Asset Handling\n\n&lt;CLIENT&gt; shall:\n\n1. Develop procedures for handling, processing, storing, and communicating information consistent with its classification level. The following items should be considered, at a minimum:\n2. Access restrictions supporting the protection requirements for each level of classification.\n3. Protection of temporary or permanent copies of information to a level consistent with the protection of the original information.\n4. Storage of IT assets in accordance with ",
-    "mapping_date": "2026-03-16T09:49:00.518572",
-    "reviewer": null,
-    "notes": "Reranker: 0.252"
   },
   {
     "mapping_id": "T3.3.1_clientname-IS-POL-00-Asset Management Policy 6_passage_10",
@@ -1287,17 +660,6 @@
     "notes": "Reranker: 0.265"
   },
   {
-    "mapping_id": "T3.3.1_clientname-IS-POL-00-Asset Management Policy 6_passage_13",
-    "source_control_id": "T3.3.1",
-    "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_13",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2633918523788452,
-    "evidence_text": "5.7 Physical Media Transfer\n\n&lt;CLIENT&gt; shall:\n\n1. Utilize reliable transport or couriers for transportation of physical media between sites.\n2. Develop a list of authorized couriers that are approved by the management.\n3. Define labelling requirements for physical media carrying sensitive information.\n4. Ensure that logs of the transfer are kept identifying the content of the media, protection applied, time(s) of transfer to the transit custodian(s), and the receipt at destination.\n5. Consi",
-    "mapping_date": "2026-03-16T09:49:03.237136",
-    "reviewer": null,
-    "notes": "Reranker: 0.263"
-  },
-  {
     "mapping_id": "T3.4.1_clientname-IS-POL-00-Asset Management Policy 6_passage_6",
     "source_control_id": "T3.4.1",
     "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_6",
@@ -1309,28 +671,6 @@
     "notes": "Reranker: 0.269"
   },
   {
-    "mapping_id": "T3.4.1_clientname-IS-POL-00-Asset Management Policy 6_passage_10",
-    "source_control_id": "T3.4.1",
-    "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_10",
-    "status": "Partially Addressed",
-    "entailment_score": 0.26443982124328613,
-    "evidence_text": "5.4 Asset Handling\n\n&lt;CLIENT&gt; shall:\n\n1. Develop procedures for handling, processing, storing, and communicating information consistent with its classification level. The following items should be considered, at a minimum:\n2. Access restrictions supporting the protection requirements for each level of classification.\n3. Protection of temporary or permanent copies of information to a level consistent with the protection of the original information.\n4. Storage of IT assets in accordance with ",
-    "mapping_date": "2026-03-16T09:49:09.010982",
-    "reviewer": null,
-    "notes": "Reranker: 0.264"
-  },
-  {
-    "mapping_id": "T3.4.1_clientname-IS-POL-00-Asset Management Policy 6_passage_9",
-    "source_control_id": "T3.4.1",
-    "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_9",
-    "status": "Partially Addressed",
-    "entailment_score": 0.26280781626701355,
-    "evidence_text": "5.3 Asset Labelling\n\n&lt;CLIENT&gt; shall:\n\n1. Label information assets in physical and electronic formats according to the established information classification scheme as per the &lt;CLIENT&gt; Data Security Policy (&lt;CLIENT&gt;-ORG-IMS-POL-003).\n2. Ensure that output from systems carry an appropriate classification label aligned to &lt;CLIENT&gt; Data Security Policy (&lt;CLIENT&gt;-ORG-IMS-POL-003).\n3. Ensure labels are easily recognizable and are included in emails, header, and footer of ",
-    "mapping_date": "2026-03-16T09:49:09.011012",
-    "reviewer": null,
-    "notes": "Reranker: 0.263"
-  },
-  {
     "mapping_id": "T3.5.1_clientname-IS-POL-00-Asset Management Policy 6_passage_10",
     "source_control_id": "T3.5.1",
     "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_10",
@@ -1340,28 +680,6 @@
     "mapping_date": "2026-03-16T09:49:11.680998",
     "reviewer": null,
     "notes": "Reranker: 0.269"
-  },
-  {
-    "mapping_id": "T3.5.1_clientname-IS-POL-00-Asset Management Policy 6_passage_13",
-    "source_control_id": "T3.5.1",
-    "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_13",
-    "status": "Partially Addressed",
-    "entailment_score": 0.25930488109588623,
-    "evidence_text": "5.7 Physical Media Transfer\n\n&lt;CLIENT&gt; shall:\n\n1. Utilize reliable transport or couriers for transportation of physical media between sites.\n2. Develop a list of authorized couriers that are approved by the management.\n3. Define labelling requirements for physical media carrying sensitive information.\n4. Ensure that logs of the transfer are kept identifying the content of the media, protection applied, time(s) of transfer to the transit custodian(s), and the receipt at destination.\n5. Consi",
-    "mapping_date": "2026-03-16T09:49:11.681081",
-    "reviewer": null,
-    "notes": "Reranker: 0.259"
-  },
-  {
-    "mapping_id": "T3.5.1_clientname-IS-POL-00-Asset Management Policy 6_passage_11",
-    "source_control_id": "T3.5.1",
-    "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_11",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2565467953681946,
-    "evidence_text": "5.5 Removable Media Management\n\n&lt;CLIENT&gt; shall:\n\n1. Ensure that all information is stored only in organization authorized media.\n2. Ensure that contents of any re-usable media that are to be removed from the organization is made unrecoverable when no longer required.\n3. Ensure that appropriate authorization is obtained for media removed from the organization and a record of such removals is kept in order to maintain an audit trail.\n4. Store all media in a safe and secure environment in acc",
-    "mapping_date": "2026-03-16T09:49:11.681025",
-    "reviewer": null,
-    "notes": "Reranker: 0.257"
   },
   {
     "mapping_id": "T3.6.1_clientname-IS-POL-00-Asset Management Policy 6_passage_13",
@@ -1397,17 +715,6 @@
     "notes": "Reranker: 0.271"
   },
   {
-    "mapping_id": "T3.6.3_clientname-IS-POL-00-Asset Management Policy 6_passage_14",
-    "source_control_id": "T3.6.3",
-    "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_14",
-    "status": "Partially Addressed",
-    "entailment_score": 0.270398885011673,
-    "evidence_text": "5.8 Acceptable Use of Assets\n\n&lt;CLIENT&gt; shall:\n\n1. Ensure that usage of all organization’s information, information assets and information and communications technology (ICT) systems are approved by the information security department prior to deployment.\n2. Establish, document, and circulate the rules for the acceptable use of assets in line with the &lt;CLIENT&gt; Acceptable Use Policy (&lt;CLIENT&gt;-ORG-IMS-POL-002) and disciplinary procedures.\n3. Consider the information provided by ot",
-    "mapping_date": "2026-03-16T09:49:19.937330",
-    "reviewer": null,
-    "notes": "Reranker: 0.270"
-  },
-  {
     "mapping_id": "T3.6.4_clientname-IS-POL-00-Asset Management Policy 6_passage_9",
     "source_control_id": "T3.6.4",
     "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_9",
@@ -1417,28 +724,6 @@
     "mapping_date": "2026-03-16T09:49:22.652132",
     "reviewer": null,
     "notes": "Reranker: 0.258"
-  },
-  {
-    "mapping_id": "T3.6.4_clientname-IS-POL-00-Asset Management Policy 6_passage_10",
-    "source_control_id": "T3.6.4",
-    "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_10",
-    "status": "Partially Addressed",
-    "entailment_score": 0.257581889629364,
-    "evidence_text": "5.4 Asset Handling\n\n&lt;CLIENT&gt; shall:\n\n1. Develop procedures for handling, processing, storing, and communicating information consistent with its classification level. The following items should be considered, at a minimum:\n2. Access restrictions supporting the protection requirements for each level of classification.\n3. Protection of temporary or permanent copies of information to a level consistent with the protection of the original information.\n4. Storage of IT assets in accordance with ",
-    "mapping_date": "2026-03-16T09:49:22.652102",
-    "reviewer": null,
-    "notes": "Reranker: 0.258"
-  },
-  {
-    "mapping_id": "T3.6.4_clientname-IS-POL-00-Asset Management Policy 6_passage_11",
-    "source_control_id": "T3.6.4",
-    "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_11",
-    "status": "Partially Addressed",
-    "entailment_score": 0.25559908151626587,
-    "evidence_text": "5.5 Removable Media Management\n\n&lt;CLIENT&gt; shall:\n\n1. Ensure that all information is stored only in organization authorized media.\n2. Ensure that contents of any re-usable media that are to be removed from the organization is made unrecoverable when no longer required.\n3. Ensure that appropriate authorization is obtained for media removed from the organization and a record of such removals is kept in order to maintain an audit trail.\n4. Store all media in a safe and secure environment in acc",
-    "mapping_date": "2026-03-16T09:49:22.652093",
-    "reviewer": null,
-    "notes": "Reranker: 0.256"
   },
   {
     "mapping_id": "T3.6.6_clientname-IS-POL-00-Asset Management Policy 6_passage_13",
@@ -1463,17 +748,6 @@
     "notes": "Reranker: 0.263"
   },
   {
-    "mapping_id": "T4.1.1_clientname-IS-POL-00-Asset Management Policy 6_passage_11",
-    "source_control_id": "T4.1.1",
-    "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_11",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2502671480178833,
-    "evidence_text": "5.5 Removable Media Management\n\n&lt;CLIENT&gt; shall:\n\n1. Ensure that all information is stored only in organization authorized media.\n2. Ensure that contents of any re-usable media that are to be removed from the organization is made unrecoverable when no longer required.\n3. Ensure that appropriate authorization is obtained for media removed from the organization and a record of such removals is kept in order to maintain an audit trail.\n4. Store all media in a safe and secure environment in acc",
-    "mapping_date": "2026-03-16T09:49:31.002124",
-    "reviewer": null,
-    "notes": "Reranker: 0.250"
-  },
-  {
     "mapping_id": "T4.2.1_clientname-IS-POL-00-Asset Management Policy 6_passage_10",
     "source_control_id": "T4.2.1",
     "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_10",
@@ -1483,17 +757,6 @@
     "mapping_date": "2026-03-16T09:49:33.781564",
     "reviewer": null,
     "notes": "Reranker: 0.260"
-  },
-  {
-    "mapping_id": "T4.2.1_clientname-IS-POL-00-Asset Management Policy 6_passage_13",
-    "source_control_id": "T4.2.1",
-    "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_13",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2580176591873169,
-    "evidence_text": "5.7 Physical Media Transfer\n\n&lt;CLIENT&gt; shall:\n\n1. Utilize reliable transport or couriers for transportation of physical media between sites.\n2. Develop a list of authorized couriers that are approved by the management.\n3. Define labelling requirements for physical media carrying sensitive information.\n4. Ensure that logs of the transfer are kept identifying the content of the media, protection applied, time(s) of transfer to the transit custodian(s), and the receipt at destination.\n5. Consi",
-    "mapping_date": "2026-03-16T09:49:33.781591",
-    "reviewer": null,
-    "notes": "Reranker: 0.258"
   },
   {
     "mapping_id": "T4.2.2_clientname-IS-POL-00-Asset Management Policy 6_passage_13",
@@ -1507,17 +770,6 @@
     "notes": "Reranker: 0.258"
   },
   {
-    "mapping_id": "T4.2.2_clientname-IS-POL-00-Asset Management Policy 6_passage_10",
-    "source_control_id": "T4.2.2",
-    "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_10",
-    "status": "Partially Addressed",
-    "entailment_score": 0.25376614928245544,
-    "evidence_text": "5.4 Asset Handling\n\n&lt;CLIENT&gt; shall:\n\n1. Develop procedures for handling, processing, storing, and communicating information consistent with its classification level. The following items should be considered, at a minimum:\n2. Access restrictions supporting the protection requirements for each level of classification.\n3. Protection of temporary or permanent copies of information to a level consistent with the protection of the original information.\n4. Storage of IT assets in accordance with ",
-    "mapping_date": "2026-03-16T09:49:36.628031",
-    "reviewer": null,
-    "notes": "Reranker: 0.254"
-  },
-  {
     "mapping_id": "T4.2.3_clientname-IS-POL-00-Asset Management Policy 6_passage_10",
     "source_control_id": "T4.2.3",
     "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_10",
@@ -1527,17 +779,6 @@
     "mapping_date": "2026-03-16T09:49:39.423187",
     "reviewer": null,
     "notes": "Reranker: 0.260"
-  },
-  {
-    "mapping_id": "T4.2.3_clientname-IS-POL-00-Asset Management Policy 6_passage_12",
-    "source_control_id": "T4.2.3",
-    "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_12",
-    "status": "Partially Addressed",
-    "entailment_score": 0.25566157698631287,
-    "evidence_text": "5.6 Disposal of Media\n\n&lt;CLIENT&gt; shall:\n\n1. Establish procedures for secure disposal of media containing organizational information based on the sensitivity of that information.\n2. Ensure that the procedures are defined to identify media devices that might require secure disposal.\n3. Ensure that media, both paper and digital, are destroyed when no longer serving the organization.\n4. Ensure that records of disposed media (containing or used to contain confidential information) are kept when ",
-    "mapping_date": "2026-03-16T09:49:39.423106",
-    "reviewer": null,
-    "notes": "Reranker: 0.256"
   },
   {
     "mapping_id": "T4.2.5_clientname-IS-POL-00-Asset Management Policy 6_passage_11",
@@ -1560,17 +801,6 @@
     "mapping_date": "2026-03-16T09:49:45.069184",
     "reviewer": null,
     "notes": "Reranker: 0.280"
-  },
-  {
-    "mapping_id": "T4.3.1_clientname-IS-POL-00-Asset Management Policy 6_passage_14",
-    "source_control_id": "T4.3.1",
-    "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_14",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2735539376735687,
-    "evidence_text": "5.8 Acceptable Use of Assets\n\n&lt;CLIENT&gt; shall:\n\n1. Ensure that usage of all organization’s information, information assets and information and communications technology (ICT) systems are approved by the information security department prior to deployment.\n2. Establish, document, and circulate the rules for the acceptable use of assets in line with the &lt;CLIENT&gt; Acceptable Use Policy (&lt;CLIENT&gt;-ORG-IMS-POL-002) and disciplinary procedures.\n3. Consider the information provided by ot",
-    "mapping_date": "2026-03-16T09:49:45.069163",
-    "reviewer": null,
-    "notes": "Reranker: 0.274"
   },
   {
     "mapping_id": "T4.3.2_clientname-IS-POL-00-Asset Management Policy 6_passage_11",
@@ -1606,17 +836,6 @@
     "notes": "Reranker: 0.262"
   },
   {
-    "mapping_id": "T4.4.1_clientname-IS-POL-00-Asset Management Policy 6_passage_11",
-    "source_control_id": "T4.4.1",
-    "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_11",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2604537606239319,
-    "evidence_text": "5.5 Removable Media Management\n\n&lt;CLIENT&gt; shall:\n\n1. Ensure that all information is stored only in organization authorized media.\n2. Ensure that contents of any re-usable media that are to be removed from the organization is made unrecoverable when no longer required.\n3. Ensure that appropriate authorization is obtained for media removed from the organization and a record of such removals is kept in order to maintain an audit trail.\n4. Store all media in a safe and secure environment in acc",
-    "mapping_date": "2026-03-16T09:49:54.152391",
-    "reviewer": null,
-    "notes": "Reranker: 0.260"
-  },
-  {
     "mapping_id": "T4.4.2_clientname-IS-POL-00-Asset Management Policy 6_passage_10",
     "source_control_id": "T4.4.2",
     "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_10",
@@ -1628,28 +847,6 @@
     "notes": "Reranker: 0.257"
   },
   {
-    "mapping_id": "T4.4.2_clientname-IS-POL-00-Asset Management Policy 6_passage_13",
-    "source_control_id": "T4.4.2",
-    "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_13",
-    "status": "Partially Addressed",
-    "entailment_score": 0.25413915514945984,
-    "evidence_text": "5.7 Physical Media Transfer\n\n&lt;CLIENT&gt; shall:\n\n1. Utilize reliable transport or couriers for transportation of physical media between sites.\n2. Develop a list of authorized couriers that are approved by the management.\n3. Define labelling requirements for physical media carrying sensitive information.\n4. Ensure that logs of the transfer are kept identifying the content of the media, protection applied, time(s) of transfer to the transit custodian(s), and the receipt at destination.\n5. Consi",
-    "mapping_date": "2026-03-16T09:49:56.939192",
-    "reviewer": null,
-    "notes": "Reranker: 0.254"
-  },
-  {
-    "mapping_id": "T4.4.2_clientname-IS-POL-00-Asset Management Policy 6_passage_8",
-    "source_control_id": "T4.4.2",
-    "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_8",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2522030472755432,
-    "evidence_text": "5.2 Asset Ownership\n\n&lt;CLIENT&gt; shall:\n\n1. Establish and implement a process to ensure timely assignment of asset ownership.\n2. Assign/reassign ownership when assets are created or transferred.\n3. Assign ownership to individuals having approved management responsibility across the asset lifecycle. Asset owners shall have the following responsibilities at a minimum:\n2. Classify and protect the assets.\n3. Define and periodically review access restrictions and classifications to important asset",
-    "mapping_date": "2026-03-16T09:49:56.939205",
-    "reviewer": null,
-    "notes": "Reranker: 0.252"
-  },
-  {
     "mapping_id": "T4.5.1_clientname-IS-POL-00-Asset Management Policy 6_passage_11",
     "source_control_id": "T4.5.1",
     "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_11",
@@ -1657,17 +854,6 @@
     "entailment_score": 0.2626073360443115,
     "evidence_text": "5.5 Removable Media Management\n\n&lt;CLIENT&gt; shall:\n\n1. Ensure that all information is stored only in organization authorized media.\n2. Ensure that contents of any re-usable media that are to be removed from the organization is made unrecoverable when no longer required.\n3. Ensure that appropriate authorization is obtained for media removed from the organization and a record of such removals is kept in order to maintain an audit trail.\n4. Store all media in a safe and secure environment in acc",
     "mapping_date": "2026-03-16T09:49:59.835542",
-    "reviewer": null,
-    "notes": "Reranker: 0.263"
-  },
-  {
-    "mapping_id": "T4.5.1_clientname-IS-POL-00-Asset Management Policy 6_passage_10",
-    "source_control_id": "T4.5.1",
-    "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_10",
-    "status": "Partially Addressed",
-    "entailment_score": 0.26252880692481995,
-    "evidence_text": "5.4 Asset Handling\n\n&lt;CLIENT&gt; shall:\n\n1. Develop procedures for handling, processing, storing, and communicating information consistent with its classification level. The following items should be considered, at a minimum:\n2. Access restrictions supporting the protection requirements for each level of classification.\n3. Protection of temporary or permanent copies of information to a level consistent with the protection of the original information.\n4. Storage of IT assets in accordance with ",
-    "mapping_date": "2026-03-16T09:49:59.835573",
     "reviewer": null,
     "notes": "Reranker: 0.263"
   },
@@ -1694,17 +880,6 @@
     "notes": "Reranker: 0.264"
   },
   {
-    "mapping_id": "T5.2.2_clientname-IS-POL-00-Asset Management Policy 6_passage_13",
-    "source_control_id": "T5.2.2",
-    "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_13",
-    "status": "Partially Addressed",
-    "entailment_score": 0.26162514090538025,
-    "evidence_text": "5.7 Physical Media Transfer\n\n&lt;CLIENT&gt; shall:\n\n1. Utilize reliable transport or couriers for transportation of physical media between sites.\n2. Develop a list of authorized couriers that are approved by the management.\n3. Define labelling requirements for physical media carrying sensitive information.\n4. Ensure that logs of the transfer are kept identifying the content of the media, protection applied, time(s) of transfer to the transit custodian(s), and the receipt at destination.\n5. Consi",
-    "mapping_date": "2026-03-16T09:50:16.177641",
-    "reviewer": null,
-    "notes": "Reranker: 0.262"
-  },
-  {
     "mapping_id": "T5.2.3_clientname-IS-POL-00-Asset Management Policy 6_passage_10",
     "source_control_id": "T5.2.3",
     "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_10",
@@ -1714,28 +889,6 @@
     "mapping_date": "2026-03-16T09:50:18.940233",
     "reviewer": null,
     "notes": "Reranker: 0.266"
-  },
-  {
-    "mapping_id": "T5.2.3_clientname-IS-POL-00-Asset Management Policy 6_passage_13",
-    "source_control_id": "T5.2.3",
-    "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_13",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2641465365886688,
-    "evidence_text": "5.7 Physical Media Transfer\n\n&lt;CLIENT&gt; shall:\n\n1. Utilize reliable transport or couriers for transportation of physical media between sites.\n2. Develop a list of authorized couriers that are approved by the management.\n3. Define labelling requirements for physical media carrying sensitive information.\n4. Ensure that logs of the transfer are kept identifying the content of the media, protection applied, time(s) of transfer to the transit custodian(s), and the receipt at destination.\n5. Consi",
-    "mapping_date": "2026-03-16T09:50:18.940266",
-    "reviewer": null,
-    "notes": "Reranker: 0.264"
-  },
-  {
-    "mapping_id": "T5.2.3_clientname-IS-POL-00-Asset Management Policy 6_passage_9",
-    "source_control_id": "T5.2.3",
-    "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_9",
-    "status": "Partially Addressed",
-    "entailment_score": 0.25903329253196716,
-    "evidence_text": "5.3 Asset Labelling\n\n&lt;CLIENT&gt; shall:\n\n1. Label information assets in physical and electronic formats according to the established information classification scheme as per the &lt;CLIENT&gt; Data Security Policy (&lt;CLIENT&gt;-ORG-IMS-POL-003).\n2. Ensure that output from systems carry an appropriate classification label aligned to &lt;CLIENT&gt; Data Security Policy (&lt;CLIENT&gt;-ORG-IMS-POL-003).\n3. Ensure labels are easily recognizable and are included in emails, header, and footer of ",
-    "mapping_date": "2026-03-16T09:50:18.940246",
-    "reviewer": null,
-    "notes": "Reranker: 0.259"
   },
   {
     "mapping_id": "T5.2.4_clientname-IS-POL-00-Asset Management Policy 6_passage_13",
@@ -1804,17 +957,6 @@
     "notes": "Reranker: 0.256"
   },
   {
-    "mapping_id": "T5.5.1_clientname-IS-POL-00-Asset Management Policy 6_passage_13",
-    "source_control_id": "T5.5.1",
-    "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_13",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2502776086330414,
-    "evidence_text": "5.7 Physical Media Transfer\n\n&lt;CLIENT&gt; shall:\n\n1. Utilize reliable transport or couriers for transportation of physical media between sites.\n2. Develop a list of authorized couriers that are approved by the management.\n3. Define labelling requirements for physical media carrying sensitive information.\n4. Ensure that logs of the transfer are kept identifying the content of the media, protection applied, time(s) of transfer to the transit custodian(s), and the receipt at destination.\n5. Consi",
-    "mapping_date": "2026-03-16T09:50:38.918956",
-    "reviewer": null,
-    "notes": "Reranker: 0.250"
-  },
-  {
     "mapping_id": "T5.5.3_clientname-IS-POL-00-Asset Management Policy 6_passage_11",
     "source_control_id": "T5.5.3",
     "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_11",
@@ -1824,28 +966,6 @@
     "mapping_date": "2026-03-16T09:50:44.598014",
     "reviewer": null,
     "notes": "Reranker: 0.272"
-  },
-  {
-    "mapping_id": "T5.5.3_clientname-IS-POL-00-Asset Management Policy 6_passage_10",
-    "source_control_id": "T5.5.3",
-    "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_10",
-    "status": "Partially Addressed",
-    "entailment_score": 0.26863521337509155,
-    "evidence_text": "5.4 Asset Handling\n\n&lt;CLIENT&gt; shall:\n\n1. Develop procedures for handling, processing, storing, and communicating information consistent with its classification level. The following items should be considered, at a minimum:\n2. Access restrictions supporting the protection requirements for each level of classification.\n3. Protection of temporary or permanent copies of information to a level consistent with the protection of the original information.\n4. Storage of IT assets in accordance with ",
-    "mapping_date": "2026-03-16T09:50:44.597997",
-    "reviewer": null,
-    "notes": "Reranker: 0.269"
-  },
-  {
-    "mapping_id": "T5.5.3_clientname-IS-POL-00-Asset Management Policy 6_passage_13",
-    "source_control_id": "T5.5.3",
-    "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_13",
-    "status": "Partially Addressed",
-    "entailment_score": 0.26074934005737305,
-    "evidence_text": "5.7 Physical Media Transfer\n\n&lt;CLIENT&gt; shall:\n\n1. Utilize reliable transport or couriers for transportation of physical media between sites.\n2. Develop a list of authorized couriers that are approved by the management.\n3. Define labelling requirements for physical media carrying sensitive information.\n4. Ensure that logs of the transfer are kept identifying the content of the media, protection applied, time(s) of transfer to the transit custodian(s), and the receipt at destination.\n5. Consi",
-    "mapping_date": "2026-03-16T09:50:44.598049",
-    "reviewer": null,
-    "notes": "Reranker: 0.261"
   },
   {
     "mapping_id": "T5.6.1_clientname-IS-POL-00-Asset Management Policy 6_passage_10",
@@ -1859,17 +979,6 @@
     "notes": "Reranker: 0.258"
   },
   {
-    "mapping_id": "T5.6.1_clientname-IS-POL-00-Asset Management Policy 6_passage_14",
-    "source_control_id": "T5.6.1",
-    "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_14",
-    "status": "Partially Addressed",
-    "entailment_score": 0.25699788331985474,
-    "evidence_text": "5.8 Acceptable Use of Assets\n\n&lt;CLIENT&gt; shall:\n\n1. Ensure that usage of all organization’s information, information assets and information and communications technology (ICT) systems are approved by the information security department prior to deployment.\n2. Establish, document, and circulate the rules for the acceptable use of assets in line with the &lt;CLIENT&gt; Acceptable Use Policy (&lt;CLIENT&gt;-ORG-IMS-POL-002) and disciplinary procedures.\n3. Consider the information provided by ot",
-    "mapping_date": "2026-03-16T09:50:50.225441",
-    "reviewer": null,
-    "notes": "Reranker: 0.257"
-  },
-  {
     "mapping_id": "T5.6.2_clientname-IS-POL-00-Asset Management Policy 6_passage_13",
     "source_control_id": "T5.6.2",
     "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_13",
@@ -1881,17 +990,6 @@
     "notes": "Reranker: 0.278"
   },
   {
-    "mapping_id": "T5.6.2_clientname-IS-POL-00-Asset Management Policy 6_passage_10",
-    "source_control_id": "T5.6.2",
-    "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_10",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2743014693260193,
-    "evidence_text": "5.4 Asset Handling\n\n&lt;CLIENT&gt; shall:\n\n1. Develop procedures for handling, processing, storing, and communicating information consistent with its classification level. The following items should be considered, at a minimum:\n2. Access restrictions supporting the protection requirements for each level of classification.\n3. Protection of temporary or permanent copies of information to a level consistent with the protection of the original information.\n4. Storage of IT assets in accordance with ",
-    "mapping_date": "2026-03-16T09:50:53.056966",
-    "reviewer": null,
-    "notes": "Reranker: 0.274"
-  },
-  {
     "mapping_id": "T5.6.3_clientname-IS-POL-00-Asset Management Policy 6_passage_13",
     "source_control_id": "T5.6.3",
     "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_13",
@@ -1901,17 +999,6 @@
     "mapping_date": "2026-03-16T09:50:55.810009",
     "reviewer": null,
     "notes": "Reranker: 0.255"
-  },
-  {
-    "mapping_id": "T5.6.3_clientname-IS-POL-00-Asset Management Policy 6_passage_10",
-    "source_control_id": "T5.6.3",
-    "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_10",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2501630187034607,
-    "evidence_text": "5.4 Asset Handling\n\n&lt;CLIENT&gt; shall:\n\n1. Develop procedures for handling, processing, storing, and communicating information consistent with its classification level. The following items should be considered, at a minimum:\n2. Access restrictions supporting the protection requirements for each level of classification.\n3. Protection of temporary or permanent copies of information to a level consistent with the protection of the original information.\n4. Storage of IT assets in accordance with ",
-    "mapping_date": "2026-03-16T09:50:55.809975",
-    "reviewer": null,
-    "notes": "Reranker: 0.250"
   },
   {
     "mapping_id": "T5.7.1_clientname-IS-POL-00-Asset Management Policy 6_passage_13",
@@ -1936,17 +1023,6 @@
     "notes": "Reranker: 0.282"
   },
   {
-    "mapping_id": "T5.7.2_clientname-IS-POL-00-Asset Management Policy 6_passage_11",
-    "source_control_id": "T5.7.2",
-    "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_11",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2722461223602295,
-    "evidence_text": "5.5 Removable Media Management\n\n&lt;CLIENT&gt; shall:\n\n1. Ensure that all information is stored only in organization authorized media.\n2. Ensure that contents of any re-usable media that are to be removed from the organization is made unrecoverable when no longer required.\n3. Ensure that appropriate authorization is obtained for media removed from the organization and a record of such removals is kept in order to maintain an audit trail.\n4. Store all media in a safe and secure environment in acc",
-    "mapping_date": "2026-03-16T09:51:01.698767",
-    "reviewer": null,
-    "notes": "Reranker: 0.272"
-  },
-  {
     "mapping_id": "T6.2.1_clientname-IS-POL-00-Asset Management Policy 6_passage_13",
     "source_control_id": "T6.2.1",
     "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_13",
@@ -1967,17 +1043,6 @@
     "mapping_date": "2026-03-16T09:51:10.144988",
     "reviewer": null,
     "notes": "Reranker: 0.266"
-  },
-  {
-    "mapping_id": "T6.2.2_clientname-IS-POL-00-Asset Management Policy 6_passage_9",
-    "source_control_id": "T6.2.2",
-    "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_9",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2620882987976074,
-    "evidence_text": "5.3 Asset Labelling\n\n&lt;CLIENT&gt; shall:\n\n1. Label information assets in physical and electronic formats according to the established information classification scheme as per the &lt;CLIENT&gt; Data Security Policy (&lt;CLIENT&gt;-ORG-IMS-POL-003).\n2. Ensure that output from systems carry an appropriate classification label aligned to &lt;CLIENT&gt; Data Security Policy (&lt;CLIENT&gt;-ORG-IMS-POL-003).\n3. Ensure labels are easily recognizable and are included in emails, header, and footer of ",
-    "mapping_date": "2026-03-16T09:51:10.145009",
-    "reviewer": null,
-    "notes": "Reranker: 0.262"
   },
   {
     "mapping_id": "T6.3.1_clientname-IS-POL-00-Asset Management Policy 6_passage_10",
@@ -2002,17 +1067,6 @@
     "notes": "Reranker: 0.257"
   },
   {
-    "mapping_id": "T6.3.2_clientname-IS-POL-00-Asset Management Policy 6_passage_10",
-    "source_control_id": "T6.3.2",
-    "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_10",
-    "status": "Partially Addressed",
-    "entailment_score": 0.25604134798049927,
-    "evidence_text": "5.4 Asset Handling\n\n&lt;CLIENT&gt; shall:\n\n1. Develop procedures for handling, processing, storing, and communicating information consistent with its classification level. The following items should be considered, at a minimum:\n2. Access restrictions supporting the protection requirements for each level of classification.\n3. Protection of temporary or permanent copies of information to a level consistent with the protection of the original information.\n4. Storage of IT assets in accordance with ",
-    "mapping_date": "2026-03-16T09:51:18.675700",
-    "reviewer": null,
-    "notes": "Reranker: 0.256"
-  },
-  {
     "mapping_id": "T7.1.1_clientname-IS-POL-00-Asset Management Policy 6_passage_10",
     "source_control_id": "T7.1.1",
     "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_10",
@@ -2024,17 +1078,6 @@
     "notes": "Reranker: 0.271"
   },
   {
-    "mapping_id": "T7.1.1_clientname-IS-POL-00-Asset Management Policy 6_passage_13",
-    "source_control_id": "T7.1.1",
-    "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_13",
-    "status": "Partially Addressed",
-    "entailment_score": 0.26132693886756897,
-    "evidence_text": "5.7 Physical Media Transfer\n\n&lt;CLIENT&gt; shall:\n\n1. Utilize reliable transport or couriers for transportation of physical media between sites.\n2. Develop a list of authorized couriers that are approved by the management.\n3. Define labelling requirements for physical media carrying sensitive information.\n4. Ensure that logs of the transfer are kept identifying the content of the media, protection applied, time(s) of transfer to the transit custodian(s), and the receipt at destination.\n5. Consi",
-    "mapping_date": "2026-03-16T09:51:21.464204",
-    "reviewer": null,
-    "notes": "Reranker: 0.261"
-  },
-  {
     "mapping_id": "T7.2.1_clientname-IS-POL-00-Asset Management Policy 6_passage_10",
     "source_control_id": "T7.2.1",
     "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_10",
@@ -2044,17 +1087,6 @@
     "mapping_date": "2026-03-16T09:51:24.247215",
     "reviewer": null,
     "notes": "Reranker: 0.263"
-  },
-  {
-    "mapping_id": "T7.2.1_clientname-IS-POL-00-Asset Management Policy 6_passage_14",
-    "source_control_id": "T7.2.1",
-    "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_14",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2590450048446655,
-    "evidence_text": "5.8 Acceptable Use of Assets\n\n&lt;CLIENT&gt; shall:\n\n1. Ensure that usage of all organization’s information, information assets and information and communications technology (ICT) systems are approved by the information security department prior to deployment.\n2. Establish, document, and circulate the rules for the acceptable use of assets in line with the &lt;CLIENT&gt; Acceptable Use Policy (&lt;CLIENT&gt;-ORG-IMS-POL-002) and disciplinary procedures.\n3. Consider the information provided by ot",
-    "mapping_date": "2026-03-16T09:51:24.247188",
-    "reviewer": null,
-    "notes": "Reranker: 0.259"
   },
   {
     "mapping_id": "T7.2.2_clientname-IS-POL-00-Asset Management Policy 6_passage_10",
@@ -2079,28 +1111,6 @@
     "notes": "Reranker: 0.259"
   },
   {
-    "mapping_id": "T7.3.1_clientname-IS-POL-00-Asset Management Policy 6_passage_10",
-    "source_control_id": "T7.3.1",
-    "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_10",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2584550976753235,
-    "evidence_text": "5.4 Asset Handling\n\n&lt;CLIENT&gt; shall:\n\n1. Develop procedures for handling, processing, storing, and communicating information consistent with its classification level. The following items should be considered, at a minimum:\n2. Access restrictions supporting the protection requirements for each level of classification.\n3. Protection of temporary or permanent copies of information to a level consistent with the protection of the original information.\n4. Storage of IT assets in accordance with ",
-    "mapping_date": "2026-03-16T09:51:29.918452",
-    "reviewer": null,
-    "notes": "Reranker: 0.258"
-  },
-  {
-    "mapping_id": "T7.3.1_clientname-IS-POL-00-Asset Management Policy 6_passage_13",
-    "source_control_id": "T7.3.1",
-    "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_13",
-    "status": "Partially Addressed",
-    "entailment_score": 0.25512877106666565,
-    "evidence_text": "5.7 Physical Media Transfer\n\n&lt;CLIENT&gt; shall:\n\n1. Utilize reliable transport or couriers for transportation of physical media between sites.\n2. Develop a list of authorized couriers that are approved by the management.\n3. Define labelling requirements for physical media carrying sensitive information.\n4. Ensure that logs of the transfer are kept identifying the content of the media, protection applied, time(s) of transfer to the transit custodian(s), and the receipt at destination.\n5. Consi",
-    "mapping_date": "2026-03-16T09:51:29.918499",
-    "reviewer": null,
-    "notes": "Reranker: 0.255"
-  },
-  {
     "mapping_id": "T7.3.3_clientname-IS-POL-00-Asset Management Policy 6_passage_13",
     "source_control_id": "T7.3.3",
     "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_13",
@@ -2110,17 +1120,6 @@
     "mapping_date": "2026-03-16T09:51:32.730582",
     "reviewer": null,
     "notes": "Reranker: 0.259"
-  },
-  {
-    "mapping_id": "T7.3.3_clientname-IS-POL-00-Asset Management Policy 6_passage_10",
-    "source_control_id": "T7.3.3",
-    "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_10",
-    "status": "Partially Addressed",
-    "entailment_score": 0.25823572278022766,
-    "evidence_text": "5.4 Asset Handling\n\n&lt;CLIENT&gt; shall:\n\n1. Develop procedures for handling, processing, storing, and communicating information consistent with its classification level. The following items should be considered, at a minimum:\n2. Access restrictions supporting the protection requirements for each level of classification.\n3. Protection of temporary or permanent copies of information to a level consistent with the protection of the original information.\n4. Storage of IT assets in accordance with ",
-    "mapping_date": "2026-03-16T09:51:32.730560",
-    "reviewer": null,
-    "notes": "Reranker: 0.258"
   },
   {
     "mapping_id": "T7.3.4_clientname-IS-POL-00-Asset Management Policy 6_passage_14",
@@ -2134,17 +1133,6 @@
     "notes": "Reranker: 0.283"
   },
   {
-    "mapping_id": "T7.3.4_clientname-IS-POL-00-Asset Management Policy 6_passage_10",
-    "source_control_id": "T7.3.4",
-    "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_10",
-    "status": "Partially Addressed",
-    "entailment_score": 0.281385213136673,
-    "evidence_text": "5.4 Asset Handling\n\n&lt;CLIENT&gt; shall:\n\n1. Develop procedures for handling, processing, storing, and communicating information consistent with its classification level. The following items should be considered, at a minimum:\n2. Access restrictions supporting the protection requirements for each level of classification.\n3. Protection of temporary or permanent copies of information to a level consistent with the protection of the original information.\n4. Storage of IT assets in accordance with ",
-    "mapping_date": "2026-03-16T09:51:35.470872",
-    "reviewer": null,
-    "notes": "Reranker: 0.281"
-  },
-  {
     "mapping_id": "T7.6.2_clientname-IS-POL-00-Asset Management Policy 6_passage_13",
     "source_control_id": "T7.6.2",
     "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_13",
@@ -2156,28 +1144,6 @@
     "notes": "Reranker: 0.259"
   },
   {
-    "mapping_id": "T7.6.2_clientname-IS-POL-00-Asset Management Policy 6_passage_11",
-    "source_control_id": "T7.6.2",
-    "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_11",
-    "status": "Partially Addressed",
-    "entailment_score": 0.25448867678642273,
-    "evidence_text": "5.5 Removable Media Management\n\n&lt;CLIENT&gt; shall:\n\n1. Ensure that all information is stored only in organization authorized media.\n2. Ensure that contents of any re-usable media that are to be removed from the organization is made unrecoverable when no longer required.\n3. Ensure that appropriate authorization is obtained for media removed from the organization and a record of such removals is kept in order to maintain an audit trail.\n4. Store all media in a safe and secure environment in acc",
-    "mapping_date": "2026-03-16T09:51:43.767196",
-    "reviewer": null,
-    "notes": "Reranker: 0.254"
-  },
-  {
-    "mapping_id": "T7.6.2_clientname-IS-POL-00-Asset Management Policy 6_passage_10",
-    "source_control_id": "T7.6.2",
-    "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_10",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2506510317325592,
-    "evidence_text": "5.4 Asset Handling\n\n&lt;CLIENT&gt; shall:\n\n1. Develop procedures for handling, processing, storing, and communicating information consistent with its classification level. The following items should be considered, at a minimum:\n2. Access restrictions supporting the protection requirements for each level of classification.\n3. Protection of temporary or permanent copies of information to a level consistent with the protection of the original information.\n4. Storage of IT assets in accordance with ",
-    "mapping_date": "2026-03-16T09:51:43.767154",
-    "reviewer": null,
-    "notes": "Reranker: 0.251"
-  },
-  {
     "mapping_id": "T7.6.4_clientname-IS-POL-00-Asset Management Policy 6_passage_13",
     "source_control_id": "T7.6.4",
     "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_13",
@@ -2187,17 +1153,6 @@
     "mapping_date": "2026-03-16T09:51:46.521136",
     "reviewer": null,
     "notes": "Reranker: 0.255"
-  },
-  {
-    "mapping_id": "T7.6.4_clientname-IS-POL-00-Asset Management Policy 6_passage_10",
-    "source_control_id": "T7.6.4",
-    "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_10",
-    "status": "Partially Addressed",
-    "entailment_score": 0.25267714262008667,
-    "evidence_text": "5.4 Asset Handling\n\n&lt;CLIENT&gt; shall:\n\n1. Develop procedures for handling, processing, storing, and communicating information consistent with its classification level. The following items should be considered, at a minimum:\n2. Access restrictions supporting the protection requirements for each level of classification.\n3. Protection of temporary or permanent copies of information to a level consistent with the protection of the original information.\n4. Storage of IT assets in accordance with ",
-    "mapping_date": "2026-03-16T09:51:46.521069",
-    "reviewer": null,
-    "notes": "Reranker: 0.253"
   },
   {
     "mapping_id": "T7.8.1_clientname-IS-POL-00-Asset Management Policy 6_passage_10",
@@ -2233,17 +1188,6 @@
     "notes": "Reranker: 0.266"
   },
   {
-    "mapping_id": "T7.8.5_clientname-IS-POL-00-Asset Management Policy 6_passage_13",
-    "source_control_id": "T7.8.5",
-    "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_13",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2558589279651642,
-    "evidence_text": "5.7 Physical Media Transfer\n\n&lt;CLIENT&gt; shall:\n\n1. Utilize reliable transport or couriers for transportation of physical media between sites.\n2. Develop a list of authorized couriers that are approved by the management.\n3. Define labelling requirements for physical media carrying sensitive information.\n4. Ensure that logs of the transfer are kept identifying the content of the media, protection applied, time(s) of transfer to the transit custodian(s), and the receipt at destination.\n5. Consi",
-    "mapping_date": "2026-03-16T09:52:03.252964",
-    "reviewer": null,
-    "notes": "Reranker: 0.256"
-  },
-  {
     "mapping_id": "T7.8.7_clientname-IS-POL-00-Asset Management Policy 6_passage_10",
     "source_control_id": "T7.8.7",
     "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_10",
@@ -2253,17 +1197,6 @@
     "mapping_date": "2026-03-16T09:52:08.847321",
     "reviewer": null,
     "notes": "Reranker: 0.274"
-  },
-  {
-    "mapping_id": "T7.8.7_clientname-IS-POL-00-Asset Management Policy 6_passage_13",
-    "source_control_id": "T7.8.7",
-    "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_13",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2564235031604767,
-    "evidence_text": "5.7 Physical Media Transfer\n\n&lt;CLIENT&gt; shall:\n\n1. Utilize reliable transport or couriers for transportation of physical media between sites.\n2. Develop a list of authorized couriers that are approved by the management.\n3. Define labelling requirements for physical media carrying sensitive information.\n4. Ensure that logs of the transfer are kept identifying the content of the media, protection applied, time(s) of transfer to the transit custodian(s), and the receipt at destination.\n5. Consi",
-    "mapping_date": "2026-03-16T09:52:08.847377",
-    "reviewer": null,
-    "notes": "Reranker: 0.256"
   },
   {
     "mapping_id": "T8.2.2_clientname-IS-POL-00-Asset Management Policy 6_passage_5",
@@ -2332,17 +1265,6 @@
     "notes": "Reranker: 0.276"
   },
   {
-    "mapping_id": "T8.2.9_clientname-IS-POL-00-Asset Management Policy 6_passage_10",
-    "source_control_id": "T8.2.9",
-    "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_10",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2676553726196289,
-    "evidence_text": "5.4 Asset Handling\n\n&lt;CLIENT&gt; shall:\n\n1. Develop procedures for handling, processing, storing, and communicating information consistent with its classification level. The following items should be considered, at a minimum:\n2. Access restrictions supporting the protection requirements for each level of classification.\n3. Protection of temporary or permanent copies of information to a level consistent with the protection of the original information.\n4. Storage of IT assets in accordance with ",
-    "mapping_date": "2026-03-16T09:52:37.284594",
-    "reviewer": null,
-    "notes": "Reranker: 0.268"
-  },
-  {
     "mapping_id": "T8.3.1_clientname-IS-POL-00-Asset Management Policy 6_passage_13",
     "source_control_id": "T8.3.1",
     "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_13",
@@ -2365,17 +1287,6 @@
     "notes": "Reranker: 0.258"
   },
   {
-    "mapping_id": "T9.1.1_clientname-IS-POL-00-Asset Management Policy 6_passage_10",
-    "source_control_id": "T9.1.1",
-    "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_10",
-    "status": "Partially Addressed",
-    "entailment_score": 0.25242897868156433,
-    "evidence_text": "5.4 Asset Handling\n\n&lt;CLIENT&gt; shall:\n\n1. Develop procedures for handling, processing, storing, and communicating information consistent with its classification level. The following items should be considered, at a minimum:\n2. Access restrictions supporting the protection requirements for each level of classification.\n3. Protection of temporary or permanent copies of information to a level consistent with the protection of the original information.\n4. Storage of IT assets in accordance with ",
-    "mapping_date": "2026-03-16T09:52:51.187093",
-    "reviewer": null,
-    "notes": "Reranker: 0.252"
-  },
-  {
     "mapping_id": "T9.2.1_clientname-IS-POL-00-Asset Management Policy 6_passage_13",
     "source_control_id": "T9.2.1",
     "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_13",
@@ -2385,17 +1296,6 @@
     "mapping_date": "2026-03-16T09:52:53.908344",
     "reviewer": null,
     "notes": "Reranker: 0.252"
-  },
-  {
-    "mapping_id": "T9.2.1_clientname-IS-POL-00-Asset Management Policy 6_passage_10",
-    "source_control_id": "T9.2.1",
-    "target_policy_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_10",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2510073184967041,
-    "evidence_text": "5.4 Asset Handling\n\n&lt;CLIENT&gt; shall:\n\n1. Develop procedures for handling, processing, storing, and communicating information consistent with its classification level. The following items should be considered, at a minimum:\n2. Access restrictions supporting the protection requirements for each level of classification.\n3. Protection of temporary or permanent copies of information to a level consistent with the protection of the original information.\n4. Storage of IT assets in accordance with ",
-    "mapping_date": "2026-03-16T09:52:53.908257",
-    "reviewer": null,
-    "notes": "Reranker: 0.251"
   },
   {
     "mapping_id": "T9.3.1_clientname-IS-POL-00-Asset Management Policy 6_passage_10",

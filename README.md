@@ -280,6 +280,16 @@ python3 scripts/llm_judge.py --model llama3.2:1b --limit 5 --prompt-style cot
 python3 scripts/llm_judge.py --model llama3.2:1b --limit 5 --prompt-style fewshot
 ```
 
+**Single-policy mode** (run the pipeline on one document only; outputs go to `data/06_compliance_mappings/single_policy/`):
+
+```bash
+# By path (any *_corrected.json or *_for_mapping.json)
+python3 quick_start_compliance.py "data/02_processed/policies/Asset Management Policy 6_corrected.json"
+
+# Or via env
+SINGLE_POLICY=data/02_processed/policies/Asset\ Management\ Policy\ 6_corrected.json python3 quick_start_compliance.py
+```
+
 ### Environment Variables (all optional)
 
 | Variable | Default | Description |

@@ -55,17 +55,6 @@
     "notes": "Reranker: 0.268"
   },
   {
-    "mapping_id": "M1.3.3_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_13",
-    "source_control_id": "M1.3.3",
-    "target_policy_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_13",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2630751132965088,
-    "evidence_text": "5.7 Electronic Messaging\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Identify all means of electronic messaging for transmitted information assets.\n2. Include the following security considerations at a minimum, for electronic messaging:\n2. Ensuring correct addressing and transportation of the message.\n3. General reliability and availability of the service.\n4. Legal considerations, for example requirements for electronic signatures.\n5. Stronger levels of authentication controlling access from publicly accessi",
-    "mapping_date": "2026-03-16T09:45:22.155659",
-    "reviewer": null,
-    "notes": "Reranker: 0.263"
-  },
-  {
     "mapping_id": "M1.3.4_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_11",
     "source_control_id": "M1.3.4",
     "target_policy_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_11",
@@ -75,17 +64,6 @@
     "mapping_date": "2026-03-16T09:45:24.768637",
     "reviewer": null,
     "notes": "Reranker: 0.258"
-  },
-  {
-    "mapping_id": "M1.3.4_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_9",
-    "source_control_id": "M1.3.4",
-    "target_policy_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_9",
-    "status": "Partially Addressed",
-    "entailment_score": 0.25171735882759094,
-    "evidence_text": "5.3 Segregation in Networks\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Manage security of large networks within the organization by segregating them into separate network zones.\n2. Segregate networks considering sensitivity of information processed, access requirements, relative cost, and performance impact of incorporating suitable technology.\n3. Implement routing controls shall such that access to applications or services is restricted to provide isolation between systems and network zones created as abov",
-    "mapping_date": "2026-03-16T09:45:24.768715",
-    "reviewer": null,
-    "notes": "Reranker: 0.252"
   },
   {
     "mapping_id": "M1.4.2_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_11",
@@ -99,17 +77,6 @@
     "notes": "Reranker: 0.266"
   },
   {
-    "mapping_id": "M1.4.2_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_9",
-    "source_control_id": "M1.4.2",
-    "target_policy_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_9",
-    "status": "Partially Addressed",
-    "entailment_score": 0.26524606347084045,
-    "evidence_text": "5.3 Segregation in Networks\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Manage security of large networks within the organization by segregating them into separate network zones.\n2. Segregate networks considering sensitivity of information processed, access requirements, relative cost, and performance impact of incorporating suitable technology.\n3. Implement routing controls shall such that access to applications or services is restricted to provide isolation between systems and network zones created as abov",
-    "mapping_date": "2026-03-16T09:45:38.272380",
-    "reviewer": null,
-    "notes": "Reranker: 0.265"
-  },
-  {
     "mapping_id": "M1.4.3_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_9",
     "source_control_id": "M1.4.3",
     "target_policy_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_9",
@@ -117,17 +84,6 @@
     "entailment_score": 0.2731546461582184,
     "evidence_text": "5.3 Segregation in Networks\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Manage security of large networks within the organization by segregating them into separate network zones.\n2. Segregate networks considering sensitivity of information processed, access requirements, relative cost, and performance impact of incorporating suitable technology.\n3. Implement routing controls shall such that access to applications or services is restricted to provide isolation between systems and network zones created as abov",
     "mapping_date": "2026-03-16T09:45:40.963471",
-    "reviewer": null,
-    "notes": "Reranker: 0.273"
-  },
-  {
-    "mapping_id": "M1.4.3_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_12",
-    "source_control_id": "M1.4.3",
-    "target_policy_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_12",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2726072669029236,
-    "evidence_text": "5.6 Agreements on Information Transfer\n\n1. Use cases and appropriate security controls to be put in place ensures information is adequately protected during transfer.\n\n3. Protect transferred information from interception, copying, modification, misrouting, and destruction using cryptographic techniques.\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Establish exchange agreements for information considered as confidential or sensitive while engaging with third parties to extend security controls to protect confi",
-    "mapping_date": "2026-03-16T09:45:40.963385",
     "reviewer": null,
     "notes": "Reranker: 0.273"
   },
@@ -152,17 +108,6 @@
     "mapping_date": "2026-03-16T09:45:49.268572",
     "reviewer": null,
     "notes": "Reranker: 0.299"
-  },
-  {
-    "mapping_id": "M2.2.2_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_11",
-    "source_control_id": "M2.2.2",
-    "target_policy_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_11",
-    "status": "Partially Addressed",
-    "entailment_score": 0.28728002309799194,
-    "evidence_text": "5.5 Information Transfer Security Procedures\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Establish information transfer security procedures.\n2. Ensure that the information transfer security procedure at a minimum, includes the following:\n2. Actions to be taken when issues arise regarding the transfer of information.\n4. Detect and protect against malware.\n5. Develop guidelines outlining acceptable use of communication systems.\n6. Develop retention and disposal guidelines for all business correspondence, inclu",
-    "mapping_date": "2026-03-16T09:45:49.268532",
-    "reviewer": null,
-    "notes": "Reranker: 0.287"
   },
   {
     "mapping_id": "M2.3.5_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_18",
@@ -253,17 +198,6 @@
     "notes": "Reranker: 0.261"
   },
   {
-    "mapping_id": "M5.2.2_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_13",
-    "source_control_id": "M5.2.2",
-    "target_policy_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_13",
-    "status": "Partially Addressed",
-    "entailment_score": 0.26124805212020874,
-    "evidence_text": "5.7 Electronic Messaging\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Identify all means of electronic messaging for transmitted information assets.\n2. Include the following security considerations at a minimum, for electronic messaging:\n2. Ensuring correct addressing and transportation of the message.\n3. General reliability and availability of the service.\n4. Legal considerations, for example requirements for electronic signatures.\n5. Stronger levels of authentication controlling access from publicly accessi",
-    "mapping_date": "2026-03-16T09:46:59.112063",
-    "reviewer": null,
-    "notes": "Reranker: 0.261"
-  },
-  {
     "mapping_id": "M5.2.6_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_12",
     "source_control_id": "M5.2.6",
     "target_policy_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_12",
@@ -286,17 +220,6 @@
     "notes": "Reranker: 0.276"
   },
   {
-    "mapping_id": "M5.2.7_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_12",
-    "source_control_id": "M5.2.7",
-    "target_policy_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_12",
-    "status": "Partially Addressed",
-    "entailment_score": 0.26259633898735046,
-    "evidence_text": "5.6 Agreements on Information Transfer\n\n1. Use cases and appropriate security controls to be put in place ensures information is adequately protected during transfer.\n\n3. Protect transferred information from interception, copying, modification, misrouting, and destruction using cryptographic techniques.\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Establish exchange agreements for information considered as confidential or sensitive while engaging with third parties to extend security controls to protect confi",
-    "mapping_date": "2026-03-16T09:47:13.381217",
-    "reviewer": null,
-    "notes": "Reranker: 0.263"
-  },
-  {
     "mapping_id": "M5.3.1_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_11",
     "source_control_id": "M5.3.1",
     "target_policy_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_11",
@@ -308,17 +231,6 @@
     "notes": "Reranker: 0.273"
   },
   {
-    "mapping_id": "M5.3.1_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_9",
-    "source_control_id": "M5.3.1",
-    "target_policy_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_9",
-    "status": "Partially Addressed",
-    "entailment_score": 0.26933664083480835,
-    "evidence_text": "5.3 Segregation in Networks\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Manage security of large networks within the organization by segregating them into separate network zones.\n2. Segregate networks considering sensitivity of information processed, access requirements, relative cost, and performance impact of incorporating suitable technology.\n3. Implement routing controls shall such that access to applications or services is restricted to provide isolation between systems and network zones created as abov",
-    "mapping_date": "2026-03-16T09:47:16.346896",
-    "reviewer": null,
-    "notes": "Reranker: 0.269"
-  },
-  {
     "mapping_id": "M5.5.2_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_13",
     "source_control_id": "M5.5.2",
     "target_policy_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_13",
@@ -328,17 +240,6 @@
     "mapping_date": "2026-03-16T09:47:25.034939",
     "reviewer": null,
     "notes": "Reranker: 0.254"
-  },
-  {
-    "mapping_id": "M5.5.2_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_9",
-    "source_control_id": "M5.5.2",
-    "target_policy_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_9",
-    "status": "Partially Addressed",
-    "entailment_score": 0.25074779987335205,
-    "evidence_text": "5.3 Segregation in Networks\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Manage security of large networks within the organization by segregating them into separate network zones.\n2. Segregate networks considering sensitivity of information processed, access requirements, relative cost, and performance impact of incorporating suitable technology.\n3. Implement routing controls shall such that access to applications or services is restricted to provide isolation between systems and network zones created as abov",
-    "mapping_date": "2026-03-16T09:47:25.034956",
-    "reviewer": null,
-    "notes": "Reranker: 0.251"
   },
   {
     "mapping_id": "M5.5.3_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_15",
@@ -396,17 +297,6 @@
     "notes": "Reranker: 0.275"
   },
   {
-    "mapping_id": "T1.2.3_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_11",
-    "source_control_id": "T1.2.3",
-    "target_policy_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_11",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2703181207180023,
-    "evidence_text": "5.5 Information Transfer Security Procedures\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Establish information transfer security procedures.\n2. Ensure that the information transfer security procedure at a minimum, includes the following:\n2. Actions to be taken when issues arise regarding the transfer of information.\n4. Detect and protect against malware.\n5. Develop guidelines outlining acceptable use of communication systems.\n6. Develop retention and disposal guidelines for all business correspondence, inclu",
-    "mapping_date": "2026-03-16T09:47:49.983725",
-    "reviewer": null,
-    "notes": "Reranker: 0.270"
-  },
-  {
     "mapping_id": "T1.2.4_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_11",
     "source_control_id": "T1.2.4",
     "target_policy_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_11",
@@ -451,17 +341,6 @@
     "notes": "Reranker: 0.275"
   },
   {
-    "mapping_id": "T2.2.1_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_9",
-    "source_control_id": "T2.2.1",
-    "target_policy_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_9",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2748452425003052,
-    "evidence_text": "5.3 Segregation in Networks\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Manage security of large networks within the organization by segregating them into separate network zones.\n2. Segregate networks considering sensitivity of information processed, access requirements, relative cost, and performance impact of incorporating suitable technology.\n3. Implement routing controls shall such that access to applications or services is restricted to provide isolation between systems and network zones created as abov",
-    "mapping_date": "2026-03-16T09:48:12.394688",
-    "reviewer": null,
-    "notes": "Reranker: 0.275"
-  },
-  {
     "mapping_id": "T2.2.3_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_9",
     "source_control_id": "T2.2.3",
     "target_policy_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_9",
@@ -471,17 +350,6 @@
     "mapping_date": "2026-03-16T09:48:18.151248",
     "reviewer": null,
     "notes": "Reranker: 0.263"
-  },
-  {
-    "mapping_id": "T2.2.3_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_13",
-    "source_control_id": "T2.2.3",
-    "target_policy_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_13",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2580380141735077,
-    "evidence_text": "5.7 Electronic Messaging\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Identify all means of electronic messaging for transmitted information assets.\n2. Include the following security considerations at a minimum, for electronic messaging:\n2. Ensuring correct addressing and transportation of the message.\n3. General reliability and availability of the service.\n4. Legal considerations, for example requirements for electronic signatures.\n5. Stronger levels of authentication controlling access from publicly accessi",
-    "mapping_date": "2026-03-16T09:48:18.151255",
-    "reviewer": null,
-    "notes": "Reranker: 0.258"
   },
   {
     "mapping_id": "T2.2.4_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_9",
@@ -506,28 +374,6 @@
     "notes": "Reranker: 0.262"
   },
   {
-    "mapping_id": "T2.2.5_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_9",
-    "source_control_id": "T2.2.5",
-    "target_policy_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_9",
-    "status": "Partially Addressed",
-    "entailment_score": 0.254472017288208,
-    "evidence_text": "5.3 Segregation in Networks\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Manage security of large networks within the organization by segregating them into separate network zones.\n2. Segregate networks considering sensitivity of information processed, access requirements, relative cost, and performance impact of incorporating suitable technology.\n3. Implement routing controls shall such that access to applications or services is restricted to provide isolation between systems and network zones created as abov",
-    "mapping_date": "2026-03-16T09:48:23.708427",
-    "reviewer": null,
-    "notes": "Reranker: 0.254"
-  },
-  {
-    "mapping_id": "T2.2.5_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_10",
-    "source_control_id": "T2.2.5",
-    "target_policy_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_10",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2532103955745697,
-    "evidence_text": "5.4 Security of Wireless Networks\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Perform a risk assessment for wireless networks to identify security controls (e.g., strong authentication, cryptographic methods, and frequency selection) required to maintain network segregation.\n2. Segregate wireless networks from internal and private networks and guest networks as required.\n3. Restrict the use of 'guest' wireless networks to authorized guests.\n4. Prohibit creation and use of ad-hoc wireless networks, including ",
-    "mapping_date": "2026-03-16T09:48:23.708416",
-    "reviewer": null,
-    "notes": "Reranker: 0.253"
-  },
-  {
     "mapping_id": "T2.3.3_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_13",
     "source_control_id": "T2.3.3",
     "target_policy_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_13",
@@ -537,39 +383,6 @@
     "mapping_date": "2026-03-16T09:48:32.018477",
     "reviewer": null,
     "notes": "Reranker: 0.268"
-  },
-  {
-    "mapping_id": "T2.3.3_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_9",
-    "source_control_id": "T2.3.3",
-    "target_policy_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_9",
-    "status": "Partially Addressed",
-    "entailment_score": 0.26496464014053345,
-    "evidence_text": "5.3 Segregation in Networks\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Manage security of large networks within the organization by segregating them into separate network zones.\n2. Segregate networks considering sensitivity of information processed, access requirements, relative cost, and performance impact of incorporating suitable technology.\n3. Implement routing controls shall such that access to applications or services is restricted to provide isolation between systems and network zones created as abov",
-    "mapping_date": "2026-03-16T09:48:32.018492",
-    "reviewer": null,
-    "notes": "Reranker: 0.265"
-  },
-  {
-    "mapping_id": "T2.3.3_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_11",
-    "source_control_id": "T2.3.3",
-    "target_policy_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_11",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2611132860183716,
-    "evidence_text": "5.5 Information Transfer Security Procedures\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Establish information transfer security procedures.\n2. Ensure that the information transfer security procedure at a minimum, includes the following:\n2. Actions to be taken when issues arise regarding the transfer of information.\n4. Detect and protect against malware.\n5. Develop guidelines outlining acceptable use of communication systems.\n6. Develop retention and disposal guidelines for all business correspondence, inclu",
-    "mapping_date": "2026-03-16T09:48:32.018433",
-    "reviewer": null,
-    "notes": "Reranker: 0.261"
-  },
-  {
-    "mapping_id": "T2.3.3_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_7",
-    "source_control_id": "T2.3.3",
-    "target_policy_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_7",
-    "status": "Partially Addressed",
-    "entailment_score": 0.258343368768692,
-    "evidence_text": "5.1 Network Controls\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Establish the network and communications design based on the following minimum requirements:\n2. Risk assessment of threats and vulnerabilities to/of the network.\n3. Level of trust between all components and organizations connected to the network.\n4. Degree of availability and resilience required from the network.\n5. Geographical topography of the network.\n6. Security controls in place at locations from where the network shall be accessed.\n3. Es",
-    "mapping_date": "2026-03-16T09:48:32.018400",
-    "reviewer": null,
-    "notes": "Reranker: 0.258"
   },
   {
     "mapping_id": "T2.3.6_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_11",
@@ -594,17 +407,6 @@
     "notes": "Reranker: 0.259"
   },
   {
-    "mapping_id": "T2.3.7_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_13",
-    "source_control_id": "T2.3.7",
-    "target_policy_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_13",
-    "status": "Partially Addressed",
-    "entailment_score": 0.25627583265304565,
-    "evidence_text": "5.7 Electronic Messaging\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Identify all means of electronic messaging for transmitted information assets.\n2. Include the following security considerations at a minimum, for electronic messaging:\n2. Ensuring correct addressing and transportation of the message.\n3. General reliability and availability of the service.\n4. Legal considerations, for example requirements for electronic signatures.\n5. Stronger levels of authentication controlling access from publicly accessi",
-    "mapping_date": "2026-03-16T09:48:43.057656",
-    "reviewer": null,
-    "notes": "Reranker: 0.256"
-  },
-  {
     "mapping_id": "T2.3.8_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_10",
     "source_control_id": "T2.3.8",
     "target_policy_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_10",
@@ -614,28 +416,6 @@
     "mapping_date": "2026-03-16T09:48:45.784818",
     "reviewer": null,
     "notes": "Reranker: 0.270"
-  },
-  {
-    "mapping_id": "T2.3.8_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_13",
-    "source_control_id": "T2.3.8",
-    "target_policy_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_13",
-    "status": "Partially Addressed",
-    "entailment_score": 0.26676371693611145,
-    "evidence_text": "5.7 Electronic Messaging\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Identify all means of electronic messaging for transmitted information assets.\n2. Include the following security considerations at a minimum, for electronic messaging:\n2. Ensuring correct addressing and transportation of the message.\n3. General reliability and availability of the service.\n4. Legal considerations, for example requirements for electronic signatures.\n5. Stronger levels of authentication controlling access from publicly accessi",
-    "mapping_date": "2026-03-16T09:48:45.784805",
-    "reviewer": null,
-    "notes": "Reranker: 0.267"
-  },
-  {
-    "mapping_id": "T2.3.8_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_9",
-    "source_control_id": "T2.3.8",
-    "target_policy_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_9",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2651340365409851,
-    "evidence_text": "5.3 Segregation in Networks\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Manage security of large networks within the organization by segregating them into separate network zones.\n2. Segregate networks considering sensitivity of information processed, access requirements, relative cost, and performance impact of incorporating suitable technology.\n3. Implement routing controls shall such that access to applications or services is restricted to provide isolation between systems and network zones created as abov",
-    "mapping_date": "2026-03-16T09:48:45.784809",
-    "reviewer": null,
-    "notes": "Reranker: 0.265"
   },
   {
     "mapping_id": "T3.1.1_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_9",
@@ -737,17 +517,6 @@
     "notes": "Reranker: 0.273"
   },
   {
-    "mapping_id": "T3.6.3_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_13",
-    "source_control_id": "T3.6.3",
-    "target_policy_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_13",
-    "status": "Partially Addressed",
-    "entailment_score": 0.27164435386657715,
-    "evidence_text": "5.7 Electronic Messaging\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Identify all means of electronic messaging for transmitted information assets.\n2. Include the following security considerations at a minimum, for electronic messaging:\n2. Ensuring correct addressing and transportation of the message.\n3. General reliability and availability of the service.\n4. Legal considerations, for example requirements for electronic signatures.\n5. Stronger levels of authentication controlling access from publicly accessi",
-    "mapping_date": "2026-03-16T09:49:21.533224",
-    "reviewer": null,
-    "notes": "Reranker: 0.272"
-  },
-  {
     "mapping_id": "T3.6.4_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_9",
     "source_control_id": "T3.6.4",
     "target_policy_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_9",
@@ -770,28 +539,6 @@
     "notes": "Reranker: 0.264"
   },
   {
-    "mapping_id": "T3.6.6_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_11",
-    "source_control_id": "T3.6.6",
-    "target_policy_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_11",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2593578100204468,
-    "evidence_text": "5.5 Information Transfer Security Procedures\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Establish information transfer security procedures.\n2. Ensure that the information transfer security procedure at a minimum, includes the following:\n2. Actions to be taken when issues arise regarding the transfer of information.\n4. Detect and protect against malware.\n5. Develop guidelines outlining acceptable use of communication systems.\n6. Develop retention and disposal guidelines for all business correspondence, inclu",
-    "mapping_date": "2026-03-16T09:49:27.033967",
-    "reviewer": null,
-    "notes": "Reranker: 0.259"
-  },
-  {
-    "mapping_id": "T3.6.6_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_13",
-    "source_control_id": "T3.6.6",
-    "target_policy_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_13",
-    "status": "Partially Addressed",
-    "entailment_score": 0.25861024856567383,
-    "evidence_text": "5.7 Electronic Messaging\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Identify all means of electronic messaging for transmitted information assets.\n2. Include the following security considerations at a minimum, for electronic messaging:\n2. Ensuring correct addressing and transportation of the message.\n3. General reliability and availability of the service.\n4. Legal considerations, for example requirements for electronic signatures.\n5. Stronger levels of authentication controlling access from publicly accessi",
-    "mapping_date": "2026-03-16T09:49:27.033993",
-    "reviewer": null,
-    "notes": "Reranker: 0.259"
-  },
-  {
     "mapping_id": "T4.1.1_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_13",
     "source_control_id": "T4.1.1",
     "target_policy_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_13",
@@ -799,17 +546,6 @@
     "entailment_score": 0.2626914381980896,
     "evidence_text": "5.7 Electronic Messaging\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Identify all means of electronic messaging for transmitted information assets.\n2. Include the following security considerations at a minimum, for electronic messaging:\n2. Ensuring correct addressing and transportation of the message.\n3. General reliability and availability of the service.\n4. Legal considerations, for example requirements for electronic signatures.\n5. Stronger levels of authentication controlling access from publicly accessi",
     "mapping_date": "2026-03-16T09:49:32.636966",
-    "reviewer": null,
-    "notes": "Reranker: 0.263"
-  },
-  {
-    "mapping_id": "T4.1.1_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_9",
-    "source_control_id": "T4.1.1",
-    "target_policy_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_9",
-    "status": "Partially Addressed",
-    "entailment_score": 0.262682169675827,
-    "evidence_text": "5.3 Segregation in Networks\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Manage security of large networks within the organization by segregating them into separate network zones.\n2. Segregate networks considering sensitivity of information processed, access requirements, relative cost, and performance impact of incorporating suitable technology.\n3. Implement routing controls shall such that access to applications or services is restricted to provide isolation between systems and network zones created as abov",
-    "mapping_date": "2026-03-16T09:49:32.637013",
     "reviewer": null,
     "notes": "Reranker: 0.263"
   },
@@ -823,17 +559,6 @@
     "mapping_date": "2026-03-16T09:49:35.451844",
     "reviewer": null,
     "notes": "Reranker: 0.278"
-  },
-  {
-    "mapping_id": "T4.2.1_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_9",
-    "source_control_id": "T4.2.1",
-    "target_policy_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_9",
-    "status": "Partially Addressed",
-    "entailment_score": 0.25188595056533813,
-    "evidence_text": "5.3 Segregation in Networks\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Manage security of large networks within the organization by segregating them into separate network zones.\n2. Segregate networks considering sensitivity of information processed, access requirements, relative cost, and performance impact of incorporating suitable technology.\n3. Implement routing controls shall such that access to applications or services is restricted to provide isolation between systems and network zones created as abov",
-    "mapping_date": "2026-03-16T09:49:35.451961",
-    "reviewer": null,
-    "notes": "Reranker: 0.252"
   },
   {
     "mapping_id": "T4.2.2_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_14",
@@ -858,17 +583,6 @@
     "notes": "Reranker: 0.262"
   },
   {
-    "mapping_id": "T4.2.3_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_9",
-    "source_control_id": "T4.2.3",
-    "target_policy_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_9",
-    "status": "Partially Addressed",
-    "entailment_score": 0.25481659173965454,
-    "evidence_text": "5.3 Segregation in Networks\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Manage security of large networks within the organization by segregating them into separate network zones.\n2. Segregate networks considering sensitivity of information processed, access requirements, relative cost, and performance impact of incorporating suitable technology.\n3. Implement routing controls shall such that access to applications or services is restricted to provide isolation between systems and network zones created as abov",
-    "mapping_date": "2026-03-16T09:49:41.056013",
-    "reviewer": null,
-    "notes": "Reranker: 0.255"
-  },
-  {
     "mapping_id": "T4.2.5_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_12",
     "source_control_id": "T4.2.5",
     "target_policy_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_12",
@@ -878,50 +592,6 @@
     "mapping_date": "2026-03-16T09:49:43.871984",
     "reviewer": null,
     "notes": "Reranker: 0.288"
-  },
-  {
-    "mapping_id": "T4.2.5_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_9",
-    "source_control_id": "T4.2.5",
-    "target_policy_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_9",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2854585349559784,
-    "evidence_text": "5.3 Segregation in Networks\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Manage security of large networks within the organization by segregating them into separate network zones.\n2. Segregate networks considering sensitivity of information processed, access requirements, relative cost, and performance impact of incorporating suitable technology.\n3. Implement routing controls shall such that access to applications or services is restricted to provide isolation between systems and network zones created as abov",
-    "mapping_date": "2026-03-16T09:49:43.872053",
-    "reviewer": null,
-    "notes": "Reranker: 0.285"
-  },
-  {
-    "mapping_id": "T4.2.5_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_13",
-    "source_control_id": "T4.2.5",
-    "target_policy_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_13",
-    "status": "Partially Addressed",
-    "entailment_score": 0.28100648522377014,
-    "evidence_text": "5.7 Electronic Messaging\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Identify all means of electronic messaging for transmitted information assets.\n2. Include the following security considerations at a minimum, for electronic messaging:\n2. Ensuring correct addressing and transportation of the message.\n3. General reliability and availability of the service.\n4. Legal considerations, for example requirements for electronic signatures.\n5. Stronger levels of authentication controlling access from publicly accessi",
-    "mapping_date": "2026-03-16T09:49:43.872042",
-    "reviewer": null,
-    "notes": "Reranker: 0.281"
-  },
-  {
-    "mapping_id": "T4.2.5_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_11",
-    "source_control_id": "T4.2.5",
-    "target_policy_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_11",
-    "status": "Partially Addressed",
-    "entailment_score": 0.27562201023101807,
-    "evidence_text": "5.5 Information Transfer Security Procedures\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Establish information transfer security procedures.\n2. Ensure that the information transfer security procedure at a minimum, includes the following:\n2. Actions to be taken when issues arise regarding the transfer of information.\n4. Detect and protect against malware.\n5. Develop guidelines outlining acceptable use of communication systems.\n6. Develop retention and disposal guidelines for all business correspondence, inclu",
-    "mapping_date": "2026-03-16T09:49:43.871957",
-    "reviewer": null,
-    "notes": "Reranker: 0.276"
-  },
-  {
-    "mapping_id": "T4.2.5_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_7",
-    "source_control_id": "T4.2.5",
-    "target_policy_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_7",
-    "status": "Partially Addressed",
-    "entailment_score": 0.27516263723373413,
-    "evidence_text": "5.1 Network Controls\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Establish the network and communications design based on the following minimum requirements:\n2. Risk assessment of threats and vulnerabilities to/of the network.\n3. Level of trust between all components and organizations connected to the network.\n4. Degree of availability and resilience required from the network.\n5. Geographical topography of the network.\n6. Security controls in place at locations from where the network shall be accessed.\n3. Es",
-    "mapping_date": "2026-03-16T09:49:43.872016",
-    "reviewer": null,
-    "notes": "Reranker: 0.275"
   },
   {
     "mapping_id": "T4.3.1_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_12",
@@ -946,28 +616,6 @@
     "notes": "Reranker: 0.277"
   },
   {
-    "mapping_id": "T4.3.2_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_13",
-    "source_control_id": "T4.3.2",
-    "target_policy_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_13",
-    "status": "Partially Addressed",
-    "entailment_score": 0.26163339614868164,
-    "evidence_text": "5.7 Electronic Messaging\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Identify all means of electronic messaging for transmitted information assets.\n2. Include the following security considerations at a minimum, for electronic messaging:\n2. Ensuring correct addressing and transportation of the message.\n3. General reliability and availability of the service.\n4. Legal considerations, for example requirements for electronic signatures.\n5. Stronger levels of authentication controlling access from publicly accessi",
-    "mapping_date": "2026-03-16T09:49:49.991391",
-    "reviewer": null,
-    "notes": "Reranker: 0.262"
-  },
-  {
-    "mapping_id": "T4.3.2_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_9",
-    "source_control_id": "T4.3.2",
-    "target_policy_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_9",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2592374384403229,
-    "evidence_text": "5.3 Segregation in Networks\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Manage security of large networks within the organization by segregating them into separate network zones.\n2. Segregate networks considering sensitivity of information processed, access requirements, relative cost, and performance impact of incorporating suitable technology.\n3. Implement routing controls shall such that access to applications or services is restricted to provide isolation between systems and network zones created as abov",
-    "mapping_date": "2026-03-16T09:49:49.991485",
-    "reviewer": null,
-    "notes": "Reranker: 0.259"
-  },
-  {
     "mapping_id": "T4.3.3_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_13",
     "source_control_id": "T4.3.3",
     "target_policy_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_13",
@@ -990,28 +638,6 @@
     "notes": "Reranker: 0.268"
   },
   {
-    "mapping_id": "T4.4.1_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_9",
-    "source_control_id": "T4.4.1",
-    "target_policy_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_9",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2675740122795105,
-    "evidence_text": "5.3 Segregation in Networks\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Manage security of large networks within the organization by segregating them into separate network zones.\n2. Segregate networks considering sensitivity of information processed, access requirements, relative cost, and performance impact of incorporating suitable technology.\n3. Implement routing controls shall such that access to applications or services is restricted to provide isolation between systems and network zones created as abov",
-    "mapping_date": "2026-03-16T09:49:55.806818",
-    "reviewer": null,
-    "notes": "Reranker: 0.268"
-  },
-  {
-    "mapping_id": "T4.4.1_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_10",
-    "source_control_id": "T4.4.1",
-    "target_policy_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_10",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2591392993927002,
-    "evidence_text": "5.4 Security of Wireless Networks\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Perform a risk assessment for wireless networks to identify security controls (e.g., strong authentication, cryptographic methods, and frequency selection) required to maintain network segregation.\n2. Segregate wireless networks from internal and private networks and guest networks as required.\n3. Restrict the use of 'guest' wireless networks to authorized guests.\n4. Prohibit creation and use of ad-hoc wireless networks, including ",
-    "mapping_date": "2026-03-16T09:49:55.806825",
-    "reviewer": null,
-    "notes": "Reranker: 0.259"
-  },
-  {
     "mapping_id": "T4.5.1_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_6",
     "source_control_id": "T4.5.1",
     "target_policy_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_6",
@@ -1021,39 +647,6 @@
     "mapping_date": "2026-03-16T09:50:01.501357",
     "reviewer": null,
     "notes": "Reranker: 0.297"
-  },
-  {
-    "mapping_id": "T4.5.1_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_9",
-    "source_control_id": "T4.5.1",
-    "target_policy_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_9",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2734268605709076,
-    "evidence_text": "5.3 Segregation in Networks\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Manage security of large networks within the organization by segregating them into separate network zones.\n2. Segregate networks considering sensitivity of information processed, access requirements, relative cost, and performance impact of incorporating suitable technology.\n3. Implement routing controls shall such that access to applications or services is restricted to provide isolation between systems and network zones created as abov",
-    "mapping_date": "2026-03-16T09:50:01.501427",
-    "reviewer": null,
-    "notes": "Reranker: 0.273"
-  },
-  {
-    "mapping_id": "T4.5.1_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_13",
-    "source_control_id": "T4.5.1",
-    "target_policy_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_13",
-    "status": "Partially Addressed",
-    "entailment_score": 0.26420608162879944,
-    "evidence_text": "5.7 Electronic Messaging\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Identify all means of electronic messaging for transmitted information assets.\n2. Include the following security considerations at a minimum, for electronic messaging:\n2. Ensuring correct addressing and transportation of the message.\n3. General reliability and availability of the service.\n4. Legal considerations, for example requirements for electronic signatures.\n5. Stronger levels of authentication controlling access from publicly accessi",
-    "mapping_date": "2026-03-16T09:50:01.501459",
-    "reviewer": null,
-    "notes": "Reranker: 0.264"
-  },
-  {
-    "mapping_id": "T4.5.1_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_11",
-    "source_control_id": "T4.5.1",
-    "target_policy_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_11",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2626495659351349,
-    "evidence_text": "5.5 Information Transfer Security Procedures\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Establish information transfer security procedures.\n2. Ensure that the information transfer security procedure at a minimum, includes the following:\n2. Actions to be taken when issues arise regarding the transfer of information.\n4. Detect and protect against malware.\n5. Develop guidelines outlining acceptable use of communication systems.\n6. Develop retention and disposal guidelines for all business correspondence, inclu",
-    "mapping_date": "2026-03-16T09:50:01.501451",
-    "reviewer": null,
-    "notes": "Reranker: 0.263"
   },
   {
     "mapping_id": "T4.5.2_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_13",
@@ -1078,39 +671,6 @@
     "notes": "Reranker: 0.293"
   },
   {
-    "mapping_id": "T4.5.4_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_8",
-    "source_control_id": "T4.5.4",
-    "target_policy_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_8",
-    "status": "Partially Addressed",
-    "entailment_score": 0.26587915420532227,
-    "evidence_text": "5.2 Security of Network Services\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Identify and implement the security arrangements necessary for security features, service levels, and management requirements.\n2. Determine and regularly monitor the ability of the network service provider to manage agreed services in a secure manner.\n3. Ensure that the right to audit clauses are agreed upon with all the network service providers.",
-    "mapping_date": "2026-03-16T09:50:12.245189",
-    "reviewer": null,
-    "notes": "Reranker: 0.266"
-  },
-  {
-    "mapping_id": "T4.5.4_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_13",
-    "source_control_id": "T4.5.4",
-    "target_policy_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_13",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2650950849056244,
-    "evidence_text": "5.7 Electronic Messaging\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Identify all means of electronic messaging for transmitted information assets.\n2. Include the following security considerations at a minimum, for electronic messaging:\n2. Ensuring correct addressing and transportation of the message.\n3. General reliability and availability of the service.\n4. Legal considerations, for example requirements for electronic signatures.\n5. Stronger levels of authentication controlling access from publicly accessi",
-    "mapping_date": "2026-03-16T09:50:12.245231",
-    "reviewer": null,
-    "notes": "Reranker: 0.265"
-  },
-  {
-    "mapping_id": "T4.5.4_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_9",
-    "source_control_id": "T4.5.4",
-    "target_policy_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_9",
-    "status": "Partially Addressed",
-    "entailment_score": 0.25883880257606506,
-    "evidence_text": "5.3 Segregation in Networks\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Manage security of large networks within the organization by segregating them into separate network zones.\n2. Segregate networks considering sensitivity of information processed, access requirements, relative cost, and performance impact of incorporating suitable technology.\n3. Implement routing controls shall such that access to applications or services is restricted to provide isolation between systems and network zones created as abov",
-    "mapping_date": "2026-03-16T09:50:12.245243",
-    "reviewer": null,
-    "notes": "Reranker: 0.259"
-  },
-  {
     "mapping_id": "T5.2.2_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_10",
     "source_control_id": "T5.2.2",
     "target_policy_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_10",
@@ -1122,17 +682,6 @@
     "notes": "Reranker: 0.271"
   },
   {
-    "mapping_id": "T5.2.2_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_9",
-    "source_control_id": "T5.2.2",
-    "target_policy_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_9",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2645399272441864,
-    "evidence_text": "5.3 Segregation in Networks\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Manage security of large networks within the organization by segregating them into separate network zones.\n2. Segregate networks considering sensitivity of information processed, access requirements, relative cost, and performance impact of incorporating suitable technology.\n3. Implement routing controls shall such that access to applications or services is restricted to provide isolation between systems and network zones created as abov",
-    "mapping_date": "2026-03-16T09:50:17.802997",
-    "reviewer": null,
-    "notes": "Reranker: 0.265"
-  },
-  {
     "mapping_id": "T5.2.3_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_10",
     "source_control_id": "T5.2.3",
     "target_policy_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_10",
@@ -1142,28 +691,6 @@
     "mapping_date": "2026-03-16T09:50:20.565471",
     "reviewer": null,
     "notes": "Reranker: 0.261"
-  },
-  {
-    "mapping_id": "T5.2.3_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_13",
-    "source_control_id": "T5.2.3",
-    "target_policy_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_13",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2593040466308594,
-    "evidence_text": "5.7 Electronic Messaging\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Identify all means of electronic messaging for transmitted information assets.\n2. Include the following security considerations at a minimum, for electronic messaging:\n2. Ensuring correct addressing and transportation of the message.\n3. General reliability and availability of the service.\n4. Legal considerations, for example requirements for electronic signatures.\n5. Stronger levels of authentication controlling access from publicly accessi",
-    "mapping_date": "2026-03-16T09:50:20.565488",
-    "reviewer": null,
-    "notes": "Reranker: 0.259"
-  },
-  {
-    "mapping_id": "T5.2.3_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_9",
-    "source_control_id": "T5.2.3",
-    "target_policy_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_9",
-    "status": "Partially Addressed",
-    "entailment_score": 0.25834280252456665,
-    "evidence_text": "5.3 Segregation in Networks\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Manage security of large networks within the organization by segregating them into separate network zones.\n2. Segregate networks considering sensitivity of information processed, access requirements, relative cost, and performance impact of incorporating suitable technology.\n3. Implement routing controls shall such that access to applications or services is restricted to provide isolation between systems and network zones created as abov",
-    "mapping_date": "2026-03-16T09:50:20.565476",
-    "reviewer": null,
-    "notes": "Reranker: 0.258"
   },
   {
     "mapping_id": "T5.2.4_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_9",
@@ -1188,50 +715,6 @@
     "notes": "Reranker: 0.266"
   },
   {
-    "mapping_id": "T5.4.2_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_13",
-    "source_control_id": "T5.4.2",
-    "target_policy_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_13",
-    "status": "Partially Addressed",
-    "entailment_score": 0.26266342401504517,
-    "evidence_text": "5.7 Electronic Messaging\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Identify all means of electronic messaging for transmitted information assets.\n2. Include the following security considerations at a minimum, for electronic messaging:\n2. Ensuring correct addressing and transportation of the message.\n3. General reliability and availability of the service.\n4. Legal considerations, for example requirements for electronic signatures.\n5. Stronger levels of authentication controlling access from publicly accessi",
-    "mapping_date": "2026-03-16T09:50:31.646629",
-    "reviewer": null,
-    "notes": "Reranker: 0.263"
-  },
-  {
-    "mapping_id": "T5.4.2_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_9",
-    "source_control_id": "T5.4.2",
-    "target_policy_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_9",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2564370930194855,
-    "evidence_text": "5.3 Segregation in Networks\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Manage security of large networks within the organization by segregating them into separate network zones.\n2. Segregate networks considering sensitivity of information processed, access requirements, relative cost, and performance impact of incorporating suitable technology.\n3. Implement routing controls shall such that access to applications or services is restricted to provide isolation between systems and network zones created as abov",
-    "mapping_date": "2026-03-16T09:50:31.646700",
-    "reviewer": null,
-    "notes": "Reranker: 0.256"
-  },
-  {
-    "mapping_id": "T5.4.2_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_11",
-    "source_control_id": "T5.4.2",
-    "target_policy_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_11",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2552906572818756,
-    "evidence_text": "5.5 Information Transfer Security Procedures\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Establish information transfer security procedures.\n2. Ensure that the information transfer security procedure at a minimum, includes the following:\n2. Actions to be taken when issues arise regarding the transfer of information.\n4. Detect and protect against malware.\n5. Develop guidelines outlining acceptable use of communication systems.\n6. Develop retention and disposal guidelines for all business correspondence, inclu",
-    "mapping_date": "2026-03-16T09:50:31.646719",
-    "reviewer": null,
-    "notes": "Reranker: 0.255"
-  },
-  {
-    "mapping_id": "T5.4.2_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_15",
-    "source_control_id": "T5.4.2",
-    "target_policy_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_15",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2529310882091522,
-    "evidence_text": "5.9 Information Released into Information Sharing Communities\n\n&lt;CLIENTNAME&gt; shall:\n\n1. As applicable, ensure that all the information released into information sharing communities have valid justification and appropriate approval.\n2. As applicable, implement technical controls to provide authenticity without compromising anonymity. For e.g., utilize controls to confirm that a communication originated from a member of the community without revealing the actual identity of the originator.\n3.",
-    "mapping_date": "2026-03-16T09:50:31.646656",
-    "reviewer": null,
-    "notes": "Reranker: 0.253"
-  },
-  {
     "mapping_id": "T5.4.3_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_9",
     "source_control_id": "T5.4.3",
     "target_policy_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_9",
@@ -1241,50 +724,6 @@
     "mapping_date": "2026-03-16T09:50:34.861942",
     "reviewer": null,
     "notes": "Reranker: 0.292"
-  },
-  {
-    "mapping_id": "T5.4.3_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_11",
-    "source_control_id": "T5.4.3",
-    "target_policy_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_11",
-    "status": "Partially Addressed",
-    "entailment_score": 0.286167711019516,
-    "evidence_text": "5.5 Information Transfer Security Procedures\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Establish information transfer security procedures.\n2. Ensure that the information transfer security procedure at a minimum, includes the following:\n2. Actions to be taken when issues arise regarding the transfer of information.\n4. Detect and protect against malware.\n5. Develop guidelines outlining acceptable use of communication systems.\n6. Develop retention and disposal guidelines for all business correspondence, inclu",
-    "mapping_date": "2026-03-16T09:50:34.861951",
-    "reviewer": null,
-    "notes": "Reranker: 0.286"
-  },
-  {
-    "mapping_id": "T5.4.3_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_7",
-    "source_control_id": "T5.4.3",
-    "target_policy_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_7",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2860088348388672,
-    "evidence_text": "5.1 Network Controls\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Establish the network and communications design based on the following minimum requirements:\n2. Risk assessment of threats and vulnerabilities to/of the network.\n3. Level of trust between all components and organizations connected to the network.\n4. Degree of availability and resilience required from the network.\n5. Geographical topography of the network.\n6. Security controls in place at locations from where the network shall be accessed.\n3. Es",
-    "mapping_date": "2026-03-16T09:50:34.861863",
-    "reviewer": null,
-    "notes": "Reranker: 0.286"
-  },
-  {
-    "mapping_id": "T5.4.3_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_12",
-    "source_control_id": "T5.4.3",
-    "target_policy_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_12",
-    "status": "Partially Addressed",
-    "entailment_score": 0.28519555926322937,
-    "evidence_text": "5.6 Agreements on Information Transfer\n\n1. Use cases and appropriate security controls to be put in place ensures information is adequately protected during transfer.\n\n3. Protect transferred information from interception, copying, modification, misrouting, and destruction using cryptographic techniques.\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Establish exchange agreements for information considered as confidential or sensitive while engaging with third parties to extend security controls to protect confi",
-    "mapping_date": "2026-03-16T09:50:34.861955",
-    "reviewer": null,
-    "notes": "Reranker: 0.285"
-  },
-  {
-    "mapping_id": "T5.4.3_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_10",
-    "source_control_id": "T5.4.3",
-    "target_policy_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_10",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2844488322734833,
-    "evidence_text": "5.4 Security of Wireless Networks\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Perform a risk assessment for wireless networks to identify security controls (e.g., strong authentication, cryptographic methods, and frequency selection) required to maintain network segregation.\n2. Segregate wireless networks from internal and private networks and guest networks as required.\n3. Restrict the use of 'guest' wireless networks to authorized guests.\n4. Prohibit creation and use of ad-hoc wireless networks, including ",
-    "mapping_date": "2026-03-16T09:50:34.861896",
-    "reviewer": null,
-    "notes": "Reranker: 0.284"
   },
   {
     "mapping_id": "T5.5.1_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_9",
@@ -1298,39 +737,6 @@
     "notes": "Reranker: 0.261"
   },
   {
-    "mapping_id": "T5.5.1_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_11",
-    "source_control_id": "T5.5.1",
-    "target_policy_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_11",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2536827325820923,
-    "evidence_text": "5.5 Information Transfer Security Procedures\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Establish information transfer security procedures.\n2. Ensure that the information transfer security procedure at a minimum, includes the following:\n2. Actions to be taken when issues arise regarding the transfer of information.\n4. Detect and protect against malware.\n5. Develop guidelines outlining acceptable use of communication systems.\n6. Develop retention and disposal guidelines for all business correspondence, inclu",
-    "mapping_date": "2026-03-16T09:50:40.586733",
-    "reviewer": null,
-    "notes": "Reranker: 0.254"
-  },
-  {
-    "mapping_id": "T5.5.1_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_10",
-    "source_control_id": "T5.5.1",
-    "target_policy_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_10",
-    "status": "Partially Addressed",
-    "entailment_score": 0.25176769495010376,
-    "evidence_text": "5.4 Security of Wireless Networks\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Perform a risk assessment for wireless networks to identify security controls (e.g., strong authentication, cryptographic methods, and frequency selection) required to maintain network segregation.\n2. Segregate wireless networks from internal and private networks and guest networks as required.\n3. Restrict the use of 'guest' wireless networks to authorized guests.\n4. Prohibit creation and use of ad-hoc wireless networks, including ",
-    "mapping_date": "2026-03-16T09:50:40.586742",
-    "reviewer": null,
-    "notes": "Reranker: 0.252"
-  },
-  {
-    "mapping_id": "T5.5.1_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_13",
-    "source_control_id": "T5.5.1",
-    "target_policy_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_13",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2515280842781067,
-    "evidence_text": "5.7 Electronic Messaging\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Identify all means of electronic messaging for transmitted information assets.\n2. Include the following security considerations at a minimum, for electronic messaging:\n2. Ensuring correct addressing and transportation of the message.\n3. General reliability and availability of the service.\n4. Legal considerations, for example requirements for electronic signatures.\n5. Stronger levels of authentication controlling access from publicly accessi",
-    "mapping_date": "2026-03-16T09:50:40.586729",
-    "reviewer": null,
-    "notes": "Reranker: 0.252"
-  },
-  {
     "mapping_id": "T5.5.3_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_13",
     "source_control_id": "T5.5.3",
     "target_policy_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_13",
@@ -1340,39 +746,6 @@
     "mapping_date": "2026-03-16T09:50:46.242416",
     "reviewer": null,
     "notes": "Reranker: 0.273"
-  },
-  {
-    "mapping_id": "T5.5.3_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_11",
-    "source_control_id": "T5.5.3",
-    "target_policy_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_11",
-    "status": "Partially Addressed",
-    "entailment_score": 0.26723217964172363,
-    "evidence_text": "5.5 Information Transfer Security Procedures\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Establish information transfer security procedures.\n2. Ensure that the information transfer security procedure at a minimum, includes the following:\n2. Actions to be taken when issues arise regarding the transfer of information.\n4. Detect and protect against malware.\n5. Develop guidelines outlining acceptable use of communication systems.\n6. Develop retention and disposal guidelines for all business correspondence, inclu",
-    "mapping_date": "2026-03-16T09:50:46.242436",
-    "reviewer": null,
-    "notes": "Reranker: 0.267"
-  },
-  {
-    "mapping_id": "T5.5.3_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_7",
-    "source_control_id": "T5.5.3",
-    "target_policy_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_7",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2566383481025696,
-    "evidence_text": "5.1 Network Controls\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Establish the network and communications design based on the following minimum requirements:\n2. Risk assessment of threats and vulnerabilities to/of the network.\n3. Level of trust between all components and organizations connected to the network.\n4. Degree of availability and resilience required from the network.\n5. Geographical topography of the network.\n6. Security controls in place at locations from where the network shall be accessed.\n3. Es",
-    "mapping_date": "2026-03-16T09:50:46.242399",
-    "reviewer": null,
-    "notes": "Reranker: 0.257"
-  },
-  {
-    "mapping_id": "T5.5.3_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_15",
-    "source_control_id": "T5.5.3",
-    "target_policy_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_15",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2542386054992676,
-    "evidence_text": "5.9 Information Released into Information Sharing Communities\n\n&lt;CLIENTNAME&gt; shall:\n\n1. As applicable, ensure that all the information released into information sharing communities have valid justification and appropriate approval.\n2. As applicable, implement technical controls to provide authenticity without compromising anonymity. For e.g., utilize controls to confirm that a communication originated from a member of the community without revealing the actual identity of the originator.\n3.",
-    "mapping_date": "2026-03-16T09:50:46.242374",
-    "reviewer": null,
-    "notes": "Reranker: 0.254"
   },
   {
     "mapping_id": "T5.6.1_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_9",
@@ -1397,17 +770,6 @@
     "notes": "Reranker: 0.280"
   },
   {
-    "mapping_id": "T5.6.2_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_9",
-    "source_control_id": "T5.6.2",
-    "target_policy_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_9",
-    "status": "Partially Addressed",
-    "entailment_score": 0.27314385771751404,
-    "evidence_text": "5.3 Segregation in Networks\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Manage security of large networks within the organization by segregating them into separate network zones.\n2. Segregate networks considering sensitivity of information processed, access requirements, relative cost, and performance impact of incorporating suitable technology.\n3. Implement routing controls shall such that access to applications or services is restricted to provide isolation between systems and network zones created as abov",
-    "mapping_date": "2026-03-16T09:50:54.696501",
-    "reviewer": null,
-    "notes": "Reranker: 0.273"
-  },
-  {
     "mapping_id": "T5.7.1_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_12",
     "source_control_id": "T5.7.1",
     "target_policy_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_12",
@@ -1417,39 +779,6 @@
     "mapping_date": "2026-03-16T09:51:00.437958",
     "reviewer": null,
     "notes": "Reranker: 0.293"
-  },
-  {
-    "mapping_id": "T5.7.1_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_9",
-    "source_control_id": "T5.7.1",
-    "target_policy_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_9",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2923479378223419,
-    "evidence_text": "5.3 Segregation in Networks\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Manage security of large networks within the organization by segregating them into separate network zones.\n2. Segregate networks considering sensitivity of information processed, access requirements, relative cost, and performance impact of incorporating suitable technology.\n3. Implement routing controls shall such that access to applications or services is restricted to provide isolation between systems and network zones created as abov",
-    "mapping_date": "2026-03-16T09:51:00.437965",
-    "reviewer": null,
-    "notes": "Reranker: 0.292"
-  },
-  {
-    "mapping_id": "T5.7.1_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_11",
-    "source_control_id": "T5.7.1",
-    "target_policy_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_11",
-    "status": "Partially Addressed",
-    "entailment_score": 0.29231271147727966,
-    "evidence_text": "5.5 Information Transfer Security Procedures\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Establish information transfer security procedures.\n2. Ensure that the information transfer security procedure at a minimum, includes the following:\n2. Actions to be taken when issues arise regarding the transfer of information.\n4. Detect and protect against malware.\n5. Develop guidelines outlining acceptable use of communication systems.\n6. Develop retention and disposal guidelines for all business correspondence, inclu",
-    "mapping_date": "2026-03-16T09:51:00.437902",
-    "reviewer": null,
-    "notes": "Reranker: 0.292"
-  },
-  {
-    "mapping_id": "T5.7.1_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_13",
-    "source_control_id": "T5.7.1",
-    "target_policy_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_13",
-    "status": "Partially Addressed",
-    "entailment_score": 0.29220080375671387,
-    "evidence_text": "5.7 Electronic Messaging\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Identify all means of electronic messaging for transmitted information assets.\n2. Include the following security considerations at a minimum, for electronic messaging:\n2. Ensuring correct addressing and transportation of the message.\n3. General reliability and availability of the service.\n4. Legal considerations, for example requirements for electronic signatures.\n5. Stronger levels of authentication controlling access from publicly accessi",
-    "mapping_date": "2026-03-16T09:51:00.437979",
-    "reviewer": null,
-    "notes": "Reranker: 0.292"
   },
   {
     "mapping_id": "T5.7.2_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_13",
@@ -1474,17 +803,6 @@
     "notes": "Reranker: 0.258"
   },
   {
-    "mapping_id": "T6.1.1_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_9",
-    "source_control_id": "T6.1.1",
-    "target_policy_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_9",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2539316415786743,
-    "evidence_text": "5.3 Segregation in Networks\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Manage security of large networks within the organization by segregating them into separate network zones.\n2. Segregate networks considering sensitivity of information processed, access requirements, relative cost, and performance impact of incorporating suitable technology.\n3. Implement routing controls shall such that access to applications or services is restricted to provide isolation between systems and network zones created as abov",
-    "mapping_date": "2026-03-16T09:51:06.249773",
-    "reviewer": null,
-    "notes": "Reranker: 0.254"
-  },
-  {
     "mapping_id": "T6.2.1_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_15",
     "source_control_id": "T6.2.1",
     "target_policy_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_15",
@@ -1496,17 +814,6 @@
     "notes": "Reranker: 0.275"
   },
   {
-    "mapping_id": "T6.2.1_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_9",
-    "source_control_id": "T6.2.1",
-    "target_policy_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_9",
-    "status": "Partially Addressed",
-    "entailment_score": 0.274402379989624,
-    "evidence_text": "5.3 Segregation in Networks\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Manage security of large networks within the organization by segregating them into separate network zones.\n2. Segregate networks considering sensitivity of information processed, access requirements, relative cost, and performance impact of incorporating suitable technology.\n3. Implement routing controls shall such that access to applications or services is restricted to provide isolation between systems and network zones created as abov",
-    "mapping_date": "2026-03-16T09:51:09.013777",
-    "reviewer": null,
-    "notes": "Reranker: 0.274"
-  },
-  {
     "mapping_id": "T6.2.3_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_11",
     "source_control_id": "T6.2.3",
     "target_policy_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_11",
@@ -1516,17 +823,6 @@
     "mapping_date": "2026-03-16T09:51:14.649139",
     "reviewer": null,
     "notes": "Reranker: 0.266"
-  },
-  {
-    "mapping_id": "T6.2.3_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_12",
-    "source_control_id": "T6.2.3",
-    "target_policy_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_12",
-    "status": "Partially Addressed",
-    "entailment_score": 0.26269805431365967,
-    "evidence_text": "5.6 Agreements on Information Transfer\n\n1. Use cases and appropriate security controls to be put in place ensures information is adequately protected during transfer.\n\n3. Protect transferred information from interception, copying, modification, misrouting, and destruction using cryptographic techniques.\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Establish exchange agreements for information considered as confidential or sensitive while engaging with third parties to extend security controls to protect confi",
-    "mapping_date": "2026-03-16T09:51:14.649107",
-    "reviewer": null,
-    "notes": "Reranker: 0.263"
   },
   {
     "mapping_id": "T6.3.1_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_11",
@@ -1549,17 +845,6 @@
     "mapping_date": "2026-03-16T09:51:20.327453",
     "reviewer": null,
     "notes": "Reranker: 0.270"
-  },
-  {
-    "mapping_id": "T6.3.2_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_9",
-    "source_control_id": "T6.3.2",
-    "target_policy_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_9",
-    "status": "Partially Addressed",
-    "entailment_score": 0.251229465007782,
-    "evidence_text": "5.3 Segregation in Networks\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Manage security of large networks within the organization by segregating them into separate network zones.\n2. Segregate networks considering sensitivity of information processed, access requirements, relative cost, and performance impact of incorporating suitable technology.\n3. Implement routing controls shall such that access to applications or services is restricted to provide isolation between systems and network zones created as abov",
-    "mapping_date": "2026-03-16T09:51:20.327553",
-    "reviewer": null,
-    "notes": "Reranker: 0.251"
   },
   {
     "mapping_id": "T7.1.1_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_9",
@@ -1595,28 +880,6 @@
     "notes": "Reranker: 0.257"
   },
   {
-    "mapping_id": "T7.3.1_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_13",
-    "source_control_id": "T7.3.1",
-    "target_policy_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_13",
-    "status": "Partially Addressed",
-    "entailment_score": 0.25392600893974304,
-    "evidence_text": "5.7 Electronic Messaging\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Identify all means of electronic messaging for transmitted information assets.\n2. Include the following security considerations at a minimum, for electronic messaging:\n2. Ensuring correct addressing and transportation of the message.\n3. General reliability and availability of the service.\n4. Legal considerations, for example requirements for electronic signatures.\n5. Stronger levels of authentication controlling access from publicly accessi",
-    "mapping_date": "2026-03-16T09:51:31.585007",
-    "reviewer": null,
-    "notes": "Reranker: 0.254"
-  },
-  {
-    "mapping_id": "T7.3.1_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_11",
-    "source_control_id": "T7.3.1",
-    "target_policy_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_11",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2528321444988251,
-    "evidence_text": "5.5 Information Transfer Security Procedures\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Establish information transfer security procedures.\n2. Ensure that the information transfer security procedure at a minimum, includes the following:\n2. Actions to be taken when issues arise regarding the transfer of information.\n4. Detect and protect against malware.\n5. Develop guidelines outlining acceptable use of communication systems.\n6. Develop retention and disposal guidelines for all business correspondence, inclu",
-    "mapping_date": "2026-03-16T09:51:31.585019",
-    "reviewer": null,
-    "notes": "Reranker: 0.253"
-  },
-  {
     "mapping_id": "T7.3.3_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_13",
     "source_control_id": "T7.3.3",
     "target_policy_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_13",
@@ -1626,50 +889,6 @@
     "mapping_date": "2026-03-16T09:51:34.348910",
     "reviewer": null,
     "notes": "Reranker: 0.271"
-  },
-  {
-    "mapping_id": "T7.3.3_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_15",
-    "source_control_id": "T7.3.3",
-    "target_policy_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_15",
-    "status": "Partially Addressed",
-    "entailment_score": 0.26709774136543274,
-    "evidence_text": "5.9 Information Released into Information Sharing Communities\n\n&lt;CLIENTNAME&gt; shall:\n\n1. As applicable, ensure that all the information released into information sharing communities have valid justification and appropriate approval.\n2. As applicable, implement technical controls to provide authenticity without compromising anonymity. For e.g., utilize controls to confirm that a communication originated from a member of the community without revealing the actual identity of the originator.\n3.",
-    "mapping_date": "2026-03-16T09:51:34.348958",
-    "reviewer": null,
-    "notes": "Reranker: 0.267"
-  },
-  {
-    "mapping_id": "T7.3.3_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_10",
-    "source_control_id": "T7.3.3",
-    "target_policy_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_10",
-    "status": "Partially Addressed",
-    "entailment_score": 0.26136094331741333,
-    "evidence_text": "5.4 Security of Wireless Networks\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Perform a risk assessment for wireless networks to identify security controls (e.g., strong authentication, cryptographic methods, and frequency selection) required to maintain network segregation.\n2. Segregate wireless networks from internal and private networks and guest networks as required.\n3. Restrict the use of 'guest' wireless networks to authorized guests.\n4. Prohibit creation and use of ad-hoc wireless networks, including ",
-    "mapping_date": "2026-03-16T09:51:34.349032",
-    "reviewer": null,
-    "notes": "Reranker: 0.261"
-  },
-  {
-    "mapping_id": "T7.3.3_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_9",
-    "source_control_id": "T7.3.3",
-    "target_policy_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_9",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2592611014842987,
-    "evidence_text": "5.3 Segregation in Networks\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Manage security of large networks within the organization by segregating them into separate network zones.\n2. Segregate networks considering sensitivity of information processed, access requirements, relative cost, and performance impact of incorporating suitable technology.\n3. Implement routing controls shall such that access to applications or services is restricted to provide isolation between systems and network zones created as abov",
-    "mapping_date": "2026-03-16T09:51:34.349012",
-    "reviewer": null,
-    "notes": "Reranker: 0.259"
-  },
-  {
-    "mapping_id": "T7.3.3_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_11",
-    "source_control_id": "T7.3.3",
-    "target_policy_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_11",
-    "status": "Partially Addressed",
-    "entailment_score": 0.25657883286476135,
-    "evidence_text": "5.5 Information Transfer Security Procedures\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Establish information transfer security procedures.\n2. Ensure that the information transfer security procedure at a minimum, includes the following:\n2. Actions to be taken when issues arise regarding the transfer of information.\n4. Detect and protect against malware.\n5. Develop guidelines outlining acceptable use of communication systems.\n6. Develop retention and disposal guidelines for all business correspondence, inclu",
-    "mapping_date": "2026-03-16T09:51:34.348986",
-    "reviewer": null,
-    "notes": "Reranker: 0.257"
   },
   {
     "mapping_id": "T7.3.4_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_11",
@@ -1683,17 +902,6 @@
     "notes": "Reranker: 0.282"
   },
   {
-    "mapping_id": "T7.3.4_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_13",
-    "source_control_id": "T7.3.4",
-    "target_policy_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_13",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2788768410682678,
-    "evidence_text": "5.7 Electronic Messaging\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Identify all means of electronic messaging for transmitted information assets.\n2. Include the following security considerations at a minimum, for electronic messaging:\n2. Ensuring correct addressing and transportation of the message.\n3. General reliability and availability of the service.\n4. Legal considerations, for example requirements for electronic signatures.\n5. Stronger levels of authentication controlling access from publicly accessi",
-    "mapping_date": "2026-03-16T09:51:37.088513",
-    "reviewer": null,
-    "notes": "Reranker: 0.279"
-  },
-  {
     "mapping_id": "T7.4.2_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_12",
     "source_control_id": "T7.4.2",
     "target_policy_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_12",
@@ -1705,17 +913,6 @@
     "notes": "Reranker: 0.266"
   },
   {
-    "mapping_id": "T7.4.2_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_10",
-    "source_control_id": "T7.4.2",
-    "target_policy_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_10",
-    "status": "Partially Addressed",
-    "entailment_score": 0.25524982810020447,
-    "evidence_text": "5.4 Security of Wireless Networks\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Perform a risk assessment for wireless networks to identify security controls (e.g., strong authentication, cryptographic methods, and frequency selection) required to maintain network segregation.\n2. Segregate wireless networks from internal and private networks and guest networks as required.\n3. Restrict the use of 'guest' wireless networks to authorized guests.\n4. Prohibit creation and use of ad-hoc wireless networks, including ",
-    "mapping_date": "2026-03-16T09:51:39.866590",
-    "reviewer": null,
-    "notes": "Reranker: 0.255"
-  },
-  {
     "mapping_id": "T7.5.2_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_13",
     "source_control_id": "T7.5.2",
     "target_policy_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_13",
@@ -1725,28 +922,6 @@
     "mapping_date": "2026-03-16T09:51:42.639407",
     "reviewer": null,
     "notes": "Reranker: 0.278"
-  },
-  {
-    "mapping_id": "T7.5.2_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_9",
-    "source_control_id": "T7.5.2",
-    "target_policy_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_9",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2756849229335785,
-    "evidence_text": "5.3 Segregation in Networks\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Manage security of large networks within the organization by segregating them into separate network zones.\n2. Segregate networks considering sensitivity of information processed, access requirements, relative cost, and performance impact of incorporating suitable technology.\n3. Implement routing controls shall such that access to applications or services is restricted to provide isolation between systems and network zones created as abov",
-    "mapping_date": "2026-03-16T09:51:42.639415",
-    "reviewer": null,
-    "notes": "Reranker: 0.276"
-  },
-  {
-    "mapping_id": "T7.5.2_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_11",
-    "source_control_id": "T7.5.2",
-    "target_policy_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_11",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2667054831981659,
-    "evidence_text": "5.5 Information Transfer Security Procedures\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Establish information transfer security procedures.\n2. Ensure that the information transfer security procedure at a minimum, includes the following:\n2. Actions to be taken when issues arise regarding the transfer of information.\n4. Detect and protect against malware.\n5. Develop guidelines outlining acceptable use of communication systems.\n6. Develop retention and disposal guidelines for all business correspondence, inclu",
-    "mapping_date": "2026-03-16T09:51:42.639390",
-    "reviewer": null,
-    "notes": "Reranker: 0.267"
   },
   {
     "mapping_id": "T7.6.2_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_9",
@@ -1793,28 +968,6 @@
     "notes": "Reranker: 0.268"
   },
   {
-    "mapping_id": "T7.8.4_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_10",
-    "source_control_id": "T7.8.4",
-    "target_policy_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_10",
-    "status": "Partially Addressed",
-    "entailment_score": 0.26568666100502014,
-    "evidence_text": "5.4 Security of Wireless Networks\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Perform a risk assessment for wireless networks to identify security controls (e.g., strong authentication, cryptographic methods, and frequency selection) required to maintain network segregation.\n2. Segregate wireless networks from internal and private networks and guest networks as required.\n3. Restrict the use of 'guest' wireless networks to authorized guests.\n4. Prohibit creation and use of ad-hoc wireless networks, including ",
-    "mapping_date": "2026-03-16T09:52:02.093565",
-    "reviewer": null,
-    "notes": "Reranker: 0.266"
-  },
-  {
-    "mapping_id": "T7.8.4_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_8",
-    "source_control_id": "T7.8.4",
-    "target_policy_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_8",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2619975507259369,
-    "evidence_text": "5.2 Security of Network Services\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Identify and implement the security arrangements necessary for security features, service levels, and management requirements.\n2. Determine and regularly monitor the ability of the network service provider to manage agreed services in a secure manner.\n3. Ensure that the right to audit clauses are agreed upon with all the network service providers.",
-    "mapping_date": "2026-03-16T09:52:02.093513",
-    "reviewer": null,
-    "notes": "Reranker: 0.262"
-  },
-  {
     "mapping_id": "T7.8.5_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_13",
     "source_control_id": "T7.8.5",
     "target_policy_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_13",
@@ -1824,17 +977,6 @@
     "mapping_date": "2026-03-16T09:52:04.879760",
     "reviewer": null,
     "notes": "Reranker: 0.266"
-  },
-  {
-    "mapping_id": "T7.8.5_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_9",
-    "source_control_id": "T7.8.5",
-    "target_policy_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_9",
-    "status": "Partially Addressed",
-    "entailment_score": 0.26087304949760437,
-    "evidence_text": "5.3 Segregation in Networks\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Manage security of large networks within the organization by segregating them into separate network zones.\n2. Segregate networks considering sensitivity of information processed, access requirements, relative cost, and performance impact of incorporating suitable technology.\n3. Implement routing controls shall such that access to applications or services is restricted to provide isolation between systems and network zones created as abov",
-    "mapping_date": "2026-03-16T09:52:04.879768",
-    "reviewer": null,
-    "notes": "Reranker: 0.261"
   },
   {
     "mapping_id": "T7.8.7_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_9",
@@ -1848,17 +990,6 @@
     "notes": "Reranker: 0.274"
   },
   {
-    "mapping_id": "T7.8.7_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_13",
-    "source_control_id": "T7.8.7",
-    "target_policy_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_13",
-    "status": "Partially Addressed",
-    "entailment_score": 0.26423144340515137,
-    "evidence_text": "5.7 Electronic Messaging\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Identify all means of electronic messaging for transmitted information assets.\n2. Include the following security considerations at a minimum, for electronic messaging:\n2. Ensuring correct addressing and transportation of the message.\n3. General reliability and availability of the service.\n4. Legal considerations, for example requirements for electronic signatures.\n5. Stronger levels of authentication controlling access from publicly accessi",
-    "mapping_date": "2026-03-16T09:52:10.496740",
-    "reviewer": null,
-    "notes": "Reranker: 0.264"
-  },
-  {
     "mapping_id": "T8.2.2_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_5",
     "source_control_id": "T8.2.2",
     "target_policy_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_5",
@@ -1866,17 +997,6 @@
     "entailment_score": 0.29218822717666626,
     "evidence_text": "3 SCOPE\n\nThis Policy applies to all employees, contractors and third parties who access or manage information and information assets or use the organization's information and communications technology (ICT) systems.\n\n**Any exceptions on the applicability of this Policy should be formally requested through the ‘Policy Exception Management procedure.’**",
     "mapping_date": "2026-03-16T09:52:19.458971",
-    "reviewer": null,
-    "notes": "Reranker: 0.292"
-  },
-  {
-    "mapping_id": "T8.2.2_clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_3",
-    "source_control_id": "T8.2.2",
-    "target_policy_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_3",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2921418845653534,
-    "evidence_text": "1 INTRODUCTION\n\nNetwork and Communications Security aims to protect networks and communications from breaches, intrusions and other threats. It is vital that &lt;CLIENTNAME&gt; has a highly robust network and communication security in place at all times.",
-    "mapping_date": "2026-03-16T09:52:19.459065",
     "reviewer": null,
     "notes": "Reranker: 0.292"
   },

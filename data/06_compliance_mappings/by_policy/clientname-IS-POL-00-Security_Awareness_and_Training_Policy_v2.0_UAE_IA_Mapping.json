@@ -11,17 +11,6 @@
     "notes": "Reranker: 0.253"
   },
   {
-    "mapping_id": "M1.1.2_clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_6",
-    "source_control_id": "M1.1.2",
-    "target_policy_id": "clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_6",
-    "status": "Partially Addressed",
-    "entailment_score": 0.25182148814201355,
-    "evidence_text": "7 POLICY STATEMENT\n\n&lt;&lt;CLIENT&gt;&gt; shall develop, implement, and maintain an awareness and training program to inform all employees of the information security, business continuity and data privacy risks associated with their activities.\n\nFurther, &lt;&lt;CLIENT&gt;&gt; shall ensure that employees and third parties are adequately trained to carry out their assigned information security responsibilities.",
-    "mapping_date": "2026-03-16T09:45:09.263998",
-    "reviewer": null,
-    "notes": "Reranker: 0.252"
-  },
-  {
     "mapping_id": "M1.1.3_clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_6",
     "source_control_id": "M1.1.3",
     "target_policy_id": "clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_6",
@@ -42,17 +31,6 @@
     "mapping_date": "2026-03-16T09:45:14.554817",
     "reviewer": null,
     "notes": "Reranker: 0.283"
-  },
-  {
-    "mapping_id": "M1.2.1_clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_4",
-    "source_control_id": "M1.2.1",
-    "target_policy_id": "clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_4",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2759369909763336,
-    "evidence_text": "5 PURPOSE\n\nThe purpose of this Security Awareness and Training Policy (“Policy”) is to define a framework for security awareness and training processes to ensure that a proactive and risk-aware information security culture exists within &lt;&lt;CLIENT&gt;&gt;.\n\nFurther, this Policy establishes a commitment to comply with applicable sections of the federal and global laws and regulations, including but not limited to UAE Information Assurance Regulation, UAE Federal Law 45, ISO 20000, ISO 27001, ",
-    "mapping_date": "2026-03-16T09:45:14.554827",
-    "reviewer": null,
-    "notes": "Reranker: 0.276"
   },
   {
     "mapping_id": "M1.3.1_clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_8",
@@ -110,39 +88,6 @@
     "notes": "Reranker: 0.317"
   },
   {
-    "mapping_id": "M3.1.1_clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_4",
-    "source_control_id": "M3.1.1",
-    "target_policy_id": "clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_4",
-    "status": "Partially Addressed",
-    "entailment_score": 0.30625253915786743,
-    "evidence_text": "5 PURPOSE\n\nThe purpose of this Security Awareness and Training Policy (“Policy”) is to define a framework for security awareness and training processes to ensure that a proactive and risk-aware information security culture exists within &lt;&lt;CLIENT&gt;&gt;.\n\nFurther, this Policy establishes a commitment to comply with applicable sections of the federal and global laws and regulations, including but not limited to UAE Information Assurance Regulation, UAE Federal Law 45, ISO 20000, ISO 27001, ",
-    "mapping_date": "2026-03-16T09:46:12.216463",
-    "reviewer": null,
-    "notes": "Reranker: 0.306"
-  },
-  {
-    "mapping_id": "M3.1.1_clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_7",
-    "source_control_id": "M3.1.1",
-    "target_policy_id": "clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_7",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2891649007797241,
-    "evidence_text": "8.1 Awareness and Training Program\n\n&lt;&lt;CLIENT&gt;&gt; shall:\n\n1. Develop and formalize an Information Security (IS) awareness and training program that ensures continued awareness and competence of all &lt;&lt;CLIENT&gt;&gt; employees, including contractors, third-parties, and all other stakeholders with access to information assets.\n2. Ensure that Information Security awareness and training program raise awareness and compliance about &lt;&lt;CLIENT&gt;&gt;’s Integrated Management System a",
-    "mapping_date": "2026-03-16T09:46:12.216431",
-    "reviewer": null,
-    "notes": "Reranker: 0.289"
-  },
-  {
-    "mapping_id": "M3.1.1_clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_9",
-    "source_control_id": "M3.1.1",
-    "target_policy_id": "clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_9",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2735287547111511,
-    "evidence_text": "8.3 Training Records\n\n&lt;&lt;CLIENT&gt;&gt; shall:\n\n1. Document and monitor individual security training activities, including basic security awareness training and any Role specific security training.\n2. Retain training records for appropriate periods as defined by [&lt;&lt;CLIENT&gt;&gt;-ORG-IMS-POL-013-Records Retention and Protection Policy].",
-    "mapping_date": "2026-03-16T09:46:12.216485",
-    "reviewer": null,
-    "notes": "Reranker: 0.274"
-  },
-  {
     "mapping_id": "M3.2.1_clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_4",
     "source_control_id": "M3.2.1",
     "target_policy_id": "clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_4",
@@ -165,28 +110,6 @@
     "notes": "Reranker: 0.281"
   },
   {
-    "mapping_id": "M3.3.1_clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_4",
-    "source_control_id": "M3.3.1",
-    "target_policy_id": "clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_4",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2767322361469269,
-    "evidence_text": "5 PURPOSE\n\nThe purpose of this Security Awareness and Training Policy (“Policy”) is to define a framework for security awareness and training processes to ensure that a proactive and risk-aware information security culture exists within &lt;&lt;CLIENT&gt;&gt;.\n\nFurther, this Policy establishes a commitment to comply with applicable sections of the federal and global laws and regulations, including but not limited to UAE Information Assurance Regulation, UAE Federal Law 45, ISO 20000, ISO 27001, ",
-    "mapping_date": "2026-03-16T09:46:17.462323",
-    "reviewer": null,
-    "notes": "Reranker: 0.277"
-  },
-  {
-    "mapping_id": "M3.3.1_clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_7",
-    "source_control_id": "M3.3.1",
-    "target_policy_id": "clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_7",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2751336693763733,
-    "evidence_text": "8.1 Awareness and Training Program\n\n&lt;&lt;CLIENT&gt;&gt; shall:\n\n1. Develop and formalize an Information Security (IS) awareness and training program that ensures continued awareness and competence of all &lt;&lt;CLIENT&gt;&gt; employees, including contractors, third-parties, and all other stakeholders with access to information assets.\n2. Ensure that Information Security awareness and training program raise awareness and compliance about &lt;&lt;CLIENT&gt;&gt;’s Integrated Management System a",
-    "mapping_date": "2026-03-16T09:46:17.462294",
-    "reviewer": null,
-    "notes": "Reranker: 0.275"
-  },
-  {
     "mapping_id": "M3.3.3_clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_8",
     "source_control_id": "M3.3.3",
     "target_policy_id": "clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_8",
@@ -196,17 +119,6 @@
     "mapping_date": "2026-03-16T09:46:22.842587",
     "reviewer": null,
     "notes": "Reranker: 0.269"
-  },
-  {
-    "mapping_id": "M3.3.3_clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_6",
-    "source_control_id": "M3.3.3",
-    "target_policy_id": "clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_6",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2578142583370209,
-    "evidence_text": "7 POLICY STATEMENT\n\n&lt;&lt;CLIENT&gt;&gt; shall develop, implement, and maintain an awareness and training program to inform all employees of the information security, business continuity and data privacy risks associated with their activities.\n\nFurther, &lt;&lt;CLIENT&gt;&gt; shall ensure that employees and third parties are adequately trained to carry out their assigned information security responsibilities.",
-    "mapping_date": "2026-03-16T09:46:22.842578",
-    "reviewer": null,
-    "notes": "Reranker: 0.258"
   },
   {
     "mapping_id": "M3.3.4_clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_8",
@@ -220,28 +132,6 @@
     "notes": "Reranker: 0.269"
   },
   {
-    "mapping_id": "M3.3.4_clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_4",
-    "source_control_id": "M3.3.4",
-    "target_policy_id": "clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_4",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2665713131427765,
-    "evidence_text": "5 PURPOSE\n\nThe purpose of this Security Awareness and Training Policy (“Policy”) is to define a framework for security awareness and training processes to ensure that a proactive and risk-aware information security culture exists within &lt;&lt;CLIENT&gt;&gt;.\n\nFurther, this Policy establishes a commitment to comply with applicable sections of the federal and global laws and regulations, including but not limited to UAE Information Assurance Regulation, UAE Federal Law 45, ISO 20000, ISO 27001, ",
-    "mapping_date": "2026-03-16T09:46:25.465725",
-    "reviewer": null,
-    "notes": "Reranker: 0.267"
-  },
-  {
-    "mapping_id": "M3.3.4_clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_9",
-    "source_control_id": "M3.3.4",
-    "target_policy_id": "clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_9",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2644180357456207,
-    "evidence_text": "8.3 Training Records\n\n&lt;&lt;CLIENT&gt;&gt; shall:\n\n1. Document and monitor individual security training activities, including basic security awareness training and any Role specific security training.\n2. Retain training records for appropriate periods as defined by [&lt;&lt;CLIENT&gt;&gt;-ORG-IMS-POL-013-Records Retention and Protection Policy].",
-    "mapping_date": "2026-03-16T09:46:25.465749",
-    "reviewer": null,
-    "notes": "Reranker: 0.264"
-  },
-  {
     "mapping_id": "M3.3.5_clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_9",
     "source_control_id": "M3.3.5",
     "target_policy_id": "clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_9",
@@ -253,28 +143,6 @@
     "notes": "Reranker: 0.300"
   },
   {
-    "mapping_id": "M3.3.5_clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_6",
-    "source_control_id": "M3.3.5",
-    "target_policy_id": "clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_6",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2771051526069641,
-    "evidence_text": "7 POLICY STATEMENT\n\n&lt;&lt;CLIENT&gt;&gt; shall develop, implement, and maintain an awareness and training program to inform all employees of the information security, business continuity and data privacy risks associated with their activities.\n\nFurther, &lt;&lt;CLIENT&gt;&gt; shall ensure that employees and third parties are adequately trained to carry out their assigned information security responsibilities.",
-    "mapping_date": "2026-03-16T09:46:28.112936",
-    "reviewer": null,
-    "notes": "Reranker: 0.277"
-  },
-  {
-    "mapping_id": "M3.3.5_clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_7",
-    "source_control_id": "M3.3.5",
-    "target_policy_id": "clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_7",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2608495056629181,
-    "evidence_text": "8.1 Awareness and Training Program\n\n&lt;&lt;CLIENT&gt;&gt; shall:\n\n1. Develop and formalize an Information Security (IS) awareness and training program that ensures continued awareness and competence of all &lt;&lt;CLIENT&gt;&gt; employees, including contractors, third-parties, and all other stakeholders with access to information assets.\n2. Ensure that Information Security awareness and training program raise awareness and compliance about &lt;&lt;CLIENT&gt;&gt;’s Integrated Management System a",
-    "mapping_date": "2026-03-16T09:46:28.112960",
-    "reviewer": null,
-    "notes": "Reranker: 0.261"
-  },
-  {
     "mapping_id": "M3.4.1_clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_6",
     "source_control_id": "M3.4.1",
     "target_policy_id": "clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_6",
@@ -284,28 +152,6 @@
     "mapping_date": "2026-03-16T09:46:30.775246",
     "reviewer": null,
     "notes": "Reranker: 0.269"
-  },
-  {
-    "mapping_id": "M3.4.1_clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_7",
-    "source_control_id": "M3.4.1",
-    "target_policy_id": "clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_7",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2665878236293793,
-    "evidence_text": "8.1 Awareness and Training Program\n\n&lt;&lt;CLIENT&gt;&gt; shall:\n\n1. Develop and formalize an Information Security (IS) awareness and training program that ensures continued awareness and competence of all &lt;&lt;CLIENT&gt;&gt; employees, including contractors, third-parties, and all other stakeholders with access to information assets.\n2. Ensure that Information Security awareness and training program raise awareness and compliance about &lt;&lt;CLIENT&gt;&gt;’s Integrated Management System a",
-    "mapping_date": "2026-03-16T09:46:30.775198",
-    "reviewer": null,
-    "notes": "Reranker: 0.267"
-  },
-  {
-    "mapping_id": "M3.4.1_clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_4",
-    "source_control_id": "M3.4.1",
-    "target_policy_id": "clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_4",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2607717514038086,
-    "evidence_text": "5 PURPOSE\n\nThe purpose of this Security Awareness and Training Policy (“Policy”) is to define a framework for security awareness and training processes to ensure that a proactive and risk-aware information security culture exists within &lt;&lt;CLIENT&gt;&gt;.\n\nFurther, this Policy establishes a commitment to comply with applicable sections of the federal and global laws and regulations, including but not limited to UAE Information Assurance Regulation, UAE Federal Law 45, ISO 20000, ISO 27001, ",
-    "mapping_date": "2026-03-16T09:46:30.775239",
-    "reviewer": null,
-    "notes": "Reranker: 0.261"
   },
   {
     "mapping_id": "M4.1.1_clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_6",
@@ -328,28 +174,6 @@
     "mapping_date": "2026-03-16T09:46:39.310289",
     "reviewer": null,
     "notes": "Reranker: 0.280"
-  },
-  {
-    "mapping_id": "M4.2.2_clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_7",
-    "source_control_id": "M4.2.2",
-    "target_policy_id": "clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_7",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2728501856327057,
-    "evidence_text": "8.1 Awareness and Training Program\n\n&lt;&lt;CLIENT&gt;&gt; shall:\n\n1. Develop and formalize an Information Security (IS) awareness and training program that ensures continued awareness and competence of all &lt;&lt;CLIENT&gt;&gt; employees, including contractors, third-parties, and all other stakeholders with access to information assets.\n2. Ensure that Information Security awareness and training program raise awareness and compliance about &lt;&lt;CLIENT&gt;&gt;’s Integrated Management System a",
-    "mapping_date": "2026-03-16T09:46:39.310344",
-    "reviewer": null,
-    "notes": "Reranker: 0.273"
-  },
-  {
-    "mapping_id": "M4.2.2_clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_1",
-    "source_control_id": "M4.2.2",
-    "target_policy_id": "clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_1",
-    "status": "Partially Addressed",
-    "entailment_score": 0.271295428276062,
-    "evidence_text": "&lt;Client&gt;-ORG-IMS-POL-011\n\n<!-- image -->\n\nAbstract\n\nThis Policy outlines requirements and responsibilities towards formulating and delivering information security, data privacy and business continuity awareness trainings to its employees/end-users in effective and efficient ways.\n\n<!-- image -->\n\n**STATEMENT OF CONFIDENTIALITY**\n\nAll information in this document is PRIVILEGED and for INTERNAL USE ONLY.\n\nThe information in this document may contain  proprietary trade secrets and confidentia",
-    "mapping_date": "2026-03-16T09:46:39.310327",
-    "reviewer": null,
-    "notes": "Reranker: 0.271"
   },
   {
     "mapping_id": "M4.3.1_clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_6",
@@ -396,17 +220,6 @@
     "notes": "Reranker: 0.273"
   },
   {
-    "mapping_id": "M5.2.1_clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_4",
-    "source_control_id": "M5.2.1",
-    "target_policy_id": "clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_4",
-    "status": "Partially Addressed",
-    "entailment_score": 0.27286750078201294,
-    "evidence_text": "5 PURPOSE\n\nThe purpose of this Security Awareness and Training Policy (“Policy”) is to define a framework for security awareness and training processes to ensure that a proactive and risk-aware information security culture exists within &lt;&lt;CLIENT&gt;&gt;.\n\nFurther, this Policy establishes a commitment to comply with applicable sections of the federal and global laws and regulations, including but not limited to UAE Information Assurance Regulation, UAE Federal Law 45, ISO 20000, ISO 27001, ",
-    "mapping_date": "2026-03-16T09:46:56.441710",
-    "reviewer": null,
-    "notes": "Reranker: 0.273"
-  },
-  {
     "mapping_id": "M5.2.4_clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_6",
     "source_control_id": "M5.2.4",
     "target_policy_id": "clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_6",
@@ -427,17 +240,6 @@
     "mapping_date": "2026-03-16T09:47:16.701511",
     "reviewer": null,
     "notes": "Reranker: 0.278"
-  },
-  {
-    "mapping_id": "M5.3.1_clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_4",
-    "source_control_id": "M5.3.1",
-    "target_policy_id": "clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_4",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2676640450954437,
-    "evidence_text": "5 PURPOSE\n\nThe purpose of this Security Awareness and Training Policy (“Policy”) is to define a framework for security awareness and training processes to ensure that a proactive and risk-aware information security culture exists within &lt;&lt;CLIENT&gt;&gt;.\n\nFurther, this Policy establishes a commitment to comply with applicable sections of the federal and global laws and regulations, including but not limited to UAE Information Assurance Regulation, UAE Federal Law 45, ISO 20000, ISO 27001, ",
-    "mapping_date": "2026-03-16T09:47:16.701553",
-    "reviewer": null,
-    "notes": "Reranker: 0.268"
   },
   {
     "mapping_id": "M5.4.1_clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_4",
@@ -462,17 +264,6 @@
     "notes": "Reranker: 0.262"
   },
   {
-    "mapping_id": "M6.2.2_clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_6",
-    "source_control_id": "M6.2.2",
-    "target_policy_id": "clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_6",
-    "status": "Partially Addressed",
-    "entailment_score": 0.26024022698402405,
-    "evidence_text": "7 POLICY STATEMENT\n\n&lt;&lt;CLIENT&gt;&gt; shall develop, implement, and maintain an awareness and training program to inform all employees of the information security, business continuity and data privacy risks associated with their activities.\n\nFurther, &lt;&lt;CLIENT&gt;&gt; shall ensure that employees and third parties are adequately trained to carry out their assigned information security responsibilities.",
-    "mapping_date": "2026-03-16T09:47:36.707965",
-    "reviewer": null,
-    "notes": "Reranker: 0.260"
-  },
-  {
     "mapping_id": "M6.3.2_clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_6",
     "source_control_id": "M6.3.2",
     "target_policy_id": "clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_6",
@@ -482,17 +273,6 @@
     "mapping_date": "2026-03-16T09:47:42.130115",
     "reviewer": null,
     "notes": "Reranker: 0.272"
-  },
-  {
-    "mapping_id": "M6.3.2_clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_7",
-    "source_control_id": "M6.3.2",
-    "target_policy_id": "clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_7",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2583988904953003,
-    "evidence_text": "8.1 Awareness and Training Program\n\n&lt;&lt;CLIENT&gt;&gt; shall:\n\n1. Develop and formalize an Information Security (IS) awareness and training program that ensures continued awareness and competence of all &lt;&lt;CLIENT&gt;&gt; employees, including contractors, third-parties, and all other stakeholders with access to information assets.\n2. Ensure that Information Security awareness and training program raise awareness and compliance about &lt;&lt;CLIENT&gt;&gt;’s Integrated Management System a",
-    "mapping_date": "2026-03-16T09:47:42.130081",
-    "reviewer": null,
-    "notes": "Reranker: 0.258"
   },
   {
     "mapping_id": "T2.2.3_clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_8",
@@ -581,17 +361,6 @@
     "mapping_date": "2026-03-16T09:49:16.301656",
     "reviewer": null,
     "notes": "Reranker: 0.261"
-  },
-  {
-    "mapping_id": "T3.6.1_clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_6",
-    "source_control_id": "T3.6.1",
-    "target_policy_id": "clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_6",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2589333653450012,
-    "evidence_text": "7 POLICY STATEMENT\n\n&lt;&lt;CLIENT&gt;&gt; shall develop, implement, and maintain an awareness and training program to inform all employees of the information security, business continuity and data privacy risks associated with their activities.\n\nFurther, &lt;&lt;CLIENT&gt;&gt; shall ensure that employees and third parties are adequately trained to carry out their assigned information security responsibilities.",
-    "mapping_date": "2026-03-16T09:49:16.301601",
-    "reviewer": null,
-    "notes": "Reranker: 0.259"
   },
   {
     "mapping_id": "T3.6.3_clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_8",
@@ -704,17 +473,6 @@
     "notes": "Reranker: 0.263"
   },
   {
-    "mapping_id": "T7.2.1_clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_7",
-    "source_control_id": "T7.2.1",
-    "target_policy_id": "clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_7",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2599436044692993,
-    "evidence_text": "8.1 Awareness and Training Program\n\n&lt;&lt;CLIENT&gt;&gt; shall:\n\n1. Develop and formalize an Information Security (IS) awareness and training program that ensures continued awareness and competence of all &lt;&lt;CLIENT&gt;&gt; employees, including contractors, third-parties, and all other stakeholders with access to information assets.\n2. Ensure that Information Security awareness and training program raise awareness and compliance about &lt;&lt;CLIENT&gt;&gt;’s Integrated Management System a",
-    "mapping_date": "2026-03-16T09:51:26.243504",
-    "reviewer": null,
-    "notes": "Reranker: 0.260"
-  },
-  {
     "mapping_id": "T7.8.1_clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_7",
     "source_control_id": "T7.8.1",
     "target_policy_id": "clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_7",
@@ -770,17 +528,6 @@
     "notes": "Reranker: 0.279"
   },
   {
-    "mapping_id": "T8.1.1_clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_4",
-    "source_control_id": "T8.1.1",
-    "target_policy_id": "clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_4",
-    "status": "Partially Addressed",
-    "entailment_score": 0.27432048320770264,
-    "evidence_text": "5 PURPOSE\n\nThe purpose of this Security Awareness and Training Policy (“Policy”) is to define a framework for security awareness and training processes to ensure that a proactive and risk-aware information security culture exists within &lt;&lt;CLIENT&gt;&gt;.\n\nFurther, this Policy establishes a commitment to comply with applicable sections of the federal and global laws and regulations, including but not limited to UAE Information Assurance Regulation, UAE Federal Law 45, ISO 20000, ISO 27001, ",
-    "mapping_date": "2026-03-16T09:52:13.610027",
-    "reviewer": null,
-    "notes": "Reranker: 0.274"
-  },
-  {
     "mapping_id": "T8.2.5_clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_8",
     "source_control_id": "T8.2.5",
     "target_policy_id": "clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_8",
@@ -803,17 +550,6 @@
     "notes": "Reranker: 0.272"
   },
   {
-    "mapping_id": "T8.3.1_clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_4",
-    "source_control_id": "T8.3.1",
-    "target_policy_id": "clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_4",
-    "status": "Partially Addressed",
-    "entailment_score": 0.2686555087566376,
-    "evidence_text": "5 PURPOSE\n\nThe purpose of this Security Awareness and Training Policy (“Policy”) is to define a framework for security awareness and training processes to ensure that a proactive and risk-aware information security culture exists within &lt;&lt;CLIENT&gt;&gt;.\n\nFurther, this Policy establishes a commitment to comply with applicable sections of the federal and global laws and regulations, including but not limited to UAE Information Assurance Regulation, UAE Federal Law 45, ISO 20000, ISO 27001, ",
-    "mapping_date": "2026-03-16T09:52:42.166320",
-    "reviewer": null,
-    "notes": "Reranker: 0.269"
-  },
-  {
     "mapping_id": "T9.1.1_clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_6",
     "source_control_id": "T9.1.1",
     "target_policy_id": "clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_6",
@@ -823,17 +559,6 @@
     "mapping_date": "2026-03-16T09:52:53.107977",
     "reviewer": null,
     "notes": "Reranker: 0.261"
-  },
-  {
-    "mapping_id": "T9.1.1_clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_8",
-    "source_control_id": "T9.1.1",
-    "target_policy_id": "clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_8",
-    "status": "Partially Addressed",
-    "entailment_score": 0.25138092041015625,
-    "evidence_text": "8.2 Role Specific Training\n\n&lt;&lt;CLIENT&gt;&gt; shall:\n\n1. Provide Role specific security training for employees/contractors with assigned administrative or technical roles and responsibilities involving access to sensitive information systems.\n2. Administer Role specific security training before granting employees/contractors privileged access to the information systems or before employees/contractors begin performing assigned duties.\n3. Define frequency for Role specific security trainings ",
-    "mapping_date": "2026-03-16T09:52:53.108040",
-    "reviewer": null,
-    "notes": "Reranker: 0.251"
   },
   {
     "mapping_id": "T9.2.1_clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_6",

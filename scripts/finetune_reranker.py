@@ -501,9 +501,14 @@ def main():
         )
 
     # ── Final save ────────────────────────────────────────────────────────────
-    # For BPR mode the best checkpoint is already saved inside train_bpr().
-    # For MSE mode model.fit() handles saving. We do a final explicit save here
-    # to ensure the merged (non-PEFT) weights are always on disk.
+    # For BPR mode: the best checkpoint (highest Spearman) was already saved to
+    # output_path by train_bpr().  Reload it now so the final eval and any LoRA
+    # merge operate on the best model, not the last epoch.
+    # For MSE mode: model.fit() saves the best internally; we do a final save.
+    if args.loss in ("bpr", "pairwise") and args.epochs > 0:
+        print(f"\nReloading best checkpoint from {output_path} ...")
+        model = CrossEncoder(output_path, max_length=args.max_length, num_labels=1)
+
     print(f"\nSaving final model to {output_path} ...")
     if args.lora:
         print("  Merging LoRA adapters into base weights...")

@@ -1,57 +1,35 @@
 #!/usr/bin/env python3
 """
-Phase 3B — Fine-tune LLaMA 3.2 1B as a UAE IA Compliance Judge
-===============================================================
-Uses PEFT LoRA + TRL SFTTrainer to instruction-tune Llama-3.2-1B-Instruct
-on (control, passage) → FA/PA/NA verdict pairs.
+Fine-tune Llama 3.2 (1B or 3B) as a UAE IA compliance classifier using LoRA SFT.
 
-After fine-tuning, the model is saved to models/compliance-llm-judge/ and
-can be loaded directly from HuggingFace (no Ollama required) via llm_judge.py
-with the --use-finetuned flag.
+Trains on data/07_golden_mapping/training_data/train.json and evaluates on dev.json.
+Output: a single-word classifier (FA / PA / NA) using completion-only loss.
 
-Model requirements:
-  - HuggingFace model: meta-llama/Llama-3.2-1B-Instruct  (~2.5 GB download)
-  - RAM: ~4 GB (LoRA keeps only ~1M params trainable)
-  - HuggingFace token required for gated model access:
-      huggingface-cli login
-      OR set HF_TOKEN env var
+Model: meta-llama/Llama-3.2-3B-Instruct  (fallback: Llama-3.2-1B-Instruct)
+LoRA: r=8, target=[q_proj, v_proj], ~0.06% trainable params
+Output: models/compliance-llm-judge/
 
-Training data:
-  - Real golden pairs: data/07_golden_mapping/golden_mapping_dataset.json
-  - Synthetic pairs (optional): data/07_golden_mapping/synthetic_pairs.json
+Class balancing:
+  FA weight = 5.0   (rare — ~10% of data)
+  PA weight = 5.0   (rare — ~3% of data)
+  NA weight = 1.0   (majority class)
 
-Training format (Alpaca-style instruction tuning):
-  {
-    "instruction": "UAE IA compliance auditor system prompt",
-    "input":  "Control T2.2.1: <text>\\n\\nPolicy passage:\\n<text>",
-    "output": "Fully Addressed | The passage explicitly states..."
-  }
-
-LoRA configuration:
-  - Rank: 8  (targets q_proj, v_proj only — ~800K trainable params)
-  - Training 0.06% of total model parameters
-  - Merged back into base weights before saving
+Completion-only loss: gradient is computed ONLY on the response token (FA/PA/NA)
+and the end-of-turn token. The full prompt (system + user) is masked as -100.
 
 Usage:
-  # Install dependencies first
-  pip install transformers peft trl datasets accelerate bitsandbytes
+  # GPU (recommended, ~30-60 min)
+  python3 scripts/finetune_llm_compliance.py \\
+      --base-model meta-llama/Llama-3.2-3B-Instruct \\
+      --device cuda --batch-size 4 --epochs 3
 
-  # Full training on real + synthetic data (~4 hrs CPU, ~30 min GPU)
-  python3 scripts/finetune_llm_compliance.py
-
-  # Quick test on 50 examples
+  # Quick smoke test
   python3 scripts/finetune_llm_compliance.py --limit 50 --epochs 1
 
-  # GPU run (faster)
-  python3 scripts/finetune_llm_compliance.py --device cuda --batch-size 4
-
-  # Use fine-tuned model for judging (after training)
-  python3 scripts/llm_judge.py --use-finetuned \\
-      --finetuned-model models/compliance-llm-judge
-
-  # Alternative: use a locally available model (no HF token needed)
-  python3 scripts/finetune_llm_compliance.py \\
-      --base-model microsoft/Phi-3-mini-4k-instruct
+  # Use after training
+  python3 scripts/llm_judge.py \\
+      --use-finetuned --finetuned-model models/compliance-llm-judge \\
+      --mappings single_policy_e2e/output/mappings.json
 """
 
 import argparse
@@ -59,132 +37,275 @@ import json
 import os
 import random
 import sys
+from collections import Counter
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
-# ── System prompt (identical to llm_judge.py CoT style) ──────────────────────
+# ── Constants ─────────────────────────────────────────────────────────────────
 
-SYSTEM_PROMPT = """You are a compliance auditor specialising in UAE Information Assurance \
-(UAE IA) Regulation. Your task is to assess whether a policy passage addresses a specific \
-compliance control.
+SYSTEM_PROMPT = (
+    "You are a UAE IA compliance classifier.\n"
+    "Classify if the policy passage addresses the control.\n"
+    "Answer with exactly one word: FA, PA, or NA.\n"
+    "FA = Fully Addressed\n"
+    "PA = Partially Addressed\n"
+    "NA = Not Addressed"
+)
 
-Label definitions:
-- Fully Addressed    : passage explicitly and completely covers the control — no gaps.
-- Partially Addressed: passage is relevant but leaves requirements unmet or only implied.
-- Not Addressed      : passage is off-topic or too generic to satisfy the control.
+LABEL_FROM_STATUS = {
+    "Fully Addressed":    "FA",
+    "Fully addressed":    "FA",
+    "Partially Addressed": "PA",
+    "Partially addressed": "PA",
+    "Not Addressed":      "NA",
+    "Not addressed":      "NA",
+}
 
-Rules:
-- Vague statements ("we follow best practices") = Not Addressed.
-- Topic mentioned but no HOW/WHAT details = Partially Addressed at best.
-- When in doubt between Fully and Partially → choose Partially Addressed.
+LABEL_FROM_SCORE = {1.0: "FA", 0.7: "PA", 0.5: "PA", 0.0: "NA"}
 
-Respond with the verdict in this format:
-  LABEL | one-sentence reason"""
+CLASS_WEIGHTS = {"FA": 5.0, "PA": 5.0, "NA": 1.0}
 
-# ── Training example templates ────────────────────────────────────────────────
-
-def make_user_input(control_id: str, control_text: str, passage_text: str) -> str:
-    return (
-        f"Control ID: {control_id}\n"
-        f"Control requirement:\n{control_text[:600]}\n\n"
-        f"Policy passage:\n{passage_text[:1200]}"
-    )
-
-
-def status_to_label(status: str) -> str:
-    """Normalise compliance_status to one of the three canonical labels."""
-    s = status.strip().lower()
-    if "fully" in s:
-        return "Fully Addressed"
-    if "partially" in s:
-        return "Partially Addressed"
-    return "Not Addressed"
+STATUS_FROM_LABEL = {
+    "FA": "Fully Addressed",
+    "PA": "Partially Addressed",
+    "NA": "Not Addressed",
+}
 
 
-def make_target_output(status: str, reason: str = "") -> str:
-    label = status_to_label(status)
-    if reason:
-        return f"{label} | {reason}"
-    # Generate a minimal reason if none is recorded
-    defaults = {
-        "Fully Addressed":    "The passage explicitly and completely satisfies the control requirement.",
-        "Partially Addressed": "The passage is relevant but does not fully address all control requirements.",
-        "Not Addressed":      "The passage does not address the control requirement.",
-    }
-    return f"{label} | {defaults[label]}"
+# ── Data helpers ─────────────────────────────────────────────────────────────
 
-
-# ── Data loading ──────────────────────────────────────────────────────────────
-
-def load_golden(path: str) -> list:
+def load_rows(path: str) -> list:
     with open(path, encoding="utf-8") as f:
         return json.load(f)
 
 
-def build_examples(records: list, is_synthetic: bool = False) -> list:
-    """Convert golden/synthetic records into instruction-tuning examples."""
-    examples = []
-    for r in records:
-        status = (r.get("compliance_status") or "").strip()
-        if not status:
-            continue
-        ctrl_id   = r.get("control_id", "")
-        ctrl_text = (r.get("control_text_snippet") or "").strip()
-        passage   = (r.get("policy_text_snippet") or "").strip()
-        reason    = (r.get("evidence_or_notes") or r.get("comments") or "").strip()
-
-        if not ctrl_text or not passage:
-            continue
-        if len(passage.split()) < 8:
-            continue
-
-        examples.append({
-            "instruction": SYSTEM_PROMPT,
-            "input":       make_user_input(ctrl_id, ctrl_text, passage),
-            "output":      make_target_output(status, reason),
-            "control_id":  ctrl_id,
-            "status":      status_to_label(status),
-            "is_synthetic": is_synthetic,
-        })
-    return examples
+def row_to_label(row: dict) -> str:
+    label = LABEL_FROM_STATUS.get((row.get("label") or "").strip())
+    if label:
+        return label
+    score = float(row.get("score", -1))
+    return LABEL_FROM_SCORE.get(score, "NA")
 
 
-def format_prompt(example: dict, tokenizer) -> str:
-    """Format as a chat template if the tokenizer supports it, else Alpaca."""
-    if hasattr(tokenizer, "apply_chat_template") and tokenizer.chat_template:
-        messages = [
-            {"role": "system",    "content": example["instruction"]},
-            {"role": "user",      "content": example["input"]},
-            {"role": "assistant", "content": example["output"]},
-        ]
-        return tokenizer.apply_chat_template(
-            messages, tokenize=False, add_generation_prompt=False
-        )
-    # Alpaca fallback
+def build_user_message(row: dict) -> str:
+    control_id = row.get("control_id", "")
+    query      = (row.get("query") or "").strip()
+    passage    = (row.get("passage") or "").strip()
     return (
-        f"### Instruction:\n{example['instruction']}\n\n"
-        f"### Input:\n{example['input']}\n\n"
-        f"### Response:\n{example['output']}"
+        f"Control {control_id}: {query[:200]}\n\n"
+        f"Passage: {passage[:300]}"
     )
+
+
+# ── Dataset ───────────────────────────────────────────────────────────────────
+
+class ComplianceDataset:
+    """Tokenised training examples with completion-only label masking.
+
+    For each row we build:
+      prompt_text = chat_template([system, user], add_generation_prompt=True)
+      full_text   = chat_template([system, user, assistant(label)], add_generation_prompt=False)
+
+    input_ids = tokenise(full_text)
+    labels    = [-100] * len(prompt_ids) + input_ids[len(prompt_ids):]
+
+    This ensures loss is computed only on the response token(s), not the prompt.
+    """
+
+    def __init__(self, rows: list, tokenizer, max_length: int = 512):
+        import torch
+        self.examples = []
+        skipped = 0
+
+        for row in rows:
+            label = row_to_label(row)
+            user_msg = build_user_message(row)
+
+            prompt_msgs = [
+                {"role": "system", "content": SYSTEM_PROMPT},
+                {"role": "user",   "content": user_msg},
+            ]
+            full_msgs = prompt_msgs + [{"role": "assistant", "content": label}]
+
+            prompt_text = tokenizer.apply_chat_template(
+                prompt_msgs, tokenize=False, add_generation_prompt=True
+            )
+            full_text = tokenizer.apply_chat_template(
+                full_msgs, tokenize=False, add_generation_prompt=False
+            )
+
+            prompt_ids = tokenizer.encode(prompt_text, add_special_tokens=False)
+            full_ids   = tokenizer.encode(full_text,   add_special_tokens=False)
+
+            if len(full_ids) > max_length:
+                skipped += 1
+                continue
+
+            labels = [-100] * len(prompt_ids) + full_ids[len(prompt_ids):]
+
+            self.examples.append({
+                "input_ids":      torch.tensor(full_ids,   dtype=torch.long),
+                "attention_mask": torch.ones(len(full_ids), dtype=torch.long),
+                "labels":         torch.tensor(labels,     dtype=torch.long),
+                "class_label":    label,
+            })
+
+        print(f"  Dataset: {len(self.examples)} examples  ({skipped} skipped — too long)")
+
+    def __len__(self):
+        return len(self.examples)
+
+    def __getitem__(self, idx):
+        return self.examples[idx]
+
+
+def collate_fn(batch: list) -> dict:
+    """Pad a batch of variable-length sequences."""
+    import torch
+    max_len = max(ex["input_ids"].shape[0] for ex in batch)
+
+    input_ids  = []
+    attn_masks = []
+    labels_out = []
+
+    for ex in batch:
+        pad_len = max_len - ex["input_ids"].shape[0]
+        input_ids.append(torch.cat([
+            ex["input_ids"],
+            torch.zeros(pad_len, dtype=torch.long),
+        ]))
+        attn_masks.append(torch.cat([
+            ex["attention_mask"],
+            torch.zeros(pad_len, dtype=torch.long),
+        ]))
+        labels_out.append(torch.cat([
+            ex["labels"],
+            torch.full((pad_len,), -100, dtype=torch.long),
+        ]))
+
+    return {
+        "input_ids":      torch.stack(input_ids),
+        "attention_mask": torch.stack(attn_masks),
+        "labels":         torch.stack(labels_out),
+    }
+
+
+# ── Evaluation ────────────────────────────────────────────────────────────────
+
+def evaluate(model, tokenizer, dev_rows: list, device, max_length: int = 512) -> dict:
+    """Run greedy inference on dev set; return per-class P/R/F1 and accuracy."""
+    import torch
+
+    model.eval()
+    preds, golds = [], []
+
+    for row in dev_rows:
+        gold = row_to_label(row)
+        user_msg = build_user_message(row)
+
+        msgs = [
+            {"role": "system", "content": SYSTEM_PROMPT},
+            {"role": "user",   "content": user_msg},
+        ]
+        prompt = tokenizer.apply_chat_template(
+            msgs, tokenize=False, add_generation_prompt=True
+        )
+        inputs = tokenizer(
+            prompt, return_tensors="pt",
+            truncation=True, max_length=max_length
+        ).to(device)
+
+        with torch.no_grad():
+            out = model.generate(
+                **inputs,
+                max_new_tokens=3,
+                do_sample=False,
+                pad_token_id=tokenizer.eos_token_id,
+            )
+        new_tokens = out[0][inputs["input_ids"].shape[1]:]
+        pred_text  = tokenizer.decode(new_tokens, skip_special_tokens=True).strip().upper()
+
+        # Extract first word token
+        pred = "NA"
+        for tok in pred_text.split():
+            if tok in ("FA", "PA", "NA"):
+                pred = tok
+                break
+
+        preds.append(pred)
+        golds.append(gold)
+
+    # Per-class metrics
+    classes = ["FA", "PA", "NA"]
+    report = {}
+    for cls in classes:
+        tp = sum(1 for p, g in zip(preds, golds) if p == cls and g == cls)
+        fp = sum(1 for p, g in zip(preds, golds) if p == cls and g != cls)
+        fn = sum(1 for p, g in zip(preds, golds) if p != cls and g == cls)
+        prec   = tp / (tp + fp) if (tp + fp) > 0 else 0.0
+        recall = tp / (tp + fn) if (tp + fn) > 0 else 0.0
+        f1     = 2 * prec * recall / (prec + recall) if (prec + recall) > 0 else 0.0
+        report[cls] = {"precision": prec, "recall": recall, "f1": f1,
+                       "support": sum(1 for g in golds if g == cls)}
+
+    accuracy = sum(1 for p, g in zip(preds, golds) if p == g) / len(golds) if golds else 0.0
+    report["accuracy"] = accuracy
+    report["predictions"] = Counter(preds)
+    report["gold_dist"]   = Counter(golds)
+
+    model.train()
+    return report
+
+
+def print_eval(report: dict):
+    print(f"\n  {'Class':<6}  {'Precision':>9}  {'Recall':>7}  {'F1':>6}  {'Support':>7}")
+    print(f"  {'-'*6}  {'-'*9}  {'-'*7}  {'-'*6}  {'-'*7}")
+    for cls in ("FA", "PA", "NA"):
+        r = report[cls]
+        print(f"  {cls:<6}  {r['precision']:>9.3f}  {r['recall']:>7.3f}  "
+              f"{r['f1']:>6.3f}  {r['support']:>7}")
+    print(f"\n  Accuracy  : {report['accuracy']:.3f}")
+    print(f"  Predicted : {dict(report['predictions'])}")
+    print(f"  Gold dist : {dict(report['gold_dist'])}")
 
 
 # ── Training ──────────────────────────────────────────────────────────────────
 
-def train(args, examples: list):
+def train(args):
     try:
         import torch
-        from transformers import AutoTokenizer, AutoModelForCausalLM, TrainingArguments
+        from transformers import (
+            AutoTokenizer, AutoModelForCausalLM,
+            get_linear_schedule_with_warmup,
+        )
         from peft import LoraConfig, get_peft_model, TaskType
-        from trl import SFTTrainer, SFTConfig
-        from datasets import Dataset
+        from torch.utils.data import DataLoader, WeightedRandomSampler
     except ImportError as e:
         print(f"Missing dependency: {e}")
-        print("Install with: pip install transformers peft trl datasets accelerate")
+        print("Install: pip install transformers peft accelerate")
         sys.exit(1)
 
+    # ── Load data ─────────────────────────────────────────────────────────────
+    print(f"Loading training data from {args.train} ...")
+    train_rows = load_rows(args.train)
+    dev_rows   = load_rows(args.dev)
+
+    if args.limit:
+        train_rows = train_rows[:args.limit]
+        print(f"  Limited to {args.limit} examples (--limit)")
+
+    dist = Counter(row_to_label(r) for r in train_rows)
+    print(f"  Train: {len(train_rows)} rows  dist={dict(dist)}")
+    print(f"  Dev  : {len(dev_rows)} rows")
+
+    # ── Load model & tokenizer ────────────────────────────────────────────────
+    hf_token   = os.environ.get("HF_TOKEN")
+    device     = torch.device("cuda" if args.device == "cuda" and torch.cuda.is_available()
+                              else "cpu")
+    device_map = "auto" if device.type == "cuda" else None
+
     print(f"\nLoading tokenizer: {args.base_model} ...")
-    hf_token = os.environ.get("HF_TOKEN")
     tokenizer = AutoTokenizer.from_pretrained(
         args.base_model, token=hf_token, trust_remote_code=True
     )
@@ -192,15 +313,12 @@ def train(args, examples: list):
         tokenizer.pad_token = tokenizer.eos_token
     tokenizer.padding_side = "right"
 
-    print(f"Loading model: {args.base_model} ...")
-    device_map = "auto" if args.device == "cuda" else "cpu"
-    load_kwargs = dict(
-        token=hf_token,
-        trust_remote_code=True,
-        device_map=device_map,
-    )
-    # Use 4-bit quantization on GPU to fit in ~8 GB VRAM
-    if args.device == "cuda":
+    print(f"Loading model: {args.base_model}  (device={device}) ...")
+    load_kwargs: dict = dict(token=hf_token, trust_remote_code=True)
+    if device.type == "cuda":
+        load_kwargs["torch_dtype"] = torch.float16
+        if device_map:
+            load_kwargs["device_map"] = device_map
         try:
             from transformers import BitsAndBytesConfig
             load_kwargs["quantization_config"] = BitsAndBytesConfig(
@@ -208,15 +326,19 @@ def train(args, examples: list):
                 bnb_4bit_quant_type="nf4",
                 bnb_4bit_compute_dtype=torch.float16,
             )
-            print("  4-bit quantization enabled (GPU)")
+            print("  4-bit quantisation enabled")
         except Exception:
             pass
+    else:
+        load_kwargs["torch_dtype"] = torch.float32
 
     model = AutoModelForCausalLM.from_pretrained(args.base_model, **load_kwargs)
+    if device.type == "cpu" or device_map is None:
+        model = model.to(device)
     model.config.use_cache = False
 
     # ── LoRA ──────────────────────────────────────────────────────────────────
-    lora_config = LoraConfig(
+    lora_cfg = LoraConfig(
         task_type=TaskType.CAUSAL_LM,
         r=args.lora_r,
         lora_alpha=args.lora_r * 2,
@@ -224,164 +346,185 @@ def train(args, examples: list):
         target_modules=["q_proj", "v_proj"],
         bias="none",
     )
-    model = get_peft_model(model, lora_config)
-    trainable, total = model.get_nb_trainable_parameters() if hasattr(
-        model, "get_nb_trainable_parameters") else (
-        sum(p.numel() for p in model.parameters() if p.requires_grad),
-        sum(p.numel() for p in model.parameters()))
-    print(f"LoRA rank={args.lora_r}  "
-          f"trainable={trainable:,} / {total:,} ({100*trainable/max(total,1):.3f}%)")
-
-    # ── Dataset ───────────────────────────────────────────────────────────────
-    formatted = [format_prompt(ex, tokenizer) for ex in examples]
-    dataset = Dataset.from_dict({"text": formatted})
-    print(f"\nDataset: {len(dataset)} examples")
-    print(f"Sample prompt (first 300 chars):\n{formatted[0][:300]}\n...")
-
-    # ── Training arguments ────────────────────────────────────────────────────
-    output_path = str(Path(args.output).resolve())
-    Path(output_path).mkdir(parents=True, exist_ok=True)
-
-    sft_config = SFTConfig(
-        output_dir=output_path,
-        num_train_epochs=args.epochs,
-        per_device_train_batch_size=args.batch_size,
-        gradient_accumulation_steps=max(1, 8 // args.batch_size),
-        learning_rate=args.lr,
-        warmup_ratio=0.1,
-        lr_scheduler_type="cosine",
-        logging_steps=10,
-        save_strategy="epoch",
-        save_total_limit=1,
-        fp16=(args.device == "cuda"),
-        max_seq_length=args.max_length,
-        dataset_text_field="text",
-        report_to="none",
-        optim="adamw_torch",
+    model = get_peft_model(model, lora_cfg)
+    trainable, total = (
+        model.get_nb_trainable_parameters()
+        if hasattr(model, "get_nb_trainable_parameters")
+        else (
+            sum(p.numel() for p in model.parameters() if p.requires_grad),
+            sum(p.numel() for p in model.parameters()),
+        )
     )
+    print(f"LoRA r={args.lora_r}  "
+          f"trainable={trainable:,} / {total:,}  ({100*trainable/max(total,1):.3f}%)")
 
-    trainer = SFTTrainer(
-        model=model,
-        tokenizer=tokenizer,
-        train_dataset=dataset,
-        args=sft_config,
+    # ── Dataset + WeightedRandomSampler ───────────────────────────────────────
+    print("\nBuilding dataset ...")
+    dataset = ComplianceDataset(train_rows, tokenizer, max_length=args.max_length)
+
+    sample_weights = [CLASS_WEIGHTS.get(ex["class_label"], 1.0)
+                      for ex in dataset.examples]
+    sampler = WeightedRandomSampler(
+        weights=sample_weights,
+        num_samples=len(sample_weights),
+        replacement=True,
     )
-
-    print(f"Training for {args.epochs} epochs  "
-          f"(batch={args.batch_size}, lr={args.lr}, device={args.device}) ...")
-    trainer.train()
-
-    # ── Save (merge LoRA into base weights) ───────────────────────────────────
-    print(f"\nMerging LoRA adapters and saving to {output_path} ...")
-    merged_model = model.merge_and_unload()
-    merged_model.save_pretrained(output_path)
-    tokenizer.save_pretrained(output_path)
-
-    # Write model card
-    card = Path(output_path) / "MODEL_CARD.md"
-    card.write_text(
-        f"# UAE IA Compliance LLM Judge\n\n"
-        f"Fine-tuned from `{args.base_model}` on UAE IA compliance mapping pairs.\n\n"
-        f"## Training\n"
-        f"- LoRA rank: {args.lora_r}\n"
-        f"- Epochs: {args.epochs}\n"
-        f"- Examples: {len(examples)}\n"
-        f"- Format: Alpaca instruction tuning (FA/PA/NA verdicts)\n\n"
-        f"## Usage\n"
-        f"```bash\n"
-        f"python3 scripts/llm_judge.py --use-finetuned --finetuned-model {output_path}\n"
-        f"```\n"
+    loader = DataLoader(
+        dataset,
+        batch_size=args.batch_size,
+        sampler=sampler,
+        collate_fn=collate_fn,
     )
-    print(f"  Saved to: {output_path}")
+    print(f"  Sampler weights — FA={CLASS_WEIGHTS['FA']}× PA={CLASS_WEIGHTS['PA']}× "
+          f"NA={CLASS_WEIGHTS['NA']}×")
 
-    return output_path
-
-
-# ── Main ──────────────────────────────────────────────────────────────────────
-
-def main():
-    ap = argparse.ArgumentParser(
-        description="Fine-tune LLM as a UAE IA compliance judge (LoRA SFT)"
+    # ── Optimiser + scheduler ─────────────────────────────────────────────────
+    optimizer = torch.optim.AdamW(
+        [p for p in model.parameters() if p.requires_grad],
+        lr=args.lr,
+        weight_decay=0.01,
     )
-    ap.add_argument("--golden",      default="data/07_golden_mapping/golden_mapping_dataset.json",
-                    help="Human-annotated golden pairs")
-    ap.add_argument("--synthetic",   default=None,
-                    help="Synthetic pairs JSON (from generate_synthetic_pairs.py). "
-                         "If provided, added to training data.")
-    ap.add_argument("--output",      default="models/compliance-llm-judge",
-                    help="Output directory for the fine-tuned model")
-    ap.add_argument("--base-model",  default="meta-llama/Llama-3.2-1B-Instruct",
-                    help="HuggingFace model ID or local path. "
-                         "Alternatives: microsoft/Phi-3-mini-4k-instruct (no gating), "
-                         "TinyLlama/TinyLlama-1.1B-Chat-v1.0 (smaller)")
-    ap.add_argument("--device",      default="cpu", choices=["cpu", "cuda"],
-                    help="Device to train on (default: cpu)")
-    ap.add_argument("--epochs",      type=int,   default=3)
-    ap.add_argument("--batch-size",  type=int,   default=1,
-                    help="Per-device batch size (default: 1 for CPU)")
-    ap.add_argument("--lr",          type=float, default=2e-4,
-                    help="Learning rate (default: 2e-4)")
-    ap.add_argument("--lora-r",      type=int,   default=8,
-                    help="LoRA rank (default: 8 — ~800K trainable params)")
-    ap.add_argument("--max-length",  type=int,   default=512,
-                    help="Max token length per example (default: 512)")
-    ap.add_argument("--real-weight", type=int,   default=3,
-                    help="Duplicate real golden rows this many times (default: 3)")
-    ap.add_argument("--limit",       type=int,   default=None,
-                    help="Only use first N examples (for quick testing)")
-    ap.add_argument("--seed",        type=int,   default=42)
-    args = ap.parse_args()
+    total_steps  = len(loader) * args.epochs // args.grad_accum
+    warmup_steps = max(1, int(total_steps * args.warmup_ratio))
+    scheduler = get_linear_schedule_with_warmup(optimizer, warmup_steps, total_steps)
 
-    random.seed(args.seed)
+    use_fp16  = (device.type == "cuda")
+    scaler    = torch.amp.GradScaler("cuda") if use_fp16 else None
 
-    # ── Load and convert data ─────────────────────────────────────────────────
-    print(f"Loading golden data from {args.golden} ...")
-    golden_records = load_golden(args.golden)
-    real_examples = build_examples(golden_records, is_synthetic=False)
-    print(f"  {len(golden_records)} records → {len(real_examples)} training examples")
+    output_path = Path(args.output).resolve()
+    output_path.mkdir(parents=True, exist_ok=True)
 
-    from collections import Counter
-    status_dist = Counter(ex["status"] for ex in real_examples)
-    print(f"  Status distribution: {dict(status_dist)}")
+    print(f"\nFine-tuning for {args.epochs} epochs  "
+          f"(batch={args.batch_size}  grad_accum={args.grad_accum}  "
+          f"lr={args.lr}  warmup={warmup_steps}/{total_steps} steps)")
 
-    # Weight real examples so they dominate over synthetic
-    all_examples = real_examples * args.real_weight
+    # ── Training loop ─────────────────────────────────────────────────────────
+    best_fa_recall  = -1.0
+    best_epoch      = 0
 
-    if args.synthetic:
-        print(f"\nLoading synthetic data from {args.synthetic} ...")
-        syn_records = load_golden(args.synthetic)
-        syn_examples = build_examples(syn_records, is_synthetic=True)
-        print(f"  {len(syn_records)} records → {len(syn_examples)} synthetic examples")
-        syn_dist = Counter(ex["status"] for ex in syn_examples)
-        print(f"  Status distribution: {dict(syn_dist)}")
-        all_examples = all_examples + syn_examples
+    for epoch in range(args.epochs):
+        model.train()
+        epoch_loss = 0.0
+        optimizer.zero_grad()
+        steps = 0
 
-    random.shuffle(all_examples)
+        try:
+            from tqdm import tqdm
+            batches = tqdm(loader, desc=f"Epoch {epoch+1}/{args.epochs}", unit="batch")
+        except ImportError:
+            batches = loader
 
-    if args.limit:
-        all_examples = all_examples[:args.limit]
-        print(f"\nLimited to {args.limit} examples (--limit)")
+        for step_idx, batch in enumerate(batches):
+            batch = {k: v.to(device) for k, v in batch.items()}
 
-    print(f"\nTotal training examples: {len(all_examples)}")
-    print(f"  Real × {args.real_weight}: {len(real_examples) * args.real_weight}")
-    if args.synthetic:
-        print(f"  Synthetic:              {len(syn_examples)}")
+            if use_fp16:
+                with torch.amp.autocast("cuda"):
+                    out  = model(**batch)
+                    loss = out.loss / args.grad_accum
+                scaler.scale(loss).backward()
+            else:
+                out  = model(**batch)
+                loss = out.loss / args.grad_accum
+                loss.backward()
 
-    # ── Train ─────────────────────────────────────────────────────────────────
-    output_path = train(args, all_examples)
+            epoch_loss += loss.item() * args.grad_accum
 
-    print(f"\n{'='*60}")
-    print(f"LLM compliance judge fine-tuning complete!")
-    print(f"  Model saved to: {output_path}")
-    print(f"\nTo use the fine-tuned judge:")
-    print(f"  python3 scripts/llm_judge.py \\")
-    print(f"      --use-finetuned \\")
-    print(f"      --finetuned-model {output_path}")
-    print(f"\nTo evaluate after judging:")
+            if (step_idx + 1) % args.grad_accum == 0:
+                if use_fp16:
+                    scaler.unscale_(optimizer)
+                    torch.nn.utils.clip_grad_norm_(model.parameters(), 1.0)
+                    scaler.step(optimizer)
+                    scaler.update()
+                else:
+                    torch.nn.utils.clip_grad_norm_(model.parameters(), 1.0)
+                    optimizer.step()
+                scheduler.step()
+                optimizer.zero_grad()
+                steps += 1
+
+            if hasattr(batches, "set_postfix"):
+                batches.set_postfix(loss=f"{loss.item()*args.grad_accum:.4f}")
+
+        avg_loss = epoch_loss / max(len(loader), 1)
+        ckpt_dir = output_path / f"checkpoint-epoch{epoch+1}"
+        ckpt_dir.mkdir(exist_ok=True)
+
+        # Per-epoch evaluation
+        print(f"\n  Epoch {epoch+1}/{args.epochs}  avg_loss={avg_loss:.4f}")
+        print(f"  Evaluating on dev set ({len(dev_rows)} rows) ...")
+        report = evaluate(model, tokenizer, dev_rows, device, args.max_length)
+        print_eval(report)
+
+        fa_recall = report["FA"]["recall"]
+        if fa_recall >= best_fa_recall:
+            best_fa_recall = fa_recall
+            best_epoch     = epoch + 1
+            model.save_pretrained(str(ckpt_dir))
+            tokenizer.save_pretrained(str(ckpt_dir))
+            print(f"    → checkpoint saved (best FA recall={fa_recall:.3f})")
+
+    # ── Save final model (best checkpoint merged) ─────────────────────────────
+    print(f"\nBest epoch: {best_epoch}  FA recall={best_fa_recall:.3f}")
+    best_ckpt = output_path / f"checkpoint-epoch{best_epoch}"
+
+    print(f"Merging LoRA adapters from best checkpoint and saving to {output_path} ...")
+    from peft import PeftModel
+    base_model = AutoModelForCausalLM.from_pretrained(
+        args.base_model,
+        token=hf_token, trust_remote_code=True,
+        torch_dtype=torch.float16 if device.type == "cuda" else torch.float32,
+    )
+    peft_model  = PeftModel.from_pretrained(base_model, str(best_ckpt))
+    merged      = peft_model.merge_and_unload()
+    merged.save_pretrained(str(output_path))
+    tokenizer.save_pretrained(str(output_path))
+
+    # Write a flag file so llm_judge.py knows this is a single-word classifier
+    (output_path / "judge_format.json").write_text(
+        json.dumps({"format": "single_word", "labels": ["FA", "PA", "NA"],
+                    "base_model": args.base_model}, indent=2)
+    )
+    print(f"  ✓ Model saved → {output_path}")
+    print(f"\nTo use as judge:")
     print(f"  python3 scripts/llm_judge.py \\")
     print(f"      --use-finetuned \\")
     print(f"      --finetuned-model {output_path} \\")
-    print(f"      --evaluate")
+    print(f"      --mappings single_policy_e2e/output/mappings.json")
+
+
+# ── CLI ───────────────────────────────────────────────────────────────────────
+
+def main():
+    ap = argparse.ArgumentParser(
+        description="Fine-tune Llama 3.2 as a UAE IA compliance classifier (FA/PA/NA)"
+    )
+    ap.add_argument("--train",      default="data/07_golden_mapping/training_data/train.json")
+    ap.add_argument("--dev",        default="data/07_golden_mapping/training_data/dev.json")
+    ap.add_argument("--output",     default="models/compliance-llm-judge")
+    ap.add_argument("--base-model", default="meta-llama/Llama-3.2-3B-Instruct",
+                    help="HF model ID. Fallback: meta-llama/Llama-3.2-1B-Instruct")
+    ap.add_argument("--device",     default="auto", choices=["auto", "cuda", "cpu"],
+                    help="auto = use CUDA if available (default)")
+    ap.add_argument("--epochs",     type=int,   default=3)
+    ap.add_argument("--batch-size", type=int,   default=4)
+    ap.add_argument("--grad-accum", type=int,   default=4,
+                    help="Gradient accumulation steps (effective batch = batch × accum)")
+    ap.add_argument("--lr",         type=float, default=2e-4)
+    ap.add_argument("--warmup-ratio", type=float, default=0.03)
+    ap.add_argument("--lora-r",     type=int,   default=8)
+    ap.add_argument("--max-length", type=int,   default=512)
+    ap.add_argument("--limit",      type=int,   default=None,
+                    help="Use only first N training rows (for quick tests)")
+    ap.add_argument("--seed",       type=int,   default=42)
+    args = ap.parse_args()
+
+    if args.device == "auto":
+        import torch
+        args.device = "cuda" if torch.cuda.is_available() else "cpu"
+    print(f"Device: {args.device}")
+
+    random.seed(args.seed)
+    train(args)
 
 
 if __name__ == "__main__":

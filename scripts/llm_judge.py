@@ -443,64 +443,131 @@ def call_ollama(prompt: str, model: str, system: str,
 
 # ── Fine-tuned HF model client ────────────────────────────────────────────────
 
-_hf_model_cache: dict = {}   # path → (model, tokenizer)
+_hf_model_cache: dict = {}   # path → (model, tokenizer, is_single_word)
+
+# System prompt matching finetune_llm_compliance.py training format
+_FT_SYSTEM = (
+    "You are a UAE IA compliance classifier.\n"
+    "Classify if the policy passage addresses the control.\n"
+    "Answer with exactly one word: FA, PA, or NA.\n"
+    "FA = Fully Addressed\n"
+    "PA = Partially Addressed\n"
+    "NA = Not Addressed"
+)
+
+_FT_LABEL_TO_STATUS = {
+    "FA": "Fully Addressed",
+    "PA": "Partially Addressed",
+    "NA": "Not Addressed",
+}
+
+
+def _is_single_word_model(model_path: str) -> bool:
+    """Detect if the model was trained with finetune_llm_compliance.py (FA/PA/NA format)."""
+    flag = Path(model_path) / "judge_format.json"
+    if flag.exists():
+        try:
+            info = json.loads(flag.read_text())
+            return info.get("format") == "single_word"
+        except Exception:
+            pass
+    return False
+
+
+def _load_hf_model(model_path: str):
+    """Load and cache a HuggingFace model + tokenizer."""
+    if model_path in _hf_model_cache:
+        return _hf_model_cache[model_path]
+    try:
+        from transformers import AutoTokenizer, AutoModelForCausalLM
+        import torch
+    except ImportError:
+        raise RuntimeError(
+            "transformers and torch are required for --use-finetuned.\n"
+            "Install with: pip install transformers torch"
+        )
+    print(f"  Loading fine-tuned model from {model_path} ...")
+    tokenizer = AutoTokenizer.from_pretrained(model_path)
+    if tokenizer.pad_token is None:
+        tokenizer.pad_token = tokenizer.eos_token
+
+    import torch
+    device_map = "auto" if torch.cuda.is_available() else "cpu"
+    model = AutoModelForCausalLM.from_pretrained(
+        model_path,
+        torch_dtype=torch.float16 if torch.cuda.is_available() else torch.float32,
+        device_map=device_map,
+    )
+    model.eval()
+    is_sw = _is_single_word_model(model_path)
+    _hf_model_cache[model_path] = (model, tokenizer, is_sw)
+    print(f"  Fine-tuned model loaded  (format={'single_word FA/PA/NA' if is_sw else 'legacy'})")
+    return _hf_model_cache[model_path]
 
 
 def call_finetuned(prompt: str, system: str, model_path: str,
                    max_new_tokens: int = 200) -> str:
     """Run inference using a locally fine-tuned HuggingFace model.
 
-    Caches the model in memory so it is only loaded once per process.
-    Works on CPU with no GPU required.
+    Automatically detects whether the model was trained in single-word mode
+    (FA/PA/NA — from finetune_llm_compliance.py) or legacy mode (full verdict).
     """
-    global _hf_model_cache
-    if model_path not in _hf_model_cache:
-        try:
-            from transformers import AutoTokenizer, AutoModelForCausalLM
-            import torch
-        except ImportError:
-            raise RuntimeError(
-                "transformers and torch are required for --use-finetuned.\n"
-                "Install with: pip install transformers torch"
-            )
-        print(f"  Loading fine-tuned model from {model_path} ...")
-        tokenizer = AutoTokenizer.from_pretrained(model_path)
-        if tokenizer.pad_token is None:
-            tokenizer.pad_token = tokenizer.eos_token
-        model = AutoModelForCausalLM.from_pretrained(
-            model_path, torch_dtype="auto", device_map="cpu"
-        )
-        model.eval()
-        _hf_model_cache[model_path] = (model, tokenizer)
-        print(f"  Fine-tuned model loaded.")
-
-    model, tokenizer = _hf_model_cache[model_path]
     import torch
+    model, tokenizer, is_single_word = _load_hf_model(model_path)
 
-    # Build prompt using chat template if available, else Alpaca format
-    if hasattr(tokenizer, "apply_chat_template") and tokenizer.chat_template:
+    if is_single_word:
+        # Use the training-time system prompt + compact user message
         messages = [
-            {"role": "system",    "content": system},
-            {"role": "user",      "content": prompt},
+            {"role": "system", "content": _FT_SYSTEM},
+            {"role": "user",   "content": prompt},
         ]
-        text = tokenizer.apply_chat_template(
-            messages, tokenize=False, add_generation_prompt=True
-        )
+        max_new_tokens = 3   # FA/PA/NA + eot = 2-3 tokens
+    elif hasattr(tokenizer, "apply_chat_template") and tokenizer.chat_template:
+        messages = [
+            {"role": "system", "content": system},
+            {"role": "user",   "content": prompt},
+        ]
     else:
+        # Alpaca fallback for legacy non-chat models
         text = f"### Instruction:\n{system}\n\n### Input:\n{prompt}\n\n### Response:\n"
+        inputs = tokenizer(text, return_tensors="pt", truncation=True, max_length=512)
+        device = next(model.parameters()).device
+        inputs = {k: v.to(device) for k, v in inputs.items()}
+        with torch.no_grad():
+            outputs = model.generate(
+                **inputs, max_new_tokens=max_new_tokens, do_sample=False,
+                pad_token_id=tokenizer.eos_token_id,
+            )
+        new_tokens = outputs[0][inputs["input_ids"].shape[1]:]
+        return tokenizer.decode(new_tokens, skip_special_tokens=True).strip()
 
+    text   = tokenizer.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
+    device = next(model.parameters()).device
     inputs = tokenizer(text, return_tensors="pt", truncation=True, max_length=512)
+    inputs = {k: v.to(device) for k, v in inputs.items()}
+
     with torch.no_grad():
         outputs = model.generate(
             **inputs,
             max_new_tokens=max_new_tokens,
             do_sample=False,
-            temperature=1.0,
             pad_token_id=tokenizer.eos_token_id,
         )
-    # Decode only the newly generated tokens
     new_tokens = outputs[0][inputs["input_ids"].shape[1]:]
     return tokenizer.decode(new_tokens, skip_special_tokens=True).strip()
+
+
+def parse_finetuned_single_word(response: str) -> tuple[str, str]:
+    """Parse FA/PA/NA single-word response from fine-tuned model.
+
+    Maps to full status labels for compatibility with the rest of the pipeline.
+    Returns (status_label, reason).
+    """
+    token = response.strip().upper().split()[0] if response.strip() else "NA"
+    token = token.rstrip(".,;:")   # strip trailing punctuation
+    if token not in _FT_LABEL_TO_STATUS:
+        token = "NA"               # safe default
+    return _FT_LABEL_TO_STATUS[token], f"classifier: {token}"
 
 
 def parse_llm_verdict(response: str) -> tuple[str, str]:
@@ -1090,13 +1157,26 @@ def main():
 
         try:
             if use_finetuned:
-                response = call_finetuned(prompt, system_prompt, ft_path,
+                # For single-word models, build a compact user message matching
+                # the training-time format (control_id + query[:200] + passage[:300])
+                if _is_single_word_model(ft_path):
+                    ft_prompt = (
+                        f"Control {ctrl_id}: {ctrl_text[:200]}\n\n"
+                        f"Passage: {passage[:300]}"
+                    )
+                else:
+                    ft_prompt = prompt
+                response = call_finetuned(ft_prompt, system_prompt, ft_path,
                                           max_new_tokens=num_predict)
+                if _is_single_word_model(ft_path):
+                    label, reason = parse_finetuned_single_word(response)
+                else:
+                    label, reason = parse_llm_verdict(response)
             else:
                 response = call_ollama(prompt, model=args.model, system=system_prompt,
                                        host=args.host, timeout=args.timeout,
                                        num_predict=num_predict)
-            label, reason = parse_llm_verdict(response)
+                label, reason = parse_llm_verdict(response)
         except Exception as e:
             label, reason = "Not Addressed", f"LLM error: {e}"
 

@@ -46,7 +46,8 @@ except ImportError:
             pid = r.get("target_policy_id", "").strip()
             if cid and pid:
                 pipeline_meta[(cid, pid)] = r
-                if r.get("status") in ("Fully Addressed", "Partially Addressed"):
+                effective_status = r.get("status") or r.get("final_status") or r.get("llm_status", "")
+                if effective_status in ("Fully Addressed", "Partially Addressed"):
                     predicted.add((cid, pid))
         return predicted, pipeline_meta
 

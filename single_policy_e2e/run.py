@@ -27,7 +27,19 @@ def policy_doc_id_from_passage_id(passage_id: str) -> str:
 
 
 def main():
-    policy_path = Path(config.POLICY_JSON)
+    import argparse
+    ap = argparse.ArgumentParser(
+        description="Single-policy end-to-end compliance mapping + evaluation."
+    )
+    ap.add_argument(
+        "--policy",
+        default=None,
+        help="Path to policy JSON file (list of passage dicts). "
+             "Overrides POLICY_JSON env var and config default.",
+    )
+    args = ap.parse_args()
+
+    policy_path = Path(args.policy) if args.policy else Path(config.POLICY_JSON)
     controls_path = Path(config.CONTROLS_JSON)
     golden_path = Path(config.GOLDEN_JSON)
     output_dir = config.OUTPUT_DIR

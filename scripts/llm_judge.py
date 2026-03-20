@@ -796,6 +796,7 @@ def run_score_routed_judge(args) -> None:
             "original_status":    m.get("status", ""),
             "llm_status":         llm_status,
             "final_status":       llm_status,
+            "status":             llm_status,
             "entailment_score":   score,
             "passage_topic":      passage_topic,
             "control_requirement": control_req,

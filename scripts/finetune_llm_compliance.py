@@ -229,6 +229,10 @@ def evaluate(model, tokenizer, dev_rows: list, device, max_length: int = 512) ->
     import torch
 
     model.eval()
+    # Some models (e.g., Phi-3) can error in generate() when KV-cache is used
+    # with PEFT/wrappers. Force cache off for stable greedy decoding.
+    if hasattr(model, "config"):
+        model.config.use_cache = False
     preds, golds = [], []
 
     for row in dev_rows:
@@ -251,6 +255,7 @@ def evaluate(model, tokenizer, dev_rows: list, device, max_length: int = 512) ->
                 max_new_tokens=3,
                 do_sample=False,
                 pad_token_id=tokenizer.eos_token_id,
+                use_cache=False,
             )
         new_tokens = out[0][inputs["input_ids"].shape[1]:]
         pred_text  = tokenizer.decode(new_tokens, skip_special_tokens=True).strip().upper()

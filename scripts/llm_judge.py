@@ -1188,9 +1188,26 @@ def main():
         judged["llm_model"]         = model_label
         judged["llm_prompt_style"]  = args.prompt_style
         judged["original_status"]   = m.get("status")
-        judged["status"]            = label     # update status with LLM verdict
 
-        if label != "Not Addressed" or args.keep_not_addressed:
+        # Normalise to the pipeline-friendly schema:
+        # - llm_status mirrors label ("Fully Addressed"/"Partially Addressed"/"Not Addressed")
+        # - kept=true for CORRECT/PARTIAL, kept=false for WRONG
+        judged["llm_status"]       = label
+        judged["final_status"]     = label
+        judged["status"]           = label     # update status with LLM verdict
+
+        kept = label in ("Fully Addressed", "Partially Addressed")
+        judged["kept"] = kept
+
+        # Back-compat with old structured outputs
+        if kept and label == "Fully Addressed":
+            judged["judge_assignment"] = "CORRECT"
+        elif kept and label == "Partially Addressed":
+            judged["judge_assignment"] = "PARTIAL"
+        else:
+            judged["judge_assignment"] = "WRONG"
+
+        if kept or args.keep_not_addressed:
             results.append(judged)
 
         # Progress every 10 items

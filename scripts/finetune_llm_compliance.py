@@ -98,6 +98,37 @@ def build_user_message(row: dict) -> str:
     )
 
 
+def render_messages(tokenizer, messages: list, add_generation_prompt: bool) -> str:
+    """Render chat messages to a text prompt.
+
+    Uses tokenizer chat template when available; otherwise falls back to a
+    simple tagged format. This keeps the script compatible with models like
+    Phi-* where not all tokenizers expose apply_chat_template.
+    """
+    if hasattr(tokenizer, "apply_chat_template") and getattr(tokenizer, "chat_template", None):
+        return tokenizer.apply_chat_template(
+            messages, tokenize=False, add_generation_prompt=add_generation_prompt
+        )
+
+    # Minimal fallback format: keep system/user/assistant ordering deterministic.
+    parts = []
+    for m in messages:
+        role = (m.get("role") or "").strip().lower()
+        content = (m.get("content") or "").strip()
+        if role == "system":
+            parts.append(f"[SYSTEM]\n{content}\n")
+        elif role == "user":
+            parts.append(f"[USER]\n{content}\n")
+        elif role == "assistant":
+            parts.append(f"[ASSISTANT]\n{content}\n")
+        else:
+            parts.append(f"[{role.upper()}]\n{content}\n")
+
+    if add_generation_prompt:
+        parts.append("[ASSISTANT]\n")
+    return "\n".join(parts).strip() + "\n"
+
+
 # ── Dataset ───────────────────────────────────────────────────────────────────
 
 class ComplianceDataset:
@@ -128,11 +159,11 @@ class ComplianceDataset:
             ]
             full_msgs = prompt_msgs + [{"role": "assistant", "content": label}]
 
-            prompt_text = tokenizer.apply_chat_template(
-                prompt_msgs, tokenize=False, add_generation_prompt=True
+            prompt_text = render_messages(
+                tokenizer, prompt_msgs, add_generation_prompt=True
             )
-            full_text = tokenizer.apply_chat_template(
-                full_msgs, tokenize=False, add_generation_prompt=False
+            full_text = render_messages(
+                tokenizer, full_msgs, add_generation_prompt=False
             )
 
             prompt_ids = tokenizer.encode(prompt_text, add_special_tokens=False)
@@ -208,9 +239,7 @@ def evaluate(model, tokenizer, dev_rows: list, device, max_length: int = 512) ->
             {"role": "system", "content": SYSTEM_PROMPT},
             {"role": "user",   "content": user_msg},
         ]
-        prompt = tokenizer.apply_chat_template(
-            msgs, tokenize=False, add_generation_prompt=True
-        )
+        prompt = render_messages(tokenizer, msgs, add_generation_prompt=True)
         inputs = tokenizer(
             prompt, return_tensors="pt",
             truncation=True, max_length=max_length
@@ -299,43 +328,70 @@ def train(args):
     print(f"  Train: {len(train_rows)} rows  dist={dict(dist)}")
     print(f"  Dev  : {len(dev_rows)} rows")
 
-    # ── Load model & tokenizer ────────────────────────────────────────────────
+    # ── Load model & tokenizer (with gated-model fallbacks) ───────────────
     hf_token   = os.environ.get("HF_TOKEN")
-    device     = torch.device("cuda" if args.device == "cuda" and torch.cuda.is_available()
-                              else "cpu")
+    device     = torch.device(
+        "cuda" if args.device == "cuda" and torch.cuda.is_available() else "cpu"
+    )
     device_map = "auto" if device.type == "cuda" else None
 
-    print(f"\nLoading tokenizer: {args.base_model} ...")
-    tokenizer = AutoTokenizer.from_pretrained(
-        args.base_model, token=hf_token, trust_remote_code=True
-    )
-    if tokenizer.pad_token is None:
-        tokenizer.pad_token = tokenizer.eos_token
-    tokenizer.padding_side = "right"
+    models_to_try = [args.base_model]
+    if args.base_model_fallback:
+        models_to_try.append(args.base_model_fallback)
+    if args.extra_fallback_model:
+        models_to_try.append(args.extra_fallback_model)
 
-    print(f"Loading model: {args.base_model}  (device={device}) ...")
-    load_kwargs: dict = dict(token=hf_token, trust_remote_code=True)
-    if device.type == "cuda":
-        load_kwargs["torch_dtype"] = torch.float16
-        if device_map:
-            load_kwargs["device_map"] = device_map
+    last_err = None
+    tokenizer = None
+    model = None
+
+    for m in models_to_try:
         try:
-            from transformers import BitsAndBytesConfig
-            load_kwargs["quantization_config"] = BitsAndBytesConfig(
-                load_in_4bit=True,
-                bnb_4bit_quant_type="nf4",
-                bnb_4bit_compute_dtype=torch.float16,
+            print(f"\nTrying base model: {m}")
+            print(f"  Loading tokenizer: {m} ...")
+            tokenizer = AutoTokenizer.from_pretrained(
+                m, token=hf_token, trust_remote_code=True
             )
-            print("  4-bit quantisation enabled")
-        except Exception:
-            pass
-    else:
-        load_kwargs["torch_dtype"] = torch.float32
+            if tokenizer.pad_token is None:
+                tokenizer.pad_token = tokenizer.eos_token
+            tokenizer.padding_side = "right"
 
-    model = AutoModelForCausalLM.from_pretrained(args.base_model, **load_kwargs)
-    if device.type == "cpu" or device_map is None:
-        model = model.to(device)
-    model.config.use_cache = False
+            print(f"  Loading model: {m}  (device={device}) ...")
+            load_kwargs: dict = dict(token=hf_token, trust_remote_code=True)
+            if device.type == "cuda":
+                load_kwargs["torch_dtype"] = torch.float16
+                if device_map:
+                    load_kwargs["device_map"] = device_map
+                try:
+                    from transformers import BitsAndBytesConfig
+                    load_kwargs["quantization_config"] = BitsAndBytesConfig(
+                        load_in_4bit=True,
+                        bnb_4bit_quant_type="nf4",
+                        bnb_4bit_compute_dtype=torch.float16,
+                    )
+                    print("  4-bit quantisation enabled")
+                except Exception:
+                    pass
+            else:
+                load_kwargs["torch_dtype"] = torch.float32
+
+            model = AutoModelForCausalLM.from_pretrained(m, **load_kwargs)
+            if device.type == "cpu" or device_map is None:
+                model = model.to(device)
+            model.config.use_cache = False
+
+            print(f"  ✓ Loaded model successfully: {m}")
+            args.base_model = m  # for metadata & downstream use
+            break
+        except Exception as e:
+            last_err = e
+            print(f"  ✗ Failed loading {m}: {type(e).__name__}: {e}")
+
+    if model is None or tokenizer is None:
+        raise RuntimeError(
+            "Could not load any candidate base model. Last error:\n"
+            f"{last_err}"
+        )
 
     # ── LoRA ──────────────────────────────────────────────────────────────────
     lora_cfg = LoraConfig(
@@ -503,6 +559,10 @@ def main():
     ap.add_argument("--output",     default="models/compliance-llm-judge")
     ap.add_argument("--base-model", default="meta-llama/Llama-3.2-3B-Instruct",
                     help="HF model ID. Fallback: meta-llama/Llama-3.2-1B-Instruct")
+    ap.add_argument("--base-model-fallback", default="meta-llama/Llama-3.2-1B-Instruct",
+                    help="Fallback if the primary model is gated/unavailable.")
+    ap.add_argument("--extra-fallback-model", default="microsoft/Phi-3-mini-4k-instruct",
+                    help="Final fallback if Meta-Llama access is not available.")
     ap.add_argument("--device",     default="auto", choices=["auto", "cuda", "cpu"],
                     help="auto = use CUDA if available (default)")
     ap.add_argument("--epochs",     type=int,   default=3)

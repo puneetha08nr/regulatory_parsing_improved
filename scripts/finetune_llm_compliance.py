@@ -393,13 +393,59 @@ def train(args):
             f"{last_err}"
         )
 
+    def detect_lora_target_modules(mdl) -> list[str]:
+        """Detect attention projection module names for LoRA injection.
+
+        PEFT matches `target_modules` against module names (typically suffixes).
+        Different model families use different naming conventions (e.g. Llama
+        uses q_proj/v_proj; Phi-3 often uses qkv_proj).
+        """
+        # Candidates ordered by preference (keep small).
+        candidates = [
+            "q_proj", "v_proj", "k_proj", "o_proj",
+            "qkv_proj",
+            # extra common names
+            "query_proj", "value_proj",
+        ]
+        module_names = [name for name, _ in mdl.named_modules()]
+
+        present = []
+        for c in candidates:
+            if any(n.endswith(c) or f".{c}." in n or n.endswith(f"/{c}") for n in module_names):
+                present.append(c)
+
+        # Prefer q_proj/v_proj pair when both exist.
+        if "q_proj" in present and "v_proj" in present:
+            return ["q_proj", "v_proj"]
+        # Otherwise prefer qkv_proj if available.
+        if "qkv_proj" in present:
+            return ["qkv_proj"]
+        # Fall back to whatever we found (at least 1).
+        if present:
+            # Keep list short to reduce trainable params.
+            # Prefer query/key/value over output.
+            preferred = [x for x in present if x in ("q_proj", "k_proj", "v_proj", "qkv_proj")]
+            return preferred[:2] if preferred else present[:2]
+
+        raise RuntimeError(
+            "Could not auto-detect LoRA target modules for this base model. "
+            "Try passing --lora-target-modules explicitly."
+        )
+
     # ── LoRA ──────────────────────────────────────────────────────────────────
+    if args.lora_target_modules:
+        target_modules = [x.strip() for x in args.lora_target_modules.split(",") if x.strip()]
+    else:
+        target_modules = detect_lora_target_modules(model)
+
+    print(f"LoRA target_modules={target_modules}")
+
     lora_cfg = LoraConfig(
         task_type=TaskType.CAUSAL_LM,
         r=args.lora_r,
         lora_alpha=args.lora_r * 2,
         lora_dropout=0.05,
-        target_modules=["q_proj", "v_proj"],
+        target_modules=target_modules,
         bias="none",
     )
     model = get_peft_model(model, lora_cfg)
@@ -572,6 +618,12 @@ def main():
     ap.add_argument("--lr",         type=float, default=2e-4)
     ap.add_argument("--warmup-ratio", type=float, default=0.03)
     ap.add_argument("--lora-r",     type=int,   default=8)
+    ap.add_argument(
+        "--lora-target-modules",
+        default="",
+        help="Comma-separated module name suffixes for LoRA injection "
+             "(e.g. q_proj,v_proj). If empty, auto-detects from the model."
+    )
     ap.add_argument("--max-length", type=int,   default=512)
     ap.add_argument("--limit",      type=int,   default=None,
                     help="Use only first N training rows (for quick tests)")

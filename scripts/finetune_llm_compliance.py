@@ -10,9 +10,9 @@ LoRA: r=8, target=[q_proj, v_proj], ~0.06% trainable params
 Output: models/compliance-llm-judge/
 
 Class balancing:
-  FA weight = 5.0   (rare — ~10% of data)
-  PA weight = 5.0   (rare — ~3% of data)
-  NA weight = 1.0   (majority class)
+  FA weight = 5.0    (rare — ~10% of data)
+  PA weight = 15.0   (very rare — ~3% of data; raised from 5x to counteract PA starvation)
+  NA weight = 1.0    (majority class)
 
 Completion-only loss: gradient is computed ONLY on the response token (FA/PA/NA)
 and the end-of-turn token. The full prompt (system + user) is masked as -100.
@@ -64,7 +64,7 @@ LABEL_FROM_STATUS = {
 
 LABEL_FROM_SCORE = {1.0: "FA", 0.7: "PA", 0.5: "PA", 0.0: "NA"}
 
-CLASS_WEIGHTS = {"FA": 5.0, "PA": 5.0, "NA": 1.0}
+CLASS_WEIGHTS = {"FA": 5.0, "PA": 15.0, "NA": 1.0}
 
 STATUS_FROM_LABEL = {
     "FA": "Fully Addressed",
@@ -321,8 +321,12 @@ def train(args):
         sys.exit(1)
 
     # ── Load data ─────────────────────────────────────────────────────────────
-    print(f"Loading training data from {args.train} ...")
-    train_rows = load_rows(args.train)
+    train_path = args.train
+    if args.clean:
+        train_path = args.train.replace("train.json", "train_clean.json")
+        print(f"--clean: using {train_path}")
+    print(f"Loading training data from {train_path} ...")
+    train_rows = load_rows(train_path)
     dev_rows   = load_rows(args.dev)
 
     if args.limit:
@@ -606,6 +610,9 @@ def main():
         description="Fine-tune Llama 3.2 as a UAE IA compliance classifier (FA/PA/NA)"
     )
     ap.add_argument("--train",      default="data/07_golden_mapping/training_data/train.json")
+    ap.add_argument("--clean",      action="store_true",
+                    help="Use train_clean.json (deduped + NA-capped) instead of train.json. "
+                         "Run scripts/fix_dataset.py first to generate it.")
     ap.add_argument("--dev",        default="data/07_golden_mapping/training_data/dev.json")
     ap.add_argument("--output",     default="models/compliance-llm-judge")
     ap.add_argument("--base-model", default="meta-llama/Llama-3.2-3B-Instruct",

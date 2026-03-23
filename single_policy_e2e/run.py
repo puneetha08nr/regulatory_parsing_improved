@@ -78,11 +78,21 @@ def main():
 
     use_reranker = os.environ.get("USE_RERANKER", "1") != "0"
     reranker_model = os.environ.get("RERANKER_MODEL", "cross-encoder/ms-marco-MiniLM-L-2-v2")
+    legalbert_path = os.environ.get(
+        "LEGALBERT_MODEL_PATH",
+        str(ROOT / "models/obligation-classifier-legalbert"),
+    )
+    use_legalbert = Path(legalbert_path).exists()
     pipeline = ComplianceMappingPipeline(
-        obligation_classifier="rule",
+        obligation_classifier="legalbert" if use_legalbert else "rule",
+        legalbert_model_path=legalbert_path if use_legalbert else None,
         use_reranker=use_reranker,
         reranker_model=reranker_model,
     )
+    if use_legalbert:
+        print(f"  Obligation classifier : LegalBERT ({legalbert_path})")
+    else:
+        print(f"  Obligation classifier : rule-based (LegalBERT model not found at {legalbert_path})")
     pipeline.load_ia_controls(str(controls_path))
     pipeline.load_policy_passages_from_list(policy_list)
 

@@ -10,9 +10,9 @@ LoRA: r=8, target=[q_proj, v_proj], ~0.06% trainable params
 Output: models/compliance-llm-judge/
 
 Class balancing:
-  FA weight = 5.0    (rare — ~10% of data)
-  PA weight = 15.0   (very rare — ~3% of data; raised from 5x to counteract PA starvation)
-  NA weight = 1.0    (majority class)
+  FA weight = 1.0    (baseline)
+  PA weight = 5.6    (51 PA × 5.6 ≈ 285 FA → equal effective counts → targets FA:PA:NA = 1:1:2)
+  NA weight = 2.2    (264 NA × 2.2 ≈ 570 = 2× FA → provides 2× as many NA as FA/PA)
 
 Completion-only loss: gradient is computed ONLY on the response token (FA/PA/NA)
 and the end-of-turn token. The full prompt (system + user) is masked as -100.
@@ -64,7 +64,7 @@ LABEL_FROM_STATUS = {
 
 LABEL_FROM_SCORE = {1.0: "FA", 0.7: "PA", 0.5: "PA", 0.0: "NA"}
 
-CLASS_WEIGHTS = {"FA": 5.0, "PA": 15.0, "NA": 1.0}
+CLASS_WEIGHTS = {"FA": 1.0, "PA": 5.6, "NA": 2.2}
 
 STATUS_FROM_LABEL = {
     "FA": "Fully Addressed",

@@ -342,7 +342,9 @@ def train(args):
     device     = torch.device(
         "cuda" if args.device == "cuda" and torch.cuda.is_available() else "cpu"
     )
-    device_map = "auto" if device.type == "cuda" else None
+    # Use {"": 0} instead of "auto" to force all layers onto cuda:0.
+    # "auto" can shard the model across CPU+GPU which breaks batch.to(device).
+    device_map = {"": 0} if device.type == "cuda" else None
 
     models_to_try = [args.base_model]
     if args.base_model_fallback:

@@ -84,7 +84,12 @@ def load_rows(path: str) -> list:
 
 
 def row_to_label(row: dict) -> str:
+    # Check "label" field (reranker format)
     label = LABEL_FROM_STATUS.get((row.get("label") or "").strip())
+    if label:
+        return label
+    # Check "compliance_status" field (golden_mapping / train_combined format)
+    label = LABEL_FROM_STATUS.get((row.get("compliance_status") or "").strip())
     if label:
         return label
     score = float(row.get("score", -1))

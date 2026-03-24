@@ -64,10 +64,10 @@ LABEL_FROM_STATUS = {
 
 LABEL_FROM_SCORE = {1.0: "FA", 0.7: "PA", 0.5: "PA", 0.0: "NA"}
 
-# Weights for combined dataset: FA=248, PA=228, NA=1084  target ratio 1:1:2
-# w_PA = 248/228 ≈ 1.09  (equalises FA and PA effective counts)
-# w_NA = 2*248/1084 ≈ 0.46  (makes NA effective count = 2× FA)
-CLASS_WEIGHTS = {"FA": 1.0, "PA": 1.09, "NA": 0.46}
+# Weights for combined dataset: FA=223, PA=205, NA=975 (train_split 90%)
+# PA boosted to 3.0x to compensate for difficulty of PA class
+# NA downweighted to keep effective ratio FA:PA:NA ≈ 1:2.7:1.3
+CLASS_WEIGHTS = {"FA": 1.0, "PA": 3.0, "NA": 0.46}
 
 STATUS_FROM_LABEL = {
     "FA": "Fully Addressed",
@@ -520,7 +520,7 @@ def train(args):
           f"lr={args.lr}  warmup={warmup_steps}/{total_steps} steps)")
 
     # ── Training loop ─────────────────────────────────────────────────────────
-    best_fa_recall  = -1.0
+    best_macro_f1   = -1.0
     best_epoch      = 0
 
     for epoch in range(args.epochs):
@@ -576,16 +576,16 @@ def train(args):
         report = evaluate(model, tokenizer, dev_rows, device, args.max_length)
         print_eval(report)
 
-        fa_recall = report["FA"]["recall"]
-        if fa_recall >= best_fa_recall:
-            best_fa_recall = fa_recall
-            best_epoch     = epoch + 1
+        macro_f1 = (report["FA"]["f1"] + report["PA"]["f1"] + report["NA"]["f1"]) / 3
+        if macro_f1 >= best_macro_f1:
+            best_macro_f1 = macro_f1
+            best_epoch    = epoch + 1
             model.save_pretrained(str(ckpt_dir))
             tokenizer.save_pretrained(str(ckpt_dir))
-            print(f"    → checkpoint saved (best FA recall={fa_recall:.3f})")
+            print(f"    → checkpoint saved (best macro F1={macro_f1:.3f})")
 
     # ── Save final model (best checkpoint merged) ─────────────────────────────
-    print(f"\nBest epoch: {best_epoch}  FA recall={best_fa_recall:.3f}")
+    print(f"\nBest epoch: {best_epoch}  macro F1={best_macro_f1:.3f}")
     best_ckpt = output_path / f"checkpoint-epoch{best_epoch}"
 
     print(f"Merging LoRA adapters from best checkpoint and saving to {output_path} ...")

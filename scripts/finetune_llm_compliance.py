@@ -64,10 +64,11 @@ LABEL_FROM_STATUS = {
 
 LABEL_FROM_SCORE = {1.0: "FA", 0.7: "PA", 0.5: "PA", 0.0: "NA"}
 
-# Weights for combined dataset: FA=223, PA=205, NA=975 (train_split 90%)
-# PA boosted to 3.0x to compensate for difficulty of PA class
-# NA downweighted to keep effective ratio FA:PA:NA ≈ 1:2.7:1.3
-CLASS_WEIGHTS = {"FA": 1.0, "PA": 3.0, "NA": 0.46}
+# Weights for train_split: FA=223, PA=205, NA=975
+# FA and PA both boosted to 3.0x so model sees them equally often
+# NA downweighted to 0.5x to prevent NA domination
+# Effective counts: FA=223*3=669, PA=205*3=615, NA=975*0.5=488 → ratio ≈ 1:0.9:0.7
+CLASS_WEIGHTS = {"FA": 3.0, "PA": 3.0, "NA": 0.5}
 
 STATUS_FROM_LABEL = {
     "FA": "Fully Addressed",
@@ -535,17 +536,37 @@ def train(args):
         except ImportError:
             batches = loader
 
+        label_smooth_fn = torch.nn.CrossEntropyLoss(
+            label_smoothing=0.1, ignore_index=-100
+        )
+
         for step_idx, batch in enumerate(batches):
             batch = {k: v.to(device) for k, v in batch.items()}
 
             if use_fp16:
                 with torch.amp.autocast("cuda"):
-                    out  = model(**batch)
-                    loss = out.loss / args.grad_accum
+                    out = model(
+                        input_ids=batch["input_ids"],
+                        attention_mask=batch["attention_mask"],
+                    )
+                    shift_logits = out.logits[..., :-1, :].contiguous()
+                    shift_labels = batch["labels"][..., 1:].contiguous()
+                    loss = label_smooth_fn(
+                        shift_logits.view(-1, shift_logits.size(-1)),
+                        shift_labels.view(-1),
+                    ) / args.grad_accum
                 scaler.scale(loss).backward()
             else:
-                out  = model(**batch)
-                loss = out.loss / args.grad_accum
+                out = model(
+                    input_ids=batch["input_ids"],
+                    attention_mask=batch["attention_mask"],
+                )
+                shift_logits = out.logits[..., :-1, :].contiguous()
+                shift_labels = batch["labels"][..., 1:].contiguous()
+                loss = label_smooth_fn(
+                    shift_logits.view(-1, shift_logits.size(-1)),
+                    shift_labels.view(-1),
+                ) / args.grad_accum
                 loss.backward()
 
             epoch_loss += loss.item() * args.grad_accum

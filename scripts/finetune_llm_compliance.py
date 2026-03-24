@@ -64,7 +64,10 @@ LABEL_FROM_STATUS = {
 
 LABEL_FROM_SCORE = {1.0: "FA", 0.7: "PA", 0.5: "PA", 0.0: "NA"}
 
-CLASS_WEIGHTS = {"FA": 1.0, "PA": 5.6, "NA": 2.2}
+# Weights for combined dataset: FA=248, PA=228, NA=1084  target ratio 1:1:2
+# w_PA = 248/228 ≈ 1.09  (equalises FA and PA effective counts)
+# w_NA = 2*248/1084 ≈ 0.46  (makes NA effective count = 2× FA)
+CLASS_WEIGHTS = {"FA": 1.0, "PA": 1.09, "NA": 0.46}
 
 STATUS_FROM_LABEL = {
     "FA": "Fully Addressed",

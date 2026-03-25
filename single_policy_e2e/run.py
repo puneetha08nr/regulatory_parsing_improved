@@ -37,6 +37,22 @@ def main():
         help="Path to policy JSON file (list of passage dicts). "
              "Overrides POLICY_JSON env var and config default.",
     )
+    ap.add_argument(
+        "--skip-obligation-filter",
+        action="store_true",
+        help="Skip the ObligationFilter pre-filter step and index all passages.",
+    )
+    ap.add_argument(
+        "--obligation-threshold",
+        type=float,
+        default=0.5,
+        help="Obligation classifier probability threshold (default=0.5).",
+    )
+    ap.add_argument(
+        "--obligation-model",
+        default=None,
+        help="Path to obligation classifier model. Defaults to models/obligation-classifier-legalbert.",
+    )
     args = ap.parse_args()
 
     policy_path = Path(args.policy) if args.policy else Path(config.POLICY_JSON)
@@ -69,9 +85,36 @@ def main():
     print("=" * 60)
     print(f"  Policy document : {policy_path.name}")
     print(f"  Policy doc ID   : {policy_doc_id}")
-    print(f"  Passages        : {len(policy_list)}")
+    print(f"  Passages (raw)  : {len(policy_list)}")
     print(f"  Output dir      : {output_dir}")
     print()
+
+    # ── ObligationFilter pre-filter ───────────────────────────────────────
+    if not args.skip_obligation_filter:
+        sys.path.insert(0, str(ROOT / "scripts"))
+        from obligation_filter import ObligationFilter
+
+        obligation_model_path = args.obligation_model or os.environ.get(
+            "OBLIGATION_MODEL_PATH",
+            str(ROOT / "models/obligation-classifier-legalbert"),
+        )
+        ob_filter = ObligationFilter(
+            model_path=obligation_model_path,
+            threshold=args.obligation_threshold,
+        )
+        kept, removed = ob_filter.filter_passages(policy_list, text_key="text")
+        print(f"  ObligationFilter : {len(policy_list)} → {len(kept)} passages "
+              f"({len(removed)} removed as non-obligation)")
+        if removed:
+            sample = removed[:3]
+            for p in sample:
+                snippet = (p.get("text") or "")[:80].replace("\n", " ")
+                print(f"    removed: [{p.get('id','?')}] {snippet!r}")
+        policy_list = kept
+        print()
+    else:
+        print("  ObligationFilter : skipped (--skip-obligation-filter)")
+        print()
 
     # ── Pipeline (reuse main repo) ────────────────────────────────────────
     from compliance_mapping_pipeline import ComplianceMappingPipeline
@@ -95,6 +138,7 @@ def main():
         print(f"  Obligation classifier : rule-based (LegalBERT model not found at {legalbert_path})")
     pipeline.load_ia_controls(str(controls_path))
     pipeline.load_policy_passages_from_list(policy_list)
+    print(f"  Passages (indexed): {len(policy_list)}")
 
     # Family-based routing: only map controls in families relevant to this policy (no 188 controls)
     routing_path = ROOT / "data/02_processed/family_routing.jsonl"

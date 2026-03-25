@@ -1,15 +1,15 @@
 {
-  "precision": 0.2432,
-  "recall": 0.9,
-  "f1": 0.383,
-  "tp": 9,
-  "fp": 8,
-  "fn": 1,
+  "precision": 0.1031,
+  "recall": 1.0,
+  "f1": 0.1869,
+  "tp": 10,
+  "fp": 9,
+  "fn": 0,
   "golden_positives": 10,
   "golden_negatives": 18,
-  "predicted_positives": 37,
+  "predicted_positives": 97,
   "recall_at_k": {
-    "5": 1.0,
+    "5": 0.875,
     "10": 1.0,
     "20": 1.0,
     "50": 1.0

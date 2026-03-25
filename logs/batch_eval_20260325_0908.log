@@ -1,0 +1,601 @@
+Loaded golden: 217 rows from golden_mapping_dataset_clean.json
+Policies matched: 16
+
+
+[1/16] AcquisitionDevelopmentMaintenance_v2_corrected.json
+/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/site-packages/transformers/utils/hub.py:110: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+  [ObligationFilter] Loading LegalBERT from /teamspace/studios/this_studio/regulatory_parsing_improved/models/obligation-classifier-legalbert on cuda ...
+  [ObligationFilter] Model loaded.
+   ✓ Reranker loaded from: /teamspace/studios/this_studio/regulatory_parsing_improved/models/compliance-reranker-v3
+✓ Loaded 188 IA controls
+✓ Loaded 19 policy passages in 1 document(s)
+✓ Loaded family routing for 18 policy document(s)
+  Using Cross-Encoder reranker (fast path; no NLI).
+
+Creating compliance mappings (per-document corpus, RegNLP-style)...
+  IA Controls: 188
+  Policy documents: 1
+  use_retrieval=True, use_reranker=True, use_graph=False
+  top_k_retrieve=50, top_k_rerank=50, top_k_per_doc=10, top_k_per_control=25
+  Family routing: mapping 103 controls (families relevant to loaded policy doc(s))
+  Building retrieval index (BM25 + Dense) for 1 document(s)...
+  [1/1] Indexing: clientname-IS-POL-00-Information Systems Acquisition Develop... (19 passages)
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  4.85it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  4.84it/s]
+✓ Retrieval index ready for 1 document(s) (BM25 + Dense + RRF per doc)
+  Mapping 103 controls (Reranker per control)...
+  Progress: 1/103
+    Control 1: doc 1/1
+  Progress: 5/103
+  Progress: 10/103
+  Progress: 15/103
+  Progress: 20/103
+  Progress: 25/103
+  Progress: 30/103
+  Progress: 35/103
+  Progress: 40/103
+  Progress: 45/103
+  Progress: 50/103
+  Progress: 55/103
+  Progress: 60/103
+  Progress: 65/103
+  Progress: 70/103
+  Progress: 75/103
+  Progress: 80/103
+  Progress: 85/103
+  Progress: 90/103
+  Progress: 95/103
+  Progress: 100/103
+✓ Created 1019 compliance mappings
+  P=0.000  R=0.000  F1=0.000  TP=0 FP=4 FN=0
+
+[2/16] Asset Management Policy 6_corrected.json
+  [ObligationFilter] Loading LegalBERT from /teamspace/studios/this_studio/regulatory_parsing_improved/models/obligation-classifier-legalbert on cuda ...
+  [ObligationFilter] Model loaded.
+   ✓ Reranker loaded from: /teamspace/studios/this_studio/regulatory_parsing_improved/models/compliance-reranker-v3
+✓ Loaded 188 IA controls
+✓ Loaded 19 policy passages in 1 document(s)
+✓ Loaded family routing for 18 policy document(s)
+  Using Cross-Encoder reranker (fast path; no NLI).
+
+Creating compliance mappings (per-document corpus, RegNLP-style)...
+  IA Controls: 188
+  Policy documents: 1
+  use_retrieval=True, use_reranker=True, use_graph=False
+  top_k_retrieve=50, top_k_rerank=50, top_k_per_doc=10, top_k_per_control=25
+  Family routing: mapping 10 controls (families relevant to loaded policy doc(s))
+  Building retrieval index (BM25 + Dense) for 1 document(s)...
+  [1/1] Indexing: clientname-IS-POL-00-Asset Management Policy 6 (19 passages)
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 20.95it/s]
+✓ Retrieval index ready for 1 document(s) (BM25 + Dense + RRF per doc)
+  Mapping 10 controls (Reranker per control)...
+  Progress: 1/10
+    Control 1: doc 1/1
+  Progress: 5/10
+  Progress: 10/10
+✓ Created 100 compliance mappings
+  P=0.231  R=1.000  F1=0.375  TP=3 FP=10 FN=0
+
+[3/16] Asset Management Policy_v0_corrected.json
+  [ObligationFilter] Loading LegalBERT from /teamspace/studios/this_studio/regulatory_parsing_improved/models/obligation-classifier-legalbert on cuda ...
+  [ObligationFilter] Model loaded.
+   ✓ Reranker loaded from: /teamspace/studios/this_studio/regulatory_parsing_improved/models/compliance-reranker-v3
+✓ Loaded 188 IA controls
+✓ Loaded 19 policy passages in 1 document(s)
+✓ Loaded family routing for 18 policy document(s)
+  Using Cross-Encoder reranker (fast path; no NLI).
+
+Creating compliance mappings (per-document corpus, RegNLP-style)...
+  IA Controls: 188
+  Policy documents: 1
+  use_retrieval=True, use_reranker=True, use_graph=False
+  top_k_retrieve=50, top_k_rerank=50, top_k_per_doc=10, top_k_per_control=25
+  Family routing: mapping 10 controls (families relevant to loaded policy doc(s))
+  Building retrieval index (BM25 + Dense) for 1 document(s)...
+  [1/1] Indexing: clientname-IS-POL-00-Asset Management Policy (19 passages)
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 25.18it/s]
+✓ Retrieval index ready for 1 document(s) (BM25 + Dense + RRF per doc)
+  Mapping 10 controls (Reranker per control)...
+  Progress: 1/10
+    Control 1: doc 1/1
+  Progress: 5/10
+  Progress: 10/10
+✓ Created 100 compliance mappings
+  P=0.250  R=0.500  F1=0.333  TP=3 FP=9 FN=3
+
+[4/16] InformationSecurity_EvaluatePolicy_corrected.json
+  [ObligationFilter] Loading LegalBERT from /teamspace/studios/this_studio/regulatory_parsing_improved/models/obligation-classifier-legalbert on cuda ...
+  [ObligationFilter] Model loaded.
+   ✓ Reranker loaded from: /teamspace/studios/this_studio/regulatory_parsing_improved/models/compliance-reranker-v3
+✓ Loaded 188 IA controls
+✓ Loaded 19 policy passages in 1 document(s)
+✓ Loaded family routing for 18 policy document(s)
+  Using Cross-Encoder reranker (fast path; no NLI).
+
+Creating compliance mappings (per-document corpus, RegNLP-style)...
+  IA Controls: 188
+  Policy documents: 1
+  use_retrieval=True, use_reranker=True, use_graph=False
+  top_k_retrieve=50, top_k_rerank=50, top_k_per_doc=10, top_k_per_control=25
+  Family routing: mapping 13 controls (families relevant to loaded policy doc(s))
+  Building retrieval index (BM25 + Dense) for 1 document(s)...
+  [1/1] Indexing: clientname-IS-POL-00-Information Security Incident Managemen... (19 passages)
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 27.20it/s]
+✓ Retrieval index ready for 1 document(s) (BM25 + Dense + RRF per doc)
+  Mapping 13 controls (Reranker per control)...
+  Progress: 1/13
+    Control 1: doc 1/1
+  Progress: 5/13
+  Progress: 10/13
+✓ Created 130 compliance mappings
+  P=0.200  R=1.000  F1=0.333  TP=3 FP=12 FN=0
+
+[5/16] ISSecurityIncidentMgmntPolicy_v3_corrected.json
+  [ObligationFilter] Loading LegalBERT from /teamspace/studios/this_studio/regulatory_parsing_improved/models/obligation-classifier-legalbert on cuda ...
+  [ObligationFilter] Model loaded.
+   ✓ Reranker loaded from: /teamspace/studios/this_studio/regulatory_parsing_improved/models/compliance-reranker-v3
+✓ Loaded 188 IA controls
+✓ Loaded 21 policy passages in 2 document(s)
+✓ Loaded family routing for 18 policy document(s)
+  Using Cross-Encoder reranker (fast path; no NLI).
+
+Creating compliance mappings (per-document corpus, RegNLP-style)...
+  IA Controls: 188
+  Policy documents: 2
+  use_retrieval=True, use_reranker=True, use_graph=False
+  top_k_retrieve=50, top_k_rerank=50, top_k_per_doc=10, top_k_per_control=25
+  Family routing: mapping 13 controls (families relevant to loaded policy doc(s))
+  Building retrieval index (BM25 + Dense) for 2 document(s)...
+  [1/2] Indexing: clientname-IS-POL-00-Information Security Incident Managemen... (20 passages)
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 26.22it/s]
+  [2/2] Indexing: clientname-IS-POL-00-Information Security Incident Managemen... (1 passages)
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 149.91it/s]
+✓ Retrieval index ready for 2 document(s) (BM25 + Dense + RRF per doc)
+  Mapping 13 controls (Reranker per control)...
+  (First control: 2 docs × rerank — may take a minute)
+  Progress: 1/13
+    Control 1: doc 1/2
+    Control 1: doc 2/2
+  Progress: 5/13
+  Progress: 10/13
+✓ Created 130 compliance mappings
+  P=0.100  R=1.000  F1=0.182  TP=1 FP=9 FN=0
+
+[6/16] Information Risk Management Policy v1.2_corrected.json
+  [ObligationFilter] Loading LegalBERT from /teamspace/studios/this_studio/regulatory_parsing_improved/models/obligation-classifier-legalbert on cuda ...
+  [ObligationFilter] Model loaded.
+   ✓ Reranker loaded from: /teamspace/studios/this_studio/regulatory_parsing_improved/models/compliance-reranker-v3
+✓ Loaded 188 IA controls
+✓ Loaded 15 policy passages in 1 document(s)
+✓ Loaded family routing for 18 policy document(s)
+  Using Cross-Encoder reranker (fast path; no NLI).
+
+Creating compliance mappings (per-document corpus, RegNLP-style)...
+  IA Controls: 188
+  Policy documents: 1
+  use_retrieval=True, use_reranker=True, use_graph=False
+  top_k_retrieve=50, top_k_rerank=50, top_k_per_doc=10, top_k_per_control=25
+  Family routing: mapping 11 controls (families relevant to loaded policy doc(s))
+  Building retrieval index (BM25 + Dense) for 1 document(s)...
+  [1/1] Indexing: clientname-IS-POL-00-Information Risk Management Policy v1.2... (15 passages)
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 30.41it/s]
+✓ Retrieval index ready for 1 document(s) (BM25 + Dense + RRF per doc)
+  Mapping 11 controls (Reranker per control)...
+  Progress: 1/11
+    Control 1: doc 1/1
+  Progress: 5/11
+  Progress: 10/11
+✓ Created 110 compliance mappings
+  P=0.167  R=1.000  F1=0.286  TP=1 FP=5 FN=0
+
+[7/16] InformationRiskManagementPolicy_v1.2.2_corrected.json
+  [ObligationFilter] Loading LegalBERT from /teamspace/studios/this_studio/regulatory_parsing_improved/models/obligation-classifier-legalbert on cuda ...
+  [ObligationFilter] Model loaded.
+   ✓ Reranker loaded from: /teamspace/studios/this_studio/regulatory_parsing_improved/models/compliance-reranker-v3
+✓ Loaded 188 IA controls
+✓ Loaded 15 policy passages in 1 document(s)
+✓ Loaded family routing for 18 policy document(s)
+  Using Cross-Encoder reranker (fast path; no NLI).
+
+Creating compliance mappings (per-document corpus, RegNLP-style)...
+  IA Controls: 188
+  Policy documents: 1
+  use_retrieval=True, use_reranker=True, use_graph=False
+  top_k_retrieve=50, top_k_rerank=50, top_k_per_doc=10, top_k_per_control=25
+  Family routing: mapping 11 controls (families relevant to loaded policy doc(s))
+  Building retrieval index (BM25 + Dense) for 1 document(s)...
+  [1/1] Indexing: clientname-IS-POL-00-Information Risk Management Policy v1.2... (15 passages)
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 30.22it/s]
+✓ Retrieval index ready for 1 document(s) (BM25 + Dense + RRF per doc)
+  Mapping 11 controls (Reranker per control)...
+  Progress: 1/11
+    Control 1: doc 1/1
+  Progress: 5/11
+  Progress: 10/11
+✓ Created 110 compliance mappings
+  P=0.200  R=1.000  F1=0.333  TP=1 FP=4 FN=0
+
+[8/16] InformationRiskManagement_v1.2.3_corrected.json
+  [ObligationFilter] Loading LegalBERT from /teamspace/studios/this_studio/regulatory_parsing_improved/models/obligation-classifier-legalbert on cuda ...
+  [ObligationFilter] Model loaded.
+   ✓ Reranker loaded from: /teamspace/studios/this_studio/regulatory_parsing_improved/models/compliance-reranker-v3
+✓ Loaded 188 IA controls
+✓ Loaded 16 policy passages in 1 document(s)
+✓ Loaded family routing for 18 policy document(s)
+  Using Cross-Encoder reranker (fast path; no NLI).
+
+Creating compliance mappings (per-document corpus, RegNLP-style)...
+  IA Controls: 188
+  Policy documents: 1
+  use_retrieval=True, use_reranker=True, use_graph=False
+  top_k_retrieve=50, top_k_rerank=50, top_k_per_doc=10, top_k_per_control=25
+  Family routing: mapping 11 controls (families relevant to loaded policy doc(s))
+  Building retrieval index (BM25 + Dense) for 1 document(s)...
+  [1/1] Indexing: clientname-IS-POL-00-Information Risk Management Policy v1.2... (16 passages)
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 29.58it/s]
+✓ Retrieval index ready for 1 document(s) (BM25 + Dense + RRF per doc)
+  Mapping 11 controls (Reranker per control)...
+  Progress: 1/11
+    Control 1: doc 1/1
+  Progress: 5/11
+  Progress: 10/11
+✓ Created 110 compliance mappings
+  P=0.200  R=1.000  F1=0.333  TP=1 FP=4 FN=0
+
+[9/16] InformationSecurityComPolicy_v2.0_corrected.json
+  [ObligationFilter] Loading LegalBERT from /teamspace/studios/this_studio/regulatory_parsing_improved/models/obligation-classifier-legalbert on cuda ...
+  [ObligationFilter] Model loaded.
+   ✓ Reranker loaded from: /teamspace/studios/this_studio/regulatory_parsing_improved/models/compliance-reranker-v3
+✓ Loaded 188 IA controls
+✓ Loaded 14 policy passages in 1 document(s)
+✓ Loaded family routing for 18 policy document(s)
+  Using Cross-Encoder reranker (fast path; no NLI).
+
+Creating compliance mappings (per-document corpus, RegNLP-style)...
+  IA Controls: 188
+  Policy documents: 1
+  use_retrieval=True, use_reranker=True, use_graph=False
+  top_k_retrieve=50, top_k_rerank=50, top_k_per_doc=10, top_k_per_control=25
+  Family routing: mapping 13 controls (families relevant to loaded policy doc(s))
+  Building retrieval index (BM25 + Dense) for 1 document(s)...
+  [1/1] Indexing: clientname-IS-POL-00-Information Security Compliance Policy ... (14 passages)
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 33.09it/s]
+✓ Retrieval index ready for 1 document(s) (BM25 + Dense + RRF per doc)
+  Mapping 13 controls (Reranker per control)...
+  Progress: 1/13
+    Control 1: doc 1/1
+  Progress: 5/13
+  Progress: 10/13
+✓ Created 130 compliance mappings
+  P=0.143  R=1.000  F1=0.250  TP=1 FP=6 FN=0
+
+[10/16] LogginMonitoringPolicy_v2_corrected.json
+  [ObligationFilter] Loading LegalBERT from /teamspace/studios/this_studio/regulatory_parsing_improved/models/obligation-classifier-legalbert on cuda ...
+  [ObligationFilter] Model loaded.
+   ✓ Reranker loaded from: /teamspace/studios/this_studio/regulatory_parsing_improved/models/compliance-reranker-v3
+✓ Loaded 188 IA controls
+✓ Loaded 17 policy passages in 1 document(s)
+✓ Loaded family routing for 18 policy document(s)
+  Using Cross-Encoder reranker (fast path; no NLI).
+
+Creating compliance mappings (per-document corpus, RegNLP-style)...
+  IA Controls: 188
+  Policy documents: 1
+  use_retrieval=True, use_reranker=True, use_graph=False
+  top_k_retrieve=50, top_k_rerank=50, top_k_per_doc=10, top_k_per_control=25
+  Family routing: mapping 17 controls (families relevant to loaded policy doc(s))
+  Building retrieval index (BM25 + Dense) for 1 document(s)...
+  [1/1] Indexing: clientname-IS-POL-00-Logging and Monitoring Policy 2 (17 passages)
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 27.89it/s]
+✓ Retrieval index ready for 1 document(s) (BM25 + Dense + RRF per doc)
+  Mapping 17 controls (Reranker per control)...
+  Progress: 1/17
+    Control 1: doc 1/1
+  Progress: 5/17
+  Progress: 10/17
+  Progress: 15/17
+✓ Created 170 compliance mappings
+  P=0.000  R=0.000  F1=0.000  TP=0 FP=0 FN=0
+
+[11/16] NetworkCommSecurityPolicy_v1.2_corrected.json
+  [ObligationFilter] Loading LegalBERT from /teamspace/studios/this_studio/regulatory_parsing_improved/models/obligation-classifier-legalbert on cuda ...
+  [ObligationFilter] Model loaded.
+   ✓ Reranker loaded from: /teamspace/studios/this_studio/regulatory_parsing_improved/models/compliance-reranker-v3
+✓ Loaded 188 IA controls
+✓ Loaded 19 policy passages in 1 document(s)
+✓ Loaded family routing for 18 policy document(s)
+  Using Cross-Encoder reranker (fast path; no NLI).
+
+Creating compliance mappings (per-document corpus, RegNLP-style)...
+  IA Controls: 188
+  Policy documents: 1
+  use_retrieval=True, use_reranker=True, use_graph=False
+  top_k_retrieve=50, top_k_rerank=50, top_k_per_doc=10, top_k_per_control=25
+  Family routing: mapping 161 controls (families relevant to loaded policy doc(s))
+  Building retrieval index (BM25 + Dense) for 1 document(s)...
+  [1/1] Indexing: clientname-IS-POL-00-Network and Communications Security Pol... (19 passages)
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 22.78it/s]
+✓ Retrieval index ready for 1 document(s) (BM25 + Dense + RRF per doc)
+  Mapping 161 controls (Reranker per control)...
+  Progress: 1/161
+    Control 1: doc 1/1
+  Progress: 5/161
+  Progress: 10/161
+  Progress: 15/161
+  Progress: 20/161
+  Progress: 25/161
+  Progress: 30/161
+  Progress: 35/161
+  Progress: 40/161
+  Progress: 45/161
+  Progress: 50/161
+  Progress: 55/161
+  Progress: 60/161
+  Progress: 65/161
+  Progress: 70/161
+  Progress: 75/161
+  Progress: 80/161
+  Progress: 85/161
+  Progress: 90/161
+  Progress: 95/161
+  Progress: 100/161
+  Progress: 105/161
+  Progress: 110/161
+  Progress: 115/161
+  Progress: 120/161
+  Progress: 125/161
+  Progress: 130/161
+  Progress: 135/161
+  Progress: 140/161
+  Progress: 145/161
+  Progress: 150/161
+  Progress: 155/161
+  Progress: 160/161
+✓ Created 1591 compliance mappings
+  P=0.100  R=1.000  F1=0.182  TP=1 FP=9 FN=0
+
+[12/16] PhysicalEnvSecurityPolicy_v1.2_corrected.json
+  [ObligationFilter] Loading LegalBERT from /teamspace/studios/this_studio/regulatory_parsing_improved/models/obligation-classifier-legalbert on cuda ...
+  [ObligationFilter] Model loaded.
+   ✓ Reranker loaded from: /teamspace/studios/this_studio/regulatory_parsing_improved/models/compliance-reranker-v3
+✓ Loaded 188 IA controls
+✓ Loaded 18 policy passages in 1 document(s)
+✓ Loaded family routing for 18 policy document(s)
+  Using Cross-Encoder reranker (fast path; no NLI).
+
+Creating compliance mappings (per-document corpus, RegNLP-style)...
+  IA Controls: 188
+  Policy documents: 1
+  use_retrieval=True, use_reranker=True, use_graph=False
+  top_k_retrieve=50, top_k_rerank=50, top_k_per_doc=10, top_k_per_control=25
+  Family routing: mapping 171 controls (families relevant to loaded policy doc(s))
+  Building retrieval index (BM25 + Dense) for 1 document(s)...
+  [1/1] Indexing: clientname-IS-POL-00-Physical and Environmental Security Pol... (18 passages)
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 23.83it/s]
+✓ Retrieval index ready for 1 document(s) (BM25 + Dense + RRF per doc)
+  Mapping 171 controls (Reranker per control)...
+  Progress: 1/171
+    Control 1: doc 1/1
+  Progress: 5/171
+  Progress: 10/171
+  Progress: 15/171
+  Progress: 20/171
+  Progress: 25/171
+  Progress: 30/171
+  Progress: 35/171
+  Progress: 40/171
+  Progress: 45/171
+  Progress: 50/171
+  Progress: 55/171
+  Progress: 60/171
+  Progress: 65/171
+  Progress: 70/171
+  Progress: 75/171
+  Progress: 80/171
+  Progress: 85/171
+  Progress: 90/171
+  Progress: 95/171
+  Progress: 100/171
+  Progress: 105/171
+  Progress: 110/171
+  Progress: 115/171
+  Progress: 120/171
+  Progress: 125/171
+  Progress: 130/171
+  Progress: 135/171
+  Progress: 140/171
+  Progress: 145/171
+  Progress: 150/171
+  Progress: 155/171
+  Progress: 160/171
+  Progress: 165/171
+  Progress: 170/171
+✓ Created 1695 compliance mappings
+  P=0.200  R=1.000  F1=0.333  TP=2 FP=8 FN=0
+
+[13/16] Vulnerability Management Policy v1.2_corrected.json
+  [ObligationFilter] Loading LegalBERT from /teamspace/studios/this_studio/regulatory_parsing_improved/models/obligation-classifier-legalbert on cuda ...
+  [ObligationFilter] Model loaded.
+   ✓ Reranker loaded from: /teamspace/studios/this_studio/regulatory_parsing_improved/models/compliance-reranker-v3
+✓ Loaded 188 IA controls
+✓ Loaded 9 policy passages in 1 document(s)
+✓ Loaded family routing for 18 policy document(s)
+  Using Cross-Encoder reranker (fast path; no NLI).
+
+Creating compliance mappings (per-document corpus, RegNLP-style)...
+  IA Controls: 188
+  Policy documents: 1
+  use_retrieval=True, use_reranker=True, use_graph=False
+  top_k_retrieve=50, top_k_rerank=50, top_k_per_doc=10, top_k_per_control=25
+  Family routing: mapping 25 controls (families relevant to loaded policy doc(s))
+  Building retrieval index (BM25 + Dense) for 1 document(s)...
+  [1/1] Indexing: clientname-IS-POL-00-Vulnerability Management Policy v1.2 (V... (9 passages)
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 48.04it/s]
+✓ Retrieval index ready for 1 document(s) (BM25 + Dense + RRF per doc)
+  Mapping 25 controls (Reranker per control)...
+  Progress: 1/25
+    Control 1: doc 1/1
+  Progress: 5/25
+  Progress: 10/25
+  Progress: 15/25
+  Progress: 20/25
+  Progress: 25/25
+✓ Created 166 compliance mappings
+  P=0.000  R=0.000  F1=0.000  TP=0 FP=1 FN=1
+
+[14/16] SecurityOperationsPolicy_v0_corrected.json
+  [ObligationFilter] Loading LegalBERT from /teamspace/studios/this_studio/regulatory_parsing_improved/models/obligation-classifier-legalbert on cuda ...
+  [ObligationFilter] Model loaded.
+   ✓ Reranker loaded from: /teamspace/studios/this_studio/regulatory_parsing_improved/models/compliance-reranker-v3
+✓ Loaded 188 IA controls
+✓ Loaded 15 policy passages in 1 document(s)
+✓ Loaded family routing for 18 policy document(s)
+  Using Cross-Encoder reranker (fast path; no NLI).
+
+Creating compliance mappings (per-document corpus, RegNLP-style)...
+  IA Controls: 188
+  Policy documents: 1
+  use_retrieval=True, use_reranker=True, use_graph=False
+  top_k_retrieve=50, top_k_rerank=50, top_k_per_doc=10, top_k_per_control=25
+  Family routing: mapping 165 controls (families relevant to loaded policy doc(s))
+  Building retrieval index (BM25 + Dense) for 1 document(s)...
+  [1/1] Indexing: clientname-IS-POL-00-Security Operations Policy (15 passages)
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 31.47it/s]
+✓ Retrieval index ready for 1 document(s) (BM25 + Dense + RRF per doc)
+  Mapping 165 controls (Reranker per control)...
+  Progress: 1/165
+    Control 1: doc 1/1
+  Progress: 5/165
+  Progress: 10/165
+  Progress: 15/165
+  Progress: 20/165
+  Progress: 25/165
+  Progress: 30/165
+  Progress: 35/165
+  Progress: 40/165
+  Progress: 45/165
+  Progress: 50/165
+  Progress: 55/165
+  Progress: 60/165
+  Progress: 65/165
+  Progress: 70/165
+  Progress: 75/165
+  Progress: 80/165
+  Progress: 85/165
+  Progress: 90/165
+  Progress: 95/165
+  Progress: 100/165
+  Progress: 105/165
+  Progress: 110/165
+  Progress: 115/165
+  Progress: 120/165
+  Progress: 125/165
+  Progress: 130/165
+  Progress: 135/165
+  Progress: 140/165
+  Progress: 145/165
+  Progress: 150/165
+  Progress: 155/165
+  Progress: 160/165
+  Progress: 165/165
+✓ Created 1631 compliance mappings
+  P=0.143  R=1.000  F1=0.250  TP=1 FP=6 FN=0
+
+[15/16] SecurityAwarenessTraining_v2_corrected.json
+  [ObligationFilter] Loading LegalBERT from /teamspace/studios/this_studio/regulatory_parsing_improved/models/obligation-classifier-legalbert on cuda ...
+  [ObligationFilter] Model loaded.
+   ✓ Reranker loaded from: /teamspace/studios/this_studio/regulatory_parsing_improved/models/compliance-reranker-v3
+✓ Loaded 188 IA controls
+✓ Loaded 12 policy passages in 1 document(s)
+✓ Loaded family routing for 18 policy document(s)
+  Using Cross-Encoder reranker (fast path; no NLI).
+
+Creating compliance mappings (per-document corpus, RegNLP-style)...
+  IA Controls: 188
+  Policy documents: 1
+  use_retrieval=True, use_reranker=True, use_graph=False
+  top_k_retrieve=50, top_k_rerank=50, top_k_per_doc=10, top_k_per_control=25
+  Family routing: mapping 8 controls (families relevant to loaded policy doc(s))
+  Building retrieval index (BM25 + Dense) for 1 document(s)...
+  [1/1] Indexing: clientname-IS-POL-00-Security Awareness and Training Policy ... (12 passages)
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 37.84it/s]
+✓ Retrieval index ready for 1 document(s) (BM25 + Dense + RRF per doc)
+  Mapping 8 controls (Reranker per control)...
+  Progress: 1/8
+    Control 1: doc 1/1
+  Progress: 5/8
+✓ Created 80 compliance mappings
+  P=0.250  R=1.000  F1=0.400  TP=1 FP=3 FN=0
+
+[16/16] Third-Party Security Policy v2.0_corrected.json
+  [ObligationFilter] Loading LegalBERT from /teamspace/studios/this_studio/regulatory_parsing_improved/models/obligation-classifier-legalbert on cuda ...
+  [ObligationFilter] Model loaded.
+   ✓ Reranker loaded from: /teamspace/studios/this_studio/regulatory_parsing_improved/models/compliance-reranker-v3
+✓ Loaded 188 IA controls
+✓ Loaded 13 policy passages in 1 document(s)
+✓ Loaded family routing for 18 policy document(s)
+  Using Cross-Encoder reranker (fast path; no NLI).
+
+Creating compliance mappings (per-document corpus, RegNLP-style)...
+  IA Controls: 188
+  Policy documents: 1
+  use_retrieval=True, use_reranker=True, use_graph=False
+  top_k_retrieve=50, top_k_rerank=50, top_k_per_doc=10, top_k_per_control=25
+  Family routing: mapping 123 controls (families relevant to loaded policy doc(s))
+  Building retrieval index (BM25 + Dense) for 1 document(s)...
+  [1/1] Indexing: clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA... (13 passages)
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 38.28it/s]
+✓ Retrieval index ready for 1 document(s) (BM25 + Dense + RRF per doc)
+  Mapping 123 controls (Reranker per control)...
+  Progress: 1/123
+    Control 1: doc 1/1
+  Progress: 5/123
+  Progress: 10/123
+  Progress: 15/123
+  Progress: 20/123
+  Progress: 25/123
+  Progress: 30/123
+  Progress: 35/123
+  Progress: 40/123
+  Progress: 45/123
+  Progress: 50/123
+  Progress: 55/123
+  Progress: 60/123
+  Progress: 65/123
+  Progress: 70/123
+  Progress: 75/123
+  Progress: 80/123
+  Progress: 85/123
+  Progress: 90/123
+  Progress: 95/123
+  Progress: 100/123
+  Progress: 105/123
+  Progress: 110/123
+  Progress: 115/123
+  Progress: 120/123
+✓ Created 1222 compliance mappings
+  P=0.250  R=1.000  F1=0.400  TP=2 FP=6 FN=0
+
+Saved batch results → /teamspace/studios/this_studio/regulatory_parsing_improved/data/08_evaluation/batch_results.json
+
+Policy File                                        Controls   TP   FP   FN      P      R     F1
+--------------------------------------------------------------------------------------------------
+AcquisitionDevelopmentMaintenance_v2_corrected.jso        0    0    4    0  0.000  0.000  0.000
+Asset Management Policy 6_corrected.json                  3    3   10    0  0.231  1.000  0.375
+Asset Management Policy_v0_corrected.json                 6    3    9    3  0.250  0.500  0.333
+InformationSecurity_EvaluatePolicy_corrected.json         3    3   12    0  0.200  1.000  0.333
+ISSecurityIncidentMgmntPolicy_v3_corrected.json           1    1    9    0  0.100  1.000  0.182
+Information Risk Management Policy v1.2_corrected.        1    1    5    0  0.167  1.000  0.286
+InformationRiskManagementPolicy_v1.2.2_corrected.j        1    1    4    0  0.200  1.000  0.333
+InformationRiskManagement_v1.2.3_corrected.json           1    1    4    0  0.200  1.000  0.333
+InformationSecurityComPolicy_v2.0_corrected.json          1    1    6    0  0.143  1.000  0.250
+LogginMonitoringPolicy_v2_corrected.json                  0    0    0    0  0.000  0.000  0.000
+NetworkCommSecurityPolicy_v1.2_corrected.json             1    1    9    0  0.100  1.000  0.182
+PhysicalEnvSecurityPolicy_v1.2_corrected.json             2    2    8    0  0.200  1.000  0.333
+Vulnerability Management Policy v1.2_corrected.jso        1    0    1    1  0.000  0.000  0.000
+SecurityOperationsPolicy_v0_corrected.json                1    1    6    0  0.143  1.000  0.250
+SecurityAwarenessTraining_v2_corrected.json               1    1    3    0  0.250  1.000  0.400
+Third-Party Security Policy v2.0_corrected.json           2    2    6    0  0.250  1.000  0.400
+--------------------------------------------------------------------------------------------------
+AVERAGE                                                                     0.152  0.781  0.249
+Appended to results tracker → /teamspace/studios/this_studio/regulatory_parsing_improved/data/08_evaluation/results_tracker.json

@@ -227,7 +227,24 @@ def main():
     policy_index = [e for e in policy_index if fnmatch.fnmatch(e["file"].name, args.policy)]
     # Filter to policies that have golden rows
     policy_index = [e for e in policy_index if match_golden(golden, e["doc_id"])]
-    print(f"Policies matched: {len(policy_index)}\n")
+
+    # Deduplicate by canonical policy_name (from golden) — keep doc_id with most positive rows.
+    # Also removes policies that have zero positive golden annotations.
+    name_to_best: dict[str, dict] = {}
+    for e in policy_index:
+        rows = match_golden(golden, e["doc_id"])
+        pos_count = sum(1 for r in rows if r.get("compliance_status") in POSITIVE_STATUSES)
+        if pos_count == 0:
+            continue  # no positive annotations — skip
+        policy_name = next((r.get("policy_name", "") for r in rows if r.get("policy_name")), "")
+        if not policy_name:
+            policy_name = e["doc_id"]  # fallback key
+        existing = name_to_best.get(policy_name)
+        if existing is None or pos_count > existing["_pos_count"]:
+            e["_pos_count"] = pos_count
+            name_to_best[policy_name] = e
+    policy_index = list(name_to_best.values())
+    print(f"Policies matched: {len(policy_index)} (after dedup + zero-positive filter)\n")
 
     if args.dry_run:
         print(f"  {'File':<55} {'DocID':<60} {'Golden':>6}")

@@ -197,8 +197,24 @@ def main():
     top_k_retrieve = int(os.environ.get("TOP_K_RETRIEVE", "50"))
     top_k_per_doc = int(os.environ.get("TOP_K_PER_DOC", "10"))
     top_k_per_control = int(os.environ.get("TOP_K_PER_CONTROL", "25"))
-    threshold_full = float(os.environ.get("THRESHOLD_FULL", "0.30"))
-    threshold_partial = float(os.environ.get("THRESHOLD_PARTIAL", "0.10"))
+
+    # Load per-policy thresholds (calibrate_threshold.py --per-policy)
+    _DEFAULT_THRESHOLD = 3.0
+    policy_thresholds_path = ROOT / "data/02_processed/policy_thresholds.json"
+    _policy_threshold = _DEFAULT_THRESHOLD
+    if policy_thresholds_path.exists():
+        try:
+            _pt = json.load(open(policy_thresholds_path))
+            _policy_threshold = _pt.get("thresholds", {}).get(policy_doc_id,
+                                   _pt.get("default_threshold", _DEFAULT_THRESHOLD))
+            print(f"  Per-policy threshold : {_policy_threshold} (from policy_thresholds.json)")
+        except Exception:
+            pass
+    else:
+        print(f"  Threshold            : {_policy_threshold} (default, no policy_thresholds.json found)")
+
+    threshold_full = float(os.environ.get("THRESHOLD_FULL", str(_policy_threshold)))
+    threshold_partial = float(os.environ.get("THRESHOLD_PARTIAL", str(_policy_threshold * 0.33)))
     pipeline.create_mappings(
         filter_obligations_only=True,
         use_retrieval=True,

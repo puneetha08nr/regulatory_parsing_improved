@@ -1,0 +1,11 @@
+{
+  "precision": 0.1111,
+  "recall": 0.1667,
+  "f1": 0.1333,
+  "tp": 1,
+  "fp": 0,
+  "fn": 5,
+  "golden_positives": 6,
+  "golden_negatives": 18,
+  "predicted_positives": 9
+}

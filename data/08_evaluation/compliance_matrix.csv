@@ -1,0 +1,12 @@
+Policy,M1,M2,M3,M4,M5,M6,T1,T2,T3,T4,T5,T6,T7,T8,T9,Total
+Access Control Policy - CPX policy is reference,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,3
+Asset Management Policy,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,6
+Information Risk Management Policy,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,3
+Information Security Compliance Policy,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1
+Information Security Incident Management Policy,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,4
+Network and Communications Security Policy,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1
+Physical and Environmental Security Policy,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,2
+Security Awareness and Training Policy,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1
+Security Operations Policy,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1
+Third-Party Security Policy,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,2
+Vulnerability Management Policy,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1

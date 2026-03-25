@@ -1,0 +1,2 @@
+  python3 scripts/finetune_reranker.py --train data/07_golden_mapping/train_combined_reranker.json --dev data/07_golden_mapping/training_data/dev.json --output models/compliance-reranker-v3 --loss bpr --max-negs-per-pos 3 --epochs 5   
+  --batch-size 16 --max-length 128 --early-stopping 2>&1 | tee logs/retrain_v3_$(date +%Y%m%d_%H%M).log  

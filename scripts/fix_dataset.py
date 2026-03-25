@@ -91,6 +91,30 @@ def cap_na_per_passage(records: list, max_na: int = 2) -> list:
     return out
 
 
+def report_per_policy(records_before: list, records_after: list) -> None:
+    """Print per-policy dedup stats."""
+    def group_by_policy(recs):
+        d = defaultdict(list)
+        for r in recs:
+            d[r.get("policy_name", "unknown")].append(r)
+        return d
+
+    before = group_by_policy(records_before)
+    after  = group_by_policy(records_after)
+
+    all_policies = sorted(set(before) | set(after))
+    print(f"\n  {'Policy':<55} {'Before':>6} {'After':>5} {'FA':>4} {'PA':>4} {'NA':>4}")
+    print("  " + "-" * 80)
+    for policy in all_policies:
+        b = before.get(policy, [])
+        a = after.get(policy, [])
+        fa = sum(1 for r in a if r.get("compliance_status") == "Fully Addressed")
+        pa = sum(1 for r in a if r.get("compliance_status") == "Partially Addressed")
+        na = sum(1 for r in a if r.get("compliance_status") == "Not Addressed")
+        print(f"  {policy[:55]:<55} {len(b):>6} {len(a):>5} {fa:>4} {pa:>4} {na:>4}")
+    print()
+
+
 def main():
     ap = argparse.ArgumentParser(description="Fix dataset quality issues")
     ap.add_argument("--golden-in",  default="data/07_golden_mapping/golden_mapping_dataset.json")
@@ -99,6 +123,8 @@ def main():
     ap.add_argument("--train-out",  default="data/07_golden_mapping/training_data/train_clean.json")
     ap.add_argument("--na-cap",     type=int, default=2,
                     help="Max NA records per passage in train (default: 2)")
+    ap.add_argument("--golden-only", action="store_true",
+                    help="Only fix golden dataset, skip train NA-cap")
     args = ap.parse_args()
 
     # ── Fix 1: Deduplicate golden ──────────────────────────────────────────────
@@ -107,13 +133,21 @@ def main():
         golden = json.load(f)
 
     golden_clean = dedup_golden(golden)
+    report_per_policy(golden, golden_clean)
 
     Path(args.golden_out).parent.mkdir(parents=True, exist_ok=True)
     with open(args.golden_out, "w", encoding="utf-8") as f:
         json.dump(golden_clean, f, indent=2, ensure_ascii=False)
     print(f"  Saved → {args.golden_out}\n")
 
+    if args.golden_only:
+        return
+
     # ── Fix 2: Cap NA per passage in train ────────────────────────────────────
+    if not Path(args.train_in).exists():
+        print(f"  Train file not found: {args.train_in} — skipping NA cap.")
+        return
+
     print(f"Fix 2: Capping NA per passage in {args.train_in} (max={args.na_cap}) ...")
     with open(args.train_in, encoding="utf-8") as f:
         train = json.load(f)

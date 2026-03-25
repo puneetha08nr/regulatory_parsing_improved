@@ -53,6 +53,11 @@ def main():
         default=None,
         help="Path to obligation classifier model. Defaults to models/obligation-classifier-legalbert.",
     )
+    ap.add_argument(
+        "--all-controls",
+        action="store_true",
+        help="Bypass family routing — evaluate all 188 controls against this policy.",
+    )
     args = ap.parse_args()
 
     policy_path = Path(args.policy) if args.policy else Path(config.POLICY_JSON)
@@ -140,13 +145,17 @@ def main():
     pipeline.load_policy_passages_from_list(policy_list)
     print(f"  Passages (indexed): {len(policy_list)}")
 
-    # Family-based routing: only map controls in families relevant to this policy (no 188 controls)
+    # Family-based routing: only map controls in families relevant to this policy
     routing_path = ROOT / "data/02_processed/family_routing.jsonl"
-    if routing_path.exists():
+    if args.all_controls:
+        print("  Family routing   : bypassed (--all-controls flag — using all 188 controls)")
+    elif routing_path.exists():
         pipeline.load_family_routing(str(routing_path))
         routed = getattr(pipeline, "_family_routing_by_doc", {}).get(policy_doc_id, [])
         if routed:
             print(f"  Family routing   : {routed} (only these control families will be mapped)")
+        else:
+            print(f"  Family routing   : no routing found for this doc_id — using all controls")
     else:
         print("  ⚠️  family_routing.jsonl not found — mapping all obligation controls for this policy.")
 
@@ -241,6 +250,31 @@ def main():
     print()
     print("  Done. Summary: P = {:.3f}, R = {:.3f}, F1 = {:.3f}".format(
         eval_result["precision"], eval_result["recall"], eval_result["f1"]))
+
+    # ── Auto-save to results tracker ──────────────────────────────────────────
+    import datetime
+    tracker_dir = ROOT / "data/08_evaluation"
+    tracker_dir.mkdir(parents=True, exist_ok=True)
+    tracker_path = tracker_dir / "results_tracker.json"
+    tracker = json.load(open(tracker_path)) if tracker_path.exists() else []
+    tracker.append({
+        "timestamp": datetime.datetime.now(datetime.timezone.utc).isoformat(),
+        "run_type": "single_policy",
+        "policy": policy_path.name,
+        "policy_doc_id": policy_doc_id,
+        "reranker_model": reranker_model,
+        "obligation_filter": not args.skip_obligation_filter,
+        "all_controls": args.all_controls,
+        "tp": eval_result["tp"],
+        "fp": eval_result["fp"],
+        "fn": eval_result["fn"],
+        "precision": eval_result["precision"],
+        "recall": eval_result["recall"],
+        "f1": eval_result["f1"],
+    })
+    with open(tracker_path, "w", encoding="utf-8") as f:
+        json.dump(tracker, f, indent=2)
+    print(f"  Results appended → {tracker_path}")
 
 
 if __name__ == "__main__":

@@ -96,7 +96,8 @@ def evaluate_and_save(
     fp = predicted & golden_neg
     fn = golden_pos - predicted
 
-    precision = len(tp) / len(predicted) if predicted else 0.0
+    # Precision = TP / (TP + FP) among golden-evaluated pairs only
+    precision = len(tp) / (len(tp) + len(fp)) if (len(tp) + len(fp)) > 0 else 0.0
     recall = len(tp) / len(golden_pos) if golden_pos else 0.0
     f1_score = f1(precision, recall)
 

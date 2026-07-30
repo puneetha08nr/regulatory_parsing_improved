@@ -1,0 +1,1800 @@
+{
+  "model": "claude-opus-4-8 (inline, this session)",
+  "n": 162,
+  "skipped": 0,
+  "results": [
+    {
+      "control_id": "M1.1.2",
+      "passage_id": "clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_10",
+      "policy_name": "Security Awareness and Training Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Not Addressed",
+      "ai_covered_atoms": [],
+      "ai_evidence": "awareness-program roles; control definition unavailable, deferred",
+      "ai_reason": "awareness-program roles; control definition unavailable, deferred"
+    },
+    {
+      "control_id": "M1.3.2",
+      "passage_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_14",
+      "policy_name": "Network and Communications Security Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Not Addressed",
+      "ai_covered_atoms": [],
+      "ai_evidence": "NDA/confidentiality content, off-topic",
+      "ai_reason": "NDA/confidentiality content, off-topic"
+    },
+    {
+      "control_id": "M1.4.2",
+      "passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 3_passage_5",
+      "policy_name": "Information Risk Management Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Not Addressed",
+      "ai_covered_atoms": [],
+      "ai_evidence": "scope boilerplate, no communication plan",
+      "ai_reason": "scope boilerplate, no communication plan"
+    },
+    {
+      "control_id": "M2.1.1",
+      "passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 1_passage_3",
+      "policy_name": "Information Risk Management Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Not Addressed",
+      "ai_covered_atoms": [],
+      "ai_evidence": "introduction boilerplate",
+      "ai_reason": "introduction boilerplate"
+    },
+    {
+      "control_id": "M2.1.1",
+      "passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 1_passage_5",
+      "policy_name": "Information Risk Management Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Not Addressed",
+      "ai_covered_atoms": [],
+      "ai_evidence": "scope boilerplate",
+      "ai_reason": "scope boilerplate"
+    },
+    {
+      "control_id": "M2.1.1",
+      "passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 1_passage_6",
+      "policy_name": "Information Risk Management Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Not Addressed",
+      "ai_covered_atoms": [],
+      "ai_evidence": "policy statement, no risk communication",
+      "ai_reason": "policy statement, no risk communication"
+    },
+    {
+      "control_id": "M2.1.1",
+      "passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 1_passage_7",
+      "policy_name": "Information Risk Management Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Partially Addressed",
+      "ai_covered_atoms": [
+        "b"
+      ],
+      "ai_evidence": "5.1.4 establish and implement a plan for communicating risk information and consulting key stakeholders during all stages",
+      "ai_reason": "5.1.4 establish and implement a plan for communicating risk information and consulting key stakeholders during all stages"
+    },
+    {
+      "control_id": "M2.1.1",
+      "passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2_passage_3",
+      "policy_name": "Information Risk Management Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Not Addressed",
+      "ai_covered_atoms": [],
+      "ai_evidence": "introduction boilerplate",
+      "ai_reason": "introduction boilerplate"
+    },
+    {
+      "control_id": "M2.1.1",
+      "passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2_passage_5",
+      "policy_name": "Information Risk Management Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Not Addressed",
+      "ai_covered_atoms": [],
+      "ai_evidence": "scope boilerplate",
+      "ai_reason": "scope boilerplate"
+    },
+    {
+      "control_id": "M2.1.1",
+      "passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2_passage_6",
+      "policy_name": "Information Risk Management Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Not Addressed",
+      "ai_covered_atoms": [],
+      "ai_evidence": "policy statement",
+      "ai_reason": "policy statement"
+    },
+    {
+      "control_id": "M2.1.1",
+      "passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2_passage_7",
+      "policy_name": "Information Risk Management Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Partially Addressed",
+      "ai_covered_atoms": [
+        "b"
+      ],
+      "ai_evidence": "5.1.4 plan for communicating risk information and consulting key stakeholders during all stages",
+      "ai_reason": "5.1.4 plan for communicating risk information and consulting key stakeholders during all stages"
+    },
+    {
+      "control_id": "M2.1.1",
+      "passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 3_passage_3",
+      "policy_name": "Information Risk Management Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Not Addressed",
+      "ai_covered_atoms": [],
+      "ai_evidence": "introduction boilerplate",
+      "ai_reason": "introduction boilerplate"
+    },
+    {
+      "control_id": "M2.1.1",
+      "passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 3_passage_5",
+      "policy_name": "Information Risk Management Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Not Addressed",
+      "ai_covered_atoms": [],
+      "ai_evidence": "scope boilerplate",
+      "ai_reason": "scope boilerplate"
+    },
+    {
+      "control_id": "M2.1.1",
+      "passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 3_passage_6",
+      "policy_name": "Information Risk Management Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Not Addressed",
+      "ai_covered_atoms": [],
+      "ai_evidence": "policy statement",
+      "ai_reason": "policy statement"
+    },
+    {
+      "control_id": "M2.1.1",
+      "passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 3_passage_7",
+      "policy_name": "Information Risk Management Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Partially Addressed",
+      "ai_covered_atoms": [
+        "b"
+      ],
+      "ai_evidence": "5.1.4 plan for communicating risk information and consulting key stakeholders during all stages",
+      "ai_reason": "5.1.4 plan for communicating risk information and consulting key stakeholders during all stages"
+    },
+    {
+      "control_id": "M2.2.1",
+      "passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 1_passage_8",
+      "policy_name": "Information Risk Management Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Not Addressed",
+      "ai_covered_atoms": [],
+      "ai_evidence": "risk assessment process; control definition unavailable, deferred to human",
+      "ai_reason": "risk assessment process; control definition unavailable, deferred to human"
+    },
+    {
+      "control_id": "M2.3.1",
+      "passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 1_passage_9",
+      "policy_name": "Information Risk Management Policy",
+      "human_label": "Partially Addressed",
+      "ai_label": "Partially Addressed",
+      "ai_covered_atoms": [],
+      "ai_evidence": "lists risk treatment options; definition unavailable, deferred to human",
+      "ai_reason": "lists risk treatment options; definition unavailable, deferred to human"
+    },
+    {
+      "control_id": "M2.3.1",
+      "passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2_passage_9",
+      "policy_name": "Information Risk Management Policy",
+      "human_label": "Partially Addressed",
+      "ai_label": "Partially Addressed",
+      "ai_covered_atoms": [],
+      "ai_evidence": "risk categorization; definition unavailable, deferred to human",
+      "ai_reason": "risk categorization; definition unavailable, deferred to human"
+    },
+    {
+      "control_id": "M2.3.1",
+      "passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 3_passage_9",
+      "policy_name": "Information Risk Management Policy",
+      "human_label": "Partially Addressed",
+      "ai_label": "Partially Addressed",
+      "ai_covered_atoms": [],
+      "ai_evidence": "risk categorization/assessment; definition unavailable, deferred to human",
+      "ai_reason": "risk categorization/assessment; definition unavailable, deferred to human"
+    },
+    {
+      "control_id": "M2.3.2",
+      "passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 1_passage_9",
+      "policy_name": "Information Risk Management Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Not Addressed",
+      "ai_covered_atoms": [],
+      "ai_evidence": "no control identification / Statement of Applicability",
+      "ai_reason": "no control identification / Statement of Applicability"
+    },
+    {
+      "control_id": "M2.3.2",
+      "passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2_passage_9",
+      "policy_name": "Information Risk Management Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Not Addressed",
+      "ai_covered_atoms": [],
+      "ai_evidence": "categorization only; no control identification/SoA",
+      "ai_reason": "categorization only; no control identification/SoA"
+    },
+    {
+      "control_id": "M2.3.2",
+      "passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 3_passage_9",
+      "policy_name": "Information Risk Management Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Not Addressed",
+      "ai_covered_atoms": [],
+      "ai_evidence": "categorization only; no control identification/SoA",
+      "ai_reason": "categorization only; no control identification/SoA"
+    },
+    {
+      "control_id": "M3.1.1",
+      "passage_id": "clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_3",
+      "policy_name": "Security Awareness and Training Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Not Addressed",
+      "ai_covered_atoms": [],
+      "ai_evidence": "introduction prose; no policy framework/objectives/roles",
+      "ai_reason": "introduction prose; no policy framework/objectives/roles"
+    },
+    {
+      "control_id": "M3.2.1",
+      "passage_id": "clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_6",
+      "policy_name": "Security Awareness and Training Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Not Addressed",
+      "ai_covered_atoms": [],
+      "ai_evidence": "section heading only",
+      "ai_reason": "section heading only"
+    },
+    {
+      "control_id": "M3.2.1",
+      "passage_id": "clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_7",
+      "policy_name": "Security Awareness and Training Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Partially Addressed",
+      "ai_covered_atoms": [
+        "a",
+        "b",
+        "d",
+        "g"
+      ],
+      "ai_evidence": "5.1.1 develop and formalize awareness/training program; 5.1.6-5.1.7 provide training; 5.1.4 review/update on results",
+      "ai_reason": "5.1.1 develop and formalize awareness/training program; 5.1.6-5.1.7 provide training; 5.1.4 review/update on results"
+    },
+    {
+      "control_id": "M3.3.1",
+      "passage_id": "clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_8",
+      "policy_name": "Security Awareness and Training Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Not Addressed",
+      "ai_covered_atoms": [],
+      "ai_evidence": "role-specific training delivery; does not identify skills needs/gaps",
+      "ai_reason": "role-specific training delivery; does not identify skills needs/gaps"
+    },
+    {
+      "control_id": "M3.3.4",
+      "passage_id": "clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_9",
+      "policy_name": "Security Awareness and Training Policy",
+      "human_label": "Fully Addressed",
+      "ai_label": "Not Addressed",
+      "ai_covered_atoms": [],
+      "ai_evidence": "training RECORDS retention; not measuring training effectiveness before/after",
+      "ai_reason": "training RECORDS retention; not measuring training effectiveness before/after"
+    },
+    {
+      "control_id": "M5.1.1",
+      "passage_id": "clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_3",
+      "policy_name": "Information Security Compliance Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Not Addressed",
+      "ai_covered_atoms": [],
+      "ai_evidence": "introduction; no roles/approach detail",
+      "ai_reason": "introduction; no roles/approach detail"
+    },
+    {
+      "control_id": "M5.1.1",
+      "passage_id": "clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_4",
+      "policy_name": "Information Security Compliance Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Not Addressed",
+      "ai_covered_atoms": [],
+      "ai_evidence": "purpose statement only; does not establish policy roles/framework",
+      "ai_reason": "purpose statement only; does not establish policy roles/framework"
+    },
+    {
+      "control_id": "M5.2.1",
+      "passage_id": "clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_7",
+      "policy_name": "Information Security Compliance Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Partially Addressed",
+      "ai_covered_atoms": [
+        "b",
+        "d"
+      ],
+      "ai_evidence": "5.1 Identify/define/establish compliance requirements; define+implement controls, assign responsibilities",
+      "ai_reason": "5.1 Identify/define/establish compliance requirements; define+implement controls, assign responsibilities"
+    },
+    {
+      "control_id": "M5.2.2",
+      "passage_id": "clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_8",
+      "policy_name": "Information Security Compliance Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Partially Addressed",
+      "ai_covered_atoms": [
+        "c",
+        "d",
+        "e"
+      ],
+      "ai_evidence": "5.2 IPR: identify IPR assets, system requirements, controls (reputable sources, license verification, awareness)",
+      "ai_reason": "5.2 IPR: identify IPR assets, system requirements, controls (reputable sources, license verification, awareness)"
+    },
+    {
+      "control_id": "M5.2.3",
+      "passage_id": "clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_9",
+      "policy_name": "Information Security Compliance Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Partially Addressed",
+      "ai_covered_atoms": [
+        "b",
+        "d"
+      ],
+      "ai_evidence": "5.3 define/categorize records + retention; controls to protect records from loss/deterioration",
+      "ai_reason": "5.3 define/categorize records + retention; controls to protect records from loss/deterioration"
+    },
+    {
+      "control_id": "M5.3.1",
+      "passage_id": "clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_10",
+      "policy_name": "Information Security Compliance Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Not Addressed",
+      "ai_covered_atoms": [],
+      "ai_evidence": "org-level compliance assessment, not manager-area procedure monitoring",
+      "ai_reason": "org-level compliance assessment, not manager-area procedure monitoring"
+    },
+    {
+      "control_id": "M5.3.1",
+      "passage_id": "clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_6",
+      "policy_name": "Information Security Compliance Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Not Addressed",
+      "ai_covered_atoms": [],
+      "ai_evidence": "general policy statement",
+      "ai_reason": "general policy statement"
+    },
+    {
+      "control_id": "M5.4.1",
+      "passage_id": "clientname-IS-POL-00-Vulnerability Management Policy v1.2 (V_A)_passage_5",
+      "policy_name": "Vulnerability Management Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Not Addressed",
+      "ai_covered_atoms": [],
+      "ai_evidence": "scope boilerplate",
+      "ai_reason": "scope boilerplate"
+    },
+    {
+      "control_id": "M5.4.1",
+      "passage_id": "clientname-IS-POL-00-Vulnerability Management Policy v1.2 (V_A)_passage_6",
+      "policy_name": "Vulnerability Management Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Not Addressed",
+      "ai_covered_atoms": [],
+      "ai_evidence": "high-level policy statement",
+      "ai_reason": "high-level policy statement"
+    },
+    {
+      "control_id": "M5.4.1",
+      "passage_id": "clientname-IS-POL-00-Vulnerability Management Policy v1.2 (V_A)_passage_7",
+      "policy_name": "Vulnerability Management Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Partially Addressed",
+      "ai_covered_atoms": [
+        "b",
+        "c",
+        "d"
+      ],
+      "ai_evidence": "6.1 routine VA scans (annual/quarterly), reviewed by IS team, remediation reporting",
+      "ai_reason": "6.1 routine VA scans (annual/quarterly), reviewed by IS team, remediation reporting"
+    },
+    {
+      "control_id": "M5.5.1",
+      "passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 1_passage_5",
+      "policy_name": "Information Risk Management Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Not Addressed",
+      "ai_covered_atoms": [],
+      "ai_evidence": "scope boilerplate",
+      "ai_reason": "scope boilerplate"
+    },
+    {
+      "control_id": "T1.1.1",
+      "passage_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_15",
+      "policy_name": "Asset Management Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Not Addressed",
+      "ai_covered_atoms": [],
+      "ai_evidence": "BYOD fragment; does not establish the asset management policy",
+      "ai_reason": "BYOD fragment; does not establish the asset management policy"
+    },
+    {
+      "control_id": "T1.1.1",
+      "passage_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_3",
+      "policy_name": "Asset Management Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Not Addressed",
+      "ai_covered_atoms": [],
+      "ai_evidence": "introduction narrative",
+      "ai_reason": "introduction narrative"
+    },
+    {
+      "control_id": "T1.1.1",
+      "passage_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_4",
+      "policy_name": "Asset Management Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Not Addressed",
+      "ai_covered_atoms": [],
+      "ai_evidence": "purpose only; not full policy establishment",
+      "ai_reason": "purpose only; not full policy establishment"
+    },
+    {
+      "control_id": "T1.1.1",
+      "passage_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_6",
+      "policy_name": "Asset Management Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Not Addressed",
+      "ai_covered_atoms": [],
+      "ai_evidence": "thin policy statement (identify + inventory)",
+      "ai_reason": "thin policy statement (identify + inventory)"
+    },
+    {
+      "control_id": "T1.1.1",
+      "passage_id": "clientname-IS-POL-00-Asset Management Policy_passage_15",
+      "policy_name": "Asset Management Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Not Addressed",
+      "ai_covered_atoms": [],
+      "ai_evidence": "BYOD fragment",
+      "ai_reason": "BYOD fragment"
+    },
+    {
+      "control_id": "T1.1.1",
+      "passage_id": "clientname-IS-POL-00-Asset Management Policy_passage_3",
+      "policy_name": "Asset Management Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Not Addressed",
+      "ai_covered_atoms": [],
+      "ai_evidence": "introduction narrative",
+      "ai_reason": "introduction narrative"
+    },
+    {
+      "control_id": "T1.1.1",
+      "passage_id": "clientname-IS-POL-00-Asset Management Policy_passage_4",
+      "policy_name": "Asset Management Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Not Addressed",
+      "ai_covered_atoms": [],
+      "ai_evidence": "purpose only",
+      "ai_reason": "purpose only"
+    },
+    {
+      "control_id": "T1.1.1",
+      "passage_id": "clientname-IS-POL-00-Asset Management Policy_passage_6",
+      "policy_name": "Asset Management Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Not Addressed",
+      "ai_covered_atoms": [],
+      "ai_evidence": "thin policy statement",
+      "ai_reason": "thin policy statement"
+    },
+    {
+      "control_id": "T1.2.1",
+      "passage_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_7",
+      "policy_name": "Asset Management Policy",
+      "human_label": "Partially Addressed",
+      "ai_label": "Partially Addressed",
+      "ai_covered_atoms": [
+        "b",
+        "c"
+      ],
+      "ai_evidence": "5.1 Asset Inventory: identify assets + maintain dedicated inventory with type/owner/location",
+      "ai_reason": "5.1 Asset Inventory: identify assets + maintain dedicated inventory with type/owner/location"
+    },
+    {
+      "control_id": "T1.2.1",
+      "passage_id": "clientname-IS-POL-00-Asset Management Policy_passage_7",
+      "policy_name": "Asset Management Policy",
+      "human_label": "Partially Addressed",
+      "ai_label": "Partially Addressed",
+      "ai_covered_atoms": [
+        "b",
+        "c"
+      ],
+      "ai_evidence": "5.1 Asset Inventory: identify + maintain inventory (no accuracy/consistency atom)",
+      "ai_reason": "5.1 Asset Inventory: identify + maintain inventory (no accuracy/consistency atom)"
+    },
+    {
+      "control_id": "T1.2.2",
+      "passage_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_14",
+      "policy_name": "Asset Management Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Not Addressed",
+      "ai_covered_atoms": [],
+      "ai_evidence": "control definition unavailable; deferred to human",
+      "ai_reason": "control definition unavailable; deferred to human"
+    },
+    {
+      "control_id": "T1.2.2",
+      "passage_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_8",
+      "policy_name": "Asset Management Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Not Addressed",
+      "ai_covered_atoms": [],
+      "ai_evidence": "asset ownership; control definition unavailable, deferred",
+      "ai_reason": "asset ownership; control definition unavailable, deferred"
+    },
+    {
+      "control_id": "T1.2.2",
+      "passage_id": "clientname-IS-POL-00-Asset Management Policy_passage_8",
+      "policy_name": "Asset Management Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Not Addressed",
+      "ai_covered_atoms": [],
+      "ai_evidence": "asset ownership; control definition unavailable, deferred",
+      "ai_reason": "asset ownership; control definition unavailable, deferred"
+    },
+    {
+      "control_id": "T1.2.3",
+      "passage_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_14",
+      "policy_name": "Asset Management Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Partially Addressed",
+      "ai_covered_atoms": [],
+      "ai_evidence": "5.8 Acceptable Use of Assets: approval before deployment, documented acceptable-use rules",
+      "ai_reason": "5.8 Acceptable Use of Assets: approval before deployment, documented acceptable-use rules"
+    },
+    {
+      "control_id": "T1.2.3",
+      "passage_id": "clientname-IS-POL-00-Asset Management Policy_passage_14",
+      "policy_name": "Asset Management Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Partially Addressed",
+      "ai_covered_atoms": [],
+      "ai_evidence": "5.8 Acceptable Use of Assets: rules established and circulated",
+      "ai_reason": "5.8 Acceptable Use of Assets: rules established and circulated"
+    },
+    {
+      "control_id": "T1.3.2",
+      "passage_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_9",
+      "policy_name": "Asset Management Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Partially Addressed",
+      "ai_covered_atoms": [
+        "b",
+        "c"
+      ],
+      "ai_evidence": "5.3 labeling procedures for physical/electronic assets + apply labels on outputs",
+      "ai_reason": "5.3 labeling procedures for physical/electronic assets + apply labels on outputs"
+    },
+    {
+      "control_id": "T1.3.2",
+      "passage_id": "clientname-IS-POL-00-Asset Management Policy_passage_9",
+      "policy_name": "Asset Management Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Partially Addressed",
+      "ai_covered_atoms": [
+        "b",
+        "c"
+      ],
+      "ai_evidence": "5.3 Asset Labelling: develop labeling procedures + apply labels on outputs",
+      "ai_reason": "5.3 Asset Labelling: develop labeling procedures + apply labels on outputs"
+    },
+    {
+      "control_id": "T1.3.3",
+      "passage_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_10",
+      "policy_name": "Asset Management Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Partially Addressed",
+      "ai_covered_atoms": [
+        "b",
+        "c"
+      ],
+      "ai_evidence": "5.4 develop handling procedures for processing/storing/communicating + safeguard per procedures",
+      "ai_reason": "5.4 develop handling procedures for processing/storing/communicating + safeguard per procedures"
+    },
+    {
+      "control_id": "T1.3.3",
+      "passage_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_9",
+      "policy_name": "Asset Management Policy",
+      "human_label": "Partially Addressed",
+      "ai_label": "Not Addressed",
+      "ai_covered_atoms": [],
+      "ai_evidence": "labelling passage; not asset-handling procedures",
+      "ai_reason": "labelling passage; not asset-handling procedures"
+    },
+    {
+      "control_id": "T1.3.3",
+      "passage_id": "clientname-IS-POL-00-Asset Management Policy_passage_10",
+      "policy_name": "Asset Management Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Partially Addressed",
+      "ai_covered_atoms": [
+        "b",
+        "c"
+      ],
+      "ai_evidence": "5.4 Asset Handling: handling procedures + safeguard",
+      "ai_reason": "5.4 Asset Handling: handling procedures + safeguard"
+    },
+    {
+      "control_id": "T1.3.3",
+      "passage_id": "clientname-IS-POL-00-Asset Management Policy_passage_9",
+      "policy_name": "Asset Management Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Not Addressed",
+      "ai_covered_atoms": [],
+      "ai_evidence": "labelling passage; not handling",
+      "ai_reason": "labelling passage; not handling"
+    },
+    {
+      "control_id": "T1.4.1",
+      "passage_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_11",
+      "policy_name": "Asset Management Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Partially Addressed",
+      "ai_covered_atoms": [
+        "b",
+        "f"
+      ],
+      "ai_evidence": "5.5 Removable Media Management: lifecycle handling + restrict/monitor usage",
+      "ai_reason": "5.5 Removable Media Management: lifecycle handling + restrict/monitor usage"
+    },
+    {
+      "control_id": "T1.4.1",
+      "passage_id": "clientname-IS-POL-00-Asset Management Policy_passage_11",
+      "policy_name": "Asset Management Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Partially Addressed",
+      "ai_covered_atoms": [
+        "b",
+        "f"
+      ],
+      "ai_evidence": "5.5 Removable Media Management: lifecycle handling + restrict/monitor usage",
+      "ai_reason": "5.5 Removable Media Management: lifecycle handling + restrict/monitor usage"
+    },
+    {
+      "control_id": "T1.4.2",
+      "passage_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_12",
+      "policy_name": "Asset Management Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Fully Addressed",
+      "ai_covered_atoms": [
+        "b",
+        "c",
+        "d",
+        "e"
+      ],
+      "ai_evidence": "5.6 Disposal: secure disposal procedures by sensitivity, destroy paper+digital, keep records when no longer needed",
+      "ai_reason": "5.6 Disposal: secure disposal procedures by sensitivity, destroy paper+digital, keep records when no longer needed"
+    },
+    {
+      "control_id": "T1.4.2",
+      "passage_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_14",
+      "policy_name": "Asset Management Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Not Addressed",
+      "ai_covered_atoms": [],
+      "ai_evidence": "acceptable-use passage; not disposal",
+      "ai_reason": "acceptable-use passage; not disposal"
+    },
+    {
+      "control_id": "T1.4.2",
+      "passage_id": "clientname-IS-POL-00-Asset Management Policy_passage_12",
+      "policy_name": "Asset Management Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Fully Addressed",
+      "ai_covered_atoms": [
+        "b",
+        "c",
+        "d",
+        "e"
+      ],
+      "ai_evidence": "5.6 Disposal: secure disposal by sensitivity, destroy paper+digital, keep records",
+      "ai_reason": "5.6 Disposal: secure disposal by sensitivity, destroy paper+digital, keep records"
+    },
+    {
+      "control_id": "T1.4.2",
+      "passage_id": "clientname-IS-POL-00-Asset Management Policy_passage_13",
+      "policy_name": "Asset Management Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Not Addressed",
+      "ai_covered_atoms": [],
+      "ai_evidence": "physical media transfer; not disposal",
+      "ai_reason": "physical media transfer; not disposal"
+    },
+    {
+      "control_id": "T2.1.1",
+      "passage_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_3",
+      "policy_name": "Physical and Environmental Security Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Not Addressed",
+      "ai_covered_atoms": [],
+      "ai_evidence": "introduction narrative; does not establish the policy",
+      "ai_reason": "introduction narrative; does not establish the policy"
+    },
+    {
+      "control_id": "T2.1.1",
+      "passage_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_4",
+      "policy_name": "Physical and Environmental Security Policy",
+      "human_label": "Fully Addressed",
+      "ai_label": "Not Addressed",
+      "ai_covered_atoms": [],
+      "ai_evidence": "purpose fragment; does not establish full policy (roles/ack/review absent) - human FA over-labels",
+      "ai_reason": "purpose fragment; does not establish full policy (roles/ack/review absent) - human FA over-labels"
+    },
+    {
+      "control_id": "T2.1.1",
+      "passage_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_6",
+      "policy_name": "Physical and Environmental Security Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Not Addressed",
+      "ai_covered_atoms": [],
+      "ai_evidence": "thin policy statement",
+      "ai_reason": "thin policy statement"
+    },
+    {
+      "control_id": "T2.2.2",
+      "passage_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_8",
+      "policy_name": "Physical and Environmental Security Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Fully Addressed",
+      "ai_covered_atoms": [
+        "b",
+        "c",
+        "d",
+        "e",
+        "f"
+      ],
+      "ai_evidence": "5.2 authenticate persons (5.2.8), log+monitor access (5.2.9), visible ID (5.2.6), escort contractors (5.2.12)",
+      "ai_reason": "5.2 authenticate persons (5.2.8), log+monitor access (5.2.9), visible ID (5.2.6), escort contractors (5.2.12)"
+    },
+    {
+      "control_id": "T2.2.4",
+      "passage_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_9",
+      "policy_name": "Physical and Environmental Security Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Partially Addressed",
+      "ai_covered_atoms": [],
+      "ai_evidence": "5.3 Protecting Against External and Environmental Threats implements the control",
+      "ai_reason": "5.3 Protecting Against External and Environmental Threats implements the control"
+    },
+    {
+      "control_id": "T2.2.5",
+      "passage_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_10",
+      "policy_name": "Physical and Environmental Security Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Partially Addressed",
+      "ai_covered_atoms": [
+        "b",
+        "c"
+      ],
+      "ai_evidence": "5.4 establish guidelines for working in secure areas + personnel aware/accept",
+      "ai_reason": "5.4 establish guidelines for working in secure areas + personnel aware/accept"
+    },
+    {
+      "control_id": "T2.2.6",
+      "passage_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_11",
+      "policy_name": "Physical and Environmental Security Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Partially Addressed",
+      "ai_covered_atoms": [],
+      "ai_evidence": "5.5 Protect Delivery and Loading Areas implements public-access/delivery control",
+      "ai_reason": "5.5 Protect Delivery and Loading Areas implements public-access/delivery control"
+    },
+    {
+      "control_id": "T2.3.1",
+      "passage_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_12",
+      "policy_name": "Physical and Environmental Security Policy",
+      "human_label": "Partially Addressed",
+      "ai_label": "Partially Addressed",
+      "ai_covered_atoms": [],
+      "ai_evidence": "5.6 supporting utilities (siting/protecting equipment theme)",
+      "ai_reason": "5.6 supporting utilities (siting/protecting equipment theme)"
+    },
+    {
+      "control_id": "T2.3.3",
+      "passage_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_13",
+      "policy_name": "Physical and Environmental Security Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Partially Addressed",
+      "ai_covered_atoms": [],
+      "ai_evidence": "5.7 Cabling Security implements the control",
+      "ai_reason": "5.7 Cabling Security implements the control"
+    },
+    {
+      "control_id": "T2.3.5",
+      "passage_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_14",
+      "policy_name": "Physical and Environmental Security Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Partially Addressed",
+      "ai_covered_atoms": [],
+      "ai_evidence": "5.8 Security of Equipment Off-Premises implements the control",
+      "ai_reason": "5.8 Security of Equipment Off-Premises implements the control"
+    },
+    {
+      "control_id": "T2.3.6",
+      "passage_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_15",
+      "policy_name": "Physical and Environmental Security Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Partially Addressed",
+      "ai_covered_atoms": [
+        "b"
+      ],
+      "ai_evidence": "5.9 destroy/overwrite media with confidential info before disposal/reuse (no records atom)",
+      "ai_reason": "5.9 destroy/overwrite media with confidential info before disposal/reuse (no records atom)"
+    },
+    {
+      "control_id": "T3.1.1",
+      "passage_id": "clientname-IS-POL-00-Security Operations Policy_passage_2",
+      "policy_name": "Security Operations Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Not Addressed",
+      "ai_covered_atoms": [],
+      "ai_evidence": "introduction fragment",
+      "ai_reason": "introduction fragment"
+    },
+    {
+      "control_id": "T3.1.1",
+      "passage_id": "clientname-IS-POL-00-Security Operations Policy_passage_5",
+      "policy_name": "Security Operations Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Not Addressed",
+      "ai_covered_atoms": [],
+      "ai_evidence": "thin policy statement",
+      "ai_reason": "thin policy statement"
+    },
+    {
+      "control_id": "T3.1.1",
+      "passage_id": "clientname-IS-POL-00-Security Operations Policy_passage_7",
+      "policy_name": "Security Operations Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Not Addressed",
+      "ai_covered_atoms": [],
+      "ai_evidence": "system-documentation section; not policy establishment",
+      "ai_reason": "system-documentation section; not policy establishment"
+    },
+    {
+      "control_id": "T3.2.1",
+      "passage_id": "clientname-IS-POL-00-Security Operations Policy_passage_10",
+      "policy_name": "Security Operations Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Not Addressed",
+      "ai_covered_atoms": [],
+      "ai_evidence": "system acceptance testing; not configuration baselines",
+      "ai_reason": "system acceptance testing; not configuration baselines"
+    },
+    {
+      "control_id": "T3.2.2",
+      "passage_id": "clientname-IS-POL-00-Security Operations Policy_passage_6",
+      "policy_name": "Security Operations Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Fully Addressed",
+      "ai_covered_atoms": [
+        "b",
+        "c",
+        "d"
+      ],
+      "ai_evidence": "5.1 operating procedures documented+approved, reviewed periodically, kept up-to-date and available to users",
+      "ai_reason": "5.1 operating procedures documented+approved, reviewed periodically, kept up-to-date and available to users"
+    },
+    {
+      "control_id": "T3.2.4",
+      "passage_id": "clientname-IS-POL-00-Security Operations Policy_passage_11",
+      "policy_name": "Security Operations Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Partially Addressed",
+      "ai_covered_atoms": [],
+      "ai_evidence": "5.6 Segregation of Duties implements the control",
+      "ai_reason": "5.6 Segregation of Duties implements the control"
+    },
+    {
+      "control_id": "T3.2.5",
+      "passage_id": "clientname-IS-POL-00-Security Operations Policy_passage_8",
+      "policy_name": "Security Operations Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Partially Addressed",
+      "ai_covered_atoms": [
+        "b",
+        "c",
+        "d"
+      ],
+      "ai_evidence": "5.3 production separated from test/dev, documented transfer procedures via SDLC procedure",
+      "ai_reason": "5.3 production separated from test/dev, documented transfer procedures via SDLC procedure"
+    },
+    {
+      "control_id": "T3.3.1",
+      "passage_id": "clientname-IS-POL-00-Security Operations Policy_passage_9",
+      "policy_name": "Security Operations Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Fully Addressed",
+      "ai_covered_atoms": [
+        "b",
+        "c",
+        "d"
+      ],
+      "ai_evidence": "5.4.3-5.4.4 monitor capacity, formal capacity management process, capacity plans to meet projected demand",
+      "ai_reason": "5.4.3-5.4.4 monitor capacity, formal capacity management process, capacity plans to meet projected demand"
+    },
+    {
+      "control_id": "T3.6.3",
+      "passage_id": "clientname-IS-POL-00-Vulnerability Management Policy v1.2 (V_A)_passage_5",
+      "policy_name": "Vulnerability Management Policy",
+      "human_label": "Fully Addressed",
+      "ai_label": "Not Addressed",
+      "ai_covered_atoms": [],
+      "ai_evidence": "scope boilerplate only; no monitoring types/frequency/review - human FA over-labels",
+      "ai_reason": "scope boilerplate only; no monitoring types/frequency/review - human FA over-labels"
+    },
+    {
+      "control_id": "T4.1.1",
+      "passage_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_4",
+      "policy_name": "Network and Communications Security Policy",
+      "human_label": "Fully Addressed",
+      "ai_label": "Not Addressed",
+      "ai_covered_atoms": [],
+      "ai_evidence": "purpose fragment; does not establish full policy - human FA over-labels",
+      "ai_reason": "purpose fragment; does not establish full policy - human FA over-labels"
+    },
+    {
+      "control_id": "T4.1.1",
+      "passage_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_6",
+      "policy_name": "Network and Communications Security Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Not Addressed",
+      "ai_covered_atoms": [],
+      "ai_evidence": "thin policy statement",
+      "ai_reason": "thin policy statement"
+    },
+    {
+      "control_id": "T4.2.1",
+      "passage_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_11",
+      "policy_name": "Network and Communications Security Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Fully Addressed",
+      "ai_covered_atoms": [
+        "b",
+        "c",
+        "d",
+        "e"
+      ],
+      "ai_evidence": "5.5 establish transfer procedures; conditions, controls, actions on issues",
+      "ai_reason": "5.5 establish transfer procedures; conditions, controls, actions on issues"
+    },
+    {
+      "control_id": "T4.2.2",
+      "passage_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_12",
+      "policy_name": "Network and Communications Security Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Partially Addressed",
+      "ai_covered_atoms": [
+        "b",
+        "c"
+      ],
+      "ai_evidence": "5.6 establish exchange agreements with security conditions and responsibilities",
+      "ai_reason": "5.6 establish exchange agreements with security conditions and responsibilities"
+    },
+    {
+      "control_id": "T4.2.3",
+      "passage_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_13",
+      "policy_name": "Asset Management Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Fully Addressed",
+      "ai_covered_atoms": [
+        "c",
+        "d",
+        "e",
+        "f"
+      ],
+      "ai_evidence": "5.7 labelling requirements, tracking, transfer logs, loss measures for physical media in transit",
+      "ai_reason": "5.7 labelling requirements, tracking, transfer logs, loss measures for physical media in transit"
+    },
+    {
+      "control_id": "T4.2.3",
+      "passage_id": "clientname-IS-POL-00-Asset Management Policy_passage_13",
+      "policy_name": "Asset Management Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Fully Addressed",
+      "ai_covered_atoms": [
+        "c",
+        "d",
+        "e",
+        "f"
+      ],
+      "ai_evidence": "5.7 labelling, tracking, transfer logs, loss measures",
+      "ai_reason": "5.7 labelling, tracking, transfer logs, loss measures"
+    },
+    {
+      "control_id": "T4.2.4",
+      "passage_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_13",
+      "policy_name": "Network and Communications Security Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Partially Addressed",
+      "ai_covered_atoms": [],
+      "ai_evidence": "5.7 Electronic Messaging implements the control",
+      "ai_reason": "5.7 Electronic Messaging implements the control"
+    },
+    {
+      "control_id": "T4.4.2",
+      "passage_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_15",
+      "policy_name": "Network and Communications Security Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Partially Addressed",
+      "ai_covered_atoms": [],
+      "ai_evidence": "5.9 Information Released into Information Sharing Communities implements the control",
+      "ai_reason": "5.9 Information Released into Information Sharing Communities implements the control"
+    },
+    {
+      "control_id": "T4.5.1",
+      "passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_6",
+      "policy_name": "Information Security Incident Management Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Not Addressed",
+      "ai_covered_atoms": [],
+      "ai_evidence": "incident-management policy statement; not network management",
+      "ai_reason": "incident-management policy statement; not network management"
+    },
+    {
+      "control_id": "T4.5.1",
+      "passage_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_7",
+      "policy_name": "Network and Communications Security Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Partially Addressed",
+      "ai_covered_atoms": [
+        "d",
+        "e",
+        "f"
+      ],
+      "ai_evidence": "5.1 network design w/ risk assessment, specific network controls, logging/monitoring",
+      "ai_reason": "5.1 network design w/ risk assessment, specific network controls, logging/monitoring"
+    },
+    {
+      "control_id": "T4.5.2",
+      "passage_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_8",
+      "policy_name": "Network and Communications Security Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Partially Addressed",
+      "ai_covered_atoms": [
+        "b",
+        "c",
+        "d",
+        "e"
+      ],
+      "ai_evidence": "5.2 identify+implement security features/service levels; right-to-audit in agreements",
+      "ai_reason": "5.2 identify+implement security features/service levels; right-to-audit in agreements"
+    },
+    {
+      "control_id": "T4.5.3",
+      "passage_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_9",
+      "policy_name": "Network and Communications Security Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Partially Addressed",
+      "ai_covered_atoms": [],
+      "ai_evidence": "5.3 Segregation in Networks implements the control",
+      "ai_reason": "5.3 Segregation in Networks implements the control"
+    },
+    {
+      "control_id": "T4.5.4",
+      "passage_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_10",
+      "policy_name": "Network and Communications Security Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Partially Addressed",
+      "ai_covered_atoms": [
+        "c",
+        "d",
+        "e"
+      ],
+      "ai_evidence": "5.4 wireless risk assessment, segregation, controls, periodic effectiveness review",
+      "ai_reason": "5.4 wireless risk assessment, segregation, controls, periodic effectiveness review"
+    },
+    {
+      "control_id": "T5.1.1",
+      "passage_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_3",
+      "policy_name": "Access Control Policy - CPX policy is reference",
+      "human_label": "Not Addressed",
+      "ai_label": "Not Addressed",
+      "ai_covered_atoms": [],
+      "ai_evidence": "introduction; obligation text is a framework-mapping artifact, deferred",
+      "ai_reason": "introduction; obligation text is a framework-mapping artifact, deferred"
+    },
+    {
+      "control_id": "T5.1.1",
+      "passage_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_4",
+      "policy_name": "Access Control Policy - CPX policy is reference",
+      "human_label": "Not Addressed",
+      "ai_label": "Not Addressed",
+      "ai_covered_atoms": [],
+      "ai_evidence": "purpose fragment; obligation unclear, deferred",
+      "ai_reason": "purpose fragment; obligation unclear, deferred"
+    },
+    {
+      "control_id": "T5.1.1",
+      "passage_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_5",
+      "policy_name": "Access Control Policy - CPX policy is reference",
+      "human_label": "Not Addressed",
+      "ai_label": "Not Addressed",
+      "ai_covered_atoms": [],
+      "ai_evidence": "scope boilerplate",
+      "ai_reason": "scope boilerplate"
+    },
+    {
+      "control_id": "T5.1.1",
+      "passage_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_7",
+      "policy_name": "Access Control Policy - CPX policy is reference",
+      "human_label": "Not Addressed",
+      "ai_label": "Not Addressed",
+      "ai_covered_atoms": [],
+      "ai_evidence": "access control framework detail; obligation is mapping artifact, deferred to human",
+      "ai_reason": "access control framework detail; obligation is mapping artifact, deferred to human"
+    },
+    {
+      "control_id": "T5.2.1",
+      "passage_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_10",
+      "policy_name": "Access Control Policy - CPX policy is reference",
+      "human_label": "Fully Addressed",
+      "ai_label": "Fully Addressed",
+      "ai_covered_atoms": [
+        "b",
+        "c",
+        "d",
+        "e"
+      ],
+      "ai_evidence": "8.4 registration/de-registration: prohibit shared IDs, remove leavers immediately, periodic review of redundant IDs",
+      "ai_reason": "8.4 registration/de-registration: prohibit shared IDs, remove leavers immediately, periodic review of redundant IDs"
+    },
+    {
+      "control_id": "T5.2.1",
+      "passage_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_6",
+      "policy_name": "Access Control Policy - CPX policy is reference",
+      "human_label": "Not Addressed",
+      "ai_label": "Not Addressed",
+      "ai_covered_atoms": [],
+      "ai_evidence": "policy statement lists registration as objective; no procedure detail",
+      "ai_reason": "policy statement lists registration as objective; no procedure detail"
+    },
+    {
+      "control_id": "T5.2.2",
+      "passage_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_12",
+      "policy_name": "Access Control Policy - CPX policy is reference",
+      "human_label": "Fully Addressed",
+      "ai_label": "Partially Addressed",
+      "ai_covered_atoms": [
+        "b",
+        "d"
+      ],
+      "ai_evidence": "8.6 record of privileges, separate admin ID; 2FA/logging atoms not shown - human FA over-labels",
+      "ai_reason": "8.6 record of privileges, separate admin ID; 2FA/logging atoms not shown - human FA over-labels"
+    },
+    {
+      "control_id": "T5.2.3",
+      "passage_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_14",
+      "policy_name": "Access Control Policy - CPX policy is reference",
+      "human_label": "Not Addressed",
+      "ai_label": "Partially Addressed",
+      "ai_covered_atoms": [
+        "c"
+      ],
+      "ai_evidence": "8.8 establish user access and secure credentials management procedures (brief)",
+      "ai_reason": "8.8 establish user access and secure credentials management procedures (brief)"
+    },
+    {
+      "control_id": "T5.2.3",
+      "passage_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_15",
+      "policy_name": "Access Control Policy - CPX policy is reference",
+      "human_label": "Not Addressed",
+      "ai_label": "Partially Addressed",
+      "ai_covered_atoms": [
+        "g",
+        "h"
+      ],
+      "ai_evidence": "8.9 no default credentials, encryption/hashing for stored credentials, no cleartext",
+      "ai_reason": "8.9 no default credentials, encryption/hashing for stored credentials, no cleartext"
+    },
+    {
+      "control_id": "T5.2.4",
+      "passage_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_13",
+      "policy_name": "Access Control Policy - CPX policy is reference",
+      "human_label": "Not Addressed",
+      "ai_label": "Partially Addressed",
+      "ai_covered_atoms": [
+        "c",
+        "d"
+      ],
+      "ai_evidence": "8.7 review access rights at intervals and after promotion/transfer/termination; frequent privileged review",
+      "ai_reason": "8.7 review access rights at intervals and after promotion/transfer/termination; frequent privileged review"
+    },
+    {
+      "control_id": "T5.4.1",
+      "passage_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_8",
+      "policy_name": "Access Control Policy - CPX policy is reference",
+      "human_label": "Not Addressed",
+      "ai_label": "Partially Addressed",
+      "ai_covered_atoms": [
+        "b",
+        "c"
+      ],
+      "ai_evidence": "8.2 procedure for use of network services (wireless/VPN/third-party), consistent with policy",
+      "ai_reason": "8.2 procedure for use of network services (wireless/VPN/third-party), consistent with policy"
+    },
+    {
+      "control_id": "T5.4.7",
+      "passage_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_9",
+      "policy_name": "Access Control Policy - CPX policy is reference",
+      "human_label": "Not Addressed",
+      "ai_label": "Partially Addressed",
+      "ai_covered_atoms": [],
+      "ai_evidence": "8.3 Wireless Access: authentication protocols, controls, periodic surveys",
+      "ai_reason": "8.3 Wireless Access: authentication protocols, controls, periodic surveys"
+    },
+    {
+      "control_id": "T5.5.1",
+      "passage_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_16",
+      "policy_name": "Access Control Policy - CPX policy is reference",
+      "human_label": "Not Addressed",
+      "ai_label": "Partially Addressed",
+      "ai_covered_atoms": [
+        "d"
+      ],
+      "ai_evidence": "8.10 formal secure logon procedure, banner, strong auth, lockout; no session-timeout atoms",
+      "ai_reason": "8.10 formal secure logon procedure, banner, strong auth, lockout; no session-timeout atoms"
+    },
+    {
+      "control_id": "T5.5.4",
+      "passage_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_17",
+      "policy_name": "Access Control Policy - CPX policy is reference",
+      "human_label": "Not Addressed",
+      "ai_label": "Not Addressed",
+      "ai_covered_atoms": [],
+      "ai_evidence": "privileged utility programs; control definition unavailable, deferred to human",
+      "ai_reason": "privileged utility programs; control definition unavailable, deferred to human"
+    },
+    {
+      "control_id": "T5.6.3",
+      "passage_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_18",
+      "policy_name": "Access Control Policy - CPX policy is reference",
+      "human_label": "Not Addressed",
+      "ai_label": "Fully Addressed",
+      "ai_covered_atoms": [
+        "b",
+        "c"
+      ],
+      "ai_evidence": "8.12 publishing guidelines with reviews/approvals, sanitization training, periodic scan for exposed non-public info",
+      "ai_reason": "8.12 publishing guidelines with reviews/approvals, sanitization training, periodic scan for exposed non-public info"
+    },
+    {
+      "control_id": "T6.1",
+      "passage_id": "clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping_passage_10",
+      "policy_name": "Third-Party Security Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Not Addressed",
+      "ai_covered_atoms": [],
+      "ai_evidence": "roles fragment; obligation is opaque policy title, deferred",
+      "ai_reason": "roles fragment; obligation is opaque policy title, deferred"
+    },
+    {
+      "control_id": "T6.1.1",
+      "passage_id": "clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping_passage_10",
+      "policy_name": "Third-Party Security Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Not Addressed",
+      "ai_covered_atoms": [],
+      "ai_evidence": "roles/responsibilities fragment; does not establish full policy",
+      "ai_reason": "roles/responsibilities fragment; does not establish full policy"
+    },
+    {
+      "control_id": "T6.1.1",
+      "passage_id": "clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping_passage_3",
+      "policy_name": "Third-Party Security Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Not Addressed",
+      "ai_covered_atoms": [],
+      "ai_evidence": "introduction narrative",
+      "ai_reason": "introduction narrative"
+    },
+    {
+      "control_id": "T6.1.1",
+      "passage_id": "clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping_passage_4",
+      "policy_name": "Third-Party Security Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Not Addressed",
+      "ai_covered_atoms": [],
+      "ai_evidence": "purpose fragment",
+      "ai_reason": "purpose fragment"
+    },
+    {
+      "control_id": "T6.1.1",
+      "passage_id": "clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping_passage_6",
+      "policy_name": "Third-Party Security Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Not Addressed",
+      "ai_covered_atoms": [],
+      "ai_evidence": "thin policy statement",
+      "ai_reason": "thin policy statement"
+    },
+    {
+      "control_id": "T6.2.1",
+      "passage_id": "clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping_passage_4",
+      "policy_name": "Third-Party Security Policy",
+      "human_label": "Partially Addressed",
+      "ai_label": "Partially Addressed",
+      "ai_covered_atoms": [
+        "b",
+        "d"
+      ],
+      "ai_evidence": "4 PURPOSE: establish agreements covering security requirements; oversee/monitor third-party service delivery",
+      "ai_reason": "4 PURPOSE: establish agreements covering security requirements; oversee/monitor third-party service delivery"
+    },
+    {
+      "control_id": "T6.2.2",
+      "passage_id": "clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping_passage_7",
+      "policy_name": "Third-Party Security Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Partially Addressed",
+      "ai_covered_atoms": [],
+      "ai_evidence": "7.1 identify/mandate/monitor third-party security controls and lifecycle",
+      "ai_reason": "7.1 identify/mandate/monitor third-party security controls and lifecycle"
+    },
+    {
+      "control_id": "T6.2.2",
+      "passage_id": "clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping_passage_8",
+      "policy_name": "Third-Party Security Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Partially Addressed",
+      "ai_covered_atoms": [],
+      "ai_evidence": "7.2.4 service management relationship: monitor service levels, review reports, conduct audits",
+      "ai_reason": "7.2.4 service management relationship: monitor service levels, review reports, conduct audits"
+    },
+    {
+      "control_id": "T6.2.2",
+      "passage_id": "clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping_passage_9",
+      "policy_name": "Third-Party Security Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Not Addressed",
+      "ai_covered_atoms": [],
+      "ai_evidence": "7.3 managing changes; not monitoring/review",
+      "ai_reason": "7.3 managing changes; not monitoring/review"
+    },
+    {
+      "control_id": "T6.2.3",
+      "passage_id": "clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping_passage_7",
+      "policy_name": "Third-Party Security Policy",
+      "human_label": "Partially Addressed",
+      "ai_label": "Not Addressed",
+      "ai_covered_atoms": [],
+      "ai_evidence": "7.1 general approach; change-management methodology/parameters not addressed (those are in 7.3)",
+      "ai_reason": "7.1 general approach; change-management methodology/parameters not addressed (those are in 7.3)"
+    },
+    {
+      "control_id": "T7.1.1",
+      "passage_id": "clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2_passage_3",
+      "policy_name": "Information Systems Acquisition Development and Maintenance Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Not Addressed",
+      "ai_covered_atoms": [],
+      "ai_evidence": "introduction fragment",
+      "ai_reason": "introduction fragment"
+    },
+    {
+      "control_id": "T7.1.1",
+      "passage_id": "clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2_passage_4",
+      "policy_name": "Information Systems Acquisition Development and Maintenance Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Not Addressed",
+      "ai_covered_atoms": [],
+      "ai_evidence": "purpose fragment",
+      "ai_reason": "purpose fragment"
+    },
+    {
+      "control_id": "T7.1.1",
+      "passage_id": "clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2_passage_6",
+      "policy_name": "Information Systems Acquisition Development and Maintenance Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Not Addressed",
+      "ai_covered_atoms": [],
+      "ai_evidence": "thin policy statement",
+      "ai_reason": "thin policy statement"
+    },
+    {
+      "control_id": "T7.1.1",
+      "passage_id": "clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2_passage_7",
+      "policy_name": "Information Systems Acquisition Development and Maintenance Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Not Addressed",
+      "ai_covered_atoms": [],
+      "ai_evidence": "section heading only",
+      "ai_reason": "section heading only"
+    },
+    {
+      "control_id": "T7.2.1",
+      "passage_id": "clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2_passage_6",
+      "policy_name": "Information Systems Acquisition Development and Maintenance Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Not Addressed",
+      "ai_covered_atoms": [],
+      "ai_evidence": "high-level policy statement; no security-requirements development detail",
+      "ai_reason": "high-level policy statement; no security-requirements development detail"
+    },
+    {
+      "control_id": "T7.7.1",
+      "passage_id": "clientname-IS-POL-00-Vulnerability Management Policy v1.2 (V_A)_passage_7",
+      "policy_name": "Vulnerability Management Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Partially Addressed",
+      "ai_covered_atoms": [
+        "b",
+        "c"
+      ],
+      "ai_evidence": "6.1 test/verify vulnerabilities (automated VA/pen tests), remediation plans before production",
+      "ai_reason": "6.1 test/verify vulnerabilities (automated VA/pen tests), remediation plans before production"
+    },
+    {
+      "control_id": "T8.1.1",
+      "passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 2_passage_18",
+      "policy_name": "Information Security Incident Management Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Not Addressed",
+      "ai_covered_atoms": [],
+      "ai_evidence": "enforcement/exceptions fragment",
+      "ai_reason": "enforcement/exceptions fragment"
+    },
+    {
+      "control_id": "T8.1.1",
+      "passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 2_passage_3",
+      "policy_name": "Information Security Incident Management Policy",
+      "human_label": "Fully Addressed",
+      "ai_label": "Partially Addressed",
+      "ai_covered_atoms": [
+        "d",
+        "e"
+      ],
+      "ai_evidence": "1 INTRODUCTION: framework for managing incidents + roles for detection/response/recovery; not full policy - human FA over-labels",
+      "ai_reason": "1 INTRODUCTION: framework for managing incidents + roles for detection/response/recovery; not full policy - human FA over-labels"
+    },
+    {
+      "control_id": "T8.1.1",
+      "passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 2_passage_4",
+      "policy_name": "Information Security Incident Management Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Not Addressed",
+      "ai_covered_atoms": [],
+      "ai_evidence": "purpose fragment",
+      "ai_reason": "purpose fragment"
+    },
+    {
+      "control_id": "T8.1.1",
+      "passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 2_passage_5",
+      "policy_name": "Information Security Incident Management Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Not Addressed",
+      "ai_covered_atoms": [],
+      "ai_evidence": "scope boilerplate",
+      "ai_reason": "scope boilerplate"
+    },
+    {
+      "control_id": "T8.1.1",
+      "passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 2_passage_6",
+      "policy_name": "Information Security Incident Management Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Not Addressed",
+      "ai_covered_atoms": [],
+      "ai_evidence": "thin policy statement (single component)",
+      "ai_reason": "thin policy statement (single component)"
+    },
+    {
+      "control_id": "T8.1.1",
+      "passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_18",
+      "policy_name": "Information Security Incident Management Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Not Addressed",
+      "ai_covered_atoms": [],
+      "ai_evidence": "enforcement/exceptions fragment",
+      "ai_reason": "enforcement/exceptions fragment"
+    },
+    {
+      "control_id": "T8.1.1",
+      "passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_3",
+      "policy_name": "Information Security Incident Management Policy",
+      "human_label": "Fully Addressed",
+      "ai_label": "Partially Addressed",
+      "ai_covered_atoms": [
+        "d",
+        "e"
+      ],
+      "ai_evidence": "1 INTRODUCTION: framework + roles for detection/response/recovery; not full policy - human FA over-labels",
+      "ai_reason": "1 INTRODUCTION: framework + roles for detection/response/recovery; not full policy - human FA over-labels"
+    },
+    {
+      "control_id": "T8.1.1",
+      "passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_4",
+      "policy_name": "Information Security Incident Management Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Not Addressed",
+      "ai_covered_atoms": [],
+      "ai_evidence": "purpose fragment",
+      "ai_reason": "purpose fragment"
+    },
+    {
+      "control_id": "T8.1.1",
+      "passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_5",
+      "policy_name": "Information Security Incident Management Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Not Addressed",
+      "ai_covered_atoms": [],
+      "ai_evidence": "scope boilerplate",
+      "ai_reason": "scope boilerplate"
+    },
+    {
+      "control_id": "T8.2.1",
+      "passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 2_passage_6",
+      "policy_name": "Information Security Incident Management Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Not Addressed",
+      "ai_covered_atoms": [],
+      "ai_evidence": "high-level policy statement; not the incident response plan with its components",
+      "ai_reason": "high-level policy statement; not the incident response plan with its components"
+    },
+    {
+      "control_id": "T8.2.1",
+      "passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_6",
+      "policy_name": "Information Security Incident Management Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Not Addressed",
+      "ai_covered_atoms": [],
+      "ai_evidence": "high-level policy statement",
+      "ai_reason": "high-level policy statement"
+    },
+    {
+      "control_id": "T8.2.2",
+      "passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 2_passage_7",
+      "policy_name": "Information Security Incident Management Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Partially Addressed",
+      "ai_covered_atoms": [
+        "b",
+        "d",
+        "f",
+        "g",
+        "h"
+      ],
+      "ai_evidence": "5.1 identify CSIRT personnel, team composition, roles/responsibilities, services; funding/workflow/announce absent",
+      "ai_reason": "5.1 identify CSIRT personnel, team composition, roles/responsibilities, services; funding/workflow/announce absent"
+    },
+    {
+      "control_id": "T8.2.3",
+      "passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 2_passage_9",
+      "policy_name": "Information Security Incident Management Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Partially Addressed",
+      "ai_covered_atoms": [
+        "b"
+      ],
+      "ai_evidence": "5.3 establish incident classification scheme per regulatory issuances; assess/classify events",
+      "ai_reason": "5.3 establish incident classification scheme per regulatory issuances; assess/classify events"
+    },
+    {
+      "control_id": "T8.2.3",
+      "passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_9",
+      "policy_name": "Information Security Incident Management Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Partially Addressed",
+      "ai_covered_atoms": [
+        "b"
+      ],
+      "ai_evidence": "5.3 incident classification scheme per regulatory issuances",
+      "ai_reason": "5.3 incident classification scheme per regulatory issuances"
+    },
+    {
+      "control_id": "T8.2.5",
+      "passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 2_passage_10",
+      "policy_name": "Information Security Incident Management Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Not Addressed",
+      "ai_covered_atoms": [],
+      "ai_evidence": "5.4 Incident Response Training; not testing",
+      "ai_reason": "5.4 Incident Response Training; not testing"
+    },
+    {
+      "control_id": "T8.2.5",
+      "passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 2_passage_11",
+      "policy_name": "Information Security Incident Management Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Partially Addressed",
+      "ai_covered_atoms": [],
+      "ai_evidence": "5.5 Incident Response Testing: procedures, breach simulations, tabletop/functional exercises, sector/national exercises",
+      "ai_reason": "5.5 Incident Response Testing: procedures, breach simulations, tabletop/functional exercises, sector/national exercises"
+    },
+    {
+      "control_id": "T8.2.5",
+      "passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 2_passage_8",
+      "policy_name": "Information Security Incident Management Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Not Addressed",
+      "ai_covered_atoms": [],
+      "ai_evidence": "5.2 Incident Response Plan; not testing",
+      "ai_reason": "5.2 Incident Response Plan; not testing"
+    },
+    {
+      "control_id": "T8.2.5",
+      "passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_10",
+      "policy_name": "Information Security Incident Management Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Not Addressed",
+      "ai_covered_atoms": [],
+      "ai_evidence": "5.4 Incident Response Training; not testing",
+      "ai_reason": "5.4 Incident Response Training; not testing"
+    },
+    {
+      "control_id": "T8.2.5",
+      "passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_11",
+      "policy_name": "Information Security Incident Management Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Partially Addressed",
+      "ai_covered_atoms": [],
+      "ai_evidence": "5.5 Incident Response Testing implements the control",
+      "ai_reason": "5.5 Incident Response Testing implements the control"
+    },
+    {
+      "control_id": "T8.2.5",
+      "passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_8",
+      "policy_name": "Information Security Incident Management Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Not Addressed",
+      "ai_covered_atoms": [],
+      "ai_evidence": "5.2 Incident Response Plan; not testing",
+      "ai_reason": "5.2 Incident Response Plan; not testing"
+    },
+    {
+      "control_id": "T8.2.6",
+      "passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 2_passage_7",
+      "policy_name": "Information Security Incident Management Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Partially Addressed",
+      "ai_covered_atoms": [
+        "b"
+      ],
+      "ai_evidence": "5.1 CSIRT provides the incident response support resource (personnel, contact, responsibilities)",
+      "ai_reason": "5.1 CSIRT provides the incident response support resource (personnel, contact, responsibilities)"
+    },
+    {
+      "control_id": "T8.2.6",
+      "passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_7",
+      "policy_name": "Information Security Incident Management Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Partially Addressed",
+      "ai_covered_atoms": [
+        "b"
+      ],
+      "ai_evidence": "5.1 CSIRT as incident response support resource",
+      "ai_reason": "5.1 CSIRT as incident response support resource"
+    },
+    {
+      "control_id": "T8.2.7",
+      "passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 2_passage_14",
+      "policy_name": "Information Security Incident Management Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Not Addressed",
+      "ai_covered_atoms": [],
+      "ai_evidence": "5.8 learning from incidents; obligation text truncated/opaque, deferred to human",
+      "ai_reason": "5.8 learning from incidents; obligation text truncated/opaque, deferred to human"
+    },
+    {
+      "control_id": "T8.2.7",
+      "passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_14",
+      "policy_name": "Information Security Incident Management Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Not Addressed",
+      "ai_covered_atoms": [],
+      "ai_evidence": "obligation text opaque, deferred to human",
+      "ai_reason": "obligation text opaque, deferred to human"
+    },
+    {
+      "control_id": "T8.2.8",
+      "passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 2_passage_13",
+      "policy_name": "Information Security Incident Management Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Partially Addressed",
+      "ai_covered_atoms": [
+        "b"
+      ],
+      "ai_evidence": "5.7 document incidents + incident handling (logging, recording, closing)",
+      "ai_reason": "5.7 document incidents + incident handling (logging, recording, closing)"
+    },
+    {
+      "control_id": "T8.2.8",
+      "passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_13",
+      "policy_name": "Information Security Incident Management Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Partially Addressed",
+      "ai_covered_atoms": [
+        "b"
+      ],
+      "ai_evidence": "5.7 incident documentation + handling records",
+      "ai_reason": "5.7 incident documentation + handling records"
+    },
+    {
+      "control_id": "T8.2.8",
+      "passage_id": "clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_7",
+      "policy_name": "Security Awareness and Training Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Not Addressed",
+      "ai_covered_atoms": [],
+      "ai_evidence": "awareness program; not institutionalizing incident learning",
+      "ai_reason": "awareness program; not institutionalizing incident learning"
+    },
+    {
+      "control_id": "T8.3.1",
+      "passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 2_passage_15",
+      "policy_name": "Information Security Incident Management Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Not Addressed",
+      "ai_covered_atoms": [],
+      "ai_evidence": "5.9 evidence collection; not situational-awareness/info-sharing",
+      "ai_reason": "5.9 evidence collection; not situational-awareness/info-sharing"
+    },
+    {
+      "control_id": "T8.3.1",
+      "passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_15",
+      "policy_name": "Information Security Incident Management Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Not Addressed",
+      "ai_covered_atoms": [],
+      "ai_evidence": "5.9 evidence collection; not situational-awareness",
+      "ai_reason": "5.9 evidence collection; not situational-awareness"
+    },
+    {
+      "control_id": "T8.3.2",
+      "passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 2_passage_9",
+      "policy_name": "Information Security Incident Management Policy",
+      "human_label": "Fully Addressed",
+      "ai_label": "Not Addressed",
+      "ai_covered_atoms": [],
+      "ai_evidence": "5.3 incident classification; not an event-reporting procedure/channels - human FA over-labels",
+      "ai_reason": "5.3 incident classification; not an event-reporting procedure/channels - human FA over-labels"
+    },
+    {
+      "control_id": "T8.3.3",
+      "passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 2_passage_12",
+      "policy_name": "Information Security Incident Management Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Partially Addressed",
+      "ai_covered_atoms": [
+        "c"
+      ],
+      "ai_evidence": "5.6 nominated point of contact (CSIRT), handling of security weakness contributing to incident",
+      "ai_reason": "5.6 nominated point of contact (CSIRT), handling of security weakness contributing to incident"
+    },
+    {
+      "control_id": "T8.3.3",
+      "passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 2_passage_6",
+      "policy_name": "Information Security Incident Management Policy",
+      "human_label": "Partially Addressed",
+      "ai_label": "Partially Addressed",
+      "ai_covered_atoms": [
+        "b"
+      ],
+      "ai_evidence": "4 policy statement: personnel shall report events and weaknesses",
+      "ai_reason": "4 policy statement: personnel shall report events and weaknesses"
+    },
+    {
+      "control_id": "T8.3.3",
+      "passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_12",
+      "policy_name": "Information Security Incident Management Policy",
+      "human_label": "Not Addressed",
+      "ai_label": "Partially Addressed",
+      "ai_covered_atoms": [
+        "c"
+      ],
+      "ai_evidence": "5.6 nominated point of contact (CSIRT), weakness handling",
+      "ai_reason": "5.6 nominated point of contact (CSIRT), weakness handling"
+    }
+  ]
+}

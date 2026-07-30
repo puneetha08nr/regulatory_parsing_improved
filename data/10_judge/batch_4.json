@@ -1,0 +1,387 @@
+[
+ {
+  "control_id": "T5.4.1",
+  "passage_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_8",
+  "human_label": "Not Addressed",
+  "obligation": "The entity shall provide access to users only to the services that they have been specifically authorized to use.",
+  "atoms": [
+   "a: The entity shall:",
+   "b: establish a policy for the use of network services that is appropriate to the entity",
+   "c: develop the framework for managing the network services and ensure the right level of protection provided against unauthorized access",
+   "d: limit user access to the required network services and in line with the developed framework"
+  ],
+  "passage": "8.2 Access to Network and Network Shares\n\nUAE Public Prosecution shall:\n\n1. Formulate a procedure to address security concerns in the use of network connections and network services including wireless network, VPN, and third-party/ external connections.\n2. Ensure that the procedure on the use of network services is consistent with this Policy."
+ },
+ {
+  "control_id": "T5.4.7",
+  "passage_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_9",
+  "human_label": "Not Addressed",
+  "obligation": "Wireless Access Priority P2",
+  "atoms": [],
+  "passage": "8.3 Wireless Access\n\nUAE Public Prosecution shall:\n\n1. Utilize authentication protocols which provide credential protection and mutual authentication for wireless networks.\n2. Ensure the selection of appropriate controls for wireless networks to address security risks such as undetected interception.\n3. Conduct periodic wireless surveys to determine security and quality of the wireless network."
+ },
+ {
+  "control_id": "T5.5.1",
+  "passage_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_16",
+  "human_label": "Not Addressed",
+  "obligation": "The entity shall control access to systems and applications using a secure log-on and log-off procedure.",
+  "atoms": [
+   "a: The entity shall:",
+   "b: identify the systems, applications and services that require user authentication",
+   "c: classify the identified systems, application and services based on the level of protection needed",
+   "d: establish the appropriate log-on and log-off procedures to minimize the opportunity for unauthorized access",
+   "e: set a maximum session time for logged on users for sensitive systems and applications",
+   "f: terminate inactive sessions after a predefined period of inactivity"
+  ],
+  "passage": "8.10 Secure Log-on\n\n4. Login into operating systems shall be based on a formal secure logon procedure.\n5. All systems shall display a general notice warning message that access to UAEPP's systems is granted to authorized users only.\n6. The logon process on any system shall display only the limited information about the system and its purposed use.\n7. When strong authentication and identification is required, authentication methods other than passwords (e.g., token IDs, smart cards or biometrics) shall be implemented.\n8. All systems shall limit the number of unsuccessful logon attempts allowed; the following shall be considered:\n    1. Recording both successful and unsuccessful attempts.\n    2. Forcing a time delay before further logon attempts are allowed or rejecting any further attempts without specific authorization.\n    3. Sending an alarm message to the system console if the maximum number of logon attempts is reached.\n9. ICT Administrators (e.g., system admin, application admin,"
+ },
+ {
+  "control_id": "T5.5.4",
+  "passage_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_17",
+  "human_label": "Not Addressed",
+  "obligation": "",
+  "atoms": [],
+  "passage": "8.11 Use of Privileged Utility Programs\n\n10. System utilities shall be restricted from all users unless approved by CISO/ IS Team.\n11. All access to system utilities shall be logged and reviewed by UAEPP IS Team.\n12. Access to and use of system programs shall be restricted and controlled.\n13. All unnecessary system utilities and software shall be removed."
+ },
+ {
+  "control_id": "T5.6.3",
+  "passage_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_18",
+  "human_label": "Not Addressed",
+  "obligation": "The entity shall not expose non-public information to the general public.",
+  "atoms": [
+   "a: The entity shall:",
+   "b: develop and formalize procedures for the publishing of public information to ensure non-public information is not exposed",
+   "c: adopt procedures to periodically verify if sensitive information is exposed to the general public"
+  ],
+  "passage": "8.12 Publicly Accessible Content\n\nUAE Public Prosecution shall:\n\n2. Designate individuals who are authorized to review and post information onto a publicly accessible information system.\n3. Provide training and awareness sessions for authorized individuals to ensure that publicly accessible information is sanitized from non-public information.\n4. Periodically scan publicly accessible information for non-public information and correct any inconsistency.\n\n1. Define publishing guidelines with required reviews and approvals for any information to be publicly available."
+ },
+ {
+  "control_id": "T6.1",
+  "passage_id": "clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping_passage_10",
+  "human_label": "Not Addressed",
+  "obligation": "Third Party Security Policy",
+  "atoms": [],
+  "passage": "8 ROLES AND RESPONSIBILITIES\n\nExecutive & Senior Management\n    1. Make available and support the required resources to drive protection of supplier security risks.\n    2. Where relevant, provide direction to and participate in reviews and oversight of supplier security risks.\nAdmin & Facilities\n    1 Work with Procurement and Information Security to ensure that organizational information and information assets are protected from supply chain risks.\nInformation Security\n    1 Work with Procurement to establish:\n        1.1 Security requirements for Third-Party that are to be included in the service delivery agreement for each party.\n        1.2 Requirement(s) for Third-Party to measure and report to the organization on these service requirements.\n    • A mechanism to monitor Third-Party’ services and ensure required delivery reports are received.   \n        1.3 Requirements that the information security incidents and problems identified in the reports are appropriately managed. \n        1.4 Requirements for audits to be carried out on supplier services regularly.\n    • Requirement(s) that supplier service agreements include a methodology for communicating change management issues between the organization and the supplier.   \n        1.5 Define the parameters for changes that must be communicated between the organization and the supplier.\n        1.6 Requirement(s) to assess the changes taking into account the criticality of business systems and processes involved and re-assess risks.\nProcurement\n                    1. Ensure that the Policy is:\n        1.1 Communicated to each supplier.  \n        1.2 Read and formally acknowledged by the supplier.  \n        1.3 Maintained, reviewed and updated at planned intervals or if significant changes occur.\n\n                    2. Verify that any contract or agreement with Third-Party addresses all aspects of the organization’s information security Policy regarding:\n        2.1 Accessing, processing, communicating or managing the organization’s information or Information systems.\n        2.2 Adding products or services to information systems.   \n    3 Make sure that proper controls are introduced in the contract in order t"
+ },
+ {
+  "control_id": "T6.1.1",
+  "passage_id": "clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping_passage_10",
+  "human_label": "Not Addressed",
+  "obligation": "The entity shall establish a third party security policy to facilitate the implementation of the associated controls.",
+  "atoms": [
+   "a: The third party security policy shall:",
+   "b: be appropriate to the relationship of the entity and the third party",
+   "c: include statement of the management commitment, purpose, objective and scope of the policy",
+   "d: outline the roles and responsibilities for managing third parties",
+   "e: provide the framework for setting information security objectives and/or include information security objectives to be used when engaging third parties",
+   "f: be documented and communicated to the third party",
+   "g: be read and acknowledged formally by the third party",
+   "h: be maintained, reviewed and updated at planned intervals or if significant changes occur"
+  ],
+  "passage": "8 ROLES AND RESPONSIBILITIES\n\nExecutive & Senior Management\n    1. Make available and support the required resources to drive protection of supplier security risks.\n    2. Where relevant, provide direction to and participate in reviews and oversight of supplier security risks.\nAdmin & Facilities\n    1 Work with Procurement and Information Security to ensure that organizational information and information assets are protected from supply chain risks.\nInformation Security\n    1 Work with Procurement to establish:\n        1.1 Security requirements for Third-Party that are to be included in the service delivery agreement for each party.\n        1.2 Requirement(s) for Third-Party to measure and report to the organization on these service requirements.\n    • A mechanism to monitor Third-Party’ services and ensure required delivery reports are received.   \n        1.3 Requirements that the information security incidents and problems identified in the reports are appropriately managed. \n        1.4 Requirements for audits to be carried out on supplier services regularly.\n    • Requirement(s) that supplier service agreements include a methodology for communicating change management issues between the organization and the supplier.   \n        1.5 Define the parameters for changes that must be communicated between the organization and the supplier.\n        1.6 Requirement(s) to assess the changes taking into account the criticality of business systems and processes involved and re-assess risks.\nProcurement\n                    1. Ensure that the Policy is:\n        1.1 Communicated to each supplier.  \n        1.2 Read and formally acknowledged by the supplier.  \n        1.3 Maintained, reviewed and updated at planned intervals or if significant changes occur.\n\n                    2. Verify that any contract or agreement with Third-Party addresses all aspects of the organization’s information security Policy regarding:\n        2.1 Accessing, processing, communicating or managing the organization’s information or Information systems.\n        2.2 Adding products or services to information systems.   \n    3 Make sure that proper controls are introduced in the contract in order t"
+ },
+ {
+  "control_id": "T6.1.1",
+  "passage_id": "clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping_passage_3",
+  "human_label": "Not Addressed",
+  "obligation": "The entity shall establish a third party security policy to facilitate the implementation of the associated controls.",
+  "atoms": [
+   "a: The third party security policy shall:",
+   "b: be appropriate to the relationship of the entity and the third party",
+   "c: include statement of the management commitment, purpose, objective and scope of the policy",
+   "d: outline the roles and responsibilities for managing third parties",
+   "e: provide the framework for setting information security objectives and/or include information security objectives to be used when engaging third parties",
+   "f: be documented and communicated to the third party",
+   "g: be read and acknowledged formally by the third party",
+   "h: be maintained, reviewed and updated at planned intervals or if significant changes occur"
+  ],
+  "passage": "3 INTRODUCTION\n\n<<CLIENT>> and its core business exists in a wider economic environment in which effective relationships with third party suppliers is critical to its continued success. Therefore, it is important that <<CLIENT>>’s relationships with suppliers (Third-Parties) are based on a clear understanding of expectations and requirements in the area of information security. These requirements must be documented and agreed in a manner that leaves no doubt about the importance <<CLIENT>> places on the maintenance of effective security controls to reduce security risks."
+ },
+ {
+  "control_id": "T6.1.1",
+  "passage_id": "clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping_passage_4",
+  "human_label": "Not Addressed",
+  "obligation": "The entity shall establish a third party security policy to facilitate the implementation of the associated controls.",
+  "atoms": [
+   "a: The third party security policy shall:",
+   "b: be appropriate to the relationship of the entity and the third party",
+   "c: include statement of the management commitment, purpose, objective and scope of the policy",
+   "d: outline the roles and responsibilities for managing third parties",
+   "e: provide the framework for setting information security objectives and/or include information security objectives to be used when engaging third parties",
+   "f: be documented and communicated to the third party",
+   "g: be read and acknowledged formally by the third party",
+   "h: be maintained, reviewed and updated at planned intervals or if significant changes occur"
+  ],
+  "passage": "4 PURPOSE\n\nThe purpose of this Third-party Security Policy (“Policy”) is to ensure that external stakeholders are compliant with the organization’s security requirements. This Policy defines a framework for third party security and reduces the security risks and liability associated with granting third parties’ access to the organization’s information, information assets and premises.\nFurther, the Policy establishes a commitment to comply with applicable sections of the federal and global laws and regulations, including but not limited to UAE Information Assurance Regulation, ISO27001 and National Cyber Risk Management Framework (NCRMF).\nThe following are the key objectives of this Policy:\n    • Restrict third-party access: Establish information security requirements for mitigating the risks associated with each third-party's access to organizational assets.\n    • Establish agreements: Establish agreements that cover all relevant security requirements with third-parties to handle the organization's information assets.\n    • Oversee third-party service delivery: Monitor, review, and audit third-party service delivery."
+ },
+ {
+  "control_id": "T6.1.1",
+  "passage_id": "clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping_passage_6",
+  "human_label": "Not Addressed",
+  "obligation": "The entity shall establish a third party security policy to facilitate the implementation of the associated controls.",
+  "atoms": [
+   "a: The third party security policy shall:",
+   "b: be appropriate to the relationship of the entity and the third party",
+   "c: include statement of the management commitment, purpose, objective and scope of the policy",
+   "d: outline the roles and responsibilities for managing third parties",
+   "e: provide the framework for setting information security objectives and/or include information security objectives to be used when engaging third parties",
+   "f: be documented and communicated to the third party",
+   "g: be read and acknowledged formally by the third party",
+   "h: be maintained, reviewed and updated at planned intervals or if significant changes occur"
+  ],
+  "passage": "6 POLICY STATEMENT\n\n<<CLIENT>> shall ensure that all third parties comply with this Policy's information security requirements while providing services that could impact the confidentiality, integrity, availability, secrecy and privacy of the organization’s information and information assets."
+ },
+ {
+  "control_id": "T6.2.1",
+  "passage_id": "clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping_passage_4",
+  "human_label": "Partially Addressed",
+  "obligation": "The entity shall monitor third party service delivery. The entity shall:",
+  "atoms": [
+   "b: ensure that security requirements for third parties are included in the service delivery agreement for each party",
+   "c: ensure these security requirements are measurable",
+   "d: require third parties to measure and report to the entity on these service requirements"
+  ],
+  "passage": "4 PURPOSE\n\nThe purpose of this Third-party Security Policy (“Policy”) is to ensure that external stakeholders are compliant with the organization’s security requirements. This Policy defines a framework for third party security and reduces the security risks and liability associated with granting third parties’ access to the organization’s information, information assets and premises.\nFurther, the Policy establishes a commitment to comply with applicable sections of the federal and global laws and regulations, including but not limited to UAE Information Assurance Regulation, ISO27001 and National Cyber Risk Management Framework (NCRMF).\nThe following are the key objectives of this Policy:\n    • Restrict third-party access: Establish information security requirements for mitigating the risks associated with each third-party's access to organizational assets.\n    • Establish agreements: Establish agreements that cover all relevant security requirements with third-parties to handle the organization's information assets.\n    • Oversee third-party service delivery: Monitor, review, and audit third-party service delivery."
+ },
+ {
+  "control_id": "T6.2.2",
+  "passage_id": "clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping_passage_7",
+  "human_label": "Not Addressed",
+  "obligation": "Monitoring and Review of Priority P2",
+  "atoms": [],
+  "passage": "7.1 Third-Party Security Approach\n\n<<CLIENT>> shall: \n            7.1.1 Identify, mandate, and monitor information security and data protection controls processes and procedures to address third-party access to the organization’s information and information assets.\n            7.1.2 Establish a standardized process and lifecycle for managing third-party relationships, their access to the organization’s information and information assets and the security requirements.\n            7.1.3 Define the types of obligations applicable to third-parties to protect <<CLIENT>>’s information.\n            7.1.4 Handle incidents and contingencies associated with third-party access, including the responsibilities of both <<CLIENT>> and its third-parties.\n            7.1.5 Ensure the availability of the information or information processing provided by either party through resilience, recovery, and contingency arrangements."
+ },
+ {
+  "control_id": "T6.2.2",
+  "passage_id": "clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping_passage_8",
+  "human_label": "Not Addressed",
+  "obligation": "Monitoring and Review of Priority P2",
+  "atoms": [],
+  "passage": "7.2 Addressing Security and Data Protection Requirements with Third-party Agreements\n\n<<CLIENT>> shall:\n            7.2.1 Use only third-party service providers providing sufficient guarantees to implement appropriate technical and organizational measures in such a manner that processing will meet the requirements of this Policy.\n            7.2.2 Define the conditions under which information security and data protection requirements and controls will be documented in an agreement signed by both parties.\n            7.2.3 Manage the necessary transitions of information, information processing facilities and anything else that needs to be moved and ensuring that information security and data protection is maintained throughout the transition period.\n            7.2.4 Establish a service management relationship process between <<CLIENT>> and the third-party to:\n7.2.4.a Monitor service performance levels to verify adherence to the agreements.\n7.2.4.b Review service reports produced by the third-party and arranged regular progress meetings as required by the agreements.\n7.2.4.c Conduct audits of third-parties, in conjunction with the review of independent auditor’s reports, if available, and follow-up on issues identified."
+ },
+ {
+  "control_id": "T6.2.2",
+  "passage_id": "clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping_passage_9",
+  "human_label": "Not Addressed",
+  "obligation": "Monitoring and Review of Priority P2",
+  "atoms": [],
+  "passage": "7.3 Managing Changes to Third-party Services\n<<CLIENT>> shall consider the following aspects for information security and data protection review when managing changes to third-party services, at a minimum:\n            7.3.1 Changes to third-party agreements and/ or sub-contracting to another third-party.\n            7.3.2 Enhancements to the current services offered.\n            7.3.3 Development and/ use of new applications, systems, and technologies.\n            7.3.4 Modifications or updates of the organization’s policies and procedures.\n            7.3.5 Introduction of new security controls.\n            7.3.6 Changes and enhancement to technology landscape."
+ },
+ {
+  "control_id": "T6.2.3",
+  "passage_id": "clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping_passage_7",
+  "human_label": "Partially Addressed",
+  "obligation": "The entity shall manage changes to the provision of third party services, including maintaining and improving existing information security policies, procedures and controls.",
+  "atoms": [
+   "a: The entity shall:",
+   "b: ensure that third party service agreements include a methodology for communicating change management issues between the entity and the third party",
+   "c: define the parameters for changes that must be communicated between the entity and the third party",
+   "d: assess the changes taking into account the criticality of business systems and processes involved and re-assessment of risks"
+  ],
+  "passage": "7.1 Third-Party Security Approach\n\n<<CLIENT>> shall: \n            7.1.1 Identify, mandate, and monitor information security and data protection controls processes and procedures to address third-party access to the organization’s information and information assets.\n            7.1.2 Establish a standardized process and lifecycle for managing third-party relationships, their access to the organization’s information and information assets and the security requirements.\n            7.1.3 Define the types of obligations applicable to third-parties to protect <<CLIENT>>’s information.\n            7.1.4 Handle incidents and contingencies associated with third-party access, including the responsibilities of both <<CLIENT>> and its third-parties.\n            7.1.5 Ensure the availability of the information or information processing provided by either party through resilience, recovery, and contingency arrangements."
+ },
+ {
+  "control_id": "T7.1.1",
+  "passage_id": "clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2_passage_3",
+  "human_label": "Not Addressed",
+  "obligation": "The entity shall establish an information systems acquisition, development, and maintenance policy.",
+  "atoms": [
+   "a: The information systems acquisition, development, and maintenance policy shall:",
+   "b: be appropriate to the relationship of the entity and all internal and external parties involved in the process",
+   "c: include statement of the management commitment, purpose, objective and scope of the policy",
+   "d: outline the roles and responsibilities",
+   "e: provide the framework for setting information security objectives and/or include information security objectives to be used when engaging in the process",
+   "f: be documented and communicated to all users",
+   "g: be read and acknowledged formally by all users",
+   "h: be maintained, reviewed and updated at planned intervals or if significant changes occur"
+  ],
+  "passage": "1 INTRODUCTION\n\nThis Information Systems Acquisition, Development and Maintenance Policy outlines the framework for implementing appropriate security controls to ensure that day-to-day acquisition, development and maintenance of <CLIENT>’s Information systems are carried out in a controlled and secure manner."
+ },
+ {
+  "control_id": "T7.1.1",
+  "passage_id": "clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2_passage_4",
+  "human_label": "Not Addressed",
+  "obligation": "The entity shall establish an information systems acquisition, development, and maintenance policy.",
+  "atoms": [
+   "a: The information systems acquisition, development, and maintenance policy shall:",
+   "b: be appropriate to the relationship of the entity and all internal and external parties involved in the process",
+   "c: include statement of the management commitment, purpose, objective and scope of the policy",
+   "d: outline the roles and responsibilities",
+   "e: provide the framework for setting information security objectives and/or include information security objectives to be used when engaging in the process",
+   "f: be documented and communicated to all users",
+   "g: be read and acknowledged formally by all users",
+   "h: be maintained, reviewed and updated at planned intervals or if significant changes occur"
+  ],
+  "passage": "2 PURPOSE\n\nThe purpose of this Information Systems Acquisition, Development and Maintenance Policy (“Policy”) is to define a framework for the Information System Acquisition, Development, and Maintenance process. This Policy shall ensure information assets are safeguarded against internal, external, deliberate, or accidental threats throughout their lifecycle.\nFurther, the Policy establishes a commitment to comply with applicable sections of the federal and global laws and regulations, including but not limited to UAE Information Assurance Regulation, ISO 27001 and UAE National Cyber Risk Management Framework (NCRMF).\nThe following are the key objectives of this Policy:\n        2.1 Definition of security requirements for information systems: Development of information security requirements for new information systems or enhancements to existing information systems.\n        2.2 Protection of information: Protection of information involved in application service transactions against incomplete transmission, misrouting, unauthorized message alteration, unauthorized disclosure, unauthorized message duplication, or replay."
+ },
+ {
+  "control_id": "T7.1.1",
+  "passage_id": "clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2_passage_6",
+  "human_label": "Not Addressed",
+  "obligation": "The entity shall establish an information systems acquisition, development, and maintenance policy.",
+  "atoms": [
+   "a: The information systems acquisition, development, and maintenance policy shall:",
+   "b: be appropriate to the relationship of the entity and all internal and external parties involved in the process",
+   "c: include statement of the management commitment, purpose, objective and scope of the policy",
+   "d: outline the roles and responsibilities",
+   "e: provide the framework for setting information security objectives and/or include information security objectives to be used when engaging in the process",
+   "f: be documented and communicated to all users",
+   "g: be read and acknowledged formally by all users",
+   "h: be maintained, reviewed and updated at planned intervals or if significant changes occur"
+  ],
+  "passage": "4 POLICY STATEMENT\n\n<CLIENT> shall develop, implement, and maintain Information Systems Acquisition, Development and Maintenance Procedure to:  \n        4.1 Provide strategies, tools, and techniques to protect risks towards supply chain.\n        4.2 Prevent unauthorized modification or misuse of the information in applications.\n        4.3 Maintain security in development and support processes. \n        4.4 Manage technical vulnerabilities."
+ },
+ {
+  "control_id": "T7.1.1",
+  "passage_id": "clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2_passage_7",
+  "human_label": "Not Addressed",
+  "obligation": "The entity shall establish an information systems acquisition, development, and maintenance policy.",
+  "atoms": [
+   "a: The information systems acquisition, development, and maintenance policy shall:",
+   "b: be appropriate to the relationship of the entity and all internal and external parties involved in the process",
+   "c: include statement of the management commitment, purpose, objective and scope of the policy",
+   "d: outline the roles and responsibilities",
+   "e: provide the framework for setting information security objectives and/or include information security objectives to be used when engaging in the process",
+   "f: be documented and communicated to all users",
+   "g: be read and acknowledged formally by all users",
+   "h: be maintained, reviewed and updated at planned intervals or if significant changes occur"
+  ],
+  "passage": "5 POLICY DETAILS"
+ },
+ {
+  "control_id": "T7.2.1",
+  "passage_id": "clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2_passage_6",
+  "human_label": "Not Addressed",
+  "obligation": "The entity shall develop information security requirements for new information systems or enhancements to existing information systems.",
+  "atoms": [
+   "a: The security requirements shall:",
+   "b: be used for new information systems or enhancements to existing information systems",
+   "c: be approved by the appropriate business manager or equivalent",
+   "d: address all requirements for security controls identified during the risk assessment",
+   "e: outline how to verify that the requirements for security controls have been met",
+   "f: be included in the statement of business and technical requirements"
+  ],
+  "passage": "4 POLICY STATEMENT\n\n<CLIENT> shall develop, implement, and maintain Information Systems Acquisition, Development and Maintenance Procedure to:  \n        4.1 Provide strategies, tools, and techniques to protect risks towards supply chain.\n        4.2 Prevent unauthorized modification or misuse of the information in applications.\n        4.3 Maintain security in development and support processes. \n        4.4 Manage technical vulnerabilities."
+ },
+ {
+  "control_id": "T7.7.1",
+  "passage_id": "clientname-IS-POL-00-Vulnerability Management Policy v1.2 (V_A)_passage_7",
+  "human_label": "Not Addressed",
+  "obligation": "of Technical",
+  "atoms": [
+   "a: The entity shall:",
+   "b: identify vulnerabilities in new systems and applications and define a remediation plan before placing them in a production environment",
+   "c: test, review, check, and verify the presence of vulnerabilities in production systems throughout the development life-cycle, preferably by the use of automated testing tools",
+   "d: perform a Cost-Benefit-Analysis (CBA) for vulnerabilities to determine the proper remediation plan, where appropriate"
+  ],
+  "passage": "6.1 Vulnerability Management\n\n<CLIENTNAME> shall:\n            6.1.1 Conduct annual vulnerability assessments and penetration testing and quarterly internal vulnerability assessments scans on information systems on a continuous basis. In addition, ad-hoc vulnerability assessments and penetration testing shall be conducted based upon specific requests from Senior management or Business units.\n            6.1.2 <CLIENTNAME> shall implement a patch management process to be carried out periodically on all critical infrastructure systems. \n            6.1.3 <CLIENTNAME> shall remediate all critical and high vulnerabilities upon performing impact analysis with IS team.\n            6.1.4 <CLIENTNAME> shall remediate all critical and high potential risk within 45 days based on impact analysis with IS team\n            6.1.5 Shall report periodic progress on the status of remediation shall be submitted upon request from <CLIENTNAME> IS team.\n            6.1.6 Update the security baseline documents periodically to address the latest vulnerabilities/configuration.\n            6.1.7 An assessment report containing the details of impacted assets, vulnerability description, severity and remediation measures shall be prepared and shared with relevant stakeholders of <CLIENTNAME> IS Team.\n            6.1.8 Remediation activities shall be prioritized based on severity level of the vulnerability and criticality of impacted asset. \n            6.1.9 Remediation activities shall be conducted as per the defined timeline. Any deviations from the defined timeline shall be endorsed by the Information Asset Owner and approved by the <CLIENTNAME> IS Team.\n            6.1.10 A remediation plan shall be developed, consisting of details including but not limited to:\n                a. Remediation activities owner.\n                b. Target remediation timeline.\n                c. Planned remediation activities.\n            6.1.11 Remediation activities shall comply with <CLIENTNAME> processes including but not limited to change management, asset management, service management, etc.\n            6.1.12 Remediation activities may include but are not limited to:\n                a. Deployment of a"
+ },
+ {
+  "control_id": "T8.1.1",
+  "passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 2_passage_18",
+  "human_label": "Not Addressed",
+  "obligation": "The entity shall establish a policy to manage and guide the response to information security incidents.",
+  "atoms": [
+   "a: The incident management policy shall:",
+   "b: be appropriate to the purpose of the entity",
+   "c: include statement of the management commitment, purpose, objective and scope of the policy",
+   "d: outline roles and responsibilities",
+   "e: provide the framework for managing incidents",
+   "f: address sector and national level requirements for handling and reporting incidents",
+   "g: be documented and communicated to all users",
+   "h: be read and acknowledged formally by all users",
+   "i: be maintained, reviewed, exercised and updated at planned intervals or if significant changes occur"
+  ],
+  "passage": "7 POLICY ENFORCEMENT AND EXCEPTIONS\n\nThis Policy is to be part of all employees, contractors and third parties’ processes, and all are responsible for understanding and adhering to this Policy. Any violation of this Policy shall be reported to Policy Owner. Violation of this Policy shall be subjected to disciplinary action by the <CLIENT>'s Human Capital Department, taking into consideration the recommendation of the Information Security department and in accordance with other applicable policies, laws and regulations.\nDisciplinary action may range from a verbal warning to discontinuation of access to facility or services, or termination of employment/contract/agreement, and possible legal action. The actual action taken shall depend on factors such as the seriousness of the breach and the user's disciplinary record.\n\nAny exceptions on the applicability of this Policy should be formally requested through the Policy Exception Management procedure.\n7 POLICY ENFORCEMENT AND EXCEPTIONS\n\nThis Policy is to be part of all employees, contractors and third parties’ processes, and all are responsible for understanding and adhering to this Policy. Any violation of this Policy shall be reported to Policy Owner. Violation of this Policy shall be subjected to disciplinary action by the <CLIENT>'s Human Capital Department, taking into consideration the recommendation of the Information Security department and in accordance with other applicable policies, laws and regulations.\n\nDisciplinary action may range from a verbal warning to discontinuation of access to facility or services, or termination of employment/contract/agreement, and possible legal action. The actual action taken shall depend on factors such as the seriousness of the breach and the user's disciplinary record.\n\nAny exceptions on the applicability of this Policy should be formally requested through the Policy Exception Management procedure."
+ },
+ {
+  "control_id": "T8.1.1",
+  "passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 2_passage_3",
+  "human_label": "Fully Addressed",
+  "obligation": "The entity shall establish a policy to manage and guide the response to information security incidents.",
+  "atoms": [
+   "a: The incident management policy shall:",
+   "b: be appropriate to the purpose of the entity",
+   "c: include statement of the management commitment, purpose, objective and scope of the policy",
+   "d: outline roles and responsibilities",
+   "e: provide the framework for managing incidents",
+   "f: address sector and national level requirements for handling and reporting incidents",
+   "g: be documented and communicated to all users",
+   "h: be read and acknowledged formally by all users",
+   "i: be maintained, reviewed, exercised and updated at planned intervals or if significant changes occur"
+  ],
+  "passage": "1 INTRODUCTION\n\nThe Information Security Incident Management Policy outlines the overall framework for managing security incidents within the organization. It establishes roles and responsibilities for incident detection, response and recovery."
+ },
+ {
+  "control_id": "T8.1.1",
+  "passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 2_passage_4",
+  "human_label": "Not Addressed",
+  "obligation": "The entity shall establish a policy to manage and guide the response to information security incidents.",
+  "atoms": [
+   "a: The incident management policy shall:",
+   "b: be appropriate to the purpose of the entity",
+   "c: include statement of the management commitment, purpose, objective and scope of the policy",
+   "d: outline roles and responsibilities",
+   "e: provide the framework for managing incidents",
+   "f: address sector and national level requirements for handling and reporting incidents",
+   "g: be documented and communicated to all users",
+   "h: be read and acknowledged formally by all users",
+   "i: be maintained, reviewed, exercised and updated at planned intervals or if significant changes occur"
+  ],
+  "passage": "2 PURPOSE\nThe purpose of this Information Security Incident Management Policy (“Policy”) is to ensure that information security incidents within the organization are communicated in a manner which allows timely corrective actions to be taken.\nFurthermore, the Policy establishes a commitment to comply with applicable sections of the federal and global laws and regulations, including but not limited to UAE Information Assurance Regulation, ISO27001 and National Cyber Risk Management Framework (NCRMF).\nThe following are the key objectives of this Policy:\n        2.1 Launch an incident response plan: Development, implementation, and maintenance of a plan to guide incident response activities.   \n        2.2 Establish a CSIRT: Establishment of a Computer Security Incident Response Team (CSIRT) in charge of the incident management and response plan.\n        2.3 Enable reporting: Reporting information security incidents that results in damage or risk to information security assets and operations through appropriate management channels to stakeholders.\n2 PURPOSE\n\nThe purpose of this Information Security Incident Management Policy (“Policy”) is to ensure that information security incidents within the organization are communicated in a manner which allows timely corrective actions to be taken.\n\nFurthermore, the Policy establishes a commitment to comply with applicable sections of the federal and global laws and regulations, including but not limited to UAE Information Assurance Regulation, ISO27001 and National Cyber Risk Management Framework (NCRMF).\n\nThe following are the key objectives of this Policy:\n\n1. **Launch an incident response plan:** Development, implementation, and maintenance of a plan to guide incident response activities.\n2. **Establish a CSIRT:** Establishment of a Computer Security Incident Response Team (CSIRT) in charge of the incident management and response plan.\n3. **Enable reporting:** Reporting information security incidents that results in damage or risk to information security assets and operations through ap"
+ },
+ {
+  "control_id": "T8.1.1",
+  "passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 2_passage_5",
+  "human_label": "Not Addressed",
+  "obligation": "The entity shall establish a policy to manage and guide the response to information security incidents.",
+  "atoms": [
+   "a: The incident management policy shall:",
+   "b: be appropriate to the purpose of the entity",
+   "c: include statement of the management commitment, purpose, objective and scope of the policy",
+   "d: outline roles and responsibilities",
+   "e: provide the framework for managing incidents",
+   "f: address sector and national level requirements for handling and reporting incidents",
+   "g: be documented and communicated to all users",
+   "h: be read and acknowledged formally by all users",
+   "i: be maintained, reviewed, exercised and updated at planned intervals or if significant changes occur"
+  ],
+  "passage": "3 SCOPE\n\nThis Policy applies to anybody involved in the security Incident management and/or response including but not limited to employees and critical third parties who access or manage information and information assets or use the organization's information and communications technology (ICT) systems.\n\nAny exceptions on the applicability of this Policy should be formally requested through the ‘Policy Exception Management procedure’.\n3 SCOPE\n\n**This Policy applies to anybody involved in the security Incident management and/or response including but not limited to employees and critical third parties who access or manage information and information assets or use the organization's information and communications technology (ICT) systems.\n\nAny exceptions on the applicability of this Policy should be formally requested through the ‘Policy Exception Management procedure’.**"
+ },
+ {
+  "control_id": "T8.1.1",
+  "passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 2_passage_6",
+  "human_label": "Not Addressed",
+  "obligation": "The entity shall establish a policy to manage and guide the response to information security incidents.",
+  "atoms": [
+   "a: The incident management policy shall:",
+   "b: be appropriate to the purpose of the entity",
+   "c: include statement of the management commitment, purpose, objective and scope of the policy",
+   "d: outline roles and responsibilities",
+   "e: provide the framework for managing incidents",
+   "f: address sector and national level requirements for handling and reporting incidents",
+   "g: be documented and communicated to all users",
+   "h: be read and acknowledged formally by all users",
+   "i: be maintained, reviewed, exercised and updated at planned intervals or if significant changes occur"
+  ],
+  "passage": "4 POLICY STATEMENT\n\n<CLIENT> shall develop, implement, and maintain an incident management program where personnel shall report information security events and weaknesses, collect, and analyze evidence of security incidents, and ensure security incidents are adequately managed.\n4 POLICY STATEMENT\n\n<CLIENT> shall develop, implement, and maintain an incident management program where personnel shall report information security events and weaknesses, collect, and analyze evidence of security incidents, and ensure security incidents are adequately managed."
+ },
+ {
+  "control_id": "T8.1.1",
+  "passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_18",
+  "human_label": "Not Addressed",
+  "obligation": "The entity shall establish a policy to manage and guide the response to information security incidents.",
+  "atoms": [
+   "a: The incident management policy shall:",
+   "b: be appropriate to the purpose of the entity",
+   "c: include statement of the management commitment, purpose, objective and scope of the policy",
+   "d: outline roles and responsibilities",
+   "e: provide the framework for managing incidents",
+   "f: address sector and national level requirements for handling and reporting incidents",
+   "g: be documented and communicated to all users",
+   "h: be read and acknowledged formally by all users",
+   "i: be maintained, reviewed, exercised and updated at planned intervals or if significant changes occur"
+  ],
+  "passage": "7 POLICY ENFORCEMENT AND EXCEPTIONS\n\nThis Policy is to be part of all employees, contractors and third parties’ processes, and all are responsible for understanding and adhering to this Policy. Any violation of this Policy shall be reported to Policy Owner. Violation of this Policy shall be subjected to disciplinary action by the <CLIENT>'s Human Capital Department, taking into consideration the recommendation of the Information Security department and in accordance with other applicable policies, laws and regulations.\n\nDisciplinary action may range from a verbal warning to discontinuation of access to facility or services, or termination of employment/contract/agreement, and possible legal action. The actual action taken shall depend on factors such as the seriousness of the breach and the user's disciplinary record.\n\nAny exceptions on the applicability of this Policy should be formally requested through the Policy Exception Management procedure."
+ }
+]

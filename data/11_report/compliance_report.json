@@ -1,0 +1,1052 @@
+{
+  "meta": {
+    "source": "data/07_golden_mapping/answer_key.json",
+    "total_controls_in_regulation": 251,
+    "controls_assessed": 81,
+    "controls_not_assessed": 170,
+    "coverage_pct": 32.3
+  },
+  "summary": {
+    "Gap": 66,
+    "Partially Met": 7,
+    "Met": 8
+  },
+  "controls": [
+    {
+      "control_id": "M1.1.2",
+      "control_name": "Unknown",
+      "family": "M1",
+      "status": "Gap",
+      "n_passages_assessed": 1,
+      "evidence": []
+    },
+    {
+      "control_id": "M1.3.2",
+      "control_name": "Confidentiality Agreements A.6.1.5 PL-4, PS-6, SA-9 8.1.1 HR.1",
+      "family": "M1",
+      "status": "Gap",
+      "n_passages_assessed": 1,
+      "evidence": []
+    },
+    {
+      "control_id": "M1.4.2",
+      "control_name": "Internal and External",
+      "family": "M1",
+      "status": "Gap",
+      "n_passages_assessed": 1,
+      "evidence": []
+    },
+    {
+      "control_id": "M2.1.1",
+      "control_name": "Unknown",
+      "family": "M2",
+      "status": "Gap",
+      "n_passages_assessed": 12,
+      "evidence": []
+    },
+    {
+      "control_id": "M2.2.1",
+      "control_name": "above). Finally, the likelihood of the threat to occur and the level of vulnerability are put together to determine the likelihood that this particular threat/vulnerability combination occurs. How exactly these values are put together has been defined in the Information Security Risk Management Policy (see",
+      "family": "M2",
+      "status": "Gap",
+      "n_passages_assessed": 1,
+      "evidence": []
+    },
+    {
+      "control_id": "M2.3.1",
+      "control_name": "Information Security Risk Treatment Options M2.3.2 Identification of Controls",
+      "family": "M2",
+      "status": "Partially Met",
+      "n_passages_assessed": 3,
+      "evidence": [
+        {
+          "passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 1_passage_9",
+          "policy": "Information Risk Management Policy",
+          "section": "5.4 Information Risk Treatment",
+          "label": "Partially Addressed",
+          "quote": "5.4 Information Risk Treatment\n\n1. Risk Reduction: Reducing risk by applying security controls.\n2. Risk Avoidance: Avoiding the activity or condition causing the risk.\n3. Risk Transfer: Transferring t..."
+        },
+        {
+          "passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2_passage_9",
+          "policy": "Information Risk Management Policy",
+          "section": "5.4 Information Risk Treatment",
+          "label": "Partially Addressed",
+          "quote": "5.4 Information Risk Treatment\n\n1. Risk Reduction: Reducing risk by applying security controls.\n2. Risk Avoidance: Avoiding the activity or condition causing the risk.\n3. Risk Transfer: Transferring t..."
+        },
+        {
+          "passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 3_passage_9",
+          "policy": "Information Risk Management Policy",
+          "section": "5.4 Information Risk Treatment",
+          "label": "Partially Addressed",
+          "quote": "5.4 Information Risk Treatment\n\n1. Risk Reduction: Reducing risk by applying security controls.\n2. Risk Avoidance: Avoiding the activity or condition causing the risk.\n3. Risk Transfer: Transferring t..."
+        }
+      ]
+    },
+    {
+      "control_id": "M2.3.2",
+      "control_name": "Identification of Controls",
+      "family": "M2",
+      "status": "Gap",
+      "n_passages_assessed": 3,
+      "evidence": []
+    },
+    {
+      "control_id": "M3.1.1",
+      "control_name": "Awareness and Training",
+      "family": "M3",
+      "status": "Gap",
+      "n_passages_assessed": 1,
+      "evidence": []
+    },
+    {
+      "control_id": "M3.2.1",
+      "control_name": "Awareness and Training",
+      "family": "M3",
+      "status": "Gap",
+      "n_passages_assessed": 2,
+      "evidence": []
+    },
+    {
+      "control_id": "M3.3.1",
+      "control_name": "Training Needs",
+      "family": "M3",
+      "status": "Gap",
+      "n_passages_assessed": 1,
+      "evidence": []
+    },
+    {
+      "control_id": "M3.3.4",
+      "control_name": "Training Results",
+      "family": "M3",
+      "status": "Met",
+      "n_passages_assessed": 1,
+      "evidence": [
+        {
+          "passage_id": "clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_9",
+          "policy": "Security Awareness and Training Policy",
+          "section": "8.3 Training Records",
+          "label": "Fully Addressed",
+          "quote": "8.3 Training Records\n\n<<CLIENT>> shall:\n\n1. Document and monitor individual security training activities, including basic security awareness training and any Role specific security trainin..."
+        }
+      ]
+    },
+    {
+      "control_id": "M5.1.1",
+      "control_name": "Compliance Policy",
+      "family": "M5",
+      "status": "Gap",
+      "n_passages_assessed": 2,
+      "evidence": []
+    },
+    {
+      "control_id": "M5.2.1",
+      "control_name": "Identification of Applicable",
+      "family": "M5",
+      "status": "Gap",
+      "n_passages_assessed": 1,
+      "evidence": []
+    },
+    {
+      "control_id": "M5.2.2",
+      "control_name": "Intellectual Property",
+      "family": "M5",
+      "status": "Gap",
+      "n_passages_assessed": 1,
+      "evidence": []
+    },
+    {
+      "control_id": "M5.2.3",
+      "control_name": "Protection of",
+      "family": "M5",
+      "status": "Gap",
+      "n_passages_assessed": 1,
+      "evidence": []
+    },
+    {
+      "control_id": "M5.3.1",
+      "control_name": "Compliance with Security",
+      "family": "M5",
+      "status": "Gap",
+      "n_passages_assessed": 2,
+      "evidence": []
+    },
+    {
+      "control_id": "M5.4.1",
+      "control_name": "Technical Compliance",
+      "family": "M5",
+      "status": "Gap",
+      "n_passages_assessed": 3,
+      "evidence": []
+    },
+    {
+      "control_id": "M5.5.1",
+      "control_name": "Information Systems Audit",
+      "family": "M5",
+      "status": "Gap",
+      "n_passages_assessed": 1,
+      "evidence": []
+    },
+    {
+      "control_id": "T1.1.1",
+      "control_name": "Asset Management Policy",
+      "family": "T1",
+      "status": "Gap",
+      "n_passages_assessed": 8,
+      "evidence": []
+    },
+    {
+      "control_id": "T1.2.1",
+      "control_name": "Inventory of Assets",
+      "family": "T1",
+      "status": "Partially Met",
+      "n_passages_assessed": 2,
+      "evidence": [
+        {
+          "passage_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_7",
+          "policy": "Asset Management Policy",
+          "section": "5.1 Asset Inventory",
+          "label": "Partially Addressed",
+          "quote": "5.1 Asset Inventory\n\n<CLIENT> shall:\n\n1. Identify assets relevant in the information lifecycle (creation, processing, storage, transmission, deletion, destruction, and protection) and document t..."
+        },
+        {
+          "passage_id": "clientname-IS-POL-00-Asset Management Policy_passage_7",
+          "policy": "Asset Management Policy",
+          "section": "5.1 Asset Inventory",
+          "label": "Partially Addressed",
+          "quote": "5.1 Asset Inventory\n\n<CLIENT> shall:\n\n1. Identify assets relevant in the information lifecycle (creation, processing, storage, transmission, deletion, destruction, and protection) and document t..."
+        }
+      ]
+    },
+    {
+      "control_id": "T1.2.2",
+      "control_name": "Unknown",
+      "family": "T1",
+      "status": "Gap",
+      "n_passages_assessed": 3,
+      "evidence": []
+    },
+    {
+      "control_id": "T1.2.3",
+      "control_name": "",
+      "family": "T1",
+      "status": "Gap",
+      "n_passages_assessed": 2,
+      "evidence": []
+    },
+    {
+      "control_id": "T1.3.2",
+      "control_name": "Labeling of Information",
+      "family": "T1",
+      "status": "Gap",
+      "n_passages_assessed": 2,
+      "evidence": []
+    },
+    {
+      "control_id": "T1.3.3",
+      "control_name": "Handling of Information",
+      "family": "T1",
+      "status": "Partially Met",
+      "n_passages_assessed": 4,
+      "evidence": [
+        {
+          "passage_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_9",
+          "policy": "Asset Management Policy",
+          "section": "5.3 Asset Labelling",
+          "label": "Partially Addressed",
+          "quote": "5.3 Asset Labelling\n\n<CLIENT> shall:\n\n1. Label information assets in physical and electronic formats according to the established information classification scheme as per the <CLIENT> Data..."
+        }
+      ]
+    },
+    {
+      "control_id": "T1.4.1",
+      "control_name": "Management of",
+      "family": "T1",
+      "status": "Gap",
+      "n_passages_assessed": 2,
+      "evidence": []
+    },
+    {
+      "control_id": "T1.4.2",
+      "control_name": "Disposal of Media",
+      "family": "T1",
+      "status": "Gap",
+      "n_passages_assessed": 4,
+      "evidence": []
+    },
+    {
+      "control_id": "T2.1.1",
+      "control_name": "Physical and Environmental",
+      "family": "T2",
+      "status": "Met",
+      "n_passages_assessed": 3,
+      "evidence": [
+        {
+          "passage_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_4",
+          "policy": "Physical and Environmental Security Policy",
+          "section": "2 PURPOSE",
+          "label": "Fully Addressed",
+          "quote": "2 PURPOSE\n\nThe purpose of this Physical and Environmental Security Policy (“Policy”) is to ensure that physical access to organization’s premises is controlled, monitored and security measures are imp..."
+        }
+      ]
+    },
+    {
+      "control_id": "T2.2.2",
+      "control_name": "Physical Entry Controls",
+      "family": "T2",
+      "status": "Gap",
+      "n_passages_assessed": 1,
+      "evidence": []
+    },
+    {
+      "control_id": "T2.2.4",
+      "control_name": "",
+      "family": "T2",
+      "status": "Gap",
+      "n_passages_assessed": 1,
+      "evidence": []
+    },
+    {
+      "control_id": "T2.2.5",
+      "control_name": "Working in Secure Areas",
+      "family": "T2",
+      "status": "Gap",
+      "n_passages_assessed": 1,
+      "evidence": []
+    },
+    {
+      "control_id": "T2.2.6",
+      "control_name": "",
+      "family": "T2",
+      "status": "Gap",
+      "n_passages_assessed": 1,
+      "evidence": []
+    },
+    {
+      "control_id": "T2.3.1",
+      "control_name": "Equipment Siting and",
+      "family": "T2",
+      "status": "Partially Met",
+      "n_passages_assessed": 1,
+      "evidence": [
+        {
+          "passage_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_12",
+          "policy": "Physical and Environmental Security Policy",
+          "section": "5.5 Ensure Effective Supporting Utilities",
+          "label": "Partially Addressed",
+          "quote": "5.5 Ensure Effective Supporting Utilities\n\n<CLIENTNAME> shall:\n\n1. Ensure that each facility’s supporting utilities (e.g., electricity, telecommunications, water supply, natural gas, sewage, hea..."
+        }
+      ]
+    },
+    {
+      "control_id": "T2.3.3",
+      "control_name": "",
+      "family": "T2",
+      "status": "Gap",
+      "n_passages_assessed": 1,
+      "evidence": []
+    },
+    {
+      "control_id": "T2.3.5",
+      "control_name": "",
+      "family": "T2",
+      "status": "Gap",
+      "n_passages_assessed": 1,
+      "evidence": []
+    },
+    {
+      "control_id": "T2.3.6",
+      "control_name": "Secure Disposal or Re-Use",
+      "family": "T2",
+      "status": "Gap",
+      "n_passages_assessed": 1,
+      "evidence": []
+    },
+    {
+      "control_id": "T3.1.1",
+      "control_name": "Operations Management",
+      "family": "T3",
+      "status": "Gap",
+      "n_passages_assessed": 3,
+      "evidence": []
+    },
+    {
+      "control_id": "T3.2.1",
+      "control_name": "by developing a series of images and secure storage servers for hosting these standard images. Commercial and/or free configuration management tools can then be employed to measure the settings operating system and applications of managed machines to look for deviations from these image configurations used by the entity. Some configuration management tools require that an agent be installed on each managed system, while others remotely log in to each managed machine using administrator credentials. Either approach or a combination of the two approaches can provide the information needed for this control. Relevant Threats and • Illegal processing of data Vulnerabilities • Abuse of system access/privileges • Equipment malfunction T3.2.1 Common Systems",
+      "family": "T3",
+      "status": "Gap",
+      "n_passages_assessed": 1,
+      "evidence": []
+    },
+    {
+      "control_id": "T3.2.2",
+      "control_name": "Documented Operating",
+      "family": "T3",
+      "status": "Gap",
+      "n_passages_assessed": 1,
+      "evidence": []
+    },
+    {
+      "control_id": "T3.2.4",
+      "control_name": "",
+      "family": "T3",
+      "status": "Gap",
+      "n_passages_assessed": 1,
+      "evidence": []
+    },
+    {
+      "control_id": "T3.2.5",
+      "control_name": "Separation of Development,",
+      "family": "T3",
+      "status": "Gap",
+      "n_passages_assessed": 1,
+      "evidence": []
+    },
+    {
+      "control_id": "T3.3.1",
+      "control_name": "Capacity Management",
+      "family": "T3",
+      "status": "Gap",
+      "n_passages_assessed": 1,
+      "evidence": []
+    },
+    {
+      "control_id": "T3.6.3",
+      "control_name": "Monitoring System Use",
+      "family": "T3",
+      "status": "Met",
+      "n_passages_assessed": 1,
+      "evidence": [
+        {
+          "passage_id": "clientname-IS-POL-00-Vulnerability Management Policy v1.2 (V_A)_passage_5",
+          "policy": "Vulnerability Management Policy",
+          "section": "4 SCOPE",
+          "label": "Fully Addressed",
+          "quote": "4 SCOPE\n\nThe Policy covers all information systems owned, utilized and managed by <CLIENTNAME> including but not limited to:\n\n1. Information systems owned by <CLIENTNAME>.\n2. Hardware and ..."
+        }
+      ]
+    },
+    {
+      "control_id": "T4.1.1",
+      "control_name": "Communications Policy",
+      "family": "T4",
+      "status": "Met",
+      "n_passages_assessed": 2,
+      "evidence": [
+        {
+          "passage_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_4",
+          "policy": "Network and Communications Security Policy",
+          "section": "2 PURPOSE",
+          "label": "Fully Addressed",
+          "quote": "2 PURPOSE\n\nThe purpose of this Network and Communications Security Policy (“Policy”) is to ensure protection of information being exchanged within the organization and outside the organization.\n\nFurth..."
+        }
+      ]
+    },
+    {
+      "control_id": "T4.2.1",
+      "control_name": "Information Transfer",
+      "family": "T4",
+      "status": "Gap",
+      "n_passages_assessed": 1,
+      "evidence": []
+    },
+    {
+      "control_id": "T4.2.2",
+      "control_name": "Agreements on",
+      "family": "T4",
+      "status": "Gap",
+      "n_passages_assessed": 1,
+      "evidence": []
+    },
+    {
+      "control_id": "T4.2.3",
+      "control_name": "Physical Media in Transit",
+      "family": "T4",
+      "status": "Gap",
+      "n_passages_assessed": 2,
+      "evidence": []
+    },
+    {
+      "control_id": "T4.2.4",
+      "control_name": "",
+      "family": "T4",
+      "status": "Gap",
+      "n_passages_assessed": 1,
+      "evidence": []
+    },
+    {
+      "control_id": "T4.4.2",
+      "control_name": "",
+      "family": "T4",
+      "status": "Gap",
+      "n_passages_assessed": 1,
+      "evidence": []
+    },
+    {
+      "control_id": "T4.5.1",
+      "control_name": "Network Controls",
+      "family": "T4",
+      "status": "Gap",
+      "n_passages_assessed": 2,
+      "evidence": []
+    },
+    {
+      "control_id": "T4.5.2",
+      "control_name": "Security of Network",
+      "family": "T4",
+      "status": "Gap",
+      "n_passages_assessed": 1,
+      "evidence": []
+    },
+    {
+      "control_id": "T4.5.3",
+      "control_name": "",
+      "family": "T4",
+      "status": "Gap",
+      "n_passages_assessed": 1,
+      "evidence": []
+    },
+    {
+      "control_id": "T4.5.4",
+      "control_name": "Security of Wireless",
+      "family": "T4",
+      "status": "Gap",
+      "n_passages_assessed": 1,
+      "evidence": []
+    },
+    {
+      "control_id": "T5.1.1",
+      "control_name": "Access",
+      "family": "T5",
+      "status": "Gap",
+      "n_passages_assessed": 4,
+      "evidence": []
+    },
+    {
+      "control_id": "T5.2.1",
+      "control_name": "User Registration",
+      "family": "T5",
+      "status": "Met",
+      "n_passages_assessed": 2,
+      "evidence": [
+        {
+          "passage_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_10",
+          "policy": "Access Control Policy - CPX policy is reference",
+          "section": "8.4 User Registration and De-Registration",
+          "label": "Fully Addressed",
+          "quote": "8.4 User Registration and De-Registration\n\nUAE Public Prosecution shall:\n\n2. The use of shared IDs is prohibited by default, unless there is a valid business justification which is approved by UAEPP’s..."
+        }
+      ]
+    },
+    {
+      "control_id": "T5.2.2",
+      "control_name": "Privilege Management",
+      "family": "T5",
+      "status": "Met",
+      "n_passages_assessed": 1,
+      "evidence": [
+        {
+          "passage_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_12",
+          "policy": "Access Control Policy - CPX policy is reference",
+          "section": "8.6 Management of Privileged Access Rights",
+          "label": "Fully Addressed",
+          "quote": "8.6 Management of Privileged Access Rights\n\nUAE Public Prosecution shall:\n\n2. Consider the following steps, at a minimum, for managing privileged access rights:\n2. Privileged and service account acces..."
+        }
+      ]
+    },
+    {
+      "control_id": "T5.2.3",
+      "control_name": "User Security Credentials",
+      "family": "T5",
+      "status": "Gap",
+      "n_passages_assessed": 2,
+      "evidence": []
+    },
+    {
+      "control_id": "T5.2.4",
+      "control_name": "Review of User Access",
+      "family": "T5",
+      "status": "Gap",
+      "n_passages_assessed": 1,
+      "evidence": []
+    },
+    {
+      "control_id": "T5.4.1",
+      "control_name": "Policy on Use of Network",
+      "family": "T5",
+      "status": "Gap",
+      "n_passages_assessed": 1,
+      "evidence": []
+    },
+    {
+      "control_id": "T5.4.7",
+      "control_name": "",
+      "family": "T5",
+      "status": "Gap",
+      "n_passages_assessed": 1,
+      "evidence": []
+    },
+    {
+      "control_id": "T5.5.1",
+      "control_name": "Secure Log-On Procedures",
+      "family": "T5",
+      "status": "Gap",
+      "n_passages_assessed": 1,
+      "evidence": []
+    },
+    {
+      "control_id": "T5.5.4",
+      "control_name": "Use of System Utilities A.11.5.4 AC-3, AC-6 11.5.4 OM.13",
+      "family": "T5",
+      "status": "Gap",
+      "n_passages_assessed": 1,
+      "evidence": []
+    },
+    {
+      "control_id": "T5.6.3",
+      "control_name": "Publicly Accessible",
+      "family": "T5",
+      "status": "Gap",
+      "n_passages_assessed": 1,
+      "evidence": []
+    },
+    {
+      "control_id": "T6.1",
+      "control_name": "",
+      "family": "T6",
+      "status": "Gap",
+      "n_passages_assessed": 1,
+      "evidence": []
+    },
+    {
+      "control_id": "T6.1.1",
+      "control_name": "Third Party",
+      "family": "T6",
+      "status": "Gap",
+      "n_passages_assessed": 4,
+      "evidence": []
+    },
+    {
+      "control_id": "T6.2.1",
+      "control_name": "Service Delivery",
+      "family": "T6",
+      "status": "Partially Met",
+      "n_passages_assessed": 1,
+      "evidence": [
+        {
+          "passage_id": "clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping_passage_4",
+          "policy": "Third-Party Security Policy",
+          "section": "4 PURPOSE",
+          "label": "Partially Addressed",
+          "quote": "4 PURPOSE\n\nThe purpose of this Third-party Security Policy (“Policy”) is to ensure that external stakeholders are compliant with the organization’s security requirements. This Policy defines a framewo..."
+        }
+      ]
+    },
+    {
+      "control_id": "T6.2.2",
+      "control_name": "",
+      "family": "T6",
+      "status": "Gap",
+      "n_passages_assessed": 3,
+      "evidence": []
+    },
+    {
+      "control_id": "T6.2.3",
+      "control_name": "Managing Changes to Third",
+      "family": "T6",
+      "status": "Partially Met",
+      "n_passages_assessed": 1,
+      "evidence": [
+        {
+          "passage_id": "clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping_passage_7",
+          "policy": "Third-Party Security Policy",
+          "section": "7.1 Third-Party Security Approach",
+          "label": "Partially Addressed",
+          "quote": "7.1 Third-Party Security Approach\n\n<<CLIENT>> shall:\n\n1. Identify, mandate, and monitor information security and data protection controls processes and procedures to address third-party ac..."
+        }
+      ]
+    },
+    {
+      "control_id": "T7.1.1",
+      "control_name": "Information Systems Acquisition,",
+      "family": "T7",
+      "status": "Gap",
+      "n_passages_assessed": 4,
+      "evidence": []
+    },
+    {
+      "control_id": "T7.2.1",
+      "control_name": "Security Requirements",
+      "family": "T7",
+      "status": "Gap",
+      "n_passages_assessed": 1,
+      "evidence": []
+    },
+    {
+      "control_id": "T7.7.1",
+      "control_name": "Control of Technical",
+      "family": "T7",
+      "status": "Gap",
+      "n_passages_assessed": 1,
+      "evidence": []
+    },
+    {
+      "control_id": "T8.1.1",
+      "control_name": "Information Security Incident",
+      "family": "T8",
+      "status": "Met",
+      "n_passages_assessed": 9,
+      "evidence": [
+        {
+          "passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 2_passage_3",
+          "policy": "Information Security Incident Management Policy",
+          "section": "1 INTRODUCTION",
+          "label": "Fully Addressed",
+          "quote": "1 INTRODUCTION\n\nThe Information Security Incident Management Policy outlines the overall framework for managing security incidents within the organization. It establishes roles and responsibilities fo..."
+        },
+        {
+          "passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_3",
+          "policy": "Information Security Incident Management Policy",
+          "section": "1 INTRODUCTION",
+          "label": "Fully Addressed",
+          "quote": "1 INTRODUCTION\n\nThe Information Security Incident Management Policy outlines the overall framework for managing security incidents within the organization. It establishes roles and responsibilities fo..."
+        }
+      ]
+    },
+    {
+      "control_id": "T8.2.1",
+      "control_name": "Incident Response Plan",
+      "family": "T8",
+      "status": "Gap",
+      "n_passages_assessed": 2,
+      "evidence": []
+    },
+    {
+      "control_id": "T8.2.2",
+      "control_name": "Computer Security Incident",
+      "family": "T8",
+      "status": "Gap",
+      "n_passages_assessed": 1,
+      "evidence": []
+    },
+    {
+      "control_id": "T8.2.3",
+      "control_name": "Incident Classification",
+      "family": "T8",
+      "status": "Gap",
+      "n_passages_assessed": 2,
+      "evidence": []
+    },
+    {
+      "control_id": "T8.2.5",
+      "control_name": "",
+      "family": "T8",
+      "status": "Gap",
+      "n_passages_assessed": 6,
+      "evidence": []
+    },
+    {
+      "control_id": "T8.2.6",
+      "control_name": "Incident Response",
+      "family": "T8",
+      "status": "Gap",
+      "n_passages_assessed": 2,
+      "evidence": []
+    },
+    {
+      "control_id": "T8.2.7",
+      "control_name": "",
+      "family": "T8",
+      "status": "Gap",
+      "n_passages_assessed": 2,
+      "evidence": []
+    },
+    {
+      "control_id": "T8.2.8",
+      "control_name": "Learning From Information",
+      "family": "T8",
+      "status": "Gap",
+      "n_passages_assessed": 3,
+      "evidence": []
+    },
+    {
+      "control_id": "T8.3.1",
+      "control_name": "Situational Awareness",
+      "family": "T8",
+      "status": "Gap",
+      "n_passages_assessed": 2,
+      "evidence": []
+    },
+    {
+      "control_id": "T8.3.2",
+      "control_name": "Reporting Information",
+      "family": "T8",
+      "status": "Met",
+      "n_passages_assessed": 1,
+      "evidence": [
+        {
+          "passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 2_passage_9",
+          "policy": "Information Security Incident Management Policy",
+          "section": "5.3 Incident Classification",
+          "label": "Fully Addressed",
+          "quote": "5.3 Incident Classification\n\nThe CSIRT shall:\n\n1. Define, classify, and prioritise incidents to help identify the impact and scope of the incident.\n2. Establish an incident classification scheme in li..."
+        }
+      ]
+    },
+    {
+      "control_id": "T8.3.3",
+      "control_name": "Reporting Security",
+      "family": "T8",
+      "status": "Partially Met",
+      "n_passages_assessed": 3,
+      "evidence": [
+        {
+          "passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 2_passage_6",
+          "policy": "Information Security Incident Management Policy",
+          "section": "4 POLICY STATEMENT",
+          "label": "Partially Addressed",
+          "quote": "4 POLICY STATEMENT\n\n<CLIENT> shall develop, implement, and maintain an incident management program where personnel shall report information security events and weaknesses, collect, and analyze e..."
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    "M1.1.2",
+    "M1.3.2",
+    "M1.4.2",
+    "M2.1.1",
+    "M2.2.1",
+    "M2.3.2",
+    "M3.1.1",
+    "M3.2.1",
+    "M3.3.1",
+    "M5.1.1",
+    "M5.2.1",
+    "M5.2.2",
+    "M5.2.3",
+    "M5.3.1",
+    "M5.4.1",
+    "M5.5.1",
+    "T1.1.1",
+    "T1.2.2",
+    "T1.2.3",
+    "T1.3.2",
+    "T1.4.1",
+    "T1.4.2",
+    "T2.2.2",
+    "T2.2.4",
+    "T2.2.5",
+    "T2.2.6",
+    "T2.3.3",
+    "T2.3.5",
+    "T2.3.6",
+    "T3.1.1",
+    "T3.2.1",
+    "T3.2.2",
+    "T3.2.4",
+    "T3.2.5",
+    "T3.3.1",
+    "T4.2.1",
+    "T4.2.2",
+    "T4.2.3",
+    "T4.2.4",
+    "T4.4.2",
+    "T4.5.1",
+    "T4.5.2",
+    "T4.5.3",
+    "T4.5.4",
+    "T5.1.1",
+    "T5.2.3",
+    "T5.2.4",
+    "T5.4.1",
+    "T5.4.7",
+    "T5.5.1",
+    "T5.5.4",
+    "T5.6.3",
+    "T6.1",
+    "T6.1.1",
+    "T6.2.2",
+    "T7.1.1",
+    "T7.2.1",
+    "T7.7.1",
+    "T8.2.1",
+    "T8.2.2",
+    "T8.2.3",
+    "T8.2.5",
+    "T8.2.6",
+    "T8.2.7",
+    "T8.2.8",
+    "T8.3.1"
+  ],
+  "not_assessed": [
+    "M1",
+    "M1.1",
+    "M1.1.1",
+    "M1.1.3",
+    "M1.2",
+    "M1.2.1",
+    "M1.2.2",
+    "M1.3",
+    "M1.3.1",
+    "M1.3.3",
+    "M1.3.4",
+    "M1.3.5",
+    "M1.3.6",
+    "M1.3.7",
+    "M1.4.1",
+    "M1.4.3",
+    "M2",
+    "M2.1",
+    "M2.2",
+    "M2.2.2",
+    "M2.2.3",
+    "M2.3",
+    "M2.3.3",
+    "M2.3.4",
+    "M2.3.5",
+    "M2.4",
+    "M2.4.1",
+    "M2.4.2",
+    "M3",
+    "M3.1",
+    "M3.2",
+    "M3.3.2",
+    "M3.3.3",
+    "M3.3.5",
+    "M3.4.1",
+    "M4",
+    "M4.1",
+    "M4.1.1",
+    "M4.2",
+    "M4.2.1",
+    "M4.2.2",
+    "M4.3.1",
+    "M4.3.2",
+    "M4.4",
+    "M4.4.1",
+    "M4.4.2",
+    "M4.4.3",
+    "M5.2",
+    "M5.2.4",
+    "M5.2.5",
+    "M5.2.6",
+    "M5.2.7",
+    "M5.3",
+    "M5.4",
+    "M5.5",
+    "M5.5.2",
+    "M5.5.3",
+    "M6",
+    "M6.1",
+    "M6.1.1",
+    "M6.2",
+    "M6.2.1",
+    "M6.2.2",
+    "M6.3.1",
+    "M6.3.2",
+    "T1.1",
+    "T1.2",
+    "T1.2.4",
+    "T1.3",
+    "T1.3.1",
+    "T2",
+    "T2.1",
+    "T2.2.1",
+    "T2.2.3",
+    "T2.3.2",
+    "T2.3.4",
+    "T2.3.7",
+    "T2.3.8",
+    "T2.3.9",
+    "T3",
+    "T3.1",
+    "T3.2",
+    "T3.2.3",
+    "T3.3",
+    "T3.3.2",
+    "T3.4",
+    "T3.4.1",
+    "T3.5.1",
+    "T3.6.1",
+    "T3.6.2",
+    "T3.6.4",
+    "T3.6.5",
+    "T3.6.6",
+    "T3.6.7",
+    "T4.1",
+    "T4.2",
+    "T4.2.5",
+    "T4.3",
+    "T4.3.1",
+    "T4.3.2",
+    "T4.3.3",
+    "T4.4",
+    "T4.4.1",
+    "T4.5",
+    "T5.1",
+    "T5.2",
+    "T5.3",
+    "T5.3.1",
+    "T5.4",
+    "T5.4.2",
+    "T5.4.3",
+    "T5.4.4",
+    "T5.4.5",
+    "T5.4.6",
+    "T5.5",
+    "T5.5.2",
+    "T5.5.3",
+    "T5.6",
+    "T5.6.1",
+    "T5.6.2",
+    "T5.7",
+    "T5.7.1",
+    "T5.7.2",
+    "T6",
+    "T6.2",
+    "T6.3.1",
+    "T6.3.2",
+    "T7",
+    "T7.2",
+    "T7.2.2",
+    "T7.3",
+    "T7.3.1",
+    "T7.3.2",
+    "T7.3.3",
+    "T7.3.4",
+    "T7.4",
+    "T7.4.1",
+    "T7.4.2",
+    "T7.5",
+    "T7.5.1",
+    "T7.5.2",
+    "T7.5.3",
+    "T7.6",
+    "T7.6.1",
+    "T7.6.2",
+    "T7.6.3",
+    "T7.6.4",
+    "T7.6.5",
+    "T7.7",
+    "T7.8",
+    "T7.8.1",
+    "T7.8.2",
+    "T7.8.3",
+    "T7.8.4",
+    "T7.8.5",
+    "T7.8.6",
+    "T7.8.7",
+    "T8",
+    "T8.1",
+    "T8.2",
+    "T8.2.4",
+    "T8.2.9",
+    "T8.3",
+    "T9",
+    "T9.1",
+    "T9.1.1",
+    "T9.2.1",
+    "T9.2.2",
+    "T9.3",
+    "T9.3.1"
+  ]
+}

@@ -1,0 +1,19 @@
+Loading training data from data/07_golden_mapping/train_combined_reranker.json
+  Train: 1560 rows | Dev: 141 rows
+  Score distribution: {'positive(≥0.5)': 476, 'negative(0.0)': 1084}  |  Hard negatives: 889
+  Loss mode: BPR
+
+Loading base model: cross-encoder/ms-marco-MiniLM-L-6-v2
+
+LoRA enabled  rank=8  trainable=110,977 / 22,824,578 params (0.49%)
+
+Baseline (before fine-tuning):
+  Spearman=0.2891  BinaryAcc=0.7163  avg_pos_logit=0.54  avg_neg_logit=-1.80
+
+Building BPR triplets  (max_negs_per_pos=3)...
+  Triplets: 1428  (from 476 positives × up to 3 negatives each; 1084 local negatives, 889 hard)
+
+Fine-tuning for 5 epochs  (batch=8, lr=2e-05, warmup=89, total=895)…
+  Early stopping: patience=2 epochs (metric=Spearman)
+  Pos-penalty weight: 0.1 (keeps positive logits > 0)
+Epoch 1/5:   0%|          | 0/179 [00:00<?, ?batch/s]Epoch 1/5:   0%|          | 0/179 [00:02<?, ?batch/s, loss=3.1283]Epoch 1/5:   1%|          | 1/179 [00:02<06:00,  2.03s/batch, loss=3.1283]Epoch 1/5:   1%|          | 1/179 [00:04<06:00,  2.03s/batch, loss=3.0294]Epoch 1/5:   1%|          | 2/179 [00:04<05:58,  2.03s/batch, loss=3.0294]Epoch 1/5:   1%|          | 2/179 [00:05<05:58,  2.03s/batch, loss=0.9967]Epoch 1/5:   2%|▏         | 3/179 [00:05<05:22,  1.83s/batch, loss=0.9967]Epoch 1/5:   2%|▏         | 3/179 [00:06<05:22,  1.83s/batch, loss=1.7990]Epoch 1/5:   2%|▏         | 4/179 [00:06<04:46,  1.64s/batch, loss=1.7990]Epoch 1/5:   2%|▏         | 4/179 [00:09<04:46,  1.64s/batch, loss=1.8247]Epoch 1/5:   3%|▎         | 5/179 [00:09<05:20,  1.84s/batch, loss=1.8247]Epoch 1/5:   3%|▎         | 5/179 [00:11<05:20,  1.84s/batch, loss=0.6871]Epoch 1/5:   3%|▎         | 6/179 [00:11<05:18,  1.84s/batch, loss=0.6871]Epoch 1/5:   3%|▎         | 6/179 [00:13<05:18,  1.84s/batch, loss=0.8079]Epoch 1/5:   4%|▍         | 7/179 [00:13<05:31,  1.93s/batch, loss=0.8079]Epoch 1/5:   4%|▍         | 7/179 [00:15<05:31,  1.93s/batch, loss=2.6813]Epoch 1/5:   4%|▍         | 8/179 [00:15<05:37,  1.97s/batch, loss=2.6813]Epoch 1/5:   4%|▍         | 8/179 [00:16<05:37,  1.97s/batch, loss=1.0997]Epoch 1/5:   5%|▌         | 9/179 [00:16<05:14,  1.85s/batch, loss=1.0997]Epoch 1/5:   5%|▌         | 9/179 [00:18<05:14,  1.85s/batch, loss=2.1175]Epoch 1/5:   6%|▌         | 10/179 [00:18<05:12,  1.85s/batch, loss=2.1175]Epoch 1/5:   6%|▌         | 10/179 [00:20<05:12,  1.85s/batch, loss=1.6555]Epoch 1/5:   6%|▌         | 11/179 [00:20<05:10,  1.85s/batch, loss=1.6555]Epoch 1/5:   6%|▌         | 11/179 [00:22<05:10,  1.85s/batch, loss=1.0784]Epoch 1/5:   7%|▋         | 12/179 [00:22<04:54,  1.76s/batch, loss=1.0784]Epoch 1/5:   7%|▋         | 12/179 [00:23<04:54,  1.76s/batch, loss=2.2110]Epoch 1/5:   7%|▋         | 13/179 [00:23<04:59,  1.80s/batch, loss=2.2110]Epoch 1/5:   7%|▋         | 13/179 [00:25<04:59,  1.80s/batch, loss=2.9525]Epoch 1/5:   8%|▊         | 14/179 [00:25<04:48,  1.75s/batch, loss=2.9525]Epoch 1/5:   8%|▊         | 14/179 [00:26<04:48,  1.75s/batch, loss=1.0572]Epoch 1/5:   8%|▊         | 15/179 [00:26<04:17,  1.57s/batch, loss=1.0572]Epoch 1/5:   8%|▊         | 15/179 [00:28<04:17,  1.57s/batch, loss=2.3758]Epoch 1/5:   9%|▉         | 16/179 [00:28<04:25,  1.63s/batch, loss=2.3758]Epoch 1/5:   9%|▉         | 16/179 [00:30<04:25,  1.63s/batch, loss=0.8553]Epoch 1/5:   9%|▉         | 17/179 [00:30<04:58,  1.84s/batch, loss=0.8553]

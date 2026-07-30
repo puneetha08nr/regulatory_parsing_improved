@@ -1,0 +1,350 @@
+[
+ {
+  "control_id": "T3.2.4",
+  "passage_id": "clientname-IS-POL-00-Security Operations Policy_passage_11",
+  "human_label": "Not Addressed",
+  "obligation": "Segregation of Duties Priority P2",
+  "atoms": [],
+  "passage": "5.6 Segregation of Duties\n\n<CLIENT> shall: \n            5.6.1 Adopt the principle of segregation of duties to the maximum extent possible. \n            5.6.2 Include compensating controls such as monitoring of activities, maintenance and review of audit trails and management supervision where segregation of duties is not possible or practical.\n\n5.6 Segregation of Duties\n\nshall:\n\n1. Adopt the principle of segregation of duties to the maximum extent possible.\n2. Include compensating controls such as monitoring of activities, maintenance and review of audit trails and management supervision where segregation of duties is not possible or practical."
+ },
+ {
+  "control_id": "T3.2.5",
+  "passage_id": "clientname-IS-POL-00-Security Operations Policy_passage_8",
+  "human_label": "Not Addressed",
+  "obligation": "The entity shall separate development, test, and operational environment.",
+  "atoms": [
+   "a: The entity shall:",
+   "b: identify the appropriate level of separation between operational, test, and development environments",
+   "c: define the rules for transferring software and systems from one environment to another",
+   "d: ensure the rules are integrated into the system / software development lifecycle"
+  ],
+  "passage": "5.3 Separation of Development, Test and Operational Environments\n\n<CLIENT> shall ensure that:\n            5.3.1 Production environment shall be logically separated from test and development environments.\n            5.3.2 Access to each environment shall be controlled using firewalls.\n            5.3.3 Transfer of software between the development, test and production environments shall be subject to specific procedures such as the <CLIENT> Information Systems Acquisition, Development and Maintenance Procedure and will be documented.\n            5.3.4 Development staff shall not have access to the production environment.\n            5.3.5 Production data files shall not be used for application development and testing. When such use is necessitated, copies of the production data files will be made redacted/obfuscated, sanitized and taken offline for that purpose. Those copies shall be handled carefully and later deleted to prevent unauthorized exposure of production data.\n5.3 Separation of Development, Test and Operational Environments\n\nshall ensure that:\n\n1. Production environment shall be logically separated from test and development environments.\n2. Access to each environment shall be controlled using firewalls.\n3. Transfer of software between the development, test and production environments shall be subject to specific procedures such as the  Information Systems Acquisition, Development and Maintenance Procedure and will be documented.\n4. Development staff shall not have access to the production environment.\n5. Production data files shall not be used for application development and testing. When such use is necessitated, copies of the production data files will be made redacted/obfuscated, sanitized and taken offline for that purpose. Those copies shall be handled carefully and later deleted to prevent unauthorized exposure of production data."
+ },
+ {
+  "control_id": "T3.3.1",
+  "passage_id": "clientname-IS-POL-00-Security Operations Policy_passage_9",
+  "human_label": "Not Addressed",
+  "obligation": "The entity shall manage the required capacity.",
+  "atoms": [
+   "a: The entity shall:",
+   "b: have the ability to measure capacity of current systems and estimate capacity requirements of planned systems",
+   "c: integrate capacity management controls into relevant demand management and software / system development lifecycle processes",
+   "d: make necessary adjustments to capacity to maintain required system performance"
+  ],
+  "passage": "5.4 Purchasing, Installation, Allocation and Management of New IT Systems\n\n<CLIENT> shall ensure that: \n            5.4.1 All purchases of software, IT equipment and peripherals shall follow a standard evaluation process, documented and done using approved vendors only.\n            5.4.2 All software and hardware installations shall be tested prior to being moved to live production environment by both IT and business users. Any changes to software or hardware configuration shall be appropriately authorized.\n            5.4.3 Capacity requirements shall be monitored to avoid failures due to inadequate capacity.\n            5.4.4 The IT team establishes and implements a formal process for capacity management which shall include following periodic activities:\n                a) Review and analysis of the resource utilization reports and trends.\n                b) Review and analysis of the business plan covering ongoing and upcoming IT projects.\n                c) Develop capacity plans to meet the current and projected demands for capacity, power and reliability of systems and networks.\n                d) Conduct appropriate load and stress tests and define acceptable capacity levels for new or upgraded enterprise applications.\n            5.4.5 Allocation of information systems (Laptops, PCs, tablet PCs etc.) shall be as per an established process through allocation form.\n            5.4.6 Any changes to existing systems (such as Laptops, PCs, Servers, Databases etc.) shall be as per the <CLIENT> Change Management Policy and procedure.\n            5.4.7 All critical servers and databases shall be tested (Vulnerability Assessment and Penetration Testing), periodically for inherent vulnerabilities or those which are developed over the time.\n5.4 Purchasing, Installation, Allocation and Management of New IT Systems\n\nshall ensure that:\n\n1. All purchases of software, IT equipment and peripherals shall follow a standard evaluation process, documented and done using approved vendors only.\n2. All software and hardware installations shall be tested prior to being moved to live production environment by both IT and business users. Any changes to software or hardware configu"
+ },
+ {
+  "control_id": "T3.6.3",
+  "passage_id": "clientname-IS-POL-00-Vulnerability Management Policy v1.2 (V_A)_passage_5",
+  "human_label": "Fully Addressed",
+  "obligation": "The entity shall monitor the use of information systems.",
+  "atoms": [
+   "a: The entity shall:",
+   "b: identify all types of system use to be monitored",
+   "c: identify minimum information gathering requirements for each monitoring activity",
+   "d: define minimum frequency requirements for reviewing information gathered from monitoring activities",
+   "e: ensure information gathered from monitoring activities is reviewed by personnel with appropriate training and skills",
+   "f: define minimum time requirements for maintaining information gathered from monitoring activities"
+  ],
+  "passage": "4 SCOPE\n\nThe Policy covers all information systems owned, utilized and managed by <CLIENTNAME> including but not limited to:\n\n1. Information systems owned by <CLIENTNAME>.\n2. Hardware and network components such as routers, firewalls, switches, access points and other network infrastructure.\n3. Operating Systems.\n4. Applications.\n5. Databases.\n6. Servers."
+ },
+ {
+  "control_id": "T4.1.1",
+  "passage_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_4",
+  "human_label": "Fully Addressed",
+  "obligation": "The entity shall establish a communications policy to guide the protection of information in transit.",
+  "atoms": [
+   "a: The communications policy shall:",
+   "b: be appropriate to the purpose of the entity",
+   "c: include statement of the management commitment, purpose, objective and scope of the policy",
+   "d: outline the roles and responsibilities",
+   "e: provide the framework to protect information in transit from interception, copying, modification, mis-routing, destruction, and other unauthorized activities",
+   "f: be documented and communicated to all users",
+   "g: be read and acknowledged formally by all users",
+   "h: be maintained, reviewed and updated at planned intervals or if significant changes occur"
+  ],
+  "passage": "2 PURPOSE\n\nThe purpose of this Network and Communications Security Policy (“Policy”) is to ensure protection of information being exchanged within the organization and outside the organization.\nFurthermore, the Policy establishes a commitment to comply with applicable sections of the federal and global laws and regulations, including but not limited to UAE Information Assurance Regulation, ISO 27001, ISO 27701 and National Cyber Risk Management Framework (NCRMF).\nThe following are the key objectives of this Policy:\n        2.1 Network protection: Ensuring all networks are adequately managed, controlled, and protected.   \n        2.2 Information protection: Protect information involved in electronic messaging.\n        2.3 Secure Information Exchange: Establish requirements for the exchange of information and software between organization and external parties.\n2 PURPOSE\n\nThe purpose of this Network and Communications Security Policy (“Policy”) is to ensure protection of information being exchanged within the organization and outside the organization.\n\nFurthermore, the Policy establishes a commitment to comply with applicable sections of the federal and global laws and regulations, including but not limited to UAE Information Assurance Regulation, ISO 27001, ISO 27701 and National Cyber Risk Management Framework (NCRMF).\n\nThe following are the key objectives of this Policy:\n\n1. **Network protection:** Ensuring all networks are adequately managed, controlled, and protected.\n2. **Information protection:** Protect information involved in electronic messaging.\n3. **Secure Information Exchange:** Establish requirements for the exchange of information and software between organization and external parties."
+ },
+ {
+  "control_id": "T4.1.1",
+  "passage_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_6",
+  "human_label": "Not Addressed",
+  "obligation": "The entity shall establish a communications policy to guide the protection of information in transit.",
+  "atoms": [
+   "a: The communications policy shall:",
+   "b: be appropriate to the purpose of the entity",
+   "c: include statement of the management commitment, purpose, objective and scope of the policy",
+   "d: outline the roles and responsibilities",
+   "e: provide the framework to protect information in transit from interception, copying, modification, mis-routing, destruction, and other unauthorized activities",
+   "f: be documented and communicated to all users",
+   "g: be read and acknowledged formally by all users",
+   "h: be maintained, reviewed and updated at planned intervals or if significant changes occur"
+  ],
+  "passage": "4 POLICY STATEMENT\n\n<CLIENTNAME> shall ensure the protection of information transferred within the organization as well as information transferred with any external entity. Additionally, <CLIENTNAME> shall ensure that all networks are adequately protected at all times. \n\n4 POLICY STATEMENT\n\n<CLIENTNAME> shall ensure the protection of information transferred within the organization as well as information transferred with any external entity. Additionally, <CLIENTNAME> shall ensure that all networks are adequately protected at all times."
+ },
+ {
+  "control_id": "T4.2.1",
+  "passage_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_11",
+  "human_label": "Not Addressed",
+  "obligation": "The entity shall develop formal transfer procedures and controls should be in place to protect the exchange of information.",
+  "atoms": [
+   "a: The entity shall:",
+   "b: Establish information transfer procedures The procedures shall:",
+   "c: outline conditions under which the transfer of information must be protected",
+   "d: identify specific controls to be put in place to ensure information is adequately protected during transfer",
+   "e: identify actions to be taken when issues arise regarding the transfer of information",
+   "f: be documented, maintained, reviewed and updated at planned intervals or if significant changes occur"
+  ],
+  "passage": "5.5 Information Transfer Security Procedures\n\n<CLIENTNAME> shall:\n            5.5.1 Establish information transfer security procedures.\n            5.5.2 Ensure that the information transfer security procedure at a minimum, includes the following:\n                a. Use cases and appropriate security controls to be put in place ensures information is adequately protected during transfer.\n                b. Actions to be taken when issues arise regarding the transfer of information.\n            5.5.3 Ensure that the procedures and controls implemented for securing communication systems during information transfer consider the following items:\n                a. Protect transferred information from interception, copying, modification, misrouting, and destruction using cryptographic techniques.\n                b. Detect and protect against malware.\n                c. Develop guidelines outlining acceptable use of communication systems.\n                d. Develop retention and disposal guidelines for all business correspondence, including messages, in accordance with relevant national and local legislation and regulations.\n                e. Develop guidelines on using external public services such as instant messaging or file sharing for sharing company information.\n                f. Ensure that information transfer services comply with any relevant legal requirements.\n5.5 Information Transfer Security Procedures\n\n<CLIENTNAME> shall:\n\n1. Establish information transfer security procedures.\n2. Ensure that the information transfer security procedure at a minimum, includes the following:\n2. Actions to be taken when issues arise regarding the transfer of information.\n4. Detect and protect against malware.\n5. Develop guidelines outlining acceptable use of communication systems.\n6. Develop retention and disposal guidelines for all business correspondence, including messages, in accordance with relevant national and local legislation and regulations.\n7. Develop guidelines on using external public services such as instant messaging or file sharing for sharing company information.\n8. Ensure that information transfer services comply with any relevant legal requirements."
+ },
+ {
+  "control_id": "T4.2.2",
+  "passage_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_12",
+  "human_label": "Not Addressed",
+  "obligation": "The entity shall establish agreements for the exchange of information and software between the entity and external parties.",
+  "atoms": [
+   "a: The entity shall:",
+   "b: identify all security requirements for exchanging information and software with external parties",
+   "c: establish an exchange of information agreement with each external party outlining clear roles and responsibilities of each party",
+   "d: ensure external parties are aware of all information security requirements and policies that are necessary before signing the agreement",
+   "e: monitor the exchange of information and software with external parties to ensure the requirements in the agreement are being met",
+   "f: take corrective action when the exchange of information or software does not follow the terms of the agreement"
+  ],
+  "passage": "5.6 Agreements on Information Transfer\n\n<CLIENTNAME> shall:\n            5.6.1 Establish exchange agreements for information considered as confidential or sensitive while engaging with third parties to extend security controls to protect confidentiality, integrity, availability, secrecy, and privacy.  \n            5.6.2 Include the following security conditions at a minimum, when establishing exchange agreements:\n                a. Management responsibilities for controlling and notifying transmission, dispatch, and receipt.\n                b. Procedures to ensure traceability and non-repudiation.\n                c. Minimum technical standards for packaging and transmission.\n                d. Escrow agreements (e.g.: if Source code is no longer available).\n                e. Responsibilities and liabilities in the event of information security incidents, such as loss of data.\n                f. Use of an agreed labelling system for sensitive or critical information, ensuring that the meaning of the labels is immediately understood, and that the information is appropriately protected.\n                g. Technical standards for recording and reading information and software.\n                h. Any special controls that are required to protect sensitive items, such as cryptography.\n                i. Acceptable levels of access control.\n            5.6.3 Establish and maintain procedures and standards to protect information and physical media in transit, and reference them in such exchange agreements.\n            5.6.4 Reflect the sensitivity of the business information involved in the security content of any agreement.\n5.6 Agreements on Information Transfer\n\n1. Use cases and appropriate security controls to be put in place ensures information is adequately protected during transfer.\n\n3. Protect transferred information from interception, copying, modification, misrouting, and destruction using cryptographic techniques.\n\n<CLIENTNAME> shall:\n\n1. Establish exchange agreements for information considered as confidential or sensitive while engaging with third parties to extend security controls to protect confidentiality, integrity, availability, secrecy, and privacy.\n2."
+ },
+ {
+  "control_id": "T4.2.3",
+  "passage_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_13",
+  "human_label": "Not Addressed",
+  "obligation": "The entity shall protect physical media containing information during transportation.",
+  "atoms": [
+   "a: The entity shall:",
+   "b: identify physical media carrying sensitive information",
+   "c: define labeling requirements for physical media carrying sensitive information",
+   "d: ensure physical media in transit carrying sensitive information is tracked sufficiently in accordance with the sensitivity of the information it contains",
+   "e: define measures to be taken in the event of loss of physical media in transit carrying sensitive information",
+   "f: keep a log of all transitions"
+  ],
+  "passage": "<CLIENT> shall:\n            5.7.1 Utilize reliable transport or couriers for transportation of physical media between sites.\n            5.7.2 Develop a list of authorized couriers that are approved by the management.\n            5.7.3 Define labelling requirements for physical media carrying sensitive information. \n            5.7.4 Ensure that logs of the transfer are kept identifying the content of the media, protection applied, time(s) of transfer to the transit custodian(s), and the receipt at destination.\n            5.7.5 Consider measures to be taken in the event of loss of physical media in transit carrying sensitive information."
+ },
+ {
+  "control_id": "T4.2.3",
+  "passage_id": "clientname-IS-POL-00-Asset Management Policy_passage_13",
+  "human_label": "Not Addressed",
+  "obligation": "The entity shall protect physical media containing information during transportation.",
+  "atoms": [
+   "a: The entity shall:",
+   "b: identify physical media carrying sensitive information",
+   "c: define labeling requirements for physical media carrying sensitive information",
+   "d: ensure physical media in transit carrying sensitive information is tracked sufficiently in accordance with the sensitivity of the information it contains",
+   "e: define measures to be taken in the event of loss of physical media in transit carrying sensitive information",
+   "f: keep a log of all transitions"
+  ],
+  "passage": "5.7 Physical Media Transfer\n\n<CLIENT> shall:\n            5.7.1 Utilize reliable transport or couriers for transportation of physical media between sites.\n            5.7.2 Develop a list of authorized couriers that are approved by the management.\n            5.7.3 Define labelling requirements for physical media carrying sensitive information. \n            5.7.4 Ensure that logs of the transfer are kept identifying the content of the media, protection applied, time(s) of transfer to the transit custodian(s), and the receipt at destination.\n            5.7.5 Consider measures to be taken in the event of loss of physical media in transit carrying sensitive information."
+ },
+ {
+  "control_id": "T4.2.4",
+  "passage_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_13",
+  "human_label": "Not Addressed",
+  "obligation": "Electronic Messaging Priority P3",
+  "atoms": [],
+  "passage": "5.7 Electronic Messaging\n\n<CLIENTNAME> shall:\n            5.7.1 Identify all means of electronic messaging for transmitted information assets.\n            5.7.2 Include the following security considerations at a minimum, for electronic messaging:\n                a. Protecting messages from unauthorized access, modification, or denial of service.\n                b. Ensuring correct addressing and transportation of the message.\n                c. General reliability and availability of the service.\n                d. Legal considerations, for example requirements for electronic signatures.\n                e. Stronger levels of authentication controlling access from publicly accessible networks.\n            5.7.3 Develop the capability to monitor electronic messaging to ensure implementation of controls and adherence of rules.\n            5.7.4 Establish capabilities to detect malicious contents in all types of electronic messaging. \n            5.7.5 Take necessary actions for incoming and outgoing email communications to prevent transmission of malicious or fraudulent content.\n5.7 Electronic Messaging\n\n<CLIENTNAME> shall:\n\n1. Identify all means of electronic messaging for transmitted information assets.\n2. Include the following security considerations at a minimum, for electronic messaging:\n2. Ensuring correct addressing and transportation of the message.\n3. General reliability and availability of the service.\n4. Legal considerations, for example requirements for electronic signatures.\n5. Stronger levels of authentication controlling access from publicly accessible networks.\n4. Establish capabilities to detect malicious contents in all types of electronic messaging.\n5. Take necessary actions for incoming and outgoing email communications to prevent transmission of malicious or fraudulent content.\n\n1. Protecting messages from unauthorized access, modification, or denial of service."
+ },
+ {
+  "control_id": "T4.4.2",
+  "passage_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_15",
+  "human_label": "Not Addressed",
+  "obligation": "Information Released into Priority P4",
+  "atoms": [],
+  "passage": "5.9 Information Released into Information Sharing Communities\n\n<CLIENTNAME> shall:\n            5.9.1 As applicable, ensure that all the information released into information sharing communities have valid justification and appropriate approval.\n            5.9.2 As applicable, implement technical controls to provide authenticity without compromising anonymity. For e.g., utilize controls to confirm that a communication originated from a member of the community without revealing the actual identity of the originator.\n            5.9.3 As applicable, ensure that each recipient is responsible for obtaining any necessary authorizations for wider release from the originator prior to onwards distribution of information.\n            5.9.4 As applicable, ensure all applicable information sharing communities have defined rules for the protection of information in transit, and only permit members to join the community if such rules are accepted and implemented by the prospective member. \n            5.9.5 As applicable, establish alternative mechanisms (when the primary mechanism is unavailable or insecure) for information sharing that do not rely on electronic messaging.\n5.9 Information Released into Information Sharing Communities\n\n<CLIENTNAME> shall:\n\n1. As applicable, ensure that all the information released into information sharing communities have valid justification and appropriate approval.\n2. As applicable, implement technical controls to provide authenticity without compromising anonymity. For e.g., utilize controls to confirm that a communication originated from a member of the community without revealing the actual identity of the originator.\n3. As applicable, ensure that each recipient is responsible for obtaining any necessary authorizations for wider release from the originator prior to onwards distribution of information.\n4. As applicable, ensure all applicable information sharing communities have defined rules for the protection of information in transit, and only permit members to join the community if such rules are accepted and implemented by the prospective member.\n5. As applicable, establish alternative mechanisms (when the p"
+ },
+ {
+  "control_id": "T4.5.1",
+  "passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_6",
+  "human_label": "Not Addressed",
+  "obligation": "The entity shall ensure that all networks are adequately managed, controlled, and protected.",
+  "atoms": [
+   "a: The entity shall:",
+   "b: identify all network components and interconnectivity between them",
+   "c: document and maintain network diagram that includes all network components as well as their connections",
+   "d: perform a risk assessment on individual network components and the network as a whole to identify vulnerabilities requiring action",
+   "e: identify and implement specific network controls needed to mitigate the vulnerabilities identified",
+   "f: continually monitor the in-place controls for efficiency and effectiveness"
+  ],
+  "passage": "4 POLICY STATEMENT\n\n<CLIENT> shall develop, implement, and maintain an incident management program where personnel shall report information security events and weaknesses, collect, and analyze evidence of security incidents, and ensure security incidents are adequately managed."
+ },
+ {
+  "control_id": "T4.5.1",
+  "passage_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_7",
+  "human_label": "Not Addressed",
+  "obligation": "The entity shall ensure that all networks are adequately managed, controlled, and protected.",
+  "atoms": [
+   "a: The entity shall:",
+   "b: identify all network components and interconnectivity between them",
+   "c: document and maintain network diagram that includes all network components as well as their connections",
+   "d: perform a risk assessment on individual network components and the network as a whole to identify vulnerabilities requiring action",
+   "e: identify and implement specific network controls needed to mitigate the vulnerabilities identified",
+   "f: continually monitor the in-place controls for efficiency and effectiveness"
+  ],
+  "passage": "5.1 Network Controls\n\n<CLIENTNAME> shall: \n            5.1.1 Establish the network and communications design based on the following minimum requirements:\n                a. Classification of the information transported and accessed across networks.\n                b. Risk assessment of threats and vulnerabilities to/of the network.\n                c. Level of trust between all components and organizations connected to the network.\n                d. Degree of availability and resilience required from the network.\n                e. Geographical topography of the network. \n                f. Security controls in place at locations from where the network shall be accessed.\n            5.1.2 Establish specific controls to ensure the security of internal networks and the protection of connected services from unauthorized access.\n            5.1.3 Establish specific controls to safeguard the confidentiality, availability and integrity of data passing over public networks or over wireless networks and protect the connected systems and applications.\n            5.1.4 Apply appropriate logging and monitoring controls for the network services to enable recording and detection of actions that may affect, or are relevant to, information security through use of centralised services.\n            5.1.5 Establish responsibilities and procedures for networking equipment management.\n            5.1.6 Ensure systems connected to the network are authenticated and restricted.\n            5.1.7 Implement communications and network management protocols that provide secure authentication and compliant transport encryption.\n            5.1.8 Patch and update network systems in accordance with <CLIENTNAME>’s Patch Management procedure.\n            5.1.9 Implement network and communication systems baseline security configuration requirements. \n            5.1.10 Backup network and communication systems configuration data in accordance with <CLIENTNAME>’s Backup & Restoration process.\n5.1 Network Controls\n\n<CLIENTNAME> shall:\n\n1. Establish the network and communications design based on the following minimum requirements:\n2. Risk assessment of threats and vulnerabilities to/of the network."
+ },
+ {
+  "control_id": "T4.5.2",
+  "passage_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_8",
+  "human_label": "Not Addressed",
+  "obligation": "The entity shall identify the security features, service levels, and management requirements of all network services and include these requirements in any network services agreement, whether these services are provided in-house or outsourced.",
+  "atoms": [
+   "a: The entity shall:",
+   "b: specify which network services are subject to specific security requirements",
+   "c: define minimum security requirements for each identified service",
+   "d: ensure minimum security requirements are captured in service level agreements for network services",
+   "e: ensure minimum security requirements are implemented in network services"
+  ],
+  "passage": "5.2 Security of Network Services\n\n<CLIENTNAME> shall:\n            5.2.1 Identify and implement the security arrangements necessary for security features, service levels, and management requirements.\n            5.2.2 Determine and regularly monitor the ability of the network service provider to manage agreed services in a secure manner.\n            5.2.3 Ensure that the right to audit clauses are agreed upon with all the network service providers.\n\n5.2 Security of Network Services\n\n<CLIENTNAME> shall:\n\n1. Identify and implement the security arrangements necessary for security features, service levels, and management requirements.\n2. Determine and regularly monitor the ability of the network service provider to manage agreed services in a secure manner.\n3. Ensure that the right to audit clauses are agreed upon with all the network service providers."
+ },
+ {
+  "control_id": "T4.5.3",
+  "passage_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_9",
+  "human_label": "Not Addressed",
+  "obligation": "Segregation in Networks Priority P1",
+  "atoms": [],
+  "passage": "5.3 Segregation in Networks\n\n<CLIENTNAME> shall: \n            5.3.1 Manage security of large networks within the organization by segregating them into separate network zones.\n            5.3.2 Segregate networks considering sensitivity of information processed, access requirements, relative cost, and performance impact of incorporating suitable technology.\n            5.3.3 Implement routing controls shall such that access to applications or services is restricted to provide isolation between systems and network zones created as above.\n            5.3.4 Periodically evaluate the effectiveness of implemented segregation strategies and identify areas for improvement.\n5.3 Segregation in Networks\n\n<CLIENTNAME> shall:\n\n1. Manage security of large networks within the organization by segregating them into separate network zones.\n2. Segregate networks considering sensitivity of information processed, access requirements, relative cost, and performance impact of incorporating suitable technology.\n3. Implement routing controls shall such that access to applications or services is restricted to provide isolation between systems and network zones created as above.\n4. Periodically evaluate the effectiveness of implemented segregation strategies and identify areas for improvement."
+ },
+ {
+  "control_id": "T4.5.4",
+  "passage_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_10",
+  "human_label": "Not Addressed",
+  "obligation": "The entity shall ensure that all wireless networks are adequately secured.",
+  "atoms": [
+   "a: The entity shall:",
+   "b: undertake and document a site survey to determine the optimal physical locations to avoid stray signal leaking too far outside of the entity’s physical perimeter",
+   "c: identify criteria for grouping information services, users, and information systems into different groups that facilitate segregation on wireless networks",
+   "d: for each wireless network, identify the security controls that should be in place based on the required protection level of the information services, users, and information systems it supports",
+   "e: periodically evaluate the effectiveness of implemented segregation strategies and identify areas for improvement"
+  ],
+  "passage": "5.4 Security of Wireless Networks\n\n<CLIENTNAME> shall:\n            5.4.1 Perform a risk assessment for wireless networks to identify security controls (e.g., strong authentication, cryptographic methods, and frequency selection) required to maintain network segregation.\n            5.4.2 Segregate wireless networks from internal and private networks and guest networks as required.\n            5.4.3 Restrict the use of 'guest' wireless networks to authorized guests. \n            5.4.4 Prohibit creation and use of ad-hoc wireless networks, including connecting of unapproved wireless base-stations to organization's core data network.\n            5.4.5 Implement mechanisms to ensure identification and isolation of rogue wireless access points.\n            5.4.6 Periodically evaluate the effectiveness of wireless security strategies and identify areas for improvement.\n5.4 Security of Wireless Networks\n\n<CLIENTNAME> shall:\n\n1. Perform a risk assessment for wireless networks to identify security controls (e.g., strong authentication, cryptographic methods, and frequency selection) required to maintain network segregation.\n2. Segregate wireless networks from internal and private networks and guest networks as required.\n3. Restrict the use of 'guest' wireless networks to authorized guests.\n4. Prohibit creation and use of ad-hoc wireless networks, including connecting of unapproved wireless base-stations to organization's core data network.\n5. Implement mechanisms to ensure identification and isolation of rogue wireless access points.\n6. Periodically evaluate the effectiveness of wireless security strategies and identify areas for improvement."
+ },
+ {
+  "control_id": "T5.1.1",
+  "passage_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_3",
+  "human_label": "Not Addressed",
+  "obligation": "Policy A.11.1.1 AC-1, AC-5, AC-6, 11.1.1 IA.4 AC-17, AC-18, AC-19, CM-5, MP-1, SI-9",
+  "atoms": [],
+  "passage": "4 INTRODUCTION\n\nUAE Public Prosecution has defined access controls across its networks, information assets, Information Technology (IT) systems and services to provide authorized, granular, auditable, and appropriate user access, and to ensure appropriate preservation of data confidentiality, integrity, and availability.\n\nA robust access control management system is paramount to ensure UAEPP users are appropriately identified and have the authorization to access information assets and IT resources."
+ },
+ {
+  "control_id": "T5.1.1",
+  "passage_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_4",
+  "human_label": "Not Addressed",
+  "obligation": "Policy A.11.1.1 AC-1, AC-5, AC-6, 11.1.1 IA.4 AC-17, AC-18, AC-19, CM-5, MP-1, SI-9",
+  "atoms": [],
+  "passage": "5 PURPOSE\n\nThe purpose of this Access Control Policy is to ensure that access is controlled at the user, application, network, and operating system level as well as for mobile computing.\n\nFurther, this Policy establishes a commitment to comply with applicable sections of the federal and global laws and regulations, including but not limited to UAE Information Assurance Regulation, ISO/IEC 27001:2022.\n\nThe following are the key objectives of this Policy:\n\n- **User Access Management:** Establish and implement a formal user access management process for how user accounts and privileges are created, managed and deleted in line with organizational policies and security practices.\n- **Monitoring and Review of User access rights:** Define the requirements for performing periodic review and monitoring of user access."
+ },
+ {
+  "control_id": "T5.1.1",
+  "passage_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_5",
+  "human_label": "Not Addressed",
+  "obligation": "Policy A.11.1.1 AC-1, AC-5, AC-6, 11.1.1 IA.4 AC-17, AC-18, AC-19, CM-5, MP-1, SI-9",
+  "atoms": [],
+  "passage": "6 SCOPE\n\nThis Policy applies to all employees, contractors and third parties who access or manage information and information assets or use the organization's information and communications technology (ICT) systems."
+ },
+ {
+  "control_id": "T5.1.1",
+  "passage_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_7",
+  "human_label": "Not Addressed",
+  "obligation": "Policy A.11.1.1 AC-1, AC-5, AC-6, 11.1.1 IA.4 AC-17, AC-18, AC-19, CM-5, MP-1, SI-9",
+  "atoms": [],
+  "passage": "8.1 Access Control\n\nUAE Public Prosecution shall:\n\n1. Ensure that asset owners determine appropriate access rules, privileges, and restrictions for specific user roles towards their assets.\n2. Ensure that the following factors are considered while defining the access control framework:\n2. Information dissemination and authorization process, e.g., the need-to-know principle, information security levels and classification of information.\n3. Consistency between the access rights and data classification levels for different systems and networks.\n4. Relevant legislation and any contractual obligations regarding limitation of access to data or services.\n5. Segregation of access control management roles, e.g., access request, access authorization, and access administration.\n6. Requirements for formal authorization of access requests.\n7. Requirements for periodic review of access rights.\n8. Removal of access rights.\n9. Logging and monitoring of records of all significant events concerning the"
+ },
+ {
+  "control_id": "T5.2.1",
+  "passage_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_10",
+  "human_label": "Fully Addressed",
+  "obligation": "The entity shall implement a formal user registration and de-registration procedure.",
+  "atoms": [
+   "a: The entity shall:",
+   "b: establish and formalize procedures for the registration and de- registration of users",
+   "c: ensure that a separate account is created for each person requiring access, and prohibit sharing of same accounts across multiple users",
+   "d: immediately revoke access from users who have changed roles or jobs or left the entity following the established procedure",
+   "e: periodically check and revoke access related to temporary and inactive accounts"
+  ],
+  "passage": "8.4 User Registration and De-Registration\n\nUAE Public Prosecution shall:\n\n2. The use of shared IDs is prohibited by default, unless there is a valid business justification which is approved by UAEPP’s senior management and CISO.\n3. Immediately disable or remove user ID’s of users who have left the organization.\n4. Perform periodic review of user access across the information and information assets to determine and disable redundant user ID’s and access privileges that are no longer required or authorized.\n5. Ensure that unused/redundant user ID’s are not issued to other users.\n6. The number of privileged user IDs shall be strictly limited to those individuals who shall have such privileges for authorized business purposes.\n7. Multi-user systems administrators shall have at least two user-IDs to separate their privileged access from their ordinary day-to-day access.\n\n1. Ensure that the process of managing user ID’s include the following areas as a minimum:\n    1. Using unique and identi"
+ },
+ {
+  "control_id": "T5.2.1",
+  "passage_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_6",
+  "human_label": "Not Addressed",
+  "obligation": "The entity shall implement a formal user registration and de-registration procedure.",
+  "atoms": [
+   "a: The entity shall:",
+   "b: establish and formalize procedures for the registration and de- registration of users",
+   "c: ensure that a separate account is created for each person requiring access, and prohibit sharing of same accounts across multiple users",
+   "d: immediately revoke access from users who have changed roles or jobs or left the entity following the established procedure",
+   "e: periodically check and revoke access related to temporary and inactive accounts"
+  ],
+  "passage": "7 POLICY STATEMENT\n\nThe organization shall develop, implement, and maintain an organization wide access control framework to:\n\n- Control access to information and information assets.\n- Manage registration and deregistration of user accounts/access.\n- Control access to both internal and external network services.\n- Control access to operating systems.\n- Control access to applications.\n- Ensure appropriate protection when accessing mobile computing and teleworking services."
+ },
+ {
+  "control_id": "T5.2.2",
+  "passage_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_12",
+  "human_label": "Fully Addressed",
+  "obligation": "The entity shall restrict and control the allocation and use of privileges.",
+  "atoms": [
+   "a: The entity shall:",
+   "b: maintain a record of all allocated privileges",
+   "c: never grant users with domain or local administrative privileges",
+   "d: ensure that administrator accounts are used only for system administration activities (e.",
+   "e: no email or web surfin",
+   "g: use two-factor authentication for all administrative access",
+   "h: ensure that all administrative access are logged and audited"
+  ],
+  "passage": "8.6 Management of Privileged Access Rights\n\nUAE Public Prosecution shall:\n\n2. Consider the following steps, at a minimum, for managing privileged access rights:\n2. Privileged and service account access rights need to be allocated to users/applications on a need-to-use basis and on an event-by-event basis in line with the access control procedure.\n3. Maintain an authorization process and a record of all privileges allocated.\n4. Not grant privileged access rights until the authorization process is completed.\n5. Assign privileged access rights to a user ID different from those used for regular business activities.\n6. Perform regular review of user roles with privileged access rights to verify if they are in line with their duties.\n7. Establish and maintain specific procedures in order to avoid the unauthorized use of generic administration user ID’s, according to systems’ configuration capabilities.\n8. Prohibit sharing of passwords for generic administration of user ID’s. The use of share"
+ },
+ {
+  "control_id": "T5.2.3",
+  "passage_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_14",
+  "human_label": "Not Addressed",
+  "obligation": "The entity shall control the allocation of user security credentials.",
+  "atoms": [
+   "a: The entity shall:",
+   "b: establish a user security credential management policy for users and administrators that is appropriate to the purpose of the entity",
+   "c: ensure that the policy includes a secure process to provide users with security credentials; policy should also include credential revocation procedure and credential re-allocatio",
+   "e: in case of use of security credentials (i.",
+   "f: password",
+   "g: change default security credentials of all systems and applications",
+   "h: in case of credentials, always store them in a well-hashed (including “salting”) or encrypted format",
+   "i: for accessing critical resources/assets, implement credential systems based on multi-factor authentication"
+  ],
+  "passage": "8.8 User Security Credentials Management\n\nUAE Public Prosecution shall:\n\n2. Configure information assets to implement prescribed controls on access management.\n3. Establish user access and secure credentials management procedures."
+ },
+ {
+  "control_id": "T5.2.3",
+  "passage_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_15",
+  "human_label": "Not Addressed",
+  "obligation": "The entity shall control the allocation of user security credentials.",
+  "atoms": [
+   "a: The entity shall:",
+   "b: establish a user security credential management policy for users and administrators that is appropriate to the purpose of the entity",
+   "c: ensure that the policy includes a secure process to provide users with security credentials; policy should also include credential revocation procedure and credential re-allocatio",
+   "e: in case of use of security credentials (i.",
+   "f: password",
+   "g: change default security credentials of all systems and applications",
+   "h: in case of credentials, always store them in a well-hashed (including “salting”) or encrypted format",
+   "i: for accessing critical resources/assets, implement credential systems based on multi-factor authentication"
+  ],
+  "passage": "8.9 Use of Security Credentials & UAEPP Password Policy\n\n1. Ensure that the users are required to sign a statement to keep security credentials confidential.\n\nUAE Public Prosecution shall:\n\n2. Passwords shall not be transmitted in clear text during communications over networks or when stored.\n3. Credentials shall not be hardcoded into applications.\n4. The use of default credentials shall not be authorized.\n5. Approved encryption or hashing techniques shall be utilized where credentials are stored.\n6. Password shall not contain personal information that can be easily guessed by a malicious actor, such as user name, phone number, birthdays, etc.\n7. Password shall not contain a complete dictionary word.\n8. Password shall not contain common acronyms, common words or reverse spelling of words, word or number patterns.\n9. Users shall use different passwords for General and Administrative accounts.\n10. Passwords can be reset only following the authorized mechanisms, such as User self-serv"
+ },
+ {
+  "control_id": "T5.2.4",
+  "passage_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_13",
+  "human_label": "Not Addressed",
+  "obligation": "The entity shall review users’ access rights.",
+  "atoms": [
+   "a: The entity shall:",
+   "b: maintain access right records for all assets, and identify any granted special access",
+   "c: establish a access right review procedure to ensure access rights are reviewed periodically or on any changes in users’ status",
+   "d: periodically check the granted special access to ensure their validity"
+  ],
+  "passage": "8.7 Review of User Access Rights\n\nUAE Public Prosecution shall:\n\n2. Review authorizations for privileged access rights at more frequent intervals.\n3. Restrict such privileges upon detection of any misconduct of privileged access rights.\n\n1. Review users' access rights at regular intervals and after Promotion, Transfer, Demotion and/or Termination of employment."
+ }
+]

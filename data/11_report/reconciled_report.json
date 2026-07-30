@@ -1,0 +1,1129 @@
+{
+  "controls_assessed": 81,
+  "human_summary": {
+    "Gap": 66,
+    "Partially Met": 7,
+    "Met": 8
+  },
+  "ai_summary": {
+    "Gap": 29,
+    "Partially Met": 44,
+    "Met": 8
+  },
+  "controls_changed": 51,
+  "gap_to_covered": [
+    "M2.1.1",
+    "M3.2.1",
+    "M5.2.1",
+    "M5.2.2",
+    "M5.2.3",
+    "M5.4.1",
+    "T1.2.3",
+    "T1.3.2",
+    "T1.4.1",
+    "T1.4.2",
+    "T2.2.2",
+    "T2.2.4",
+    "T2.2.5",
+    "T2.2.6",
+    "T2.3.3",
+    "T2.3.5",
+    "T2.3.6",
+    "T3.2.2",
+    "T3.2.4",
+    "T3.2.5",
+    "T3.3.1",
+    "T4.2.1",
+    "T4.2.2",
+    "T4.2.3",
+    "T4.2.4",
+    "T4.4.2",
+    "T4.5.1",
+    "T4.5.2",
+    "T4.5.3",
+    "T4.5.4",
+    "T5.2.3",
+    "T5.2.4",
+    "T5.4.1",
+    "T5.4.7",
+    "T5.5.1",
+    "T5.6.3",
+    "T6.2.2",
+    "T7.7.1",
+    "T8.2.2",
+    "T8.2.3",
+    "T8.2.5",
+    "T8.2.6",
+    "T8.2.8"
+  ],
+  "covered_to_gap": [
+    "M3.3.4",
+    "T2.1.1",
+    "T3.6.3",
+    "T4.1.1",
+    "T6.2.3",
+    "T8.3.2"
+  ],
+  "pair_disagreements": 70,
+  "rows": [
+    {
+      "control_id": "M1.1.2",
+      "name": "Unknown",
+      "human": "Gap",
+      "ai": "Gap",
+      "changed": false
+    },
+    {
+      "control_id": "M1.3.2",
+      "name": "Confidentiality Agreements A.6.1.5 PL-4, PS-6, SA-9 8.1.1 HR.1",
+      "human": "Gap",
+      "ai": "Gap",
+      "changed": false
+    },
+    {
+      "control_id": "M1.4.2",
+      "name": "Internal and External",
+      "human": "Gap",
+      "ai": "Gap",
+      "changed": false
+    },
+    {
+      "control_id": "M2.1.1",
+      "name": "Unknown",
+      "human": "Gap",
+      "ai": "Partially Met",
+      "changed": true
+    },
+    {
+      "control_id": "M2.2.1",
+      "name": "above). Finally, the likelihood of the threat to occur and the level of vulnerability are put together to determine the likelihood that this particular threat/vulnerability combination occurs. How exactly these values are put together has been defined in the Information Security Risk Management Policy (see",
+      "human": "Gap",
+      "ai": "Gap",
+      "changed": false
+    },
+    {
+      "control_id": "M2.3.1",
+      "name": "Information Security Risk Treatment Options M2.3.2 Identification of Controls",
+      "human": "Partially Met",
+      "ai": "Partially Met",
+      "changed": false
+    },
+    {
+      "control_id": "M2.3.2",
+      "name": "Identification of Controls",
+      "human": "Gap",
+      "ai": "Gap",
+      "changed": false
+    },
+    {
+      "control_id": "M3.1.1",
+      "name": "Awareness and Training",
+      "human": "Gap",
+      "ai": "Gap",
+      "changed": false
+    },
+    {
+      "control_id": "M3.2.1",
+      "name": "Awareness and Training",
+      "human": "Gap",
+      "ai": "Partially Met",
+      "changed": true
+    },
+    {
+      "control_id": "M3.3.1",
+      "name": "Training Needs",
+      "human": "Gap",
+      "ai": "Gap",
+      "changed": false
+    },
+    {
+      "control_id": "M3.3.4",
+      "name": "Training Results",
+      "human": "Met",
+      "ai": "Gap",
+      "changed": true
+    },
+    {
+      "control_id": "M5.1.1",
+      "name": "Compliance Policy",
+      "human": "Gap",
+      "ai": "Gap",
+      "changed": false
+    },
+    {
+      "control_id": "M5.2.1",
+      "name": "Identification of Applicable",
+      "human": "Gap",
+      "ai": "Partially Met",
+      "changed": true
+    },
+    {
+      "control_id": "M5.2.2",
+      "name": "Intellectual Property",
+      "human": "Gap",
+      "ai": "Partially Met",
+      "changed": true
+    },
+    {
+      "control_id": "M5.2.3",
+      "name": "Protection of",
+      "human": "Gap",
+      "ai": "Partially Met",
+      "changed": true
+    },
+    {
+      "control_id": "M5.3.1",
+      "name": "Compliance with Security",
+      "human": "Gap",
+      "ai": "Gap",
+      "changed": false
+    },
+    {
+      "control_id": "M5.4.1",
+      "name": "Technical Compliance",
+      "human": "Gap",
+      "ai": "Partially Met",
+      "changed": true
+    },
+    {
+      "control_id": "M5.5.1",
+      "name": "Information Systems Audit",
+      "human": "Gap",
+      "ai": "Gap",
+      "changed": false
+    },
+    {
+      "control_id": "T1.1.1",
+      "name": "Asset Management Policy",
+      "human": "Gap",
+      "ai": "Gap",
+      "changed": false
+    },
+    {
+      "control_id": "T1.2.1",
+      "name": "Inventory of Assets",
+      "human": "Partially Met",
+      "ai": "Partially Met",
+      "changed": false
+    },
+    {
+      "control_id": "T1.2.2",
+      "name": "Unknown",
+      "human": "Gap",
+      "ai": "Gap",
+      "changed": false
+    },
+    {
+      "control_id": "T1.2.3",
+      "name": "",
+      "human": "Gap",
+      "ai": "Partially Met",
+      "changed": true
+    },
+    {
+      "control_id": "T1.3.2",
+      "name": "Labeling of Information",
+      "human": "Gap",
+      "ai": "Partially Met",
+      "changed": true
+    },
+    {
+      "control_id": "T1.3.3",
+      "name": "Handling of Information",
+      "human": "Partially Met",
+      "ai": "Partially Met",
+      "changed": false
+    },
+    {
+      "control_id": "T1.4.1",
+      "name": "Management of",
+      "human": "Gap",
+      "ai": "Partially Met",
+      "changed": true
+    },
+    {
+      "control_id": "T1.4.2",
+      "name": "Disposal of Media",
+      "human": "Gap",
+      "ai": "Met",
+      "changed": true
+    },
+    {
+      "control_id": "T2.1.1",
+      "name": "Physical and Environmental",
+      "human": "Met",
+      "ai": "Gap",
+      "changed": true
+    },
+    {
+      "control_id": "T2.2.2",
+      "name": "Physical Entry Controls",
+      "human": "Gap",
+      "ai": "Met",
+      "changed": true
+    },
+    {
+      "control_id": "T2.2.4",
+      "name": "",
+      "human": "Gap",
+      "ai": "Partially Met",
+      "changed": true
+    },
+    {
+      "control_id": "T2.2.5",
+      "name": "Working in Secure Areas",
+      "human": "Gap",
+      "ai": "Partially Met",
+      "changed": true
+    },
+    {
+      "control_id": "T2.2.6",
+      "name": "",
+      "human": "Gap",
+      "ai": "Partially Met",
+      "changed": true
+    },
+    {
+      "control_id": "T2.3.1",
+      "name": "Equipment Siting and",
+      "human": "Partially Met",
+      "ai": "Partially Met",
+      "changed": false
+    },
+    {
+      "control_id": "T2.3.3",
+      "name": "",
+      "human": "Gap",
+      "ai": "Partially Met",
+      "changed": true
+    },
+    {
+      "control_id": "T2.3.5",
+      "name": "",
+      "human": "Gap",
+      "ai": "Partially Met",
+      "changed": true
+    },
+    {
+      "control_id": "T2.3.6",
+      "name": "Secure Disposal or Re-Use",
+      "human": "Gap",
+      "ai": "Partially Met",
+      "changed": true
+    },
+    {
+      "control_id": "T3.1.1",
+      "name": "Operations Management",
+      "human": "Gap",
+      "ai": "Gap",
+      "changed": false
+    },
+    {
+      "control_id": "T3.2.1",
+      "name": "by developing a series of images and secure storage servers for hosting these standard images. Commercial and/or free configuration management tools can then be employed to measure the settings operating system and applications of managed machines to look for deviations from these image configurations used by the entity. Some configuration management tools require that an agent be installed on each managed system, while others remotely log in to each managed machine using administrator credentials. Either approach or a combination of the two approaches can provide the information needed for this control. Relevant Threats and • Illegal processing of data Vulnerabilities • Abuse of system access/privileges • Equipment malfunction T3.2.1 Common Systems",
+      "human": "Gap",
+      "ai": "Gap",
+      "changed": false
+    },
+    {
+      "control_id": "T3.2.2",
+      "name": "Documented Operating",
+      "human": "Gap",
+      "ai": "Met",
+      "changed": true
+    },
+    {
+      "control_id": "T3.2.4",
+      "name": "",
+      "human": "Gap",
+      "ai": "Partially Met",
+      "changed": true
+    },
+    {
+      "control_id": "T3.2.5",
+      "name": "Separation of Development,",
+      "human": "Gap",
+      "ai": "Partially Met",
+      "changed": true
+    },
+    {
+      "control_id": "T3.3.1",
+      "name": "Capacity Management",
+      "human": "Gap",
+      "ai": "Met",
+      "changed": true
+    },
+    {
+      "control_id": "T3.6.3",
+      "name": "Monitoring System Use",
+      "human": "Met",
+      "ai": "Gap",
+      "changed": true
+    },
+    {
+      "control_id": "T4.1.1",
+      "name": "Communications Policy",
+      "human": "Met",
+      "ai": "Gap",
+      "changed": true
+    },
+    {
+      "control_id": "T4.2.1",
+      "name": "Information Transfer",
+      "human": "Gap",
+      "ai": "Met",
+      "changed": true
+    },
+    {
+      "control_id": "T4.2.2",
+      "name": "Agreements on",
+      "human": "Gap",
+      "ai": "Partially Met",
+      "changed": true
+    },
+    {
+      "control_id": "T4.2.3",
+      "name": "Physical Media in Transit",
+      "human": "Gap",
+      "ai": "Met",
+      "changed": true
+    },
+    {
+      "control_id": "T4.2.4",
+      "name": "",
+      "human": "Gap",
+      "ai": "Partially Met",
+      "changed": true
+    },
+    {
+      "control_id": "T4.4.2",
+      "name": "",
+      "human": "Gap",
+      "ai": "Partially Met",
+      "changed": true
+    },
+    {
+      "control_id": "T4.5.1",
+      "name": "Network Controls",
+      "human": "Gap",
+      "ai": "Partially Met",
+      "changed": true
+    },
+    {
+      "control_id": "T4.5.2",
+      "name": "Security of Network",
+      "human": "Gap",
+      "ai": "Partially Met",
+      "changed": true
+    },
+    {
+      "control_id": "T4.5.3",
+      "name": "",
+      "human": "Gap",
+      "ai": "Partially Met",
+      "changed": true
+    },
+    {
+      "control_id": "T4.5.4",
+      "name": "Security of Wireless",
+      "human": "Gap",
+      "ai": "Partially Met",
+      "changed": true
+    },
+    {
+      "control_id": "T5.1.1",
+      "name": "Access",
+      "human": "Gap",
+      "ai": "Gap",
+      "changed": false
+    },
+    {
+      "control_id": "T5.2.1",
+      "name": "User Registration",
+      "human": "Met",
+      "ai": "Met",
+      "changed": false
+    },
+    {
+      "control_id": "T5.2.2",
+      "name": "Privilege Management",
+      "human": "Met",
+      "ai": "Partially Met",
+      "changed": true
+    },
+    {
+      "control_id": "T5.2.3",
+      "name": "User Security Credentials",
+      "human": "Gap",
+      "ai": "Partially Met",
+      "changed": true
+    },
+    {
+      "control_id": "T5.2.4",
+      "name": "Review of User Access",
+      "human": "Gap",
+      "ai": "Partially Met",
+      "changed": true
+    },
+    {
+      "control_id": "T5.4.1",
+      "name": "Policy on Use of Network",
+      "human": "Gap",
+      "ai": "Partially Met",
+      "changed": true
+    },
+    {
+      "control_id": "T5.4.7",
+      "name": "",
+      "human": "Gap",
+      "ai": "Partially Met",
+      "changed": true
+    },
+    {
+      "control_id": "T5.5.1",
+      "name": "Secure Log-On Procedures",
+      "human": "Gap",
+      "ai": "Partially Met",
+      "changed": true
+    },
+    {
+      "control_id": "T5.5.4",
+      "name": "Use of System Utilities A.11.5.4 AC-3, AC-6 11.5.4 OM.13",
+      "human": "Gap",
+      "ai": "Gap",
+      "changed": false
+    },
+    {
+      "control_id": "T5.6.3",
+      "name": "Publicly Accessible",
+      "human": "Gap",
+      "ai": "Met",
+      "changed": true
+    },
+    {
+      "control_id": "T6.1",
+      "name": "",
+      "human": "Gap",
+      "ai": "Gap",
+      "changed": false
+    },
+    {
+      "control_id": "T6.1.1",
+      "name": "Third Party",
+      "human": "Gap",
+      "ai": "Gap",
+      "changed": false
+    },
+    {
+      "control_id": "T6.2.1",
+      "name": "Service Delivery",
+      "human": "Partially Met",
+      "ai": "Partially Met",
+      "changed": false
+    },
+    {
+      "control_id": "T6.2.2",
+      "name": "",
+      "human": "Gap",
+      "ai": "Partially Met",
+      "changed": true
+    },
+    {
+      "control_id": "T6.2.3",
+      "name": "Managing Changes to Third",
+      "human": "Partially Met",
+      "ai": "Gap",
+      "changed": true
+    },
+    {
+      "control_id": "T7.1.1",
+      "name": "Information Systems Acquisition,",
+      "human": "Gap",
+      "ai": "Gap",
+      "changed": false
+    },
+    {
+      "control_id": "T7.2.1",
+      "name": "Security Requirements",
+      "human": "Gap",
+      "ai": "Gap",
+      "changed": false
+    },
+    {
+      "control_id": "T7.7.1",
+      "name": "Control of Technical",
+      "human": "Gap",
+      "ai": "Partially Met",
+      "changed": true
+    },
+    {
+      "control_id": "T8.1.1",
+      "name": "Information Security Incident",
+      "human": "Met",
+      "ai": "Partially Met",
+      "changed": true
+    },
+    {
+      "control_id": "T8.2.1",
+      "name": "Incident Response Plan",
+      "human": "Gap",
+      "ai": "Gap",
+      "changed": false
+    },
+    {
+      "control_id": "T8.2.2",
+      "name": "Computer Security Incident",
+      "human": "Gap",
+      "ai": "Partially Met",
+      "changed": true
+    },
+    {
+      "control_id": "T8.2.3",
+      "name": "Incident Classification",
+      "human": "Gap",
+      "ai": "Partially Met",
+      "changed": true
+    },
+    {
+      "control_id": "T8.2.5",
+      "name": "",
+      "human": "Gap",
+      "ai": "Partially Met",
+      "changed": true
+    },
+    {
+      "control_id": "T8.2.6",
+      "name": "Incident Response",
+      "human": "Gap",
+      "ai": "Partially Met",
+      "changed": true
+    },
+    {
+      "control_id": "T8.2.7",
+      "name": "",
+      "human": "Gap",
+      "ai": "Gap",
+      "changed": false
+    },
+    {
+      "control_id": "T8.2.8",
+      "name": "Learning From Information",
+      "human": "Gap",
+      "ai": "Partially Met",
+      "changed": true
+    },
+    {
+      "control_id": "T8.3.1",
+      "name": "Situational Awareness",
+      "human": "Gap",
+      "ai": "Gap",
+      "changed": false
+    },
+    {
+      "control_id": "T8.3.2",
+      "name": "Reporting Information",
+      "human": "Met",
+      "ai": "Gap",
+      "changed": true
+    },
+    {
+      "control_id": "T8.3.3",
+      "name": "Reporting Security",
+      "human": "Partially Met",
+      "ai": "Partially Met",
+      "changed": false
+    }
+  ],
+  "adjudication": [
+    {
+      "control_id": "M2.1.1",
+      "passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 1_passage_7",
+      "human": "Not Addressed",
+      "ai": "Partially Addressed",
+      "ai_evidence": "5.1.4 establish and implement a plan for communicating risk information and consulting key stakeholders during all stages"
+    },
+    {
+      "control_id": "M2.1.1",
+      "passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2_passage_7",
+      "human": "Not Addressed",
+      "ai": "Partially Addressed",
+      "ai_evidence": "5.1.4 plan for communicating risk information and consulting key stakeholders during all stages"
+    },
+    {
+      "control_id": "M2.1.1",
+      "passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 3_passage_7",
+      "human": "Not Addressed",
+      "ai": "Partially Addressed",
+      "ai_evidence": "5.1.4 plan for communicating risk information and consulting key stakeholders during all stages"
+    },
+    {
+      "control_id": "M3.2.1",
+      "passage_id": "clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_7",
+      "human": "Not Addressed",
+      "ai": "Partially Addressed",
+      "ai_evidence": "5.1.1 develop and formalize awareness/training program; 5.1.6-5.1.7 provide training; 5.1.4 review/update on results"
+    },
+    {
+      "control_id": "M3.3.4",
+      "passage_id": "clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_9",
+      "human": "Fully Addressed",
+      "ai": "Not Addressed",
+      "ai_evidence": "training RECORDS retention; not measuring training effectiveness before/after"
+    },
+    {
+      "control_id": "M5.2.1",
+      "passage_id": "clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_7",
+      "human": "Not Addressed",
+      "ai": "Partially Addressed",
+      "ai_evidence": "5.1 Identify/define/establish compliance requirements; define+implement controls, assign responsibilities"
+    },
+    {
+      "control_id": "M5.2.2",
+      "passage_id": "clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_8",
+      "human": "Not Addressed",
+      "ai": "Partially Addressed",
+      "ai_evidence": "5.2 IPR: identify IPR assets, system requirements, controls (reputable sources, license verification, awareness)"
+    },
+    {
+      "control_id": "M5.2.3",
+      "passage_id": "clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_9",
+      "human": "Not Addressed",
+      "ai": "Partially Addressed",
+      "ai_evidence": "5.3 define/categorize records + retention; controls to protect records from loss/deterioration"
+    },
+    {
+      "control_id": "M5.4.1",
+      "passage_id": "clientname-IS-POL-00-Vulnerability Management Policy v1.2 (V_A)_passage_7",
+      "human": "Not Addressed",
+      "ai": "Partially Addressed",
+      "ai_evidence": "6.1 routine VA scans (annual/quarterly), reviewed by IS team, remediation reporting"
+    },
+    {
+      "control_id": "T1.2.3",
+      "passage_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_14",
+      "human": "Not Addressed",
+      "ai": "Partially Addressed",
+      "ai_evidence": "5.8 Acceptable Use of Assets: approval before deployment, documented acceptable-use rules"
+    },
+    {
+      "control_id": "T1.2.3",
+      "passage_id": "clientname-IS-POL-00-Asset Management Policy_passage_14",
+      "human": "Not Addressed",
+      "ai": "Partially Addressed",
+      "ai_evidence": "5.8 Acceptable Use of Assets: rules established and circulated"
+    },
+    {
+      "control_id": "T1.3.2",
+      "passage_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_9",
+      "human": "Not Addressed",
+      "ai": "Partially Addressed",
+      "ai_evidence": "5.3 labeling procedures for physical/electronic assets + apply labels on outputs"
+    },
+    {
+      "control_id": "T1.3.2",
+      "passage_id": "clientname-IS-POL-00-Asset Management Policy_passage_9",
+      "human": "Not Addressed",
+      "ai": "Partially Addressed",
+      "ai_evidence": "5.3 Asset Labelling: develop labeling procedures + apply labels on outputs"
+    },
+    {
+      "control_id": "T1.3.3",
+      "passage_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_10",
+      "human": "Not Addressed",
+      "ai": "Partially Addressed",
+      "ai_evidence": "5.4 develop handling procedures for processing/storing/communicating + safeguard per procedures"
+    },
+    {
+      "control_id": "T1.3.3",
+      "passage_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_9",
+      "human": "Partially Addressed",
+      "ai": "Not Addressed",
+      "ai_evidence": "labelling passage; not asset-handling procedures"
+    },
+    {
+      "control_id": "T1.3.3",
+      "passage_id": "clientname-IS-POL-00-Asset Management Policy_passage_10",
+      "human": "Not Addressed",
+      "ai": "Partially Addressed",
+      "ai_evidence": "5.4 Asset Handling: handling procedures + safeguard"
+    },
+    {
+      "control_id": "T1.4.1",
+      "passage_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_11",
+      "human": "Not Addressed",
+      "ai": "Partially Addressed",
+      "ai_evidence": "5.5 Removable Media Management: lifecycle handling + restrict/monitor usage"
+    },
+    {
+      "control_id": "T1.4.1",
+      "passage_id": "clientname-IS-POL-00-Asset Management Policy_passage_11",
+      "human": "Not Addressed",
+      "ai": "Partially Addressed",
+      "ai_evidence": "5.5 Removable Media Management: lifecycle handling + restrict/monitor usage"
+    },
+    {
+      "control_id": "T1.4.2",
+      "passage_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_12",
+      "human": "Not Addressed",
+      "ai": "Fully Addressed",
+      "ai_evidence": "5.6 Disposal: secure disposal procedures by sensitivity, destroy paper+digital, keep records when no longer needed"
+    },
+    {
+      "control_id": "T1.4.2",
+      "passage_id": "clientname-IS-POL-00-Asset Management Policy_passage_12",
+      "human": "Not Addressed",
+      "ai": "Fully Addressed",
+      "ai_evidence": "5.6 Disposal: secure disposal by sensitivity, destroy paper+digital, keep records"
+    },
+    {
+      "control_id": "T2.1.1",
+      "passage_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_4",
+      "human": "Fully Addressed",
+      "ai": "Not Addressed",
+      "ai_evidence": "purpose fragment; does not establish full policy (roles/ack/review absent) - human FA over-labels"
+    },
+    {
+      "control_id": "T2.2.2",
+      "passage_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_8",
+      "human": "Not Addressed",
+      "ai": "Fully Addressed",
+      "ai_evidence": "5.2 authenticate persons (5.2.8), log+monitor access (5.2.9), visible ID (5.2.6), escort contractors (5.2.12)"
+    },
+    {
+      "control_id": "T2.2.4",
+      "passage_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_9",
+      "human": "Not Addressed",
+      "ai": "Partially Addressed",
+      "ai_evidence": "5.3 Protecting Against External and Environmental Threats implements the control"
+    },
+    {
+      "control_id": "T2.2.5",
+      "passage_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_10",
+      "human": "Not Addressed",
+      "ai": "Partially Addressed",
+      "ai_evidence": "5.4 establish guidelines for working in secure areas + personnel aware/accept"
+    },
+    {
+      "control_id": "T2.2.6",
+      "passage_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_11",
+      "human": "Not Addressed",
+      "ai": "Partially Addressed",
+      "ai_evidence": "5.5 Protect Delivery and Loading Areas implements public-access/delivery control"
+    },
+    {
+      "control_id": "T2.3.3",
+      "passage_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_13",
+      "human": "Not Addressed",
+      "ai": "Partially Addressed",
+      "ai_evidence": "5.7 Cabling Security implements the control"
+    },
+    {
+      "control_id": "T2.3.5",
+      "passage_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_14",
+      "human": "Not Addressed",
+      "ai": "Partially Addressed",
+      "ai_evidence": "5.8 Security of Equipment Off-Premises implements the control"
+    },
+    {
+      "control_id": "T2.3.6",
+      "passage_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_15",
+      "human": "Not Addressed",
+      "ai": "Partially Addressed",
+      "ai_evidence": "5.9 destroy/overwrite media with confidential info before disposal/reuse (no records atom)"
+    },
+    {
+      "control_id": "T3.2.2",
+      "passage_id": "clientname-IS-POL-00-Security Operations Policy_passage_6",
+      "human": "Not Addressed",
+      "ai": "Fully Addressed",
+      "ai_evidence": "5.1 operating procedures documented+approved, reviewed periodically, kept up-to-date and available to users"
+    },
+    {
+      "control_id": "T3.2.4",
+      "passage_id": "clientname-IS-POL-00-Security Operations Policy_passage_11",
+      "human": "Not Addressed",
+      "ai": "Partially Addressed",
+      "ai_evidence": "5.6 Segregation of Duties implements the control"
+    },
+    {
+      "control_id": "T3.2.5",
+      "passage_id": "clientname-IS-POL-00-Security Operations Policy_passage_8",
+      "human": "Not Addressed",
+      "ai": "Partially Addressed",
+      "ai_evidence": "5.3 production separated from test/dev, documented transfer procedures via SDLC procedure"
+    },
+    {
+      "control_id": "T3.3.1",
+      "passage_id": "clientname-IS-POL-00-Security Operations Policy_passage_9",
+      "human": "Not Addressed",
+      "ai": "Fully Addressed",
+      "ai_evidence": "5.4.3-5.4.4 monitor capacity, formal capacity management process, capacity plans to meet projected demand"
+    },
+    {
+      "control_id": "T3.6.3",
+      "passage_id": "clientname-IS-POL-00-Vulnerability Management Policy v1.2 (V_A)_passage_5",
+      "human": "Fully Addressed",
+      "ai": "Not Addressed",
+      "ai_evidence": "scope boilerplate only; no monitoring types/frequency/review - human FA over-labels"
+    },
+    {
+      "control_id": "T4.1.1",
+      "passage_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_4",
+      "human": "Fully Addressed",
+      "ai": "Not Addressed",
+      "ai_evidence": "purpose fragment; does not establish full policy - human FA over-labels"
+    },
+    {
+      "control_id": "T4.2.1",
+      "passage_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_11",
+      "human": "Not Addressed",
+      "ai": "Fully Addressed",
+      "ai_evidence": "5.5 establish transfer procedures; conditions, controls, actions on issues"
+    },
+    {
+      "control_id": "T4.2.2",
+      "passage_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_12",
+      "human": "Not Addressed",
+      "ai": "Partially Addressed",
+      "ai_evidence": "5.6 establish exchange agreements with security conditions and responsibilities"
+    },
+    {
+      "control_id": "T4.2.3",
+      "passage_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_13",
+      "human": "Not Addressed",
+      "ai": "Fully Addressed",
+      "ai_evidence": "5.7 labelling requirements, tracking, transfer logs, loss measures for physical media in transit"
+    },
+    {
+      "control_id": "T4.2.3",
+      "passage_id": "clientname-IS-POL-00-Asset Management Policy_passage_13",
+      "human": "Not Addressed",
+      "ai": "Fully Addressed",
+      "ai_evidence": "5.7 labelling, tracking, transfer logs, loss measures"
+    },
+    {
+      "control_id": "T4.2.4",
+      "passage_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_13",
+      "human": "Not Addressed",
+      "ai": "Partially Addressed",
+      "ai_evidence": "5.7 Electronic Messaging implements the control"
+    },
+    {
+      "control_id": "T4.4.2",
+      "passage_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_15",
+      "human": "Not Addressed",
+      "ai": "Partially Addressed",
+      "ai_evidence": "5.9 Information Released into Information Sharing Communities implements the control"
+    },
+    {
+      "control_id": "T4.5.1",
+      "passage_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_7",
+      "human": "Not Addressed",
+      "ai": "Partially Addressed",
+      "ai_evidence": "5.1 network design w/ risk assessment, specific network controls, logging/monitoring"
+    },
+    {
+      "control_id": "T4.5.2",
+      "passage_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_8",
+      "human": "Not Addressed",
+      "ai": "Partially Addressed",
+      "ai_evidence": "5.2 identify+implement security features/service levels; right-to-audit in agreements"
+    },
+    {
+      "control_id": "T4.5.3",
+      "passage_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_9",
+      "human": "Not Addressed",
+      "ai": "Partially Addressed",
+      "ai_evidence": "5.3 Segregation in Networks implements the control"
+    },
+    {
+      "control_id": "T4.5.4",
+      "passage_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_10",
+      "human": "Not Addressed",
+      "ai": "Partially Addressed",
+      "ai_evidence": "5.4 wireless risk assessment, segregation, controls, periodic effectiveness review"
+    },
+    {
+      "control_id": "T5.2.2",
+      "passage_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_12",
+      "human": "Fully Addressed",
+      "ai": "Partially Addressed",
+      "ai_evidence": "8.6 record of privileges, separate admin ID; 2FA/logging atoms not shown - human FA over-labels"
+    },
+    {
+      "control_id": "T5.2.3",
+      "passage_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_14",
+      "human": "Not Addressed",
+      "ai": "Partially Addressed",
+      "ai_evidence": "8.8 establish user access and secure credentials management procedures (brief)"
+    },
+    {
+      "control_id": "T5.2.3",
+      "passage_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_15",
+      "human": "Not Addressed",
+      "ai": "Partially Addressed",
+      "ai_evidence": "8.9 no default credentials, encryption/hashing for stored credentials, no cleartext"
+    },
+    {
+      "control_id": "T5.2.4",
+      "passage_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_13",
+      "human": "Not Addressed",
+      "ai": "Partially Addressed",
+      "ai_evidence": "8.7 review access rights at intervals and after promotion/transfer/termination; frequent privileged review"
+    },
+    {
+      "control_id": "T5.4.1",
+      "passage_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_8",
+      "human": "Not Addressed",
+      "ai": "Partially Addressed",
+      "ai_evidence": "8.2 procedure for use of network services (wireless/VPN/third-party), consistent with policy"
+    },
+    {
+      "control_id": "T5.4.7",
+      "passage_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_9",
+      "human": "Not Addressed",
+      "ai": "Partially Addressed",
+      "ai_evidence": "8.3 Wireless Access: authentication protocols, controls, periodic surveys"
+    },
+    {
+      "control_id": "T5.5.1",
+      "passage_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_16",
+      "human": "Not Addressed",
+      "ai": "Partially Addressed",
+      "ai_evidence": "8.10 formal secure logon procedure, banner, strong auth, lockout; no session-timeout atoms"
+    },
+    {
+      "control_id": "T5.6.3",
+      "passage_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_18",
+      "human": "Not Addressed",
+      "ai": "Fully Addressed",
+      "ai_evidence": "8.12 publishing guidelines with reviews/approvals, sanitization training, periodic scan for exposed non-public info"
+    },
+    {
+      "control_id": "T6.2.2",
+      "passage_id": "clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping_passage_7",
+      "human": "Not Addressed",
+      "ai": "Partially Addressed",
+      "ai_evidence": "7.1 identify/mandate/monitor third-party security controls and lifecycle"
+    },
+    {
+      "control_id": "T6.2.2",
+      "passage_id": "clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping_passage_8",
+      "human": "Not Addressed",
+      "ai": "Partially Addressed",
+      "ai_evidence": "7.2.4 service management relationship: monitor service levels, review reports, conduct audits"
+    },
+    {
+      "control_id": "T6.2.3",
+      "passage_id": "clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping_passage_7",
+      "human": "Partially Addressed",
+      "ai": "Not Addressed",
+      "ai_evidence": "7.1 general approach; change-management methodology/parameters not addressed (those are in 7.3)"
+    },
+    {
+      "control_id": "T7.7.1",
+      "passage_id": "clientname-IS-POL-00-Vulnerability Management Policy v1.2 (V_A)_passage_7",
+      "human": "Not Addressed",
+      "ai": "Partially Addressed",
+      "ai_evidence": "6.1 test/verify vulnerabilities (automated VA/pen tests), remediation plans before production"
+    },
+    {
+      "control_id": "T8.1.1",
+      "passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 2_passage_3",
+      "human": "Fully Addressed",
+      "ai": "Partially Addressed",
+      "ai_evidence": "1 INTRODUCTION: framework for managing incidents + roles for detection/response/recovery; not full policy - human FA over-labels"
+    },
+    {
+      "control_id": "T8.1.1",
+      "passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_3",
+      "human": "Fully Addressed",
+      "ai": "Partially Addressed",
+      "ai_evidence": "1 INTRODUCTION: framework + roles for detection/response/recovery; not full policy - human FA over-labels"
+    },
+    {
+      "control_id": "T8.2.2",
+      "passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 2_passage_7",
+      "human": "Not Addressed",
+      "ai": "Partially Addressed",
+      "ai_evidence": "5.1 identify CSIRT personnel, team composition, roles/responsibilities, services; funding/workflow/announce absent"
+    },
+    {
+      "control_id": "T8.2.3",
+      "passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 2_passage_9",
+      "human": "Not Addressed",
+      "ai": "Partially Addressed",
+      "ai_evidence": "5.3 establish incident classification scheme per regulatory issuances; assess/classify events"
+    },
+    {
+      "control_id": "T8.2.3",
+      "passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_9",
+      "human": "Not Addressed",
+      "ai": "Partially Addressed",
+      "ai_evidence": "5.3 incident classification scheme per regulatory issuances"
+    },
+    {
+      "control_id": "T8.2.5",
+      "passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 2_passage_11",
+      "human": "Not Addressed",
+      "ai": "Partially Addressed",
+      "ai_evidence": "5.5 Incident Response Testing: procedures, breach simulations, tabletop/functional exercises, sector/national exercises"
+    },
+    {
+      "control_id": "T8.2.5",
+      "passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_11",
+      "human": "Not Addressed",
+      "ai": "Partially Addressed",
+      "ai_evidence": "5.5 Incident Response Testing implements the control"
+    },
+    {
+      "control_id": "T8.2.6",
+      "passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 2_passage_7",
+      "human": "Not Addressed",
+      "ai": "Partially Addressed",
+      "ai_evidence": "5.1 CSIRT provides the incident response support resource (personnel, contact, responsibilities)"
+    },
+    {
+      "control_id": "T8.2.6",
+      "passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_7",
+      "human": "Not Addressed",
+      "ai": "Partially Addressed",
+      "ai_evidence": "5.1 CSIRT as incident response support resource"
+    },
+    {
+      "control_id": "T8.2.8",
+      "passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 2_passage_13",
+      "human": "Not Addressed",
+      "ai": "Partially Addressed",
+      "ai_evidence": "5.7 document incidents + incident handling (logging, recording, closing)"
+    },
+    {
+      "control_id": "T8.2.8",
+      "passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_13",
+      "human": "Not Addressed",
+      "ai": "Partially Addressed",
+      "ai_evidence": "5.7 incident documentation + handling records"
+    },
+    {
+      "control_id": "T8.3.2",
+      "passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 2_passage_9",
+      "human": "Fully Addressed",
+      "ai": "Not Addressed",
+      "ai_evidence": "5.3 incident classification; not an event-reporting procedure/channels - human FA over-labels"
+    },
+    {
+      "control_id": "T8.3.3",
+      "passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 2_passage_12",
+      "human": "Not Addressed",
+      "ai": "Partially Addressed",
+      "ai_evidence": "5.6 nominated point of contact (CSIRT), handling of security weakness contributing to incident"
+    },
+    {
+      "control_id": "T8.3.3",
+      "passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_12",
+      "human": "Not Addressed",
+      "ai": "Partially Addressed",
+      "ai_evidence": "5.6 nominated point of contact (CSIRT), weakness handling"
+    }
+  ]
+}

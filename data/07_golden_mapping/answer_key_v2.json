@@ -1,0 +1,2325 @@
+{
+  "meta": {
+    "derived_from": "data/07_golden_mapping/answer_key.json",
+    "judged": "data/10_judge/answer_key.judged.json",
+    "decisions_source": "pre-filled suggestions",
+    "n_pairs": 162,
+    "n_corrected": 63,
+    "label_distribution": {
+      "Not Addressed": 86,
+      "Partially Addressed": 59,
+      "Fully Addressed": 17
+    },
+    "status": "PROPOSED - pending human sign-off on adjudication.csv"
+  },
+  "pairs": [
+    {
+      "control_id": "M1.1.2",
+      "passage_id": "clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_10",
+      "policy_name": "Security Awareness and Training Policy",
+      "policy_section": "9 ROLES AND RESPONSIBILITIES",
+      "label": "Not Addressed",
+      "conflicting": true,
+      "n_sources": 7,
+      "votes": {
+        "Not Addressed": 6,
+        "Fully Addressed": 1
+      },
+      "evidence": "9 ROLES AND RESPONSIBILITIES\n\nExecutive &amp; Senior Management\n\n1. Commit to provide the required resources and support for implementing a successful Information Security awareness and training progr..."
+    },
+    {
+      "control_id": "M1.3.2",
+      "passage_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_14",
+      "policy_name": "Network and Communications Security Policy",
+      "policy_section": "5.8 Confidentiality or Non-disclosure Agreements",
+      "label": "Not Addressed",
+      "conflicting": true,
+      "n_sources": 6,
+      "votes": {
+        "Fully Addressed": 1,
+        "Not Addressed": 5
+      },
+      "evidence": "5.8 Confidentiality or Non-disclosure Agreements\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Enforce confidentiality or non-disclosure agreements when sensitive information is exchanged, for external parties where..."
+    },
+    {
+      "control_id": "M1.4.2",
+      "passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 3_passage_5",
+      "policy_name": "Information Risk Management Policy",
+      "policy_section": "3 SCOPE",
+      "label": "Not Addressed",
+      "conflicting": false,
+      "n_sources": 1,
+      "votes": {
+        "Not Addressed": 1
+      },
+      "evidence": "3 SCOPE\n\nThis Policy encompasses all system components that are owned, leased, rented, operated, maintained, and otherwise controlled by &lt;CLIENTNAME&gt; or a third-party on behalf of &lt;CLIENTNAME..."
+    },
+    {
+      "control_id": "M2.1.1",
+      "passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 1_passage_3",
+      "policy_name": "Information Risk Management Policy",
+      "policy_section": "1 INTRODUCTION",
+      "label": "Not Addressed",
+      "conflicting": true,
+      "n_sources": 9,
+      "votes": {
+        "Not Addressed": 8,
+        "Fully Addressed": 1
+      },
+      "evidence": "1 INTRODUCTION\n\nThis Information Risk Management Policy (“Policy”) is a key component of &lt;CLIENTNAME&gt;’s overall Integrated Management System (IMS) and overarches the detailed risk management fra..."
+    },
+    {
+      "control_id": "M2.1.1",
+      "passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 1_passage_5",
+      "policy_name": "Information Risk Management Policy",
+      "policy_section": "3 SCOPE",
+      "label": "Not Addressed",
+      "conflicting": false,
+      "n_sources": 11,
+      "votes": {
+        "Not Addressed": 11
+      },
+      "evidence": "3 SCOPE\n\nThis Policy encompasses all system components that are owned, leased, rented, operated, maintained, and otherwise controlled by &lt;CLIENTNAME&gt; or a third-party on behalf of &lt;CLIENTNAME..."
+    },
+    {
+      "control_id": "M2.1.1",
+      "passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 1_passage_6",
+      "policy_name": "Information Risk Management Policy",
+      "policy_section": "4 POLICY STATEMENT",
+      "label": "Not Addressed",
+      "conflicting": true,
+      "n_sources": 9,
+      "votes": {
+        "Not Addressed": 8,
+        "Fully Addressed": 1
+      },
+      "evidence": "4 POLICY STATEMENT\n\n&lt;CLIENTNAME&gt; shall implement an information risk management program that shall require conducting risk assessments, identifying information risks, treating the risks and cont..."
+    },
+    {
+      "control_id": "M2.1.1",
+      "passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 1_passage_7",
+      "policy_name": "Information Risk Management Policy",
+      "policy_section": "5.1 Information Risk Management Framework",
+      "label": "Partially Addressed",
+      "conflicting": false,
+      "n_sources": 5,
+      "votes": {
+        "Not Addressed": 5
+      },
+      "evidence": "5.1 Information Risk Management Framework\n\n1. Prepare: Establish context by understanding mission, business objectives, and information systems to manage &lt;CLIENTNAME&gt;, its security, privacy, and...",
+      "original_human_label": "Not Addressed",
+      "corrected_by": "adjudication"
+    },
+    {
+      "control_id": "M2.1.1",
+      "passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2_passage_3",
+      "policy_name": "Information Risk Management Policy",
+      "policy_section": "1 INTRODUCTION",
+      "label": "Not Addressed",
+      "conflicting": true,
+      "n_sources": 6,
+      "votes": {
+        "Not Addressed": 5,
+        "Fully Addressed": 1
+      },
+      "evidence": "1 INTRODUCTION\n\nThis Information Risk Management Policy (“Policy”) is a key component of &lt;CLIENTNAME&gt;’s overall Integrated Management System (IMS) and overarches the detailed risk management fra..."
+    },
+    {
+      "control_id": "M2.1.1",
+      "passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2_passage_5",
+      "policy_name": "Information Risk Management Policy",
+      "policy_section": "3 SCOPE",
+      "label": "Not Addressed",
+      "conflicting": false,
+      "n_sources": 11,
+      "votes": {
+        "Not Addressed": 11
+      },
+      "evidence": "3 SCOPE\n\nThis Policy encompasses all system components that are owned, leased, rented, operated, maintained, and otherwise controlled by &lt;CLIENTNAME&gt; or a third-party on behalf of &lt;CLIENTNAME..."
+    },
+    {
+      "control_id": "M2.1.1",
+      "passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2_passage_6",
+      "policy_name": "Information Risk Management Policy",
+      "policy_section": "4 POLICY STATEMENT",
+      "label": "Not Addressed",
+      "conflicting": true,
+      "n_sources": 8,
+      "votes": {
+        "Not Addressed": 7,
+        "Fully Addressed": 1
+      },
+      "evidence": "4 POLICY STATEMENT\n\n&lt;CLIENTNAME&gt; shall implement an information risk management program that shall require conducting risk assessments, identifying information risks, treating the risks and cont..."
+    },
+    {
+      "control_id": "M2.1.1",
+      "passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2_passage_7",
+      "policy_name": "Information Risk Management Policy",
+      "policy_section": "5.1 Information Risk Management Framework",
+      "label": "Partially Addressed",
+      "conflicting": false,
+      "n_sources": 5,
+      "votes": {
+        "Not Addressed": 5
+      },
+      "evidence": "5.1 Information Risk Management Framework\n\n1. Prepare: Establish context by understanding mission, business objectives, and information systems to manage &lt;CLIENTNAME&gt;, its security, privacy, and...",
+      "original_human_label": "Not Addressed",
+      "corrected_by": "adjudication"
+    },
+    {
+      "control_id": "M2.1.1",
+      "passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 3_passage_3",
+      "policy_name": "Information Risk Management Policy",
+      "policy_section": "1 INTRODUCTION",
+      "label": "Not Addressed",
+      "conflicting": true,
+      "n_sources": 5,
+      "votes": {
+        "Not Addressed": 4,
+        "Fully Addressed": 1
+      },
+      "evidence": "1 INTRODUCTION\n\nThis Information Risk Management Policy (“Policy”) is a key component of &lt;CLIENTNAME&gt;’s overall Integrated Management System (IMS) and overarches the detailed risk management fra..."
+    },
+    {
+      "control_id": "M2.1.1",
+      "passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 3_passage_5",
+      "policy_name": "Information Risk Management Policy",
+      "policy_section": "3 SCOPE",
+      "label": "Not Addressed",
+      "conflicting": false,
+      "n_sources": 8,
+      "votes": {
+        "Not Addressed": 8
+      },
+      "evidence": "3 SCOPE\n\nThis Policy encompasses all system components that are owned, leased, rented, operated, maintained, and otherwise controlled by &lt;CLIENTNAME&gt; or a third-party on behalf of &lt;CLIENTNAME..."
+    },
+    {
+      "control_id": "M2.1.1",
+      "passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 3_passage_6",
+      "policy_name": "Information Risk Management Policy",
+      "policy_section": "4 POLICY STATEMENT",
+      "label": "Not Addressed",
+      "conflicting": true,
+      "n_sources": 7,
+      "votes": {
+        "Fully Addressed": 1,
+        "Not Addressed": 6
+      },
+      "evidence": "4 POLICY STATEMENT\n\n&lt;CLIENTNAME&gt; shall implement an information risk management program that shall require conducting risk assessments, identifying information risks, treating the risks and cont..."
+    },
+    {
+      "control_id": "M2.1.1",
+      "passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 3_passage_7",
+      "policy_name": "Information Risk Management Policy",
+      "policy_section": "5.1 Information Risk Management Framework",
+      "label": "Partially Addressed",
+      "conflicting": false,
+      "n_sources": 4,
+      "votes": {
+        "Not Addressed": 4
+      },
+      "evidence": "5.1 Information Risk Management Framework\n\n1. Prepare: Establish context by understanding mission, business objectives, and information systems to manage &lt;CLIENTNAME&gt;, its security, privacy, and...",
+      "original_human_label": "Not Addressed",
+      "corrected_by": "adjudication"
+    },
+    {
+      "control_id": "M2.2.1",
+      "passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 1_passage_8",
+      "policy_name": "Information Risk Management Policy",
+      "policy_section": "5.2 Information Risk Assessment",
+      "label": "Not Addressed",
+      "conflicting": false,
+      "n_sources": 1,
+      "votes": {
+        "Not Addressed": 1
+      },
+      "evidence": "5.2 Information Risk Assessment\n\n1. Identification of the vulnerabilities that exist in the information assets.\n2. Identification of threats that may exploit a vulnerability.\n3. Qualitative analysis a..."
+    },
+    {
+      "control_id": "M2.3.1",
+      "passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 1_passage_9",
+      "policy_name": "Information Risk Management Policy",
+      "policy_section": "5.4 Information Risk Treatment",
+      "label": "Partially Addressed",
+      "conflicting": false,
+      "n_sources": 1,
+      "votes": {
+        "Partially Addressed": 1
+      },
+      "evidence": "5.4 Information Risk Treatment\n\n1. Risk Reduction: Reducing risk by applying security controls.\n2. Risk Avoidance: Avoiding the activity or condition causing the risk.\n3. Risk Transfer: Transferring t..."
+    },
+    {
+      "control_id": "M2.3.1",
+      "passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2_passage_9",
+      "policy_name": "Information Risk Management Policy",
+      "policy_section": "5.4 Information Risk Treatment",
+      "label": "Partially Addressed",
+      "conflicting": false,
+      "n_sources": 1,
+      "votes": {
+        "Partially Addressed": 1
+      },
+      "evidence": "5.4 Information Risk Treatment\n\n1. Risk Reduction: Reducing risk by applying security controls.\n2. Risk Avoidance: Avoiding the activity or condition causing the risk.\n3. Risk Transfer: Transferring t..."
+    },
+    {
+      "control_id": "M2.3.1",
+      "passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 3_passage_9",
+      "policy_name": "Information Risk Management Policy",
+      "policy_section": "5.4 Information Risk Treatment",
+      "label": "Partially Addressed",
+      "conflicting": false,
+      "n_sources": 1,
+      "votes": {
+        "Partially Addressed": 1
+      },
+      "evidence": "5.4 Information Risk Treatment\n\n1. Risk Reduction: Reducing risk by applying security controls.\n2. Risk Avoidance: Avoiding the activity or condition causing the risk.\n3. Risk Transfer: Transferring t..."
+    },
+    {
+      "control_id": "M2.3.2",
+      "passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 1_passage_9",
+      "policy_name": "Information Risk Management Policy",
+      "policy_section": "5.4 Information Risk Treatment",
+      "label": "Not Addressed",
+      "conflicting": false,
+      "n_sources": 1,
+      "votes": {
+        "Not Addressed": 1
+      },
+      "evidence": "5.4 Information Risk Treatment\n\n1. Risk Reduction: Reducing risk by applying security controls.\n2. Risk Avoidance: Avoiding the activity or condition causing the risk.\n3. Risk Transfer: Transferring t..."
+    },
+    {
+      "control_id": "M2.3.2",
+      "passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2_passage_9",
+      "policy_name": "Information Risk Management Policy",
+      "policy_section": "5.4 Information Risk Treatment",
+      "label": "Not Addressed",
+      "conflicting": false,
+      "n_sources": 1,
+      "votes": {
+        "Not Addressed": 1
+      },
+      "evidence": "5.4 Information Risk Treatment\n\n1. Risk Reduction: Reducing risk by applying security controls.\n2. Risk Avoidance: Avoiding the activity or condition causing the risk.\n3. Risk Transfer: Transferring t..."
+    },
+    {
+      "control_id": "M2.3.2",
+      "passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 3_passage_9",
+      "policy_name": "Information Risk Management Policy",
+      "policy_section": "5.4 Information Risk Treatment",
+      "label": "Not Addressed",
+      "conflicting": false,
+      "n_sources": 1,
+      "votes": {
+        "Not Addressed": 1
+      },
+      "evidence": "5.4 Information Risk Treatment\n\n1. Risk Reduction: Reducing risk by applying security controls.\n2. Risk Avoidance: Avoiding the activity or condition causing the risk.\n3. Risk Transfer: Transferring t..."
+    },
+    {
+      "control_id": "M3.1.1",
+      "passage_id": "clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_3",
+      "policy_name": "Security Awareness and Training Policy",
+      "policy_section": "4 INTRODUCTION",
+      "label": "Not Addressed",
+      "conflicting": true,
+      "n_sources": 25,
+      "votes": {
+        "Not Addressed": 24,
+        "Fully Addressed": 1
+      },
+      "evidence": "4 INTRODUCTION\n\n&lt;&lt;CLIENT&gt;&gt; recognizes the importance of providing its employees/ end-users with appropriate awareness and training on information security, business continuity and data pri..."
+    },
+    {
+      "control_id": "M3.2.1",
+      "passage_id": "clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_6",
+      "policy_name": "Security Awareness and Training Policy",
+      "policy_section": "7 POLICY STATEMENT",
+      "label": "Not Addressed",
+      "conflicting": true,
+      "n_sources": 30,
+      "votes": {
+        "Not Addressed": 29,
+        "Fully Addressed": 1
+      },
+      "evidence": "7 POLICY STATEMENT\n\n&lt;&lt;CLIENT&gt;&gt; shall develop, implement, and maintain an awareness and training program to inform all employees of the information security, business continuity and data pr..."
+    },
+    {
+      "control_id": "M3.2.1",
+      "passage_id": "clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_7",
+      "policy_name": "Security Awareness and Training Policy",
+      "policy_section": "8.1 Awareness and Training Program",
+      "label": "Partially Addressed",
+      "conflicting": true,
+      "n_sources": 13,
+      "votes": {
+        "Not Addressed": 10,
+        "Partially Addressed": 3
+      },
+      "evidence": "8.1 Awareness and Training Program\n\n&lt;&lt;CLIENT&gt;&gt; shall:\n\n1. Develop and formalize an Information Security (IS) awareness and training program that ensures continued awareness and competence ...",
+      "original_human_label": "Not Addressed",
+      "corrected_by": "adjudication"
+    },
+    {
+      "control_id": "M3.3.1",
+      "passage_id": "clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_8",
+      "policy_name": "Security Awareness and Training Policy",
+      "policy_section": "8.2 Role Specific Training",
+      "label": "Not Addressed",
+      "conflicting": false,
+      "n_sources": 2,
+      "votes": {
+        "Not Addressed": 2
+      },
+      "evidence": "8.2 Role Specific Training\n\n&lt;&lt;CLIENT&gt;&gt; shall:\n\n1. Provide Role specific security training for employees/contractors with assigned administrative or technical roles and responsibilities inv..."
+    },
+    {
+      "control_id": "M3.3.4",
+      "passage_id": "clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_9",
+      "policy_name": "Security Awareness and Training Policy",
+      "policy_section": "8.3 Training Records",
+      "label": "Not Addressed",
+      "conflicting": false,
+      "n_sources": 1,
+      "votes": {
+        "Fully Addressed": 1
+      },
+      "evidence": "8.3 Training Records\n\n&lt;&lt;CLIENT&gt;&gt; shall:\n\n1. Document and monitor individual security training activities, including basic security awareness training and any Role specific security trainin...",
+      "original_human_label": "Fully Addressed",
+      "corrected_by": "adjudication"
+    },
+    {
+      "control_id": "M5.1.1",
+      "passage_id": "clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_3",
+      "policy_name": "Information Security Compliance Policy",
+      "policy_section": "1 INTRODUCTION",
+      "label": "Not Addressed",
+      "conflicting": false,
+      "n_sources": 1,
+      "votes": {
+        "Not Addressed": 1
+      },
+      "evidence": "1 INTRODUCTION\n\nThe Compliance Policy (\"Policy\") facilitates the implementation of the associated controls to ensure &lt;&lt;CLIENT&gt;&gt; is compliant with applicable national and global laws and re..."
+    },
+    {
+      "control_id": "M5.1.1",
+      "passage_id": "clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_4",
+      "policy_name": "Information Security Compliance Policy",
+      "policy_section": "2 PURPOSE",
+      "label": "Not Addressed",
+      "conflicting": true,
+      "n_sources": 4,
+      "votes": {
+        "Partially Addressed": 2,
+        "Not Addressed": 2
+      },
+      "evidence": "2 PURPOSE\n\nThe purpose of this Compliance Policy (\"Policy\") is to define compliance requirements, responsibilities, awareness, and monitoring with respect to Information security and privacy across &l..."
+    },
+    {
+      "control_id": "M5.2.1",
+      "passage_id": "clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_7",
+      "policy_name": "Information Security Compliance Policy",
+      "policy_section": "5.1 Identification of Compliance Requirements",
+      "label": "Partially Addressed",
+      "conflicting": true,
+      "n_sources": 9,
+      "votes": {
+        "Not Addressed": 8,
+        "Fully Addressed": 1
+      },
+      "evidence": "5.1 Identification of Compliance Requirements\n\n&lt;&lt;CLIENT&gt;&gt; shall:\n\n1. Identify, define and establish compliance with all relevant statutory, regulatory, and contractual requirements, includ...",
+      "original_human_label": "Not Addressed",
+      "corrected_by": "adjudication"
+    },
+    {
+      "control_id": "M5.2.2",
+      "passage_id": "clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_8",
+      "policy_name": "Information Security Compliance Policy",
+      "policy_section": "5.2 Intellectual Property Rights (IPR)",
+      "label": "Partially Addressed",
+      "conflicting": false,
+      "n_sources": 3,
+      "votes": {
+        "Not Addressed": 3
+      },
+      "evidence": "5.2 Intellectual Property Rights (IPR)\n\n&lt;&lt;CLIENT&gt;&gt; shall:\n\n5.2.1 Implement appropriate processes, controls, responsibilities and system requirements to ensure compliance with intellectual ...",
+      "original_human_label": "Not Addressed",
+      "corrected_by": "adjudication"
+    },
+    {
+      "control_id": "M5.2.3",
+      "passage_id": "clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_9",
+      "policy_name": "Information Security Compliance Policy",
+      "policy_section": "5.3 Protection of Records and Personal Data",
+      "label": "Partially Addressed",
+      "conflicting": false,
+      "n_sources": 3,
+      "votes": {
+        "Not Addressed": 3
+      },
+      "evidence": "5.3 Protection of Records and Personal Data\n\n&lt;&lt;CLIENT&gt;&gt; shall:\n\n5.3.1    Define and categorize records by record type (e.g. financial, database, transaction logs, audit logs, operational p...",
+      "original_human_label": "Not Addressed",
+      "corrected_by": "adjudication"
+    },
+    {
+      "control_id": "M5.3.1",
+      "passage_id": "clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_10",
+      "policy_name": "Information Security Compliance Policy",
+      "policy_section": "5.4 Compliance with Security Policies and Standards",
+      "label": "Not Addressed",
+      "conflicting": true,
+      "n_sources": 6,
+      "votes": {
+        "Not Addressed": 5,
+        "Fully Addressed": 1
+      },
+      "evidence": "5.4 Compliance with Security Policies and Standards\n\n&lt;&lt;CLIENT&gt;&gt; shall:\n\n1. Conduct compliance assessments periodically with respect to applicable standards, laws and regulations.\n2. Report..."
+    },
+    {
+      "control_id": "M5.3.1",
+      "passage_id": "clientname-IS-POL-00-Information Security Compliance Policy v2.0 UAE IA Mapping 2_passage_6",
+      "policy_name": "Information Security Compliance Policy",
+      "policy_section": "4 POLICY STATEMENT",
+      "label": "Not Addressed",
+      "conflicting": true,
+      "n_sources": 41,
+      "votes": {
+        "Not Addressed": 39,
+        "Partially Addressed": 2
+      },
+      "evidence": "4 POLICY STATEMENT\n\n&lt;&lt;CLIENT&gt;&gt; shall develop, implement, and maintain an organization-wide information security compliance Policy to:\n\n- Implement and operate applicable and relevant secur..."
+    },
+    {
+      "control_id": "M5.4.1",
+      "passage_id": "clientname-IS-POL-00-Vulnerability Management Policy v1.2 (V_A)_passage_5",
+      "policy_name": "Vulnerability Management Policy",
+      "policy_section": "4 SCOPE",
+      "label": "Not Addressed",
+      "conflicting": false,
+      "n_sources": 3,
+      "votes": {
+        "Not Addressed": 3
+      },
+      "evidence": "4 SCOPE\n\nThe Policy covers all information systems owned, utilized and managed by &lt;CLIENTNAME&gt; including but not limited to:\n\n1. Information systems owned by &lt;CLIENTNAME&gt;.\n2. Hardware and ..."
+    },
+    {
+      "control_id": "M5.4.1",
+      "passage_id": "clientname-IS-POL-00-Vulnerability Management Policy v1.2 (V_A)_passage_6",
+      "policy_name": "Vulnerability Management Policy",
+      "policy_section": "5 POLICY STATEMENT",
+      "label": "Not Addressed",
+      "conflicting": true,
+      "n_sources": 5,
+      "votes": {
+        "Partially Addressed": 1,
+        "Not Addressed": 4
+      },
+      "evidence": "5 POLICY STATEMENT\n\n&lt;CLIENTNAME&gt; shall establish vulnerability management practices in order to proactively prevent the exploitation of vulnerabilities and potential loss of sensitive data. &lt;..."
+    },
+    {
+      "control_id": "M5.4.1",
+      "passage_id": "clientname-IS-POL-00-Vulnerability Management Policy v1.2 (V_A)_passage_7",
+      "policy_name": "Vulnerability Management Policy",
+      "policy_section": "6.1 Vulnerability Management",
+      "label": "Partially Addressed",
+      "conflicting": false,
+      "n_sources": 1,
+      "votes": {
+        "Not Addressed": 1
+      },
+      "evidence": "6.1 Vulnerability Management\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Conduct annual vulnerability assessments and penetration testing and quarterly internal vulnerability assessments scans on information syste...",
+      "original_human_label": "Not Addressed",
+      "corrected_by": "adjudication"
+    },
+    {
+      "control_id": "M5.5.1",
+      "passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 1_passage_5",
+      "policy_name": "Information Risk Management Policy",
+      "policy_section": "3 SCOPE",
+      "label": "Not Addressed",
+      "conflicting": false,
+      "n_sources": 1,
+      "votes": {
+        "Not Addressed": 1
+      },
+      "evidence": "3 SCOPE\n\nThis Policy encompasses all system components that are owned, leased, rented, operated, maintained, and otherwise controlled by &lt;CLIENTNAME&gt; or a third-party on behalf of &lt;CLIENTNAME..."
+    },
+    {
+      "control_id": "T1.1.1",
+      "passage_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_15",
+      "policy_name": "Asset Management Policy",
+      "policy_section": "5.9 Bring Your Own Device (BYOD) Arrangements",
+      "label": "Not Addressed",
+      "conflicting": true,
+      "n_sources": 8,
+      "votes": {
+        "Not Addressed": 7,
+        "Partially Addressed": 1
+      },
+      "evidence": "5.9 Bring Your Own Device (BYOD) Arrangements\n\n&lt;CLIENT&gt; shall:\n\n1. Provide means to securely access organizational information and information assets via ‘Bring Your Own Device’ (BYOD).\n2. Estab..."
+    },
+    {
+      "control_id": "T1.1.1",
+      "passage_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_3",
+      "policy_name": "Asset Management Policy",
+      "policy_section": "1 INTRODUCTION",
+      "label": "Not Addressed",
+      "conflicting": false,
+      "n_sources": 3,
+      "votes": {
+        "Not Addressed": 3
+      },
+      "evidence": "1 INTRODUCTION\n\n&lt;CLIENT&gt; (hereon referred to as &lt;CLIENT&gt;) has embarked on a robust Asset Management initiative to safeguard information assets collected and generated during the normal cou..."
+    },
+    {
+      "control_id": "T1.1.1",
+      "passage_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_4",
+      "policy_name": "Asset Management Policy",
+      "policy_section": "2 PURPOSE",
+      "label": "Not Addressed",
+      "conflicting": true,
+      "n_sources": 2,
+      "votes": {
+        "Fully Addressed": 1,
+        "Not Addressed": 1
+      },
+      "evidence": "2 PURPOSE\n\nThis Asset Management Policy (\"Policy\") aims to ensure appropriate classification and protection of &lt;CLIENT&gt;'s information and assets.\n\nFurther, the Policy establishes a commitment to..."
+    },
+    {
+      "control_id": "T1.1.1",
+      "passage_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_6",
+      "policy_name": "Asset Management Policy",
+      "policy_section": "4 POLICY STATEMENT",
+      "label": "Not Addressed",
+      "conflicting": false,
+      "n_sources": 10,
+      "votes": {
+        "Not Addressed": 10
+      },
+      "evidence": "4 POLICY STATEMENT\n\n&lt;CLIENT&gt; shall ensure the security of assets by:\n\n1. Identifying information assets.\n2. Ensuring that a current and accurate inventory of assets is developed and maintained t..."
+    },
+    {
+      "control_id": "T1.1.1",
+      "passage_id": "clientname-IS-POL-00-Asset Management Policy_passage_15",
+      "policy_name": "Asset Management Policy",
+      "policy_section": "5.9 Bring Your Own Device (BYOD) Arrangements",
+      "label": "Not Addressed",
+      "conflicting": true,
+      "n_sources": 7,
+      "votes": {
+        "Not Addressed": 6,
+        "Partially Addressed": 1
+      },
+      "evidence": "5.9 Bring Your Own Device (BYOD) Arrangements\n\n&lt;CLIENT&gt; shall:\n\n1. Provide means to securely access organizational information and information assets via ‘Bring Your Own Device’ (BYOD).\n2. Estab..."
+    },
+    {
+      "control_id": "T1.1.1",
+      "passage_id": "clientname-IS-POL-00-Asset Management Policy_passage_3",
+      "policy_name": "Asset Management Policy",
+      "policy_section": "1 INTRODUCTION",
+      "label": "Not Addressed",
+      "conflicting": false,
+      "n_sources": 2,
+      "votes": {
+        "Not Addressed": 2
+      },
+      "evidence": "1 INTRODUCTION\n\n&lt;CLIENT&gt; (hereon referred to as &lt;CLIENT&gt;) has embarked on a robust Asset Management initiative to safeguard information assets collected and generated during the normal cou..."
+    },
+    {
+      "control_id": "T1.1.1",
+      "passage_id": "clientname-IS-POL-00-Asset Management Policy_passage_4",
+      "policy_name": "Asset Management Policy",
+      "policy_section": "2 PURPOSE",
+      "label": "Not Addressed",
+      "conflicting": true,
+      "n_sources": 2,
+      "votes": {
+        "Fully Addressed": 1,
+        "Not Addressed": 1
+      },
+      "evidence": "2 PURPOSE\n\nThis Asset Management Policy (\"Policy\") aims to ensure appropriate classification and protection of &lt;CLIENT&gt;'s information and assets.\n\nFurther, the Policy establishes a commitment to..."
+    },
+    {
+      "control_id": "T1.1.1",
+      "passage_id": "clientname-IS-POL-00-Asset Management Policy_passage_6",
+      "policy_name": "Asset Management Policy",
+      "policy_section": "4 POLICY STATEMENT",
+      "label": "Not Addressed",
+      "conflicting": false,
+      "n_sources": 9,
+      "votes": {
+        "Not Addressed": 9
+      },
+      "evidence": "4 POLICY STATEMENT\n\n&lt;CLIENT&gt; shall ensure the security of assets by:\n\n1. Identifying information assets.\n2. Ensuring that a current and accurate inventory of assets is developed and maintained t..."
+    },
+    {
+      "control_id": "T1.2.1",
+      "passage_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_7",
+      "policy_name": "Asset Management Policy",
+      "policy_section": "5.1 Asset Inventory",
+      "label": "Partially Addressed",
+      "conflicting": true,
+      "n_sources": 3,
+      "votes": {
+        "Not Addressed": 1,
+        "Partially Addressed": 2
+      },
+      "evidence": "5.1 Asset Inventory\n\n&lt;CLIENT&gt; shall:\n\n1. Identify assets relevant in the information lifecycle (creation, processing, storage, transmission, deletion, destruction, and protection) and document t..."
+    },
+    {
+      "control_id": "T1.2.1",
+      "passage_id": "clientname-IS-POL-00-Asset Management Policy_passage_7",
+      "policy_name": "Asset Management Policy",
+      "policy_section": "5.1 Asset Inventory",
+      "label": "Partially Addressed",
+      "conflicting": true,
+      "n_sources": 3,
+      "votes": {
+        "Not Addressed": 1,
+        "Partially Addressed": 2
+      },
+      "evidence": "5.1 Asset Inventory\n\n&lt;CLIENT&gt; shall:\n\n1. Identify assets relevant in the information lifecycle (creation, processing, storage, transmission, deletion, destruction, and protection) and document t..."
+    },
+    {
+      "control_id": "T1.2.2",
+      "passage_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_14",
+      "policy_name": "Asset Management Policy",
+      "policy_section": "5.8 Acceptable Use of Assets",
+      "label": "Not Addressed",
+      "conflicting": false,
+      "n_sources": 1,
+      "votes": {
+        "Not Addressed": 1
+      },
+      "evidence": "5.8 Acceptable Use of Assets\n\n&lt;CLIENT&gt; shall:\n\n1. Ensure that usage of all organization’s information, information assets and information and communications technology (ICT) systems are approved..."
+    },
+    {
+      "control_id": "T1.2.2",
+      "passage_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_8",
+      "policy_name": "Asset Management Policy",
+      "policy_section": "5.2 Asset Ownership",
+      "label": "Not Addressed",
+      "conflicting": true,
+      "n_sources": 3,
+      "votes": {
+        "Not Addressed": 2,
+        "Fully Addressed": 1
+      },
+      "evidence": "5.2 Asset Ownership\n\n&lt;CLIENT&gt; shall:\n\n1. Establish and implement a process to ensure timely assignment of asset ownership.\n2. Assign/reassign ownership when assets are created or transferred.\n3...."
+    },
+    {
+      "control_id": "T1.2.2",
+      "passage_id": "clientname-IS-POL-00-Asset Management Policy_passage_8",
+      "policy_name": "Asset Management Policy",
+      "policy_section": "5.2 Asset Ownership",
+      "label": "Not Addressed",
+      "conflicting": true,
+      "n_sources": 3,
+      "votes": {
+        "Not Addressed": 2,
+        "Fully Addressed": 1
+      },
+      "evidence": "5.2 Asset Ownership\n\n&lt;CLIENT&gt; shall:\n\n1. Establish and implement a process to ensure timely assignment of asset ownership.\n2. Assign/reassign ownership when assets are created or transferred.\n3...."
+    },
+    {
+      "control_id": "T1.2.3",
+      "passage_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_14",
+      "policy_name": "Asset Management Policy",
+      "policy_section": "5.8 Acceptable Use of Assets",
+      "label": "Partially Addressed",
+      "conflicting": true,
+      "n_sources": 11,
+      "votes": {
+        "Not Addressed": 10,
+        "Partially Addressed": 1
+      },
+      "evidence": "5.8 Acceptable Use of Assets\n\n&lt;CLIENT&gt; shall:\n\n1. Ensure that usage of all organization’s information, information assets and information and communications technology (ICT) systems are approved...",
+      "original_human_label": "Not Addressed",
+      "corrected_by": "adjudication"
+    },
+    {
+      "control_id": "T1.2.3",
+      "passage_id": "clientname-IS-POL-00-Asset Management Policy_passage_14",
+      "policy_name": "Asset Management Policy",
+      "policy_section": "5.8 Acceptable Use of Assets",
+      "label": "Partially Addressed",
+      "conflicting": true,
+      "n_sources": 9,
+      "votes": {
+        "Not Addressed": 8,
+        "Partially Addressed": 1
+      },
+      "evidence": "5.8 Acceptable Use of Assets\n\n&lt;CLIENT&gt; shall:\n\n1. Ensure that usage of all organization’s information, information assets and information and communications technology (ICT) systems are approved...",
+      "original_human_label": "Not Addressed",
+      "corrected_by": "adjudication"
+    },
+    {
+      "control_id": "T1.3.2",
+      "passage_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_9",
+      "policy_name": "Asset Management Policy",
+      "policy_section": "5.3 Asset Labelling",
+      "label": "Partially Addressed",
+      "conflicting": true,
+      "n_sources": 4,
+      "votes": {
+        "Fully Addressed": 1,
+        "Not Addressed": 3
+      },
+      "evidence": "5.3 Asset Labelling\n\n&lt;CLIENT&gt; shall:\n\n1. Label information assets in physical and electronic formats according to the established information classification scheme as per the &lt;CLIENT&gt; Data...",
+      "original_human_label": "Not Addressed",
+      "corrected_by": "adjudication"
+    },
+    {
+      "control_id": "T1.3.2",
+      "passage_id": "clientname-IS-POL-00-Asset Management Policy_passage_9",
+      "policy_name": "Asset Management Policy",
+      "policy_section": "5.3 Asset Labelling",
+      "label": "Partially Addressed",
+      "conflicting": true,
+      "n_sources": 4,
+      "votes": {
+        "Fully Addressed": 1,
+        "Not Addressed": 3
+      },
+      "evidence": "5.3 Asset Labelling\n\n&lt;CLIENT&gt; shall:\n\n1. Label information assets in physical and electronic formats according to the established information classification scheme as per the &lt;CLIENT&gt; Data...",
+      "original_human_label": "Not Addressed",
+      "corrected_by": "adjudication"
+    },
+    {
+      "control_id": "T1.3.3",
+      "passage_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_10",
+      "policy_name": "Asset Management Policy",
+      "policy_section": "5.4 Asset Handling",
+      "label": "Partially Addressed",
+      "conflicting": true,
+      "n_sources": 17,
+      "votes": {
+        "Not Addressed": 16,
+        "Fully Addressed": 1
+      },
+      "evidence": "5.4 Asset Handling\n\n&lt;CLIENT&gt; shall:\n\n1. Develop procedures for handling, processing, storing, and communicating information consistent with its classification level. The following items should b...",
+      "original_human_label": "Not Addressed",
+      "corrected_by": "adjudication"
+    },
+    {
+      "control_id": "T1.3.3",
+      "passage_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_9",
+      "policy_name": "Asset Management Policy",
+      "policy_section": "5.3 Asset Labelling",
+      "label": "Not Addressed",
+      "conflicting": true,
+      "n_sources": 2,
+      "votes": {
+        "Partially Addressed": 1,
+        "Fully Addressed": 1
+      },
+      "evidence": "5.3 Asset Labelling\n\n&lt;CLIENT&gt; shall:\n\n1. Label information assets in physical and electronic formats according to the established information classification scheme as per the &lt;CLIENT&gt; Data...",
+      "original_human_label": "Partially Addressed",
+      "corrected_by": "adjudication"
+    },
+    {
+      "control_id": "T1.3.3",
+      "passage_id": "clientname-IS-POL-00-Asset Management Policy_passage_10",
+      "policy_name": "Asset Management Policy",
+      "policy_section": "5.4 Asset Handling",
+      "label": "Partially Addressed",
+      "conflicting": true,
+      "n_sources": 16,
+      "votes": {
+        "Not Addressed": 14,
+        "Fully Addressed": 1,
+        "Partially Addressed": 1
+      },
+      "evidence": "5.4 Asset Handling\n\n&lt;CLIENT&gt; shall:\n\n1. Develop procedures for handling, processing, storing, and communicating information consistent with its classification level. The following items should b...",
+      "original_human_label": "Not Addressed",
+      "corrected_by": "adjudication"
+    },
+    {
+      "control_id": "T1.3.3",
+      "passage_id": "clientname-IS-POL-00-Asset Management Policy_passage_9",
+      "policy_name": "Asset Management Policy",
+      "policy_section": "5.3 Asset Labelling",
+      "label": "Not Addressed",
+      "conflicting": true,
+      "n_sources": 2,
+      "votes": {
+        "Not Addressed": 1,
+        "Fully Addressed": 1
+      },
+      "evidence": "5.3 Asset Labelling\n\n&lt;CLIENT&gt; shall:\n\n1. Label information assets in physical and electronic formats according to the established information classification scheme as per the &lt;CLIENT&gt; Data..."
+    },
+    {
+      "control_id": "T1.4.1",
+      "passage_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_11",
+      "policy_name": "Asset Management Policy",
+      "policy_section": "5.5 Removable Media Management",
+      "label": "Partially Addressed",
+      "conflicting": true,
+      "n_sources": 7,
+      "votes": {
+        "Fully Addressed": 1,
+        "Not Addressed": 6
+      },
+      "evidence": "5.5 Removable Media Management\n\n&lt;CLIENT&gt; shall:\n\n1. Ensure that all information is stored only in organization authorized media.\n2. Ensure that contents of any re-usable media that are to be rem...",
+      "original_human_label": "Not Addressed",
+      "corrected_by": "adjudication"
+    },
+    {
+      "control_id": "T1.4.1",
+      "passage_id": "clientname-IS-POL-00-Asset Management Policy_passage_11",
+      "policy_name": "Asset Management Policy",
+      "policy_section": "5.5 Removable Media Management",
+      "label": "Partially Addressed",
+      "conflicting": true,
+      "n_sources": 7,
+      "votes": {
+        "Fully Addressed": 1,
+        "Not Addressed": 6
+      },
+      "evidence": "5.5 Removable Media Management\n\n&lt;CLIENT&gt; shall:\n\n1. Ensure that all information is stored only in organization authorized media.\n2. Ensure that contents of any re-usable media that are to be rem...",
+      "original_human_label": "Not Addressed",
+      "corrected_by": "adjudication"
+    },
+    {
+      "control_id": "T1.4.2",
+      "passage_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_12",
+      "policy_name": "Asset Management Policy",
+      "policy_section": "5.6 Disposal of Media",
+      "label": "Fully Addressed",
+      "conflicting": true,
+      "n_sources": 5,
+      "votes": {
+        "Fully Addressed": 1,
+        "Not Addressed": 4
+      },
+      "evidence": "5.6 Disposal of Media\n\n&lt;CLIENT&gt; shall:\n\n1. Establish procedures for secure disposal of media containing organizational information based on the sensitivity of that information.\n2. Ensure that th...",
+      "original_human_label": "Not Addressed",
+      "corrected_by": "adjudication"
+    },
+    {
+      "control_id": "T1.4.2",
+      "passage_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_14",
+      "policy_name": "Asset Management Policy",
+      "policy_section": "5.8 Acceptable Use of Assets",
+      "label": "Not Addressed",
+      "conflicting": false,
+      "n_sources": 1,
+      "votes": {
+        "Not Addressed": 1
+      },
+      "evidence": "5.8 Acceptable Use of Assets\n\n&lt;CLIENT&gt; shall:\n\n1. Ensure that usage of all organization’s information, information assets and information and communications technology (ICT) systems are approved..."
+    },
+    {
+      "control_id": "T1.4.2",
+      "passage_id": "clientname-IS-POL-00-Asset Management Policy_passage_12",
+      "policy_name": "Asset Management Policy",
+      "policy_section": "5.6 Disposal of Media",
+      "label": "Fully Addressed",
+      "conflicting": true,
+      "n_sources": 5,
+      "votes": {
+        "Fully Addressed": 1,
+        "Not Addressed": 4
+      },
+      "evidence": "5.6 Disposal of Media\n\n&lt;CLIENT&gt; shall:\n\n1. Establish procedures for secure disposal of media containing organizational information based on the sensitivity of that information.\n2. Ensure that th...",
+      "original_human_label": "Not Addressed",
+      "corrected_by": "adjudication"
+    },
+    {
+      "control_id": "T1.4.2",
+      "passage_id": "clientname-IS-POL-00-Asset Management Policy_passage_13",
+      "policy_name": "Asset Management Policy",
+      "policy_section": "5.7 Physical Media Transfer",
+      "label": "Not Addressed",
+      "conflicting": false,
+      "n_sources": 1,
+      "votes": {
+        "Not Addressed": 1
+      },
+      "evidence": "5.7 Physical Media Transfer\n\n&lt;CLIENT&gt; shall:\n\n1. Utilize reliable transport or couriers for transportation of physical media between sites.\n2. Develop a list of authorized couriers that are appr..."
+    },
+    {
+      "control_id": "T2.1.1",
+      "passage_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_3",
+      "policy_name": "Physical and Environmental Security Policy",
+      "policy_section": "1 INTRODUCTION",
+      "label": "Not Addressed",
+      "conflicting": true,
+      "n_sources": 5,
+      "votes": {
+        "Not Addressed": 4,
+        "Fully Addressed": 1
+      },
+      "evidence": "1 INTRODUCTION\n\nPhysical and environmental security refers to measures taken to protect an organization’s information systems, facilities, and related infrastructure from threats against the physical ..."
+    },
+    {
+      "control_id": "T2.1.1",
+      "passage_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_4",
+      "policy_name": "Physical and Environmental Security Policy",
+      "policy_section": "2 PURPOSE",
+      "label": "Fully Addressed",
+      "conflicting": false,
+      "n_sources": 1,
+      "votes": {
+        "Fully Addressed": 1
+      },
+      "evidence": "2 PURPOSE\n\nThe purpose of this Physical and Environmental Security Policy (“Policy”) is to ensure that physical access to organization’s premises is controlled, monitored and security measures are imp..."
+    },
+    {
+      "control_id": "T2.1.1",
+      "passage_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_6",
+      "policy_name": "Physical and Environmental Security Policy",
+      "policy_section": "4 POLICY STATEMENT",
+      "label": "Not Addressed",
+      "conflicting": true,
+      "n_sources": 20,
+      "votes": {
+        "Not Addressed": 19,
+        "Fully Addressed": 1
+      },
+      "evidence": "4 POLICY STATEMENT\n\n&lt;CLIENTNAME&gt; shall implement physical and environmental security measures to ensure critical or sensitive information systems are physically protected from unauthorized acces..."
+    },
+    {
+      "control_id": "T2.2.2",
+      "passage_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_8",
+      "policy_name": "Physical and Environmental Security Policy",
+      "policy_section": "5.1 Implement Physical Security Controls",
+      "label": "Fully Addressed",
+      "conflicting": true,
+      "n_sources": 11,
+      "votes": {
+        "Not Addressed": 10,
+        "Partially Addressed": 1
+      },
+      "evidence": "5.1 Implement Physical Security Controls\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Record the date, time of entry and departure of employees/contractors/visitors and others who seek access to &lt;CLIENTNAME&gt; ...",
+      "original_human_label": "Not Addressed",
+      "corrected_by": "adjudication"
+    },
+    {
+      "control_id": "T2.2.4",
+      "passage_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_9",
+      "policy_name": "Physical and Environmental Security Policy",
+      "policy_section": "5.2 Protecting Against External and Environmental Threats",
+      "label": "Partially Addressed",
+      "conflicting": false,
+      "n_sources": 11,
+      "votes": {
+        "Not Addressed": 11
+      },
+      "evidence": "5.2 Protecting Against External and Environmental Threats\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Provide adequate training to personnel responsible for responding to environmental and safety hazards.\n2. Ensur...",
+      "original_human_label": "Not Addressed",
+      "corrected_by": "adjudication"
+    },
+    {
+      "control_id": "T2.2.5",
+      "passage_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_10",
+      "policy_name": "Physical and Environmental Security Policy",
+      "policy_section": "5.3 Working in Secure Areas",
+      "label": "Partially Addressed",
+      "conflicting": true,
+      "n_sources": 9,
+      "votes": {
+        "Not Addressed": 8,
+        "Fully Addressed": 1
+      },
+      "evidence": "5.3 Working in Secure Areas\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Establish guidelines for working in secure areas.\n2. Make sure all personnel accessing secure areas are aware of and accept organization’s ru...",
+      "original_human_label": "Not Addressed",
+      "corrected_by": "adjudication"
+    },
+    {
+      "control_id": "T2.2.6",
+      "passage_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_11",
+      "policy_name": "Physical and Environmental Security Policy",
+      "policy_section": "5.4 Protect Delivery and Loading Areas",
+      "label": "Partially Addressed",
+      "conflicting": true,
+      "n_sources": 15,
+      "votes": {
+        "Not Addressed": 14,
+        "Partially Addressed": 1
+      },
+      "evidence": "5.4 Protect Delivery and Loading Areas\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Establish access procedures to loading and unloading areas to restrict access to only authorized personnel.\n2. Design the delivery...",
+      "original_human_label": "Not Addressed",
+      "corrected_by": "adjudication"
+    },
+    {
+      "control_id": "T2.3.1",
+      "passage_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_12",
+      "policy_name": "Physical and Environmental Security Policy",
+      "policy_section": "5.5 Ensure Effective Supporting Utilities",
+      "label": "Partially Addressed",
+      "conflicting": false,
+      "n_sources": 1,
+      "votes": {
+        "Partially Addressed": 1
+      },
+      "evidence": "5.5 Ensure Effective Supporting Utilities\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Ensure that each facility’s supporting utilities (e.g., electricity, telecommunications, water supply, natural gas, sewage, hea..."
+    },
+    {
+      "control_id": "T2.3.3",
+      "passage_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_13",
+      "policy_name": "Physical and Environmental Security Policy",
+      "policy_section": "5.6 Cabling Security",
+      "label": "Partially Addressed",
+      "conflicting": false,
+      "n_sources": 9,
+      "votes": {
+        "Not Addressed": 9
+      },
+      "evidence": "5.6 Cabling Security\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Ensure that power and telecommunications lines into information systems are underground wherever possible.\n2. Protect power and telecommunication li...",
+      "original_human_label": "Not Addressed",
+      "corrected_by": "adjudication"
+    },
+    {
+      "control_id": "T2.3.5",
+      "passage_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_14",
+      "policy_name": "Physical and Environmental Security Policy",
+      "policy_section": "5.7 Security of Equipment Off-Premises",
+      "label": "Partially Addressed",
+      "conflicting": false,
+      "n_sources": 7,
+      "votes": {
+        "Not Addressed": 7
+      },
+      "evidence": "5.7 Security of Equipment Off-Premises\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Establish an authorization procedure for taking information assets off-site.\n2. Ensure manufacturers' instructions for protecting ...",
+      "original_human_label": "Not Addressed",
+      "corrected_by": "adjudication"
+    },
+    {
+      "control_id": "T2.3.6",
+      "passage_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2_passage_15",
+      "policy_name": "Physical and Environmental Security Policy",
+      "policy_section": "5.8 Secure Disposal or Reuse of Equipment",
+      "label": "Partially Addressed",
+      "conflicting": true,
+      "n_sources": 5,
+      "votes": {
+        "Not Addressed": 4,
+        "Fully Addressed": 1
+      },
+      "evidence": "5.8 Secure Disposal or Reuse of Equipment\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Ensure storage media containing confidential information is physically destroyed or the information is destroyed, deleted, or o...",
+      "original_human_label": "Not Addressed",
+      "corrected_by": "adjudication"
+    },
+    {
+      "control_id": "T3.1.1",
+      "passage_id": "clientname-IS-POL-00-Security Operations Policy_passage_2",
+      "policy_name": "Security Operations Policy",
+      "policy_section": "2 INTRODUCTION",
+      "label": "Not Addressed",
+      "conflicting": true,
+      "n_sources": 3,
+      "votes": {
+        "Not Addressed": 2,
+        "Fully Addressed": 1
+      },
+      "evidence": "2 INTRODUCTION\n\nSecurity operations  to the combination of information security (IS) and IT operations to improve collaboration and reduce risks.\n\nThis Security Operations Policy (“Policy”) defines ho..."
+    },
+    {
+      "control_id": "T3.1.1",
+      "passage_id": "clientname-IS-POL-00-Security Operations Policy_passage_5",
+      "policy_name": "Security Operations Policy",
+      "policy_section": "5 POLICY STATEMENT",
+      "label": "Not Addressed",
+      "conflicting": true,
+      "n_sources": 8,
+      "votes": {
+        "Not Addressed": 7,
+        "Fully Addressed": 1
+      },
+      "evidence": "5 POLICY STATEMENT\n\nshall develop, implement, and maintain a Security Operations Policy (\"Policy\")  protection of assets through secure operational processes thereby contributing to an overall safe an..."
+    },
+    {
+      "control_id": "T3.1.1",
+      "passage_id": "clientname-IS-POL-00-Security Operations Policy_passage_7",
+      "policy_name": "Security Operations Policy",
+      "policy_section": "6.2 Controls ver System Documentation",
+      "label": "Not Addressed",
+      "conflicting": false,
+      "n_sources": 3,
+      "votes": {
+        "Not Addressed": 3
+      },
+      "evidence": "6.2 Controls ver System Documentation\n\nshall ensure that:\n\n1. System documentation is kept under safe custody.\n2. Access is restricted to only those who have a business need and are authorized.\n3. Ver..."
+    },
+    {
+      "control_id": "T3.2.1",
+      "passage_id": "clientname-IS-POL-00-Security Operations Policy_passage_10",
+      "policy_name": "Security Operations Policy",
+      "policy_section": "6.5 System Acceptance",
+      "label": "Not Addressed",
+      "conflicting": true,
+      "n_sources": 2,
+      "votes": {
+        "Not Addressed": 1,
+        "Partially Addressed": 1
+      },
+      "evidence": "6.5 System Acceptance\n\nshall ensure that:\n\n1. System acceptance tests are done in an appropriate test environment.\n2. Before moving any new system into production, it shall be tested as per the System..."
+    },
+    {
+      "control_id": "T3.2.2",
+      "passage_id": "clientname-IS-POL-00-Security Operations Policy_passage_6",
+      "policy_name": "Security Operations Policy",
+      "policy_section": "6.1 Documenting the Operating Procedures",
+      "label": "Fully Addressed",
+      "conflicting": true,
+      "n_sources": 5,
+      "votes": {
+        "Not Addressed": 3,
+        "Partially Addressed": 2
+      },
+      "evidence": "6.1 Documenting the Operating Procedures\n\nshall ensure that the:\n\n1. IT Team ensures that Operating procedures and work instructions for all information systems and standards are:\n2. Reviewed and upda...",
+      "original_human_label": "Not Addressed",
+      "corrected_by": "adjudication"
+    },
+    {
+      "control_id": "T3.2.4",
+      "passage_id": "clientname-IS-POL-00-Security Operations Policy_passage_11",
+      "policy_name": "Security Operations Policy",
+      "policy_section": "6.6 Segregation of Duties",
+      "label": "Partially Addressed",
+      "conflicting": false,
+      "n_sources": 2,
+      "votes": {
+        "Not Addressed": 2
+      },
+      "evidence": "6.6 Segregation of Duties\n\nshall:\n\n1. Adopt the principle of segregation of duties to the maximum extent possible.\n2. Include compensating controls such as monitoring of activities, maintenance and re...",
+      "original_human_label": "Not Addressed",
+      "corrected_by": "adjudication"
+    },
+    {
+      "control_id": "T3.2.5",
+      "passage_id": "clientname-IS-POL-00-Security Operations Policy_passage_8",
+      "policy_name": "Security Operations Policy",
+      "policy_section": "6.3 Separation of Development, Test and Operational Environments",
+      "label": "Partially Addressed",
+      "conflicting": true,
+      "n_sources": 6,
+      "votes": {
+        "Not Addressed": 5,
+        "Fully Addressed": 1
+      },
+      "evidence": "6.3 Separation of Development, Test and Operational Environments\n\nshall ensure that:\n\n1. Production environment shall be logically separated from test and development environments.\n2. Access to each e...",
+      "original_human_label": "Not Addressed",
+      "corrected_by": "adjudication"
+    },
+    {
+      "control_id": "T3.3.1",
+      "passage_id": "clientname-IS-POL-00-Security Operations Policy_passage_9",
+      "policy_name": "Security Operations Policy",
+      "policy_section": "6.4 Purchasing, Installation, Allocation and Management of New IT Systems",
+      "label": "Fully Addressed",
+      "conflicting": true,
+      "n_sources": 5,
+      "votes": {
+        "Not Addressed": 4,
+        "Fully Addressed": 1
+      },
+      "evidence": "6.4 Purchasing, Installation, Allocation and Management of New IT Systems\n\nshall ensure that:\n\n1. All purchases of software, IT equipment and peripherals shall follow a standard evaluation process, do...",
+      "original_human_label": "Not Addressed",
+      "corrected_by": "adjudication"
+    },
+    {
+      "control_id": "T3.6.3",
+      "passage_id": "clientname-IS-POL-00-Vulnerability Management Policy v1.2 (V_A)_passage_5",
+      "policy_name": "Vulnerability Management Policy",
+      "policy_section": "4 SCOPE",
+      "label": "Fully Addressed",
+      "conflicting": false,
+      "n_sources": 1,
+      "votes": {
+        "Fully Addressed": 1
+      },
+      "evidence": "4 SCOPE\n\nThe Policy covers all information systems owned, utilized and managed by &lt;CLIENTNAME&gt; including but not limited to:\n\n1. Information systems owned by &lt;CLIENTNAME&gt;.\n2. Hardware and ..."
+    },
+    {
+      "control_id": "T4.1.1",
+      "passage_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_4",
+      "policy_name": "Network and Communications Security Policy",
+      "policy_section": "2 PURPOSE",
+      "label": "Fully Addressed",
+      "conflicting": false,
+      "n_sources": 1,
+      "votes": {
+        "Fully Addressed": 1
+      },
+      "evidence": "2 PURPOSE\n\nThe purpose of this Network and Communications Security Policy (“Policy”) is to ensure protection of information being exchanged within the organization and outside the organization.\n\nFurth..."
+    },
+    {
+      "control_id": "T4.1.1",
+      "passage_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_6",
+      "policy_name": "Network and Communications Security Policy",
+      "policy_section": "4 POLICY STATEMENT",
+      "label": "Not Addressed",
+      "conflicting": true,
+      "n_sources": 22,
+      "votes": {
+        "Not Addressed": 21,
+        "Fully Addressed": 1
+      },
+      "evidence": "4 POLICY STATEMENT\n\n&lt;CLIENTNAME&gt; shall ensure the protection of information transferred within the organization as well as information transferred with any external entity. Additionally, &lt;CLI..."
+    },
+    {
+      "control_id": "T4.2.1",
+      "passage_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_11",
+      "policy_name": "Network and Communications Security Policy",
+      "policy_section": "5.5 Information Transfer Security Procedures",
+      "label": "Fully Addressed",
+      "conflicting": true,
+      "n_sources": 14,
+      "votes": {
+        "Not Addressed": 13,
+        "Fully Addressed": 1
+      },
+      "evidence": "5.5 Information Transfer Security Procedures\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Establish information transfer security procedures.\n2. Ensure that the information transfer security procedure at a minimum,...",
+      "original_human_label": "Not Addressed",
+      "corrected_by": "adjudication"
+    },
+    {
+      "control_id": "T4.2.2",
+      "passage_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_12",
+      "policy_name": "Network and Communications Security Policy",
+      "policy_section": "5.6 Agreements on Information Transfer",
+      "label": "Partially Addressed",
+      "conflicting": true,
+      "n_sources": 12,
+      "votes": {
+        "Not Addressed": 11,
+        "Fully Addressed": 1
+      },
+      "evidence": "5.6 Agreements on Information Transfer\n\n1. Use cases and appropriate security controls to be put in place ensures information is adequately protected during transfer.\n\n3. Protect transferred informati...",
+      "original_human_label": "Not Addressed",
+      "corrected_by": "adjudication"
+    },
+    {
+      "control_id": "T4.2.3",
+      "passage_id": "clientname-IS-POL-00-Asset Management Policy 6_passage_13",
+      "policy_name": "Asset Management Policy",
+      "policy_section": "5.7 Physical Media Transfer",
+      "label": "Fully Addressed",
+      "conflicting": false,
+      "n_sources": 6,
+      "votes": {
+        "Not Addressed": 6
+      },
+      "evidence": "5.7 Physical Media Transfer\n\n&lt;CLIENT&gt; shall:\n\n1. Utilize reliable transport or couriers for transportation of physical media between sites.\n2. Develop a list of authorized couriers that are appr...",
+      "original_human_label": "Not Addressed",
+      "corrected_by": "adjudication"
+    },
+    {
+      "control_id": "T4.2.3",
+      "passage_id": "clientname-IS-POL-00-Asset Management Policy_passage_13",
+      "policy_name": "Asset Management Policy",
+      "policy_section": "5.7 Physical Media Transfer",
+      "label": "Fully Addressed",
+      "conflicting": true,
+      "n_sources": 4,
+      "votes": {
+        "Not Addressed": 3,
+        "Fully Addressed": 1
+      },
+      "evidence": "5.7 Physical Media Transfer\n\n&lt;CLIENT&gt; shall:\n\n1. Utilize reliable transport or couriers for transportation of physical media between sites.\n2. Develop a list of authorized couriers that are appr...",
+      "original_human_label": "Not Addressed",
+      "corrected_by": "adjudication"
+    },
+    {
+      "control_id": "T4.2.4",
+      "passage_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_13",
+      "policy_name": "Network and Communications Security Policy",
+      "policy_section": "5.7 Electronic Messaging",
+      "label": "Partially Addressed",
+      "conflicting": false,
+      "n_sources": 7,
+      "votes": {
+        "Not Addressed": 7
+      },
+      "evidence": "5.7 Electronic Messaging\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Identify all means of electronic messaging for transmitted information assets.\n2. Include the following security considerations at a minimum, fo...",
+      "original_human_label": "Not Addressed",
+      "corrected_by": "adjudication"
+    },
+    {
+      "control_id": "T4.4.2",
+      "passage_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_15",
+      "policy_name": "Network and Communications Security Policy",
+      "policy_section": "5.9 Information Released into Information Sharing Communities",
+      "label": "Partially Addressed",
+      "conflicting": false,
+      "n_sources": 9,
+      "votes": {
+        "Not Addressed": 9
+      },
+      "evidence": "5.9 Information Released into Information Sharing Communities\n\n&lt;CLIENTNAME&gt; shall:\n\n1. As applicable, ensure that all the information released into information sharing communities have valid jus...",
+      "original_human_label": "Not Addressed",
+      "corrected_by": "adjudication"
+    },
+    {
+      "control_id": "T4.5.1",
+      "passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_6",
+      "policy_name": "Information Security Incident Management Policy",
+      "policy_section": "4 POLICY STATEMENT",
+      "label": "Not Addressed",
+      "conflicting": false,
+      "n_sources": 1,
+      "votes": {
+        "Not Addressed": 1
+      },
+      "evidence": "4 POLICY STATEMENT\n\n&lt;CLIENT&gt; shall develop, implement, and maintain an incident management program where personnel shall report information security events and weaknesses, collect, and analyze e..."
+    },
+    {
+      "control_id": "T4.5.1",
+      "passage_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_7",
+      "policy_name": "Network and Communications Security Policy",
+      "policy_section": "5.1 Network Controls",
+      "label": "Partially Addressed",
+      "conflicting": false,
+      "n_sources": 2,
+      "votes": {
+        "Not Addressed": 2
+      },
+      "evidence": "5.1 Network Controls\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Establish the network and communications design based on the following minimum requirements:\n2. Risk assessment of threats and vulnerabilities to/of...",
+      "original_human_label": "Not Addressed",
+      "corrected_by": "adjudication"
+    },
+    {
+      "control_id": "T4.5.2",
+      "passage_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_8",
+      "policy_name": "Network and Communications Security Policy",
+      "policy_section": "5.2 Security of Network Services",
+      "label": "Partially Addressed",
+      "conflicting": true,
+      "n_sources": 7,
+      "votes": {
+        "Not Addressed": 6,
+        "Fully Addressed": 1
+      },
+      "evidence": "5.2 Security of Network Services\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Identify and implement the security arrangements necessary for security features, service levels, and management requirements.\n2. Determ...",
+      "original_human_label": "Not Addressed",
+      "corrected_by": "adjudication"
+    },
+    {
+      "control_id": "T4.5.3",
+      "passage_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_9",
+      "policy_name": "Network and Communications Security Policy",
+      "policy_section": "5.3 Segregation in Networks",
+      "label": "Partially Addressed",
+      "conflicting": false,
+      "n_sources": 10,
+      "votes": {
+        "Not Addressed": 10
+      },
+      "evidence": "5.3 Segregation in Networks\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Manage security of large networks within the organization by segregating them into separate network zones.\n2. Segregate networks considering ...",
+      "original_human_label": "Not Addressed",
+      "corrected_by": "adjudication"
+    },
+    {
+      "control_id": "T4.5.4",
+      "passage_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_10",
+      "policy_name": "Network and Communications Security Policy",
+      "policy_section": "5.4 Security of Wireless Networks",
+      "label": "Partially Addressed",
+      "conflicting": true,
+      "n_sources": 7,
+      "votes": {
+        "Not Addressed": 6,
+        "Fully Addressed": 1
+      },
+      "evidence": "5.4 Security of Wireless Networks\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Perform a risk assessment for wireless networks to identify security controls (e.g., strong authentication, cryptographic methods, and ...",
+      "original_human_label": "Not Addressed",
+      "corrected_by": "adjudication"
+    },
+    {
+      "control_id": "T5.1.1",
+      "passage_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_3",
+      "policy_name": "Access Control Policy - CPX policy is reference",
+      "policy_section": "4 INTRODUCTION",
+      "label": "Not Addressed",
+      "conflicting": false,
+      "n_sources": 2,
+      "votes": {
+        "Not Addressed": 2
+      },
+      "evidence": "4 INTRODUCTION\n\nUAE Public Prosecution has defined access controls across its networks, information assets, Information Technology (IT) systems and services to provide authorized, granular, auditable,..."
+    },
+    {
+      "control_id": "T5.1.1",
+      "passage_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_4",
+      "policy_name": "Access Control Policy - CPX policy is reference",
+      "policy_section": "5 PURPOSE",
+      "label": "Not Addressed",
+      "conflicting": false,
+      "n_sources": 1,
+      "votes": {
+        "Not Addressed": 1
+      },
+      "evidence": "5 PURPOSE\n\nThe purpose of this Access Control Policy is to ensure that access is controlled at the user, application, network, and operating system level as well as for mobile computing.\n\nFurther, thi..."
+    },
+    {
+      "control_id": "T5.1.1",
+      "passage_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_5",
+      "policy_name": "Access Control Policy - CPX policy is reference",
+      "policy_section": "6 SCOPE",
+      "label": "Not Addressed",
+      "conflicting": false,
+      "n_sources": 1,
+      "votes": {
+        "Not Addressed": 1
+      },
+      "evidence": "6 SCOPE\n\nThis Policy applies to all employees, contractors and third parties who access or manage information and information assets or use the organization's information and communications technology..."
+    },
+    {
+      "control_id": "T5.1.1",
+      "passage_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_7",
+      "policy_name": "Access Control Policy - CPX policy is reference",
+      "policy_section": "8.1 Access Control",
+      "label": "Not Addressed",
+      "conflicting": false,
+      "n_sources": 1,
+      "votes": {
+        "Not Addressed": 1
+      },
+      "evidence": "8.1 Access Control\n\nUAE Public Prosecution shall:\n\n1. Ensure that asset owners determine appropriate access rules, privileges, and restrictions for specific user roles towards their assets.\n2. Ensure ..."
+    },
+    {
+      "control_id": "T5.2.1",
+      "passage_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_10",
+      "policy_name": "Access Control Policy - CPX policy is reference",
+      "policy_section": "8.4 User Registration and De-Registration",
+      "label": "Fully Addressed",
+      "conflicting": false,
+      "n_sources": 1,
+      "votes": {
+        "Fully Addressed": 1
+      },
+      "evidence": "8.4 User Registration and De-Registration\n\nUAE Public Prosecution shall:\n\n2. The use of shared IDs is prohibited by default, unless there is a valid business justification which is approved by UAEPP’s..."
+    },
+    {
+      "control_id": "T5.2.1",
+      "passage_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_6",
+      "policy_name": "Access Control Policy - CPX policy is reference",
+      "policy_section": "7 POLICY STATEMENT",
+      "label": "Not Addressed",
+      "conflicting": true,
+      "n_sources": 19,
+      "votes": {
+        "Not Addressed": 18,
+        "Partially Addressed": 1
+      },
+      "evidence": "7 POLICY STATEMENT\n\nThe organization shall develop, implement, and maintain an organization wide access control framework to:\n\n- Control access to information and information assets.\n- Manage registra..."
+    },
+    {
+      "control_id": "T5.2.2",
+      "passage_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_12",
+      "policy_name": "Access Control Policy - CPX policy is reference",
+      "policy_section": "8.6 Management of Privileged Access Rights",
+      "label": "Fully Addressed",
+      "conflicting": false,
+      "n_sources": 1,
+      "votes": {
+        "Fully Addressed": 1
+      },
+      "evidence": "8.6 Management of Privileged Access Rights\n\nUAE Public Prosecution shall:\n\n2. Consider the following steps, at a minimum, for managing privileged access rights:\n2. Privileged and service account acces..."
+    },
+    {
+      "control_id": "T5.2.3",
+      "passage_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_14",
+      "policy_name": "Access Control Policy - CPX policy is reference",
+      "policy_section": "8.8 User Security Credentials Management",
+      "label": "Partially Addressed",
+      "conflicting": true,
+      "n_sources": 3,
+      "votes": {
+        "Fully Addressed": 1,
+        "Not Addressed": 2
+      },
+      "evidence": "8.8 User Security Credentials Management\n\nUAE Public Prosecution shall:\n\n2. Configure information assets to implement prescribed controls on access management.\n3. Establish user access and secure cred...",
+      "original_human_label": "Not Addressed",
+      "corrected_by": "adjudication"
+    },
+    {
+      "control_id": "T5.2.3",
+      "passage_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_15",
+      "policy_name": "Access Control Policy - CPX policy is reference",
+      "policy_section": "8.9 Use of Security Credentials &amp; UAEPP Password Policy",
+      "label": "Partially Addressed",
+      "conflicting": true,
+      "n_sources": 2,
+      "votes": {
+        "Partially Addressed": 1,
+        "Not Addressed": 1
+      },
+      "evidence": "8.9 Use of Security Credentials &amp; UAEPP Password Policy\n\n1. Ensure that the users are required to sign a statement to keep security credentials confidential.\n\nUAE Public Prosecution shall:\n\n2. Pas...",
+      "original_human_label": "Not Addressed",
+      "corrected_by": "adjudication"
+    },
+    {
+      "control_id": "T5.2.4",
+      "passage_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_13",
+      "policy_name": "Access Control Policy - CPX policy is reference",
+      "policy_section": "8.7 Review of User Access Rights",
+      "label": "Partially Addressed",
+      "conflicting": false,
+      "n_sources": 1,
+      "votes": {
+        "Not Addressed": 1
+      },
+      "evidence": "8.7 Review of User Access Rights\n\nUAE Public Prosecution shall:\n\n2. Review authorizations for privileged access rights at more frequent intervals.\n3. Restrict such privileges upon detection of any mis...",
+      "original_human_label": "Not Addressed",
+      "corrected_by": "adjudication"
+    },
+    {
+      "control_id": "T5.4.1",
+      "passage_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_8",
+      "policy_name": "Access Control Policy - CPX policy is reference",
+      "policy_section": "8.2 Access to Network and Network Shares",
+      "label": "Partially Addressed",
+      "conflicting": false,
+      "n_sources": 2,
+      "votes": {
+        "Not Addressed": 2
+      },
+      "evidence": "8.2 Access to Network and Network Shares\n\nUAE Public Prosecution shall:\n\n1. Formulate a procedure to address security concerns in the use of network connections and network services including wireless...",
+      "original_human_label": "Not Addressed",
+      "corrected_by": "adjudication"
+    },
+    {
+      "control_id": "T5.4.7",
+      "passage_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_9",
+      "policy_name": "Access Control Policy - CPX policy is reference",
+      "policy_section": "8.3 Wireless Access",
+      "label": "Partially Addressed",
+      "conflicting": false,
+      "n_sources": 4,
+      "votes": {
+        "Not Addressed": 4
+      },
+      "evidence": "8.3 Wireless Access\n\nUAE Public Prosecution shall:\n\n1. Utilize authentication protocols which provide credential protection and mutual authentication for wireless networks.\n2. Ensure the selection of ...",
+      "original_human_label": "Not Addressed",
+      "corrected_by": "adjudication"
+    },
+    {
+      "control_id": "T5.5.1",
+      "passage_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_16",
+      "policy_name": "Access Control Policy - CPX policy is reference",
+      "policy_section": "8.10 Secure Log-on",
+      "label": "Partially Addressed",
+      "conflicting": true,
+      "n_sources": 5,
+      "votes": {
+        "Not Addressed": 4,
+        "Fully Addressed": 1
+      },
+      "evidence": "8.10 Secure Log-on\n\n4. Login into operating systems shall be based on a formal secure logon procedure.\n5. All systems shall display a general notice warning message that access to UAEPP's systems is g...",
+      "original_human_label": "Not Addressed",
+      "corrected_by": "adjudication"
+    },
+    {
+      "control_id": "T5.5.4",
+      "passage_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_17",
+      "policy_name": "Access Control Policy - CPX policy is reference",
+      "policy_section": "8.11 Use of Privileged Utility Programs",
+      "label": "Not Addressed",
+      "conflicting": false,
+      "n_sources": 4,
+      "votes": {
+        "Not Addressed": 4
+      },
+      "evidence": "8.11 Use of Privileged Utility Programs\n\n10. System utilities shall be restricted from all users unless approved by CISO/ IS Team.\n11. All access to system utilities shall be logged and reviewed by UA..."
+    },
+    {
+      "control_id": "T5.6.3",
+      "passage_id": "clientname-IS-POL-00-Access Control Policy - CPX policy is reference 4_passage_18",
+      "policy_name": "Access Control Policy - CPX policy is reference",
+      "policy_section": "8.12 Publicly Accessible Content",
+      "label": "Fully Addressed",
+      "conflicting": true,
+      "n_sources": 4,
+      "votes": {
+        "Not Addressed": 3,
+        "Fully Addressed": 1
+      },
+      "evidence": "8.12 Publicly Accessible Content\n\nUAE Public Prosecution shall:\n\n2. Designate individuals who are authorized to review and post information onto a publicly accessible information system.\n3. Provide tr...",
+      "original_human_label": "Not Addressed",
+      "corrected_by": "adjudication"
+    },
+    {
+      "control_id": "T6.1",
+      "passage_id": "clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping_passage_10",
+      "policy_name": "Third-Party Security Policy",
+      "policy_section": "8 ROLES AND RESPONSIBILITIES",
+      "label": "Not Addressed",
+      "conflicting": false,
+      "n_sources": 1,
+      "votes": {
+        "Not Addressed": 1
+      },
+      "evidence": "8 ROLES AND RESPONSIBILITIES\n\nExecutive &amp; Senior Management\n\n1. Make available and support the required resources to drive protection of supplier security risks.\n2. Where relevant, provide directi..."
+    },
+    {
+      "control_id": "T6.1.1",
+      "passage_id": "clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping_passage_10",
+      "policy_name": "Third-Party Security Policy",
+      "policy_section": "8 ROLES AND RESPONSIBILITIES",
+      "label": "Not Addressed",
+      "conflicting": false,
+      "n_sources": 2,
+      "votes": {
+        "Not Addressed": 2
+      },
+      "evidence": "8 ROLES AND RESPONSIBILITIES\n\nExecutive &amp; Senior Management\n\n1. Make available and support the required resources to drive protection of supplier security risks.\n2. Where relevant, provide directi..."
+    },
+    {
+      "control_id": "T6.1.1",
+      "passage_id": "clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping_passage_3",
+      "policy_name": "Third-Party Security Policy",
+      "policy_section": "3 INTRODUCTION",
+      "label": "Not Addressed",
+      "conflicting": false,
+      "n_sources": 2,
+      "votes": {
+        "Not Addressed": 2
+      },
+      "evidence": "3 INTRODUCTION\n\n&lt;&lt;CLIENT&gt;&gt; and its core business exists in a wider economic environment in which effective relationships with third party suppliers is critical to its continued success. Th..."
+    },
+    {
+      "control_id": "T6.1.1",
+      "passage_id": "clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping_passage_4",
+      "policy_name": "Third-Party Security Policy",
+      "policy_section": "4 PURPOSE",
+      "label": "Not Addressed",
+      "conflicting": false,
+      "n_sources": 2,
+      "votes": {
+        "Not Addressed": 2
+      },
+      "evidence": "4 PURPOSE\n\nThe purpose of this Third-party Security Policy (“Policy”) is to ensure that external stakeholders are compliant with the organization’s security requirements. This Policy defines a framewo..."
+    },
+    {
+      "control_id": "T6.1.1",
+      "passage_id": "clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping_passage_6",
+      "policy_name": "Third-Party Security Policy",
+      "policy_section": "6 POLICY STATEMENT",
+      "label": "Not Addressed",
+      "conflicting": false,
+      "n_sources": 17,
+      "votes": {
+        "Not Addressed": 17
+      },
+      "evidence": "6 POLICY STATEMENT\n\n&lt;&lt;CLIENT&gt;&gt; shall ensure that all third parties comply with this Policy's information security requirements while providing services that could impact the confidentialit..."
+    },
+    {
+      "control_id": "T6.2.1",
+      "passage_id": "clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping_passage_4",
+      "policy_name": "Third-Party Security Policy",
+      "policy_section": "4 PURPOSE",
+      "label": "Partially Addressed",
+      "conflicting": false,
+      "n_sources": 1,
+      "votes": {
+        "Partially Addressed": 1
+      },
+      "evidence": "4 PURPOSE\n\nThe purpose of this Third-party Security Policy (“Policy”) is to ensure that external stakeholders are compliant with the organization’s security requirements. This Policy defines a framewo..."
+    },
+    {
+      "control_id": "T6.2.2",
+      "passage_id": "clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping_passage_7",
+      "policy_name": "Third-Party Security Policy",
+      "policy_section": "7.1 Third-Party Security Approach",
+      "label": "Partially Addressed",
+      "conflicting": true,
+      "n_sources": 16,
+      "votes": {
+        "Not Addressed": 15,
+        "Partially Addressed": 1
+      },
+      "evidence": "7.1 Third-Party Security Approach\n\n&lt;&lt;CLIENT&gt;&gt; shall:\n\n1. Identify, mandate, and monitor information security and data protection controls processes and procedures to address third-party ac...",
+      "original_human_label": "Not Addressed",
+      "corrected_by": "adjudication"
+    },
+    {
+      "control_id": "T6.2.2",
+      "passage_id": "clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping_passage_8",
+      "policy_name": "Third-Party Security Policy",
+      "policy_section": "7.2 Addressing Security and Data Protection Requirements with Third-party Agreements",
+      "label": "Partially Addressed",
+      "conflicting": true,
+      "n_sources": 9,
+      "votes": {
+        "Not Addressed": 8,
+        "Partially Addressed": 1
+      },
+      "evidence": "7.2 Addressing Security and Data Protection Requirements with Third-party Agreements\n\n&lt;&lt;CLIENT&gt;&gt; shall:\n\n1. Use only third-party service providers providing sufficient guarantees to implem...",
+      "original_human_label": "Not Addressed",
+      "corrected_by": "adjudication"
+    },
+    {
+      "control_id": "T6.2.2",
+      "passage_id": "clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping_passage_9",
+      "policy_name": "Third-Party Security Policy",
+      "policy_section": "7.3 Managing Changes to Third-party Services",
+      "label": "Not Addressed",
+      "conflicting": true,
+      "n_sources": 8,
+      "votes": {
+        "Not Addressed": 7,
+        "Partially Addressed": 1
+      },
+      "evidence": "7.3 Managing Changes to Third-party Services\n\n&lt;&lt;CLIENT&gt;&gt; shall consider the following aspects for information security and data protection review when managing changes to third-party servi..."
+    },
+    {
+      "control_id": "T6.2.3",
+      "passage_id": "clientname-IS-POL-00-Third-Party Security Policy v2.0 UAE IA Mapping_passage_7",
+      "policy_name": "Third-Party Security Policy",
+      "policy_section": "7.1 Third-Party Security Approach",
+      "label": "Not Addressed",
+      "conflicting": false,
+      "n_sources": 1,
+      "votes": {
+        "Partially Addressed": 1
+      },
+      "evidence": "7.1 Third-Party Security Approach\n\n&lt;&lt;CLIENT&gt;&gt; shall:\n\n1. Identify, mandate, and monitor information security and data protection controls processes and procedures to address third-party ac...",
+      "original_human_label": "Partially Addressed",
+      "corrected_by": "adjudication"
+    },
+    {
+      "control_id": "T7.1.1",
+      "passage_id": "clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2_passage_3",
+      "policy_name": "Information Systems Acquisition Development and Maintenance Policy",
+      "policy_section": "1 INTRODUCTION",
+      "label": "Not Addressed",
+      "conflicting": true,
+      "n_sources": 10,
+      "votes": {
+        "Not Addressed": 9,
+        "Fully Addressed": 1
+      },
+      "evidence": "1 INTRODUCTION\n\nThis Information Systems Acquisition, Development and Maintenance Policy outlines the framework for implementing appropriate security controls to ensure that day-to-day acquisition, de..."
+    },
+    {
+      "control_id": "T7.1.1",
+      "passage_id": "clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2_passage_4",
+      "policy_name": "Information Systems Acquisition Development and Maintenance Policy",
+      "policy_section": "2 PURPOSE",
+      "label": "Not Addressed",
+      "conflicting": true,
+      "n_sources": 3,
+      "votes": {
+        "Partially Addressed": 1,
+        "Not Addressed": 2
+      },
+      "evidence": "2 PURPOSE\n\nThe purpose of this Information Systems Acquisition, Development and Maintenance Policy (“Policy”) is to define a framework for the Information System Acquisition, Development, and Maintena..."
+    },
+    {
+      "control_id": "T7.1.1",
+      "passage_id": "clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2_passage_6",
+      "policy_name": "Information Systems Acquisition Development and Maintenance Policy",
+      "policy_section": "4 POLICY STATEMENT",
+      "label": "Not Addressed",
+      "conflicting": true,
+      "n_sources": 37,
+      "votes": {
+        "Not Addressed": 35,
+        "Partially Addressed": 1,
+        "Fully Addressed": 1
+      },
+      "evidence": "4 POLICY STATEMENT\n\n&lt;CLIENT&gt; shall develop, implement, and maintain Information Systems Acquisition, Development and Maintenance Procedure to:\n\n1. Provide strategies, tools, and techniques to pr..."
+    },
+    {
+      "control_id": "T7.1.1",
+      "passage_id": "clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2_passage_7",
+      "policy_name": "Information Systems Acquisition Development and Maintenance Policy",
+      "policy_section": "5 POLICY DETAILS",
+      "label": "Not Addressed",
+      "conflicting": false,
+      "n_sources": 11,
+      "votes": {
+        "Not Addressed": 11
+      },
+      "evidence": "5 POLICY DETAILS\n\n5. **Information Security Requirements Analysis and Specification**\n\n&lt;CLIENT&gt; shall:\n\n1. Identify, document and review information security (IS) requirements using various meth..."
+    },
+    {
+      "control_id": "T7.2.1",
+      "passage_id": "clientname-IS-POL-00-Information Systems Acquisition Development and Maintenance Policy 2_passage_6",
+      "policy_name": "Information Systems Acquisition Development and Maintenance Policy",
+      "policy_section": "4 POLICY STATEMENT",
+      "label": "Not Addressed",
+      "conflicting": false,
+      "n_sources": 1,
+      "votes": {
+        "Not Addressed": 1
+      },
+      "evidence": "4 POLICY STATEMENT\n\n&lt;CLIENT&gt; shall develop, implement, and maintain Information Systems Acquisition, Development and Maintenance Procedure to:\n\n1. Provide strategies, tools, and techniques to pr..."
+    },
+    {
+      "control_id": "T7.7.1",
+      "passage_id": "clientname-IS-POL-00-Vulnerability Management Policy v1.2 (V_A)_passage_7",
+      "policy_name": "Vulnerability Management Policy",
+      "policy_section": "6.1 Vulnerability Management",
+      "label": "Partially Addressed",
+      "conflicting": false,
+      "n_sources": 1,
+      "votes": {
+        "Not Addressed": 1
+      },
+      "evidence": "6.1 Vulnerability Management\n\n&lt;CLIENTNAME&gt; shall:\n\n1. Conduct annual vulnerability assessments and penetration testing and quarterly internal vulnerability assessments scans on information syste...",
+      "original_human_label": "Not Addressed",
+      "corrected_by": "adjudication"
+    },
+    {
+      "control_id": "T8.1.1",
+      "passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 2_passage_18",
+      "policy_name": "Information Security Incident Management Policy",
+      "policy_section": "8 MONITORING AND REVIEW",
+      "label": "Not Addressed",
+      "conflicting": false,
+      "n_sources": 1,
+      "votes": {
+        "Not Addressed": 1
+      },
+      "evidence": "8 MONITORING AND REVIEW\n\nThis Policy is developed and owned by the &lt;CLIENT&gt; Information Security (IS) Team. It is reviewed by the CISO and approved by the CEO.\n\n&lt;CLIENT&gt; IS Team will initi..."
+    },
+    {
+      "control_id": "T8.1.1",
+      "passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 2_passage_3",
+      "policy_name": "Information Security Incident Management Policy",
+      "policy_section": "1 INTRODUCTION",
+      "label": "Fully Addressed",
+      "conflicting": false,
+      "n_sources": 1,
+      "votes": {
+        "Fully Addressed": 1
+      },
+      "evidence": "1 INTRODUCTION\n\nThe Information Security Incident Management Policy outlines the overall framework for managing security incidents within the organization. It establishes roles and responsibilities fo..."
+    },
+    {
+      "control_id": "T8.1.1",
+      "passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 2_passage_4",
+      "policy_name": "Information Security Incident Management Policy",
+      "policy_section": "2 PURPOSE",
+      "label": "Not Addressed",
+      "conflicting": false,
+      "n_sources": 3,
+      "votes": {
+        "Not Addressed": 3
+      },
+      "evidence": "2 PURPOSE\n\nThe purpose of this Information Security Incident Management Policy (“Policy”) is to ensure that information security incidents within the organization are communicated in a manner which al..."
+    },
+    {
+      "control_id": "T8.1.1",
+      "passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 2_passage_5",
+      "policy_name": "Information Security Incident Management Policy",
+      "policy_section": "3 SCOPE",
+      "label": "Not Addressed",
+      "conflicting": false,
+      "n_sources": 2,
+      "votes": {
+        "Not Addressed": 2
+      },
+      "evidence": "3 SCOPE\n\n**This Policy applies to anybody involved in the security Incident management and/or response including but not limited to employees and critical third parties who access or manage informatio..."
+    },
+    {
+      "control_id": "T8.1.1",
+      "passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 2_passage_6",
+      "policy_name": "Information Security Incident Management Policy",
+      "policy_section": "4 POLICY STATEMENT",
+      "label": "Not Addressed",
+      "conflicting": false,
+      "n_sources": 1,
+      "votes": {
+        "Not Addressed": 1
+      },
+      "evidence": "4 POLICY STATEMENT\n\n&lt;CLIENT&gt; shall develop, implement, and maintain an incident management program where personnel shall report information security events and weaknesses, collect, and analyze e..."
+    },
+    {
+      "control_id": "T8.1.1",
+      "passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_18",
+      "policy_name": "Information Security Incident Management Policy",
+      "policy_section": "8 MONITORING AND REVIEW",
+      "label": "Not Addressed",
+      "conflicting": false,
+      "n_sources": 1,
+      "votes": {
+        "Not Addressed": 1
+      },
+      "evidence": "8 MONITORING AND REVIEW\n\nThis Policy is developed and owned by the &lt;CLIENT&gt; Information Security (IS) Team. It is reviewed by the CISO and approved by the CEO.\n\n&lt;CLIENT&gt; IS Team will initi..."
+    },
+    {
+      "control_id": "T8.1.1",
+      "passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_3",
+      "policy_name": "Information Security Incident Management Policy",
+      "policy_section": "1 INTRODUCTION",
+      "label": "Fully Addressed",
+      "conflicting": false,
+      "n_sources": 1,
+      "votes": {
+        "Fully Addressed": 1
+      },
+      "evidence": "1 INTRODUCTION\n\nThe Information Security Incident Management Policy outlines the overall framework for managing security incidents within the organization. It establishes roles and responsibilities fo..."
+    },
+    {
+      "control_id": "T8.1.1",
+      "passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_4",
+      "policy_name": "Information Security Incident Management Policy",
+      "policy_section": "2 PURPOSE",
+      "label": "Not Addressed",
+      "conflicting": false,
+      "n_sources": 1,
+      "votes": {
+        "Not Addressed": 1
+      },
+      "evidence": "2 PURPOSE\n\nThe purpose of this Information Security Incident Management Policy (“Policy”) is to ensure that information security incidents within the organization are communicated in a manner which al..."
+    },
+    {
+      "control_id": "T8.1.1",
+      "passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_5",
+      "policy_name": "Information Security Incident Management Policy",
+      "policy_section": "3 SCOPE",
+      "label": "Not Addressed",
+      "conflicting": false,
+      "n_sources": 2,
+      "votes": {
+        "Not Addressed": 2
+      },
+      "evidence": "3 SCOPE\n\n**This Policy applies to anybody involved in the security Incident management and/or response including but not limited to employees and critical third parties who access or manage informatio..."
+    },
+    {
+      "control_id": "T8.2.1",
+      "passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 2_passage_6",
+      "policy_name": "Information Security Incident Management Policy",
+      "policy_section": "4 POLICY STATEMENT",
+      "label": "Not Addressed",
+      "conflicting": false,
+      "n_sources": 17,
+      "votes": {
+        "Not Addressed": 17
+      },
+      "evidence": "4 POLICY STATEMENT\n\n&lt;CLIENT&gt; shall develop, implement, and maintain an incident management program where personnel shall report information security events and weaknesses, collect, and analyze e..."
+    },
+    {
+      "control_id": "T8.2.1",
+      "passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_6",
+      "policy_name": "Information Security Incident Management Policy",
+      "policy_section": "4 POLICY STATEMENT",
+      "label": "Not Addressed",
+      "conflicting": true,
+      "n_sources": 13,
+      "votes": {
+        "Not Addressed": 12,
+        "Partially Addressed": 1
+      },
+      "evidence": "4 POLICY STATEMENT\n\n&lt;CLIENT&gt; shall develop, implement, and maintain an incident management program where personnel shall report information security events and weaknesses, collect, and analyze e..."
+    },
+    {
+      "control_id": "T8.2.2",
+      "passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 2_passage_7",
+      "policy_name": "Information Security Incident Management Policy",
+      "policy_section": "5.1 Computer Security Incident Response Team (CSIRT)",
+      "label": "Partially Addressed",
+      "conflicting": false,
+      "n_sources": 1,
+      "votes": {
+        "Not Addressed": 1
+      },
+      "evidence": "5.1 Computer Security Incident Response Team (CSIRT)\n\n&lt;CLIENT&gt; shall:\n\n1. Identify personnel to form the proper CSIRT.\n2. Establish the CSIRT before developing the incident response plan. Ensure...",
+      "original_human_label": "Not Addressed",
+      "corrected_by": "adjudication"
+    },
+    {
+      "control_id": "T8.2.3",
+      "passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 2_passage_9",
+      "policy_name": "Information Security Incident Management Policy",
+      "policy_section": "5.3 Incident Classification",
+      "label": "Partially Addressed",
+      "conflicting": true,
+      "n_sources": 5,
+      "votes": {
+        "Not Addressed": 4,
+        "Fully Addressed": 1
+      },
+      "evidence": "5.3 Incident Classification\n\nThe CSIRT shall:\n\n1. Define, classify, and prioritise incidents to help identify the impact and scope of the incident.\n2. Establish an incident classification scheme in li...",
+      "original_human_label": "Not Addressed",
+      "corrected_by": "adjudication"
+    },
+    {
+      "control_id": "T8.2.3",
+      "passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_9",
+      "policy_name": "Information Security Incident Management Policy",
+      "policy_section": "5.3 Incident Classification",
+      "label": "Partially Addressed",
+      "conflicting": true,
+      "n_sources": 6,
+      "votes": {
+        "Not Addressed": 5,
+        "Fully Addressed": 1
+      },
+      "evidence": "5.3 Incident Classification\n\nThe CSIRT shall:\n\n1. Define, classify, and prioritise incidents to help identify the impact and scope of the incident.\n2. Establish an incident classification scheme in li...",
+      "original_human_label": "Not Addressed",
+      "corrected_by": "adjudication"
+    },
+    {
+      "control_id": "T8.2.5",
+      "passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 2_passage_10",
+      "policy_name": "Information Security Incident Management Policy",
+      "policy_section": "5.4 Incident Response Training",
+      "label": "Not Addressed",
+      "conflicting": false,
+      "n_sources": 2,
+      "votes": {
+        "Not Addressed": 2
+      },
+      "evidence": "5.4 Incident Response Training\n\nThe CSIRT shall:\n\n1. Ensure that the incident response training provided by the organisation is linked to assigned roles and responsibilities of respective personnel to..."
+    },
+    {
+      "control_id": "T8.2.5",
+      "passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 2_passage_11",
+      "policy_name": "Information Security Incident Management Policy",
+      "policy_section": "5.5 Incident Response Testing",
+      "label": "Partially Addressed",
+      "conflicting": false,
+      "n_sources": 1,
+      "votes": {
+        "Not Addressed": 1
+      },
+      "evidence": "5.5 Incident Response Testing\n\nThe CSIRT in coordination with other appropriate teams shall:\n\n1. Develop incident response testing procedures to:\n2. Identify potential weaknesses or deficiencies.\n3. U...",
+      "original_human_label": "Not Addressed",
+      "corrected_by": "adjudication"
+    },
+    {
+      "control_id": "T8.2.5",
+      "passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 2_passage_8",
+      "policy_name": "Information Security Incident Management Policy",
+      "policy_section": "5.2 Incident Response Plan",
+      "label": "Not Addressed",
+      "conflicting": false,
+      "n_sources": 4,
+      "votes": {
+        "Not Addressed": 4
+      },
+      "evidence": "5.2 Incident Response Plan\n\nThe CSIRT shall:\n\n1. Develop, implement, and maintain an incident response plan that includes the following, at a minimum:\n2. A process to define reportable incidents and m..."
+    },
+    {
+      "control_id": "T8.2.5",
+      "passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_10",
+      "policy_name": "Information Security Incident Management Policy",
+      "policy_section": "5.4 Incident Response Training",
+      "label": "Not Addressed",
+      "conflicting": false,
+      "n_sources": 2,
+      "votes": {
+        "Not Addressed": 2
+      },
+      "evidence": "5.4 Incident Response Training\n\nThe CSIRT shall:\n\n1. Ensure that the incident response training provided by the organisation is linked to assigned roles and responsibilities of respective personnel to..."
+    },
+    {
+      "control_id": "T8.2.5",
+      "passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_11",
+      "policy_name": "Information Security Incident Management Policy",
+      "policy_section": "5.5 Incident Response Testing",
+      "label": "Partially Addressed",
+      "conflicting": false,
+      "n_sources": 1,
+      "votes": {
+        "Not Addressed": 1
+      },
+      "evidence": "5.5 Incident Response Testing\n\nThe CSIRT in coordination with other appropriate teams shall:\n\n1. Develop incident response testing procedures to:\n2. Identify potential weaknesses or deficiencies.\n3. U...",
+      "original_human_label": "Not Addressed",
+      "corrected_by": "adjudication"
+    },
+    {
+      "control_id": "T8.2.5",
+      "passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_8",
+      "policy_name": "Information Security Incident Management Policy",
+      "policy_section": "5.2 Incident Response Plan",
+      "label": "Not Addressed",
+      "conflicting": false,
+      "n_sources": 4,
+      "votes": {
+        "Not Addressed": 4
+      },
+      "evidence": "5.2 Incident Response Plan\n\nThe CSIRT shall:\n\n1. Develop, implement, and maintain an incident response plan that includes the following, at a minimum:\n2. A process to define reportable incidents and m..."
+    },
+    {
+      "control_id": "T8.2.6",
+      "passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 2_passage_7",
+      "policy_name": "Information Security Incident Management Policy",
+      "policy_section": "5.1 Computer Security Incident Response Team (CSIRT)",
+      "label": "Partially Addressed",
+      "conflicting": false,
+      "n_sources": 2,
+      "votes": {
+        "Not Addressed": 2
+      },
+      "evidence": "5.1 Computer Security Incident Response Team (CSIRT)\n\n&lt;CLIENT&gt; shall:\n\n1. Identify personnel to form the proper CSIRT.\n2. Establish the CSIRT before developing the incident response plan. Ensure...",
+      "original_human_label": "Not Addressed",
+      "corrected_by": "adjudication"
+    },
+    {
+      "control_id": "T8.2.6",
+      "passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_7",
+      "policy_name": "Information Security Incident Management Policy",
+      "policy_section": "5.1 Computer Security Incident Response Team (CSIRT)",
+      "label": "Partially Addressed",
+      "conflicting": true,
+      "n_sources": 3,
+      "votes": {
+        "Not Addressed": 2,
+        "Partially Addressed": 1
+      },
+      "evidence": "5.1 Computer Security Incident Response Team (CSIRT)\n\n&lt;CLIENT&gt; shall:\n\n1. Identify personnel to form the proper CSIRT.\n2. Establish the CSIRT before developing the incident response plan. Ensure...",
+      "original_human_label": "Not Addressed",
+      "corrected_by": "adjudication"
+    },
+    {
+      "control_id": "T8.2.7",
+      "passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 2_passage_14",
+      "policy_name": "Information Security Incident Management Policy",
+      "policy_section": "5.9 Collection of Evidence",
+      "label": "Not Addressed",
+      "conflicting": false,
+      "n_sources": 3,
+      "votes": {
+        "Not Addressed": 3
+      },
+      "evidence": "5.9 Collection of Evidence\n\n&lt;CLIENT&gt; shall:\n\n1. Develop and follow internal procedures when dealing with evidence for the purposes of disciplinary and legal action.\n2. Include the following proc..."
+    },
+    {
+      "control_id": "T8.2.7",
+      "passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_14",
+      "policy_name": "Information Security Incident Management Policy",
+      "policy_section": "5.9 Collection of Evidence",
+      "label": "Not Addressed",
+      "conflicting": false,
+      "n_sources": 2,
+      "votes": {
+        "Not Addressed": 2
+      },
+      "evidence": "5.9 Collection of Evidence\n\n&lt;CLIENT&gt; shall:\n\n1. Develop and follow internal procedures when dealing with evidence for the purposes of disciplinary and legal action.\n2. Include the following proc..."
+    },
+    {
+      "control_id": "T8.2.8",
+      "passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 2_passage_13",
+      "policy_name": "Information Security Incident Management Policy",
+      "policy_section": "5.8 Learning from Information Security Incidents",
+      "label": "Partially Addressed",
+      "conflicting": true,
+      "n_sources": 5,
+      "votes": {
+        "Not Addressed": 4,
+        "Fully Addressed": 1
+      },
+      "evidence": "5.8 Learning from Information Security Incidents\n\nThe CSIRT shall:\n\n1. Implement relevant mechanisms to enable the types, volumes, costs (liaising with Finance Team), and impacts of information securi...",
+      "original_human_label": "Not Addressed",
+      "corrected_by": "adjudication"
+    },
+    {
+      "control_id": "T8.2.8",
+      "passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_13",
+      "policy_name": "Information Security Incident Management Policy",
+      "policy_section": "5.8 Learning from Information Security Incidents",
+      "label": "Partially Addressed",
+      "conflicting": true,
+      "n_sources": 5,
+      "votes": {
+        "Not Addressed": 4,
+        "Fully Addressed": 1
+      },
+      "evidence": "5.8 Learning from Information Security Incidents\n\nThe CSIRT shall:\n\n1. Implement relevant mechanisms to enable the types, volumes, costs (liaising with Finance Team), and impacts of information securi...",
+      "original_human_label": "Not Addressed",
+      "corrected_by": "adjudication"
+    },
+    {
+      "control_id": "T8.2.8",
+      "passage_id": "clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_7",
+      "policy_name": "Security Awareness and Training Policy",
+      "policy_section": "8.1 Awareness and Training Program",
+      "label": "Not Addressed",
+      "conflicting": false,
+      "n_sources": 1,
+      "votes": {
+        "Not Addressed": 1
+      },
+      "evidence": "8.1 Awareness and Training Program\n\n&lt;&lt;CLIENT&gt;&gt; shall:\n\n1. Develop and formalize an Information Security (IS) awareness and training program that ensures continued awareness and competence ..."
+    },
+    {
+      "control_id": "T8.3.1",
+      "passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 2_passage_15",
+      "policy_name": "Information Security Incident Management Policy",
+      "policy_section": "5.10 Situational Awareness",
+      "label": "Not Addressed",
+      "conflicting": true,
+      "n_sources": 36,
+      "votes": {
+        "Not Addressed": 35,
+        "Fully Addressed": 1
+      },
+      "evidence": "5.10 Situational Awareness\n\nThe CSIRT shall:\n\n1. Ensure priority information related to incidents are shared to relevant stakeholders in a timely manner even if it has not been fully analysed or resol..."
+    },
+    {
+      "control_id": "T8.3.1",
+      "passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_15",
+      "policy_name": "Information Security Incident Management Policy",
+      "policy_section": "5.10 Situational Awareness",
+      "label": "Not Addressed",
+      "conflicting": true,
+      "n_sources": 36,
+      "votes": {
+        "Partially Addressed": 1,
+        "Not Addressed": 34,
+        "Fully Addressed": 1
+      },
+      "evidence": "5.10 Situational Awareness\n\nThe CSIRT shall:\n\n1. Ensure priority information related to incidents are shared to relevant stakeholders in a timely manner even if it has not been fully analysed or resol..."
+    },
+    {
+      "control_id": "T8.3.2",
+      "passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 2_passage_9",
+      "policy_name": "Information Security Incident Management Policy",
+      "policy_section": "5.3 Incident Classification",
+      "label": "Fully Addressed",
+      "conflicting": false,
+      "n_sources": 1,
+      "votes": {
+        "Fully Addressed": 1
+      },
+      "evidence": "5.3 Incident Classification\n\nThe CSIRT shall:\n\n1. Define, classify, and prioritise incidents to help identify the impact and scope of the incident.\n2. Establish an incident classification scheme in li..."
+    },
+    {
+      "control_id": "T8.3.3",
+      "passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 2_passage_12",
+      "policy_name": "Information Security Incident Management Policy",
+      "policy_section": "5.6 Incident Handling",
+      "label": "Partially Addressed",
+      "conflicting": false,
+      "n_sources": 12,
+      "votes": {
+        "Not Addressed": 12
+      },
+      "evidence": "5.6 Incident Handling\n\nThe CSIRT shall:\n\n1. Respond to information security incidents through a nominated point of contact and other relevant persons of the organization or external parties.\n2. Ensure...",
+      "original_human_label": "Not Addressed",
+      "corrected_by": "adjudication"
+    },
+    {
+      "control_id": "T8.3.3",
+      "passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 2_passage_6",
+      "policy_name": "Information Security Incident Management Policy",
+      "policy_section": "4 POLICY STATEMENT",
+      "label": "Partially Addressed",
+      "conflicting": false,
+      "n_sources": 1,
+      "votes": {
+        "Partially Addressed": 1
+      },
+      "evidence": "4 POLICY STATEMENT\n\n&lt;CLIENT&gt; shall develop, implement, and maintain an incident management program where personnel shall report information security events and weaknesses, collect, and analyze e..."
+    },
+    {
+      "control_id": "T8.3.3",
+      "passage_id": "clientname-IS-POL-00-Information Security Incident Management Policy 3_passage_12",
+      "policy_name": "Information Security Incident Management Policy",
+      "policy_section": "5.6 Incident Handling",
+      "label": "Partially Addressed",
+      "conflicting": false,
+      "n_sources": 12,
+      "votes": {
+        "Not Addressed": 12
+      },
+      "evidence": "5.6 Incident Handling\n\nThe CSIRT shall:\n\n1. Respond to information security incidents through a nominated point of contact and other relevant persons of the organization or external parties.\n2. Ensure...",
+      "original_human_label": "Not Addressed",
+      "corrected_by": "adjudication"
+    }
+  ]
+}

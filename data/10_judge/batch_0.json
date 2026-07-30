@@ -1,0 +1,309 @@
+[
+ {
+  "control_id": "M1.1.2",
+  "passage_id": "clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_10",
+  "human_label": "Not Addressed",
+  "obligation": "",
+  "atoms": [],
+  "passage": "6 ROLES AND RESPONSIBILITIES\n\nExecutive & Senior Management\n    1 Commit to provide the required resources and support for implementing a successful Information Security awareness and training program. Required resources shall include financial, technical, and human capital needed for all activities planned for the program.\n    2 Where relevant, provide direction to and participate in reviews and oversight of Information Security awareness and training program.\n    3 Mandate participation of all <<CLIENT>> employees in IS awareness activities, as outlined within the Information Security awareness and training program.\n\nInformation Security\n    1 Prepare yearly Security Awareness and Training program and carry out activities as per the plan.\n    2 Ensure to record results and report progress to Executive & Senior Management.\n    3 Responsible for the maintenance and update of Information Security awareness and training program.\n\nAudit\n    1 Initiate independent reviews of training and awareness campaigns to determine their impact and recommend changes.\n\nEmployees, Line Managers and Third Parties (Contractors, Vendors, etc.)\n    1 Participate in all awareness and training activities.\n    2 Line managers to mandate all employees attend training sessions.\n    3 Shall report all violations and security breaches to <<CLIENT>> Information Security Team through the appropriate channels.\n    4 Shall acknowledge their understanding and confirm their commitment to follow and comply with all issued policies and procedures.\n\n6 ROLES AND RESPONSIBILITIES\n\nExecutive & Senior Management\n\n1. Commit to provide the required resources and support for implementing a successful Information Security awareness and training program. Required resources shall include financial, technical, and human capital needed for all activities planned for the program.\n2. Where relevant, provide direction to and participate in reviews and oversight of Information Security awareness and training program.\n3. Mandate participation of all <<CLIENT>> employees in IS awareness activities, as outlined within the Information Security awareness and training program.\n\nInformation Security\n\n1. Prepare yearly Sec"
+ },
+ {
+  "control_id": "M1.3.2",
+  "passage_id": "clientname-IS-POL-00-Network and Communications Security Policy v1.2 2_passage_14",
+  "human_label": "Not Addressed",
+  "obligation": "",
+  "atoms": [],
+  "passage": "5.8 Confidentiality or Non-disclosure Agreements\n\n<CLIENTNAME> shall:\n            5.8.1 Enforce confidentiality or non-disclosure agreements when sensitive information is exchanged, for external parties where contracts and other legal agreements are not in place.\n            5.8.2 Where external parties have been engaged contractually, mandate inclusion of the confidentiality or non-disclosure agreement as part of the contract.\n            5.8.3 Ensure that the confidentiality or non-disclosure agreements address the requirement to protect confidential information using legally enforceable terms.\n            5.8.4 Consider the following elements at a minimum, to identify the requirements for confidentiality or non-disclosure agreements:\n                a. A definition of the information to be protected (e.g., confidential information).\n                b. Expected duration of an agreement, including cases where confidentiality might need to be maintained indefinitely.\n                c. Required actions when an agreement is terminated.\n                d. Responsibilities and actions of signatories to avoid unauthorized information disclosure (such as “need to know”).\n                e. Ownership of information, trade secrets and intellectual property, and how this relates to the protection of confidential information.\n                f. The permitted use of confidential information, and rights of the signatory to use information.\n                g. The right to audit and monitor activities that involve confidential information.\n                h. Process for notification and reporting of unauthorized disclosure or confidential information breaches.\n                i. Terms for information to be returned or destroyed at agreement cessation.\n                j. Expected actions to be taken in case of a breach of this agreement.\n            5.8.5 Ensure confidentiality and non-disclosure agreements comply with all applicable laws and regulations.\n            5.8.6 Review the requirements for confidentiality and non-disclosure agreements periodically or when changes occur that influence these requirements.\n\n5.8 Confidentiality or Non-disclosure Agreements\n\n<CLIENTNAME"
+ },
+ {
+  "control_id": "M1.4.2",
+  "passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 3_passage_5",
+  "human_label": "Not Addressed",
+  "obligation": "The entity shall determine the plan and mechanism for internal and external communications in support of its information security.",
+  "atoms": [
+   "b: The entity shall determine:",
+   "c: on what to communicate",
+   "d: when to communicate",
+   "e: with whom to communicate",
+   "f: who shall communicate",
+   "g: the processes by which communication shall be effected",
+   "h: The entity shall ensure that adequate communication can be maintained with the designated UAE Government entities",
+   "i: The entity shall document the communication plan."
+  ],
+  "passage": "3 SCOPE\n\nThis Policy encompasses all system components that are owned, leased, rented, operated, maintained, and otherwise controlled by <CLIENTNAME> or a third-party on behalf of <CLIENTNAME>, and also applies to any system or system components, both internally and externally, that interact with these systems.\n\nThis Policy applies to all employees and contractors who access or manage information and information assets or use the organization's information and communications technology (ICT) systems.\n\nAny exceptions on the applicability of this Policy should be formally requested through the Policy Exception Management procedure. \n3 SCOPE\n\nThis Policy encompasses all system components that are owned, leased, rented, operated, maintained, and otherwise controlled by <CLIENTNAME> or a third-party on behalf of <CLIENTNAME>, and also applies to any system or system components, both internally and externally, that interact with these systems.\n\nThis Policy applies to all employees and contractors who access or manage information and information assets or use the organization's information and communications technology (ICT) systems.\n\n**Any exceptions on the applicability of this Policy should be formally requested through the Policy Exception Management procedure.**"
+ },
+ {
+  "control_id": "M2.1.1",
+  "passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 1_passage_3",
+  "human_label": "Not Addressed",
+  "obligation": "The entity shall communicate and consult risk information obtained from risk management activities with all stakeholders involved. The entity shall:",
+  "atoms": [
+   "b: establish a risk communication plan for communicating risk information with key stakeholders including decision-makers within the entity during all stages of the risk management process",
+   "c: take into account all TRA’s issuances with regard to risk management"
+  ],
+  "passage": "1 INTRODUCTION\n\nThis Information Risk Management Policy (“Policy”) is a key component of <CLIENTNAME>’s overall Integrated Management System (IMS) and overarches the detailed risk management framework and procedure. Adherence to this Policy will help protect <CLIENTNAME> against known and unknown information security risks, whether internal or external, deliberate or accidental.\n<CLIENTNAME> recognizes that effective identification and management of risk is mandatory to the functioning of a robust Integrated Management System (IMS) comprising of Information Security Management System (ISMS), IT Service Management System (ITSMS), Business Continuity Management System (BCMS) and Privacy Information Management System (PIMS).\nThis Policy will be reviewed at least annually or following any changes to contributing internal or external factors.\n1 INTRODUCTION\n\nThis Information Risk Management Policy (“Policy”) is a key component of <CLIENTNAME>’s overall Integrated Management System (IMS) and overarches the detailed risk management framework and procedure. Adherence to this Policy will help protect <CLIENTNAME> against known and unknown information security risks, whether internal or external, deliberate or accidental.\n\n<CLIENTNAME> recognizes that effective identification and management of risk is mandatory to the functioning of a robust Integrated Management System (IMS) comprising of Information Security Management System (ISMS), IT Service Management System (ITSMS), Business Continuity Management System (BCMS) and Privacy Information Management System (PIMS).\n\nThis Policy will be reviewed at least annually or following any changes to contributing internal or external factors."
+ },
+ {
+  "control_id": "M2.1.1",
+  "passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 1_passage_5",
+  "human_label": "Not Addressed",
+  "obligation": "The entity shall communicate and consult risk information obtained from risk management activities with all stakeholders involved. The entity shall:",
+  "atoms": [
+   "b: establish a risk communication plan for communicating risk information with key stakeholders including decision-makers within the entity during all stages of the risk management process",
+   "c: take into account all TRA’s issuances with regard to risk management"
+  ],
+  "passage": "3 SCOPE\n\nThis Policy encompasses all system components that are owned, leased, rented, operated, maintained, and otherwise controlled by <CLIENTNAME> or a third-party on behalf of <CLIENTNAME>, and also applies to any system or system components, both internally and externally, that interact with these systems.\n\nThis Policy applies to all employees and contractors who access or manage information and information assets or use the organization's information and communications technology (ICT) systems.\n\n**Any exceptions on the applicability of this Policy should be formally requested through the Policy Exception Management procedure.**"
+ },
+ {
+  "control_id": "M2.1.1",
+  "passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 1_passage_6",
+  "human_label": "Not Addressed",
+  "obligation": "The entity shall communicate and consult risk information obtained from risk management activities with all stakeholders involved. The entity shall:",
+  "atoms": [
+   "b: establish a risk communication plan for communicating risk information with key stakeholders including decision-makers within the entity during all stages of the risk management process",
+   "c: take into account all TRA’s issuances with regard to risk management"
+  ],
+  "passage": "4 POLICY STATEMENT\n\n<CLIENTNAME> shall implement an information risk management program that shall require conducting risk assessments, identifying information risks, treating the risks and continuously monitoring risks by evaluating the effectiveness of information security controls to ensure efficient risk handling.\n4 POLICY STATEMENT\n\n<CLIENTNAME> shall implement an information risk management program that shall require conducting risk assessments, identifying information risks, treating the risks and continuously monitoring risks by evaluating the effectiveness of information security controls to ensure efficient risk handling."
+ },
+ {
+  "control_id": "M2.1.1",
+  "passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 1_passage_7",
+  "human_label": "Not Addressed",
+  "obligation": "The entity shall communicate and consult risk information obtained from risk management activities with all stakeholders involved. The entity shall:",
+  "atoms": [
+   "b: establish a risk communication plan for communicating risk information with key stakeholders including decision-makers within the entity during all stages of the risk management process",
+   "c: take into account all TRA’s issuances with regard to risk management"
+  ],
+  "passage": "5.1 Information Risk Management Framework\n\n            5.1.1 <CLIENTNAME> shall define an Information Risk Management (IRM) framework that provides a process to integrate security, privacy, and business continuity risk management activities into business processes.\n            5.1.2 The IRM framework shall consider business objectives and constraints placed by applicable laws, directives, executive orders, policies, standards, or regulations.\n            5.1.3 <CLIENTNAME>’s IRM framework shall include the following activities at a minimum: \n                a. Prepare: Establish context by understanding mission, business objectives, and information systems to manage <CLIENTNAME>, its security, privacy, and business continuity risks.\n                b. Identify: Provide a structured way to determine the criticality of the information assets at <CLIENTNAME>, and identify its associated risks.\n                c. Assess: Analyze, evaluate and categorize risks based on its likelihood of materializing and its impacts to <CLIENTNAME>’s business and information systems.\n                d. Select: Select, tailor and document the controls necessary to protect <CLIENTNAME> and its information systems commensurate with risks.\n                e. Implement: Establish new or utilize existing processes, procedures, tools and technologies to meet the intent of selected controls. \n                f. Review: Determine whether the selected controls are implemented correctly, operate as intended, and produce the desired outcomes to meet <CLIENTNAME>’s information security and data privacy requirements. \n                g. Monitor: Maintain ongoing situational awareness about the security and privacy posture of <CLIENTNAME> and its information systems to support risk management decisions.  \n            5.1.4 The IRM framework shall establish and implement a plan for communicating risk information and consulting key stakeholders, including decision-makers within the organization during all stages of the risk management process.\n\n5.1 Information Risk Management Framework\n\n1. Prepare: Establish context by understanding mission, business objectives, and information systems to manage <CLI"
+ },
+ {
+  "control_id": "M2.1.1",
+  "passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2_passage_3",
+  "human_label": "Not Addressed",
+  "obligation": "The entity shall communicate and consult risk information obtained from risk management activities with all stakeholders involved. The entity shall:",
+  "atoms": [
+   "b: establish a risk communication plan for communicating risk information with key stakeholders including decision-makers within the entity during all stages of the risk management process",
+   "c: take into account all TRA’s issuances with regard to risk management"
+  ],
+  "passage": "1 INTRODUCTION\n\nThis Information Risk Management Policy (“Policy”) is a key component of <CLIENTNAME>’s overall Integrated Management System (IMS) and overarches the detailed risk management framework and procedure. Adherence to this Policy will help protect <CLIENTNAME> against known and unknown information security risks, whether internal or external, deliberate or accidental.\n<CLIENTNAME> recognizes that effective identification and management of risk is mandatory to the functioning of a robust Integrated Management System (IMS) comprising of Information Security Management System (ISMS), IT Service Management System (ITSMS), Business Continuity Management System (BCMS) and Privacy Information Management System (PIMS).\nThis Policy will be reviewed at least annually or following any changes to contributing internal or external factors."
+ },
+ {
+  "control_id": "M2.1.1",
+  "passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2_passage_5",
+  "human_label": "Not Addressed",
+  "obligation": "The entity shall communicate and consult risk information obtained from risk management activities with all stakeholders involved. The entity shall:",
+  "atoms": [
+   "b: establish a risk communication plan for communicating risk information with key stakeholders including decision-makers within the entity during all stages of the risk management process",
+   "c: take into account all TRA’s issuances with regard to risk management"
+  ],
+  "passage": "3 SCOPE\n\nThis Policy encompasses all system components that are owned, leased, rented, operated, maintained, and otherwise controlled by <CLIENTNAME> or a third-party on behalf of <CLIENTNAME>, and also applies to any system or system components, both internally and externally, that interact with these systems.\n\nThis Policy applies to all employees and contractors who access or manage information and information assets or use the organization's information and communications technology (ICT) systems.\n\nAny exceptions on the applicability of this Policy should be formally requested through the Policy Exception Management procedure."
+ },
+ {
+  "control_id": "M2.1.1",
+  "passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2_passage_6",
+  "human_label": "Not Addressed",
+  "obligation": "The entity shall communicate and consult risk information obtained from risk management activities with all stakeholders involved. The entity shall:",
+  "atoms": [
+   "b: establish a risk communication plan for communicating risk information with key stakeholders including decision-makers within the entity during all stages of the risk management process",
+   "c: take into account all TRA’s issuances with regard to risk management"
+  ],
+  "passage": "4 POLICY STATEMENT\n\n<CLIENTNAME> shall implement an information risk management program that shall require conducting risk assessments, identifying information risks, treating the risks and continuously monitoring risks by evaluating the effectiveness of information security controls to ensure efficient risk handling."
+ },
+ {
+  "control_id": "M2.1.1",
+  "passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2_passage_7",
+  "human_label": "Not Addressed",
+  "obligation": "The entity shall communicate and consult risk information obtained from risk management activities with all stakeholders involved. The entity shall:",
+  "atoms": [
+   "b: establish a risk communication plan for communicating risk information with key stakeholders including decision-makers within the entity during all stages of the risk management process",
+   "c: take into account all TRA’s issuances with regard to risk management"
+  ],
+  "passage": "5.1 Information Risk Management Framework\n            5.1.1 <CLIENTNAME> shall define an Information Risk Management (IRM) framework that provides a process to integrate security, privacy, and business continuity risk management activities into business processes.\n            5.1.2 The IRM framework shall consider business objectives and constraints placed by applicable laws, directives, executive orders, policies, standards, or regulations.\n            5.1.3 <CLIENTNAME>’s IRM framework shall include the following activities at a minimum: \n                a. Prepare: Establish context by understanding mission, business objectives, and information systems to manage <CLIENTNAME>, its security, privacy, and business continuity risks.\n                b. Identify: Provide a structured way to determine the criticality of the information assets at <CLIENTNAME>, and identify its associated risks.\n                c. Assess: Analyze, evaluate and categorize risks based on its likelihood of materializing and its impacts to <CLIENTNAME>’s business and information systems.\n                d. Select: Select, tailor and document the controls necessary to protect <CLIENTNAME> and its information systems commensurate with risks.\n                e. Implement: Establish new or utilize existing processes, procedures, tools and technologies to meet the intent of selected controls. \n                f. Review: Determine whether the selected controls are implemented correctly, operate as intended, and produce the desired outcomes to meet <CLIENTNAME>’s information security and data privacy requirements. \n                g. Monitor: Maintain ongoing situational awareness about the security and privacy posture of <CLIENTNAME> and its information systems to support risk management decisions.  \n            5.1.4 The IRM framework shall establish and implement a plan for communicating risk information and consulting key stakeholders, including decision-makers within the organization during all stages of the risk management process."
+ },
+ {
+  "control_id": "M2.1.1",
+  "passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 3_passage_3",
+  "human_label": "Not Addressed",
+  "obligation": "The entity shall communicate and consult risk information obtained from risk management activities with all stakeholders involved. The entity shall:",
+  "atoms": [
+   "b: establish a risk communication plan for communicating risk information with key stakeholders including decision-makers within the entity during all stages of the risk management process",
+   "c: take into account all TRA’s issuances with regard to risk management"
+  ],
+  "passage": "1 INTRODUCTION\n\nThis Information Risk Management Policy (“Policy”) is a key component of <CLIENTNAME>’s overall Integrated Management System (IMS) and overarches the detailed risk management framework and procedure. Adherence to this Policy will help protect <CLIENTNAME> against known and unknown information security risks, whether internal or external, deliberate or accidental.\n<CLIENTNAME> recognizes that effective identification and management of risk is mandatory to the functioning of a robust Integrated Management System (IMS) comprising of Information Security Management System (ISMS), IT Service Management System (ITSMS), Business Continuity Management System (BCMS) and Privacy Information Management System (PIMS).\nThis Policy will be reviewed at least annually or following any changes to contributing internal or external factors.\n1 INTRODUCTION\n\nThis Information Risk Management Policy (“Policy”) is a key component of <CLIENTNAME>’s overall Integrated Management System (IMS) and overarches the detailed risk management framework and procedure. Adherence to this Policy will help protect <CLIENTNAME> against known and unknown information security risks, whether internal or external, deliberate or accidental.\n\n<CLIENTNAME> recognizes that effective identification and management of risk is mandatory to the functioning of a robust Integrated Management System (IMS) comprising of Information Security Management System (ISMS), IT Service Management System (ITSMS), Business Continuity Management System (BCMS) and Privacy Information Management System (PIMS).\n\nThis Policy will be reviewed at least annually or following any changes to contributing internal or external factors."
+ },
+ {
+  "control_id": "M2.1.1",
+  "passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 3_passage_5",
+  "human_label": "Not Addressed",
+  "obligation": "The entity shall communicate and consult risk information obtained from risk management activities with all stakeholders involved. The entity shall:",
+  "atoms": [
+   "b: establish a risk communication plan for communicating risk information with key stakeholders including decision-makers within the entity during all stages of the risk management process",
+   "c: take into account all TRA’s issuances with regard to risk management"
+  ],
+  "passage": "3 SCOPE\n\nThis Policy encompasses all system components that are owned, leased, rented, operated, maintained, and otherwise controlled by <CLIENTNAME> or a third-party on behalf of <CLIENTNAME>, and also applies to any system or system components, both internally and externally, that interact with these systems.\n\nThis Policy applies to all employees and contractors who access or manage information and information assets or use the organization's information and communications technology (ICT) systems.\n\nAny exceptions on the applicability of this Policy should be formally requested through the Policy Exception Management procedure. \n3 SCOPE\n\nThis Policy encompasses all system components that are owned, leased, rented, operated, maintained, and otherwise controlled by <CLIENTNAME> or a third-party on behalf of <CLIENTNAME>, and also applies to any system or system components, both internally and externally, that interact with these systems.\n\nThis Policy applies to all employees and contractors who access or manage information and information assets or use the organization's information and communications technology (ICT) systems.\n\n**Any exceptions on the applicability of this Policy should be formally requested through the Policy Exception Management procedure.**"
+ },
+ {
+  "control_id": "M2.1.1",
+  "passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 3_passage_6",
+  "human_label": "Not Addressed",
+  "obligation": "The entity shall communicate and consult risk information obtained from risk management activities with all stakeholders involved. The entity shall:",
+  "atoms": [
+   "b: establish a risk communication plan for communicating risk information with key stakeholders including decision-makers within the entity during all stages of the risk management process",
+   "c: take into account all TRA’s issuances with regard to risk management"
+  ],
+  "passage": "4 POLICY STATEMENT\n\n<CLIENTNAME> shall implement an information risk management program that shall require conducting risk assessments, identifying information risks, treating the risks and continuously monitoring risks by evaluating the effectiveness of information security controls to ensure efficient risk handling. \n\n4 POLICY STATEMENT\n\n<CLIENTNAME> shall implement an information risk management program that shall require conducting risk assessments, identifying information risks, treating the risks and continuously monitoring risks by evaluating the effectiveness of information security controls to ensure efficient risk handling."
+ },
+ {
+  "control_id": "M2.1.1",
+  "passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 3_passage_7",
+  "human_label": "Not Addressed",
+  "obligation": "The entity shall communicate and consult risk information obtained from risk management activities with all stakeholders involved. The entity shall:",
+  "atoms": [
+   "b: establish a risk communication plan for communicating risk information with key stakeholders including decision-makers within the entity during all stages of the risk management process",
+   "c: take into account all TRA’s issuances with regard to risk management"
+  ],
+  "passage": "5.1 Information Risk Management Framework\n            5.1.1 <CLIENTNAME> shall define an Information Risk Management (IRM) framework that provides a process to integrate security, privacy, and business continuity risk management activities into business processes.\n            5.1.2 The IRM framework shall consider business objectives and constraints placed by applicable laws, directives, executive orders, policies, standards, or regulations.\n            5.1.3 <CLIENTNAME>’s IRM framework shall include the following activities at a minimum: \n                a. Prepare: Establish context by understanding mission, business objectives, and information systems to manage <CLIENTNAME>, its security, privacy, and business continuity risks.\n                b. Identify: Provide a structured way to determine the criticality of the information assets at <CLIENTNAME>, and identify its associated risks.\n                c. Assess: Analyze, evaluate and categorize risks based on its likelihood of materializing and its impacts to <CLIENTNAME>’s business and information systems.\n                d. Select: Select, tailor and document the controls necessary to protect <CLIENTNAME> and its information systems commensurate with risks.\n                e. Implement: Establish new or utilize existing processes, procedures, tools and technologies to meet the intent of selected controls. \n                f. Review: Determine whether the selected controls are implemented correctly, operate as intended, and produce the desired outcomes to meet <CLIENTNAME>’s information security and data privacy requirements. \n                g. Monitor: Maintain ongoing situational awareness about the security and privacy posture of <CLIENTNAME> and its information systems to support risk management decisions.  \n            5.1.4 The IRM framework shall establish and implement a plan for communicating risk information and consulting key stakeholders, including decision-makers within the organization during all stages of the risk management process.\n\n5.1 Information Risk Management Framework\n\n1. Prepare: Establish context by understanding mission, business objectives, and information systems to manage <CLIE"
+ },
+ {
+  "control_id": "M2.2.1",
+  "passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 1_passage_8",
+  "human_label": "Not Addressed",
+  "obligation": "",
+  "atoms": [],
+  "passage": "5.2 Information Risk Assessment\n\n5.1.1 <CLIENTNAME> shall establish a risk assessment process to be used as the basis for the identification, definition and prioritization of risks. \n            5.2.2 The risk assessment process shall include at a minimum: \n                a. Identification of the vulnerabilities that exist in the information assets.\n                b. Identification of threats that may exploit a vulnerability.\n                c. Qualitative analysis and evaluation of the impact to the confidentiality, integrity, availability, secrecy and privacy of information assets if a threat exploits vulnerabilities.\n                d. Identification and definition of measures and/or controls used to protect the confidentiality, integrity, availability, secrecy and privacy of information assets.\n            5.2.3 The risk assessment shall be performed/updated when environmental, operational or technical changes arise that impact <CLIENTNAME>’s business processes and information assets. Such changes include but are not limited to:\n                a. New threats or risks with respect to the business processes and information assets. \n                b. An information security incident.\n                c. Outcomes of any internal or external assessments.\n                d. Changes to information security requirements or responsibilities. (e.g., new federal or state law or regulation, new or modified security controls implemented, etc.).\n                e. Changes to the <CLIENTNAME>’s organizational or technical infrastructure that impact information assets (e.g., addition of a new network, new hardware/software standard implemented, new method of creating, receiving, maintaining or transmitting data, etc.). \n\n5.2 Information Risk Assessment\n\n1. Identification of the vulnerabilities that exist in the information assets.\n2. Identification of threats that may exploit a vulnerability.\n3. Qualitative analysis and evaluation of the impact to the confidentiality, integrity, availability, secrecy and privacy of information assets if a threat exploits vulnerabilities.\n4. Identification and definition of measures and/or controls used to protect the confidentiality, int"
+ },
+ {
+  "control_id": "M2.3.1",
+  "passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 1_passage_9",
+  "human_label": "Partially Addressed",
+  "obligation": "",
+  "atoms": [],
+  "passage": "5.3 Information Risk Categorization\n\n            5.3.1 <CLIENTNAME> shall categorize risks based on business objectives, data sensitivity, threat exposure and vulnerabilities pursuant to information assets.\n            5.3.2 The categorization process shall take into account the probability and impact of risks materializing and affecting business objectives.\n            5.3.3 Risks shall be expressed qualitatively as per the risk categorizations defined under the Information Risk Management Framework.\n            5.3.4 Adequate resources to address risks shall be allocated according to the risk categorization.\n\n5.3 Information Risk Treatment\n\n1. Risk Reduction: Reducing risk by applying security controls.\n2. Risk Avoidance: Avoiding the activity or condition causing the risk.\n3. Risk Transfer: Transferring the risk to another party.\n4. Risk Retention: Accepting the risk based on the organization’s risk acceptance criteria established in the Information Security Risk Management Framework.\n\n5. Description of information risks.\n6. Appropriate management actions.\n7. Responsibilities and priorities for managing information security risks (risk ownership).\n8. Target dates for implementation of the identified controls."
+ },
+ {
+  "control_id": "M2.3.1",
+  "passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2_passage_9",
+  "human_label": "Partially Addressed",
+  "obligation": "",
+  "atoms": [],
+  "passage": "5.3 Information Risk Categorization\n\n            5.3.1 <CLIENTNAME> shall categorize risks based on business objectives, data sensitivity, threat exposure and vulnerabilities pursuant to information assets.\n            5.3.2 The categorization process shall take into account the probability and impact of risks materializing and affecting business objectives.\n            5.3.3 Risks shall be expressed qualitatively as per the risk categorizations defined under the Information Risk Management Framework.\n            5.3.4 Adequate resources to address risks shall be allocated according to the risk categorization."
+ },
+ {
+  "control_id": "M2.3.1",
+  "passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 3_passage_9",
+  "human_label": "Partially Addressed",
+  "obligation": "",
+  "atoms": [],
+  "passage": "5.3 Information Risk Categorization\n\n            5.3.1 <CLIENTNAME> shall categorize risks based on business objectives, data sensitivity, threat exposure and vulnerabilities pursuant to information assets.\n            5.3.2 The categorization process shall take into account the probability and impact of risks materializing and affecting business objectives.\n            5.3.3 Risks shall be expressed qualitatively as per the risk categorizations defined under the Information Risk Management Framework.\n            5.3.4 Adequate resources to address risks shall be allocated according to the risk categorization.\n5.3 Information Risk Assessment\n\n1. Identification of the vulnerabilities that exist in the information assets.\n2. Identification of threats that may exploit a vulnerability.\n3. Qualitative analysis and evaluation of the impact to the confidentiality, integrity, availability, secrecy and privacy of information assets if a threat exploits vulnerabilities.\n4. Identification and definition of measures and/or controls used to protect the confidentiality, integrity, availability, secrecy and privacy of information assets.\n\n5. New threats or risks with respect to the business processes and information assets.\n6. An information security incident.\n7. Outcomes of any internal or external assessments.\n8. Changes to information security requirements or responsibilities. (e.g., new federal or state law or regulation, new or modified security controls implemented, etc.).\n9. Changes to the <CLIENTNAME>’s organizational or technical infrastructure that impact information assets (e.g., addition"
+ },
+ {
+  "control_id": "M2.3.2",
+  "passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 1_passage_9",
+  "human_label": "Not Addressed",
+  "obligation": "The entity shall identify all controls that are necessary to implement the information security risk treatment option(s) chosen.",
+  "atoms": [
+   "a: The entity shall:",
+   "b: consider the controls included in these as a starting point for the control identification",
+   "c: ensure that no controls are overlooked by producing the Statement of Applicability (refer to"
+  ],
+  "passage": "5.3 Information Risk Categorization\n\n            5.3.1 <CLIENTNAME> shall categorize risks based on business objectives, data sensitivity, threat exposure and vulnerabilities pursuant to information assets.\n            5.3.2 The categorization process shall take into account the probability and impact of risks materializing and affecting business objectives.\n            5.3.3 Risks shall be expressed qualitatively as per the risk categorizations defined under the Information Risk Management Framework.\n            5.3.4 Adequate resources to address risks shall be allocated according to the risk categorization.\n\n5.3 Information Risk Treatment\n\n1. Risk Reduction: Reducing risk by applying security controls.\n2. Risk Avoidance: Avoiding the activity or condition causing the risk.\n3. Risk Transfer: Transferring the risk to another party.\n4. Risk Retention: Accepting the risk based on the organization’s risk acceptance criteria established in the Information Security Risk Management Framework.\n\n5. Description of information risks.\n6. Appropriate management actions.\n7. Responsibilities and priorities for managing information security risks (risk ownership).\n8. Target dates for implementation of the identified controls."
+ },
+ {
+  "control_id": "M2.3.2",
+  "passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 2_passage_9",
+  "human_label": "Not Addressed",
+  "obligation": "The entity shall identify all controls that are necessary to implement the information security risk treatment option(s) chosen.",
+  "atoms": [
+   "a: The entity shall:",
+   "b: consider the controls included in these as a starting point for the control identification",
+   "c: ensure that no controls are overlooked by producing the Statement of Applicability (refer to"
+  ],
+  "passage": "5.3 Information Risk Categorization\n\n            5.3.1 <CLIENTNAME> shall categorize risks based on business objectives, data sensitivity, threat exposure and vulnerabilities pursuant to information assets.\n            5.3.2 The categorization process shall take into account the probability and impact of risks materializing and affecting business objectives.\n            5.3.3 Risks shall be expressed qualitatively as per the risk categorizations defined under the Information Risk Management Framework.\n            5.3.4 Adequate resources to address risks shall be allocated according to the risk categorization."
+ },
+ {
+  "control_id": "M2.3.2",
+  "passage_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 3_passage_9",
+  "human_label": "Not Addressed",
+  "obligation": "The entity shall identify all controls that are necessary to implement the information security risk treatment option(s) chosen.",
+  "atoms": [
+   "a: The entity shall:",
+   "b: consider the controls included in these as a starting point for the control identification",
+   "c: ensure that no controls are overlooked by producing the Statement of Applicability (refer to"
+  ],
+  "passage": "5.3 Information Risk Categorization\n\n            5.3.1 <CLIENTNAME> shall categorize risks based on business objectives, data sensitivity, threat exposure and vulnerabilities pursuant to information assets.\n            5.3.2 The categorization process shall take into account the probability and impact of risks materializing and affecting business objectives.\n            5.3.3 Risks shall be expressed qualitatively as per the risk categorizations defined under the Information Risk Management Framework.\n            5.3.4 Adequate resources to address risks shall be allocated according to the risk categorization.\n5.3 Information Risk Assessment\n\n1. Identification of the vulnerabilities that exist in the information assets.\n2. Identification of threats that may exploit a vulnerability.\n3. Qualitative analysis and evaluation of the impact to the confidentiality, integrity, availability, secrecy and privacy of information assets if a threat exploits vulnerabilities.\n4. Identification and definition of measures and/or controls used to protect the confidentiality, integrity, availability, secrecy and privacy of information assets.\n\n5. New threats or risks with respect to the business processes and information assets.\n6. An information security incident.\n7. Outcomes of any internal or external assessments.\n8. Changes to information security requirements or responsibilities. (e.g., new federal or state law or regulation, new or modified security controls implemented, etc.).\n9. Changes to the <CLIENTNAME>’s organizational or technical infrastructure that impact information assets (e.g., addition"
+ },
+ {
+  "control_id": "M3.1.1",
+  "passage_id": "clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_3",
+  "human_label": "Not Addressed",
+  "obligation": "The entity shall develop and maintain an awareness and training policy.",
+  "atoms": [
+   "a: The awareness and training policy shall:",
+   "b: be appropriate to the purpose of the entity",
+   "c: provide the framework for setting awareness and training objectives",
+   "d: facilitate the implementation of the associated controls",
+   "e: outline the roles and responsibilities of providers and recipients of awareness and training activities"
+  ],
+  "passage": "1 INTRODUCTION\n\n<<CLIENT>> recognizes the importance of providing its employees/ end-users with appropriate awareness and training on information security, business continuity and data privacy requirements to protect confidentiality, integrity, availability, privacy and resiliency of its information and communications technology (ICT) systems. This is to protect information assets, resources and systems. The success of <<CLIENT>>’s awareness and training program, and the overall awareness of secure business practices, depends upon the awareness, behavior and culture of the organization. \n1 INTRODUCTION\n\n<<CLIENT>> recognizes the importance of providing its employees/ end-users with appropriate awareness and training on information security, business continuity and data privacy requirements to protect confidentiality, integrity, availability, privacy and resiliency of its information and communications technology (ICT) systems. This is to protect information assets, resources and systems. The success of <<CLIENT>>’s awareness and training program, and the overall awareness of secure business practices, depends upon the awareness, behavior and culture of the organization."
+ },
+ {
+  "control_id": "M3.2.1",
+  "passage_id": "clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_6",
+  "human_label": "Not Addressed",
+  "obligation": "The entity shall develop an awareness and training program.",
+  "atoms": [
+   "a: The awareness and training program shall:",
+   "b: inform persons doing work under the entity of their contribution to the effectiveness of information security and the implications of not conforming to the information security requirements The entity shall:",
+   "c: determine the necessary competencies for personnel performing work effecting information security",
+   "d: provide training or taking other actions (e.",
+   "e: employing competent personne",
+   "f: to satisfy these needs",
+   "g: evaluate the effectiveness of the actions taken",
+   "h: maintain records of education, training, skills, experience and qualifications"
+  ],
+  "passage": "5  Awareness and Training"
+ },
+ {
+  "control_id": "M3.2.1",
+  "passage_id": "clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_7",
+  "human_label": "Not Addressed",
+  "obligation": "The entity shall develop an awareness and training program.",
+  "atoms": [
+   "a: The awareness and training program shall:",
+   "b: inform persons doing work under the entity of their contribution to the effectiveness of information security and the implications of not conforming to the information security requirements The entity shall:",
+   "c: determine the necessary competencies for personnel performing work effecting information security",
+   "d: provide training or taking other actions (e.",
+   "e: employing competent personne",
+   "f: to satisfy these needs",
+   "g: evaluate the effectiveness of the actions taken",
+   "h: maintain records of education, training, skills, experience and qualifications"
+  ],
+  "passage": "5.1 Awareness and Training Program\n\n<<CLIENT>> shall: \n            5.1.1 Develop and formalize an Information Security (IS) awareness and training program that ensures continued awareness and competence of all <<CLIENT>> employees, including contractors, third-parties, and all other stakeholders with access to information assets. \n            5.1.2 Ensure that Information Security awareness and training program raise awareness and compliance about <<CLIENT>>’s Integrated Management System and its associated policies, procedures, processes, and other best practices. \n            5.1.3 Conduct Information Security awareness and training program to achieve high cybersecurity maturity levels and mitigate risks around lack of awareness.\n            5.1.4 Ensure that the content of Information Security awareness and training program is reviewed and updated annually based on the results of the previous awareness activities and campaigns, and lessons learnt from security incidents.\n            5.1.5 Ensure that the Information Security awareness and training program provides sufficient knowledge to all <<CLIENT>> employees, and where applicable, to contractors, third-parties to recognize security incidents and to respond to them using the appropriate reporting channels.\n            5.1.6 For all new hires, provide induction training that covers information security awareness, to understand its organizational policies and the importance of security with respect to their line of work.\n            5.1.7 Provided regular training to its technical staff members to implement, configure and maintain security in the information systems using appropriate safeguards.\n            5.1.8 Promote a culture of security through awareness campaigns.\n            5.1.9 Utilize security awareness techniques (e.g., displaying digital posters, generating email advisories/ notices from senior organizational officials, phishing simulations etc.) to execute IS campaigns.\n5.1 Awareness and Training Program\n\n<<CLIENT>> shall:\n\n1. Develop and formalize an Information Security (IS) awareness and training program that ensures continued awareness and competence of all <<CLIENT>> employees, including "
+ },
+ {
+  "control_id": "M3.3.1",
+  "passage_id": "clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_8",
+  "human_label": "Not Addressed",
+  "obligation": "The entity shall identify its information security training needs.",
+  "atoms": [
+   "a: The entity shall:",
+   "b: identify the information security skills needed within the entity",
+   "c: assess the current information skills in place within the entity",
+   "d: identify gaps between required and in place information security skills"
+  ],
+  "passage": "5.2 Role Specific Training\n\n<<CLIENT>> shall:\n            5.2.1 Provide Role specific security training for employees/contractors with assigned administrative or technical roles and responsibilities involving access to sensitive information systems.\n            5.2.2 Administer Role specific security training before granting employees/contractors privileged access to the information systems or before employees/contractors begin performing assigned duties. \n5.2.3 Define frequency for Role specific security trainings (e.g. whenever there is a significant change in information system environment or procedures, and whenever an employee/contractor enters a new position that requires additional role-specific training).\n5.2 Role Specific Training\n\n<<CLIENT>> shall:\n\n1. Provide Role specific security training for employees/contractors with assigned administrative or technical roles and responsibilities involving access to sensitive information systems.\n2. Administer Role specific security training before granting employees/contractors privileged access to the information systems or before employees/contractors begin performing assigned duties.\n3. Define frequency for Role specific security trainings (e.g. whenever there is a significant change in information system environment or procedures, and whenever an employee/contractor enters a new position that requires additional role-specific training)."
+ },
+ {
+  "control_id": "M3.3.4",
+  "passage_id": "clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping_passage_9",
+  "human_label": "Fully Addressed",
+  "obligation": "The entity shall measure and evaluate security training effectiveness.",
+  "atoms": [
+   "a: The entity shall:",
+   "b: measure the level of information security knowledge and skills in the entity before and after the training plan is implemented",
+   "c: ensure that the information security training solutions implemented are meeting the expected outcomes against the knowledge requirements of the entity",
+   "d: take corrective action to improve or replace training solutions that are not reaching the expected outcome"
+  ],
+  "passage": "5.3 Training Records\n\n<<CLIENT>> shall:\n            5.3.1 Document and monitor individual security training activities, including basic security awareness training and any Role specific security training.\n            5.3.2 Retain training records for appropriate periods as defined by [<<CLIENT>>-ORG-IMS-POL-013-Records Retention and Protection Policy].\n\n5.3 Training Records\n\n<<CLIENT>> shall:\n\n1. Document and monitor individual security training activities, including basic security awareness training and any Role specific security training.\n2. Retain training records for appropriate periods as defined by [<<CLIENT>>-ORG-IMS-POL-013-Records Retention and Protection Policy]."
+ }
+]

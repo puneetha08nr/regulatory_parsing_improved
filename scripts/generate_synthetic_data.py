@@ -1,3 +1,4 @@
+
 #!/usr/bin/env python3
 """
 Generate synthetic FA/PA/NA training examples for UAE IA controls.

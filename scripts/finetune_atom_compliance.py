@@ -30,6 +30,8 @@ import argparse
 import json
 from pathlib import Path
 
+from datasets import Dataset
+
 FA, PA, NA = "Fully Addressed", "Partially Addressed", "Not Addressed"
 MIN_HYP_LEN = 25   # filter degenerate atom hypotheses
 
@@ -100,11 +102,12 @@ def train(args):
     print(f"Balanced: {len(pos)} pos x{factor} + {len(neg)} neg = {len(balanced)} rows")
 
     texts = [format_row(r, eos)[1] for r in balanced]
+    train_dataset = Dataset.from_dict({"text": texts})
 
     trainer = SFTTrainer(
         model=model,
         tokenizer=tokenizer,
-        train_dataset=[{"text": t} for t in texts],
+        train_dataset=train_dataset,
         dataset_text_field="text",
         max_seq_length=2048,
         dataset_num_proc=2,

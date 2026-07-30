@@ -69,8 +69,7 @@ def format_row(row, eos):
 
 def train(args):
     from unsloth import FastLanguageModel
-    from trl import SFTTrainer
-    from transformers import TrainingArguments
+    from trl import SFTTrainer, SFTConfig
 
     model, tokenizer = FastLanguageModel.from_pretrained(
         model_name=args.model,
@@ -108,10 +107,7 @@ def train(args):
         model=model,
         tokenizer=tokenizer,
         train_dataset=train_dataset,
-        dataset_text_field="text",
-        max_seq_length=2048,
-        dataset_num_proc=2,
-        args=TrainingArguments(
+        args=SFTConfig(
             per_device_train_batch_size=4,
             gradient_accumulation_steps=4,
             warmup_steps=10,
@@ -124,6 +120,8 @@ def train(args):
             lr_scheduler_type="cosine",
             output_dir="output_atom_judge",
             report_to="none",
+            dataset_text_field="text",
+            max_seq_length=2048,
         ),
     )
     trainer.train()

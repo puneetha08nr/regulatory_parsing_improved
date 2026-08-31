@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Works 2 + 3 — Parallel Roadmap</title>
+<style>
+:root {
+  --ground:       #F0EFE9;
+  --surface:      #FAFAF7;
+  --surface-alt:  #F4F3EE;
+  --border:       #D4D0C8;
+  --border-faint: #E4E2DB;
+
+  --text:         #1A1D2C;
+  --text-muted:   #737688;
+  --text-faint:   #A8ABBE;
+
+  --accent:       #9A6F1E;
+  --accent-dim:   #F2E8D4;
+  --accent-bord:  #D4A84B;
+
+  --done:         #2A7A5A;
+  --done-dim:     #D4EEE3;
+
+  --danger:       #B04040;
+  --danger-dim:   #F6E3E3;
+
+  --w2:           #4A5CB8;
+  --w2-dim:       #E2E5F6;
+  --w2-bord:      #A9B2E0;
+
+  --font-display: Georgia, 'Times New Roman', serif;
+  --font-body:    system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono:    'Courier New', Courier, monospace;
+
+  --fs-xs:   0.7rem;
+  --fs-sm:   0.84rem;
+  --fs-base: 1rem;
+  --fs-lg:   1.15rem;
+  --fs-xl:   1.4rem;
+  --fs-2xl:  1.9rem;
+
+  --radius: 3px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --ground:       #0C0E1B;
+    --surface:      #131628;
+    --surface-alt:  #181B2E;
+    --border:       #262B42;
+    --border-faint: #1C1F32;
+    --text:         #CDD1E2;
+    --text-muted:   #5B6280;
+    --text-faint:   #363B58;
+    --accent:       #C49430;
+    --accent-dim:   #1C1608;
+    --accent-bord:  #7A5A14;
+    --done:         #3AAF80;
+    --done-dim:     #071812;
+    --danger:       #CC5555;
+    --danger-dim:   #1C0C0C;
+    --w2:           #6A80D8;
+    --w2-dim:       #0F1330;
+    --w2-bord:      #2D3765;
+  }
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  background: var(--ground);
+  color: var(--text);
+  font-family: var(--font-body);
+  font-size: var(--fs-base);
+  line-height: 1.6;
+}
+
+.page { max-width: 940px; margin: 0 auto; padding: 2.5rem 1.5rem 5rem; }
+
+/* ─── Header ─── */
+.header {
+  display: flex; justify-content: space-between; align-items: flex-start;
+  gap: 1.5rem; margin-bottom: 2rem; padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--border);
+}
+.hdr-left h1 {
+  font-family: var(--font-display); font-size: var(--fs-2xl);
+  font-weight: 700; letter-spacing: -0.02em;
+}
+.hdr-left .sub {
+  font-family: var(--font-mono); font-size: var(--fs-xs); color: var(--text-muted);
+  margin-top: 0.35rem; letter-spacing: 0.04em; text-transform: uppercase;
+}
+.hdr-right { text-align: right; flex-shrink: 0; }
+.hdr-right .k { font-family: var(--font-mono); font-size: var(--fs-xs); color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.08em; }
+.hdr-right .v { font-family: var(--font-mono); font-size: var(--fs-sm); color: var(--text); }
+
+section { margin-bottom: 2.75rem; }
+
+.sec-label {
+  font-family: var(--font-mono); font-size: var(--fs-xs); color: var(--text-muted);
+  text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 0.7rem;
+}
+h2 {
+  font-family: var(--font-display); font-size: var(--fs-xl); font-weight: 700;
+  letter-spacing: -0.01em; margin-bottom: 0.8rem;
+}
+h3 {
+  font-family: var(--font-body); font-size: var(--fs-base); font-weight: 700;
+  margin: 1.4rem 0 0.45rem;
+}
+p { margin-bottom: 0.85rem; }
+p:last-child { margin-bottom: 0; }
+
+/* ─── Verdict ─── */
+.verdict {
+  background: var(--accent-dim); border: 1px solid var(--accent-bord);
+  border-radius: var(--radius); padding: 1.4rem 1.6rem; margin-bottom: 2.75rem;
+}
+.verdict .sec-label { color: var(--accent); }
+.verdict .lede {
+  font-family: var(--font-display); font-size: var(--fs-lg); line-height: 1.45;
+  margin-bottom: 0.9rem;
+}
+.verdict p { font-size: var(--fs-sm); }
+
+/* ─── Budget ─── */
+.budget-row { display: flex; gap: 3px; margin-bottom: 0.35rem; }
+.bseg {
+  padding: 0.5rem 0.6rem; border-radius: var(--radius);
+  font-family: var(--font-mono); font-size: var(--fs-xs); line-height: 1.35;
+  border: 1px solid var(--border);
+}
+.bseg b { display: block; font-size: var(--fs-sm); }
+.bseg.w3 { background: var(--accent-dim); border-color: var(--accent-bord); color: var(--accent); }
+.bseg.w2c { background: var(--w2-dim); border-color: var(--w2-bord); color: var(--w2); }
+.bseg.neutral { background: var(--surface-alt); color: var(--text-muted); }
+.budget-cap {
+  font-family: var(--font-mono); font-size: var(--fs-xs); color: var(--text-faint);
+  letter-spacing: 0.05em; margin-bottom: 1.2rem;
+}
+
+/* ─── Tables ─── */
+table { width: 100%; border-collapse: collapse; font-size: var(--fs-sm); }
+.tbl-wrap { overflow-x: auto; border: 1px solid var(--border); border-radius: var(--radius); background: var(--surface); }
+th {
+  text-align: left; font-family: var(--font-mono); font-size: var(--fs-xs);
+  text-transform: uppercase; letter-spacing: 0.07em; color: var(--text-muted);
+  font-weight: 400; padding: 0.6rem 0.9rem; border-bottom: 1px solid var(--border);
+  background: var(--surface-alt); white-space: nowrap;
+}
+td { padding: 0.7rem 0.9rem; border-bottom: 1px solid var(--border-faint); vertical-align: top; }
+tr:last-child td { border-bottom: none; }
+td.wk { font-family: var(--font-mono); font-size: var(--fs-xs); color: var(--text-muted); white-space: nowrap; width: 1%; }
+td.w3lane { border-left: 2px solid var(--accent-bord); }
+td.w2lane { border-left: 2px solid var(--w2-bord); }
+tr.gate td {
+  background: var(--done-dim); border-left: 2px solid var(--done);
+  font-family: var(--font-mono); font-size: var(--fs-xs); color: var(--done);
+  text-transform: uppercase; letter-spacing: 0.08em; padding: 0.5rem 0.9rem;
+}
+tr.sprint td.w2lane { background: var(--w2-dim); }
+tr.sprint td.w3lane { color: var(--text-muted); }
+.tag {
+  display: inline-block; font-family: var(--font-mono); font-size: var(--fs-xs);
+  text-transform: uppercase; letter-spacing: 0.06em; padding: 0.05rem 0.35rem;
+  border-radius: 2px; margin-bottom: 0.3rem;
+}
+.tag.wait { background: var(--surface-alt); color: var(--text-faint); border: 1px solid var(--border-faint); }
+.tag.sprintt { background: var(--w2); color: var(--surface); }
+
+/* ─── Callouts ─── */
+.note {
+  border-left: 2px solid var(--border); padding: 0.15rem 0 0.15rem 1rem;
+  font-size: var(--fs-sm); color: var(--text-muted); margin: 1rem 0;
+}
+.note.warn { border-left-color: var(--danger); }
+.note.w2n { border-left-color: var(--w2-bord); }
+.note.ok { border-left-color: var(--done); }
+
+/* ─── Cards ─── */
+.cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 0.7rem; }
+.card {
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: var(--radius); padding: 0.9rem 1rem;
+}
+.card .c-label {
+  font-family: var(--font-mono); font-size: var(--fs-xs); color: var(--text-muted);
+  text-transform: uppercase; letter-spacing: 0.07em; margin-bottom: 0.3rem;
+}
+.card .c-body { font-size: var(--fs-sm); }
+.card.w2 { border-color: var(--w2-bord); }
+.card.w2 .c-label { color: var(--w2); }
+.card.danger { border-color: var(--danger); }
+.card.danger .c-label { color: var(--danger); }
+
+ol.steps { list-style: none; counter-reset: s; }
+ol.steps li {
+  counter-increment: s; position: relative; padding-left: 2rem;
+  margin-bottom: 0.7rem; font-size: var(--fs-sm);
+}
+ol.steps li::before {
+  content: counter(s); position: absolute; left: 0; top: 0.05rem;
+  font-family: var(--font-mono); font-size: var(--fs-xs); font-weight: 700;
+  color: var(--accent); border: 1px solid var(--accent-bord); border-radius: 50%;
+  width: 1.35rem; height: 1.35rem; display: flex; align-items: center; justify-content: center;
+}
+ul.plain { list-style: none; }
+ul.plain li {
+  padding-left: 1.1rem; position: relative; font-size: var(--fs-sm); margin-bottom: 0.4rem;
+}
+ul.plain li::before {
+  content: "—"; position: absolute; left: 0; color: var(--text-faint);
+  font-family: var(--font-mono);
+}
+
+code {
+  font-family: var(--font-mono); font-size: 0.88em;
+  background: var(--surface-alt); border: 1px solid var(--border-faint);
+  border-radius: 2px; padding: 0.05em 0.3em;
+}
+
+footer {
+  margin-top: 3.5rem; padding-top: 1.25rem; border-top: 1px solid var(--border);
+  font-family: var(--font-mono); font-size: var(--fs-xs); color: var(--text-faint);
+  letter-spacing: 0.04em;
+}
+</style>
+</head>
+<body>
+<div class="page">
+
+<div class="header">
+  <div class="hdr-left">
+    <h1>Works 2 + 3 — Parallel Roadmap</h1>
+    <div class="sub">24 weeks · Aug 2026 → Feb 2027 · two papers in flight</div>
+  </div>
+  <div class="hdr-right">
+    <div class="k">Work 1</div>
+    <div class="v">submitted ✓</div>
+    <div class="k" style="margin-top:.5rem">Week 1</div>
+    <div class="v">25 Aug 2026</div>
+  </div>
+</div>
+
+<div class="verdict">
+  <div class="sec-label">The shape</div>
+  <div class="lede">
+    Both works get all three lanes — learn, build, write — from week 1. The parallelism is
+    bought two ways: Work 3's blocking waits become Work 2 sprints, and Vikas is instrumented
+    rather than built.
+  </div>
+  <p>
+    The version of this plan that fails is the one that slices six build hours into three and
+    three. Deep build work doesn't divide — three hours a week of experimentation finishes
+    nothing in either paper. So the split is <em>temporal, not proportional</em>: Work 3 owns
+    the build lane by default, and Work 2 takes it whole during the weeks Work 3 is blocked on
+    someone or something else.
+  </p>
+  <p>
+    Work 3 submits week 17. Work 2 has a complete first draft by week 24, with its baseline
+    measurements done before Work 3 even leaves your hands.
+  </p>
+</div>
+
+<section>
+  <div class="sec-label">Why this is affordable now</div>
+  <h2>Two things make the parallel version work</h2>
+
+  <div class="tbl-wrap">
+  <table>
+    <tr>
+      <td style="width:32%"><strong>Work 3 is full of dead time</strong></td>
+      <td>Weeks 8–9 the annotators are working independently — you are waiting. Week 12 the
+      Llama fine-tune is running on Lightning — you are waiting. Weeks 15–16 the supervisor has
+      the manuscript — you are waiting. That is roughly <strong>five weeks of already-budgeted
+      build hours</strong> where Work 3 physically cannot advance. Those weeks are Work 2's,
+      and taking them costs Work 3 nothing.</td>
+    </tr>
+    <tr>
+      <td><strong>Vikas is not greenfield</strong></td>
+      <td>The Work 2 testbed is a 45-agent system already running in production. The build work
+      is capability manifests, signed tool calls, and an audit log <em>added to code you own and
+      operate daily</em> — not a simulator written from scratch. Much of it is work the platform
+      arguably needs regardless. That is why Work 2 build can start in month 1 instead of month 5.</td>
+    </tr>
+  </table>
+  </div>
+
+  <div class="note ok">
+    <strong>The honest cost:</strong> Work 3's submission moves from week 16 to week 17, and the
+    weekly budget goes from 12 to 14 hours. If 12 is a hard ceiling, keep it — Work 3 then lands
+    week 19 and Work 2's draft week 26. Both are still far better than the serial path.
+  </div>
+</section>
+
+<section>
+  <div class="sec-label">The mechanism</div>
+  <h2>Two week-shapes, alternating</h2>
+
+  <div class="budget-row">
+    <div class="bseg neutral" style="flex:2"><b>LEARN · 2h</b>ML fundamentals</div>
+    <div class="bseg w3" style="flex:6"><b>BUILD · 6h</b>Work 3 experiments</div>
+    <div class="bseg w3" style="flex:2"><b>WRITE · 2h</b>Work 3 paper</div>
+    <div class="bseg w2c" style="flex:2"><b>READ · 2h</b>MCP security</div>
+    <div class="bseg w2c" style="flex:2"><b>WRITE · 2h</b>Work 2 §3</div>
+  </div>
+  <div class="budget-cap">▲ <b>Type A — Work 3 week</b> · 14h · the default, ~15 weeks of the plan</div>
+
+  <div class="budget-row">
+    <div class="bseg neutral" style="flex:2"><b>LEARN · 2h</b>ML fundamentals</div>
+    <div class="bseg w2c" style="flex:6"><b>BUILD · 6h</b>Work 2 testbed</div>
+    <div class="bseg w2c" style="flex:2"><b>WRITE · 2h</b>Work 2 paper</div>
+    <div class="bseg w3" style="flex:4"><b>KEEP-WARM · 4h</b>Work 3 writing / admin</div>
+  </div>
+  <div class="budget-cap">▲ <b>Type B — Work 2 sprint</b> · 14h · fires when Work 3 is blocked · weeks 2, 8, 9, 12, 15, 16</div>
+
+  <p style="font-size:var(--fs-sm)">
+    Note what stays constant across both shapes: <strong>Work 2 never loses its writing lane.</strong>
+    Two hours a week from week 3 onward, writing the section describing whatever you designed or
+    built that week. By the time Work 2 takes the build lane full-time at week 17, its
+    Introduction, Related Work, Threat Model and Architecture sections are already drafted —
+    which is exactly the lag you were worried about, removed.
+  </p>
+</section>
+
+<section>
+  <div class="sec-label">Weeks 1–24</div>
+  <h2>The grid</h2>
+
+  <div class="tbl-wrap">
+  <table>
+    <thead>
+      <tr>
+        <th>Wk</th>
+        <th>Work 3 — AutoComply-IoMT</th>
+        <th>Work 2 — Secure MCP</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="wk">1</td>
+        <td class="w3lane">Adjudicate the first 35 of 70 disputed labels in
+          <code>data/10_judge/adjudication.csv</code>. <strong>Message the second annotator today</strong>
+          — longest lead time in the plan. Paper skeleton.</td>
+        <td class="w2lane">Read the MCP spec end to end. Start the trust-assumption log:
+          every point the protocol takes an identity or a result on faith.</td>
+      </tr>
+      <tr class="sprint">
+        <td class="wk">2</td>
+        <td class="w3lane"><span class="tag wait">blocked · dataset download</span>
+          Finish adjudication, re-grade both judges against clean labels. Introduction draft.</td>
+        <td class="w2lane"><span class="tag sprintt">sprint</span>
+          <strong>Build the reference MCP harness.</strong> A server plus a client you fully
+          control — this is what every later attack runs against. Not a toy.</td>
+      </tr>
+      <tr>
+        <td class="wk">3–4</td>
+        <td class="w3lane">Atomise HIPAA §164.312 + ISO 27799 cl. 9–12 → ~120 atoms, same JSON schema
+          as <code>uae_ia_controls_structured.json</code>. Related Work draft.</td>
+        <td class="w2lane">arXiv cs.CR sweep, six search strings → 20-paper table with a gap column.
+          <em>Write:</em> Work 2 Related Work, first pass, while the reading is fresh.</td>
+      </tr>
+      <tr class="gate"><td colspan="3">Gate A · wk 4 — 120 atoms + CICIoMT2024 in hand, else Work 2 drops to reading-only</td></tr>
+      <tr>
+        <td class="wk">5–6</td>
+        <td class="w3lane">Incident records 1–30 (DDoS, recon, MQTT, spoofing). Methodology §1
+          atomisation protocol, §2 pipeline.</td>
+        <td class="w2lane">NIST SP 800-207 → map each tenet onto an MCP primitive.
+          <strong>Build:</strong> capability manifests for the Vikas agents — declare what each of
+          the 45 may call. <em>Write:</em> Work 2 §3 architecture.</td>
+      </tr>
+      <tr>
+        <td class="wk">7</td>
+        <td class="w3lane">Records 31–50. Kappa pilot: both annotators atomise the same 5 clauses.
+          Methodology §3 annotation protocol.</td>
+        <td class="w2lane">OWASP LLM01 + LLM02. Write the IoMT indirect-injection scenario:
+          sensor payload → agent context → tool call.</td>
+      </tr>
+      <tr class="sprint">
+        <td class="wk">8–9</td>
+        <td class="w3lane"><span class="tag wait">blocked · annotators working</span>
+          Both annotate the 50 records independently. You read ContractNLI and clean up
+          Methodology. 4h keep-warm only.</td>
+        <td class="w2lane"><span class="tag sprintt">sprint · 12h build</span>
+          <strong>Signed tool calls + tamper-evident audit log</strong> across all 45 agents.
+          Apply STRIDE to the MCP surface → the 6 × 4 matrix that becomes Figure 2.</td>
+      </tr>
+      <tr class="gate"><td colspan="3">Gate B · wk 9 — κ ≥ 0.75 on the pilot clauses, else add a sub-rule and re-annotate</td></tr>
+      <tr>
+        <td class="wk">10–11</td>
+        <td class="w3lane">Adjudicate disagreements → human answer key; record pre- and post-kappa
+          (both are results). <strong>Healthcare rerun:</strong> <code>build_gold_matrix</code> →
+          <code>build_atom_dataset</code> → <code>nli_judge</code> → <code>grade_judge</code>.
+          Results §1 + comparison table skeleton.</td>
+        <td class="w2lane">Implement attacks 1–2 against the harness: agent spoofing,
+          tool-result tampering. <em>Write:</em> Work 2 threat model section.</td>
+      </tr>
+      <tr class="sprint">
+        <td class="wk">12</td>
+        <td class="w3lane"><span class="tag wait">blocked · GPU training</span>
+          Llama fine-tune running on Lightning. Grade against the human key when it lands.</td>
+        <td class="w2lane"><span class="tag sprintt">sprint</span>
+          Attacks 3–5: indirect injection via a live Vikas data source, memory poisoning,
+          capability escalation. <strong>Full corpus complete.</strong></td>
+      </tr>
+      <tr>
+        <td class="wk">13–14</td>
+        <td class="w3lane">Error analysis — every disagreement categorised (label issue /
+          single-passage / genuine model error). Results §2, §3, and the NA-bias section.
+          Discussion + limitations + sovereignty argument.</td>
+        <td class="w2lane"><strong>Measure the undefended baseline</strong> — attack success rate
+          per STRIDE category on production Vikas. This is Work 2's headline number and it now
+          exists before Work 3 has even been submitted.</td>
+      </tr>
+      <tr class="sprint">
+        <td class="wk">15–16</td>
+        <td class="w3lane"><span class="tag wait">blocked · supervisor review</span>
+          Abstract, Conclusion, figures, citation cleanup, C&amp;S formatting. Freeze and tag the
+          repo. Send to supervisor, then wait.</td>
+        <td class="w2lane"><span class="tag sprintt">sprint · 12h build</span>
+          <strong>Enforce the zero-trust layer</strong>: authenticate every agent, authorise every
+          tool call against its manifest, verify freshness.</td>
+      </tr>
+      <tr>
+        <td class="wk">17</td>
+        <td class="w3lane">Supervisor revisions → <strong>submit to Computers &amp; Security</strong>.</td>
+        <td class="w2lane">Re-run the full attack corpus against the defended system.</td>
+      </tr>
+      <tr class="gate"><td colspan="3">Gate C · wk 17 — Work 3 submitted · Work 2 takes the build lane full-time</td></tr>
+      <tr>
+        <td class="wk">18–20</td>
+        <td class="w3lane" style="color:var(--text-faint)">Under review. 2h/wk reserve held for
+          reviewer response.</td>
+        <td class="w2lane">Report the defended/undefended delta plus the <strong>latency and token
+          cost</strong> of enforcement — reviewers at TDSC will ask what zero trust costs, and a
+          production system can answer honestly. Results section written.</td>
+      </tr>
+      <tr>
+        <td class="wk">21–24</td>
+        <td class="w3lane" style="color:var(--text-faint)">Reviewer response if it lands.</td>
+        <td class="w2lane">Ablations (which control stops which attack), Discussion, Abstract,
+          full read-through. <strong>Work 2 complete first draft to supervisor at week 24.</strong></td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+</section>
+
+<section>
+  <div class="sec-label">Sequencing logic</div>
+  <h2>Why Work 2 builds in this order</h2>
+  <p style="font-size:var(--fs-sm)">
+    Each increment is independently useful and produces a paper artefact, so an interrupted month
+    never leaves you with a half-thing that proves nothing:
+  </p>
+  <div class="cards">
+    <div class="card w2">
+      <div class="c-label">wk 2 · harness</div>
+      <div class="c-body">A server and client you fully control. Everything later is measured
+        against this, and it doubles as the artefact you release.</div>
+    </div>
+    <div class="card w2">
+      <div class="c-label">wk 5–9 · instrumentation</div>
+      <div class="c-body">Manifests, signed calls, audit log. Without the log you cannot
+        <em>observe</em> an attack succeeding — so this must precede the attacks, not follow them.</div>
+    </div>
+    <div class="card w2">
+      <div class="c-label">wk 11–14 · attacks + baseline</div>
+      <div class="c-body">One attack per STRIDE category, then the undefended success rate.
+        The baseline is worthless if measured after you've hardened anything.</div>
+    </div>
+    <div class="card w2">
+      <div class="c-label">wk 15–20 · defence + delta</div>
+      <div class="c-body">Enforcement, re-run, and the cost of enforcement. The delta is the
+        contribution; the cost is what makes it credible.</div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="sec-label">Risk</div>
+  <h2>What actually kills this plan</h2>
+  <div class="cards">
+    <div class="card danger">
+      <div class="c-label">Two papers, both at 90%</div>
+      <div class="c-body">The real failure mode of parallel work. Defence: only Work 3 has a
+        submission date before week 17. Whenever the two collide, Work 3 wins and Work 2 falls
+        back to its 2h reading floor — never to zero, never above the floor.</div>
+    </div>
+    <div class="card danger">
+      <div class="c-label">The second annotator</div>
+      <div class="c-body">Load-bearing for contribution #2 and the one thing whose timing you don't
+        control. If unconfirmed by week 3, Gate B slips and the week 8–9 sprint arrives early
+        instead — which is survivable, but only if you notice.</div>
+    </div>
+    <div class="card danger">
+      <div class="c-label">Instrumenting production</div>
+      <div class="c-body">Vikas is live. Signed tool calls and enforcement on a running 45-agent
+        system can break outreach. Build behind a flag, shadow-mode first, and never let a
+        Work 2 experiment page you at 2am during a Work 3 gate week.</div>
+    </div>
+    <div class="card danger">
+      <div class="c-label">Work 1 revision returns</div>
+      <div class="c-body">A second round on COMNET-D-858858 could land any week. Treat it as a
+        two-week full stop and push everything right — do not try to absorb it into a 14-hour week.</div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="sec-label">Week 1, day 1</div>
+  <h2>Start here</h2>
+  <ol class="steps">
+    <li><strong>Message the second annotator.</strong> Before anything else — the only task whose
+      lead time you don't control. ~20 hours of their time across weeks 7–9.</li>
+    <li><strong>Start CICIoMT2024 downloading</strong> from <code>cicresearch.ca/IOTDataset/CICIoMT2024/</code>
+      — it gates month 2, and its download time is what makes week 2 a Work 2 sprint.</li>
+    <li><strong>Open <code>data/10_judge/adjudication.csv</code></strong>, work the first 20 HIGH-priority
+      rows. Judge agreement is 0.54 with κ = 0.23 across 162 pairs; these labels are the cheapest
+      quality win available.</li>
+    <li><strong>Two hours on the MCP spec</strong>, and open <code>docs/WORK2_LIT.md</code> with
+      three columns — paper, threat covered, gap.</li>
+  </ol>
+</section>
+
+<footer>
+  Sources: docs/handoff_phd_aug2026.docx · docs/WORK3_EXECUTION_PLAN.md · docs/LLM_STUDY_PLAN.md ·
+  data/10_judge/grade_report.json · git log through 2026-07-30
+</footer>
+
+</div>
+</body>
+</html>

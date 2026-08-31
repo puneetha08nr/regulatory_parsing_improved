@@ -1,0 +1,100 @@
+{
+  "model": "cross-encoder/nli-deberta-v3-small",
+  "threshold": 0.1,
+  "n_pairs": 3800,
+  "n_positives": 329,
+  "test_split": {
+    "tp": 2,
+    "fp": 7,
+    "fn": 88,
+    "tn": 1043,
+    "precision": 0.2222,
+    "recall": 0.0222,
+    "f1": 0.0404,
+    "accuracy": 0.9167
+  },
+  "all_pairs": {
+    "tp": 5,
+    "fp": 23,
+    "fn": 324,
+    "tn": 3448,
+    "precision": 0.1786,
+    "recall": 0.0152,
+    "f1": 0.028,
+    "accuracy": 0.9087
+  },
+  "by_standard": {
+    "HIPAA": {
+      "tp": 5,
+      "fp": 19,
+      "fn": 185,
+      "tn": 1141,
+      "precision": 0.2083,
+      "recall": 0.0263,
+      "f1": 0.0467,
+      "accuracy": 0.8489
+    },
+    "ISO 27002": {
+      "tp": 0,
+      "fp": 4,
+      "fn": 139,
+      "tn": 2307,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0,
+      "accuracy": 0.9416
+    }
+  },
+  "by_attack_category": {
+    "MQTT": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 87,
+      "tn": 825,
+      "precision": 0,
+      "recall": 0.0,
+      "f1": 0,
+      "accuracy": 0.9046
+    },
+    "Spoofing": {
+      "tp": 3,
+      "fp": 12,
+      "fn": 46,
+      "tn": 471,
+      "precision": 0.2,
+      "recall": 0.0612,
+      "f1": 0.0938,
+      "accuracy": 0.891
+    },
+    "DDoS": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 74,
+      "tn": 838,
+      "precision": 0,
+      "recall": 0.0,
+      "f1": 0,
+      "accuracy": 0.9189
+    },
+    "Recon": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 73,
+      "tn": 763,
+      "precision": 0,
+      "recall": 0.0,
+      "f1": 0,
+      "accuracy": 0.9127
+    },
+    "DoS": {
+      "tp": 2,
+      "fp": 11,
+      "fn": 44,
+      "tn": 551,
+      "precision": 0.1538,
+      "recall": 0.0435,
+      "f1": 0.0678,
+      "accuracy": 0.9095
+    }
+  }
+}

@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Work 3 Tracker — AutoComply-IoMT</title>
+<style>
+/* ─── Design tokens — light first ─── */
+:root {
+  --ground:       #F0EFE9;
+  --surface:      #FAFAF7;
+  --surface-alt:  #F4F3EE;
+  --border:       #D4D0C8;
+  --border-faint: #E4E2DB;
+
+  --text:         #1A1D2C;
+  --text-muted:   #737688;
+  --text-faint:   #A8ABBE;
+
+  --accent:       #9A6F1E;
+  --accent-dim:   #F2E8D4;
+  --accent-bord:  #D4A84B;
+
+  --done:         #2A7A5A;
+  --done-dim:     #D4EEE3;
+
+  --danger:       #B04040;
+
+  --learn-col:    #4A5CB8;
+
+  --font-display: Georgia, 'Times New Roman', serif;
+  --font-body:    system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono:    'Courier New', Courier, monospace;
+
+  --fs-xs:   0.7rem;
+  --fs-sm:   0.84rem;
+  --fs-base: 1rem;
+  --fs-lg:   1.15rem;
+  --fs-xl:   1.4rem;
+  --fs-2xl:  1.9rem;
+  --fs-hero: 4.5rem;
+
+  --radius: 3px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --ground:       #0C0E1B;
+    --surface:      #131628;
+    --surface-alt:  #181B2E;
+    --border:       #262B42;
+    --border-faint: #1C1F32;
+    --text:         #CDD1E2;
+    --text-muted:   #5B6280;
+    --text-faint:   #363B58;
+    --accent:       #C49430;
+    --accent-dim:   #1C1608;
+    --accent-bord:  #7A5A14;
+    --done:         #3AAF80;
+    --done-dim:     #071812;
+    --danger:       #CC5555;
+    --learn-col:    #6A80D8;
+  }
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  background: var(--ground);
+  color: var(--text);
+  font-family: var(--font-body);
+  font-size: var(--fs-base);
+  line-height: 1.6;
+}
+
+.page {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 2.5rem 1.5rem 5rem;
+}
+
+/* ─── Header ─── */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1.5rem;
+  margin-bottom: 1.75rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.hdr-left h1 {
+  font-family: var(--font-display);
+  font-size: var(--fs-2xl);
+  font-weight: 700;
+  color: var(--text);
+  letter-spacing: -0.02em;
+}
+
+.hdr-left .sub {
+  font-family: var(--font-mono);
+  font-size: var(--fs-xs);
+  color: var(--text-muted);
+  margin-top: 0.3rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.hdr-right { text-align: right; flex-shrink: 0; }
+
+.week-eyebrow {
+  font-family: var(--font-mono);
+  font-size: var(--fs-xs);
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.week-hero {
+  font-family: var(--font-display);
+  font-size: var(--fs-hero);
+  font-weight: 700;
+  color: var(--accent);
+  line-height: 0.95;
+  letter-spacing: -0.04em;
+}
+
+.week-denom {
+  font-family: var(--font-mono);
+  font-size: var(--fs-sm);
+  color: var(--text-muted);
+  margin-top: 0.2rem;
+}
+
+/* ─── Progress bar ─── */
+.progress-wrapper { margin-bottom: 2.5rem; }
+
+.progress-row {
+  display: flex;
+  gap: 3px;
+  margin-bottom: 2rem;
+}
+
+.wk-pip {
+  flex: 1;
+  height: 8px;
+  border-radius: 1px;
+  background: var(--surface-alt);
+  border: 1px solid var(--border-faint);
+  position: relative;
+}
+
+.wk-pip.done   { background: var(--done);   border-color: var(--done); }
+.wk-pip.active { background: var(--accent); border-color: var(--accent-bord); }
+
+.wk-pip .wk-num {
+  position: absolute;
+  bottom: -18px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: var(--font-mono);
+  font-size: 9px;
+  color: var(--text-faint);
+  white-space: nowrap;
+}
+
+.wk-pip.active .wk-num { color: var(--accent); font-weight: 700; }
+.wk-pip.done   .wk-num { color: var(--done); }
+
+.progress-labels {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+  font-family: var(--font-mono);
+  font-size: var(--fs-xs);
+  color: var(--text-faint);
+  letter-spacing: 0.05em;
+}
+
+/* ─── Section label ─── */
+.sec-label {
+  font-family: var(--font-mono);
+  font-size: var(--fs-xs);
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 0.6rem;
+}
+
+/* ─── Metrics ─── */
+.metric-row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.6rem;
+  margin-bottom: 2rem;
+}
+
+.metric {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 0.7rem 0.9rem;
+}
+
+.m-label {
+  font-family: var(--font-mono);
+  font-size: var(--fs-xs);
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.m-val {
+  font-family: var(--font-mono);
+  font-size: var(--fs-xl);
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  color: var(--text);
+  line-height: 1.2;
+  margin-top: 0.1rem;
+}
+
+.m-val.warn { color: var(--danger); }
+.m-val.ok   { color: var(--done); }
+
+.m-sub {
+  font-family: var(--font-mono);
+  font-size: var(--fs-xs);
+  color: var(--text-muted);
+  margin-top: 0.15rem;
+}
+
+/* ─── This week ─── */
+.this-week {
+  background: var(--surface);
+  border: 1px solid var(--accent-bord);
+  border-radius: var(--radius);
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 1.25rem;
+}
+
+.tw-header {
+  display: flex;
+  align-items: baseline;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid var(--border-faint);
+}
+
+.tw-title {
+  font-family: var(--font-display);
+  font-size: var(--fs-lg);
+  font-weight: 700;
+  color: var(--text);
+}
+
+.tw-badge {
+  font-family: var(--font-mono);
+  font-size: var(--fs-xs);
+  background: var(--accent-dim);
+  color: var(--accent);
+  padding: 0.1rem 0.45rem;
+  border-radius: 2px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  border: 1px solid var(--accent-bord);
+}
+
+.lanes {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 0.75rem;
+}
+
+.lane {
+  background: var(--ground);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 0.8rem;
+}
+
+.lane-hdr {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 0.5rem;
+}
+
+.lane-name {
+  font-family: var(--font-mono);
+  font-size: var(--fs-xs);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.lane-hrs {
+  font-family: var(--font-mono);
+  font-size: var(--fs-xs);
+  color: var(--text-muted);
+}
+
+.lane.learn .lane-name { color: var(--learn-col); }
+.lane.build .lane-name { color: var(--accent); }
+.lane.write .lane-name { color: var(--done); }
+
+.lane ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.lane li {
+  font-size: var(--fs-sm);
+  color: var(--text);
+  padding-left: 0.85rem;
+  position: relative;
+  line-height: 1.4;
+}
+
+.lane li::before {
+  content: '–';
+  position: absolute;
+  left: 0;
+  color: var(--text-faint);
+}
+
+/* ─── Next action ─── */
+.next-action {
+  background: var(--accent-dim);
+  border: 1px solid var(--accent-bord);
+  border-radius: var(--radius);
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.na-label {
+  font-family: var(--font-mono);
+  font-size: var(--fs-xs);
+  color: var(--accent);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 0.85rem;
+  font-weight: 700;
+}
+
+.cmd-block {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 0.7rem 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+.cmd {
+  font-family: var(--font-mono);
+  font-size: var(--fs-sm);
+  color: var(--text);
+  word-break: break-all;
+}
+
+.cmd::before {
+  content: '$ ';
+  color: var(--text-faint);
+}
+
+.cmd-note {
+  font-family: var(--font-mono);
+  font-size: var(--fs-xs);
+  color: var(--text-muted);
+  margin-top: 0.3rem;
+  line-height: 1.4;
+}
+
+/* ─── Month grid ─── */
+.month-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.6rem;
+  margin-bottom: 2rem;
+}
+
+.month-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 0.85rem 1rem;
+}
+
+.month-card.active { border-color: var(--accent-bord); }
+
+.month-eyebrow {
+  font-family: var(--font-mono);
+  font-size: var(--fs-xs);
+  color: var(--text-faint);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 0.3rem;
+}
+
+.month-card.active .month-eyebrow { color: var(--accent); }
+
+.month-name {
+  font-family: var(--font-display);
+  font-size: var(--fs-base);
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: 0.4rem;
+}
+
+.month-exit {
+  font-size: var(--fs-xs);
+  color: var(--text-muted);
+  line-height: 1.5;
+  margin-bottom: 0.6rem;
+}
+
+.month-pips { display: flex; gap: 3px; }
+
+.pip {
+  flex: 1;
+  height: 4px;
+  border-radius: 1px;
+  background: var(--surface-alt);
+  border: 1px solid var(--border-faint);
+}
+
+.pip.done   { background: var(--done);   border-color: var(--done); }
+.pip.active { background: var(--accent); border-color: var(--accent-bord); }
+
+/* ─── Claims ─── */
+.claims { display: flex; flex-direction: column; gap: 0.5rem; }
+
+.claim {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 0.7rem 1rem;
+}
+
+.claim-n {
+  font-family: var(--font-mono);
+  font-size: var(--fs-xs);
+  font-weight: 700;
+  color: var(--accent);
+  flex-shrink: 0;
+  padding-top: 0.1em;
+  letter-spacing: 0.05em;
+}
+
+.claim-body { font-size: var(--fs-sm); color: var(--text); line-height: 1.5; }
+.claim-body strong { font-weight: 600; }
+
+/* ─── Responsive ─── */
+@media (max-width: 620px) {
+  .metric-row { grid-template-columns: repeat(2, 1fr); }
+  .lanes      { grid-template-columns: 1fr; }
+  .month-grid { grid-template-columns: repeat(2, 1fr); }
+  .header     { flex-direction: column-reverse; }
+  .hdr-right  { text-align: left; }
+  .week-hero  { font-size: 3rem; }
+}
+</style>
+</head>
+<body>
+<div class="page">
+
+  <header class="header">
+    <div class="hdr-left">
+      <h1>Work 3 — AutoComply-IoMT</h1>
+      <div class="sub">Computers &amp; Security &nbsp;·&nbsp; 16-week plan &nbsp;·&nbsp; Aug – Nov 2026</div>
+    </div>
+    <div class="hdr-right">
+      <div class="week-eyebrow">Current week</div>
+      <div class="week-hero">01</div>
+      <div class="week-denom">of 16</div>
+    </div>
+  </header>
+
+  <div class="progress-wrapper">
+    <div class="progress-row">
+      <div class="wk-pip active"><span class="wk-num">1</span></div>
+      <div class="wk-pip"><span class="wk-num">2</span></div>
+      <div class="wk-pip"><span class="wk-num">3</span></div>
+      <div class="wk-pip"><span class="wk-num">4</span></div>
+      <div class="wk-pip"><span class="wk-num">5</span></div>
+      <div class="wk-pip"><span class="wk-num">6</span></div>
+      <div class="wk-pip"><span class="wk-num">7</span></div>
+      <div class="wk-pip"><span class="wk-num">8</span></div>
+      <div class="wk-pip"><span class="wk-num">9</span></div>
+      <div class="wk-pip"><span class="wk-num">10</span></div>
+      <div class="wk-pip"><span class="wk-num">11</span></div>
+      <div class="wk-pip"><span class="wk-num">12</span></div>
+      <div class="wk-pip"><span class="wk-num">13</span></div>
+      <div class="wk-pip"><span class="wk-num">14</span></div>
+      <div class="wk-pip"><span class="wk-num">15</span></div>
+      <div class="wk-pip"><span class="wk-num">16</span></div>
+    </div>
+    <div class="progress-labels">
+      <span>Month 1 — Foundations</span>
+      <span>Month 2 — Annotation</span>
+      <span>Month 3 — Experiments</span>
+      <span>Month 4 — Submit</span>
+    </div>
+  </div>
+
+  <div class="sec-label">Current numbers — v1 labels (circular). Replace after adjudication.</div>
+  <div class="metric-row">
+    <div class="metric">
+      <div class="m-label">Cohen's κ</div>
+      <div class="m-val warn">0.234</div>
+      <div class="m-sub">fair · target &gt; 0.60</div>
+    </div>
+    <div class="metric">
+      <div class="m-label">pos F1</div>
+      <div class="m-val">0.69</div>
+      <div class="m-sub">P=0.79 · R=0.61</div>
+    </div>
+    <div class="metric">
+      <div class="m-label">eval pairs</div>
+      <div class="m-val">162</div>
+      <div class="m-sub">70 disputed</div>
+    </div>
+    <div class="metric">
+      <div class="m-label">HIPAA atoms</div>
+      <div class="m-val warn">0 / 120</div>
+      <div class="m-sub">target: Week 4</div>
+    </div>
+  </div>
+
+  <div class="this-week">
+    <div class="tw-header">
+      <div class="tw-title">Week 1 — Foundations + Data</div>
+      <span class="tw-badge">Aug 6 – 12</span>
+    </div>
+    <div class="lanes">
+      <div class="lane learn">
+        <div class="lane-hdr">
+          <span class="lane-name">Learn</span>
+          <span class="lane-hrs">4 hrs · Phase 0A</span>
+        </div>
+        <ul>
+          <li>Vectors, dot product, cosine similarity</li>
+          <li>Gradients and the chain rule</li>
+          <li>3Blue1Brown Neural Networks — videos 1–4</li>
+          <li>Start Andrew Ng ML course</li>
+        </ul>
+      </div>
+      <div class="lane build">
+        <div class="lane-hdr">
+          <span class="lane-name">Build</span>
+          <span class="lane-hrs">6 hrs · highest leverage</span>
+        </div>
+        <ul>
+          <li>Open adjudication.csv — 70 disputed rows</li>
+          <li>HIGH rows first (pre-filled suggestions)</li>
+          <li>Run adjudicate.py --apply</li>
+          <li>Rebuild judged file against v2 key, re-grade</li>
+        </ul>
+      </div>
+      <div class="lane write">
+        <div class="lane-hdr">
+          <span class="lane-name">Write</span>
+          <span class="lane-hrs">2 hrs · paper skeleton</span>
+        </div>
+        <ul>
+          <li>Computers &amp; Security LaTeX template</li>
+          <li>Section headings only — no prose yet</li>
+          <li>Message a second annotator today</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="next-action">
+    <div class="na-label">&#9654; Do this now</div>
+    <div class="cmd-block">
+      <div class="cmd">open data/10_judge/adjudication.csv</div>
+      <div class="cmd-note">Edit the `decision` column where you disagree. HIGH rows are pre-filled — scan and correct; LOW rows need your judgment. Takes 2–3 hrs.</div>
+    </div>
+    <div class="cmd-block">
+      <div class="cmd">python3 scripts/adjudicate.py --apply</div>
+      <div class="cmd-note">Writes data/07_golden_mapping/answer_key_v2.json with your corrected labels.</div>
+    </div>
+    <div class="cmd-block">
+      <div class="cmd">python3 scripts/build_atom_dataset.py --answer-key data/07_golden_mapping/answer_key_v2.json</div>
+      <div class="cmd-note">Rebuilds the atom dataset against the clean labels (check script for exact flag name).</div>
+    </div>
+    <div class="cmd-block">
+      <div class="cmd">python3 scripts/grade_judge.py --judged data/10_judge/answer_key.judged_llama.json</div>
+      <div class="cmd-note">Re-grades Llama judge. The new κ replaces 0.234 above and becomes your published baseline.</div>
+    </div>
+  </div>
+
+  <div class="sec-label">16-week map</div>
+  <div class="month-grid">
+    <div class="month-card active">
+      <div class="month-eyebrow">Month 1 · Weeks 1–4</div>
+      <div class="month-name">Foundations + Data</div>
+      <div class="month-exit">Exit: clean labels · CICIoMT2024 in hand · 120 HIPAA atoms · Intro drafted</div>
+      <div class="month-pips">
+        <div class="pip active"></div>
+        <div class="pip"></div>
+        <div class="pip"></div>
+        <div class="pip"></div>
+      </div>
+    </div>
+    <div class="month-card">
+      <div class="month-eyebrow">Month 2 · Weeks 5–8</div>
+      <div class="month-name">Transformer + Annotation</div>
+      <div class="month-exit">Exit: 50 IoMT records · two annotator sets · κ measured · Methodology drafted</div>
+      <div class="month-pips">
+        <div class="pip"></div>
+        <div class="pip"></div>
+        <div class="pip"></div>
+        <div class="pip"></div>
+      </div>
+    </div>
+    <div class="month-card">
+      <div class="month-eyebrow">Month 3 · Weeks 9–12</div>
+      <div class="month-name">Fine-tuning + Experiments</div>
+      <div class="month-exit">Exit: all experiments done · full Results with real numbers</div>
+      <div class="month-pips">
+        <div class="pip"></div>
+        <div class="pip"></div>
+        <div class="pip"></div>
+        <div class="pip"></div>
+      </div>
+    </div>
+    <div class="month-card">
+      <div class="month-eyebrow">Month 4 · Weeks 13–16</div>
+      <div class="month-name">Polish + Submit</div>
+      <div class="month-exit">Exit: submitted to Computers &amp; Security</div>
+      <div class="month-pips">
+        <div class="pip"></div>
+        <div class="pip"></div>
+        <div class="pip"></div>
+        <div class="pip"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="sec-label">Three claims — everything you build protects these</div>
+  <div class="claims">
+    <div class="claim">
+      <div class="claim-n">C1</div>
+      <div class="claim-body"><strong>Per-atom HIPAA decomposition.</strong> First systematic atomisation of a healthcare standard — reduces compliance verification to binary entailment a local model can execute.</div>
+    </div>
+    <div class="claim">
+      <div class="claim-n">C2</div>
+      <div class="claim-body"><strong>NA-bias annotation finding.</strong> Human annotators systematically over-label "Not Addressed"; existing compliance benchmarks inherit this bias.</div>
+    </div>
+    <div class="claim">
+      <div class="claim-n">C3</div>
+      <div class="claim-body"><strong>Local-model viability under data sovereignty.</strong> HIPAA §164.312 prohibits routing PHI through cloud APIs — the constraint is the design requirement, not a limitation.</div>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>

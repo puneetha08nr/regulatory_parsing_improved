@@ -1,0 +1,49 @@
+{
+  "n_records": 50,
+  "n_atoms": 76,
+  "n_pairs": 3800,
+  "label_counts": {
+    "N": 3471,
+    "Y": 329
+  },
+  "positive_rate": 0.0866,
+  "by_standard": {
+    "HIPAA": {
+      "positives": 190,
+      "total": 1350,
+      "rate": 0.1407
+    },
+    "ISO 27002": {
+      "positives": 139,
+      "total": 2450,
+      "rate": 0.0567
+    }
+  },
+  "by_attack_category": {
+    "MQTT": {
+      "positives": 87,
+      "total": 912,
+      "rate": 0.0954
+    },
+    "Spoofing": {
+      "positives": 49,
+      "total": 532,
+      "rate": 0.0921
+    },
+    "DDoS": {
+      "positives": 74,
+      "total": 912,
+      "rate": 0.0811
+    },
+    "Recon": {
+      "positives": 73,
+      "total": 836,
+      "rate": 0.0873
+    },
+    "DoS": {
+      "positives": 46,
+      "total": 608,
+      "rate": 0.0757
+    }
+  }
+}

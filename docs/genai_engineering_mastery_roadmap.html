@@ -1,0 +1,1184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>80/20 GenAI Engineering Mastery — 30-Day Roadmap</title>
+<style>
+/* ── Tokens ─────────────────────────────────────────────── */
+:root {
+  --bg:           #F5F7FB;
+  --surface:      #FFFFFF;
+  --surface-2:    #EEF2FF;
+  --border:       #DDE3EE;
+  --text:         #0E1623;
+  --text-2:       #4A5568;
+  --text-3:       #8896A8;
+  --accent:       #2256D8;
+  --accent-bg:    #EBF0FD;
+  --phase:        #C45C10;
+  --phase-bg:     #FFF4EC;
+  --must-bg:      #2256D8;
+  --must-text:    #FFFFFF;
+  --nice-bg:      #E8EDF5;
+  --nice-text:    #4A5568;
+  --code-bg:      #EEF2F8;
+  --nav-bg:       #FAFBFE;
+  --ghost:        rgba(34,86,216,0.06);
+  --shadow:       0 1px 3px rgba(14,22,35,0.08), 0 1px 2px rgba(14,22,35,0.04);
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg:         #0D1117;
+    --surface:    #161C28;
+    --surface-2:  #1A2136;
+    --border:     #252F42;
+    --text:       #E4EAF5;
+    --text-2:     #8896A8;
+    --text-3:     #4E5E72;
+    --accent:     #5B8AF5;
+    --accent-bg:  #17213A;
+    --phase:      #E07B3A;
+    --phase-bg:   #1F1309;
+    --must-bg:    #2256D8;
+    --must-text:  #FFFFFF;
+    --nice-bg:    #1E2A3C;
+    --nice-text:  #8896A8;
+    --code-bg:    #1A2136;
+    --nav-bg:     #111722;
+    --ghost:      rgba(91,138,245,0.07);
+    --shadow:     0 1px 3px rgba(0,0,0,0.3);
+  }
+}
+:root[data-theme="dark"] {
+  --bg:         #0D1117;
+  --surface:    #161C28;
+  --surface-2:  #1A2136;
+  --border:     #252F42;
+  --text:       #E4EAF5;
+  --text-2:     #8896A8;
+  --text-3:     #4E5E72;
+  --accent:     #5B8AF5;
+  --accent-bg:  #17213A;
+  --phase:      #E07B3A;
+  --phase-bg:   #1F1309;
+  --must-bg:    #2256D8;
+  --must-text:  #FFFFFF;
+  --nice-bg:    #1E2A3C;
+  --nice-text:  #8896A8;
+  --code-bg:    #1A2136;
+  --nav-bg:     #111722;
+  --ghost:      rgba(91,138,245,0.07);
+  --shadow:     0 1px 3px rgba(0,0,0,0.3);
+}
+/* ── Reset ── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { font-size: 16px; scroll-behavior: smooth; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  min-height: 100vh;
+}
+/* ── Layout ── */
+.layout {
+  display: grid;
+  grid-template-columns: 232px 1fr;
+  grid-template-areas: "nav main";
+  max-width: 1160px;
+  margin: 0 auto;
+  gap: 0 40px;
+  padding: 0 24px;
+}
+@media (max-width: 860px) {
+  .layout { grid-template-columns: 1fr; grid-template-areas: "main"; padding: 0 16px; }
+  .sidebar { display: none; }
+}
+/* ── Sidebar ── */
+.sidebar {
+  grid-area: nav;
+  position: sticky;
+  top: 24px;
+  align-self: start;
+  max-height: calc(100vh - 48px);
+  overflow-y: auto;
+  background: var(--nav-bg);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 18px 0;
+  margin-top: 40px;
+}
+.sidebar::-webkit-scrollbar { width: 3px; }
+.sidebar::-webkit-scrollbar-thumb { background: var(--border); border-radius: 2px; }
+.nav-section { padding: 0 14px 4px; margin-top: 10px; }
+.nav-section:first-child { margin-top: 0; }
+.nav-phase {
+  font-size: 9.5px;
+  font-weight: 700;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--phase);
+  padding: 4px 0 2px;
+}
+.nav-link {
+  display: block;
+  font-size: 12px;
+  color: var(--text-2);
+  text-decoration: none;
+  padding: 3px 6px;
+  border-radius: 4px;
+  transition: background .12s, color .12s;
+}
+.nav-link:hover { background: var(--ghost); color: var(--accent); }
+.nav-link.top { font-weight: 600; font-size: 12.5px; color: var(--text); }
+/* ── Main ── */
+main { grid-area: main; padding: 40px 0 80px; min-width: 0; }
+/* ── Header ── */
+.doc-eyebrow {
+  font-size: 11px; font-weight: 700; letter-spacing: .12em;
+  text-transform: uppercase; color: var(--phase); margin-bottom: 10px;
+}
+.doc-title {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: clamp(24px, 4.5vw, 40px);
+  font-weight: 700; line-height: 1.15;
+  color: var(--text); text-wrap: balance; margin-bottom: 24px;
+}
+.doc-title em { font-style: normal; color: var(--accent); }
+/* ── TL;DR ── */
+.tldr {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--accent);
+  border-radius: 0 10px 10px 0;
+  padding: 18px 22px; margin-bottom: 14px;
+}
+.tldr-label {
+  font-size: 10px; font-weight: 700; letter-spacing: .1em;
+  text-transform: uppercase; color: var(--accent); margin-bottom: 10px;
+}
+.tldr ul { padding-left: 18px; }
+.tldr li { font-size: 14px; color: var(--text-2); margin-bottom: 8px; line-height: 1.6; }
+.tldr li:last-child { margin-bottom: 0; }
+.tldr strong { color: var(--text); }
+/* ── Section title ── */
+.section-title {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 21px; font-weight: 700; color: var(--text);
+  margin: 48px 0 18px; padding-bottom: 10px; border-bottom: 1px solid var(--border);
+}
+/* ── Findings ── */
+.findings { display: flex; flex-direction: column; gap: 10px; margin-bottom: 48px; }
+.finding {
+  display: grid; grid-template-columns: 30px 1fr; gap: 12px;
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: 8px; padding: 13px 15px; box-shadow: var(--shadow);
+}
+.finding-num { font-size: 12px; font-weight: 700; color: var(--accent); padding-top: 2px; }
+.finding-text { font-size: 13.5px; color: var(--text-2); line-height: 1.6; }
+.finding-text strong { color: var(--text); }
+/* ── Phase header ── */
+.phase-header {
+  background: var(--phase-bg); border: 1px solid var(--border);
+  border-top: 3px solid var(--phase); border-radius: 0 0 10px 10px;
+  padding: 14px 18px; margin: 48px 0 20px;
+}
+.phase-label { font-size: 10px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--phase); margin-bottom: 3px; }
+.phase-title { font-family: Georgia, 'Times New Roman', serif; font-size: 17px; font-weight: 700; color: var(--text); }
+.phase-meta { font-size: 12px; color: var(--text-3); margin-top: 3px; }
+/* ── Day cards ── */
+.day-card {
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: 10px; padding: 22px; margin-bottom: 18px;
+  box-shadow: var(--shadow); position: relative; overflow: hidden;
+}
+.day-card::before {
+  content: attr(data-day);
+  position: absolute; right: 14px; top: 6px;
+  font-size: 68px; font-weight: 900; color: var(--ghost);
+  line-height: 1; pointer-events: none; user-select: none;
+}
+.day-label { font-size: 10px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--text-3); margin-bottom: 4px; }
+.day-title { font-size: 16.5px; font-weight: 700; color: var(--text); line-height: 1.3; text-wrap: balance; }
+.badge-row { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 8px; }
+/* ── Badges ── */
+.badge {
+  display: inline-flex; align-items: center; gap: 3px;
+  font-size: 10.5px; font-weight: 600; padding: 2px 8px;
+  border-radius: 20px; letter-spacing: .02em;
+}
+.badge-must { background: var(--must-bg); color: var(--must-text); }
+.badge-nice { background: var(--nice-bg); color: var(--nice-text); }
+.badge-role { background: var(--surface-2); color: var(--text-2); border: 1px solid var(--border); }
+.badge-phase { background: var(--phase-bg); color: var(--phase); border: 1px solid var(--border); }
+/* ── Day body ── */
+.day-body { font-size: 13.5px; color: var(--text-2); margin-top: 14px; }
+.day-body h4 {
+  font-size: 11px; font-weight: 700; letter-spacing: .08em;
+  text-transform: uppercase; color: var(--text-3); margin: 14px 0 7px;
+}
+.day-body h4:first-child { margin-top: 0; }
+.day-body ul { padding-left: 18px; }
+.day-body li { margin-bottom: 5px; line-height: 1.6; }
+.day-body li strong { color: var(--text); }
+.day-body p { margin-bottom: 8px; }
+.day-body code {
+  background: var(--code-bg); color: var(--accent);
+  font-family: 'SF Mono', 'Cascadia Code', 'Consolas', monospace;
+  font-size: 11.5px; padding: 1px 5px; border-radius: 3px;
+}
+.hands-on {
+  background: var(--surface-2); border-radius: 7px;
+  padding: 11px 14px; margin-top: 12px; font-size: 13px;
+}
+.hands-on strong { color: var(--accent); }
+.resources-block {
+  margin-top: 10px; font-size: 12px; color: var(--text-3);
+  border-top: 1px solid var(--border); padding-top: 9px;
+}
+.resources-block strong { color: var(--text-2); }
+/* ── Tables ── */
+.table-wrap { overflow-x: auto; margin: 18px 0; border-radius: 8px; border: 1px solid var(--border); }
+table { width: 100%; border-collapse: collapse; font-size: 13px; }
+thead { background: var(--surface-2); }
+th { padding: 9px 13px; text-align: left; font-size: 10.5px; font-weight: 700; letter-spacing: .07em; text-transform: uppercase; color: var(--text-3); border-bottom: 1px solid var(--border); white-space: nowrap; }
+td { padding: 9px 13px; border-bottom: 1px solid var(--border); color: var(--text-2); vertical-align: top; }
+tr:last-child td { border-bottom: none; }
+tr:hover td { background: var(--ghost); }
+.must-cell { color: var(--accent); font-weight: 600; }
+.nice-cell { color: var(--text-3); }
+/* ── Resources ── */
+.resource-group { margin-bottom: 26px; }
+.resource-group h3 { font-size: 13.5px; font-weight: 700; color: var(--text); margin-bottom: 9px; padding-bottom: 6px; border-bottom: 1px solid var(--border); }
+.resource-list { list-style: none; padding: 0; }
+.resource-list li { font-size: 13px; color: var(--text-2); padding: 5px 0; border-bottom: 1px solid var(--border); line-height: 1.5; }
+.resource-list li:last-child { border-bottom: none; }
+.resource-list li strong { color: var(--text); }
+.resource-list code { background: var(--code-bg); font-family: 'SF Mono','Cascadia Code',monospace; font-size: 11px; padding: 1px 5px; border-radius: 3px; color: var(--accent); }
+/* ── Caveats ── */
+.caveat-list { list-style: none; padding: 0; display: flex; flex-direction: column; gap: 9px; }
+.caveat-list li { background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 11px 15px; font-size: 13px; color: var(--text-2); line-height: 1.6; }
+.caveat-list li strong { color: var(--text); }
+.caveat-num { display: inline-block; font-size: 10.5px; font-weight: 700; color: var(--phase); margin-right: 6px; }
+/* ── Milestone ── */
+.milestone {
+  background: var(--accent-bg); border: 1px solid var(--border);
+  border-left: 4px solid var(--accent); border-radius: 0 8px 8px 0;
+  padding: 11px 15px; font-size: 13px; color: var(--text-2); margin: 22px 0;
+}
+.milestone strong { color: var(--accent); }
+/* ── Recommendation cards ── */
+.rec-card { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 18px; }
+.rec-label { font-size: 10px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; margin-bottom: 8px; }
+.rec-card ul { font-size: 13px; color: var(--text-2); padding-left: 18px; }
+.rec-card ul li { margin-bottom: 4px; }
+.rec-card p { font-size: 13.5px; color: var(--text-2); margin-bottom: 8px; }
+/* ── Check ── */
+.check { color: #22C55E; font-weight: 700; }
+/* ── Theme toggle ── */
+.theme-toggle {
+  position: fixed; bottom: 24px; right: 24px;
+  background: var(--surface); border: 1px solid var(--border); border-radius: 50%;
+  width: 38px; height: 38px; display: flex; align-items: center; justify-content: center;
+  cursor: pointer; font-size: 17px; box-shadow: var(--shadow); z-index: 100;
+}
+.theme-toggle:hover { background: var(--surface-2); }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; scroll-behavior: auto !important; } }
+</style>
+</head>
+<body>
+
+<button class="theme-toggle" onclick="toggleTheme()" title="Toggle theme" aria-label="Toggle theme">☀</button>
+
+<div class="layout">
+
+<!-- Sidebar -->
+<nav class="sidebar" aria-label="Document navigation">
+  <div class="nav-section">
+    <a class="nav-link top" href="#tldr">TL;DR</a>
+    <a class="nav-link top" href="#findings">Key Findings</a>
+  </div>
+  <div class="nav-section">
+    <div class="nav-phase">Phase 1 · Days 1–6</div>
+    <a class="nav-link" href="#day1">Day 1 — Python</a>
+    <a class="nav-link" href="#day2">Day 2 — TypeScript</a>
+    <a class="nav-link" href="#day3">Day 3 — OpenAI</a>
+    <a class="nav-link" href="#day4">Day 4 — Anthropic</a>
+    <a class="nav-link" href="#day5">Day 5 — Gemini + SDKs</a>
+    <a class="nav-link" href="#day6">Day 6 — Prompt Eng.</a>
+  </div>
+  <div class="nav-section">
+    <div class="nav-phase">Phase 2 · Days 7–14</div>
+    <a class="nav-link" href="#day7">Day 7 — LangChain</a>
+    <a class="nav-link" href="#day8">Day 8 — LangGraph Core</a>
+    <a class="nav-link" href="#day9">Day 9 — LangGraph Adv.</a>
+    <a class="nav-link" href="#day10">Day 10 — LG Production</a>
+    <a class="nav-link" href="#day11">Day 11 — CrewAI</a>
+    <a class="nav-link" href="#day12">Day 12 — OAI Agents SDK</a>
+    <a class="nav-link" href="#day13">Day 13 — ADK + Selection</a>
+    <a class="nav-link" href="#day14">Day 14 — Capstone 1</a>
+  </div>
+  <div class="nav-section">
+    <div class="nav-phase">Phase 3 · Days 15–20</div>
+    <a class="nav-link" href="#day15">Day 15 — RAG Arch.</a>
+    <a class="nav-link" href="#day16">Day 16 — Vector Stores</a>
+    <a class="nav-link" href="#day17">Day 17 — Hybrid + Rerank</a>
+    <a class="nav-link" href="#day18">Day 18 — RAGAS Eval</a>
+    <a class="nav-link" href="#day19">Day 19 — Coding Tools</a>
+    <a class="nav-link" href="#day20">Day 20 — Eval-Driven RAG</a>
+  </div>
+  <div class="nav-section">
+    <div class="nav-phase">Phase 4 · Days 21–25</div>
+    <a class="nav-link" href="#day21">Day 21 — MCP</a>
+    <a class="nav-link" href="#day22">Day 22 — Observability</a>
+    <a class="nav-link" href="#day23">Day 23 — Agent Eval</a>
+    <a class="nav-link" href="#day24">Day 24 — Guardrails</a>
+    <a class="nav-link" href="#day25">Day 25 — Eval Capstone</a>
+  </div>
+  <div class="nav-section">
+    <div class="nav-phase">Phase 5 · Days 26–30</div>
+    <a class="nav-link" href="#day26">Day 26 — MS Foundry</a>
+    <a class="nav-link" href="#day27">Day 27 — AWS + GCP</a>
+    <a class="nav-link" href="#day28">Day 28 — Integration</a>
+    <a class="nav-link" href="#day29">Day 29 — CI/CD</a>
+    <a class="nav-link" href="#day30">Day 30 — Production</a>
+  </div>
+  <div class="nav-section">
+    <div class="nav-phase">Reference</div>
+    <a class="nav-link" href="#roles">Role Tracks</a>
+    <a class="nav-link" href="#resources">Resources</a>
+    <a class="nav-link" href="#recommendations">Recommendations</a>
+    <a class="nav-link" href="#caveats">Caveats</a>
+    <a class="nav-link" href="#completion">Completion Table</a>
+  </div>
+</nav>
+
+<!-- Main -->
+<main>
+
+<!-- Header -->
+<header style="margin-bottom:44px;" id="tldr">
+  <div class="doc-eyebrow">30 Days · 450 Hours · Three Roles</div>
+  <h1 class="doc-title">The 80/20 <em>GenAI Engineering</em> Mastery Roadmap</h1>
+  <div class="tldr">
+    <div class="tldr-label">TL;DR</div>
+    <ul>
+      <li><strong>Master the 80/20 production stack first.</strong> Across 30 days × 15 hrs (450 hrs total), 80% of production GenAI value comes from six skills: LangGraph, OpenAI Responses API + Anthropic Messages API, hybrid RAG with RAGAS evaluation, MCP, LangSmith, and <strong>Microsoft Foundry</strong>. Everything else is a "nice-to-know" specialization.</li>
+      <li><strong>The three roles diverge late.</strong> Days 1–20 are shared. From Day 21: 🤖 drills MCP + production patterns, 🔧 drills containers/K8s/IaC/CI-CD, 🔬 drills evaluation rigor, red-teaming, and research methodology. The final 5 days converge on a capstone.</li>
+      <li><strong>Default to LangGraph + OpenAI Responses + Anthropic + MCP + LangSmith + Microsoft Foundry.</strong> Treat CrewAI, OpenAI Agents SDK, Google ADK, AutoGen, Bedrock AgentCore, and Vertex AI Agent Engine as comparative literacy — one "hello world" each, not production depth.</li>
+    </ul>
+  </div>
+  <p style="font-size:12.5px;color:var(--text-3);margin-top:10px;">
+    <strong style="color:var(--text-2)">Roles:</strong> 🤖 GenAI/AI Engineer &nbsp;·&nbsp; 🔧 AI/ML Engineer &nbsp;·&nbsp; 🔬 Senior DS Agentic AI &nbsp;&nbsp;
+    <span class="badge badge-must">MUST</span> = top-20% skill &nbsp;
+    <span class="badge badge-nice">NICE</span> = optional
+  </p>
+</header>
+
+<!-- Key Findings -->
+<h2 class="section-title" id="findings">Key Findings</h2>
+<div class="findings">
+  <div class="finding"><div class="finding-num">01</div><div class="finding-text"><strong>Orchestration converged in 2025.</strong> LangGraph, CrewAI Flows, OpenAI Agents SDK, Microsoft Agent Framework, and Google ADK all settled on the same primitives: state graph + tool nodes + handoffs + interrupts + checkpointers + tracing. Learn LangGraph deeply once; the others are 1–2 day transfers.</div></div>
+  <div class="finding"><div class="finding-num">02</div><div class="finding-text"><strong>The API surface converged too.</strong> OpenAI's Responses API (March 11, 2025) is now the recommended primitive with built-in tools and stateful conversations. Anthropic's Messages API adds prompt caching (cache reads at 0.1× base price — 90% reduction), extended thinking, and citations. <strong>Use LiteLLM only when you need provider-agnostic routing.</strong></div></div>
+  <div class="finding"><div class="finding-num">03</div><div class="finding-text"><strong>MCP is the new tool integration standard.</strong> Spec 2025-11-25 standardized on stdio + Streamable HTTP (SSE deprecated) with OAuth 2.1 for remote servers. Natively supported in OpenAI Responses API, Anthropic Claude, Claude Code, Cursor, and AWS Bedrock AgentCore Gateway. <strong>Building one custom MCP server is now mandatory literacy.</strong></div></div>
+  <div class="finding"><div class="finding-num">04</div><div class="finding-text"><strong>Observability has three viable options.</strong> LangSmith (best LangGraph DX, vendor-locked), Langfuse (open-source, ClickHouse-backed, OpenTelemetry-native), Arize Phoenix (single-Docker self-host, native RAGAS integration). <strong>LangSmith + Langfuse/Phoenix as fallback</strong> is the common production pattern.</div></div>
+  <div class="finding"><div class="finding-num">05</div><div class="finding-text"><strong>RAG breaks predictably in five ways.</strong> Bad chunking, embedding mismatch, lost-in-the-middle, multi-hop failures, stale data. Hybrid search (BM25 + dense + Cohere/Voyage/Jina reranker) + RAGAS-driven eval-loop development fixes ~80% of cases without expensive architecture changes.</div></div>
+  <div class="finding"><div class="finding-num">06</div><div class="finding-text"><strong>Microsoft Foundry is the new umbrella.</strong> Rebranded from Azure AI Foundry at Ignite, November 18, 2025. Foundry Agent Service runs containerized hosted agents on Azure Container Apps. Azure AI Search was rebranded <strong>Foundry IQ</strong> — the hybrid + semantic ranker API is unchanged.</div></div>
+  <div class="finding"><div class="finding-num">07</div><div class="finding-text"><strong>AWS Bedrock AgentCore (preview, 2025)</strong> offers 8 primitives — Runtime (dedicated microVM, up to 8 hrs), Memory, Identity, Gateway, Browser, Code Interpreter, Observability, Evaluations — and is framework-agnostic. AgentCore Gateway is a managed MCP server.</div></div>
+  <div class="finding"><div class="finding-num">08</div><div class="finding-text"><strong>Google Vertex AI Agent Engine</strong> is the managed runtime for ADK agents, with built-in <code>VertexAiSessionService</code> for multi-turn memory. Transitioning into <strong>Gemini Enterprise Agent Platform</strong> (2026), with A2A for cross-framework communication.</div></div>
+  <div class="finding"><div class="finding-num">09</div><div class="finding-text"><strong>Agentic coding tools are now production infrastructure.</strong> Claude Code (CLI + VS Code + JetBrains), Cursor (.cursor/rules .mdc with 4 activation modes), OpenAI Codex CLI, GitHub Copilot. Each persona should master Claude Code as daily driver and Cursor as IDE.</div></div>
+  <div class="finding"><div class="finding-num">10</div><div class="finding-text"><strong>Beads (Steve Yegge, 2025)</strong> is the breakout "agent memory" tool — a git-native, dependency-tracking issue graph stored as JSONL that survives context compaction. Not a must-master but increasingly expected literacy.</div></div>
+</div>
+
+<!-- PHASE 1 -->
+<div class="phase-header" id="phase1">
+  <div class="phase-label">Phase 1 · Days 1–6 · 90 hrs</div>
+  <div class="phase-title">Foundations: LLM APIs, Python/TypeScript &amp; Prompt Engineering</div>
+  <div class="phase-meta">Pre-flight budget: ~$200–400 in API credits · free tier Langfuse/Phoenix · Azure $200 credit</div>
+</div>
+
+<div class="day-card" id="day1" data-day="1">
+  <div class="day-label">Day 1 · 15 hrs</div>
+  <div class="day-title">Environment + Python for AI/ML</div>
+  <div class="badge-row"><span class="badge badge-must">MUST</span><span class="badge badge-role">🤖🔧🔬 All equal</span></div>
+  <div class="day-body">
+    <h4>Topics</h4>
+    <ul>
+      <li>Python 3.12+ setup with <strong>uv</strong> (Astral) as primary package manager, <strong>Poetry</strong> as fallback (3 hrs)</li>
+      <li><code>asyncio</code>, <code>async/await</code>, <code>asyncio.gather</code>, async context managers (3 hrs)</li>
+      <li><code>typing</code> deep dive — <code>TypedDict</code>, <code>Protocol</code>, <code>Annotated</code>, <code>ParamSpec</code>, <code>TypeGuard</code> (2 hrs)</li>
+      <li><strong>Pydantic v2</strong> — <code>BaseModel</code>, validators, <code>model_validate</code>, <code>Field</code>, discriminated unions (3 hrs)</li>
+      <li><strong>FastAPI</strong> — async endpoints, dependency injection, streaming responses with SSE (3 hrs)</li>
+      <li>Project layout for AI services (1 hr)</li>
+    </ul>
+    <div class="hands-on"><strong>Hands-on:</strong> Build an async FastAPI service that streams chat completions from a mock LLM, with Pydantic-validated request/response models. Push to a fresh GitHub repo.</div>
+    <div class="resources-block"><strong>Resources:</strong> docs.astral.sh/uv · fastapi.tiangolo.com · docs.pydantic.dev · Real Python asyncio guide</div>
+  </div>
+</div>
+
+<div class="day-card" id="day2" data-day="2">
+  <div class="day-label">Day 2 · 15 hrs</div>
+  <div class="day-title">TypeScript for AI</div>
+  <div class="badge-row"><span class="badge badge-role">🤖 Heavy · 🔧🔬 Light</span></div>
+  <div class="day-body">
+    <h4>Topics</h4>
+    <ul>
+      <li>Node.js 22 LTS + <strong>Bun 1.x</strong> runtime tradeoffs (2 hrs); TypeScript 5.5+ strict mode, Zod for runtime validation (2 hrs)</li>
+      <li><strong>Vercel AI SDK v5/v6</strong> — <code>generateText</code>, <code>streamText</code>, <code>Output.object()</code>, <code>ToolLoopAgent</code>, dynamic tools, SSE-based streaming, tool execution approval (5 hrs)</li>
+      <li>Next.js 15 App Router + <strong>Server Actions</strong> for AI endpoints (3 hrs); <strong>tRPC v11</strong> for type-safe internal APIs (2 hrs); Vercel AI Gateway model routing (1 hr)</li>
+    </ul>
+    <div class="hands-on"><strong>Hands-on:</strong> Port Day 1's FastAPI app to a Next.js Server Action + AI SDK app calling <code>openai/gpt-5.2</code> or <code>anthropic/claude-sonnet-4.6</code> with a Zod tool schema.</div>
+    <div class="resources-block"><strong>Resources:</strong> ai-sdk.dev/docs · vercel.com/blog/ai-sdk-5 · tRPC docs · Next.js docs</div>
+  </div>
+</div>
+
+<div class="day-card" id="day3" data-day="3">
+  <div class="day-label">Day 3 · 15 hrs</div>
+  <div class="day-title">OpenAI API Deep Dive</div>
+  <div class="badge-row"><span class="badge badge-must">MUST</span><span class="badge badge-role">🤖🔧🔬 All critical</span></div>
+  <div class="day-body">
+    <h4>Topics</h4>
+    <ul>
+      <li><strong>Chat Completions API</strong> vs. <strong>Responses API</strong> migration (2 hrs)</li>
+      <li><strong>Responses API</strong> — stateful conversations (<code>store: true</code>), built-in tools (web search, file search, code interpreter, image generation, remote MCP), background mode, reasoning summaries, encrypted reasoning items (5 hrs)</li>
+      <li><strong>Function calling</strong> with strict-mode tool schemas + <strong>structured outputs</strong> (strict JSON Schema mode) + classic <strong>JSON mode</strong> comparison (3 hrs)</li>
+      <li>Streaming, parallel tool calls (2 hrs); prompt caching (1 hr); rate limiting, exponential backoff with <code>tenacity</code>, cost tracking (1 hr)</li>
+      <li><strong>Assistants API</strong> sunset (2026-08-26) and migration paths to Responses (1 hr)</li>
+    </ul>
+    <div class="hands-on"><strong>Hands-on:</strong> Build a multi-tool agent in the Responses API with web_search + a custom function tool + structured Pydantic output. Add streaming, retry logic, and a token/cost meter.</div>
+    <div class="resources-block"><strong>Resources:</strong> developers.openai.com/api/docs · github.com/openai/openai-cookbook · developers.openai.com/blog/responses-api</div>
+  </div>
+</div>
+
+<div class="day-card" id="day4" data-day="4">
+  <div class="day-label">Day 4 · 15 hrs</div>
+  <div class="day-title">Anthropic API Deep Dive</div>
+  <div class="badge-row"><span class="badge badge-must">MUST</span><span class="badge badge-role">🤖🔧🔬 All critical</span></div>
+  <div class="day-body">
+    <h4>Topics</h4>
+    <ul>
+      <li>Messages API basics, system prompts, message structure (2 hrs)</li>
+      <li><strong>Tool use</strong> (<code>tools</code>, <code>tool_use</code>, <code>tool_result</code> blocks), parallel tool use, <strong>Tool Runner SDK</strong> (4 hrs)</li>
+      <li><strong>Prompt caching</strong> — <code>cache_control: ephemeral</code>, 5-min vs. 1-hr TTL, breakpoint placement, cache reads at 0.1× base input token price (3 hrs)</li>
+      <li><strong>Extended/adaptive thinking</strong> on Claude Opus 4.7 / Sonnet 4.6, interleaved thinking, thinking budgets, cache interactions (3 hrs)</li>
+      <li><strong>Citations</strong> for grounded outputs (1 hr); server tools — web search, web fetch, code execution, computer use, Memory tool (2 hrs)</li>
+    </ul>
+    <div class="hands-on"><strong>Hands-on:</strong> Build a research agent using Claude Sonnet 4.6 with web_search + extended thinking + prompt caching of a 5K-token system prompt. Measure cost delta with vs. without caching.</div>
+    <div class="resources-block"><strong>Resources:</strong> docs.anthropic.com · platform.claude.com/docs/en/build-with-claude/prompt-caching · docs.anthropic.com/en/docs/build-with-claude/extended-thinking · github.com/anthropics/anthropic-cookbook</div>
+  </div>
+</div>
+
+<div class="day-card" id="day5" data-day="5">
+  <div class="day-label">Day 5 · 15 hrs</div>
+  <div class="day-title">Google Gemini API + SDK Comparison</div>
+  <div class="badge-row"><span class="badge badge-role">🤖🔧🔬 All equal</span></div>
+  <div class="day-body">
+    <h4>Topics <span class="badge badge-must" style="vertical-align:middle">MUST</span></h4>
+    <ul>
+      <li><code>google-genai</code> Python SDK; <strong>Gemini 2.5 Pro / Flash / Flash-Lite</strong> + <strong>Gemini 3 Pro / Flash</strong> model selection (2 hrs)</li>
+      <li>Function calling, structured output with JSON schemas (2 hrs)</li>
+      <li><strong>Context caching</strong> — implicit (default on 2.5+) + explicit (<code>client.caches.create</code>, TTL-billed) (2 hrs)</li>
+      <li><strong>Grounding with Google Search</strong> (free tier 1,500 RPD on Pro, then $35/1K) (2 hrs); thinking levels and budgets (1 hr); Live API for real-time audio (1 hr)</li>
+    </ul>
+    <h4>Topics <span class="badge badge-nice" style="vertical-align:middle">NICE</span></h4>
+    <ul>
+      <li>Unified interfaces — <strong>LiteLLM</strong>, OpenRouter, Vercel AI Gateway (2 hrs)</li>
+      <li>OpenAI vs. Anthropic vs. google-genai vs. LiteLLM SDK side-by-side: tool calling, streaming, structured output, caching, error model (2 hrs)</li>
+    </ul>
+    <div class="hands-on"><strong>Hands-on:</strong> Build the same agent in OpenAI, Anthropic, Gemini, and LiteLLM. Compare latency, cost, and developer ergonomics.</div>
+    <div class="resources-block"><strong>Resources:</strong> ai.google.dev/gemini-api/docs · docs.litellm.ai</div>
+  </div>
+</div>
+
+<div class="day-card" id="day6" data-day="6">
+  <div class="day-label">Day 6 · 15 hrs</div>
+  <div class="day-title">Prompt Engineering as a Discipline</div>
+  <div class="badge-row"><span class="badge badge-must">MUST</span><span class="badge badge-role">🤖 Heavy · 🔬 Heavy · 🔧 Moderate</span></div>
+  <div class="day-body">
+    <h4>Topics</h4>
+    <ul>
+      <li>System prompts that work — role + constraints + format + examples + tools (2 hrs)</li>
+      <li>Zero-shot / <strong>few-shot</strong> / <strong>chain-of-thought</strong> / <strong>tree-of-thought</strong> / <strong>ReAct</strong> / <strong>Reflexion</strong> patterns (4 hrs)</li>
+      <li>Structured outputs vs. JSON mode vs. strict schemas — when to use which (2 hrs)</li>
+      <li>Tool-use patterns: planner/executor, single-shot, parallel tool use, "tool search" (2 hrs)</li>
+      <li>Meta-prompting + prompt optimization (DSPy preview) (2 hrs)</li>
+      <li>🔬 Eval-driven prompt iteration — build a 20-prompt eval set, A/B compare temperatures and few-shots (3 hrs)</li>
+    </ul>
+    <div class="hands-on"><strong>Hands-on:</strong> Build a structured extraction pipeline (invoices → JSON) and a 30-example regression suite. Achieve ≥95% field-level accuracy.</div>
+    <div class="resources-block"><strong>Resources:</strong> promptingguide.ai · OpenAI "A practical guide to building agents" · DeepLearning.AI ChatGPT Prompt Engineering for Developers · <em>AI Engineering</em> Ch. 5 (Huyen)</div>
+  </div>
+</div>
+
+<div class="milestone"><strong>Phase 1 Milestone:</strong> Deploy a multi-provider, structured-output, tool-using agent as a FastAPI service. Cost meter ≤ $0.02 per call median.</div>
+
+<!-- PHASE 2 -->
+<div class="phase-header" id="phase2">
+  <div class="phase-label">Phase 2 · Days 7–14 · 120 hrs</div>
+  <div class="phase-title">Agent Orchestration: LangChain, LangGraph, CrewAI</div>
+</div>
+
+<div class="day-card" id="day7" data-day="7">
+  <div class="day-label">Day 7 · 15 hrs</div>
+  <div class="day-title">LangChain v1 Fundamentals</div>
+  <div class="badge-row"><span class="badge badge-must">MUST</span></div>
+  <div class="day-body">
+    <h4>Topics</h4>
+    <ul>
+      <li>LangChain v1.0+ architecture — <code>langchain-core</code>, <code>langchain</code>, provider packages (1 hr)</li>
+      <li><strong>LCEL</strong> — <code>Runnable</code>, <code>RunnableParallel</code>, <code>RunnablePassthrough</code>, <code>RunnableLambda</code>, chains (3 hrs)</li>
+      <li>ChatPromptTemplate, output parsers (Pydantic, JSON, structured) (2 hrs); retrievers, embeddings, vector store interfaces (2 hrs)</li>
+      <li>Tools (<code>@tool</code> decorator, structured tools) (2 hrs); <strong><code>create_agent</code></strong> in v1 — built on LangGraph under the hood (3 hrs)</li>
+      <li>When LCEL is enough vs. when you need LangGraph (1 hr)</li>
+    </ul>
+    <div class="hands-on"><strong>Hands-on:</strong> Build a RAG chain in pure LCEL with a Pydantic output parser, then port it to <code>create_agent</code>.</div>
+    <div class="resources-block"><strong>Resources:</strong> docs.langchain.com (v1) · github.com/langchain-ai/langchain · LangChain Academy LangGraph Essentials</div>
+  </div>
+</div>
+
+<div class="day-card" id="day8" data-day="8">
+  <div class="day-label">Day 8 · 15 hrs</div>
+  <div class="day-title">LangGraph Core: StateGraph, Nodes, Edges</div>
+  <div class="badge-row"><span class="badge badge-must">MUST</span><span class="badge badge-phase">Keystone Day</span></div>
+  <div class="day-body">
+    <h4>Topics</h4>
+    <ul>
+      <li>Why graphs for agents (vs. linear chains) (1 hr)</li>
+      <li><strong><code>StateGraph</code></strong> with TypedDict + <code>Annotated[..., operator.add]</code> reducers (3 hrs)</li>
+      <li>Nodes as Python functions, conditional edges, <code>Command(goto=..., update=...)</code> for dynamic routing (3 hrs)</li>
+      <li><strong>Checkpointers</strong> — <code>InMemorySaver</code>, <code>SqliteSaver</code>, <code>PostgresSaver</code> (Redis-backed for prod) (2 hrs)</li>
+      <li>Thread IDs, time-travel, state inspection (2 hrs); streaming modes (<code>updates</code>, <code>values</code>, <code>messages</code>, <code>debug</code>) (2 hrs); subgraphs and composability (2 hrs)</li>
+    </ul>
+    <div class="hands-on"><strong>Hands-on:</strong> Build a 5-node research agent with conditional routing and SQLite checkpointing. Stream updates to a terminal.</div>
+    <div class="resources-block"><strong>Resources:</strong> docs.langchain.com/oss/python/langgraph · github.com/langchain-ai/langgraph · LangChain Academy Intro to LangGraph (free, 6 modules)</div>
+  </div>
+</div>
+
+<div class="day-card" id="day9" data-day="9">
+  <div class="day-label">Day 9 · 15 hrs</div>
+  <div class="day-title">LangGraph Advanced: HITL, Subgraphs, Multi-Agent Patterns</div>
+  <div class="badge-row"><span class="badge badge-must">MUST</span></div>
+  <div class="day-body">
+    <h4>Topics</h4>
+    <ul>
+      <li><strong><code>interrupt()</code> + <code>Command(resume=...)</code></strong> for human-in-the-loop (3 hrs); dynamic interrupts, validation loops, multi-interrupt graphs (2 hrs)</li>
+      <li><strong>Canonical patterns:</strong> ReAct agent (reason → act → observe), tool-calling agent (model-driven function calling), plan-and-execute (separate planner + worker nodes) — implement each as a small graph (3 hrs)</li>
+      <li><strong>Multi-agent patterns</strong> — supervisor, swarm, handoffs (3 hrs); <code>langgraph-supervisor</code> and <code>langgraph-swarm</code> libraries (2 hrs); ambient agents pattern (1 hr)</li>
+    </ul>
+    <div class="hands-on"><strong>Hands-on:</strong> Convert Day 8's agent into three variants (ReAct, tool-calling, plan-and-execute) and benchmark cost + latency + task success. Then build a supervisor with researcher / writer / fact-checker + approval interrupt before final output.</div>
+    <div class="resources-block"><strong>Resources:</strong> docs.langchain.com/oss/python/langgraph/interrupts · LangChain Academy Ambient Agents with LangGraph · Sam Witteveen YouTube LangGraph series</div>
+  </div>
+</div>
+
+<div class="day-card" id="day10" data-day="10">
+  <div class="day-label">Day 10 · 15 hrs</div>
+  <div class="day-title">LangGraph Production Concerns</div>
+  <div class="badge-row"><span class="badge badge-role">🔧 Heavy · 🤖 Heavy · 🔬 Light</span></div>
+  <div class="day-body">
+    <h4>Topics</h4>
+    <ul>
+      <li>Error handling and retries inside graphs (2 hrs); <strong>LangGraph Platform</strong> vs. self-deployment (2 hrs)</li>
+      <li><strong>LangGraph Studio</strong> for visual debugging (2 hrs); persistence backends — Postgres for prod (2 hrs)</li>
+      <li>Long-running tasks and background execution (2 hrs); rate limit handling + backoff inside nodes (1 hr)</li>
+      <li>🔧 FastAPI wrapper, async streaming endpoints, websocket integration (3 hrs); 🤖 hooks into LangSmith tracing (1 hr)</li>
+    </ul>
+    <div class="hands-on"><strong>Hands-on:</strong> Containerize the Day 9 supervisor agent with a FastAPI front-end and Postgres checkpointer. Deploy locally with docker-compose.</div>
+  </div>
+</div>
+
+<div class="day-card" id="day11" data-day="11">
+  <div class="day-label">Day 11 · 15 hrs</div>
+  <div class="day-title">CrewAI: Crews + Flows</div>
+  <div class="badge-row"><span class="badge badge-role">🤖🔬 Moderate · 🔧 Light</span></div>
+  <div class="day-body">
+    <h4>Topics</h4>
+    <ul>
+      <li>CrewAI architecture — agents, tasks, crews, processes (sequential, hierarchical) (3 hrs); tools, knowledge sources, memory (2 hrs)</li>
+      <li><strong>CrewAI Flows</strong> — <code>@start</code>, <code>@listen</code>, <code>@router</code>, <code>@persist</code>, <code>@human_feedback</code> decorators (4 hrs)</li>
+      <li><code>or_</code> / <code>and_</code> triggering; structured (Pydantic) vs. unstructured state (2 hrs); combining Flows with Crews (2 hrs); CrewAI AMP Suite + Control Plane (1 hr)</li>
+    </ul>
+    <div class="hands-on"><strong>Hands-on:</strong> Rebuild Day 9's supervisor as a CrewAI Flow with three Crews and a router that branches on a "confidence score."</div>
+    <div class="resources-block"><strong>Resources:</strong> docs.crewai.com · github.com/crewAIInc/crewAI · DeepLearning.AI Multi AI Agent Systems with crewAI</div>
+  </div>
+</div>
+
+<div class="day-card" id="day12" data-day="12">
+  <div class="day-label">Day 12 · 15 hrs</div>
+  <div class="day-title">OpenAI Agents SDK + Microsoft Agent Framework / AutoGen</div>
+  <div class="day-body">
+    <h4>Topics <span class="badge badge-must" style="vertical-align:middle">MUST</span></h4>
+    <ul>
+      <li><strong>OpenAI Agents SDK</strong> — <code>Agent</code>, <code>Runner.run</code> / <code>run_sync</code> / <code>run_streamed</code>, handoffs as tool calls (with <code>input_filter</code>), input/output/tool guardrails with tripwires, hosted tools (FileSearch, WebSearch, ComputerTool, HostedMCPTool, ShellTool, ApplyPatchTool), sandbox agents (5 hrs)</li>
+      <li>Built-in tracing in the OpenAI Traces dashboard (1 hr); <code>needs_approval</code> pattern for human review (1 hr)</li>
+    </ul>
+    <h4>Topics <span class="badge badge-nice" style="vertical-align:middle">NICE</span></h4>
+    <ul>
+      <li><strong>Microsoft Agent Framework</strong> — .NET + Python successor to Semantic Kernel and AutoGen, designed for Foundry Agent Service (2 hrs)</li>
+      <li><strong>Microsoft AutoGen v0.4</strong> — <code>AssistantAgent</code>, <code>UserProxyAgent</code>, GroupChat patterns (2 hrs)</li>
+      <li>Comparison matrix: LangGraph vs. CrewAI vs. AutoGen vs. OpenAI Agents SDK vs. Microsoft Agent Framework — control, learning curve, observability, HITL support (3 hrs)</li>
+    </ul>
+    <div class="hands-on"><strong>Hands-on:</strong> Rebuild Day 9's flow in the OpenAI Agents SDK with a guardrail blocking math-homework prompts and a Triage → Specialist handoff.</div>
+    <div class="resources-block"><strong>Resources:</strong> openai.github.io/openai-agents-python · learn.microsoft.com/agent-framework · microsoft/autogen GitHub</div>
+  </div>
+</div>
+
+<div class="day-card" id="day13" data-day="13">
+  <div class="day-label">Day 13 · 15 hrs</div>
+  <div class="day-title">Google ADK + Framework Selection Day</div>
+  <div class="day-body">
+    <h4>Google ADK <span class="badge badge-nice" style="vertical-align:middle">NICE</span> <small style="color:var(--text-3);font-size:11px;">(MUST if deploying on GCP)</small></h4>
+    <ul>
+      <li><strong>Google ADK</strong> — <code>LlmAgent</code>, workflow agents (<code>SequentialAgent</code>, <code>ParallelAgent</code>, <code>LoopAgent</code>), custom agents extending <code>BaseAgent</code>, <strong>AgentTool</strong> for nested agents, Skills, Plugins, callbacks (5 hrs)</li>
+      <li>ADK CLI + Web UI + Agent Builder visual editor (2 hrs); <code>adk deploy agent_engine</code> (2 hrs); A2A protocol (2 hrs)</li>
+    </ul>
+    <h4>Framework Selection Rubric <span class="badge badge-must" style="vertical-align:middle">MUST</span></h4>
+    <ul>
+      <li><strong>LangGraph</strong> → max control &nbsp;·&nbsp; <strong>CrewAI</strong> → role-based teams &nbsp;·&nbsp; <strong>OpenAI Agents SDK</strong> → OpenAI-native + fast &nbsp;·&nbsp; <strong>ADK</strong> → GCP-native &nbsp;·&nbsp; <strong>Agent Framework</strong> → Microsoft-native</li>
+    </ul>
+    <div class="hands-on"><strong>Hands-on:</strong> Deploy a 2-agent ADK system to Vertex AI Agent Engine; build a comparison table across all 5 frameworks.</div>
+    <div class="resources-block"><strong>Resources:</strong> google.github.io/adk-docs · github.com/google/adk-python · cloud.google.com/products/agent-builder</div>
+  </div>
+</div>
+
+<div class="day-card" id="day14" data-day="14">
+  <div class="day-label">Day 14 · 15 hrs</div>
+  <div class="day-title">Capstone Mini-Project: Production Multi-Agent System</div>
+  <div class="badge-row"><span class="badge badge-must">MUST</span><span class="badge badge-role">All three roles</span></div>
+  <div class="day-body">
+    <h4>Build</h4>
+    <p>Customer-support multi-agent system in LangGraph: 4 agents (triage, knowledge, action, escalation) + 1 supervisor + Postgres checkpointer + LangSmith tracing + HITL interrupt for refunds &gt; $100 + structured output schema + 3 guardrails (PII, prompt injection, off-topic) + a 20-case eval set.</p>
+    <p><strong>🔬 owns</strong> the eval set &nbsp;·&nbsp; <strong>🔧 owns</strong> docker-compose + Postgres &nbsp;·&nbsp; <strong>🤖 owns</strong> the graph + prompts</p>
+    <div class="hands-on"><strong>Deliverable:</strong> Public GitHub repo + Loom demo + cost-per-conversation analysis.</div>
+  </div>
+</div>
+
+<div class="milestone"><strong>Phase 2 Milestone:</strong> A production-shape multi-agent app, traced in LangSmith, with HITL and an evaluation suite.</div>
+
+<!-- PHASE 3 -->
+<div class="phase-header" id="phase3">
+  <div class="phase-label">Phase 3 · Days 15–20 · 90 hrs</div>
+  <div class="phase-title">RAG, Vector Stores &amp; Agentic Coding Tools</div>
+</div>
+
+<div class="day-card" id="day15" data-day="15">
+  <div class="day-label">Day 15 · 15 hrs</div>
+  <div class="day-title">RAG Architecture: Naive → Advanced → Agentic</div>
+  <div class="badge-row"><span class="badge badge-must">MUST</span></div>
+  <div class="day-body">
+    <h4>Topics</h4>
+    <ul>
+      <li>Naive RAG (chunk → embed → retrieve → stuff) and its failure modes (2 hrs)</li>
+      <li><strong>Five ways RAG breaks:</strong> bad chunking, embedding mismatch, lost-in-the-middle, multi-hop failures, hallucination from wrong context, stale data (3 hrs)</li>
+      <li>Advanced patterns — parent-document retrieval, multi-query, <strong>HyDE</strong>, <strong>Anthropic Contextual Retrieval</strong> (prepend chunk context with a Claude call before embedding), self-query (3 hrs)</li>
+      <li><strong>Agentic RAG</strong> — agent-driven query planning + iterative retrieval + reflection (4 hrs); recursive retrieval, GraphRAG overview (2 hrs); when not to use RAG (1 hr)</li>
+    </ul>
+    <div class="hands-on"><strong>Hands-on:</strong> Build a naive RAG on 100 PDFs, then layer parent-document retrieval + multi-query + reflection. Measure recall@5 improvements.</div>
+    <div class="resources-block"><strong>Resources:</strong> AI Engineering Ch. 6 (Huyen) · Anthropic Contextual Retrieval blog · LlamaIndex Advanced RAG cookbook</div>
+  </div>
+</div>
+
+<div class="day-card" id="day16" data-day="16">
+  <div class="day-label">Day 16 · 15 hrs</div>
+  <div class="day-title">Vector Stores Deep Dive</div>
+  <div class="badge-row"><span class="badge badge-must">MUST</span></div>
+  <div class="day-body">
+    <h4>Topics</h4>
+    <ul>
+      <li>Embedding model selection — OpenAI <code>text-embedding-3-large</code>, Cohere <code>embed-v4</code>, Voyage <code>voyage-3</code>, BGE-M3 (2 hrs)</li>
+      <li><strong>Chroma</strong> for local dev · <strong>Weaviate</strong> — schema-first, GraphQL, hybrid search, multi-tenancy (3 hrs)</li>
+      <li><strong>Pinecone</strong> — serverless, namespaces (up to 100K), Pinecone Assistant GA Jan 2025, BYOC (2 hrs)</li>
+      <li><strong>pgvector + pgvectorscale</strong> for Postgres-native (HNSW, IVFFlat) (2 hrs) · <strong>Qdrant</strong> — Rust core, payload filters, named vectors, prefetch + multi-stage queries (2 hrs)</li>
+      <li><strong>Azure AI Search / Foundry IQ</strong> — hybrid (BM25 + HNSW/eKNN) + semantic ranker (2 hrs); decision rubric (1 hr)</li>
+    </ul>
+    <div class="hands-on"><strong>Hands-on:</strong> Ingest 100K Wikipedia paragraphs into 3 stores (Qdrant, Weaviate, pgvector), benchmark latency and recall@10 against the same query set.</div>
+  </div>
+</div>
+
+<div class="day-card" id="day17" data-day="17">
+  <div class="day-label">Day 17 · 15 hrs</div>
+  <div class="day-title">Hybrid Search + Reranking</div>
+  <div class="badge-row"><span class="badge badge-must">MUST</span></div>
+  <div class="day-body">
+    <h4>Topics</h4>
+    <ul>
+      <li><strong>BM25</strong> mechanics — why lexical still matters for proper nouns/IDs/codes (2 hrs); dense embedding similarity (1 hr)</li>
+      <li><strong>Hybrid search</strong> — RRF (Reciprocal Rank Fusion) and relativeScoreFusion (2 hrs)</li>
+      <li><strong>Rerankers</strong> — <strong>Cohere Rerank v3.5</strong>, <strong>Voyage rerank-2</strong>, <strong>Jina Reranker v2</strong> — when each wins (4 hrs)</li>
+      <li>Chunking strategies — semantic chunking (LlamaIndex), recursive character splitter, <strong>late chunking</strong>, hierarchical chunks (3 hrs)</li>
+      <li>Metadata filtering and pre-filtering vs. post-filtering (2 hrs); 🔬 measuring chunk quality empirically (1 hr)</li>
+    </ul>
+    <div class="hands-on"><strong>Hands-on:</strong> Take Day 15's RAG pipeline and add BM25 + dense + Cohere rerank. Measure faithfulness lift with RAGAS.</div>
+    <div class="resources-block"><strong>Resources:</strong> Cohere/Voyage/Jina docs · LlamaIndex <code>SemanticSplitterNodeParser</code> docs</div>
+  </div>
+</div>
+
+<div class="day-card" id="day18" data-day="18">
+  <div class="day-label">Day 18 · 15 hrs</div>
+  <div class="day-title">RAG Evaluation with RAGAS + LangSmith Datasets</div>
+  <div class="badge-row"><span class="badge badge-must">MUST</span><span class="badge badge-role">🔬 Critical</span></div>
+  <div class="day-body">
+    <h4>Topics</h4>
+    <ul>
+      <li>Why BLEU/ROUGE fail for RAG (1 hr)</li>
+      <li><strong>RAGAS</strong> core metrics — <strong>faithfulness</strong>, <strong>answer relevancy</strong>, <strong>context precision</strong>, <strong>context recall</strong>, <strong>context entity recall</strong>, <strong>noise sensitivity</strong> (4 hrs)</li>
+      <li>Reference-free vs. reference-based eval (1 hr); building a golden dataset from real queries + synthetic generation (3 hrs)</li>
+      <li><strong>LLM-as-a-judge</strong> — calibration, position bias, verbosity bias (2 hrs)</li>
+      <li><strong>Eval-driven development loop</strong> — change → re-evaluate → ship (2 hrs); 🔬 statistical significance for prompt A/B tests (2 hrs)</li>
+    </ul>
+    <div class="hands-on"><strong>Hands-on:</strong> Build a 100-query golden set, run RAGAS against 4 RAG variants, produce a decision report.</div>
+    <div class="resources-block"><strong>Resources:</strong> docs.ragas.io · arXiv:2309.15217 (EACL 2024) · AI Engineering Chs. 3–4</div>
+  </div>
+</div>
+
+<div class="day-card" id="day19" data-day="19">
+  <div class="day-label">Day 19 · 15 hrs</div>
+  <div class="day-title">Agentic Coding Tools: Claude Code, Cursor, Codex, Copilot</div>
+  <div class="badge-row"><span class="badge badge-must">MUST</span></div>
+  <div class="day-body">
+    <h4>Claude Code (4 hrs)</h4>
+    <ul>
+      <li><code>npm i -g @anthropic-ai/claude-code</code> — slash commands, <code>/init</code>, <code>/compact</code>, <code>/clear</code>, <code>/resume</code></li>
+      <li><strong>CLAUDE.md</strong> project memory (project + <code>~/.claude/CLAUDE.md</code> global)</li>
+      <li><strong>Hooks</strong> (<code>PreToolUse</code>, <code>PostToolUse</code>, <code>UserPromptSubmit</code>, <code>SessionStart</code>) for deterministic enforcement</li>
+      <li>Subagents in <code>.claude/agents/*.md</code> · plugins + skills · MCP via <code>/mcp</code> · permissions + <code>/sandbox</code></li>
+    </ul>
+    <h4>Cursor (3 hrs)</h4>
+    <ul>
+      <li><code>.cursor/rules/*.mdc</code> — 4 activation modes: Always Apply, Auto Attached (globs), Agent Requested (description), Manual <code>@rule-name</code></li>
+      <li>Composer + multi-file edit · codebase context · <code>.cursorignore</code> · legacy <code>.cursorrules</code> migration</li>
+    </ul>
+    <h4>Codex CLI + Copilot (4 hrs)</h4>
+    <ul>
+      <li>OpenAI Codex CLI — sandbox execution, full-auto mode, multi-file changes</li>
+      <li>GitHub Copilot — code completion, chat, workspace agent, <code>.github/copilot-instructions.md</code></li>
+    </ul>
+    <h4>Decision Matrix (1 hr)</h4>
+    <p>Claude Code → autonomous + terminal-native &nbsp;·&nbsp; Cursor → IDE/multi-file edit &nbsp;·&nbsp; Codex CLI → OpenAI ecosystem + sandbox &nbsp;·&nbsp; Copilot → inline completion + GitHub PR</p>
+    <div class="hands-on"><strong>Hands-on:</strong> Set up Claude Code with a CLAUDE.md, a PostToolUse hook for auto-formatting, 2 subagents (test-writer, doc-writer), and 1 MCP server. Refactor Day 14's capstone with it.</div>
+    <div class="resources-block"><strong>Resources:</strong> docs.claude.com · code.claude.com/docs · docs.cursor.com · github.com/openai/codex · docs.github.com/copilot</div>
+  </div>
+</div>
+
+<div class="day-card" id="day20" data-day="20">
+  <div class="day-label">Day 20 · 15 hrs</div>
+  <div class="day-title">Evaluation-Driven RAG + Beads</div>
+  <div class="day-body">
+    <h4>Topics</h4>
+    <ul>
+      <li><strong>Eval-driven development for RAG</strong> — build the eval first, then ship features (3 hrs)</li>
+      <li>CI integration of RAGAS (2 hrs); production monitoring with online evals (2 hrs)</li>
+      <li>🔬 Statistical rigor: paired tests, bootstrapping, multiple comparison corrections (2 hrs)</li>
+      <li>🤖🔧 <strong>Beads</strong> (Steve Yegge) — git-native dependency graph for agent memory, <code>bd init</code>, <code>bd add</code>, <code>bd link</code> (2 hrs)</li>
+    </ul>
+    <div class="hands-on"><strong>Hands-on:</strong> Wire RAGAS into a GitHub Action that fails PRs if faithfulness drops &gt; 5%. Set up Beads on the capstone repo.</div>
+    <div class="resources-block"><strong>Resources:</strong> github.com/steveyegge/beads · "Introducing Beads" by Steve Yegge (Medium)</div>
+  </div>
+</div>
+
+<div class="milestone"><strong>Phase 3 Milestone:</strong> Production RAG with hybrid search + reranker + evals as CI gates. Agentic coding workflow live.</div>
+
+<!-- PHASE 4 -->
+<div class="phase-header" id="phase4">
+  <div class="phase-label">Phase 4 · Days 21–25 · 75 hrs</div>
+  <div class="phase-title">MCP, Observability &amp; Agent Evaluation</div>
+</div>
+
+<div class="day-card" id="day21" data-day="21">
+  <div class="day-label">Day 21 · 15 hrs</div>
+  <div class="day-title">MCP Deep Dive + Building Servers</div>
+  <div class="badge-row"><span class="badge badge-must">MUST</span><span class="badge badge-role">🤖 Critical</span></div>
+  <div class="day-body">
+    <h4>Topics</h4>
+    <ul>
+      <li>MCP architecture — host → client → server, JSON-RPC 2.0 base protocol (2 hrs)</li>
+      <li><strong>Three primitives:</strong> Tools, Resources, Prompts (2 hrs)</li>
+      <li>Transports — <strong>stdio</strong> for local, <strong>Streamable HTTP</strong> (spec 2025-11-25) for remote, SSE deprecated (2 hrs)</li>
+      <li>OAuth 2.1 + <code>.well-known</code> discovery; structured tool annotations; async operations (2 hrs)</li>
+      <li><strong>Sampling</strong> — server-requested LLM completions (1 hr); <strong>elicitation</strong> — server-defined input schemas (1 hr)</li>
+      <li>Building servers in <strong>Python (FastMCP)</strong> and <strong>TypeScript (<code>@modelcontextprotocol/sdk</code>)</strong> (5 hrs)</li>
+    </ul>
+    <div class="hands-on"><strong>Hands-on:</strong> Build a custom MCP server in Python wrapping a SQL database (read-only query + schema introspection tools + table resources). Connect to Claude Code, Cursor, and OpenAI Responses API. Verify in all three clients.</div>
+    <div class="resources-block"><strong>Resources:</strong> modelcontextprotocol.io · github.com/modelcontextprotocol/servers · github.com/modelcontextprotocol/python-sdk</div>
+  </div>
+</div>
+
+<div class="day-card" id="day22" data-day="22">
+  <div class="day-label">Day 22 · 15 hrs</div>
+  <div class="day-title">Tracing &amp; Observability: LangSmith / Langfuse / Phoenix</div>
+  <div class="badge-row"><span class="badge badge-must">MUST</span></div>
+  <div class="day-body">
+    <h4>Topics</h4>
+    <ul>
+      <li>Why semantic observability differs from infra observability (1 hr)</li>
+      <li><strong>LangSmith</strong> — projects, traces, runs, datasets, online evaluators, prompt hub, comparing experiments, human feedback (5 hrs)</li>
+      <li><strong>Langfuse</strong> — open-source, OpenTelemetry-native, ClickHouse architecture, self-host (Clickhouse + Redis + S3), prompt management, LLM-as-judge evals (3 hrs)</li>
+      <li><strong>Arize Phoenix</strong> — single-Docker self-host, OpenInference instrumentation, native RAGAS support (3 hrs)</li>
+      <li>Decision rubric: lock-in vs. cost vs. features (1 hr); 🔧 Pydantic Logfire (1 hr)</li>
+      <li>⚠ Sharp edge: <code>langfuse.langchain.CallbackHandler</code> + LangGraph interrupts can split into multiple traces — track GH issue (1 hr)</li>
+    </ul>
+    <div class="hands-on"><strong>Hands-on:</strong> Instrument Day 14 capstone with all three (LangSmith primary, Langfuse + Phoenix in parallel). Confirm traces look right after a HITL interrupt + resume.</div>
+    <div class="resources-block"><strong>Resources:</strong> docs.smith.langchain.com · langfuse.com/docs · arize.com/docs/phoenix</div>
+  </div>
+</div>
+
+<div class="day-card" id="day23" data-day="23">
+  <div class="day-label">Day 23 · 15 hrs</div>
+  <div class="day-title">Agent Evaluation Beyond RAG</div>
+  <div class="badge-row"><span class="badge badge-must">MUST</span><span class="badge badge-role">🔬 Critical</span></div>
+  <div class="day-body">
+    <h4>Topics</h4>
+    <ul>
+      <li>Testing non-deterministic outputs — set temperature 0 for evals, fix seeds where possible (1 hr)</li>
+      <li><strong>Deterministic evals:</strong> exact match, schema validity, tool-call correctness, side-effect assertions (3 hrs)</li>
+      <li><strong>LLM-as-judge evals:</strong> pairwise comparison, score rubrics, calibration against human labels (3 hrs)</li>
+      <li><strong>Agent-trajectory evaluation</strong> — did the agent take the right path, not just produce the right answer (3 hrs)</li>
+      <li><strong>Task-success evals</strong> — end-to-end goal completion rate (2 hrs); evaluation dataset versioning (1 hr)</li>
+      <li>🔬 Research-grade rigor: confidence intervals on LLM-judge scores, inter-annotator agreement, ablation discipline (2 hrs)</li>
+    </ul>
+    <div class="hands-on"><strong>Hands-on:</strong> Build 4 eval suites for the capstone — deterministic schema, LLM-judge faithfulness, trajectory correctness, task success. Run them in LangSmith.</div>
+    <div class="resources-block"><strong>Resources:</strong> AI Engineering Chs. 3–4 · Hamel Husain's eval blog posts · LangSmith eval docs</div>
+  </div>
+</div>
+
+<div class="day-card" id="day24" data-day="24">
+  <div class="day-label">Day 24 · 15 hrs</div>
+  <div class="day-title">Guardrails + Red-Teaming</div>
+  <div class="day-body">
+    <h4>Topics</h4>
+    <ul>
+      <li>Guardrail categories — input/output/tool/topical (1 hr)</li>
+      <li><strong>NeMo Guardrails</strong> — Colang programmable rails, moderation/fact-checking/hallucination rails (3 hrs)</li>
+      <li><strong>Guardrails AI</strong> — Pydantic + RAIL specs, validators, re-prompting (2 hrs)</li>
+      <li><strong>Azure AI Content Safety</strong> + Foundry Prompt Shields (2 hrs); <strong>Lakera Guard</strong>; Bedrock Guardrails (1 hr)</li>
+      <li>🔬 <strong>Red-teaming agents</strong> — direct + indirect prompt injection, many-shot jailbreaks (Anthropic 2024), tool misuse, data exfiltration, OWASP LLM Top 10 (4 hrs)</li>
+      <li><code>garak</code> open-source scanner (1 hr); defense-in-depth pattern (1 hr)</li>
+    </ul>
+    <div class="hands-on"><strong>Hands-on:</strong> Run garak + your own 30-prompt injection suite against Day 14 capstone. Add NeMo Guardrails + Lakera in front. Re-test.</div>
+    <div class="resources-block"><strong>Resources:</strong> docs.nvidia.com/nemo/guardrails · github.com/guardrails-ai/guardrails · OWASP LLM Top 10 · Anthropic Many-shot jailbreaking paper</div>
+  </div>
+</div>
+
+<div class="day-card" id="day25" data-day="25">
+  <div class="day-label">Day 25 · 15 hrs</div>
+  <div class="day-title">Production-grade Eval &amp; Observability Capstone</div>
+  <div class="day-body">
+    <h4>Build day</h4>
+    <p>Add eval-on-PR (GitHub Actions: RAGAS faithfulness + LLM-judge trajectory + 30-case red-team must pass) to the capstone repo; wire production-tier LangSmith online evals with sampling; add a Langfuse dashboard for cost/latency/quality; ship to a staging environment.</p>
+    <p><strong>🔬 leads</strong> eval design &nbsp;·&nbsp; <strong>🔧 leads</strong> GH Actions + dashboards &nbsp;·&nbsp; <strong>🤖 verifies</strong> prompt/agent changes</p>
+  </div>
+</div>
+
+<div class="milestone"><strong>Phase 4 Milestone:</strong> No PR merges without passing the eval gate. Production dashboards live.</div>
+
+<!-- PHASE 5 -->
+<div class="phase-header" id="phase5">
+  <div class="phase-label">Phase 5 · Days 26–30 · 75 hrs</div>
+  <div class="phase-title">Cloud, Integration, CI/CD &amp; Production</div>
+</div>
+
+<div class="day-card" id="day26" data-day="26">
+  <div class="day-label">Day 26 · 15 hrs</div>
+  <div class="day-title">Microsoft Foundry Deep Dive</div>
+  <div class="badge-row"><span class="badge badge-must">MUST</span><span class="badge badge-phase">The 80/20 Cloud</span></div>
+  <div class="day-body">
+    <h4>Topics</h4>
+    <ul>
+      <li>"A unified Azure platform-as-a-service offering for enterprise AI operations." Rebranded from Azure AI Foundry at Ignite, Nov 18, 2025. Integrated services: <strong>Foundry Models, Foundry Agent Service, Foundry Tools, Foundry IQ</strong> (evolution of Azure AI Search), Azure ML, Foundry Control Plane, Foundry Local (2 hrs)</li>
+      <li>Auto-upgrade from Azure OpenAI resources — keeps existing API endpoint, state of work, and security configurations (1 hr)</li>
+      <li><strong>Foundry Agent Service</strong> — fully managed; supports OpenResponses + Activity Protocols, Invocations protocol, A2A protocol (preview) (5 hrs)</li>
+      <li><strong>Hosted agents</strong> — containerized applications on Azure Container Apps, deployed via your own Azure Container Registry (2 hrs)</li>
+      <li><strong>Foundry IQ</strong> — hybrid (BM25 + HNSW/eKNN) + semantic ranker built into agentic retrieval (3 hrs); AKS + Bicep/Terraform + Key Vault + managed identities (1 hr)</li>
+    </ul>
+    <div class="hands-on"><strong>Hands-on:</strong> Deploy Day 14 capstone as a Foundry Hosted Agent on Container Apps; index a 10K-doc corpus in Foundry IQ with semantic ranker; wire managed identity for Key Vault secrets.</div>
+    <div class="resources-block"><strong>Resources:</strong> learn.microsoft.com/azure/foundry · Upgrade Azure OpenAI to Microsoft Foundry · Hybrid Search Overview · Semantic Ranking Overview</div>
+  </div>
+</div>
+
+<div class="day-card" id="day27" data-day="27">
+  <div class="day-label">Day 27 · 15 hrs</div>
+  <div class="day-title">AWS Bedrock + AgentCore &amp; GCP Vertex AI Agent Engine</div>
+  <div class="badge-row"><span class="badge badge-nice">NICE — Comparative</span></div>
+  <div class="day-body">
+    <h4>AWS Bedrock AgentCore (preview, 2025)</h4>
+    <ul>
+      <li>8 primitives: Runtime (dedicated microVM, up to 8 hrs), Memory, Identity, Policy, Browser, Code Interpreter, Observability, Evaluations (4 hrs); AgentCore Gateway = managed MCP server</li>
+      <li>Classic Bedrock — Knowledge Bases, Guardrails, Flows, Agents (1 hr); SageMaker Unified Studio (1 hr)</li>
+      <li>Lambda as serverless agent host; ECS Fargate / EKS for long-running workloads (2 hrs); OpenSearch Serverless for vector + hybrid (1 hr)</li>
+    </ul>
+    <h4>Google Vertex AI Agent Engine</h4>
+    <ul>
+      <li>Fully managed; <code>adk deploy agent_engine</code> wraps agent in <code>reasoning_engines.AdkApp</code> with built-in <code>VertexAiSessionService</code> (3 hrs)</li>
+      <li>Cloud Run · GKE · AlloyDB with pgvector (1 hr); transitioning to <strong>Gemini Enterprise Agent Platform</strong> umbrella (1 hr)</li>
+    </ul>
+    <p><strong>Cloud selection rubric:</strong> Foundry default → Bedrock for AWS-native → Vertex for GCP-native / Gemini-grounding stacks</p>
+    <div class="hands-on"><strong>Hands-on:</strong> Deploy "hello world" to all three. Build a cost/latency/cold-start comparison sheet.</div>
+    <div class="resources-block"><strong>Resources:</strong> docs.aws.amazon.com/bedrock-agentcore · cloud.google.com/products/agent-builder · cloud.google.com/alloydb</div>
+  </div>
+</div>
+
+<div class="day-card" id="day28" data-day="28">
+  <div class="day-label">Day 28 · 15 hrs</div>
+  <div class="day-title">Integration: REST / gRPC / Kafka + Enterprise Connectors</div>
+  <div class="badge-row"><span class="badge badge-role">🔧 Heavy · 🤖 Heavy · 🔬 Light</span></div>
+  <div class="day-body">
+    <h4>Topics</h4>
+    <ul>
+      <li><strong>REST API design for agents</strong> — idempotency, async via webhook callbacks, run/resume endpoints, SSE for streaming (3 hrs)</li>
+      <li><strong>gRPC</strong> for internal agent-to-agent calls — low latency, strict typing via protobuf (2 hrs)</li>
+      <li><strong>Apache Kafka</strong> for event-driven agent architectures — agents as consumers, "agent topics", exactly-once semantics, schema registry (3 hrs)</li>
+      <li>Enterprise integration — <strong>Salesforce</strong>, <strong>Jira</strong> (REST + webhooks), <strong>Slack</strong> (Bolt SDK + Events API), databases (read-only roles, query MCP server pattern), internal APIs via OpenAPI → MCP Gateway (5 hrs)</li>
+      <li><strong>A2A protocol</strong> for cross-vendor multi-agent (1 hr)</li>
+    </ul>
+    <div class="hands-on"><strong>Hands-on:</strong> Add a Kafka consumer to the capstone agent that processes Jira-issue events; expose its results back via webhook.</div>
+  </div>
+</div>
+
+<div class="day-card" id="day29" data-day="29">
+  <div class="day-label">Day 29 · 15 hrs</div>
+  <div class="day-title">CI/CD + DevOps for GenAI</div>
+  <div class="badge-row"><span class="badge badge-must">MUST</span><span class="badge badge-role">🔧 Critical</span></div>
+  <div class="day-body">
+    <h4>Topics</h4>
+    <ul>
+      <li><strong>GitHub Actions</strong> — matrix for multi-env, OIDC to Azure/AWS/GCP, secret management (2 hrs)</li>
+      <li><strong>Eval-on-PR gates</strong> — RAGAS + trajectory + cost threshold; auto-comment results to PR (3 hrs)</li>
+      <li><strong>Prompt versioning</strong> in LangSmith / Langfuse + git (2 hrs); model versioning + canary routing via LiteLLM or Vercel AI Gateway (2 hrs)</li>
+      <li><strong>Docker</strong> multi-stage builds for Python/TS agents (1 hr)</li>
+      <li><strong>Kubernetes</strong> — Deployments, HPA, ConfigMap, Secrets; AKS specifics (2 hrs)</li>
+      <li><strong>Terraform</strong> for Foundry + Container Apps + Key Vault; <strong>Bicep</strong> alternative (2 hrs); secrets management (1 hr)</li>
+    </ul>
+    <div class="hands-on"><strong>Hands-on:</strong> Wire the capstone: lint → test → RAGAS eval → red-team → build container → deploy to Foundry staging. Add Terraform for full infra.</div>
+    <div class="resources-block"><strong>Resources:</strong> TechWorld with Nana K8s &amp; Terraform tutorials · learn.microsoft.com/azure/architecture/ai-ml · github.com/Azure/bicep-registry-modules</div>
+  </div>
+</div>
+
+<div class="day-card" id="day30" data-day="30">
+  <div class="day-label">Day 30 · 15 hrs</div>
+  <div class="day-title">Production Patterns + Capstone Hardening</div>
+  <div class="day-body">
+    <h4>Topics</h4>
+    <ul>
+      <li><strong>Blue/green deployments</strong> — version IDs, prompt-version pinning, dual-write evaluation (2 hrs)</li>
+      <li><strong>Canary releases</strong> with traffic-split (1% → 5% → 25%) on metrics gates (2 hrs)</li>
+      <li><strong>Rollback strategies</strong> — prompt rollback (LangSmith prompt hub), model rollback, full-stack rollback (2 hrs)</li>
+      <li><strong>Monitoring + alerting</strong> — latency p95/p99, cost per session, hallucination rate, tool error rate, guardrail trip rate (3 hrs)</li>
+      <li>Incident response runbook for agent failures (1 hr)</li>
+      <li><strong>Cost optimization</strong> — prompt caching, batch API (50% off Anthropic/OpenAI), model tiering: Haiku/Flash for cheap, Opus/Pro for hard (2 hrs)</li>
+      <li>Final capstone hardening + Loom demo + write-up (3 hrs)</li>
+    </ul>
+    <div class="hands-on"><strong>Deliverable:</strong> Public GitHub repo with infra-as-code, eval suite, observability dashboards, deployment instructions, and a 10-minute video tour. This is the portfolio artifact.</div>
+  </div>
+</div>
+
+<div class="milestone"><strong>Phase 5 Milestone:</strong> Production-shape agent system on Microsoft Foundry, blue/green-deployable, observable, evaluatable, and cost-bounded.</div>
+
+<!-- ROLE TRACKS -->
+<h2 class="section-title" id="roles">Role-Specific Tracks</h2>
+<div class="table-wrap">
+  <table>
+    <thead>
+      <tr><th>Topic</th><th>🤖 GenAI Eng</th><th>🔧 ML Eng</th><th>🔬 Senior DS</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>LangGraph deep dive (Days 7–10)</td><td class="must-cell">MUST</td><td class="must-cell">MUST</td><td class="must-cell">MUST</td></tr>
+      <tr><td>Vercel AI SDK + Next.js (Day 2)</td><td class="must-cell">MUST</td><td class="nice-cell">NICE</td><td class="nice-cell">NICE</td></tr>
+      <tr><td>Microsoft Foundry deployment (Day 26)</td><td class="must-cell">MUST</td><td class="must-cell">MUST</td><td class="nice-cell">NICE</td></tr>
+      <tr><td>Docker/K8s/Terraform/CI-CD (Days 29–30)</td><td class="nice-cell">NICE</td><td class="must-cell">MUST</td><td class="nice-cell">NICE</td></tr>
+      <tr><td>RAGAS + LLM-judge + trajectory evals (Days 18, 23)</td><td class="must-cell">MUST</td><td class="nice-cell">NICE</td><td class="must-cell">MUST</td></tr>
+      <tr><td>Red-teaming + guardrails (Day 24)</td><td class="must-cell">MUST</td><td class="nice-cell">NICE</td><td class="must-cell">MUST</td></tr>
+      <tr><td>MCP server building (Day 21)</td><td class="must-cell">MUST</td><td class="must-cell">MUST</td><td class="nice-cell">NICE</td></tr>
+      <tr><td>Beads (Day 20)</td><td class="nice-cell">NICE</td><td class="nice-cell">NICE</td><td class="nice-cell">NICE</td></tr>
+      <tr><td>Kafka + gRPC + enterprise connectors (Day 28)</td><td class="must-cell">MUST</td><td class="must-cell">MUST</td><td class="nice-cell">NICE</td></tr>
+      <tr><td>OpenAI Agents SDK / ADK / AutoGen (Days 12–13)</td><td class="nice-cell">NICE</td><td class="nice-cell">NICE</td><td class="nice-cell">NICE</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- RESOURCES -->
+<h2 class="section-title" id="resources">Exhaustive Resource Library</h2>
+
+<div class="resource-group">
+  <h3>Official Docs</h3>
+  <ul class="resource-list">
+    <li><strong>OpenAI:</strong> developers.openai.com/api/docs · developers.openai.com/blog/responses-api · github.com/openai/openai-cookbook · openai.github.io/openai-agents-python · github.com/openai/openai-agents-js</li>
+    <li><strong>Anthropic:</strong> docs.anthropic.com · platform.claude.com/docs · github.com/anthropics/anthropic-cookbook · docs.claude.com · code.claude.com/docs</li>
+    <li><strong>Google:</strong> ai.google.dev/gemini-api/docs · google.github.io/adk-docs · github.com/google/adk-python · cloud.google.com/vertex-ai/generative-ai/docs · cloud.google.com/products/agent-builder</li>
+    <li><strong>LangChain/LangGraph:</strong> docs.langchain.com · github.com/langchain-ai/langchain · github.com/langchain-ai/langgraph · github.com/langchain-ai/langchain-academy</li>
+    <li><strong>CrewAI:</strong> docs.crewai.com · github.com/crewAIInc/crewAI · learn.crewai.com</li>
+    <li><strong>MCP:</strong> modelcontextprotocol.io · github.com/modelcontextprotocol/servers · github.com/modelcontextprotocol/python-sdk · github.com/modelcontextprotocol/typescript-sdk · blog.modelcontextprotocol.io</li>
+    <li><strong>Observability:</strong> docs.smith.langchain.com · langfuse.com/docs · arize.com/docs/phoenix · github.com/pydantic/logfire</li>
+    <li><strong>Microsoft Foundry / Azure:</strong> learn.microsoft.com/azure/foundry · learn.microsoft.com/azure/search · learn.microsoft.com/agent-framework · learn.microsoft.com/azure/container-apps · learn.microsoft.com/azure/aks</li>
+    <li><strong>AWS:</strong> docs.aws.amazon.com/bedrock · docs.aws.amazon.com/bedrock-agentcore · docs.aws.amazon.com/sagemaker · docs.aws.amazon.com/lambda · docs.aws.amazon.com/eks · docs.aws.amazon.com/opensearch-service</li>
+    <li><strong>GCP:</strong> cloud.google.com/products/agent-builder · cloud.google.com/vertex-ai · cloud.google.com/run · cloud.google.com/kubernetes-engine · cloud.google.com/alloydb</li>
+    <li><strong>Vector stores:</strong> docs.trychroma.com · weaviate.io/developers · docs.pinecone.io · github.com/pgvector/pgvector · qdrant.tech/documentation</li>
+    <li><strong>Eval:</strong> docs.ragas.io · github.com/confident-ai/deepeval · github.com/explodinggradients/ragas</li>
+  </ul>
+</div>
+
+<div class="resource-group">
+  <h3>Courses</h3>
+  <ul class="resource-list">
+    <li><strong>DeepLearning.AI (free short courses):</strong> ChatGPT Prompt Engineering for Developers · LangChain for LLM Application Development · Functions, Tools and Agents with LangChain · Multi AI Agent Systems with crewAI · AI Agents in LangGraph · Building Agentic RAG with LlamaIndex · MCP: Build Rich-Context AI Apps with Anthropic · Building AI Agents with Microsoft AutoGen</li>
+    <li><strong>LangChain Academy (free):</strong> Intro to LangGraph (Python) · LangGraph Essentials · Agent Observability with LangSmith · Ambient Agents with LangGraph · Deep Agents</li>
+    <li><strong>Coursera:</strong> IBM Agentic AI with LangChain and LangGraph · DeepLearning.AI Generative AI for Software Development specialization</li>
+    <li><strong>Udemy:</strong> Agentic AI Engineering with LangChain &amp; LangGraph (LangChain v1)</li>
+    <li><strong>Google Skills / Codelabs:</strong> Get Started with ADK · Deploy ADK to Agent Engine</li>
+  </ul>
+</div>
+
+<div class="resource-group">
+  <h3>YouTube Channels</h3>
+  <ul class="resource-list">
+    <li><strong>AI Jason</strong> — practical agent builds</li>
+    <li><strong>Sam Witteveen</strong> — LangGraph deep dives</li>
+    <li><strong>James Briggs</strong> — RAG, vector DBs, embeddings</li>
+    <li><strong>TechWorld with Nana</strong> — Kubernetes, Terraform, DevOps</li>
+    <li><strong>Yannic Kilcher</strong> — research paper deep dives (for 🔬)</li>
+    <li>Anthropic / OpenAI / LangChain / CrewAI official channels for release videos</li>
+  </ul>
+</div>
+
+<div class="resource-group">
+  <h3>Books</h3>
+  <ul class="resource-list">
+    <li><strong>Chip Huyen — AI Engineering: Building Applications with Foundation Models</strong> (O'Reilly, 2025). Read Ch. 1 (Day 1), Ch. 5 (Day 6), Ch. 6 (Day 15), Chs. 3–4 (Days 18 &amp; 23), Ch. 10 (Day 30).</li>
+    <li><strong>Chip Huyen — Designing Machine Learning Systems</strong> (O'Reilly) — for 🔧 readers as MLOps foundation.</li>
+    <li><strong>Lewis Tunstall et al. — Natural Language Processing with Transformers</strong> (O'Reilly) — for 🔬 foundations.</li>
+    <li>Sahar Mor / Eugene Yan / Hamel Husain blog posts — read all eval-related posts (free).</li>
+  </ul>
+</div>
+
+<div class="resource-group">
+  <h3>GitHub Repos to Clone and Study</h3>
+  <ul class="resource-list">
+    <li><code>langchain-ai/langchain</code> · <code>langchain-ai/langgraph</code> · <code>langchain-ai/langchain-academy</code></li>
+    <li><code>crewAIInc/crewAI</code></li>
+    <li><code>openai/openai-agents-python</code> · <code>openai/openai-agents-js</code> · <code>openai/openai-cookbook</code></li>
+    <li><code>anthropics/anthropic-cookbook</code> · <code>anthropics/claude-code</code></li>
+    <li><code>google/adk-python</code></li>
+    <li><code>modelcontextprotocol/servers</code> · <code>modelcontextprotocol/python-sdk</code> · <code>modelcontextprotocol/typescript-sdk</code></li>
+    <li><code>explodinggradients/ragas</code> · <code>chiphuyen/aie-book</code> · <code>steveyegge/beads</code></li>
+    <li><code>disler/claude-code-hooks-mastery</code> · <code>sanjeed5/awesome-cursor-rules-mdc</code></li>
+  </ul>
+</div>
+
+<!-- RECOMMENDATIONS -->
+<h2 class="section-title" id="recommendations">Recommendations &amp; Decision Thresholds</h2>
+<div style="display:flex;flex-direction:column;gap:14px;margin-bottom:32px;">
+
+  <div class="rec-card">
+    <div class="rec-label" style="color:var(--phase);">Stage 1 — Days 1–14</div>
+    <p>Ship the Day-14 mini-capstone. <strong>Stop and reassess if:</strong></p>
+    <ul>
+      <li>Day-14 median cost &gt; $0.10/call → prompt-caching not used, revisit Day 4</li>
+      <li>Median latency &gt; 8s → too many sequential LLM calls; consider parallel tool use or smaller graph</li>
+      <li>Eval suite &lt; 20 cases by Day 14 → <strong>do not proceed to Phase 3</strong></li>
+    </ul>
+  </div>
+
+  <div class="rec-card">
+    <div class="rec-label" style="color:var(--phase);">Stage 2 — Days 15–25</div>
+    <p>By Day 25 you should have: hybrid-search RAG with reranking, all three observability tools instrumented, an eval-on-PR gate, and a passing red-team suite. <strong>Stop and reassess if:</strong></p>
+    <ul>
+      <li>RAGAS faithfulness &lt; 0.85 on golden set → revisit chunking + reranker (Day 17)</li>
+      <li>Cannot trace a HITL interrupt + resume end-to-end → revisit Day 22</li>
+      <li>Red-team injection success &gt; 10% → add second guardrail layer (Day 24) before production</li>
+    </ul>
+  </div>
+
+  <div class="rec-card">
+    <div class="rec-label" style="color:var(--phase);">Stage 3 — Days 26–30</div>
+    <p>Default to <strong>Microsoft Foundry</strong>. Switch only if:</p>
+    <ul>
+      <li>AWS-native with no Azure footprint → Bedrock + AgentCore + Lambda/ECS/EKS + OpenSearch Serverless</li>
+      <li>GCP-native or Gemini-grounding dependency → Vertex AI Agent Engine + ADK + Cloud Run/GKE/AlloyDB</li>
+    </ul>
+  </div>
+
+  <div class="rec-card">
+    <div class="rec-label" style="color:var(--accent);">Post-Day-30 Specialization</div>
+    <ul>
+      <li>🤖 Ship a public MCP server registry contribution; build 2 more production agent apps; learn one new framework quarterly</li>
+      <li>🔧 Add fine-tuning track (LoRA/QLoRA on a 7B model); pursue AI-102 (Azure), AWS ML Specialty, or Google Professional ML Engineer</li>
+      <li>🔬 Publish an internal eval framework; read 2 papers/day; double LangGraph practice</li>
+      <li>If you cannot build Day-14 capstone solo, repeat Days 7–9 before Phase 3</li>
+      <li>If you skip the eval suite (Day 18) you will guess in production. Don't.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- CAVEATS -->
+<h2 class="section-title" id="caveats">Caveats</h2>
+<ul class="caveat-list">
+  <li><span class="caveat-num">1</span><strong>Model and version churn.</strong> Names quoted here reflect the May 2026 landscape; expect changes every 60–90 days. Anchor learning on APIs and patterns (Responses API, Messages API, MCP), not specific model strings.</li>
+  <li><span class="caveat-num">2</span><strong>Frameworks overlap heavily.</strong> Pick one orchestration framework (recommend LangGraph) and master it. The marginal value drops fast after the third.</li>
+  <li><span class="caveat-num">3</span><strong>Pricing volatility.</strong> Per-token prices, free-tier limits, and grounding/web-search charges change frequently. Always verify against the vendor pricing page the week you build.</li>
+  <li><span class="caveat-num">4</span><strong>Preview vs. GA status.</strong> AWS Bedrock AgentCore, Foundry Hosted Agents, A2A protocol versions, and several Vertex AI services were in preview as of May 2026. Do not bet production SLAs on preview features without enterprise-tier support agreements.</li>
+  <li><span class="caveat-num">5</span><strong>15 hrs/day is unsustainable for most humans for 30 days.</strong> A more realistic schedule is 8–10 hrs/day for 45–60 days with the same content. Treat the 450-hour budget as the content, not necessarily the calendar.</li>
+  <li><span class="caveat-num">6</span><strong>The 80/20 stack is not neutral.</strong> It biases toward Python, Anthropic/OpenAI, Microsoft/Azure, and LangChain. Engineers in JS-heavy, GCP-native, or open-source-only shops should swap the relevant days.</li>
+  <li><span class="caveat-num">7</span><strong>Beads and agentic-coding hooks have small user bases.</strong> Treat them as productivity multipliers, not load-bearing production dependencies.</li>
+  <li><span class="caveat-num">8</span><strong>This roadmap intentionally underweights classical ML.</strong> Supplement with <em>Designing Machine Learning Systems</em> (Huyen) and a separate MLOps track if your team does heavy tabular ML, fine-tuning, or model training.</li>
+</ul>
+
+<!-- COMPLETION TABLE -->
+<h2 class="section-title" id="completion">Completion Table</h2>
+<div class="table-wrap">
+  <table>
+    <thead><tr><th>Item</th><th>Covered?</th><th>Where</th></tr></thead>
+    <tbody>
+      <tr><td>30-day, 15 hrs/day, 450 hrs total</td><td class="check">✅</td><td>All 30 days</td></tr>
+      <tr><td>Three role perspectives marked</td><td class="check">✅</td><td>Conventions + per-day + summary table</td></tr>
+      <tr><td>Phase 1: Python (asyncio, typing, Pydantic, FastAPI, uv)</td><td class="check">✅</td><td>Day 1</td></tr>
+      <tr><td>Phase 1: TypeScript (Node, Bun, Vercel AI SDK, Server Actions, tRPC)</td><td class="check">✅</td><td>Day 2</td></tr>
+      <tr><td>Phase 1: OpenAI (Chat Completions, Responses API, Assistants, function calling, structured outputs)</td><td class="check">✅</td><td>Day 3</td></tr>
+      <tr><td>Phase 1: Anthropic (Messages, tool use, prompt caching, extended thinking, citations)</td><td class="check">✅</td><td>Day 4</td></tr>
+      <tr><td>Phase 1: Gemini (2.5 Pro/Flash, context caching, function calling, grounding)</td><td class="check">✅</td><td>Day 5</td></tr>
+      <tr><td>Prompt engineering (system, few-shot, CoT, ToT, ReAct, structured outputs, tool use)</td><td class="check">✅</td><td>Day 6</td></tr>
+      <tr><td>SDK comparison (OpenAI / Anthropic / google-genai / LiteLLM)</td><td class="check">✅</td><td>Day 5</td></tr>
+      <tr><td>Phase 2: LangChain (chains, LCEL, parsers, retrievers, tools, memory)</td><td class="check">✅</td><td>Day 7</td></tr>
+      <tr><td>Phase 2: LangGraph (StateGraph, edges, checkpointers, HITL, streaming, subgraphs)</td><td class="check">✅</td><td>Days 8–10</td></tr>
+      <tr><td>Phase 2: LangGraph patterns (ReAct, tool-calling, supervisor/swarm, plan-and-execute)</td><td class="check">✅</td><td>Day 9</td></tr>
+      <tr><td>Phase 2: CrewAI (crews, processes, tools, memory, Flows)</td><td class="check">✅</td><td>Day 11</td></tr>
+      <tr><td>Phase 2: AutoGen / Agent Framework / OpenAI Agents SDK / Google ADK</td><td class="check">✅</td><td>Days 12–13</td></tr>
+      <tr><td>Phase 3: RAG architecture (naive → advanced → agentic) + where it breaks</td><td class="check">✅</td><td>Day 15</td></tr>
+      <tr><td>Phase 3: Vector stores (Chroma, Weaviate, Pinecone, pgvector, Qdrant, Foundry IQ)</td><td class="check">✅</td><td>Day 16</td></tr>
+      <tr><td>Phase 3: Hybrid search + rerankers (Cohere / Jina / Voyage)</td><td class="check">✅</td><td>Day 17</td></tr>
+      <tr><td>Phase 3: RAGAS + eval-driven RAG</td><td class="check">✅</td><td>Days 18, 20</td></tr>
+      <tr><td>Phase 3: Agentic coding tools (Claude Code, Cursor, Codex, Copilot)</td><td class="check">✅</td><td>Day 19</td></tr>
+      <tr><td>Phase 4: MCP architecture, primitives, transports, building servers</td><td class="check">✅</td><td>Day 21</td></tr>
+      <tr><td>Phase 4: LangSmith / Langfuse / Phoenix</td><td class="check">✅</td><td>Day 22</td></tr>
+      <tr><td>Phase 4: Agent evaluation (deterministic vs LLM-judge vs trajectory)</td><td class="check">✅</td><td>Day 23</td></tr>
+      <tr><td>Phase 4: Guardrails + red-teaming</td><td class="check">✅</td><td>Day 24</td></tr>
+      <tr><td>Phase 5: Azure / Foundry</td><td class="check">✅</td><td>Day 26</td></tr>
+      <tr><td>Phase 5: AWS (Bedrock, AgentCore, SageMaker, Lambda, ECS/EKS, OpenSearch)</td><td class="check">✅</td><td>Day 27</td></tr>
+      <tr><td>Phase 5: GCP (Vertex AI, Cloud Run, GKE, AlloyDB)</td><td class="check">✅</td><td>Day 27</td></tr>
+      <tr><td>Phase 5: API &amp; integration (REST, gRPC, Kafka, enterprise connectors)</td><td class="check">✅</td><td>Day 28</td></tr>
+      <tr><td>Phase 5: CI/CD + DevOps (Docker, K8s, Terraform/Bicep)</td><td class="check">✅</td><td>Day 29</td></tr>
+      <tr><td>Phase 5: Production patterns (blue/green, canary, rollback, monitoring)</td><td class="check">✅</td><td>Day 30</td></tr>
+      <tr><td>Books, courses, YouTube, GitHub repos, cloud docs</td><td class="check">✅</td><td>Resources section</td></tr>
+    </tbody>
+  </table>
+</div>
+
+</main>
+</div>
+
+<script>
+function toggleTheme() {
+  const root = document.documentElement;
+  const btn = document.querySelector('.theme-toggle');
+  const current = root.getAttribute('data-theme');
+  if (current === 'dark') {
+    root.setAttribute('data-theme', 'light');
+    btn.textContent = '☾';
+  } else if (current === 'light') {
+    root.removeAttribute('data-theme');
+    btn.textContent = '☀';
+  } else {
+    root.setAttribute('data-theme', 'dark');
+    btn.textContent = '☀';
+  }
+}
+</script>
+</body>
+</html>

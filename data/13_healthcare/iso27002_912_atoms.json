@@ -1,0 +1,521 @@
+[
+  {
+    "control_family": { "number": "9", "name": "Access Control" },
+    "control_subfamily": { "number": "9.1", "name": "Business Requirements of Access Control" },
+    "control": {
+      "id": "ISO.9.1.2",
+      "name": "Access to Networks and Network Services",
+      "type": "required",
+      "description": "Users shall only be provided with access to the network and network services that they have been specifically authorized to use.",
+      "source": "ISO/IEC 27002:2013 §9.1.2",
+      "iomt_relevance": "Network access logs directly evidence whether a device or user accessed only authorised services"
+    },
+    "atoms": [
+      {
+        "key": "a",
+        "rule": "base",
+        "claim": "The organization shall provide users access only to networks they have been specifically authorized to use.",
+        "source_text": "Users shall only be provided with access to the network and network services that they have been specifically authorized to use."
+      },
+      {
+        "key": "b",
+        "rule": "Rule 2 — 'network and network services' (two objects)",
+        "claim": "The organization shall provide users access only to network services they have been specifically authorized to use.",
+        "source_text": "Users shall only be provided with access to the network and network services that they have been specifically authorized to use."
+      }
+    ],
+    "breadcrumb": "ISO 27002 > Access Control > Business Requirements > Access to Networks"
+  },
+  {
+    "control_family": { "number": "9", "name": "Access Control" },
+    "control_subfamily": { "number": "9.2", "name": "User Access Management" },
+    "control": {
+      "id": "ISO.9.2.3",
+      "name": "Management of Privileged Access Rights",
+      "type": "required",
+      "description": "The allocation and use of privileged access rights shall be restricted and controlled.",
+      "source": "ISO/IEC 27002:2013 §9.2.3",
+      "iomt_relevance": "Privileged commands issued from IoMT admin accounts are directly observable in incident records"
+    },
+    "atoms": [
+      {
+        "key": "a",
+        "rule": "Rule 1 — 'allocation and use' (two verbs)",
+        "claim": "The organization shall restrict the allocation of privileged access rights.",
+        "source_text": "The allocation and use of privileged access rights shall be restricted and controlled."
+      },
+      {
+        "key": "b",
+        "rule": "Rule 1 — 'allocation and use'",
+        "claim": "The organization shall restrict the use of privileged access rights.",
+        "source_text": "The allocation and use of privileged access rights shall be restricted and controlled."
+      },
+      {
+        "key": "c",
+        "rule": "Rule 1 — 'restricted and controlled' (two verbs)",
+        "claim": "The organization shall control the use of privileged access rights.",
+        "source_text": "The allocation and use of privileged access rights shall be restricted and controlled."
+      }
+    ],
+    "breadcrumb": "ISO 27002 > Access Control > User Access Management > Privileged Access Rights"
+  },
+  {
+    "control_family": { "number": "9", "name": "Access Control" },
+    "control_subfamily": { "number": "9.4", "name": "System and Application Access Control" },
+    "control": {
+      "id": "ISO.9.4.1",
+      "name": "Information Access Restriction",
+      "type": "required",
+      "description": "Access to information and application system functions shall be restricted in accordance with the access control policy.",
+      "source": "ISO/IEC 27002:2013 §9.4.1",
+      "iomt_relevance": "Incident records show whether a device or user accessed data outside its authorised scope"
+    },
+    "atoms": [
+      {
+        "key": "a",
+        "rule": "Rule 2 — 'information and application system functions' (two objects)",
+        "claim": "The organization shall restrict access to information in accordance with the access control policy.",
+        "source_text": "Access to information and application system functions shall be restricted in accordance with the access control policy."
+      },
+      {
+        "key": "b",
+        "rule": "Rule 2 — two objects",
+        "claim": "The organization shall restrict access to application system functions in accordance with the access control policy.",
+        "source_text": "Access to information and application system functions shall be restricted in accordance with the access control policy."
+      }
+    ],
+    "breadcrumb": "ISO 27002 > Access Control > System and Application Access Control > Information Access Restriction"
+  },
+  {
+    "control_family": { "number": "9", "name": "Access Control" },
+    "control_subfamily": { "number": "9.4", "name": "System and Application Access Control" },
+    "control": {
+      "id": "ISO.9.4.2",
+      "name": "Secure Log-on Procedures",
+      "type": "required",
+      "description": "Where required by the access control policy, access to systems and applications shall be controlled by a secure log-on procedure.",
+      "source": "ISO/IEC 27002:2013 §9.4.2",
+      "iomt_relevance": "Authentication events in incident records directly show whether secure log-on was enforced"
+    },
+    "atoms": [
+      {
+        "key": "a",
+        "rule": "Rule 2 — 'systems and applications' (two objects)",
+        "claim": "The organization shall control access to systems by a secure log-on procedure where required.",
+        "source_text": "Access to systems and applications shall be controlled by a secure log-on procedure."
+      },
+      {
+        "key": "b",
+        "rule": "Rule 2 — two objects",
+        "claim": "The organization shall control access to applications by a secure log-on procedure where required.",
+        "source_text": "Access to systems and applications shall be controlled by a secure log-on procedure."
+      }
+    ],
+    "breadcrumb": "ISO 27002 > Access Control > System and Application Access Control > Secure Log-on"
+  },
+  {
+    "control_family": { "number": "10", "name": "Cryptography" },
+    "control_subfamily": { "number": "10.1", "name": "Cryptographic Controls" },
+    "control": {
+      "id": "ISO.10.1.1",
+      "name": "Policy on the Use of Cryptographic Controls",
+      "type": "required",
+      "description": "A policy on the use of cryptographic controls for protection of information shall be developed and implemented.",
+      "source": "ISO/IEC 27002:2013 §10.1.1",
+      "iomt_relevance": "Incident records show whether encryption was applied to data at rest or in transit"
+    },
+    "atoms": [
+      {
+        "key": "a",
+        "rule": "Rule 1 — 'developed and implemented' (two verbs)",
+        "claim": "The organization shall develop a policy on the use of cryptographic controls for protection of information.",
+        "source_text": "A policy on the use of cryptographic controls for protection of information shall be developed and implemented."
+      },
+      {
+        "key": "b",
+        "rule": "Rule 1 — 'developed and implemented'",
+        "claim": "The organization shall implement a policy on the use of cryptographic controls for protection of information.",
+        "source_text": "A policy on the use of cryptographic controls for protection of information shall be developed and implemented."
+      }
+    ],
+    "breadcrumb": "ISO 27002 > Cryptography > Cryptographic Controls > Policy"
+  },
+  {
+    "control_family": { "number": "10", "name": "Cryptography" },
+    "control_subfamily": { "number": "10.1", "name": "Cryptographic Controls" },
+    "control": {
+      "id": "ISO.10.1.2",
+      "name": "Key Management",
+      "type": "required",
+      "description": "A policy on the use, protection and lifetime of cryptographic keys shall be developed and implemented through their whole lifecycle.",
+      "source": "ISO/IEC 27002:2013 §10.1.2",
+      "iomt_relevance": "Key rotation and revocation events appear in device and gateway incident logs"
+    },
+    "atoms": [
+      {
+        "key": "a",
+        "rule": "Rule 1 — 'use, protection and lifetime' (three aspects → three atoms)",
+        "claim": "The organization shall develop a policy on the use of cryptographic keys through their whole lifecycle.",
+        "source_text": "A policy on the use, protection and lifetime of cryptographic keys shall be developed and implemented through their whole lifecycle."
+      },
+      {
+        "key": "b",
+        "rule": "Rule 1 — three aspects",
+        "claim": "The organization shall develop a policy on the protection of cryptographic keys through their whole lifecycle.",
+        "source_text": "A policy on the use, protection and lifetime of cryptographic keys shall be developed and implemented through their whole lifecycle."
+      },
+      {
+        "key": "c",
+        "rule": "Rule 1 — three aspects",
+        "claim": "The organization shall develop a policy on the lifetime of cryptographic keys through their whole lifecycle.",
+        "source_text": "A policy on the use, protection and lifetime of cryptographic keys shall be developed and implemented through their whole lifecycle."
+      },
+      {
+        "key": "d",
+        "rule": "Rule 1 — 'developed and implemented'",
+        "claim": "The organization shall implement a policy on the use, protection and lifetime of cryptographic keys.",
+        "source_text": "A policy on the use, protection and lifetime of cryptographic keys shall be developed and implemented through their whole lifecycle."
+      }
+    ],
+    "breadcrumb": "ISO 27002 > Cryptography > Cryptographic Controls > Key Management"
+  },
+  {
+    "control_family": { "number": "11", "name": "Physical and Environmental Security" },
+    "control_subfamily": { "number": "11.2", "name": "Equipment" },
+    "control": {
+      "id": "ISO.11.2.1",
+      "name": "Equipment Siting and Protection",
+      "type": "required",
+      "description": "Equipment shall be sited and protected to reduce the risks from environmental threats and hazards, and opportunities for unauthorized access.",
+      "source": "ISO/IEC 27002:2013 §11.2.1",
+      "iomt_relevance": "IoMT device placement and physical access incidents are directly evidenced in incident records"
+    },
+    "atoms": [
+      {
+        "key": "a",
+        "rule": "Rule 1 — 'sited and protected' (two verbs)",
+        "claim": "The organization shall site equipment to reduce risks from environmental threats and hazards.",
+        "source_text": "Equipment shall be sited and protected to reduce the risks from environmental threats and hazards, and opportunities for unauthorized access."
+      },
+      {
+        "key": "b",
+        "rule": "Rule 1 — two verbs",
+        "claim": "The organization shall protect equipment to reduce risks from environmental threats and hazards.",
+        "source_text": "Equipment shall be sited and protected to reduce the risks from environmental threats and hazards, and opportunities for unauthorized access."
+      },
+      {
+        "key": "c",
+        "rule": "Rule 2 — 'environmental threats' and 'unauthorized access' (two objects)",
+        "claim": "The organization shall site and protect equipment to reduce opportunities for unauthorized access.",
+        "source_text": "Equipment shall be sited and protected to reduce the risks from environmental threats and hazards, and opportunities for unauthorized access."
+      }
+    ],
+    "breadcrumb": "ISO 27002 > Physical and Environmental Security > Equipment > Siting and Protection"
+  },
+  {
+    "control_family": { "number": "11", "name": "Physical and Environmental Security" },
+    "control_subfamily": { "number": "11.2", "name": "Equipment" },
+    "control": {
+      "id": "ISO.11.2.7",
+      "name": "Secure Disposal or Re-use of Equipment",
+      "type": "required",
+      "description": "All items of equipment containing storage media shall be verified to ensure that any sensitive data and licensed software has been removed or securely overwritten prior to disposal or re-use.",
+      "source": "ISO/IEC 27002:2013 §11.2.7",
+      "iomt_relevance": "IoMT device decommissioning events and data wipe confirmations appear in incident records"
+    },
+    "atoms": [
+      {
+        "key": "a",
+        "rule": "base",
+        "claim": "The organization shall verify that sensitive data has been removed from equipment containing storage media prior to disposal.",
+        "source_text": "All items of equipment containing storage media shall be verified to ensure that any sensitive data has been removed or securely overwritten prior to disposal or re-use."
+      },
+      {
+        "key": "b",
+        "rule": "Rule 1 — 'removed or securely overwritten' (two verbs)",
+        "claim": "The organization shall verify that sensitive data has been securely overwritten on equipment prior to disposal.",
+        "source_text": "...sensitive data and licensed software has been removed or securely overwritten prior to disposal or re-use."
+      },
+      {
+        "key": "c",
+        "rule": "Rule 2 — 'disposal or re-use' (two objects)",
+        "claim": "The organization shall verify that sensitive data has been removed from equipment containing storage media prior to re-use.",
+        "source_text": "...prior to disposal or re-use."
+      },
+      {
+        "key": "d",
+        "rule": "Rule 2 — 'sensitive data and licensed software'",
+        "claim": "The organization shall verify that licensed software has been removed from equipment prior to disposal or re-use.",
+        "source_text": "...ensure that any sensitive data and licensed software has been removed or securely overwritten prior to disposal or re-use."
+      }
+    ],
+    "breadcrumb": "ISO 27002 > Physical and Environmental Security > Equipment > Secure Disposal or Re-use"
+  },
+  {
+    "control_family": { "number": "12", "name": "Operations Security" },
+    "control_subfamily": { "number": "12.2", "name": "Protection from Malware" },
+    "control": {
+      "id": "ISO.12.2.1",
+      "name": "Controls Against Malware",
+      "type": "required",
+      "description": "Detection, prevention and recovery controls to protect against malware shall be implemented, combined with appropriate user awareness.",
+      "source": "ISO/IEC 27002:2013 §12.2.1",
+      "iomt_relevance": "Malware detection events and device infection incidents are core CICIoMT2024 scenarios"
+    },
+    "atoms": [
+      {
+        "key": "a",
+        "rule": "Rule 1 — 'detection, prevention and recovery' (three verbs)",
+        "claim": "The organization shall implement detection controls to protect against malware.",
+        "source_text": "Detection, prevention and recovery controls to protect against malware shall be implemented, combined with appropriate user awareness."
+      },
+      {
+        "key": "b",
+        "rule": "Rule 1 — three verbs",
+        "claim": "The organization shall implement prevention controls to protect against malware.",
+        "source_text": "Detection, prevention and recovery controls to protect against malware shall be implemented, combined with appropriate user awareness."
+      },
+      {
+        "key": "c",
+        "rule": "Rule 1 — three verbs",
+        "claim": "The organization shall implement recovery controls to protect against malware.",
+        "source_text": "Detection, prevention and recovery controls to protect against malware shall be implemented, combined with appropriate user awareness."
+      },
+      {
+        "key": "d",
+        "rule": "base",
+        "claim": "The organization shall implement appropriate user awareness measures alongside malware controls.",
+        "source_text": "...combined with appropriate user awareness."
+      }
+    ],
+    "breadcrumb": "ISO 27002 > Operations Security > Protection from Malware > Controls Against Malware"
+  },
+  {
+    "control_family": { "number": "12", "name": "Operations Security" },
+    "control_subfamily": { "number": "12.3", "name": "Backup" },
+    "control": {
+      "id": "ISO.12.3.1",
+      "name": "Information Backup",
+      "type": "required",
+      "description": "Backup copies of information, software and system images shall be taken and tested regularly in accordance with an agreed backup policy.",
+      "source": "ISO/IEC 27002:2013 §12.3.1",
+      "iomt_relevance": "Backup completion and restoration test events appear in IoMT system incident logs"
+    },
+    "atoms": [
+      {
+        "key": "a",
+        "rule": "Rule 2 — 'information, software and system images' (three objects)",
+        "claim": "The organization shall take backup copies of information regularly in accordance with a backup policy.",
+        "source_text": "Backup copies of information, software and system images shall be taken and tested regularly in accordance with an agreed backup policy."
+      },
+      {
+        "key": "b",
+        "rule": "Rule 2 — three objects",
+        "claim": "The organization shall take backup copies of software regularly in accordance with a backup policy.",
+        "source_text": "Backup copies of information, software and system images shall be taken and tested regularly in accordance with an agreed backup policy."
+      },
+      {
+        "key": "c",
+        "rule": "Rule 2 — three objects",
+        "claim": "The organization shall take backup copies of system images regularly in accordance with a backup policy.",
+        "source_text": "Backup copies of information, software and system images shall be taken and tested regularly in accordance with an agreed backup policy."
+      },
+      {
+        "key": "d",
+        "rule": "Rule 1 — 'taken and tested' (two verbs)",
+        "claim": "The organization shall test backup copies regularly in accordance with a backup policy.",
+        "source_text": "Backup copies of information, software and system images shall be taken and tested regularly in accordance with an agreed backup policy."
+      }
+    ],
+    "breadcrumb": "ISO 27002 > Operations Security > Backup > Information Backup"
+  },
+  {
+    "control_family": { "number": "12", "name": "Operations Security" },
+    "control_subfamily": { "number": "12.4", "name": "Logging and Monitoring" },
+    "control": {
+      "id": "ISO.12.4.1",
+      "name": "Event Logging",
+      "type": "required",
+      "description": "Event logs recording user activities, exceptions, faults and information security events shall be produced, kept and regularly reviewed.",
+      "source": "ISO/IEC 27002:2013 §12.4.1",
+      "iomt_relevance": "Presence and content of event logs is directly observable in IoMT incident records"
+    },
+    "atoms": [
+      {
+        "key": "a",
+        "rule": "Rule 2 — 'user activities, exceptions, faults and security events' (four objects)",
+        "claim": "The organization shall produce event logs recording user activities.",
+        "source_text": "Event logs recording user activities, exceptions, faults and information security events shall be produced, kept and regularly reviewed."
+      },
+      {
+        "key": "b",
+        "rule": "Rule 2 — four objects",
+        "claim": "The organization shall produce event logs recording exceptions.",
+        "source_text": "Event logs recording user activities, exceptions, faults and information security events shall be produced, kept and regularly reviewed."
+      },
+      {
+        "key": "c",
+        "rule": "Rule 2 — four objects",
+        "claim": "The organization shall produce event logs recording faults.",
+        "source_text": "Event logs recording user activities, exceptions, faults and information security events shall be produced, kept and regularly reviewed."
+      },
+      {
+        "key": "d",
+        "rule": "Rule 2 — four objects",
+        "claim": "The organization shall produce event logs recording information security events.",
+        "source_text": "Event logs recording user activities, exceptions, faults and information security events shall be produced, kept and regularly reviewed."
+      },
+      {
+        "key": "e",
+        "rule": "Rule 1 — 'produced, kept and regularly reviewed' (three verbs)",
+        "claim": "The organization shall keep event logs.",
+        "source_text": "...shall be produced, kept and regularly reviewed."
+      },
+      {
+        "key": "f",
+        "rule": "Rule 1 — three verbs",
+        "claim": "The organization shall regularly review event logs.",
+        "source_text": "...shall be produced, kept and regularly reviewed."
+      }
+    ],
+    "breadcrumb": "ISO 27002 > Operations Security > Logging and Monitoring > Event Logging"
+  },
+  {
+    "control_family": { "number": "12", "name": "Operations Security" },
+    "control_subfamily": { "number": "12.4", "name": "Logging and Monitoring" },
+    "control": {
+      "id": "ISO.12.4.2",
+      "name": "Protection of Log Information",
+      "type": "required",
+      "description": "Logging facilities and log information shall be protected against tampering and unauthorized access.",
+      "source": "ISO/IEC 27002:2013 §12.4.2",
+      "iomt_relevance": "Log integrity and access control events are directly evidenced in IoMT incident records"
+    },
+    "atoms": [
+      {
+        "key": "a",
+        "rule": "Rule 2 — 'logging facilities and log information' (two objects)",
+        "claim": "The organization shall protect logging facilities against tampering.",
+        "source_text": "Logging facilities and log information shall be protected against tampering and unauthorized access."
+      },
+      {
+        "key": "b",
+        "rule": "Rule 2 — two objects",
+        "claim": "The organization shall protect log information against tampering.",
+        "source_text": "Logging facilities and log information shall be protected against tampering and unauthorized access."
+      },
+      {
+        "key": "c",
+        "rule": "Rule 2 — 'tampering and unauthorized access' (two threats)",
+        "claim": "The organization shall protect logging facilities against unauthorized access.",
+        "source_text": "Logging facilities and log information shall be protected against tampering and unauthorized access."
+      },
+      {
+        "key": "d",
+        "rule": "Rule 2 — two threats",
+        "claim": "The organization shall protect log information against unauthorized access.",
+        "source_text": "Logging facilities and log information shall be protected against tampering and unauthorized access."
+      }
+    ],
+    "breadcrumb": "ISO 27002 > Operations Security > Logging and Monitoring > Protection of Log Information"
+  },
+  {
+    "control_family": { "number": "12", "name": "Operations Security" },
+    "control_subfamily": { "number": "12.4", "name": "Logging and Monitoring" },
+    "control": {
+      "id": "ISO.12.4.3",
+      "name": "Administrator and Operator Logs",
+      "type": "required",
+      "description": "System administrator and system operator activities shall be logged and the logs protected and regularly reviewed.",
+      "source": "ISO/IEC 27002:2013 §12.4.3",
+      "iomt_relevance": "Admin actions on IoMT gateways and MQTT brokers directly appear in incident records"
+    },
+    "atoms": [
+      {
+        "key": "a",
+        "rule": "Rule 2 — 'system administrator and system operator' (two actors)",
+        "claim": "The organization shall log system administrator activities.",
+        "source_text": "System administrator and system operator activities shall be logged and the logs protected and regularly reviewed."
+      },
+      {
+        "key": "b",
+        "rule": "Rule 2 — two actors",
+        "claim": "The organization shall log system operator activities.",
+        "source_text": "System administrator and system operator activities shall be logged and the logs protected and regularly reviewed."
+      },
+      {
+        "key": "c",
+        "rule": "Rule 1 — 'logged and protected and regularly reviewed' (three verbs)",
+        "claim": "The organization shall protect administrator and operator logs.",
+        "source_text": "...shall be logged and the logs protected and regularly reviewed."
+      },
+      {
+        "key": "d",
+        "rule": "Rule 1 — three verbs",
+        "claim": "The organization shall regularly review administrator and operator logs.",
+        "source_text": "...shall be logged and the logs protected and regularly reviewed."
+      }
+    ],
+    "breadcrumb": "ISO 27002 > Operations Security > Logging and Monitoring > Administrator and Operator Logs"
+  },
+  {
+    "control_family": { "number": "12", "name": "Operations Security" },
+    "control_subfamily": { "number": "12.4", "name": "Logging and Monitoring" },
+    "control": {
+      "id": "ISO.12.4.4",
+      "name": "Clock Synchronisation",
+      "type": "required",
+      "description": "The clocks of all relevant information processing systems within an organization or security domain shall be synchronised to a single reference time source.",
+      "source": "ISO/IEC 27002:2013 §12.4.4",
+      "iomt_relevance": "IoMT incident timestamps are meaningless without clock sync — directly evidenced in MQTT and network logs"
+    },
+    "atoms": [
+      {
+        "key": "a",
+        "rule": "base",
+        "claim": "The organization shall synchronise the clocks of all relevant information processing systems to a single reference time source.",
+        "source_text": "The clocks of all relevant information processing systems within an organization or security domain shall be synchronised to a single reference time source."
+      },
+      {
+        "key": "b",
+        "rule": "Rule 2 — 'organization or security domain' (two scopes)",
+        "claim": "The organization shall synchronise the clocks of all relevant information processing systems within a security domain to a single reference time source.",
+        "source_text": "...within an organization or security domain shall be synchronised to a single reference time source."
+      }
+    ],
+    "breadcrumb": "ISO 27002 > Operations Security > Logging and Monitoring > Clock Synchronisation"
+  },
+  {
+    "control_family": { "number": "12", "name": "Operations Security" },
+    "control_subfamily": { "number": "12.6", "name": "Technical Vulnerability Management" },
+    "control": {
+      "id": "ISO.12.6.1",
+      "name": "Management of Technical Vulnerabilities",
+      "type": "required",
+      "description": "Information about technical vulnerabilities of information systems being used shall be obtained in a timely fashion, the organization's exposure to such vulnerabilities evaluated and appropriate measures taken to address the associated risk.",
+      "source": "ISO/IEC 27002:2013 §12.6.1",
+      "iomt_relevance": "Unpatched CVEs on IoMT devices and patch application events appear directly in incident records"
+    },
+    "atoms": [
+      {
+        "key": "a",
+        "rule": "base",
+        "claim": "The organization shall obtain information about technical vulnerabilities of information systems in a timely fashion.",
+        "source_text": "Information about technical vulnerabilities of information systems being used shall be obtained in a timely fashion..."
+      },
+      {
+        "key": "b",
+        "rule": "Rule 1 — 'obtained... evaluated... measures taken' (three verbs)",
+        "claim": "The organization shall evaluate its exposure to technical vulnerabilities of information systems.",
+        "source_text": "...the organization's exposure to such vulnerabilities evaluated..."
+      },
+      {
+        "key": "c",
+        "rule": "Rule 1 — three verbs",
+        "claim": "The organization shall take appropriate measures to address the risk associated with technical vulnerabilities.",
+        "source_text": "...appropriate measures taken to address the associated risk."
+      }
+    ],
+    "breadcrumb": "ISO 27002 > Operations Security > Technical Vulnerability Management > Management of Technical Vulnerabilities"
+  }
+]

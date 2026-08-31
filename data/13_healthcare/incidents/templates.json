@@ -1,0 +1,569 @@
+[
+  {
+    "template_id": "T-01",
+    "attack_type": "DDoS-SYN_Flood",
+    "attack_category": "DDoS",
+    "target_records": 3,
+    "affected_device_suggestions": ["Infusion pump controller", "Patient monitoring gateway", "Hospital WLAN access point"],
+    "protocol": "TCP/IP",
+    "attck_technique": "T0814 — Denial of Service",
+    "atoms_likely_evidenced": ["HIPAA.164.312.a.1-c", "HIPAA.164.312.a.1-d", "HIPAA.164.312.b-a", "ISO.12.4.1-a", "ISO.12.4.1-d"],
+    "scenario_seed": "Attacker sends a high volume of TCP SYN packets to the device or gateway, exhausting the TCP connection table. Legitimate clinical traffic (vitals telemetry, alarm signals) is dropped during the flood. The question for each atom: did the organisation enforce access control, log the event, detect and respond?",
+    "outcome_variants": [
+      "CONTAINED — IDS detected SYN flood within 90 seconds, firewall rate-limited source IP, ePHI transmission resumed. Logs intact.",
+      "PARTIAL — Flood detected but device rebooted before logs were saved. Telemetry gap of 7 minutes. ePHI not exfiltrated.",
+      "BREACHED — No rate-limiting configured. Device offline 22 minutes. Infusion parameters inaccessible to clinical staff."
+    ],
+    "skeleton": {
+      "incident_id": "INC-001",
+      "attack_type": "DDoS-SYN_Flood",
+      "attack_category": "DDoS",
+      "timestamp": "YYYY-MM-DDTHH:MM:SSZ",
+      "affected_device": "[choose from suggestions above]",
+      "protocol": "TCP/IP",
+      "observed_behaviour": "[WRITE: what did the device/network logs show? Include packet rates, source IPs, affected services, duration]",
+      "actions_taken": "[WRITE: what did staff or automated systems do? Include specific technical steps]",
+      "outcome": "[WRITE: was ePHI protected? Was the device restored? Were logs preserved?]",
+      "attck_technique": "T0814 — Denial of Service",
+      "controls_evidenced": [],
+      "authored_by": "human"
+    }
+  },
+  {
+    "template_id": "T-02",
+    "attack_type": "DDoS-TCP_Flood",
+    "attack_category": "DDoS",
+    "target_records": 3,
+    "affected_device_suggestions": ["ECG monitor", "Nurse call system", "MQTT broker serving ward devices"],
+    "protocol": "TCP/IP",
+    "attck_technique": "T0814 — Denial of Service",
+    "atoms_likely_evidenced": ["HIPAA.164.312.b-a", "HIPAA.164.312.b-d", "ISO.12.2.1-a", "ISO.12.4.1-d", "ISO.12.4.2-b"],
+    "scenario_seed": "Attacker floods TCP connections at maximum rate. Device or broker CPU spikes to 100%, halting normal processing. Focus on whether audit logs continued recording during the attack, and whether the organisation had malware/anomaly detection running.",
+    "outcome_variants": [
+      "CONTAINED — Anomaly detection triggered, traffic scrubbed at perimeter, logs preserved throughout.",
+      "PARTIAL — Device crashed; logs from the attack window were lost due to no persistent log storage.",
+      "BREACHED — No detection; clinical staff discovered outage manually after 35 minutes."
+    ],
+    "skeleton": {
+      "incident_id": "INC-002",
+      "attack_type": "DDoS-TCP_Flood",
+      "attack_category": "DDoS",
+      "timestamp": "YYYY-MM-DDTHH:MM:SSZ",
+      "affected_device": "[choose from suggestions above]",
+      "protocol": "TCP/IP",
+      "observed_behaviour": "[WRITE]",
+      "actions_taken": "[WRITE]",
+      "outcome": "[WRITE]",
+      "attck_technique": "T0814 — Denial of Service",
+      "controls_evidenced": [],
+      "authored_by": "human"
+    }
+  },
+  {
+    "template_id": "T-03",
+    "attack_type": "DDoS-ICMP_Flood",
+    "attack_category": "DDoS",
+    "target_records": 3,
+    "affected_device_suggestions": ["Pulse oximeter gateway", "Radiology PACS endpoint", "Bedside monitor"],
+    "protocol": "TCP/IP (ICMP)",
+    "attck_technique": "T0814 — Denial of Service",
+    "atoms_likely_evidenced": ["HIPAA.164.312.e.1-a", "ISO.12.4.1-a", "ISO.12.4.4-a", "ISO.12.6.1-a"],
+    "scenario_seed": "ICMP ping flood saturates the device's network interface. Focus on whether the device had rate limiting, whether timestamps in logs were synchronised (clock sync atom), and whether the vulnerability was a known unpatched CVE.",
+    "outcome_variants": [
+      "CONTAINED — Rate limiting at network layer blocked excess ICMP. Device continued transmitting ePHI. Clock sync confirmed log timestamps accurate.",
+      "PARTIAL — Device NIC saturated; clock drifted 3 minutes during attack. Log timestamps unreliable.",
+      "BREACHED — No ICMP rate limiting. Device offline. Known CVE (CVE-2023-XXXX) exploited — patch had not been applied."
+    ],
+    "skeleton": {
+      "incident_id": "INC-003",
+      "attack_type": "DDoS-ICMP_Flood",
+      "attack_category": "DDoS",
+      "timestamp": "YYYY-MM-DDTHH:MM:SSZ",
+      "affected_device": "[choose from suggestions]",
+      "protocol": "TCP/IP (ICMP)",
+      "observed_behaviour": "[WRITE]",
+      "actions_taken": "[WRITE]",
+      "outcome": "[WRITE]",
+      "attck_technique": "T0814 — Denial of Service",
+      "controls_evidenced": [],
+      "authored_by": "human"
+    }
+  },
+  {
+    "template_id": "T-04",
+    "attack_type": "DDoS-UDP_Flood",
+    "attack_category": "DDoS",
+    "target_records": 3,
+    "affected_device_suggestions": ["Insulin pump telemetry server", "Wearable aggregator hub", "Clinical Wi-Fi router"],
+    "protocol": "UDP",
+    "attck_technique": "T0814 — Denial of Service",
+    "atoms_likely_evidenced": ["HIPAA.164.312.e.1-a", "HIPAA.164.312.b-a", "ISO.12.4.1-a", "ISO.9.1.2-a"],
+    "scenario_seed": "UDP flood targeting telemetry aggregator. No session state — harder to filter than TCP. Focus on whether encryption was still maintained on surviving ePHI packets and whether network access was restricted to authorised devices only.",
+    "outcome_variants": [
+      "CONTAINED — Encrypted ePHI transmission maintained on secondary path. Flood isolated to one subnet.",
+      "PARTIAL — UDP flood bypassed perimeter; some unencrypted telemetry observed in logs.",
+      "BREACHED — Device unreachable. Insulin dosing decisions delayed 18 minutes."
+    ],
+    "skeleton": {
+      "incident_id": "INC-004",
+      "attack_type": "DDoS-UDP_Flood",
+      "attack_category": "DDoS",
+      "timestamp": "YYYY-MM-DDTHH:MM:SSZ",
+      "affected_device": "[choose from suggestions]",
+      "protocol": "UDP",
+      "observed_behaviour": "[WRITE]",
+      "actions_taken": "[WRITE]",
+      "outcome": "[WRITE]",
+      "attck_technique": "T0814 — Denial of Service",
+      "controls_evidenced": [],
+      "authored_by": "human"
+    }
+  },
+  {
+    "template_id": "T-05",
+    "attack_type": "DoS-SYN_Flood",
+    "attack_category": "DoS",
+    "target_records": 3,
+    "affected_device_suggestions": ["Ventilator control interface", "Smart infusion pump", "Telemetry receiver"],
+    "protocol": "TCP/IP",
+    "attck_technique": "T0814 — Denial of Service",
+    "atoms_likely_evidenced": ["HIPAA.164.312.a.1-a", "HIPAA.164.312.a.1-c", "ISO.12.4.3-a", "ISO.12.4.3-c"],
+    "scenario_seed": "Single-source DoS (not distributed). Easier to attribute and block but often from an insider or compromised internal device. Focus on whether admin actions were logged, whether the source was an authorised device, and whether privileged access was involved.",
+    "outcome_variants": [
+      "CONTAINED — Source identified as compromised internal workstation. Admin account isolated. Full audit trail preserved.",
+      "PARTIAL — Attack from inside the clinical VLAN. Firewall rule blocked external traffic only — not effective.",
+      "BREACHED — Compromised admin credential used. No multi-factor auth. Privileged session not logged."
+    ],
+    "skeleton": {
+      "incident_id": "INC-005",
+      "attack_type": "DoS-SYN_Flood",
+      "attack_category": "DoS",
+      "timestamp": "YYYY-MM-DDTHH:MM:SSZ",
+      "affected_device": "[choose from suggestions]",
+      "protocol": "TCP/IP",
+      "observed_behaviour": "[WRITE]",
+      "actions_taken": "[WRITE]",
+      "outcome": "[WRITE]",
+      "attck_technique": "T0814 — Denial of Service",
+      "controls_evidenced": [],
+      "authored_by": "human"
+    }
+  },
+  {
+    "template_id": "T-06",
+    "attack_type": "DoS-TCP_Flood",
+    "attack_category": "DoS",
+    "target_records": 2,
+    "affected_device_suggestions": ["MRI scanner gateway", "DICOM server"],
+    "protocol": "TCP/IP",
+    "attck_technique": "T0814 — Denial of Service",
+    "atoms_likely_evidenced": ["HIPAA.164.312.b-a", "ISO.12.4.2-a", "ISO.12.4.2-c"],
+    "scenario_seed": "DoS attack on DICOM image transfer server. Focus on whether log files were protected from tampering during the incident, and whether the DICOM server had access restrictions.",
+    "outcome_variants": [
+      "CONTAINED — Log protection controls intact; tamper evidence preserved. Imaging delayed 11 minutes.",
+      "BREACHED — Attacker modified event logs before detection. No integrity controls on log files."
+    ],
+    "skeleton": {
+      "incident_id": "INC-006",
+      "attack_type": "DoS-TCP_Flood",
+      "attack_category": "DoS",
+      "timestamp": "YYYY-MM-DDTHH:MM:SSZ",
+      "affected_device": "[choose from suggestions]",
+      "protocol": "TCP/IP",
+      "observed_behaviour": "[WRITE]",
+      "actions_taken": "[WRITE]",
+      "outcome": "[WRITE]",
+      "attck_technique": "T0814 — Denial of Service",
+      "controls_evidenced": [],
+      "authored_by": "human"
+    }
+  },
+  {
+    "template_id": "T-07",
+    "attack_type": "DoS-ICMP_Flood",
+    "attack_category": "DoS",
+    "target_records": 2,
+    "affected_device_suggestions": ["Bedside patient monitor", "Wireless infusion pump"],
+    "protocol": "TCP/IP (ICMP)",
+    "attck_technique": "T0814 — Denial of Service",
+    "atoms_likely_evidenced": ["HIPAA.164.312.c.1-a", "ISO.12.4.4-a", "ISO.12.6.1-b"],
+    "scenario_seed": "ICMP flood causes device reboot. Focus on whether ePHI integrity was maintained across the reboot (integrity atoms), and whether clock resynchronised correctly after restart.",
+    "outcome_variants": [
+      "CONTAINED — Device rebooted, NTP resync within 2 seconds. No ePHI corruption detected. Integrity mechanisms confirmed.",
+      "BREACHED — Device clock drifted post-reboot. Log timestamps invalid for forensics. ePHI integrity unverifiable."
+    ],
+    "skeleton": {
+      "incident_id": "INC-007",
+      "attack_type": "DoS-ICMP_Flood",
+      "attack_category": "DoS",
+      "timestamp": "YYYY-MM-DDTHH:MM:SSZ",
+      "affected_device": "[choose from suggestions]",
+      "protocol": "TCP/IP (ICMP)",
+      "observed_behaviour": "[WRITE]",
+      "actions_taken": "[WRITE]",
+      "outcome": "[WRITE]",
+      "attck_technique": "T0814 — Denial of Service",
+      "controls_evidenced": [],
+      "authored_by": "human"
+    }
+  },
+  {
+    "template_id": "T-08",
+    "attack_type": "DoS-UDP_Flood",
+    "attack_category": "DoS",
+    "target_records": 2,
+    "affected_device_suggestions": ["Patient wearable hub", "Remote monitoring server"],
+    "protocol": "UDP",
+    "attck_technique": "T0814 — Denial of Service",
+    "atoms_likely_evidenced": ["HIPAA.164.312.e.1-a", "ISO.12.3.1-a", "ISO.12.3.1-d"],
+    "scenario_seed": "UDP flood disrupts a remote patient monitoring connection. Focus on whether backup/recovery mechanisms kicked in to restore ePHI continuity, and whether transmission encryption was maintained on the fallback path.",
+    "outcome_variants": [
+      "CONTAINED — Backup cellular link activated automatically. Encrypted ePHI stream resumed within 45 seconds.",
+      "BREACHED — No backup path. ePHI transmission interrupted for 2 hours. No backup copies of buffered telemetry."
+    ],
+    "skeleton": {
+      "incident_id": "INC-008",
+      "attack_type": "DoS-UDP_Flood",
+      "attack_category": "DoS",
+      "timestamp": "YYYY-MM-DDTHH:MM:SSZ",
+      "affected_device": "[choose from suggestions]",
+      "protocol": "UDP",
+      "observed_behaviour": "[WRITE]",
+      "actions_taken": "[WRITE]",
+      "outcome": "[WRITE]",
+      "attck_technique": "T0814 — Denial of Service",
+      "controls_evidenced": [],
+      "authored_by": "human"
+    }
+  },
+  {
+    "template_id": "T-09",
+    "attack_type": "Recon-Ping_Sweep",
+    "attack_category": "Recon",
+    "target_records": 3,
+    "affected_device_suggestions": ["IoMT subnet (multiple devices)", "Hospital network segment"],
+    "protocol": "TCP/IP (ICMP)",
+    "attck_technique": "T0846 — Remote System Discovery",
+    "atoms_likely_evidenced": ["ISO.12.4.1-d", "ISO.12.4.3-a", "ISO.9.4.1-a", "ISO.12.6.1-a"],
+    "scenario_seed": "Attacker (internal or external) sweeps the IoMT subnet with ICMP pings to map live devices. This is reconnaissance before an attack. Key compliance question: were network access controls in place limiting which hosts could probe the IoMT subnet? Was the sweep detected and logged?",
+    "outcome_variants": [
+      "DETECTED — IDS alerted on ping sweep pattern. Source quarantined. Device map not obtained by attacker.",
+      "PARTIAL — Sweep detected only after it completed. Attacker obtained device list. No exfiltration yet.",
+      "MISSED — Sweep completed silently. No alert. Attacker used device map in subsequent targeted attack."
+    ],
+    "skeleton": {
+      "incident_id": "INC-009",
+      "attack_type": "Recon-Ping_Sweep",
+      "attack_category": "Recon",
+      "timestamp": "YYYY-MM-DDTHH:MM:SSZ",
+      "affected_device": "IoMT clinical subnet",
+      "protocol": "TCP/IP (ICMP)",
+      "observed_behaviour": "[WRITE]",
+      "actions_taken": "[WRITE]",
+      "outcome": "[WRITE]",
+      "attck_technique": "T0846 — Remote System Discovery",
+      "controls_evidenced": [],
+      "authored_by": "human"
+    }
+  },
+  {
+    "template_id": "T-10",
+    "attack_type": "Recon-Vulnerability_Scan",
+    "attack_category": "Recon",
+    "target_records": 3,
+    "affected_device_suggestions": ["Infusion pump (Nmap target)", "MQTT broker", "Web-based device management portal"],
+    "protocol": "TCP/IP",
+    "attck_technique": "T0842 — Network Sniffing",
+    "atoms_likely_evidenced": ["ISO.12.6.1-a", "ISO.12.6.1-b", "ISO.12.6.1-c", "ISO.9.4.2-a"],
+    "scenario_seed": "Attacker runs a vulnerability scanner (e.g. Nmap with scripts, OpenVAS) against IoMT devices. Focus on whether known vulnerabilities existed (patch management atom), whether log-on procedures resisted the probe, and whether the scan was detected.",
+    "outcome_variants": [
+      "CONTAINED — Vulnerability scan detected; devices fully patched; no exploitable CVEs found.",
+      "PARTIAL — Scan detected; two unpatched CVEs identified by scanner but not yet exploited.",
+      "BREACHED — Scan found CVE-2023-XXXX on infusion pump firmware. Attacker escalated to exploitation."
+    ],
+    "skeleton": {
+      "incident_id": "INC-010",
+      "attack_type": "Recon-Vulnerability_Scan",
+      "attack_category": "Recon",
+      "timestamp": "YYYY-MM-DDTHH:MM:SSZ",
+      "affected_device": "[choose from suggestions]",
+      "protocol": "TCP/IP",
+      "observed_behaviour": "[WRITE]",
+      "actions_taken": "[WRITE]",
+      "outcome": "[WRITE]",
+      "attck_technique": "T0842 — Network Sniffing",
+      "controls_evidenced": [],
+      "authored_by": "human"
+    }
+  },
+  {
+    "template_id": "T-11",
+    "attack_type": "Recon-OS_Scan",
+    "attack_category": "Recon",
+    "target_records": 3,
+    "affected_device_suggestions": ["Ventilator (running embedded Linux)", "Smart medication dispenser", "ECG gateway"],
+    "protocol": "TCP/IP",
+    "attck_technique": "T0888 — Remote System Information Discovery",
+    "atoms_likely_evidenced": ["ISO.9.4.1-a", "ISO.9.4.2-a", "ISO.12.4.1-a", "ISO.12.6.1-b"],
+    "scenario_seed": "Attacker fingerprints the OS on IoMT devices to identify exploitable targets. Focus on whether the devices limited exposed services (access restriction), whether log-on attempts from the scanner were recorded, and whether the detected OS version had known CVEs.",
+    "outcome_variants": [
+      "CONTAINED — Devices exposed minimal services; OS fingerprinting returned inconclusive results. Scan logged.",
+      "PARTIAL — OS identified (embedded Linux 4.19). Two CVEs known but not yet exploited.",
+      "BREACHED — OS fingerprint confirmed outdated firmware. Subsequent exploitation within 48 hours."
+    ],
+    "skeleton": {
+      "incident_id": "INC-011",
+      "attack_type": "Recon-OS_Scan",
+      "attack_category": "Recon",
+      "timestamp": "YYYY-MM-DDTHH:MM:SSZ",
+      "affected_device": "[choose from suggestions]",
+      "protocol": "TCP/IP",
+      "observed_behaviour": "[WRITE]",
+      "actions_taken": "[WRITE]",
+      "outcome": "[WRITE]",
+      "attck_technique": "T0888 — Remote System Information Discovery",
+      "controls_evidenced": [],
+      "authored_by": "human"
+    }
+  },
+  {
+    "template_id": "T-12",
+    "attack_type": "Recon-Port_Scan",
+    "attack_category": "Recon",
+    "target_records": 3,
+    "affected_device_suggestions": ["Insulin pump server", "Patient data aggregator", "DICOM node"],
+    "protocol": "TCP/IP",
+    "attck_technique": "T0846 — Remote System Discovery",
+    "atoms_likely_evidenced": ["ISO.9.1.2-a", "ISO.9.1.2-b", "ISO.9.4.1-b", "ISO.12.4.1-a"],
+    "scenario_seed": "Attacker scans all TCP/UDP ports on an IoMT device to discover running services. Key compliance question: were only authorised services running (network access restriction)? Were unnecessary ports closed?",
+    "outcome_variants": [
+      "CONTAINED — Only authorised ports open (8883 MQTT-TLS, 443 HTTPS). Port scan found nothing unexpected. Logged.",
+      "PARTIAL — Scan found Telnet (port 23) open on device — a default service not disabled. Not yet exploited.",
+      "BREACHED — Open Telnet with default credentials discovered and exploited within the same session."
+    ],
+    "skeleton": {
+      "incident_id": "INC-012",
+      "attack_type": "Recon-Port_Scan",
+      "attack_category": "Recon",
+      "timestamp": "YYYY-MM-DDTHH:MM:SSZ",
+      "affected_device": "[choose from suggestions]",
+      "protocol": "TCP/IP",
+      "observed_behaviour": "[WRITE]",
+      "actions_taken": "[WRITE]",
+      "outcome": "[WRITE]",
+      "attck_technique": "T0846 — Remote System Discovery",
+      "controls_evidenced": [],
+      "authored_by": "human"
+    }
+  },
+  {
+    "template_id": "T-13",
+    "attack_type": "MQTT-Malformed_Data",
+    "attack_category": "MQTT",
+    "target_records": 3,
+    "affected_device_suggestions": ["MQTT broker serving ICU devices", "Pulse oximeter publishing to broker", "Wearable sensor"],
+    "protocol": "MQTT",
+    "attck_technique": "T0855 — Unauthorized Command Message",
+    "atoms_likely_evidenced": ["HIPAA.164.312.c.1-a", "HIPAA.164.312.c.1-e", "ISO.12.4.1-b", "ISO.12.4.1-c"],
+    "scenario_seed": "Attacker publishes malformed MQTT messages to corrupt device state or crash the broker. Focus on integrity: were ePHI messages validated before acting on them? Were exceptions (malformed packets) logged? Was the broker able to detect and reject malformed data?",
+    "outcome_variants": [
+      "CONTAINED — Broker validated message schema; malformed packets rejected and logged as exceptions. ePHI integrity maintained.",
+      "PARTIAL — Malformed data accepted; broker crashed. Cached ePHI values reset to defaults. No data exfiltrated.",
+      "BREACHED — Malformed infusion command accepted by pump. Incorrect dosing for 4 minutes before nurse override."
+    ],
+    "skeleton": {
+      "incident_id": "INC-013",
+      "attack_type": "MQTT-Malformed_Data",
+      "attack_category": "MQTT",
+      "timestamp": "YYYY-MM-DDTHH:MM:SSZ",
+      "affected_device": "[choose from suggestions]",
+      "protocol": "MQTT",
+      "observed_behaviour": "[WRITE]",
+      "actions_taken": "[WRITE]",
+      "outcome": "[WRITE]",
+      "attck_technique": "T0855 — Unauthorized Command Message",
+      "controls_evidenced": [],
+      "authored_by": "human"
+    }
+  },
+  {
+    "template_id": "T-14",
+    "attack_type": "MQTT-DoS_Connect_Flood",
+    "attack_category": "MQTT",
+    "target_records": 3,
+    "affected_device_suggestions": ["Hospital MQTT broker", "IoMT gateway", "Ward telemetry aggregator"],
+    "protocol": "MQTT",
+    "attck_technique": "T0814 — Denial of Service",
+    "atoms_likely_evidenced": ["HIPAA.164.312.d-a", "HIPAA.164.312.d-b", "ISO.9.4.2-a", "ISO.9.2.3-a"],
+    "scenario_seed": "Single-source flood of MQTT CONNECT packets to exhaust broker connection slots. Key compliance question: did the broker authenticate each connecting client (person/entity authentication atom)? Were privileged MQTT topics protected from unauthorised publishers?",
+    "outcome_variants": [
+      "CONTAINED — Broker required client certificates for each CONNECT. Unauthenticated flood packets rejected. Slot exhaustion prevented.",
+      "PARTIAL — Broker accepted anonymous CONNECT packets. Legitimate devices unable to connect for 6 minutes.",
+      "BREACHED — Broker flooded offline. All device telemetry lost for 19 minutes. No client authentication enforced."
+    ],
+    "skeleton": {
+      "incident_id": "INC-014",
+      "attack_type": "MQTT-DoS_Connect_Flood",
+      "attack_category": "MQTT",
+      "timestamp": "YYYY-MM-DDTHH:MM:SSZ",
+      "affected_device": "[choose from suggestions]",
+      "protocol": "MQTT",
+      "observed_behaviour": "[WRITE]",
+      "actions_taken": "[WRITE]",
+      "outcome": "[WRITE]",
+      "attck_technique": "T0814 — Denial of Service",
+      "controls_evidenced": [],
+      "authored_by": "human"
+    }
+  },
+  {
+    "template_id": "T-15",
+    "attack_type": "MQTT-DDoS_Connect_Flood",
+    "attack_category": "MQTT",
+    "target_records": 3,
+    "affected_device_suggestions": ["Central MQTT broker", "ICU device mesh"],
+    "protocol": "MQTT",
+    "attck_technique": "T0814 — Denial of Service",
+    "atoms_likely_evidenced": ["HIPAA.164.312.a.1-c", "HIPAA.164.312.d-a", "ISO.9.4.2-b", "ISO.12.2.1-a"],
+    "scenario_seed": "Distributed flood from multiple compromised IoMT devices (Mirai-like). Focus on whether the organisation could distinguish malicious from legitimate devices (unique user identification), and whether malware detection was in place on the devices being used as bots.",
+    "outcome_variants": [
+      "CONTAINED — Each device had a unique client certificate; compromised devices identified by cert serial numbers and revoked.",
+      "PARTIAL — Devices identified but revocation took 12 minutes. Flood succeeded during that window.",
+      "BREACHED — No per-device authentication. All device traffic indistinguishable. Broker offline 31 minutes."
+    ],
+    "skeleton": {
+      "incident_id": "INC-015",
+      "attack_type": "MQTT-DDoS_Connect_Flood",
+      "attack_category": "MQTT",
+      "timestamp": "YYYY-MM-DDTHH:MM:SSZ",
+      "affected_device": "[choose from suggestions]",
+      "protocol": "MQTT",
+      "observed_behaviour": "[WRITE]",
+      "actions_taken": "[WRITE]",
+      "outcome": "[WRITE]",
+      "attck_technique": "T0814 — Denial of Service",
+      "controls_evidenced": [],
+      "authored_by": "human"
+    }
+  },
+  {
+    "template_id": "T-16",
+    "attack_type": "MQTT-DoS_Publish_Flood",
+    "attack_category": "MQTT",
+    "target_records": 3,
+    "affected_device_suggestions": ["Infusion pump MQTT client", "Wearable vital signs sensor", "Patient monitoring hub"],
+    "protocol": "MQTT",
+    "attck_technique": "T0814 — Denial of Service",
+    "atoms_likely_evidenced": ["HIPAA.164.312.c.1-e", "ISO.9.4.1-a", "ISO.12.4.1-a", "ISO.10.1.1-b"],
+    "scenario_seed": "Attacker authenticates to the broker then floods a clinical topic with thousands of PUBLISH messages per second. Focus on whether topic-level access control was enforced (restricting who can publish to clinical topics), and whether ePHI messages were encrypted even under flood conditions.",
+    "outcome_variants": [
+      "CONTAINED — Topic ACL restricted publishes to authorised devices only. Flood source lacked publish permission. Broker stable.",
+      "PARTIAL — Attacker had valid credentials for the topic. Flood accepted. Legitimate messages lost in noise.",
+      "BREACHED — No topic ACL. Attacker injected false vital signs readings into clinical monitoring system."
+    ],
+    "skeleton": {
+      "incident_id": "INC-016",
+      "attack_type": "MQTT-DoS_Publish_Flood",
+      "attack_category": "MQTT",
+      "timestamp": "YYYY-MM-DDTHH:MM:SSZ",
+      "affected_device": "[choose from suggestions]",
+      "protocol": "MQTT",
+      "observed_behaviour": "[WRITE]",
+      "actions_taken": "[WRITE]",
+      "outcome": "[WRITE]",
+      "attck_technique": "T0814 — Denial of Service",
+      "controls_evidenced": [],
+      "authored_by": "human"
+    }
+  },
+  {
+    "template_id": "T-17",
+    "attack_type": "MQTT-DDoS_Publish_Flood",
+    "attack_category": "MQTT",
+    "target_records": 3,
+    "affected_device_suggestions": ["Central broker serving 40-device ward", "Telemetry aggregation server"],
+    "protocol": "MQTT",
+    "attck_technique": "T0814 — Denial of Service",
+    "atoms_likely_evidenced": ["HIPAA.164.312.a.1-e", "HIPAA.164.312.a.1-f", "ISO.9.2.3-b", "ISO.12.4.1-d"],
+    "scenario_seed": "Multiple compromised devices flood publish simultaneously. Focus on unique user identification (can you tell which device published what?) and whether privileged topic management operations were restricted during the flood.",
+    "outcome_variants": [
+      "CONTAINED — Each device had unique client ID and publish ACL. Compromised devices identified and disconnected individually.",
+      "PARTIAL — Devices identified but flood volume masked legitimate data. Clinical team switched to manual observation.",
+      "BREACHED — Shared client credentials across devices. No way to identify compromised nodes. Broker restart required."
+    ],
+    "skeleton": {
+      "incident_id": "INC-017",
+      "attack_type": "MQTT-DDoS_Publish_Flood",
+      "attack_category": "MQTT",
+      "timestamp": "YYYY-MM-DDTHH:MM:SSZ",
+      "affected_device": "[choose from suggestions]",
+      "protocol": "MQTT",
+      "observed_behaviour": "[WRITE]",
+      "actions_taken": "[WRITE]",
+      "outcome": "[WRITE]",
+      "attck_technique": "T0814 — Denial of Service",
+      "controls_evidenced": [],
+      "authored_by": "human"
+    }
+  },
+  {
+    "template_id": "T-18",
+    "attack_type": "Spoofing-ARP_Spoofing",
+    "attack_category": "Spoofing",
+    "target_records": 3,
+    "affected_device_suggestions": ["Infusion pump on wired LAN", "Bedside monitor", "ECG machine"],
+    "protocol": "TCP/IP (ARP)",
+    "attck_technique": "T0856 — Spoof Reporting Message",
+    "atoms_likely_evidenced": ["HIPAA.164.312.d-a", "HIPAA.164.312.e.1-a", "HIPAA.164.312.c.1-e", "ISO.10.1.1-b", "ISO.9.4.2-a"],
+    "scenario_seed": "Attacker sends gratuitous ARP replies to poison the ARP cache of IoMT devices, redirecting ePHI traffic through an attacker-controlled machine (man-in-the-middle). This is the most direct attack on person/entity authentication and transmission security atoms.",
+    "outcome_variants": [
+      "CONTAINED — TLS encryption on all ePHI transmission meant ARP poisoning achieved traffic interception but not decryption. Certificate validation blocked impersonation.",
+      "PARTIAL — ARP poisoning succeeded. Traffic rerouted. TLS certificate mismatch detected by device; connection refused. ePHI not exfiltrated.",
+      "BREACHED — Device accepted self-signed certificate without validation. ePHI transmitted in plaintext to attacker. 23 patient records exposed."
+    ],
+    "skeleton": {
+      "incident_id": "INC-018",
+      "attack_type": "Spoofing-ARP_Spoofing",
+      "attack_category": "Spoofing",
+      "timestamp": "YYYY-MM-DDTHH:MM:SSZ",
+      "affected_device": "[choose from suggestions]",
+      "protocol": "TCP/IP (ARP)",
+      "observed_behaviour": "[WRITE]",
+      "actions_taken": "[WRITE]",
+      "outcome": "[WRITE]",
+      "attck_technique": "T0856 — Spoof Reporting Message",
+      "controls_evidenced": [],
+      "authored_by": "human"
+    }
+  },
+  {
+    "template_id": "T-19",
+    "attack_type": "BLE-Denial_of_Service",
+    "attack_category": "BLE",
+    "target_records": 3,
+    "affected_device_suggestions": ["BLE-enabled pill dispenser", "Continuous glucose monitor", "Wearable cardiac monitor"],
+    "protocol": "Bluetooth Low Energy",
+    "attck_technique": "T0814 — Denial of Service",
+    "atoms_likely_evidenced": ["HIPAA.164.312.a.1-i", "HIPAA.164.312.e.1-a", "ISO.11.2.1-a", "ISO.11.2.1-c", "ISO.12.4.1-a"],
+    "scenario_seed": "BLE jamming or connection flooding against a wearable or implantable device. Physical proximity required. Focus on: was ePHI encrypted over BLE (transmission security)? Was the device physically sited to limit attacker proximity (physical security)? Were BLE connection events logged?",
+    "outcome_variants": [
+      "CONTAINED — BLE ePHI transmission encrypted (AES-128 CCM). Jamming caused brief disconnection but no data exposed. Device location in locked ward limited attacker proximity.",
+      "PARTIAL — BLE DoS caused glucose monitor to miss 2 readings. Data logged as gap; clinical staff notified.",
+      "BREACHED — BLE unencrypted on legacy device. Attacker read CGM readings in real time during 8-minute proximity window."
+    ],
+    "skeleton": {
+      "incident_id": "INC-019",
+      "attack_type": "BLE-Denial_of_Service",
+      "attack_category": "BLE",
+      "timestamp": "YYYY-MM-DDTHH:MM:SSZ",
+      "affected_device": "[choose from suggestions]",
+      "protocol": "Bluetooth Low Energy",
+      "observed_behaviour": "[WRITE]",
+      "actions_taken": "[WRITE]",
+      "outcome": "[WRITE]",
+      "attck_technique": "T0814 — Denial of Service",
+      "controls_evidenced": [],
+      "authored_by": "human"
+    }
+  }
+]

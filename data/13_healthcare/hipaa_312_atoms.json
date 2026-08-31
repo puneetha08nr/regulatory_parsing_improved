@@ -1,0 +1,244 @@
+[
+  {
+    "control_family": { "number": "164.312", "name": "Technical Safeguards" },
+    "control_subfamily": { "number": "164.312.a", "name": "Access Control" },
+    "control": {
+      "id": "HIPAA.164.312.a.1",
+      "name": "Access Control — Standard",
+      "type": "required",
+      "description": "Implement technical policies and procedures for electronic information systems that maintain electronic protected health information to allow access only to those persons or software programs that have been granted access rights.",
+      "sub_controls": [
+        "HIPAA.164.312.a.2.i   [required]   Unique user identification — Assign a unique name and/or number for identifying and tracking user identity.",
+        "HIPAA.164.312.a.2.ii  [required]   Emergency access procedure — Establish (and implement as needed) procedures for obtaining necessary electronic protected health information during an emergency.",
+        "HIPAA.164.312.a.2.iii [addressable] Automatic logoff — Implement electronic procedures that terminate an electronic session after a predetermined time of inactivity.",
+        "HIPAA.164.312.a.2.iv  [addressable] Encryption and decryption — Implement a mechanism to encrypt and decrypt electronic protected health information."
+      ]
+    },
+    "atoms": [
+      {
+        "key": "a",
+        "rule": "base",
+        "claim": "The covered entity shall implement technical policies for electronic information systems that maintain ePHI.",
+        "source_text": "Implement technical policies and procedures for electronic information systems..."
+      },
+      {
+        "key": "b",
+        "rule": "Rule 1 — 'policies and procedures' (two objects)",
+        "claim": "The covered entity shall implement technical procedures for electronic information systems that maintain ePHI.",
+        "source_text": "Implement technical policies and procedures for electronic information systems..."
+      },
+      {
+        "key": "c",
+        "rule": "Rule 2 — 'persons or software programs' (two objects)",
+        "claim": "The covered entity shall allow access only to persons who have been granted access rights.",
+        "source_text": "...to allow access only to those persons or software programs that have been granted access rights."
+      },
+      {
+        "key": "d",
+        "rule": "Rule 2 — 'persons or software programs' (two objects)",
+        "claim": "The covered entity shall allow access only to software programs that have been granted access rights.",
+        "source_text": "...to allow access only to those persons or software programs that have been granted access rights."
+      },
+      {
+        "key": "e",
+        "rule": "Rule 1 — 'identifying and tracking' (two verbs)",
+        "claim": "The covered entity shall assign a unique name or number for identifying user identity.",
+        "source_text": "Assign a unique name and/or number for identifying and tracking user identity."
+      },
+      {
+        "key": "f",
+        "rule": "Rule 1 — 'identifying and tracking' (two verbs)",
+        "claim": "The covered entity shall assign a unique name or number for tracking user identity.",
+        "source_text": "Assign a unique name and/or number for identifying and tracking user identity."
+      },
+      {
+        "key": "g",
+        "rule": "base",
+        "claim": "The covered entity shall establish procedures for obtaining ePHI during an emergency.",
+        "source_text": "Establish (and implement as needed) procedures for obtaining necessary electronic protected health information during an emergency."
+      },
+      {
+        "key": "h",
+        "rule": "Rule 3 — 'as needed' is a condition, kept attached",
+        "claim": "The covered entity shall implement emergency access procedures when needed.",
+        "source_text": "Establish (and implement as needed) procedures..."
+      },
+      {
+        "key": "i",
+        "rule": "base",
+        "claim": "The covered entity shall implement electronic procedures that terminate a session after a predetermined time of inactivity.",
+        "source_text": "Implement electronic procedures that terminate an electronic session after a predetermined time of inactivity."
+      },
+      {
+        "key": "j",
+        "rule": "Rule 1 — 'encrypt and decrypt' (two verbs)",
+        "claim": "The covered entity shall implement a mechanism to encrypt ePHI.",
+        "source_text": "Implement a mechanism to encrypt and decrypt electronic protected health information."
+      },
+      {
+        "key": "k",
+        "rule": "Rule 1 — 'encrypt and decrypt' (two verbs)",
+        "claim": "The covered entity shall implement a mechanism to decrypt ePHI.",
+        "source_text": "Implement a mechanism to encrypt and decrypt electronic protected health information."
+      }
+    ],
+    "breadcrumb": "HIPAA > Technical Safeguards > Access Control"
+  },
+  {
+    "control_family": { "number": "164.312", "name": "Technical Safeguards" },
+    "control_subfamily": { "number": "164.312.b", "name": "Audit Controls" },
+    "control": {
+      "id": "HIPAA.164.312.b",
+      "name": "Audit Controls — Standard",
+      "type": "required",
+      "description": "Implement hardware, software, and/or procedural mechanisms that record and examine activity in information systems that contain or use electronic protected health information.",
+      "sub_controls": []
+    },
+    "atoms": [
+      {
+        "key": "a",
+        "rule": "Rule 1 — 'hardware, software, and/or procedural' (three object types)",
+        "claim": "The covered entity shall implement hardware mechanisms that record activity in information systems containing ePHI.",
+        "source_text": "Implement hardware, software, and/or procedural mechanisms that record and examine activity..."
+      },
+      {
+        "key": "b",
+        "rule": "Rule 1 — three object types",
+        "claim": "The covered entity shall implement software mechanisms that record activity in information systems containing ePHI.",
+        "source_text": "Implement hardware, software, and/or procedural mechanisms that record and examine activity..."
+      },
+      {
+        "key": "c",
+        "rule": "Rule 1 — three object types",
+        "claim": "The covered entity shall implement procedural mechanisms that record activity in information systems containing ePHI.",
+        "source_text": "Implement hardware, software, and/or procedural mechanisms that record and examine activity..."
+      },
+      {
+        "key": "d",
+        "rule": "Rule 1 — 'record and examine' (two verbs)",
+        "claim": "The covered entity shall implement mechanisms that examine activity in information systems containing ePHI.",
+        "source_text": "...mechanisms that record and examine activity in information systems..."
+      }
+    ],
+    "breadcrumb": "HIPAA > Technical Safeguards > Audit Controls"
+  },
+  {
+    "control_family": { "number": "164.312", "name": "Technical Safeguards" },
+    "control_subfamily": { "number": "164.312.c", "name": "Integrity" },
+    "control": {
+      "id": "HIPAA.164.312.c.1",
+      "name": "Integrity — Standard",
+      "type": "required",
+      "description": "Implement policies and procedures to protect electronic protected health information from improper alteration or destruction.",
+      "sub_controls": [
+        "HIPAA.164.312.c.2.i [addressable] Mechanism to authenticate ePHI — Implement electronic mechanisms to corroborate that electronic protected health information has not been altered or destroyed in an unauthorized manner."
+      ]
+    },
+    "atoms": [
+      {
+        "key": "a",
+        "rule": "Rule 1 — 'policies and procedures' (two objects)",
+        "claim": "The covered entity shall implement policies to protect ePHI from improper alteration.",
+        "source_text": "Implement policies and procedures to protect ePHI from improper alteration or destruction."
+      },
+      {
+        "key": "b",
+        "rule": "Rule 1 — 'policies and procedures'",
+        "claim": "The covered entity shall implement procedures to protect ePHI from improper alteration.",
+        "source_text": "Implement policies and procedures to protect ePHI from improper alteration or destruction."
+      },
+      {
+        "key": "c",
+        "rule": "Rule 2 — 'alteration or destruction' (two objects)",
+        "claim": "The covered entity shall implement policies to protect ePHI from improper destruction.",
+        "source_text": "Implement policies and procedures to protect ePHI from improper alteration or destruction."
+      },
+      {
+        "key": "d",
+        "rule": "Rule 2 — 'alteration or destruction'",
+        "claim": "The covered entity shall implement procedures to protect ePHI from improper destruction.",
+        "source_text": "Implement policies and procedures to protect ePHI from improper alteration or destruction."
+      },
+      {
+        "key": "e",
+        "rule": "Rule 2 — 'altered or destroyed' (two objects)",
+        "claim": "The covered entity shall implement electronic mechanisms to corroborate that ePHI has not been altered in an unauthorized manner.",
+        "source_text": "Implement electronic mechanisms to corroborate that ePHI has not been altered or destroyed in an unauthorized manner."
+      },
+      {
+        "key": "f",
+        "rule": "Rule 2 — 'altered or destroyed'",
+        "claim": "The covered entity shall implement electronic mechanisms to corroborate that ePHI has not been destroyed in an unauthorized manner.",
+        "source_text": "Implement electronic mechanisms to corroborate that ePHI has not been altered or destroyed in an unauthorized manner."
+      }
+    ],
+    "breadcrumb": "HIPAA > Technical Safeguards > Integrity"
+  },
+  {
+    "control_family": { "number": "164.312", "name": "Technical Safeguards" },
+    "control_subfamily": { "number": "164.312.d", "name": "Person or Entity Authentication" },
+    "control": {
+      "id": "HIPAA.164.312.d",
+      "name": "Person or Entity Authentication — Standard",
+      "type": "required",
+      "description": "Implement procedures to verify that a person or entity seeking access to electronic protected health information is the one claimed.",
+      "sub_controls": []
+    },
+    "atoms": [
+      {
+        "key": "a",
+        "rule": "Rule 2 — 'person or entity' (two objects)",
+        "claim": "The covered entity shall implement procedures to verify that a person seeking access to ePHI is the one claimed.",
+        "source_text": "Implement procedures to verify that a person or entity seeking access to ePHI is the one claimed."
+      },
+      {
+        "key": "b",
+        "rule": "Rule 2 — 'person or entity'",
+        "claim": "The covered entity shall implement procedures to verify that an entity seeking access to ePHI is the one claimed.",
+        "source_text": "Implement procedures to verify that a person or entity seeking access to ePHI is the one claimed."
+      }
+    ],
+    "breadcrumb": "HIPAA > Technical Safeguards > Person or Entity Authentication"
+  },
+  {
+    "control_family": { "number": "164.312", "name": "Technical Safeguards" },
+    "control_subfamily": { "number": "164.312.e", "name": "Transmission Security" },
+    "control": {
+      "id": "HIPAA.164.312.e.1",
+      "name": "Transmission Security — Standard",
+      "type": "required",
+      "description": "Implement technical security measures to guard against unauthorized access to electronic protected health information that is being transmitted over an electronic communications network.",
+      "sub_controls": [
+        "HIPAA.164.312.e.2.i  [addressable] Integrity controls — Implement security measures to ensure that electronically transmitted ePHI is not improperly modified without detection until disposed of.",
+        "HIPAA.164.312.e.2.ii [addressable] Encryption — Implement a mechanism to encrypt electronic protected health information whenever deemed appropriate."
+      ]
+    },
+    "atoms": [
+      {
+        "key": "a",
+        "rule": "base",
+        "claim": "The covered entity shall implement technical security measures to guard against unauthorized access to ePHI being transmitted over an electronic communications network.",
+        "source_text": "Implement technical security measures to guard against unauthorized access to ePHI that is being transmitted over an electronic communications network."
+      },
+      {
+        "key": "b",
+        "rule": "base",
+        "claim": "The covered entity shall implement security measures to ensure that electronically transmitted ePHI is not improperly modified without detection.",
+        "source_text": "Implement security measures to ensure that electronically transmitted ePHI is not improperly modified without detection until disposed of."
+      },
+      {
+        "key": "c",
+        "rule": "Rule 3 — 'until disposed of' is a condition, kept attached",
+        "claim": "The covered entity shall implement security measures to ensure ePHI integrity is maintained until the data is disposed of.",
+        "source_text": "...not improperly modified without detection until disposed of."
+      },
+      {
+        "key": "d",
+        "rule": "base",
+        "claim": "The covered entity shall implement a mechanism to encrypt ePHI whenever deemed appropriate.",
+        "source_text": "Implement a mechanism to encrypt electronic protected health information whenever deemed appropriate."
+      }
+    ],
+    "breadcrumb": "HIPAA > Technical Safeguards > Transmission Security"
+  }
+]

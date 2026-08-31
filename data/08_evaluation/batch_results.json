@@ -16,7 +16,7 @@
     "passages_removed": 0,
     "mappings_total": 23,
     "reranker_model": "cross-encoder/ms-marco-MiniLM-L-2-v2",
-    "elapsed_s": 7.9
+    "elapsed_s": 8.0
   },
   {
     "golden_pos": 3,
@@ -35,7 +35,7 @@
     "passages_removed": 0,
     "mappings_total": 72,
     "reranker_model": "cross-encoder/ms-marco-MiniLM-L-2-v2",
-    "elapsed_s": 1.5
+    "elapsed_s": 1.1
   },
   {
     "golden_pos": 1,
@@ -50,11 +50,11 @@
     "doc_id": "clientname-IS-POL-00-Information Risk Management Policy v1.2 1",
     "policy_file": "Information Risk Management Policy v1.2_corrected.json",
     "passages_raw": 16,
-    "passages_indexed": 15,
-    "passages_removed": 1,
+    "passages_indexed": 16,
+    "passages_removed": 0,
     "mappings_total": 41,
     "reranker_model": "cross-encoder/ms-marco-MiniLM-L-2-v2",
-    "elapsed_s": 1.5
+    "elapsed_s": 1.1
   },
   {
     "golden_pos": 1,
@@ -73,7 +73,7 @@
     "passages_removed": 0,
     "mappings_total": 14,
     "reranker_model": "cross-encoder/ms-marco-MiniLM-L-2-v2",
-    "elapsed_s": 1.5
+    "elapsed_s": 1.1
   },
   {
     "golden_pos": 1,
@@ -92,7 +92,7 @@
     "passages_removed": 0,
     "mappings_total": 25,
     "reranker_model": "cross-encoder/ms-marco-MiniLM-L-2-v2",
-    "elapsed_s": 1.7
+    "elapsed_s": 1.3
   },
   {
     "golden_pos": 2,
@@ -107,11 +107,11 @@
     "doc_id": "clientname-IS-POL-00-Physical and Environmental Security Policy v1.2",
     "policy_file": "PhysicalEnvSecurityPolicy_v1.2_corrected.json",
     "passages_raw": 19,
-    "passages_indexed": 18,
-    "passages_removed": 1,
+    "passages_indexed": 19,
+    "passages_removed": 0,
     "mappings_total": 27,
     "reranker_model": "cross-encoder/ms-marco-MiniLM-L-2-v2",
-    "elapsed_s": 1.7
+    "elapsed_s": 1.3
   },
   {
     "golden_pos": 1,
@@ -126,11 +126,11 @@
     "doc_id": "clientname-IS-POL-00-Vulnerability Management Policy v1.2 (V_A)",
     "policy_file": "Vulnerability Management Policy v1.2_corrected.json",
     "passages_raw": 11,
-    "passages_indexed": 9,
-    "passages_removed": 2,
+    "passages_indexed": 11,
+    "passages_removed": 0,
     "mappings_total": 3,
     "reranker_model": "cross-encoder/ms-marco-MiniLM-L-2-v2",
-    "elapsed_s": 1.4
+    "elapsed_s": 1.1
   },
   {
     "golden_pos": 1,
@@ -149,12 +149,12 @@
     "passages_removed": 0,
     "mappings_total": 7,
     "reranker_model": "cross-encoder/ms-marco-MiniLM-L-2-v2",
-    "elapsed_s": 1.5
+    "elapsed_s": 1.1
   },
   {
     "golden_pos": 1,
     "golden_neg": 8,
-    "predicted": 27,
+    "predicted": 28,
     "tp": 0,
     "fp": 3,
     "fn": 1,
@@ -164,11 +164,11 @@
     "doc_id": "clientname-IS-POL-00-Security Awareness and Training Policy v2.0 UAE IA Mapping",
     "policy_file": "SecurityAwarenessTraining_v2_corrected.json",
     "passages_raw": 14,
-    "passages_indexed": 12,
-    "passages_removed": 2,
-    "mappings_total": 27,
+    "passages_indexed": 14,
+    "passages_removed": 0,
+    "mappings_total": 29,
     "reranker_model": "cross-encoder/ms-marco-MiniLM-L-2-v2",
-    "elapsed_s": 1.5
+    "elapsed_s": 0.9
   },
   {
     "golden_pos": 2,
@@ -187,6 +187,6 @@
     "passages_removed": 0,
     "mappings_total": 19,
     "reranker_model": "cross-encoder/ms-marco-MiniLM-L-2-v2",
-    "elapsed_s": 1.3
+    "elapsed_s": 1.0
   }
 ]

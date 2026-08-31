@@ -1,0 +1,89 @@
+{
+  "adapter": "atom_judge_adapter_healthcare",
+  "n_pairs": 3800,
+  "n_positives": 329,
+  "overall": {
+    "tp": 312,
+    "fp": 301,
+    "fn": 17,
+    "tn": 3170,
+    "precision": 0.509,
+    "recall": 0.9483,
+    "f1": 0.6624,
+    "accuracy": 0.9163
+  },
+  "by_standard": {
+    "HIPAA": {
+      "tp": 179,
+      "fp": 168,
+      "fn": 11,
+      "tn": 992,
+      "precision": 0.5159,
+      "recall": 0.9421,
+      "f1": 0.6667,
+      "accuracy": 0.8674
+    },
+    "ISO 27002": {
+      "tp": 133,
+      "fp": 133,
+      "fn": 6,
+      "tn": 2178,
+      "precision": 0.5,
+      "recall": 0.9568,
+      "f1": 0.6568,
+      "accuracy": 0.9433
+    }
+  },
+  "by_attack_category": {
+    "MQTT": {
+      "tp": 81,
+      "fp": 86,
+      "fn": 6,
+      "tn": 739,
+      "precision": 0.485,
+      "recall": 0.931,
+      "f1": 0.6378,
+      "accuracy": 0.8991
+    },
+    "Spoofing": {
+      "tp": 47,
+      "fp": 57,
+      "fn": 2,
+      "tn": 426,
+      "precision": 0.4519,
+      "recall": 0.9592,
+      "f1": 0.6144,
+      "accuracy": 0.8891
+    },
+    "DDoS": {
+      "tp": 67,
+      "fp": 68,
+      "fn": 7,
+      "tn": 770,
+      "precision": 0.4963,
+      "recall": 0.9054,
+      "f1": 0.6411,
+      "accuracy": 0.9178
+    },
+    "Recon": {
+      "tp": 73,
+      "fp": 60,
+      "fn": 0,
+      "tn": 703,
+      "precision": 0.5489,
+      "recall": 1.0,
+      "f1": 0.7087,
+      "accuracy": 0.9282
+    },
+    "DoS": {
+      "tp": 44,
+      "fp": 30,
+      "fn": 2,
+      "tn": 532,
+      "precision": 0.5946,
+      "recall": 0.9565,
+      "f1": 0.7333,
+      "accuracy": 0.9474
+    }
+  }
+}
